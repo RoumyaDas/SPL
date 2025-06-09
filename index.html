@@ -2,106 +2,194 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Simulation Premier League Stats</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Roumya's IPL Stats</title>
+  <link rel="stylesheet" href="style.css" />
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 30px;
-      background: #f9f9f9;
-      color: #222;
-    }
-    h1 {
-      margin-bottom: 20px;
-    }
-    /* Tab buttons */
-    .tabs {
-      margin-bottom: 20px;
-    }
-    .tab-btn {
-      padding: 10px 20px;
-      border: 1px solid #aaa;
-      border-bottom: none;
-      cursor: pointer;
-      background: #eee;
+    /* Include this in case you want to inline critical CSS */
+    .tab-content { display: none; padding: 20px; }
+    .tab-content.active { display: block; }
+
+    .career-subtab {
+      padding: 8px 16px;
       margin-right: 5px;
+      border: 1px solid #888;
+      background-color: #cce0ff;
+      cursor: pointer;
       font-weight: bold;
     }
-    .tab-btn.active {
-      background: white;
-      border-color: #666 #666 white;
-      color: #000;
+
+    .career-subtab.active {
+      background-color: #ffffff;
+      border-bottom: none;
     }
-    /* Tab content */
-    .tab-content {
-      border: 1px solid #666;
-      padding: 20px;
-      background: white;
+
+    .career-table {
       display: none;
     }
-    .tab-content.active {
+
+    .career-table.active {
       display: block;
     }
+
     table {
-      width: 100%;
       border-collapse: collapse;
-      margin-top: 10px;
+      width: 100%;
+      margin-top: 15px;
     }
+
     th, td {
-      padding: 8px;
       border: 1px solid #ccc;
+      padding: 8px;
       text-align: left;
+    }
+
+    input[type="text"] {
+      margin-top: 10px;
+      padding: 5px;
+      width: 250px;
+    }
+
+    .tabs button {
+      margin-right: 5px;
     }
   </style>
 </head>
 <body>
-  <h1>Simulation Premier League Stats</h1>
+  <h1>Welcome to Roumya's IPL Stats</h1>
+  <p>All player stats are precomputed. No live updates.</p>
 
   <div class="tabs">
-    <button class="tab-btn active" data-tab="seasons">Seasons</button>
-    <button class="tab-btn" data-tab="career">Career</button>
+    <button class="main-tab active" data-tab="seasons">Seasons</button>
+    <button class="main-tab" data-tab="career">Career</button>
   </div>
 
   <div id="seasons" class="tab-content active">
-    <h2>Season-wise Stats</h2>
-    <table>
-      <thead>
-        <tr><th>Player</th><th>Season</th><th>Runs</th><th>Matches</th></tr>
-      </thead>
-      <tbody>
-        <tr><td>KL Rahul</td><td>2024</td><td>450</td><td>12</td></tr>
-        <tr><td>V Kohli</td><td>2024</td><td>520</td><td>14</td></tr>
-        <tr><td>KL Rahul</td><td>2023</td><td>400</td><td>11</td></tr>
-      </tbody>
-    </table>
+    <h2>Season Stats</h2>
+    <p>Coming soon...</p>
   </div>
 
-  <div id="career" class="tab-content">
+  <div id="career" class="tab-content" style="background-color: #e0f0ff;">
     <h2>Career Stats</h2>
-    <table>
-      <thead>
-        <tr><th>Player</th><th>Total Runs</th><th>Total Matches</th></tr>
-      </thead>
-      <tbody>
-        <tr><td>KL Rahul</td><td>1850</td><td>50</td></tr>
-        <tr><td>V Kohli</td><td>2400</td><td>55</td></tr>
-      </tbody>
-    </table>
+
+    <div class="tabs">
+      <button class="career-subtab active" data-tab="batting">Batting</button>
+      <button class="career-subtab" data-tab="bowling">Bowling</button>
+      <button class="career-subtab" data-tab="fielding">Fielding</button>
+    </div>
+
+    <label for="careerSearch">Search Player:</label>
+    <input type="text" id="careerSearch" placeholder="Type player name..." />
+
+    <div id="batting" class="career-table active">
+      <table>
+        <thead id="battingHead"></thead>
+        <tbody id="battingBody"></tbody>
+      </table>
+    </div>
+
+    <div id="bowling" class="career-table">
+      <table>
+        <thead id="bowlingHead"></thead>
+        <tbody id="bowlingBody"></tbody>
+      </table>
+    </div>
+
+    <div id="fielding" class="career-table">
+      <table>
+        <thead id="fieldingHead"></thead>
+        <tbody id="fieldingBody"></tbody>
+      </table>
+    </div>
   </div>
 
   <script>
-    const tabs = document.querySelectorAll('.tab-btn');
-    const contents = document.querySelectorAll('.tab-content');
-
-    tabs.forEach(tab => {
-      tab.addEventListener('click', () => {
-        // Remove active class from all tabs and contents
-        tabs.forEach(t => t.classList.remove('active'));
-        contents.forEach(c => c.classList.remove('active'));
-
-        // Add active class to clicked tab and matching content
-        tab.classList.add('active');
-        document.getElementById(tab.dataset.tab).classList.add('active');
+    // Tab navigation for main tabs
+    document.querySelectorAll(".main-tab").forEach(btn => {
+      btn.addEventListener("click", () => {
+        document.querySelectorAll(".main-tab").forEach(b => b.classList.remove("active"));
+        document.querySelectorAll(".tab-content").forEach(t => t.classList.remove("active"));
+        btn.classList.add("active");
+        document.getElementById(btn.dataset.tab).classList.add("active");
       });
+    });
+
+    // CSV File URLs
+    const csvUrls = {
+      batting: "https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Season_03/Stats/career/batting.csv",
+      bowling: "https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Season_03/Stats/career/bowling.csv",
+      fielding: "https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Season_03/Stats/career/fielding.csv"
+    };
+
+    const csvData = {};
+
+    function parseCSV(csvText) {
+      const lines = csvText.trim().split("\n");
+      const headers = lines[0].split(",");
+      const rows = lines.slice(1).map(line => {
+        const values = line.split(",");
+        return Object.fromEntries(headers.map((h, i) => [h, values[i]]));
+      });
+      return { headers, rows };
+    }
+
+    function renderCareerSection(type, data, searchTerm = "") {
+      const head = document.getElementById(`${type}Head`);
+      const body = document.getElementById(`${type}Body`);
+      head.innerHTML = "";
+      body.innerHTML = "";
+
+      const tr = document.createElement("tr");
+      data.headers.forEach(h => {
+        const th = document.createElement("th");
+        th.textContent = h;
+        tr.appendChild(th);
+      });
+      head.appendChild(tr);
+
+      let filtered = data.rows;
+      if (searchTerm) {
+        filtered = filtered.filter(row =>
+          row[data.headers[0]].toLowerCase().includes(searchTerm.toLowerCase())
+        );
+      }
+
+      filtered.slice(0, 20).forEach(row => {
+        const tr = document.createElement("tr");
+        data.headers.forEach(h => {
+          const td = document.createElement("td");
+          td.textContent = row[h];
+          tr.appendChild(td);
+        });
+        body.appendChild(tr);
+      });
+    }
+
+    for (let type in csvUrls) {
+      fetch(csvUrls[type])
+        .then(res => res.text())
+        .then(text => {
+          const parsed = parseCSV(text);
+          csvData[type] = parsed;
+          if (type === "batting") {
+            renderCareerSection("batting", parsed);
+          }
+        });
+    }
+
+    document.querySelectorAll(".career-subtab").forEach(btn => {
+      btn.addEventListener("click", () => {
+        document.querySelectorAll(".career-subtab").forEach(b => b.classList.remove("active"));
+        document.querySelectorAll(".career-table").forEach(t => t.classList.remove("active"));
+        btn.classList.add("active");
+        document.getElementById(btn.dataset.tab).classList.add("active");
+        renderCareerSection(btn.dataset.tab, csvData[btn.dataset.tab], document.getElementById("careerSearch").value);
+      });
+    });
+
+    document.getElementById("careerSearch").addEventListener("input", () => {
+      const tab = document.querySelector(".career-subtab.active").dataset.tab;
+      renderCareerSection(tab, csvData[tab], document.getElementById("careerSearch").value);
     });
   </script>
 </body>
