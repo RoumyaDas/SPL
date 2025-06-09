@@ -9,6 +9,22 @@
     /* Include this in case you want to inline critical CSS */
     .tab-content { display: none; padding: 20px; }
     .tab-content.active { display: block; }
+    .tab-content { display: none; padding: 20px; }
+    .tab-content.active { display: block; }
+
+    /* Add these season tab styles here */
+    .season-content {
+      display: none;
+    }
+    .season-content.active {
+      display: block;
+    }
+    .season-subtab-content {
+      display: none;
+    }
+    .season-subtab-content.active {
+      display: block;
+    }
 
     .career-subtab {
       padding: 8px 16px;
@@ -56,7 +72,7 @@
   </style>
 </head>
 <body>
-  <h1>Welcome to Roumya's IPL Stats</h1>
+  <h1>Welcome to SPL's Stats</h1>
   <p>All player stats are precomputed. No live updates.</p>
 
   <div class="tabs">
@@ -64,10 +80,78 @@
     <button class="main-tab" data-tab="career">Career</button>
   </div>
 
-  <div id="seasons" class="tab-content active">
-    <h2>Season Stats</h2>
-    <p>Coming soon...</p>
-  </div>
+  
+    <div id="seasons" class="tab-content active">
+        <h2>Season Stats</h2>
+      
+        <div class="tabs" id="season-tabs">
+          <button class="season-tab active" data-season="01">01</button>
+          <button class="season-tab" data-season="02">02</button>
+          <button class="season-tab" data-season="03">03</button>
+        </div>
+      
+        <!-- Season content containers -->
+        <div id="season-01" class="season-content active">
+          <div class="tabs" id="season-01-subtabs">
+            <button class="season-subtab active" data-subtab="flow-01">Flow</button>
+            <button class="season-subtab" data-subtab="scorecard-01">Scorecard</button>
+            <button class="season-subtab" data-subtab="graphs-01">Graphs</button>
+          </div>
+      
+          <div id="flow-01" class="season-subtab-content active">
+            <select id="flow-select-01"></select>
+            <pre id="flow-content-01" style="white-space: pre-wrap; background:#f9f9f9; padding:10px; border:1px solid #ccc; height: 300px; overflow-y: auto;"></pre>
+          </div>
+          <div id="scorecard-01" class="season-subtab-content">
+            <select id="scorecard-select-01"></select>
+            <pre id="scorecard-content-01" style="white-space: pre-wrap; background:#f9f9f9; padding:10px; border:1px solid #ccc; height: 300px; overflow-y: auto;"></pre>
+          </div>
+          <div id="graphs-01" class="season-subtab-content">
+            <p>Graphs coming soon...</p>
+          </div>
+        </div>
+      
+        <div id="season-02" class="season-content">
+          <div class="tabs" id="season-02-subtabs">
+            <button class="season-subtab active" data-subtab="flow-02">Flow</button>
+            <button class="season-subtab" data-subtab="scorecard-02">Scorecard</button>
+            <button class="season-subtab" data-subtab="graphs-02">Graphs</button>
+          </div>
+      
+          <div id="flow-02" class="season-subtab-content active">
+            <select id="flow-select-02"></select>
+            <pre id="flow-content-02" style="white-space: pre-wrap; background:#f9f9f9; padding:10px; border:1px solid #ccc; height: 300px; overflow-y: auto;"></pre>
+          </div>
+          <div id="scorecard-02" class="season-subtab-content">
+            <select id="scorecard-select-02"></select>
+            <pre id="scorecard-content-02" style="white-space: pre-wrap; background:#f9f9f9; padding:10px; border:1px solid #ccc; height: 300px; overflow-y: auto;"></pre>
+          </div>
+          <div id="graphs-02" class="season-subtab-content">
+            <p>Graphs coming soon...</p>
+          </div>
+        </div>
+      
+        <div id="season-03" class="season-content">
+          <div class="tabs" id="season-03-subtabs">
+            <button class="season-subtab active" data-subtab="flow-03">Flow</button>
+            <button class="season-subtab" data-subtab="scorecard-03">Scorecard</button>
+            <button class="season-subtab" data-subtab="graphs-03">Graphs</button>
+          </div>
+      
+          <div id="flow-03" class="season-subtab-content active">
+            <select id="flow-select-03"></select>
+            <pre id="flow-content-03" style="white-space: pre-wrap; background:#f9f9f9; padding:10px; border:1px solid #ccc; height: 300px; overflow-y: auto;"></pre>
+          </div>
+          <div id="scorecard-03" class="season-subtab-content">
+            <select id="scorecard-select-03"></select>
+            <pre id="scorecard-content-03" style="white-space: pre-wrap; background:#f9f9f9; padding:10px; border:1px solid #ccc; height: 300px; overflow-y: auto;"></pre>
+          </div>
+          <div id="graphs-03" class="season-subtab-content">
+            <p>Graphs coming soon...</p>
+          </div>
+        </div>
+      </div>
+      
 
   <div id="career" class="tab-content" style="background-color: #e0f0ff;">
     <h2>Career Stats</h2>
@@ -104,6 +188,33 @@
   </div>
 
   <script>
+
+    // Season tabs switching
+  document.querySelectorAll(".season-tab").forEach(btn => {
+    btn.addEventListener("click", () => {
+      document.querySelectorAll(".season-tab").forEach(b => b.classList.remove("active"));
+      document.querySelectorAll(".season-content").forEach(c => c.classList.remove("active"));
+
+      btn.classList.add("active");
+      document.getElementById("season-" + btn.dataset.season).classList.add("active");
+    });
+  });
+
+  // Season subtabs switching
+  document.querySelectorAll(".season-subtab").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const parentTabs = btn.parentNode;
+      parentTabs.querySelectorAll(".season-subtab").forEach(b => b.classList.remove("active"));
+      const container = parentTabs.nextElementSibling.parentNode;
+      container.querySelectorAll(".season-subtab-content").forEach(c => c.classList.remove("active"));
+
+      btn.classList.add("active");
+      const activeSubtabId = btn.dataset.subtab;
+      container.querySelector("#" + activeSubtabId).classList.add("active");
+    });
+  });
+
+  
     // Tab navigation for main tabs
     document.querySelectorAll(".main-tab").forEach(btn => {
       btn.addEventListener("click", () => {
