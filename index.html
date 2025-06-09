@@ -1,10 +1,108 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Working Page</title>
-  </head>
-  <body>
-    <h1>✅ Rendered Successfully</h1>
-    <p>If you're seeing this as a webpage, it's working.</p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Simulation Premier League Stats</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 30px;
+      background: #f9f9f9;
+      color: #222;
+    }
+    h1 {
+      margin-bottom: 20px;
+    }
+    /* Tab buttons */
+    .tabs {
+      margin-bottom: 20px;
+    }
+    .tab-btn {
+      padding: 10px 20px;
+      border: 1px solid #aaa;
+      border-bottom: none;
+      cursor: pointer;
+      background: #eee;
+      margin-right: 5px;
+      font-weight: bold;
+    }
+    .tab-btn.active {
+      background: white;
+      border-color: #666 #666 white;
+      color: #000;
+    }
+    /* Tab content */
+    .tab-content {
+      border: 1px solid #666;
+      padding: 20px;
+      background: white;
+      display: none;
+    }
+    .tab-content.active {
+      display: block;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    th, td {
+      padding: 8px;
+      border: 1px solid #ccc;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+  <h1>Simulation Premier League Stats</h1>
+
+  <div class="tabs">
+    <button class="tab-btn active" data-tab="seasons">Seasons</button>
+    <button class="tab-btn" data-tab="career">Career</button>
+  </div>
+
+  <div id="seasons" class="tab-content active">
+    <h2>Season-wise Stats</h2>
+    <table>
+      <thead>
+        <tr><th>Player</th><th>Season</th><th>Runs</th><th>Matches</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>KL Rahul</td><td>2024</td><td>450</td><td>12</td></tr>
+        <tr><td>V Kohli</td><td>2024</td><td>520</td><td>14</td></tr>
+        <tr><td>KL Rahul</td><td>2023</td><td>400</td><td>11</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div id="career" class="tab-content">
+    <h2>Career Stats</h2>
+    <table>
+      <thead>
+        <tr><th>Player</th><th>Total Runs</th><th>Total Matches</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>KL Rahul</td><td>1850</td><td>50</td></tr>
+        <tr><td>V Kohli</td><td>2400</td><td>55</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <script>
+    const tabs = document.querySelectorAll('.tab-btn');
+    const contents = document.querySelectorAll('.tab-content');
+
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        // Remove active class from all tabs and contents
+        tabs.forEach(t => t.classList.remove('active'));
+        contents.forEach(c => c.classList.remove('active'));
+
+        // Add active class to clicked tab and matching content
+        tab.classList.add('active');
+        document.getElementById(tab.dataset.tab).classList.add('active');
+      });
+    });
+  </script>
+</body>
 </html>
