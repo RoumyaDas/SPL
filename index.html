@@ -133,37 +133,68 @@
       return { headers, rows };
     }
 
-    function renderCareerSection(type, data, searchTerm = "") {
-      const head = document.getElementById(`${type}Head`);
-      const body = document.getElementById(`${type}Body`);
-      head.innerHTML = "";
-      body.innerHTML = "";
+    function renderCareerSection(type, data, searchTerm = "", sortConfig = {}) {
+        const head = document.getElementById(`${type}Head`);
+        const body = document.getElementById(`${type}Body`);
+        head.innerHTML = "";
+        body.innerHTML = "";
 
-      const tr = document.createElement("tr");
-      data.headers.forEach(h => {
-        const th = document.createElement("th");
-        th.textContent = h;
-        tr.appendChild(th);
-      });
-      head.appendChild(tr);
-
-      let filtered = data.rows;
-      if (searchTerm) {
-        filtered = filtered.filter(row =>
-          row[data.headers[0]].toLowerCase().includes(searchTerm.toLowerCase())
-        );
-      }
-
-      filtered.slice(0, 20).forEach(row => {
         const tr = document.createElement("tr");
-        data.headers.forEach(h => {
-          const td = document.createElement("td");
-          td.textContent = row[h];
-          tr.appendChild(td);
+        data.headers.forEach((h, idx) => {
+            const th = document.createElement("th");
+            th.textContent = h;
+            th.style.cursor = "pointer";
+
+            // Add sort indicator
+            if (sortConfig.column === idx) {
+            th.textContent += sortConfig.order === "asc" ? " ▲" : " ▼";
+            }
+
+            // Sort on click
+            th.addEventListener("click", () => {
+            const currentOrder = (sortConfig.column === idx && sortConfig.order === "asc") ? "desc" : "asc";
+            const sortedRows = [...data.rows].sort((a, b) => {
+                const aVal = a[h];
+                const bVal = b[h];
+                const isNumeric = !isNaN(parseFloat(aVal)) && !isNaN(parseFloat(bVal));
+
+                if (isNumeric) {
+                return currentOrder === "asc" ? aVal - bVal : bVal - aVal;
+                } else {
+                return currentOrder === "asc"
+                    ? aVal.localeCompare(bVal)
+                    : bVal.localeCompare(aVal);
+                }
+            });
+
+            renderCareerSection(type, { headers: data.headers, rows: sortedRows }, document.getElementById("careerSearch").value, {
+                column: idx,
+                order: currentOrder
+            });
+            });
+
+            tr.appendChild(th);
         });
-        body.appendChild(tr);
-      });
-    }
+        head.appendChild(tr);
+
+        let filtered = data.rows;
+        if (searchTerm) {
+            filtered = filtered.filter(row =>
+            row[data.headers[0]].toLowerCase().includes(searchTerm.toLowerCase())
+            );
+        }
+
+        filtered.slice(0, 20).forEach(row => {
+            const tr = document.createElement("tr");
+            data.headers.forEach(h => {
+            const td = document.createElement("td");
+            td.textContent = row[h];
+            tr.appendChild(td);
+            });
+            body.appendChild(tr);
+        });
+        }
+
 
     for (let type in csvUrls) {
       fetch(csvUrls[type])
