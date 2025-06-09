@@ -22,7 +22,6 @@ document.querySelectorAll(".main-tab").forEach(btn => {
     const lines = csvText.trim().split("\n");
     const headers = lines[0].split(",");
     const rows = lines.slice(1).map(line => {
-      // handle commas inside quotes if needed (basic split here)
       const values = line.split(",");
       return Object.fromEntries(headers.map((h, i) => [h, values[i]]));
     });
@@ -97,24 +96,18 @@ document.querySelectorAll(".main-tab").forEach(btn => {
     });
   }
   
-  // Fetch all CSV data initially and render batting first
-  Promise.all(
-    Object.entries(csvUrls).map(([type, url]) =>
-      fetch(url)
-        .then(res => res.text())
-        .then(text => {
-          csvData[type] = parseCSV(text);
-        })
-    )
-  ).then(() => {
-    // Render batting first by default
-    renderCareerSection("batting", csvData["batting"]);
-  
-    // Activate batting sub-tab
-    document.querySelectorAll(".career-subtab").forEach(b => b.classList.remove("active"));
-    const battingTab = document.querySelector(".career-subtab[data-tab='batting']");
-    if (battingTab) battingTab.classList.add("active");
-  });
+  // Fetch all CSV data initially
+  for (let type in csvUrls) {
+    fetch(csvUrls[type])
+      .then(res => res.text())
+      .then(text => {
+        const parsed = parseCSV(text);
+        csvData[type] = parsed;
+        if (type === "batting") {
+          renderCareerSection("batting", parsed);
+        }
+      });
+  }
   
   // Sub-tab switching inside career tab
   document.querySelectorAll(".career-subtab").forEach(btn => {
