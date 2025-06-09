@@ -256,7 +256,7 @@ document.querySelectorAll(".season-subtab").forEach(btn => {
     if (activeSubtabId === "flow") {
       baseUrl += "Match_flows/flow.txt";
     } else if (activeSubtabId === "scorecard") {
-      baseUrl += "Scorecards/scorecard.txt";
+      baseUrl += "Scorecards/matchcard_.txt";
     } else if (activeSubtabId === "graphs") {
       // For graphs, placeholder text for now
       activeSubtabContent.textContent = "Graphs will be shown here soon.";
@@ -388,6 +388,102 @@ document.querySelectorAll(".season-subtab").forEach(btn => {
       const tab = document.querySelector(".career-subtab.active").dataset.tab;
       renderCareerSection(tab, csvData[tab], document.getElementById("careerSearch").value);
     });
+
+    // Create and insert match selector dropdown for flows and scorecards inside each season content once
+function createMatchSelector(seasonId, container, type, maxMatches) {
+  // Avoid duplicate dropdowns
+  if (container.querySelector(".match-select")) return;
+
+  const select = document.createElement("select");
+  select.classList.add("match-select");
+  select.style.margin = "10px 0";
+  for (let i = 1; i <= maxMatches; i++) {
+    let option = document.createElement("option");
+    option.value = i;
+    option.textContent = `Match ${i.toString().padStart(3, "0")}`;
+    select.appendChild(option);
+  }
+
+  // When changed, reload content
+  select.addEventListener("change", () => {
+    loadSeasonSubtabContent(seasonId, type, select.value, container);
+  });
+
+  container.prepend(select);
+}
+
+// Load the text file for given season, type and match number
+function loadSeasonSubtabContent(seasonId, type, matchNum, container) {
+  container.textContent = "Loading...";
+
+  let baseUrl = `https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Season_${seasonId}/`;
+
+  let fileUrl = "";
+  if (type === "flow") {
+    // matchNum corresponds to ball-by-ball_N.txt (N is matchNum)
+    fileUrl = `${baseUrl}Match_flows/ball-by-ball_${matchNum}.txt`;
+  } else if (type === "scorecard") {
+    // matchNum corresponds to matchcard_SXXMYYY.txt
+    const seasonPadded = seasonId.padStart(2, "0");
+    const matchPadded = matchNum.toString().padStart(3, "0");
+    fileUrl = `${baseUrl}Scorecards/matchcard_S${seasonPadded}M${matchPadded}.txt`;
+  } else if (type === "graphs") {
+    container.textContent = "Graphs will be shown here soon.";
+    return;
+  }
+
+  fetch(fileUrl)
+    .then(res => {
+      if (!res.ok) throw new Error("File not found");
+      return res.text();
+    })
+    .then(text => {
+      container.textContent = text;
+    })
+    .catch(err => {
+      container.textContent = "Error loading file.";
+      console.error(err);
+    });
+}
+
+// Main season subtab click handler
+document.querySelectorAll(".season-subtab").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const parentTabs = btn.parentNode;
+    parentTabs.querySelectorAll(".season-subtab").forEach(b => b.classList.remove("active"));
+    const container = parentTabs.nextElementSibling.parentNode;
+    container.querySelectorAll(".season-subtab-content").forEach(c => c.classList.remove("active"));
+
+    btn.classList.add("active");
+    const activeSubtabId = btn.dataset.subtab;
+    const activeSubtabContent = container.querySelector("#" + activeSubtabId);
+    activeSubtabContent.classList.add("active");
+
+    const seasonContainer = btn.closest(".season-content");
+    const seasonId = seasonContainer.id.split("-")[1];
+
+    // Clear previous dropdowns
+    const existingSelect = activeSubtabContent.querySelector(".match-select");
+    if (existingSelect) {
+      existingSelect.remove();
+    }
+
+    // Add dropdown only for flows and scorecards
+    if (activeSubtabId === "flow" || activeSubtabId === "scorecard") {
+      // maxMatches depends on season (example: 74)
+      const maxMatches = 74; // Adjust if seasons have different counts
+      createMatchSelector(seasonId, activeSubtabContent, activeSubtabId, maxMatches);
+
+      // Load first match by default
+      loadSeasonSubtabContent(seasonId, activeSubtabId, 1, activeSubtabContent);
+    } else if (activeSubtabId === "graphs") {
+      activeSubtabContent.textContent = "Graphs will be shown here soon.";
+    }
+  });
+});
+
+
+
   </script>
 </body>
 </html>
