@@ -214,7 +214,62 @@
     });
   });
 
-  
+  function loadTextFile(url, containerId) {
+  fetch(url)
+    .then(response => {
+      if (!response.ok) throw new Error("Network response was not ok");
+      return response.text();
+    })
+    .then(text => {
+      document.getElementById(containerId).textContent = text;
+    })
+    .catch(err => {
+      document.getElementById(containerId).textContent = "Error loading file.";
+      console.error(err);
+    });
+}
+
+// Call this on season subtab click to load txt content dynamically
+document.querySelectorAll(".season-subtab").forEach(btn => {
+  btn.addEventListener("click", () => {
+    // Existing tab toggle logic (you already have this)
+    const parentTabs = btn.parentNode;
+    parentTabs.querySelectorAll(".season-subtab").forEach(b => b.classList.remove("active"));
+    const container = parentTabs.nextElementSibling.parentNode;
+    container.querySelectorAll(".season-subtab-content").forEach(c => c.classList.remove("active"));
+
+    btn.classList.add("active");
+    const activeSubtabId = btn.dataset.subtab;
+    const activeSubtabContent = container.querySelector("#" + activeSubtabId);
+    activeSubtabContent.classList.add("active");
+
+    // Get current season (e.g., "01", "02", "03")
+    const seasonContainer = btn.closest(".season-content");
+    const seasonId = seasonContainer.id.split("-")[1];
+
+    // Clear previous content
+    activeSubtabContent.textContent = "Loading...";
+
+    // Build URL for txt file
+    let baseUrl = `https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Season_${seasonId}/`;
+
+    if (activeSubtabId === "flow") {
+      baseUrl += "Match_flows/flow.txt";
+    } else if (activeSubtabId === "scorecard") {
+      baseUrl += "Scorecards/scorecard.txt";
+    } else if (activeSubtabId === "graphs") {
+      // For graphs, placeholder text for now
+      activeSubtabContent.textContent = "Graphs will be shown here soon.";
+      return;
+    }
+
+    // Load the txt file content
+    loadTextFile(baseUrl, activeSubtabId);
+  });
+});
+
+
+
     // Tab navigation for main tabs
     document.querySelectorAll(".main-tab").forEach(btn => {
       btn.addEventListener("click", () => {
