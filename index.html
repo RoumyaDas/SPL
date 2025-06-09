@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Roumya's Cricket Stats</title>
-  <link rel="stylesheet" href="style.css">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Roumya's IPL Stats</title>
+  <link rel="stylesheet" href="style.css" />
   <style>
+    /* Include this in case you want to inline critical CSS */
     .tab-content { display: none; padding: 20px; }
     .tab-content.active { display: block; }
 
@@ -35,32 +36,18 @@
       border-collapse: collapse;
       width: 100%;
       margin-top: 15px;
-      font-family: Arial, sans-serif;
-      font-size: 14px;
-      color: #333;
     }
 
     th, td {
       border: 1px solid #ccc;
-      padding: 8px 12px;
+      padding: 8px;
       text-align: left;
-    }
-
-    th {
-      background-color: #f0f8ff;
-      user-select: none;
-      cursor: pointer;
-    }
-
-    th:hover {
-      background-color: #d0e4ff;
     }
 
     input[type="text"] {
       margin-top: 10px;
       padding: 5px;
       width: 250px;
-      font-size: 14px;
     }
 
     .tabs button {
@@ -69,7 +56,7 @@
   </style>
 </head>
 <body>
-  <h1>Welcome to Simulation Premier League Stats</h1>
+  <h1>Welcome to Roumya's IPL Stats</h1>
   <p>All player stats are precomputed. No live updates.</p>
 
   <div class="tabs">
@@ -91,6 +78,7 @@
       <button class="career-subtab" data-tab="fielding">Fielding</button>
     </div>
 
+    <label for="careerSearch">Search Player:</label>
     <input type="text" id="careerSearch" placeholder="Type player name..." />
 
     <div id="batting" class="career-table active">
@@ -128,9 +116,9 @@
 
     // CSV File URLs
     const csvUrls = {
-      batting: "https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Season_03/career/batting.csv",
-      bowling: "https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Season_03/career/bowling.csv",
-      fielding: "https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Season_03/career/fielding.csv"
+      batting: "https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Season_03/Stats/career/batting.csv",
+      bowling: "https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Season_03/Stats/career/bowling.csv",
+      fielding: "https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Season_03/Stats/career/fielding.csv"
     };
 
     const csvData = {};
@@ -146,67 +134,67 @@
     }
 
     function renderCareerSection(type, data, searchTerm = "", sortConfig = {}) {
-      const head = document.getElementById(`${type}Head`);
-      const body = document.getElementById(`${type}Body`);
-      head.innerHTML = "";
-      body.innerHTML = "";
+        const head = document.getElementById(`${type}Head`);
+        const body = document.getElementById(`${type}Body`);
+        head.innerHTML = "";
+        body.innerHTML = "";
 
-      const tr = document.createElement("tr");
-      data.headers.forEach((h, idx) => {
-        const th = document.createElement("th");
-        th.textContent = h;
-        th.style.cursor = "pointer";
+        const tr = document.createElement("tr");
+        data.headers.forEach((h, idx) => {
+            const th = document.createElement("th");
+            th.textContent = h;
+            th.style.cursor = "pointer";
 
-        if (sortConfig.column === idx) {
-          th.textContent += sortConfig.order === "asc" ? " ▲" : " ▼";
+            // Add sort indicator
+            if (sortConfig.column === idx) {
+            th.textContent += sortConfig.order === "asc" ? " ▲" : " ▼";
+            }
+
+            // Sort on click
+            th.addEventListener("click", () => {
+            const currentOrder = (sortConfig.column === idx && sortConfig.order === "asc") ? "desc" : "asc";
+            const sortedRows = [...data.rows].sort((a, b) => {
+                const aVal = a[h];
+                const bVal = b[h];
+                const isNumeric = !isNaN(parseFloat(aVal)) && !isNaN(parseFloat(bVal));
+
+                if (isNumeric) {
+                return currentOrder === "asc" ? aVal - bVal : bVal - aVal;
+                } else {
+                return currentOrder === "asc"
+                    ? aVal.localeCompare(bVal)
+                    : bVal.localeCompare(aVal);
+                }
+            });
+
+            renderCareerSection(type, { headers: data.headers, rows: sortedRows }, document.getElementById("careerSearch").value, {
+                column: idx,
+                order: currentOrder
+            });
+            });
+
+            tr.appendChild(th);
+        });
+        head.appendChild(tr);
+
+        let filtered = data.rows;
+        if (searchTerm) {
+            filtered = filtered.filter(row =>
+            row[data.headers[0]].toLowerCase().includes(searchTerm.toLowerCase())
+            );
         }
 
-        th.addEventListener("click", () => {
-          const currentOrder = (sortConfig.column === idx && sortConfig.order === "asc") ? "desc" : "asc";
-
-          const sortedRows = [...data.rows].sort((a, b) => {
-            const aVal = a[h] || "";
-            const bVal = b[h] || "";
-            const aNum = parseFloat(aVal);
-            const bNum = parseFloat(bVal);
-            const isNumeric = !isNaN(aNum) && !isNaN(bNum);
-
-            if (isNumeric) {
-              return currentOrder === "asc" ? aNum - bNum : bNum - aNum;
-            } else {
-              return currentOrder === "asc"
-                ? aVal.localeCompare(bVal)
-                : bVal.localeCompare(aVal);
-            }
-          });
-
-          renderCareerSection(type, { headers: data.headers, rows: sortedRows }, document.getElementById("careerSearch").value, {
-            column: idx,
-            order: currentOrder
-          });
+        filtered.slice(0, 20).forEach(row => {
+            const tr = document.createElement("tr");
+            data.headers.forEach(h => {
+            const td = document.createElement("td");
+            td.textContent = row[h];
+            tr.appendChild(td);
+            });
+            body.appendChild(tr);
         });
+        }
 
-        tr.appendChild(th);
-      });
-      head.appendChild(tr);
-
-      let filtered = data.rows;
-      if (searchTerm) {
-        filtered = filtered.filter(row =>
-          row[data.headers[0]].toLowerCase().includes(searchTerm.toLowerCase())
-        );
-      }
-
-      filtered.slice(0, 20).forEach(row => {
-        const tr = document.createElement("tr");
-        data.headers.forEach(h => {
-          const td = document.createElement("td");
-          td.textContent = row[h] || "";
-          tr.appendChild(td);
-        });
-        body.appendChild(tr);
-      });
-    }
 
     for (let type in csvUrls) {
       fetch(csvUrls[type])
@@ -225,6 +213,7 @@
         document.querySelectorAll(".career-subtab").forEach(b => b.classList.remove("active"));
         document.querySelectorAll(".career-table").forEach(t => t.classList.remove("active"));
         btn.classList.add("active");
+        document.getElementById(btn.dataset.tab).classList.add("active");
         renderCareerSection(btn.dataset.tab, csvData[btn.dataset.tab], document.getElementById("careerSearch").value);
       });
     });
