@@ -1,0 +1,58 @@
+Match between CSK(H) and RR !! 
+innings 1
+RR BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+               bowler bowling_team  runs  balls  wkts  dots  economy  points
+0          GJ Maxwell           RR    29     24     2     7     7.25      51
+1      Sandeep Sharma           RR    35     24     2     6     8.75      51
+2  Azmatullah Omarzai           RR    28     24     1    10     7.00      29
+3            MP Yadav           RR    36     24     1     7     9.00      26
+4        JR Hazlewood           RR    39     24     0     3     9.75       0
+----------
+CSK BATTING --
+^^^^^^^^^^^^^^^^^^^^
+           striker batting_team  runs  balls  out  strike_rate  points
+0          TM Head          CSK    73     40  out       182.50      98
+1     F du Plessis          CSK    34     30  out       113.33      40
+2         AR Patel          CSK    21     21  out       100.00      22
+3         MS Dhoni          CSK    13      7  N/O       185.71      21
+4         T Stubbs          CSK    11     12  out        91.67      10
+5     Jagjit Singh          CSK     6      3  N/O       200.00      13
+6       RM Patidar          CSK     6      5  out       120.00       6
+7      Tilak Varma          CSK     1      2  out        50.00      -3
+8  Suryansh Shedge          CSK     0      1  out         0.00      -6
+  
+Score :: 169-7  (20.0), run-rate = 8.45
+******************************
+******************************
+innings 2
+CSK BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+             bowler bowling_team  runs  balls  wkts  dots  economy  points
+0   Suryansh Shedge          CSK    33     24     3    14     8.25      82
+1       T Natarajan          CSK    31     20     3     6     9.30      80
+2  Fazalhaq Farooqi          CSK    26     24     2    10     6.50      54
+3          AR Patel          CSK    34     24     2    10     8.50      52
+4      Jagjit Singh          CSK    38     24     0    11     9.50       2
+----------
+RR BATTING --
+^^^^^^^^^^^^^^^^^^^^
+               striker batting_team  runs  balls outs  strike_rate  points
+0           GJ Maxwell           RR    35     28  out       125.00      41
+1            DA Miller           RR    34     18  out       188.89      47
+2          YBK Jaiswal           RR    26     13  out       200.00      37
+3        R Sai Kishore           RR    26     17  out       152.94      32
+4              KK Nair           RR    16     17  out        94.12      16
+5          RA Tripathi           RR     9      9  out       100.00       9
+6       Sandeep Sharma           RR     6      5  N/O       120.00       6
+7            JM Sharma           RR     5      3  out       166.67       9
+8             MP Yadav           RR     3      3  out       100.00       2
+9   Azmatullah Omarzai           RR     0      2  out         0.00      -6
+10        JR Hazlewood           RR     0      1  out         0.00      -6
+  
+Score :: 165-10  (19.2), run-rate = 8.53
+******************************
+******************************
+CSK wins!!
+******************************
+The Player of the Match is ~~ TM Head

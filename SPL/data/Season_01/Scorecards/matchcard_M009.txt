@@ -1,0 +1,55 @@
+Match between RCB(H) and DC !! 
+innings 1
+DC BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+              bowler bowling_team  runs  balls  wkts  dots  economy  points
+0  Mustafizur Rahman           DC    28     24     1    11     7.00      29
+1           K Rabada           DC    44     24     1     6    11.00      24
+2          SN Thakur           DC    45     24     1     7    11.25      22
+3  M Prasidh Krishna           DC    35     24     0     7     8.75       1
+4         AD Russell           DC    10      6     0     1    10.00      -1
+5          RA Jadeja           DC    30     18     0     3    10.00      -1
+----------
+RCB BATTING --
+^^^^^^^^^^^^^^^^^^^^
+           striker batting_team  runs  balls  out  strike_rate  points
+0       RD Gaikwad          RCB    96     55  N/O       174.55     124
+1       SO Hetmyer          RCB    44     24  out       183.33      61
+2          C Green          RCB    35     26  out       134.62      44
+3          PD Salt          RCB    14     12  out       116.67      15
+4  Ramandeep Singh          RCB     2      2  N/O       100.00       1
+5         A Badoni          RCB     0      1  out         0.00      -6
+  
+Score :: 193-4  (20.0), run-rate = 9.65
+******************************
+******************************
+innings 2
+RCB BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+            bowler bowling_team  runs  balls  wkts  dots  economy  points
+0      M Pathirana          RCB    23     24     2    12     5.75      57
+1        RD Chahar          RCB    16     12     1     5     8.00      26
+2          C Green          RCB    34     24     1     7     8.50      26
+3        JJ Bumrah          RCB    27     24     0    12     6.75       5
+4  Ramandeep Singh          RCB     9      6     0     3     9.00       0
+5    Harpreet Brar          RCB    11      6     0     1    11.00      -1
+6       Avesh Khan          RCB    52     24     0     7    13.00      -4
+----------
+DC BATTING --
+^^^^^^^^^^^^^^^^^^^^
+         striker batting_team  runs  balls outs  strike_rate  points
+0       SA Yadav           DC    66     40  out       165.00      87
+1      DA Warner           DC    55     40  out       137.50      70
+2     AD Russell           DC    11     14  N/O        78.57      10
+3    Urvil Patel           DC    10      8  out       125.00      10
+4  Abishek Porel           DC     9      4  out       225.00      16
+5        V Kohli           DC     9      5  out       180.00      16
+6      RA Jadeja           DC     6      5  N/O       120.00       6
+7      SN Thakur           DC     3      4  out        75.00       2
+  
+Score :: 176-6  (20.0), run-rate = 8.8
+******************************
+******************************
+RCB wins!!
+******************************
+The Player of the Match is ~~ RD Gaikwad

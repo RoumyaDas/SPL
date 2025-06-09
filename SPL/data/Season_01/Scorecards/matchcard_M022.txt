@@ -1,0 +1,58 @@
+Match between MI(H) and SRH !! 
+innings 1
+SRH BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+           bowler bowling_team  runs  balls  wkts  dots  economy  points
+0      C Sakariya          SRH    31     24     1     7     7.75      26
+1   Kuldeep Yadav          SRH    32     24     1     5     8.00      26
+2      SH Johnson          SRH    37     24     1     9     9.25      27
+3  LS Livingstone          SRH     7      6     0     2     7.00       2
+4     LH Ferguson          SRH    17     12     0     4     8.50       1
+5         VR Iyer          SRH    42     24     0     5    10.50       0
+6       KH Pandya          SRH    12      6     0     0    12.00      -4
+----------
+MI BATTING --
+^^^^^^^^^^^^^^^^^^^^
+           striker batting_team  runs  balls  out  strike_rate  points
+0  B Sai Sudharsan           MI    77     46  out       167.39      99
+1         N Pooran           MI    40     21  N/O       190.48      56
+2         RK Singh           MI    27     19  N/O       142.11      32
+3  M Shahrukh Khan           MI    24     22  out       109.09      25
+4        HH Pandya           MI     9     10  out        90.00       9
+5  Abhishek Sharma           MI     0      2  out         0.00      -6
+  
+Score :: 179-4  (20.0), run-rate = 8.95
+******************************
+******************************
+innings 2
+MI BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+            bowler bowling_team  runs  balls  wkts  dots  economy  points
+0   Mohammed Siraj           MI    22     24     3    16     5.50      87
+1    JA Richardson           MI    37     24     3    11     9.25      81
+2  Abhishek Sharma           MI    39     24     3     9     9.75      81
+3        HH Pandya           MI    10     12     0     7     5.00       5
+4       PJ Cummins           MI    25     18     0     9     8.33       2
+5     OEG Baartman           MI    31     18     0     4    10.33      -1
+----------
+SRH BATTING --
+^^^^^^^^^^^^^^^^^^^^
+           striker batting_team  runs  balls outs  strike_rate  points
+0   P Simran Singh          SRH    36     29  out       124.14      43
+1        MK Lomror          SRH    34     16  out       212.50      50
+2        KH Pandya          SRH    34     23  out       147.83      43
+3       JG Bethell          SRH    27     16  out       168.75      35
+4          VR Iyer          SRH    11      8  out       137.50      14
+5         KL Rahul          SRH     9      7  out       128.57      10
+6   LS Livingstone          SRH     7     12  out        58.33       1
+7      LH Ferguson          SRH     2      6  N/O        33.33      -5
+8       C Sakariya          SRH     1      1  N/O       100.00       1
+9    Kuldeep Yadav          SRH     0      1  out         0.00      -6
+10      SH Johnson          SRH     0      1  out         0.00      -6
+  
+Score :: 168-9  (20.0), run-rate = 8.4
+******************************
+******************************
+MI wins!!
+******************************
+The Player of the Match is ~~ B Sai Sudharsan

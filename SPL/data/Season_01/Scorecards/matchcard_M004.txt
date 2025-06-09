@@ -1,0 +1,58 @@
+Match between PBKS(H) and SRH !! 
+innings 1
+PBKS BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+              bowler bowling_team  runs  balls  wkts  dots  economy  points
+0           HV Patel         PBKS    29     18     3     6     9.67      80
+1  Washington Sundar         PBKS    18     24     2    11     4.50      58
+2           CV Varun         PBKS    33     24     1     8     8.25      27
+3       Ravi Bishnoi         PBKS    33     24     0     3     8.25       0
+4           TA Boult         PBKS    45     24     0     5    11.25      -2
+5         MP Stoinis         PBKS    13      6     0     0    13.00      -6
+----------
+SRH BATTING --
+^^^^^^^^^^^^^^^^^^^^
+           striker batting_team  runs  balls  out  strike_rate  points
+0          VR Iyer          SRH    66     44  N/O       150.00      83
+1   LS Livingstone          SRH    39     22  out       177.27      55
+2        AJ Hosein          SRH    18     14  out       128.57      19
+3         KL Rahul          SRH    17     12  out       141.67      20
+4    Priyansh Arya          SRH    12     12  out       100.00      11
+5   P Simran Singh          SRH    10      6  out       166.67      15
+6        KH Pandya          SRH     4      4  N/O       100.00       4
+7  Ashutosh Sharma          SRH     3      3  out       100.00       2
+8     Sameer Rizvi          SRH     2      3  out        66.67       0
+  
+Score :: 172-7  (20.0), run-rate = 8.6
+******************************
+******************************
+innings 2
+SRH BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+           bowler bowling_team  runs  balls  wkts  dots  economy  points
+0       KH Pandya          SRH    32     24     2     3     8.00      50
+1      SH Johnson          SRH    35     24     2     6     8.75      51
+2       AJ Hosein          SRH    21     24     1    14     5.25      32
+3  LS Livingstone          SRH    27     24     1     9     6.75      29
+4   Kuldeep Yadav          SRH    28     24     1    11     7.00      29
+----------
+PBKS BATTING --
+^^^^^^^^^^^^^^^^^^^^
+             striker batting_team  runs  balls outs  strike_rate  points
+0     Shashank Singh         PBKS    30     16  out       187.50      44
+1          H Klaasen         PBKS    28     31  out        90.32      27
+2          RG Sharma         PBKS    26     23  out       113.04      27
+3           HV Patel         PBKS    20     11  out       181.82      29
+4  Washington Sundar         PBKS    14     11  out       127.27      14
+5            RR Pant         PBKS    13      8  out       162.50      18
+6           CV Varun         PBKS     4      8  N/O        50.00      -1
+7       Ravi Bishnoi         PBKS     4      9  N/O        44.44      -3
+8         MP Stoinis         PBKS     1      3  out        33.33      -5
+9         MA Agarwal         PBKS     0      1  out         0.00      -6
+  
+Score :: 145-8  (20.0), run-rate = 7.25
+******************************
+******************************
+SRH wins!!
+******************************
+The Player of the Match is ~~ HV Patel

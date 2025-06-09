@@ -1,0 +1,52 @@
+Match between RCB(H) and RR !! 
+innings 1
+RR BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+               bowler bowling_team  runs  balls  wkts  dots  economy  points
+0        JR Hazlewood           RR    36     24     2    10     9.00      52
+1            MP Yadav           RR    20     24     1    12     5.00      32
+2      Sandeep Sharma           RR    23     24     1     9     5.75      31
+3       R Sai Kishore           RR    29     18     1     5     9.67      26
+4          GJ Maxwell           RR    30     24     0     5     7.50       1
+5  Azmatullah Omarzai           RR    15      6     0     1    15.00      -5
+----------
+RCB BATTING --
+^^^^^^^^^^^^^^^^^^^^
+           striker batting_team  runs  balls  out  strike_rate  points
+0          PD Salt          RCB    54     46  N/O       117.39      65
+1         A Badoni          RCB    49     39  out       125.64      56
+2       SO Hetmyer          RCB    15     16  out        93.75      15
+3    Harpreet Brar          RCB    13      6  N/O       216.67      22
+4  Ramandeep Singh          RCB     7      6  out       116.67       8
+5       RD Gaikwad          RCB     6      3  out       200.00      13
+6          C Green          RCB     6      4  out       150.00       8
+  
+Score :: 155-5  (20.0), run-rate = 7.75
+******************************
+******************************
+innings 2
+RCB BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+          bowler bowling_team  runs  balls  wkts  dots  economy  points
+0    M Pathirana          RCB    22     24     1    11     5.50      31
+1      JJ Bumrah          RCB    35     24     1    11     8.75      27
+2     Avesh Khan          RCB    40     24     1    10    10.00      25
+3      RD Chahar          RCB    29     24     0     9     7.25       2
+4  Harpreet Brar          RCB    25     12     0     3    12.50      -5
+5       A Badoni          RCB     4      1     0     0    24.00      -6
+----------
+RR BATTING --
+^^^^^^^^^^^^^^^^^^^^
+       striker batting_team  runs  balls outs  strike_rate  points
+0   GJ Maxwell           RR    84     55  out       152.73     103
+1  RA Tripathi           RR    40     33  out       121.21      47
+2      KK Nair           RR    18     14  N/O       128.57      19
+3    JM Sharma           RR     6      4  N/O       150.00       8
+4  YBK Jaiswal           RR     4      3  out       133.33       6
+  
+Score :: 157-3  (18.1), run-rate = 8.64
+******************************
+******************************
+RR wins!!
+******************************
+The Player of the Match is ~~ GJ Maxwell

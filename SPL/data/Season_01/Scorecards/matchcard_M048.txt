@@ -1,0 +1,50 @@
+Match between DC(H) and RR !! 
+innings 1
+DC BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+              bowler bowling_team  runs  balls  wkts  dots  economy  points
+0       PWH de Silva           DC    30     24     2     9     7.50      52
+1  M Prasidh Krishna           DC    36     24     1     9     9.00      27
+2          RA Jadeja           DC    33     24     0     5     8.25       1
+3      Sikandar Raza           DC    35     24     0     7     8.75       1
+4  Mustafizur Rahman           DC    38     18     0     4    12.67      -5
+5            S Gopal           DC    25      6     0     0    25.00      -6
+----------
+RR BATTING --
+^^^^^^^^^^^^^^^^^^^^
+         striker batting_team  runs  balls  out  strike_rate  points
+0         S Dube           RR    85     46  N/O       184.78     113
+1      DA Miller           RR    56     32  N/O       175.00      79
+2     GJ Maxwell           RR    34     23  out       147.83      43
+3  Atharva Taide           RR    19     17  out       111.76      21
+4    YBK Jaiswal           RR     1      2  out        50.00      -3
+  
+Score :: 197-3  (20.0), run-rate = 9.85
+******************************
+******************************
+innings 2
+RR BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+           bowler bowling_team  runs  balls  wkts  dots  economy  points
+0      GJ Maxwell           RR    51     24     3     4    12.75      74
+1    JR Hazlewood           RR    41     24     1     5    10.25      24
+2       PP Chawla           RR    34     24     0     8     8.50       2
+3  Sandeep Sharma           RR    37     24     0     6     9.25       1
+4   R Sai Kishore           RR    34     18     0     7    11.33      -2
+----------
+DC BATTING --
+^^^^^^^^^^^^^^^^^^^^
+         striker batting_team  runs  balls outs  strike_rate  points
+0    Urvil Patel           DC    67     35  N/O       191.43      89
+1       SA Yadav           DC    49     24  out       204.17      68
+2        V Kohli           DC    33     30  out       110.00      37
+3  Abishek Porel           DC    27     14  N/O       192.86      37
+4  Sikandar Raza           DC    13     11  out       118.18      14
+5    JM Bairstow           DC     0      1  out         0.00      -6
+  
+Score :: 199-4  (19.0), run-rate = 10.47
+******************************
+******************************
+DC wins!!
+******************************
+The Player of the Match is ~~ GJ Maxwell

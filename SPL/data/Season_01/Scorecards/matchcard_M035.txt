@@ -1,0 +1,52 @@
+Match between LSG(H) and PBKS !! 
+innings 1
+LSG BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+           bowler bowling_team  runs  balls  wkts  dots  economy  points
+0  Arshdeep Singh          LSG    26     24     2    13     6.50      55
+1         A Zampa          LSG    29     24     2    10     7.25      52
+2   Shahbaz Ahmed          LSG    35     24     1     5     8.75      26
+3       BA Stokes          LSG    36     24     1     7     9.00      26
+4        WG Jacks          LSG     5      6     0     2     5.00       4
+5        A Nortje          LSG    25     18     0     5     8.33       1
+----------
+PBKS BATTING --
+^^^^^^^^^^^^^^^^^^^^
+             striker batting_team  runs  balls  out  strike_rate  points
+0         MP Stoinis         PBKS    60     30  out       200.00      85
+1            RR Pant         PBKS    41     37  out       110.81      45
+2          RG Sharma         PBKS    23     16  out       143.75      27
+3  Washington Sundar         PBKS    14     13  N/O       107.69      14
+4     Shashank Singh         PBKS     9     10  out        90.00       8
+5           HV Patel         PBKS     5      6  N/O        83.33       4
+6          H Klaasen         PBKS     1      6  out        16.67      -6
+7          Q de Kock         PBKS     0      2  out         0.00      -6
+  
+Score :: 157-6  (20.0), run-rate = 7.85
+******************************
+******************************
+innings 2
+PBKS BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+              bowler bowling_team  runs  balls  wkts  dots  economy  points
+0           HV Patel         PBKS    26     24     1     9     6.50      29
+1  Washington Sundar         PBKS    29     24     1     4     7.25      26
+2           CV Varun         PBKS    35     24     1     7     8.75      26
+3       Harshit Rana         PBKS    31     24     0     9     7.75       2
+4           TA Boult         PBKS    40     24     0     3    10.00      -1
+----------
+LSG BATTING --
+^^^^^^^^^^^^^^^^^^^^
+        striker batting_team  runs  balls outs  strike_rate  points
+0  Shubman Gill          LSG    89     62  N/O       143.55     108
+1   Dhruv Jurel          LSG    38     29  N/O       131.03      47
+2     BA Stokes          LSG    23     20  out       115.00      23
+3      WG Jacks          LSG    10      8  out       125.00      11
+4       SS Iyer          LSG     0      1  out         0.00      -6
+  
+Score :: 161-3  (20.0), run-rate = 8.05
+******************************
+******************************
+LSG wins!!
+******************************
+The Player of the Match is ~~ Shubman Gill

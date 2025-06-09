@@ -1,0 +1,50 @@
+Match between PBKS(H) and DC !! 
+innings 1
+DC BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+              bowler bowling_team  runs  balls  wkts  dots  economy  points
+0  Mustafizur Rahman           DC    24     24     2     7     6.00      53
+1          RA Jadeja           DC    32     24     2     9     8.00      52
+2       PWH de Silva           DC    28     24     0     9     7.00       4
+3      Sikandar Raza           DC    16     12     0     3     8.00       0
+4  M Prasidh Krishna           DC    45     24     0     7    11.25      -2
+5           N Sindhu           DC    25     12     0     1    12.50      -5
+----------
+PBKS BATTING --
+^^^^^^^^^^^^^^^^^^^^
+          striker batting_team  runs  balls  out  strike_rate  points
+0       H Klaasen         PBKS    97     68  N/O       142.65     118
+1  Shashank Singh         PBKS    28     16  N/O       175.00      37
+2       RG Sharma         PBKS    24     15  out       160.00      31
+3      MP Stoinis         PBKS    14     10  out       140.00      17
+4         RR Pant         PBKS     3      4  out        75.00       2
+5       Q de Kock         PBKS     3      7  out        42.86      -4
+  
+Score :: 172-4  (20.0), run-rate = 8.6
+******************************
+******************************
+innings 2
+PBKS BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+              bowler bowling_team  runs  balls  wkts  dots  economy  points
+0       Ravi Bishnoi         PBKS    26     24     2     9     6.50      54
+1           CV Varun         PBKS    31     24     1    10     7.75      27
+2  Washington Sundar         PBKS    25     24     0     8     6.25       4
+3           TA Boult         PBKS    50     23     0     7    13.04      -4
+4           HV Patel         PBKS    41     18     0     4    13.67      -5
+----------
+DC BATTING --
+^^^^^^^^^^^^^^^^^^^^
+         striker batting_team  runs  balls outs  strike_rate  points
+0       SA Yadav           DC    68     47  N/O       144.68      86
+1        V Kohli           DC    45     36  out       125.00      52
+2  Sikandar Raza           DC    37     19  N/O       194.74      52
+3       N Sindhu           DC    18     10  out       180.00      27
+4    Urvil Patel           DC     1      2  out        50.00      -3
+  
+Score :: 173-3  (18.5), run-rate = 9.19
+******************************
+******************************
+DC wins!!
+******************************
+The Player of the Match is ~~ H Klaasen

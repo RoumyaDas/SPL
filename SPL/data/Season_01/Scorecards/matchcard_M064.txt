@@ -1,0 +1,54 @@
+Match between SRH(H) and KKR !! 
+innings 1
+SRH BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+           bowler bowling_team  runs  balls  wkts  dots  economy  points
+0   Tanush Kotian          SRH    44     24     2     5    11.00      49
+1  LS Livingstone          SRH    35     24     1     4     8.75      26
+2       KH Pandya          SRH    28     24     0     5     7.00       3
+3      C Sakariya          SRH    34     24     0     7     8.50       1
+4   Kuldeep Yadav          SRH    26     18     0     4     8.67       1
+5      JG Bethell          SRH    10      6     0     0    10.00      -2
+----------
+KKR BATTING --
+^^^^^^^^^^^^^^^^^^^^
+        striker batting_team  runs  balls  out  strike_rate  points
+0    D Padikkal          KKR    64     40  out       160.00      84
+1     AM Rahane          KKR    60     46  N/O       130.43      75
+2     MK Pandey          KKR    19     13  out       146.15      23
+3    JC Buttler          KKR    17     11  N/O       154.55      21
+4  Ishan Kishan          KKR    14     12  out       116.67      13
+  
+Score :: 177-3  (20.0), run-rate = 8.85
+******************************
+******************************
+innings 2
+KKR BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+       bowler bowling_team  runs  balls  wkts  dots  economy  points
+0  Noor Ahmad          KKR    23     24     4    12     5.75     115
+1     B Kumar          KKR    36     24     1     7     9.00      26
+2    MA Starc          KKR    44     18     1     7    14.67      20
+3      N Rana          KKR     3      6     0     3     3.00       6
+4    R Ashwin          KKR    26     24     0    13     6.50       5
+5  MJ Santner          KKR    28     24     0     7     7.00       3
+----------
+SRH BATTING --
+^^^^^^^^^^^^^^^^^^^^
+          striker batting_team  runs  balls outs  strike_rate  points
+0      JG Bethell          SRH    44     33  N/O       133.33      53
+1  LS Livingstone          SRH    40     29  out       137.93      50
+2      AK Markram          SRH    40     31  out       129.03      47
+3  P Simran Singh          SRH    15      8  out       187.50      23
+4         VR Iyer          SRH     6      3  out       200.00      13
+5       MK Lomror          SRH     6      5  out       120.00       6
+6   Tanush Kotian          SRH     4      4  N/O       100.00       3
+7       KH Pandya          SRH     3      6  out        50.00      -2
+8        KL Rahul          SRH     0      1  out         0.00      -6
+  
+Score :: 162-7  (20.0), run-rate = 8.1
+******************************
+******************************
+KKR wins!!
+******************************
+The Player of the Match is ~~ Noor Ahmad

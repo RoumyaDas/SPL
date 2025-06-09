@@ -1,0 +1,50 @@
+Match between GT(H) and MI !! 
+innings 1
+GT BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+                bowler bowling_team  runs  balls  wkts  dots  economy  points
+0          K Kartikeya           GT    25     24     2    11     6.25      54
+1               AS Roy           GT    18     24     1    11     4.50      33
+2   Mohammad Ghazanfar           GT    44     24     1     7    11.00      24
+3          Rashid Khan           GT    20     18     0     7     6.67       3
+4  Nithish Kumar Reddy           GT     9      6     0     1     9.00       0
+5            JC Archer           GT    49     24     0     6    12.25      -4
+----------
+MI BATTING --
+^^^^^^^^^^^^^^^^^^^^
+           striker batting_team  runs  balls  out  strike_rate  points
+0      Bhanu Pania           MI    42     34  N/O       123.53      49
+1         RK Singh           MI    36     25  N/O       144.00      45
+2  B Sai Sudharsan           MI    32     28  out       114.29      37
+3  Abhishek Sharma           MI    22     15  out       146.67      25
+4        HH Pandya           MI    19      9  out       211.11      27
+5         N Pooran           MI    12     10  out       120.00      13
+  
+Score :: 165-4  (20.0), run-rate = 8.25
+******************************
+******************************
+innings 2
+MI BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+            bowler bowling_team  runs  balls  wkts  dots  economy  points
+0       PJ Cummins           MI    29     24     1    10     7.25      27
+1  Abhishek Sharma           MI    31     18     1     4    10.33      24
+2     M Theekshana           MI    27     24     0    12     6.75       5
+3        HH Pandya           MI    32     18     0     4    10.67      -1
+4   Mohammed Siraj           MI    46     21     0     2    13.14      -5
+----------
+GT BATTING --
+^^^^^^^^^^^^^^^^^^^^
+               striker batting_team  runs  balls outs  strike_rate  points
+0            DP Conway           GT    68     37  out       183.78      91
+1  Nithish Kumar Reddy           GT    46     27  N/O       170.37      62
+2            SV Samson           GT    21     20  out       105.00      20
+3           Naman Dhir           GT    17      9  N/O       188.89      25
+4             DJ Hooda           GT    10     12  out        83.33       9
+  
+Score :: 166-3  (17.3), run-rate = 9.49
+******************************
+******************************
+GT wins!!
+******************************
+The Player of the Match is ~~ DP Conway

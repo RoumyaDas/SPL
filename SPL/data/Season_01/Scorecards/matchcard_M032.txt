@@ -1,0 +1,58 @@
+Match between SRH(H) and LSG !! 
+innings 1
+LSG BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+           bowler bowling_team  runs  balls  wkts  dots  economy  points
+0  Arshdeep Singh          LSG    37     24     2     7     9.25      51
+1   Shahbaz Ahmed          LSG    43     24     2     6    10.75      49
+2        NT Ellis          LSG    37     24     1     5     9.25      26
+3        WG Jacks          LSG     6      6     0     3     6.00       2
+4         A Zampa          LSG    27     24     0     7     6.75       3
+5      M Markande          LSG    34     18     0     4    11.33      -3
+----------
+SRH BATTING --
+^^^^^^^^^^^^^^^^^^^^
+          striker batting_team  runs  balls  out  strike_rate  points
+0  LS Livingstone          SRH    58     35  out       165.71      79
+1        KL Rahul          SRH    30     24  out       125.00      35
+2       MK Lomror          SRH    22     12  N/O       183.33      31
+3      JG Bethell          SRH    19     11  N/O       172.73      28
+4      AK Markram          SRH    18      9  out       200.00      27
+5         VR Iyer          SRH    18     17  out       105.88      18
+6  P Simran Singh          SRH    17     13  out       130.77      20
+  
+Score :: 187-5  (20.0), run-rate = 9.35
+******************************
+******************************
+innings 2
+SRH BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+           bowler bowling_team  runs  balls  wkts  dots  economy  points
+0       KH Pandya          SRH    16     24     2    13     4.00      59
+1      JG Bethell          SRH    10     12     2     7     5.00      55
+2      C Sakariya          SRH    27     18     2     6     9.00      51
+3   Kuldeep Yadav          SRH    17     18     1    11     5.67      31
+4  LS Livingstone          SRH    33     18     1     6    11.00      24
+5       AJ Hosein          SRH    36     24     0    10     9.00       2
+6      AK Markram          SRH    10      6     0     4    10.00      -1
+----------
+LSG BATTING --
+^^^^^^^^^^^^^^^^^^^^
+         striker batting_team  runs  balls outs  strike_rate  points
+0     M Markande          LSG    28     36  N/O        77.78      26
+1    Dhruv Jurel          LSG    26     10  out       260.00      37
+2       WG Jacks          LSG    20     10  out       200.00      30
+3   Shubman Gill          LSG    18     18  out       100.00      18
+4        A Zampa          LSG    17      8  N/O       212.50      26
+5      BA Stokes          LSG    15     12  out       125.00      16
+6       NT Ellis          LSG    10     10  out       100.00       9
+7        SS Iyer          LSG     6      8  out        75.00       5
+8    Abdul Samad          LSG     5      4  out       125.00       5
+9  Shahbaz Ahmed          LSG     3      4  out        75.00       2
+  
+Score :: 149-8  (20.0), run-rate = 7.45
+******************************
+******************************
+SRH wins!!
+******************************
+The Player of the Match is ~~ LS Livingstone

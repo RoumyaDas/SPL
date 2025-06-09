@@ -1,0 +1,52 @@
+Match between KKR(H) and LSG !! 
+innings 1
+KKR BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+       bowler bowling_team  runs  balls  wkts  dots  economy  points
+0    MA Starc          KKR    29     24     3     7     7.25      80
+1     B Kumar          KKR    37     24     2     9     9.25      52
+2  Noor Ahmad          KKR    26     24     1    12     6.50      30
+3  MJ Santner          KKR    35     24     0     6     8.75       1
+4    R Ashwin          KKR    51     24     0     4    12.75      -5
+----------
+LSG BATTING --
+^^^^^^^^^^^^^^^^^^^^
+         striker batting_team  runs  balls  out  strike_rate  points
+0   Shubman Gill          LSG    44     32  out       137.50      53
+1    Abdul Samad          LSG    34     23  out       147.83      43
+2      N Wadhera          LSG    25     18  N/O       138.89      29
+3       WG Jacks          LSG    24     13  out       184.62      33
+4    Dhruv Jurel          LSG    18     13  out       138.46      20
+5  Shahbaz Ahmed          LSG    14      8  N/O       175.00      22
+6        SS Iyer          LSG     9      7  out       128.57      10
+7      BA Stokes          LSG     8      7  out       114.29       9
+  
+Score :: 180-6  (20.0), run-rate = 9.0
+******************************
+******************************
+innings 2
+LSG BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+           bowler bowling_team  runs  balls  wkts  dots  economy  points
+0         A Zampa          LSG    25     18     1     9     8.33      27
+1       BA Stokes          LSG    19     12     1     2     9.50      25
+2   Shahbaz Ahmed          LSG    30     24     0    13     7.50       3
+3        WG Jacks          LSG    23     18     0     9     7.67       2
+4      M Markande          LSG    34     24     0     7     8.50       1
+5  Arshdeep Singh          LSG    42     24     0     5    10.50       0
+----------
+KKR BATTING --
+^^^^^^^^^^^^^^^^^^^^
+        striker batting_team  runs  balls outs  strike_rate  points
+0    D Padikkal          KKR    55     43  out       127.91      69
+1  Ishan Kishan          KKR    54     38  out       142.11      70
+2     MK Pandey          KKR    28     17  N/O       164.71      36
+3    JC Buttler          KKR    25     17  N/O       147.06      30
+4     AM Rahane          KKR     7      6  out       116.67       7
+  
+Score :: 174-3  (20.0), run-rate = 8.7
+******************************
+******************************
+LSG wins!!
+******************************
+The Player of the Match is ~~ MA Starc

@@ -1,0 +1,50 @@
+Match between GT(H) and LSG !! 
+innings 1
+LSG BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+           bowler bowling_team  runs  balls  wkts  dots  economy  points
+0        NT Ellis          LSG    24     18     1     9     8.00      27
+1    Rasikh Salam          LSG    42     24     1     8    10.50      25
+2         A Zampa          LSG    48     24     1     2    12.00      21
+3       BA Stokes          LSG    27     24     0     6     6.75       3
+4  Arshdeep Singh          LSG    29     24     0     9     7.25       2
+5        TH David          LSG    23      6     0     1    23.00      -5
+----------
+GT BATTING --
+^^^^^^^^^^^^^^^^^^^^
+               striker batting_team  runs  balls  out  strike_rate  points
+0            DP Conway           GT    78     54  N/O       144.44      96
+1           Naman Dhir           GT    47     18  N/O       261.11      68
+2             DJ Hooda           GT    34     24  out       141.67      44
+3            SV Samson           GT    18     18  out       100.00      18
+4  Nithish Kumar Reddy           GT    14      6  out       233.33      22
+  
+Score :: 196-3  (20.0), run-rate = 9.8
+******************************
+******************************
+innings 2
+GT BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+           bowler bowling_team  runs  balls  wkts  dots  economy  points
+0       JC Archer           GT    41     24     1     5    10.25      24
+1        DJ Hooda           GT     4      6     0     4     4.00       7
+2     Rashid Khan           GT    26     18     0     4     8.67       1
+3  Mohammed Shami           GT    37     24     0     5     9.25       1
+4          AS Roy           GT    39     24     0     4     9.75       1
+5        M Jansen           GT    41     24     0     7    10.25       0
+----------
+LSG BATTING --
+^^^^^^^^^^^^^^^^^^^^
+        striker batting_team  runs  balls outs  strike_rate  points
+0  Shubman Gill          LSG   102     57  N/O       178.95     137
+1   Dhruv Jurel          LSG    66     45  N/O       146.67      81
+2     N Wadhera          LSG     8      9  out        88.89       7
+3     BA Stokes          LSG     5      5  out       100.00       5
+4       SS Iyer          LSG     3      5  out        60.00       0
+  
+Score :: 191-3  (20.0), run-rate = 9.55
+******************************
+******************************
+GT wins!!
+******************************
+The Player of the Match is ~~ Shubman Gill

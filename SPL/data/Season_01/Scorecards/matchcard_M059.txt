@@ -1,0 +1,53 @@
+Match between MI(H) and DC !! 
+innings 1
+MI BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+            bowler bowling_team  runs  balls  wkts  dots  economy  points
+0  Abhishek Sharma           MI    25     22     3     8     6.82      83
+1        HH Pandya           MI    33     24     3     8     8.25      81
+2          R Parag           MI    30     24     2     6     7.50      51
+3       J Anderson           MI    51     24     2     7    12.75      45
+4       PJ Cummins           MI    14     12     0     4     7.00       3
+----------
+DC BATTING --
+^^^^^^^^^^^^^^^^^^^^
+              striker batting_team  runs  balls  out  strike_rate  points
+0       Abishek Porel           DC    28     17  out       164.71      34
+1             V Kohli           DC    24     16  out       150.00      27
+2           RA Jadeja           DC    21     17  out       123.53      22
+3         Urvil Patel           DC    20     16  out       125.00      21
+4           DA Warner           DC    14      6  out       233.33      22
+5       Sikandar Raza           DC    13      7  out       185.71      21
+6            SA Yadav           DC    12      9  out       133.33      14
+7   M Prasidh Krishna           DC    11      5  N/O       220.00      18
+8        PWH de Silva           DC     4      6  out        66.67       1
+9   Mustafizur Rahman           DC     3      6  out        50.00      -1
+10           HS Desai           DC     0      1  out         0.00      -6
+  
+Score :: 153-10  (17.4), run-rate = 8.66
+******************************
+******************************
+innings 2
+DC BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+              bowler bowling_team  runs  balls  wkts  dots  economy  points
+0      Sikandar Raza           DC    26     24     1     8     6.50      29
+1       PWH de Silva           DC    32     24     1    11     8.00      27
+2          RA Jadeja           DC    31     24     0    10     7.75       2
+3  M Prasidh Krishna           DC    31     23     0     8     8.09       2
+4  Mustafizur Rahman           DC    36     24     0     7     9.00       1
+----------
+MI BATTING --
+^^^^^^^^^^^^^^^^^^^^
+           striker batting_team  runs  balls outs  strike_rate  points
+0         RK Singh           MI    74     61  N/O       121.31      88
+1  Abhishek Sharma           MI    59     45  N/O       131.11      73
+2  B Sai Sudharsan           MI    10     10  out       100.00       9
+3        HH Pandya           MI     8      3  out       266.67      15
+  
+Score :: 157-2  (19.5), run-rate = 7.92
+******************************
+******************************
+MI wins!!
+******************************
+The Player of the Match is ~~ Abhishek Sharma

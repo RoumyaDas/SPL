@@ -1,0 +1,55 @@
+Match between GT(H) and RR !! 
+innings 1
+GT BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+        bowler bowling_team  runs  balls  wkts  dots  economy  points
+0  Rashid Khan           GT    32     24     2     7     8.00      51
+1    JC Archer           GT    38     24     2     9     9.50      52
+2     KK Ahmed           GT    44     24     1     9    11.00      25
+3  GD Phillips           GT    45     24     1     4    11.25      22
+4       AS Roy           GT    42     24     0     6    10.50       0
+----------
+RR BATTING --
+^^^^^^^^^^^^^^^^^^^^
+              striker batting_team  runs  balls  out  strike_rate  points
+0         YBK Jaiswal           RR    51     23  out       221.74      74
+1  Azmatullah Omarzai           RR    43     23  N/O       186.96      60
+2              MM Ali           RR    28     11  out       254.55      39
+3           JM Sharma           RR    25     25  out       100.00      25
+4       Atharva Taide           RR    24     18  out       133.33      27
+5          GJ Maxwell           RR    18     12  out       150.00      22
+6           DA Miller           RR     3      3  out       100.00       2
+7       Swapnil Singh           RR     2      2  N/O       100.00       2
+8              S Dube           RR     2      3  out        66.67       0
+  
+Score :: 203-7  (20.0), run-rate = 10.15
+******************************
+******************************
+innings 2
+RR BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+               bowler bowling_team  runs  balls  wkts  dots  economy  points
+0       Swapnil Singh           RR    29     24     3    12     7.25      82
+1  Azmatullah Omarzai           RR    36     24     1     9     9.00      27
+2          GJ Maxwell           RR    36     24     1     7     9.00      26
+3      Sandeep Sharma           RR    39     24     1     9     9.75      27
+4              MM Ali           RR    38     24     0     9     9.50       2
+----------
+GT BATTING --
+^^^^^^^^^^^^^^^^^^^^
+               striker batting_team  runs  balls outs  strike_rate  points
+0           Naman Dhir           GT    73     48  N/O       152.08      93
+1  Nithish Kumar Reddy           GT    36     19  out       189.47      51
+2          Rashid Khan           GT    34     23  N/O       147.83      44
+3          GD Phillips           GT    17     10  out       170.00      24
+4             DJ Hooda           GT    14     13  out       107.69      14
+5            DP Conway           GT     1      5  out        20.00      -6
+6            R Tewatia           GT     0      1  out         0.00      -6
+7            SV Samson           GT     0      1  out         0.00      -6
+  
+Score :: 182-6  (20.0), run-rate = 9.1
+******************************
+******************************
+RR wins!!
+******************************
+The Player of the Match is ~~ Rashid Khan

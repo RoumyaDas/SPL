@@ -1,0 +1,59 @@
+Match between PBKS(H) and LSG !! 
+innings 1
+LSG BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+           bowler bowling_team  runs  balls  wkts  dots  economy  points
+0    Rasikh Salam          LSG    24     24     3    11     6.00      83
+1       BA Stokes          LSG    37     24     3     7     9.25      80
+2  Arshdeep Singh          LSG    43     24     1     8    10.75      25
+3   Shahbaz Ahmed          LSG     8      6     0     1     8.00       0
+4         A Zampa          LSG    26     18     0     1     8.67       0
+5        NT Ellis          LSG    40     24     0     6    10.00       0
+----------
+PBKS BATTING --
+^^^^^^^^^^^^^^^^^^^^
+             striker batting_team  runs  balls  out  strike_rate  points
+0     Shashank Singh         PBKS    52     33  N/O       157.58      69
+1          Q de Kock         PBKS    51     27  out       188.89      74
+2           TA Boult         PBKS    21     19  N/O       110.53      21
+3            RR Pant         PBKS    19     15  out       126.67      20
+4           HV Patel         PBKS    10      5  out       200.00      17
+5  Washington Sundar         PBKS    10      7  out       142.86      12
+6          H Klaasen         PBKS     9      8  out       112.50       9
+7          RG Sharma         PBKS     3      3  out       100.00       2
+8         MP Stoinis         PBKS     0      3  out         0.00      -6
+  
+Score :: 179-7  (20.0), run-rate = 8.95
+******************************
+******************************
+innings 2
+PBKS BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+         bowler bowling_team  runs  balls  wkts  dots  economy  points
+0      TA Boult         PBKS    24     24     3    11     6.00      83
+1      CV Varun         PBKS    32     24     3     8     8.00      81
+2    MP Stoinis         PBKS    35     24     1     9     8.75      27
+3      HV Patel         PBKS    37     24     1    10     9.25      27
+4  Harshit Rana         PBKS    43     24     1     6    10.75      24
+----------
+LSG BATTING --
+^^^^^^^^^^^^^^^^^^^^
+           striker batting_team  runs  balls outs  strike_rate  points
+0        BA Stokes          LSG    56     29  out       193.10      79
+1          SS Iyer          LSG    36     30  out       120.00      42
+2    Shahbaz Ahmed          LSG    27     21  out       128.57      28
+3      Dhruv Jurel          LSG    11      9  out       122.22      11
+4     Rasikh Salam          LSG    10     11  out        90.91       9
+5   Arshdeep Singh          LSG     8      3  N/O       266.67      16
+6         NT Ellis          LSG     7      8  out        87.50       7
+7         TH David          LSG     5      3  out       166.67       9
+8        N Wadhera          LSG     4      2  out       200.00      10
+9          A Zampa          LSG     4      3  out       133.33       6
+10    Shubman Gill          LSG     0      1  out         0.00      -6
+  
+Score :: 173-10  (20.0), run-rate = 8.65
+******************************
+******************************
+PBKS wins!!
+******************************
+The Player of the Match is ~~ BA Stokes

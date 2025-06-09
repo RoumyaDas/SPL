@@ -1,0 +1,56 @@
+Match between PBKS(H) and MI !! 
+innings 1
+MI BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+         bowler bowling_team  runs  balls  wkts  dots  economy  points
+0     MJ Suthar           MI    47     24     2     6    11.75      47
+1  M Theekshana           MI    31     24     1     4     7.75      26
+2     HH Pandya           MI    59     24     1     5    14.75      20
+3       R Parag           MI    37     24     0     4     9.25       1
+4    PJ Cummins           MI    46     24     0     3    11.50      -3
+----------
+PBKS BATTING --
+^^^^^^^^^^^^^^^^^^^^
+          striker batting_team  runs  balls  out  strike_rate  points
+0         RR Pant         PBKS    67     34  out       197.06      93
+1  Shashank Singh         PBKS    56     25  N/O       224.00      81
+2       H Klaasen         PBKS    49     29  N/O       168.97      61
+3       RG Sharma         PBKS    28     19  out       147.37      33
+4       Q de Kock         PBKS     7      7  out       100.00       5
+5      MP Stoinis         PBKS     4      6  out        66.67       1
+  
+Score :: 220-4  (20.0), run-rate = 11.0
+******************************
+******************************
+innings 2
+PBKS BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+              bowler bowling_team  runs  balls  wkts  dots  economy  points
+0  Washington Sundar         PBKS    39     24     3     8     9.75      81
+1       Ravi Bishnoi         PBKS    23     24     2    15     5.75      57
+2           CV Varun         PBKS    30     24     1     8     7.50      27
+3           HV Patel         PBKS    34     24     1     5     8.50      26
+4           TA Boult         PBKS    28     18     1     5     9.33      26
+5         MP Stoinis         PBKS     8      6     0     1     8.00       0
+----------
+MI BATTING --
+^^^^^^^^^^^^^^^^^^^^
+            striker batting_team  runs  balls outs  strike_rate  points
+0   Abhishek Sharma           MI    53     36  out       147.22      68
+1         HH Pandya           MI    31     24  out       129.17      38
+2          RK Singh           MI    24     15  out       160.00      31
+3   M Shahrukh Khan           MI    18     10  out       180.00      26
+4   B Sai Sudharsan           MI    12      8  out       150.00      15
+5        PJ Cummins           MI    12     11  out       109.09      12
+6      M Theekshana           MI     7      7  N/O       100.00       7
+7     A Raghuvanshi           MI     3      3  out       100.00       2
+8           R Parag           MI     1      2  out        50.00      -3
+9         MJ Suthar           MI     0      1  N/O         0.00      -6
+10         N Pooran           MI     0      3  out         0.00      -6
+  
+Score :: 162-9  (20.0), run-rate = 8.1
+******************************
+******************************
+PBKS wins!!
+******************************
+The Player of the Match is ~~ RR Pant

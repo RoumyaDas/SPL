@@ -1,0 +1,54 @@
+Match between KKR(H) and PBKS !! 
+innings 1
+PBKS BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+         bowler bowling_team  runs  balls  wkts  dots  economy  points
+0   Yash Thakur         PBKS    20     18     2     5     6.67      53
+1  Harshit Rana         PBKS    39     24     2     7     9.75      51
+2      TA Boult         PBKS    26     24     0    12     6.50       5
+3      HV Patel         PBKS    39     24     0     7     9.75       1
+4    MP Stoinis         PBKS    12      6     0     1    12.00      -3
+5      CV Varun         PBKS    50     24     0     2    12.50      -5
+----------
+KKR BATTING --
+^^^^^^^^^^^^^^^^^^^^
+        striker batting_team  runs  balls  out  strike_rate  points
+0    JC Buttler          KKR    40     25  out       160.00      52
+1  Ishan Kishan          KKR    36     31  out       116.13      42
+2     SM Curran          KKR    35     19  out       184.21      50
+3     MK Pandey          KKR    26     17  out       152.94      33
+4        N Rana          KKR    22     12  out       183.33      31
+5     AM Rahane          KKR    18      8  out       225.00      27
+6     G Coetzee          KKR     5      6  N/O        83.33       4
+7      R Ashwin          KKR     1      2  N/O        50.00      -3
+  
+Score :: 187-6  (20.0), run-rate = 9.35
+******************************
+******************************
+innings 2
+KKR BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+      bowler bowling_team  runs  balls  wkts  dots  economy  points
+0   MA Starc          KKR    34     24     2    13     8.50      53
+1    B Kumar          KKR    42     23     2     6    10.96      49
+2   R Ashwin          KKR     6      6     0     1     6.00       2
+3  G Coetzee          KKR    33     24     0    11     8.25       2
+4   VG Arora          KKR    41     24     0     5    10.25       0
+5  SM Curran          KKR    32     18     0     5    10.67       0
+----------
+PBKS BATTING --
+^^^^^^^^^^^^^^^^^^^^
+          striker batting_team  runs  balls outs  strike_rate  points
+0         RR Pant         PBKS    56     41  N/O       136.59      70
+1      MP Stoinis         PBKS    47     27  out       174.07      65
+2       RG Sharma         PBKS    42     27  out       155.56      56
+3  Shashank Singh         PBKS    21      9  N/O       233.33      30
+4       Q de Kock         PBKS    16      7  out       228.57      25
+5       H Klaasen         PBKS     3      8  out        37.50      -4
+  
+Score :: 190-4  (19.5), run-rate = 9.58
+******************************
+******************************
+PBKS wins!!
+******************************
+The Player of the Match is ~~ RR Pant

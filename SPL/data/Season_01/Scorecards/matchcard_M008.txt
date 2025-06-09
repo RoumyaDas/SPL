@@ -1,0 +1,53 @@
+Match between LSG(H) and RR !! 
+innings 1
+LSG BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+           bowler bowling_team  runs  balls  wkts  dots  economy  points
+0   Shahbaz Ahmed          LSG    38     24     3     9     9.50      81
+1         A Zampa          LSG    34     24     1     4     8.50      26
+2      M Markande          LSG    34     24     1     6     8.50      26
+3  Arshdeep Singh          LSG    33     24     0    12     8.25       3
+4        NT Ellis          LSG    36     24     0     4     9.00       1
+----------
+RR BATTING --
+^^^^^^^^^^^^^^^^^^^^
+       striker batting_team  runs  balls  out  strike_rate  points
+0  YBK Jaiswal           RR    50     35  out       142.86      65
+1  RA Tripathi           RR    48     27  out       177.78      63
+2    DA Miller           RR    24     14  N/O       171.43      32
+3   GJ Maxwell           RR    21     19  out       110.53      21
+4    SP Narine           RR    16     18  out        88.89      16
+5    JM Sharma           RR    13      7  N/O       185.71      21
+6       S Dube           RR     0      1  out         0.00      -6
+  
+Score :: 178-5  (20.0), run-rate = 8.9
+******************************
+******************************
+innings 2
+RR BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+           bowler bowling_team  runs  balls  wkts  dots  economy  points
+0       PP Chawla           RR    39     24     2     8     9.75      52
+1  Sandeep Sharma           RR    43     24     2     6    10.75      49
+2    TU Deshpande           RR    35     24     1    10     8.75      27
+3    JR Hazlewood           RR    22     24     0    10     5.50       6
+4       SP Narine           RR    38     24     0    10     9.50       2
+----------
+LSG BATTING --
+^^^^^^^^^^^^^^^^^^^^
+         striker batting_team  runs  balls outs  strike_rate  points
+0   Shubman Gill          LSG    51     34  out       150.00      68
+1      N Wadhera          LSG    39     23  out       169.57      53
+2       WG Jacks          LSG    36     23  out       156.52      48
+3        SS Iyer          LSG    21     10  out       210.00      30
+4    Dhruv Jurel          LSG    17     21  out        80.95      15
+5     M Markande          LSG     4      2  N/O       200.00      10
+6    Abdul Samad          LSG     3      3  N/O       100.00       2
+7  Shahbaz Ahmed          LSG     3      4  out        75.00       2
+  
+Score :: 179-6  (20.0), run-rate = 8.95
+******************************
+******************************
+LSG wins!!
+******************************
+The Player of the Match is ~~ Shahbaz Ahmed

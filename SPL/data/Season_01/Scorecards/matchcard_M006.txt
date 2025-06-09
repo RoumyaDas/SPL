@@ -1,0 +1,52 @@
+Match between KKR(H) and DC !! 
+innings 1
+DC BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+              bowler bowling_team  runs  balls  wkts  dots  economy  points
+0  Mustafizur Rahman           DC    36     24     1     6     9.00      26
+1          RA Jadeja           DC    43     24     1     5    10.75      24
+2           K Rabada           DC    32     24     0     8     8.00       2
+3  M Prasidh Krishna           DC    33     24     0     9     8.25       2
+4         AD Russell           DC    39     24     0     3     9.75       0
+----------
+KKR BATTING --
+^^^^^^^^^^^^^^^^^^^^
+        striker batting_team  runs  balls  out  strike_rate  points
+0     AM Rahane          KKR    75     51  N/O       147.06      94
+1    JC Buttler          KKR    35     29  out       120.69      42
+2     MK Pandey          KKR    29     17  out       170.59      39
+3        N Rana          KKR    27     11  N/O       245.45      39
+4  Ishan Kishan          KKR    14     12  out       116.67      14
+  
+Score :: 183-3  (20.0), run-rate = 9.15
+******************************
+******************************
+innings 2
+KKR BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+       bowler bowling_team  runs  balls  wkts  dots  economy  points
+0     B Kumar          KKR    38     24     3    10     9.50      81
+1    R Ashwin          KKR    27     24     1    10     6.75      29
+2   SM Curran          KKR    17     12     1     6     8.50      26
+3    MA Starc          KKR    21     12     1     4    10.50      24
+4   DL Chahar          KKR    30     24     0    11     7.50       2
+5  MJ Santner          KKR    40     24     0     2    10.00      -1
+----------
+DC BATTING --
+^^^^^^^^^^^^^^^^^^^^
+         striker batting_team  runs  balls outs  strike_rate  points
+0        V Kohli           DC    80     54  out       148.15      99
+1       SA Yadav           DC    45     32  out       140.62      57
+2  Abishek Porel           DC    23     12  out       191.67      31
+3     AD Russell           DC    10      9  out       111.11      10
+4      DA Warner           DC     8      4  out       200.00      15
+5      RA Jadeja           DC     5      5  N/O       100.00       5
+6      SN Thakur           DC     1      1  N/O       100.00       1
+7      V Shankar           DC     0      3  out         0.00      -6
+  
+Score :: 176-6  (20.0), run-rate = 8.8
+******************************
+******************************
+KKR wins!!
+******************************
+The Player of the Match is ~~ V Kohli

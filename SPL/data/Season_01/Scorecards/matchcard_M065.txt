@@ -1,0 +1,56 @@
+Match between RR(H) and LSG !! 
+innings 1
+RR BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+           bowler bowling_team  runs  balls  wkts  dots  economy  points
+0    JR Hazlewood           RR    28     24     3     9     7.00      83
+1    TU Deshpande           RR    42     24     1     6    10.50      24
+2      GJ Maxwell           RR    45     24     1     7    11.25      22
+3  Sandeep Sharma           RR    37     24     0     2     9.25       0
+4   Swapnil Singh           RR    42     24     0     6    10.50       0
+----------
+LSG BATTING --
+^^^^^^^^^^^^^^^^^^^^
+        striker batting_team  runs  balls  out  strike_rate  points
+0     BA Stokes          LSG    90     49  out       183.67     119
+1       SS Iyer          LSG    53     31  out       170.97      74
+2   Dhruv Jurel          LSG    18     17  out       105.88      18
+3   Abdul Samad          LSG    13     12  N/O       108.33      13
+4     N Wadhera          LSG     8      4  N/O       200.00      15
+5  Shubman Gill          LSG     8      6  out       133.33      10
+6      WG Jacks          LSG     0      1  out         0.00      -6
+  
+Score :: 196-5  (20.0), run-rate = 9.8
+******************************
+******************************
+innings 2
+LSG BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+           bowler bowling_team  runs  balls  wkts  dots  economy  points
+0       BA Stokes          LSG    36     24     3    10     9.00      81
+1         A Zampa          LSG    21     22     2     9     5.73      56
+2        A Nortje          LSG    40     24     2     5    10.00      49
+3  Arshdeep Singh          LSG    46     24     1     7    11.50      22
+4    Rasikh Salam          LSG    52     24     1     7    13.00      20
+----------
+RR BATTING --
+^^^^^^^^^^^^^^^^^^^^
+               striker batting_team  runs  balls outs  strike_rate  points
+0        Atharva Taide           RR    69     34  out       202.94      96
+1            DA Miller           RR    45     28  out       160.71      59
+2         JR Hazlewood           RR    29     21  out       138.10      31
+3   Azmatullah Omarzai           RR    12      5  out       240.00      20
+4          YBK Jaiswal           RR    12      9  out       133.33      15
+5            JM Sharma           RR     8      5  out       160.00      13
+6        Swapnil Singh           RR     7      5  N/O       140.00       9
+7           GJ Maxwell           RR     4      2  out       200.00      10
+8               S Dube           RR     4      6  out        66.67       1
+9       Sandeep Sharma           RR     2      1  N/O       200.00       8
+10        TU Deshpande           RR     0      2  out         0.00      -6
+  
+Score :: 198-9  (19.4), run-rate = 10.07
+******************************
+******************************
+RR wins!!
+******************************
+The Player of the Match is ~~ BA Stokes

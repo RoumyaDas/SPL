@@ -1,0 +1,60 @@
+Match between RCB(H) and KKR !! 
+innings 1
+RCB BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+             bowler bowling_team  runs  balls  wkts  dots  economy  points
+0         JJ Bumrah          RCB    26     22     4     8     7.09     110
+1       M Pathirana          RCB    30     24     3     9     7.50      81
+2        Avesh Khan          RCB    29     18     2     9     9.67      52
+3  Gurjapneet Singh          RCB    48     24     1     7    12.00      22
+4     Harpreet Brar          RCB    25     18     0     5     8.33       1
+----------
+KKR BATTING --
+^^^^^^^^^^^^^^^^^^^^
+         striker batting_team  runs  balls  out  strike_rate  points
+0       MA Starc          KKR    32     13  out       246.15      47
+1      G Coetzee          KKR    21     16  out       131.25      24
+2     JC Buttler          KKR    17      7  out       242.86      26
+3         N Rana          KKR    17     11  out       154.55      23
+4   Ishan Kishan          KKR    15     10  out       150.00      18
+5       VG Arora          KKR    13     14  out        92.86      12
+6   RD Rickelton          KKR    12      7  out       171.43      19
+7        B Kumar          KKR    12     10  N/O       120.00      12
+8      AM Rahane          KKR    11      7  out       157.14      17
+9       R Ashwin          KKR     3      5  out        60.00       0
+10     MK Pandey          KKR     1      6  out        16.67      -6
+  
+Score :: 160-10  (17.4), run-rate = 9.06
+******************************
+******************************
+innings 2
+KKR BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+      bowler bowling_team  runs  balls  wkts  dots  economy  points
+0    B Kumar          KKR    34     23     5    11     8.87     143
+1   MA Starc          KKR    28     24     3    15     7.00      84
+2  G Coetzee          KKR    21     18     2    12     7.00      55
+3   R Ashwin          KKR    38     24     0    12     9.50       3
+4   VG Arora          KKR    22     12     0     3    11.00      -1
+----------
+RCB BATTING --
+^^^^^^^^^^^^^^^^^^^^
+             striker batting_team  runs  balls outs  strike_rate  points
+0            C Green          RCB    44     26  out       169.23      58
+1      Harpreet Brar          RCB    24     17  out       141.18      28
+2         SO Hetmyer          RCB    19     16  out       118.75      21
+3           A Badoni          RCB    17     12  out       141.67      21
+4   Gurjapneet Singh          RCB    13      6  N/O       216.67      21
+5            PD Salt          RCB    10      9  out       111.11      10
+6         Avesh Khan          RCB     7      6  out       116.67       6
+7         RD Gaikwad          RCB     5      4  out       125.00       5
+8          JJ Bumrah          RCB     1      2  out        50.00      -3
+9        M Pathirana          RCB     0      1  out         0.00      -6
+10   Ramandeep Singh          RCB     0      2  out         0.00      -6
+  
+Score :: 146-10  (16.5), run-rate = 8.67
+******************************
+******************************
+KKR wins!!
+******************************
+The Player of the Match is ~~ B Kumar

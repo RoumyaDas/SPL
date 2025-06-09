@@ -1,0 +1,53 @@
+Match between CSK(H) and SRH !! 
+innings 1
+SRH BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+           bowler bowling_team  runs  balls  wkts  dots  economy  points
+0   Kuldeep Yadav          SRH    20     24     4    12     5.00     115
+1       KH Pandya          SRH    30     24     4     7     7.50     109
+2  LS Livingstone          SRH    49     24     1     3    12.25      19
+3      SH Johnson          SRH    57     24     1     3    14.25      19
+4       AJ Hosein          SRH    29     24     0    10     7.25       2
+----------
+CSK BATTING --
+^^^^^^^^^^^^^^^^^^^^
+             striker batting_team  runs  balls  out  strike_rate  points
+0            TM Head          CSK    65     30  out       216.67      92
+1         RM Patidar          CSK    41     26  out       157.69      54
+2        Tilak Varma          CSK    33     18  out       183.33      47
+3        M Siddharth          CSK    11      5  N/O       220.00      18
+4       F du Plessis          CSK     6      9  out        66.67       3
+5           AR Patel          CSK     6     11  out        54.55       0
+6           T Stubbs          CSK     5      4  out       125.00       4
+7          YS Chahal          CSK     5      6  out        83.33       5
+8        T Natarajan          CSK     4      2  out       200.00      10
+9   Fazalhaq Farooqi          CSK     4      6  out        66.67       1
+10          MS Dhoni          CSK     1      3  out        33.33      -5
+  
+Score :: 186-10  (20.0), run-rate = 9.3
+******************************
+******************************
+innings 2
+CSK BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+             bowler bowling_team  runs  balls  wkts  dots  economy  points
+0         YS Chahal          CSK    35     24     1     9     8.75      27
+1          AR Patel          CSK    20     18     0     7     6.67       3
+2       T Natarajan          CSK    38     24     0     8     9.50       2
+3  Fazalhaq Farooqi          CSK    34     21     0     2     9.71       0
+4       M Siddharth          CSK    56     24     0     4    14.00      -5
+----------
+SRH BATTING --
+^^^^^^^^^^^^^^^^^^^^
+          striker batting_team  runs  balls outs  strike_rate  points
+0  LS Livingstone          SRH    97     58  N/O       167.24     124
+1         VR Iyer          SRH    57     44  N/O       129.55      67
+2  P Simran Singh          SRH    17      7  out       242.86      26
+3      BM Duckett          SRH     5      4  out       125.00       5
+  
+Score :: 187-2  (18.3), run-rate = 10.11
+******************************
+******************************
+SRH wins!!
+******************************
+The Player of the Match is ~~ LS Livingstone

@@ -1,0 +1,55 @@
+Match between RR(H) and PBKS !! 
+innings 1
+PBKS BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+              bowler bowling_team  runs  balls  wkts  dots  economy  points
+0           CV Varun         PBKS    38     24     2     9     9.50      52
+1           HV Patel         PBKS    28     22     1    10     7.64      27
+2           TA Boult         PBKS    31     24     1    10     7.75      27
+3  Washington Sundar         PBKS    32     24     1    10     8.00      27
+4       Ravi Bishnoi         PBKS    35     24     1     6     8.75      26
+----------
+RR BATTING --
+^^^^^^^^^^^^^^^^^^^^
+               striker batting_team  runs  balls  out  strike_rate  points
+0            DA Miller           RR    32     19  out       168.42      44
+1   Azmatullah Omarzai           RR    30     20  N/O       150.00      39
+2            JM Sharma           RR    28     17  out       164.71      36
+3               S Dube           RR    27     16  out       168.75      35
+4              KK Nair           RR    15     17  out        88.24      13
+5         JR Hazlewood           RR     7      9  out        77.78       6
+6           GJ Maxwell           RR     6      3  out       200.00      12
+7            PP Chawla           RR     6      7  out        85.71       6
+8          YBK Jaiswal           RR     5      4  out       125.00       5
+9          RA Tripathi           RR     5      5  out       100.00       5
+10      Sandeep Sharma           RR     0      1  out         0.00      -6
+  
+Score :: 166-10  (19.4), run-rate = 8.44
+******************************
+******************************
+innings 2
+RR BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+               bowler bowling_team  runs  balls  wkts  dots  economy  points
+0          GJ Maxwell           RR    27     24     1     6     6.75      28
+1           PP Chawla           RR    26     18     1     4     8.67      26
+2      Sandeep Sharma           RR    36     24     1    10     9.00      27
+3  Azmatullah Omarzai           RR    31     19     1     5     9.79      26
+4        JR Hazlewood           RR    45     24     0     7    11.25      -2
+----------
+PBKS BATTING --
+^^^^^^^^^^^^^^^^^^^^
+          striker batting_team  runs  balls outs  strike_rate  points
+0       H Klaasen         PBKS    43     32  N/O       134.38      53
+1  Shashank Singh         PBKS    41     24  N/O       170.83      55
+2       RG Sharma         PBKS    38     24  out       158.33      51
+3      MP Stoinis         PBKS    20     11  out       181.82      30
+4       Q de Kock         PBKS    16     11  out       145.45      18
+5         RR Pant         PBKS     7      7  out       100.00       7
+  
+Score :: 167-4  (18.1), run-rate = 9.19
+******************************
+******************************
+PBKS wins!!
+******************************
+The Player of the Match is ~~ Azmatullah Omarzai

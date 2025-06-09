@@ -1,0 +1,51 @@
+Match between LSG(H) and DC !! 
+innings 1
+LSG BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+           bowler bowling_team  runs  balls  wkts  dots  economy  points
+0       BA Stokes          LSG    47     24     4     7    11.75     105
+1  Arshdeep Singh          LSG    41     24     1     6    10.25      24
+2        WG Jacks          LSG    47     24     1     4    11.75      22
+3        A Nortje          LSG    29     24     0     8     7.25       2
+4         A Zampa          LSG    40     24     0     6    10.00       0
+----------
+DC BATTING --
+^^^^^^^^^^^^^^^^^^^^
+         striker batting_team  runs  balls  out  strike_rate  points
+0    Urvil Patel           DC    65     42  N/O       154.76      85
+1   PWH de Silva           DC    43     31  N/O       138.71      53
+2       HS Desai           DC    40     16  out       250.00      58
+3       SA Yadav           DC    22     12  out       183.33      31
+4  Abishek Porel           DC    16      9  out       177.78      23
+5        V Kohli           DC    10      6  out       166.67      14
+6     AD Russell           DC     4      3  out       133.33       5
+7  Sikandar Raza           DC     0      1  out         0.00      -6
+  
+Score :: 205-6  (20.0), run-rate = 10.25
+******************************
+******************************
+innings 2
+DC BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+              bowler bowling_team  runs  balls  wkts  dots  economy  points
+0  M Prasidh Krishna           DC    30     24     1     9     7.50      27
+1  Mustafizur Rahman           DC    41     24     1     7    10.25      24
+2       PWH de Silva           DC    42     24     1     6    10.50      24
+3      Sikandar Raza           DC    30     24     0     4     7.50       1
+4          RA Jadeja           DC    32     24     0     3     8.00       0
+----------
+LSG BATTING --
+^^^^^^^^^^^^^^^^^^^^
+        striker batting_team  runs  balls outs  strike_rate  points
+0       SS Iyer          LSG    84     47  N/O       178.72     111
+1   Dhruv Jurel          LSG    52     39  N/O       133.33      65
+2  Shubman Gill          LSG    27     19  out       142.11      31
+3     BA Stokes          LSG     7     13  out        53.85       0
+4      WG Jacks          LSG     0      2  out         0.00      -6
+  
+Score :: 176-3  (20.0), run-rate = 8.8
+******************************
+******************************
+DC wins!!
+******************************
+The Player of the Match is ~~ SS Iyer

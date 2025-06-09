@@ -1,0 +1,56 @@
+Match between RR(H) and RCB !! 
+innings 1
+RCB BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+          bowler bowling_team  runs  balls  wkts  dots  economy  points
+0    M Pathirana          RCB    25     24     3    10     6.25      83
+1  Harpreet Brar          RCB    25     24     1     7     6.25      28
+2      JJ Bumrah          RCB    39     24     1     6     9.75      26
+3     Avesh Khan          RCB    36     24     0     6     9.00       1
+4      RD Chahar          RCB    44     24     0     5    11.00       0
+----------
+RR BATTING --
+^^^^^^^^^^^^^^^^^^^^
+       striker batting_team  runs  balls  out  strike_rate  points
+0   GJ Maxwell           RR    60     41  out       146.34      76
+1      KK Nair           RR    43     22  out       195.45      59
+2    DA Miller           RR    29     18  N/O       161.11      36
+3       S Dube           RR    12     21  out        57.14       5
+4    JM Sharma           RR    11      3  N/O       366.67      20
+5  YBK Jaiswal           RR     8      5  out       160.00      13
+6  RA Tripathi           RR     5     10  out        50.00       0
+  
+Score :: 173-5  (20.0), run-rate = 8.65
+******************************
+******************************
+innings 2
+RR BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+               bowler bowling_team  runs  balls  wkts  dots  economy  points
+0      Sandeep Sharma           RR    41     24     4     7    10.25     107
+1          GJ Maxwell           RR    31     24     2     9     7.75      52
+2  Azmatullah Omarzai           RR    31     24     1     7     7.75      26
+3        JR Hazlewood           RR    33     24     1     9     8.25      27
+4           PP Chawla           RR    38     23     0     5     9.91       1
+----------
+RCB BATTING --
+^^^^^^^^^^^^^^^^^^^^
+            striker batting_team  runs  balls outs  strike_rate  points
+0        RD Gaikwad          RCB    38     22  out       172.73      52
+1           PD Salt          RCB    38     25  out       152.00      49
+2         PN Mankad          RCB    26     22  out       118.18      28
+3           C Green          RCB    17     12  out       141.67      21
+4     Harpreet Brar          RCB    14     10  out       140.00      17
+5        Avesh Khan          RCB    12      7  out       171.43      18
+6   Ramandeep Singh          RCB    10      7  out       142.86      13
+7       M Pathirana          RCB     7      4  out       175.00      14
+8         RD Chahar          RCB     5      4  N/O       125.00       5
+9         JJ Bumrah          RCB     3      2  N/O       150.00       5
+10       SO Hetmyer          RCB     2      4  out        50.00      -2
+  
+Score :: 175-9  (19.5), run-rate = 8.82
+******************************
+******************************
+RCB wins!!
+******************************
+The Player of the Match is ~~ GJ Maxwell

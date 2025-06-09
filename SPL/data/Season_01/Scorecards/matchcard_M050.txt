@@ -1,0 +1,54 @@
+Match between GT(H) and CSK !! 
+innings 1
+CSK BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+             bowler bowling_team  runs  balls  wkts  dots  economy  points
+0  Fazalhaq Farooqi          CSK    21     24     4    12     5.25     115
+1      Jagjit Singh          CSK    37     24     2    10     9.25      52
+2       T Natarajan          CSK    13     12     1     4     6.50      28
+3          AR Patel          CSK    22     18     1     7     7.33      26
+4   Suryansh Shedge          CSK    26     15     1     5    10.40      24
+----------
+GT BATTING --
+^^^^^^^^^^^^^^^^^^^^
+                striker batting_team  runs  balls  out  strike_rate  points
+0              DJ Hooda           GT    32     20  out       160.00      44
+1   Nithish Kumar Reddy           GT    27     17  out       158.82      34
+2             SV Samson           GT    17     11  out       154.55      23
+3              KK Ahmed           GT    13      7  N/O       185.71      20
+4              M Jansen           GT    10     10  out       100.00      10
+5             DP Conway           GT     9      7  out       128.57      10
+6           Rashid Khan           GT     5      8  out        62.50       2
+7        Mohammed Shami           GT     4      3  out       133.33       5
+8             JC Archer           GT     2      8  out        25.00      -5
+9            Naman Dhir           GT     0      1  out         0.00      -6
+10           Robin Minz           GT     0      1  out         0.00      -6
+  
+Score :: 120-10  (15.3), run-rate = 7.74
+******************************
+******************************
+innings 2
+GT BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+           bowler bowling_team  runs  balls  wkts  dots  economy  points
+0        KK Ahmed           GT    27     24     2    10     6.75      54
+1  Mohammed Shami           GT    26     18     1     4     8.67      26
+2       JC Archer           GT    16     12     0     5     8.00       1
+3     Rashid Khan           GT    28     18     0     5     9.33       1
+4        M Jansen           GT    24     15     0     6     9.60       1
+----------
+CSK BATTING --
+^^^^^^^^^^^^^^^^^^^^
+        striker batting_team  runs  balls outs  strike_rate  points
+0       TM Head          CSK    49     34  N/O       144.12      57
+1      T Stubbs          CSK    31     19  N/O       163.16      41
+2   Tilak Varma          CSK    18     20  out        90.00      18
+3    RM Patidar          CSK    13      7  out       185.71      21
+4  F du Plessis          CSK     7      7  out       100.00       7
+  
+Score :: 123-3  (14.3), run-rate = 8.48
+******************************
+******************************
+CSK wins!!
+******************************
+The Player of the Match is ~~ Fazalhaq Farooqi

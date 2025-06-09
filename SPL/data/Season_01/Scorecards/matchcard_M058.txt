@@ -1,0 +1,59 @@
+Match between RCB(H) and GT !! 
+innings 1
+GT BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+                bowler bowling_team  runs  balls  wkts  dots  economy  points
+0             KK Ahmed           GT    27     24     3    10     6.75      83
+1          Rashid Khan           GT    28     24     2     9     7.00      54
+2            JC Archer           GT    24     24     1    10     6.00      29
+3          GD Phillips           GT     7      6     1     2     7.00      27
+4  Nithish Kumar Reddy           GT    26     18     1     3     8.67      25
+5       Mohammed Shami           GT    34     24     0    10     8.50       2
+----------
+RCB BATTING --
+^^^^^^^^^^^^^^^^^^^^
+           striker batting_team  runs  balls  out  strike_rate  points
+0       RD Gaikwad          RCB    46     39  out       117.95      53
+1         A Badoni          RCB    25     22  out       113.64      25
+2  Ramandeep Singh          RCB    16     10  out       160.00      20
+3        J Suchith          RCB    10      9  out       111.11      11
+4          PD Salt          RCB    10     11  out        90.91      10
+5       Avesh Khan          RCB     9      6  N/O       150.00      11
+6    Harpreet Brar          RCB     8     10  out        80.00       7
+7       SO Hetmyer          RCB     8     10  out        80.00       7
+8          C Green          RCB     6      2  out       300.00      13
+9        JJ Bumrah          RCB     4      1  N/O       400.00      11
+  
+Score :: 147-8  (20.0), run-rate = 7.35
+******************************
+******************************
+innings 2
+RCB BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+          bowler bowling_team  runs  balls  wkts  dots  economy  points
+0    M Pathirana          RCB    24     24     2    13     6.00      55
+1     Avesh Khan          RCB    26     24     2    12     6.50      55
+2      JJ Bumrah          RCB    33     24     2    10     8.25      52
+3      J Suchith          RCB    34     18     1     3    11.33      21
+4  Harpreet Brar          RCB    31     18     0     6    10.33       0
+----------
+GT BATTING --
+^^^^^^^^^^^^^^^^^^^^
+               striker batting_team  runs  balls outs  strike_rate  points
+0          GD Phillips           GT    45     19  N/O       236.84      63
+1             DJ Hooda           GT    21     19  out       110.53      20
+2           Naman Dhir           GT    20      9  out       222.22      29
+3            DP Conway           GT    15      8  out       187.50      23
+4       Mohammed Shami           GT    10      5  N/O       200.00      16
+5  Nithish Kumar Reddy           GT     8     11  out        72.73       6
+6            SV Samson           GT     8     13  out        61.54       4
+7            JC Archer           GT     6      9  out        66.67       2
+8          Rashid Khan           GT     6      9  out        66.67       2
+9            R Tewatia           GT     4      6  out        66.67       1
+  
+Score :: 149-8  (18.0), run-rate = 8.28
+******************************
+******************************
+GT wins!!
+******************************
+The Player of the Match is ~~ GD Phillips

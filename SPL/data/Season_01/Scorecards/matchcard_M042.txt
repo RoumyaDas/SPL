@@ -1,0 +1,53 @@
+Match between MI(H) and PBKS !! 
+innings 1
+PBKS BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+              bowler bowling_team  runs  balls  wkts  dots  economy  points
+0        Yash Thakur         PBKS    27     24     1     9     6.75      29
+1       Harshit Rana         PBKS    28     24     1    12     7.00      30
+2           HV Patel         PBKS    29     24     0    11     7.25       2
+3           TA Boult         PBKS    35     24     0     8     8.75       2
+4         MP Stoinis         PBKS    10      6     0     2    10.00      -1
+5  Washington Sundar         PBKS    37     18     0     3    12.33      -5
+----------
+MI BATTING --
+^^^^^^^^^^^^^^^^^^^^
+           striker batting_team  runs  balls  out  strike_rate  points
+0         N Pooran           MI    49     39  N/O       125.64      57
+1          R Parag           MI    42     33  out       127.27      49
+2  Abhishek Sharma           MI    37     25  out       148.00      48
+3        HH Pandya           MI    26     17  N/O       152.94      33
+4  B Sai Sudharsan           MI     7      6  out       116.67       7
+  
+Score :: 169-3  (20.0), run-rate = 8.45
+******************************
+******************************
+innings 2
+MI BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+           bowler bowling_team  runs  balls  wkts  dots  economy  points
+0      PJ Cummins           MI    54     24     3    10    13.50      75
+1       HH Pandya           MI    21     24     1    17     5.25      33
+2      J Anderson           MI    33     20     1     6     9.90      26
+3    M Theekshana           MI    23     12     1     2    11.50      21
+4  Mohammed Siraj           MI    38     24     0     8     9.50       2
+----------
+PBKS BATTING --
+^^^^^^^^^^^^^^^^^^^^
+             striker batting_team  runs  balls outs  strike_rate  points
+0     Shashank Singh         PBKS    60     25  N/O       240.00      84
+1         MP Stoinis         PBKS    39     19  out       205.26      57
+2          Q de Kock         PBKS    30     18  out       166.67      43
+3          H Klaasen         PBKS    14      9  out       155.56      18
+4          RG Sharma         PBKS    13     12  out       108.33      14
+5            RR Pant         PBKS     8     12  out        66.67       5
+6        Yash Thakur         PBKS     2      2  N/O       100.00       2
+7           HV Patel         PBKS     0      2  out         0.00      -6
+8  Washington Sundar         PBKS     0      5  out         0.00      -7
+  
+Score :: 170-7  (17.2), run-rate = 9.81
+******************************
+******************************
+PBKS wins!!
+******************************
+The Player of the Match is ~~ Shashank Singh

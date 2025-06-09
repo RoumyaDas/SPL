@@ -1,0 +1,57 @@
+Match between DC(H) and GT !! 
+innings 1
+DC BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+              bowler bowling_team  runs  balls  wkts  dots  economy  points
+0  Mustafizur Rahman           DC    34     24     2     6      8.5      51
+1          RA Jadeja           DC    34     24     1     7      8.5      26
+2  M Prasidh Krishna           DC    40     24     1     8     10.0      25
+3      Sikandar Raza           DC    46     24     1     3     11.5      21
+4       PWH de Silva           DC    32     24     0    11      8.0       2
+----------
+GT BATTING --
+^^^^^^^^^^^^^^^^^^^^
+               striker batting_team  runs  balls  out  strike_rate  points
+0           Naman Dhir           GT    63     36  N/O       175.00      87
+1             DJ Hooda           GT    63     39  out       161.54      83
+2            R Tewatia           GT    23     10  out       230.00      33
+3          Rashid Khan           GT    21     19  N/O       110.53      20
+4            DP Conway           GT    12      8  out       150.00      14
+5  Nithish Kumar Reddy           GT     3      7  out        42.86      -4
+6            SV Samson           GT     0      1  out         0.00      -6
+  
+Score :: 187-5  (20.0), run-rate = 9.35
+******************************
+******************************
+innings 2
+GT BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+               bowler bowling_team  runs  balls  wkts  dots  economy  points
+0  Mohammad Ghazanfar           GT    23     18     4    10     7.67     110
+1              AS Roy           GT    31     24     2     9     7.75      52
+2         Rashid Khan           GT    21     19     1     8     6.63      29
+3           JC Archer           GT    33     24     1     9     8.25      27
+4            DJ Hooda           GT     8      6     0     0     8.00       0
+5      Mohammed Shami           GT    39     24     0     4     9.75       1
+----------
+DC BATTING --
+^^^^^^^^^^^^^^^^^^^^
+              striker batting_team  runs  balls outs  strike_rate  points
+0             V Kohli           DC    40     27  out       148.15      49
+1         Urvil Patel           DC    34     15  out       226.67      51
+2   Mustafizur Rahman           DC    21     26  out        80.77      18
+3   M Prasidh Krishna           DC    19     15  out       126.67      19
+4        PWH de Silva           DC    11      4  out       275.00      18
+5            SA Yadav           DC     9     10  out        90.00       9
+6           MM Sharma           DC     8      3  N/O       266.67      15
+7           DA Warner           DC     6      6  out       100.00       5
+8       Sikandar Raza           DC     3      5  out        60.00       0
+9       Abishek Porel           DC     2      3  out        66.67       0
+10          RA Jadeja           DC     0      1  out         0.00      -6
+  
+Score :: 158-10  (19.1), run-rate = 8.24
+******************************
+******************************
+GT wins!!
+******************************
+The Player of the Match is ~~ Mohammad Ghazanfar

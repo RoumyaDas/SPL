@@ -1,0 +1,54 @@
+Match between LSG(H) and RCB !! 
+innings 1
+LSG BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+           bowler bowling_team  runs  balls  wkts  dots  economy  points
+0        WG Jacks          LSG    16     18     1     5     5.33      30
+1      M Markande          LSG    37     24     1     5     9.25      26
+2         A Zampa          LSG    38     24     1     6     9.50      26
+3  Arshdeep Singh          LSG    44     24     1     5    11.00      24
+4       BA Stokes          LSG     7      6     0     2     7.00       2
+5   Shahbaz Ahmed          LSG    36     24     0     5     9.00       1
+----------
+RCB BATTING --
+^^^^^^^^^^^^^^^^^^^^
+           striker batting_team  runs  balls  out  strike_rate  points
+0       RD Gaikwad          RCB   106     66  N/O       160.61     138
+1       SO Hetmyer          RCB    34     25  out       136.00      44
+2  Ramandeep Singh          RCB    15     13  out       115.38      15
+3          C Green          RCB     9      6  out       150.00      12
+4         A Badoni          RCB     6      5  N/O       120.00       6
+5          PD Salt          RCB     2      5  out        40.00      -4
+  
+Score :: 178-4  (20.0), run-rate = 8.9
+******************************
+******************************
+innings 2
+RCB BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+          bowler bowling_team  runs  balls  wkts  dots  economy  points
+0      JJ Bumrah          RCB    21     24     2    10     5.25      56
+1  Harpreet Brar          RCB    41     24     2     8    10.25      50
+2      J Suchith          RCB    34     24     1     9     8.50      27
+3       A Badoni          RCB    13      6     1     2    13.00      19
+4    M Pathirana          RCB    35     24     0     4     8.75       1
+5      RD Chahar          RCB    27     18     0     7     9.00       1
+----------
+LSG BATTING --
+^^^^^^^^^^^^^^^^^^^^
+         striker batting_team  runs  balls outs  strike_rate  points
+0       WG Jacks          LSG    81     53  N/O       152.83     103
+1        SS Iyer          LSG    29     27  out       107.41      29
+2      A Manohar          LSG    27     20  out       135.00      30
+3      BA Stokes          LSG    11      6  out       183.33      18
+4   Shubman Gill          LSG    11      8  out       137.50      14
+5    Dhruv Jurel          LSG     7      3  out       233.33      14
+6  Shahbaz Ahmed          LSG     2      2  N/O       100.00       1
+7    Abdul Samad          LSG     0      1  out         0.00      -6
+  
+Score :: 173-6  (20.0), run-rate = 8.65
+******************************
+******************************
+RCB wins!!
+******************************
+The Player of the Match is ~~ RD Gaikwad

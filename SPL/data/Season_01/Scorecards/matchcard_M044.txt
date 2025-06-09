@@ -1,0 +1,52 @@
+Match between RR(H) and SRH !! 
+innings 1
+SRH BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+           bowler bowling_team  runs  balls  wkts  dots  economy  points
+0   Kuldeep Yadav          SRH    36     24     3    10     9.00      81
+1      SH Johnson          SRH    31     24     2     7     7.75      51
+2      C Sakariya          SRH    35     24     2    10     8.75      52
+3       KH Pandya          SRH    33     24     0     5     8.25       1
+4  LS Livingstone          SRH    36     24     0     5     9.00       1
+----------
+RR BATTING --
+^^^^^^^^^^^^^^^^^^^^
+         striker batting_team  runs  balls  out  strike_rate  points
+0    YBK Jaiswal           RR    79     51  N/O       154.90     100
+1     GJ Maxwell           RR    50     31  out       161.29      68
+2      DA Miller           RR    16     12  out       133.33      20
+3   JR Hazlewood           RR    13     10  N/O       130.00      14
+4  R Sai Kishore           RR     6      2  out       300.00      13
+5       R Powell           RR     4      9  out        44.44      -3
+6      JM Sharma           RR     1      2  out        50.00      -3
+7  Atharva Taide           RR     0      1  out         0.00      -6
+8         S Dube           RR     0      2  out         0.00      -6
+  
+Score :: 172-7  (20.0), run-rate = 8.6
+******************************
+******************************
+innings 2
+RR BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+           bowler bowling_team  runs  balls  wkts  dots  economy  points
+0  Sandeep Sharma           RR    33     24     1    10     8.25      27
+1      GJ Maxwell           RR    38     24     1     8     9.50      27
+2    JR Hazlewood           RR    44     24     1     8    11.00      25
+3       PP Chawla           RR    24     18     0     6     8.00       1
+4   R Sai Kishore           RR    34     19     0     4    10.74      -1
+----------
+SRH BATTING --
+^^^^^^^^^^^^^^^^^^^^
+          striker batting_team  runs  balls outs  strike_rate  points
+0  P Simran Singh          SRH    61     27  out       225.93      86
+1         VR Iyer          SRH    54     31  N/O       174.19      75
+2      AK Markram          SRH    32     26  N/O       123.08      37
+3  LS Livingstone          SRH    12     14  out        85.71      11
+4        KL Rahul          SRH     9     11  out        81.82       8
+  
+Score :: 174-3  (18.1), run-rate = 9.58
+******************************
+******************************
+SRH wins!!
+******************************
+The Player of the Match is ~~ YBK Jaiswal

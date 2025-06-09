@@ -1,0 +1,54 @@
+Match between SRH(H) and RCB !! 
+innings 1
+RCB BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+          bowler bowling_team  runs  balls  wkts  dots  economy  points
+0  Harpreet Brar          RCB    35     24     1     8     8.75      27
+1    M Pathirana          RCB    42     24     1     5    10.50      24
+2        C Green          RCB     4      6     0     4     4.00       7
+3       A Badoni          RCB     6      6     0     0     6.00       2
+4      J Suchith          RCB    30     24     0     8     7.50       2
+5      JJ Bumrah          RCB    35     24     0     3     8.75       0
+6      RD Chahar          RCB    39     12     0     1    19.50      -5
+----------
+SRH BATTING --
+^^^^^^^^^^^^^^^^^^^^
+          striker batting_team  runs  balls  out  strike_rate  points
+0        KL Rahul          SRH    91     56  out       162.50     116
+1  LS Livingstone          SRH    71     50  N/O       142.00      87
+2  P Simran Singh          SRH    20     12  out       166.67      26
+3         VR Iyer          SRH     5      2  N/O       250.00      11
+  
+Score :: 191-2  (20.0), run-rate = 9.55
+******************************
+******************************
+innings 2
+SRH BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+           bowler bowling_team  runs  balls  wkts  dots  economy  points
+0   Tanush Kotian          SRH    28     18     3     6     9.33      80
+1  LS Livingstone          SRH    24     18     2     6     8.00      51
+2       KH Pandya          SRH    19     24     1    10     4.75      33
+3      AK Markram          SRH    15     12     1     5     7.50      26
+4      C Sakariya          SRH    37     24     1     7     9.25      26
+5   Kuldeep Yadav          SRH    28     24     0    10     7.00       4
+----------
+RCB BATTING --
+^^^^^^^^^^^^^^^^^^^^
+           striker batting_team  runs  balls outs  strike_rate  points
+0          PD Salt          RCB    44     25  out       176.00      60
+1        J Suchith          RCB    30     27  out       111.11      34
+2    Harpreet Brar          RCB    28     23  out       121.74      29
+3        RD Chahar          RCB    24     13  N/O       184.62      32
+4  Ramandeep Singh          RCB    12     12  out       100.00      11
+5       RD Gaikwad          RCB    10     10  out       100.00      10
+6          C Green          RCB     2      9  out        22.22      -5
+7         A Badoni          RCB     0      1  out         0.00      -6
+8       SO Hetmyer          RCB     0      1  out         0.00      -6
+  
+Score :: 152-8  (20.0), run-rate = 7.6
+******************************
+******************************
+SRH wins!!
+******************************
+The Player of the Match is ~~ LS Livingstone

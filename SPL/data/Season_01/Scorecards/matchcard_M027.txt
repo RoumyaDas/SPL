@@ -1,0 +1,53 @@
+Match between SRH(H) and PBKS !! 
+innings 1
+SRH BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+          bowler bowling_team  runs  balls  wkts  dots  economy  points
+0   Mukesh Kumar          SRH    43     24     1     7    10.75      24
+1  Kuldeep Yadav          SRH    46     24     1     6    11.50      22
+2      KH Pandya          SRH    30     24     0     6     7.50       1
+3     C Sakariya          SRH    31     24     0     7     7.75       1
+4      AJ Hosein          SRH    44     24     0     3    11.00      -1
+----------
+PBKS BATTING --
+^^^^^^^^^^^^^^^^^^^^
+     striker batting_team  runs  balls  out  strike_rate  points
+0  H Klaasen         PBKS    74     52  N/O       142.31      93
+1  Q de Kock         PBKS    70     30  out       233.33      98
+2  RG Sharma         PBKS    25     20  N/O       125.00      25
+3    RR Pant         PBKS    21     18  out       116.67      21
+  
+Score :: 198-2  (20.0), run-rate = 9.9
+******************************
+******************************
+innings 2
+PBKS BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+              bowler bowling_team  runs  balls  wkts  dots  economy  points
+0  Washington Sundar         PBKS    52     24     5     7    13.00     136
+1           CV Varun         PBKS    27     24     2    10     6.75      54
+2       Ravi Bishnoi         PBKS    20     24     1    12     5.00      32
+3           HV Patel         PBKS    16     18     1     7     5.33      30
+4           TA Boult         PBKS    36     24     1     6     9.00      26
+----------
+SRH BATTING --
+^^^^^^^^^^^^^^^^^^^^
+           striker batting_team  runs  balls outs  strike_rate  points
+0   P Simran Singh          SRH    51     33  out       154.55      71
+1         KL Rahul          SRH    50     39  out       128.21      61
+2    Kuldeep Yadav          SRH    10     11  out        90.91       9
+3       C Sakariya          SRH     9      7  N/O       128.57      10
+4        MK Lomror          SRH     8      4  out       200.00      15
+5          VR Iyer          SRH     7      4  out       175.00      14
+6       JG Bethell          SRH     6      5  out       120.00       5
+7        AJ Hosein          SRH     5      7  out        71.43       4
+8        KH Pandya          SRH     0      1  out         0.00      -6
+9   LS Livingstone          SRH     0      1  out         0.00      -6
+10    Mukesh Kumar          SRH     0      4  out         0.00      -7
+  
+Score :: 154-10  (19.0), run-rate = 8.11
+******************************
+******************************
+PBKS wins!!
+******************************
+The Player of the Match is ~~ Washington Sundar

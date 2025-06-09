@@ -1,0 +1,57 @@
+Match between CSK(H) and MI !! 
+innings 1
+CSK BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+             bowler bowling_team  runs  balls  wkts  dots  economy  points
+0       M Siddharth          CSK    22     24     4    10     5.50     114
+1       T Natarajan          CSK    26     18     3     6     8.67      80
+2          AR Patel          CSK    23     18     2     7     7.67      51
+3  Fazalhaq Farooqi          CSK    31     24     1     6     7.75      26
+4         YS Chahal          CSK    16     12     0     4     8.00       1
+----------
+MI BATTING --
+^^^^^^^^^^^^^^^^^^^^
+            striker batting_team  runs  balls  out  strike_rate  points
+0   B Sai Sudharsan           MI    27     23  out       117.39      28
+1    Mohammed Siraj           MI    23      9  out       255.56      33
+2         HH Pandya           MI    19     17  N/O       111.76      19
+3        PJ Cummins           MI    17     15  out       113.33      17
+4          RK Singh           MI    13     10  out       130.00      13
+5        J Anderson           MI     6      4  out       150.00       8
+6   Abhishek Sharma           MI     5      5  out       100.00       5
+7           R Parag           MI     5      7  out        71.43       4
+8   M Shahrukh Khan           MI     1      4  out        25.00      -5
+9      M Theekshana           MI     0      1  out         0.00      -6
+10         N Pooran           MI     0      2  out         0.00      -6
+  
+Score :: 119-10  (16.0), run-rate = 7.44
+******************************
+******************************
+innings 2
+MI BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+            bowler bowling_team  runs  balls  wkts  dots  economy  points
+0       PJ Cummins           MI    20     18     2     9     6.67      54
+1        HH Pandya           MI    26     12     2     5    13.00      45
+2  Abhishek Sharma           MI     4      6     0     3     4.00       6
+3     M Theekshana           MI    10     12     0     5     5.00       5
+4   Mohammed Siraj           MI    34     18     0     4    11.33      -3
+5       J Anderson           MI    25      9     0     1    16.67      -5
+----------
+CSK BATTING --
+^^^^^^^^^^^^^^^^^^^^
+        striker batting_team  runs  balls outs  strike_rate  points
+0      AR Patel          CSK    38     20  N/O       190.00      52
+1      T Stubbs          CSK    27     16  N/O       168.75      34
+2  F du Plessis          CSK    23     16  out       143.75      27
+3       TM Head          CSK    12      5  out       240.00      19
+4    RM Patidar          CSK     9     10  out        90.00       8
+5   Tilak Varma          CSK     5      6  out        83.33       4
+6      MS Dhoni          CSK     4      2  out       200.00      10
+  
+Score :: 121-5  (12.3), run-rate = 9.68
+******************************
+******************************
+CSK wins!!
+******************************
+The Player of the Match is ~~ M Siddharth

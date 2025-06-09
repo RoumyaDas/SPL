@@ -1,0 +1,53 @@
+Match between LSG(H) and CSK !! 
+innings 1
+LSG BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+           bowler bowling_team  runs  balls  wkts  dots  economy  points
+0         A Zampa          LSG    33     24     2     9     8.25      52
+1  Arshdeep Singh          LSG    39     24     2    10     9.75      52
+2        A Nortje          LSG    23     24     1     9     5.75      31
+3       BA Stokes          LSG     8      6     0     0     8.00       0
+4        WG Jacks          LSG    24     18     0     4     8.00       1
+5   Shahbaz Ahmed          LSG    49     24     0     4    12.25      -5
+----------
+CSK BATTING --
+^^^^^^^^^^^^^^^^^^^^
+        striker batting_team  runs  balls  out  strike_rate  points
+0      T Stubbs          CSK    39     30  N/O       130.00      44
+1  F du Plessis          CSK    35     23  out       152.17      48
+2      AR Patel          CSK    32     20  out       160.00      43
+3    RM Patidar          CSK    25     15  out       166.67      33
+4       TM Head          CSK    20     14  out       142.86      23
+5   Tilak Varma          CSK    13     12  out       108.33      13
+6      MS Dhoni          CSK    11      6  N/O       183.33      19
+  
+Score :: 180-5  (20.0), run-rate = 9.0
+******************************
+******************************
+innings 2
+CSK BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+            bowler bowling_team  runs  balls  wkts  dots  economy  points
+0      T Natarajan          CSK    27     24     1     9     6.75      29
+1         AR Patel          CSK    35     24     1     6     8.75      26
+2      M Siddharth          CSK    40     22     1     6    10.91      24
+3  Suryansh Shedge          CSK    39     18     1     4    13.00      20
+4     Jagjit Singh          CSK    43     18     1     4    14.33      20
+----------
+LSG BATTING --
+^^^^^^^^^^^^^^^^^^^^
+        striker batting_team  runs  balls outs  strike_rate  points
+0       SS Iyer          LSG    50     34  N/O       147.06      64
+1  Shubman Gill          LSG    41     24  out       170.83      57
+2     BA Stokes          LSG    35     14  out       250.00      52
+3   Abdul Samad          LSG    29     11  N/O       263.64      41
+4   Dhruv Jurel          LSG    21     20  out       105.00      18
+5      WG Jacks          LSG     1      2  out        50.00      -3
+6     A Manohar          LSG     0      1  out         0.00      -6
+  
+Score :: 184-5  (17.4), run-rate = 10.42
+******************************
+******************************
+LSG wins!!
+******************************
+The Player of the Match is ~~ AR Patel

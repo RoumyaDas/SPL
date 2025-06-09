@@ -1,0 +1,52 @@
+Match between MI(H) and RR !! 
+innings 1
+RR BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+           bowler bowling_team  runs  balls  wkts  dots  economy  points
+0      GJ Maxwell           RR     4      6     1     3     4.00      31
+1    JR Hazlewood           RR    33     24     1     9     8.25      27
+2    TU Deshpande           RR    22     18     0     6     7.33       1
+3  Sandeep Sharma           RR    32     24     0    12     8.00       3
+4       SP Narine           RR    37     24     0     6     9.25       1
+5          S Dube           RR    48     24     0     6    12.00      -2
+----------
+MI BATTING --
+^^^^^^^^^^^^^^^^^^^^
+           striker batting_team  runs  balls  out  strike_rate  points
+0  Abhishek Sharma           MI    92     54  N/O       170.37     120
+1         N Pooran           MI    71     49  out       144.90      90
+2          R Parag           MI    11     15  N/O        73.33      10
+3  B Sai Sudharsan           MI     0      3  out         0.00      -6
+  
+Score :: 180-2  (20.0), run-rate = 9.0
+******************************
+******************************
+innings 2
+MI BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+           bowler bowling_team  runs  balls  wkts  dots  economy  points
+0    M Theekshana           MI    48     24     3     8    12.00      77
+1      PJ Cummins           MI    18     24     2    17     4.50      60
+2       HH Pandya           MI    19     20     1    12     5.70      32
+3      J Anderson           MI    49     24     1    10    12.25      21
+4  Mohammed Siraj           MI    47     24     0     3    11.75      -3
+----------
+RR BATTING --
+^^^^^^^^^^^^^^^^^^^^
+        striker batting_team  runs  balls outs  strike_rate  points
+0        S Dube           RR    66     43  N/O       153.49      87
+1   YBK Jaiswal           RR    40     17  out       235.29      58
+2    GJ Maxwell           RR    25     13  out       192.31      35
+3       KK Nair           RR    15     10  out       150.00      19
+4     DA Miller           RR    11     11  out       100.00      11
+5  JR Hazlewood           RR     6      4  N/O       150.00       9
+6     JM Sharma           RR     6      9  out        66.67       3
+7     SP Narine           RR     5      4  out       125.00       5
+8   RA Tripathi           RR     5      5  out       100.00       5
+  
+Score :: 185-7  (19.2), run-rate = 9.57
+******************************
+******************************
+RR wins!!
+******************************
+The Player of the Match is ~~ Abhishek Sharma

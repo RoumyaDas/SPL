@@ -1,0 +1,49 @@
+Match between DC(H) and LSG !! 
+innings 1
+DC BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+         bowler bowling_team  runs  balls  wkts  dots  economy  points
+0     MM Sharma           DC    35     24     1     6     8.75      26
+1     RA Jadeja           DC    27     24     0     8     6.75       4
+2       S Gopal           DC     8      6     0     3     8.00       0
+3  PWH de Silva           DC    33     24     0     7     8.25       1
+4    AD Russell           DC    35     24     0     4     8.75       1
+5      K Rabada           DC    28     18     0     6     9.33       1
+----------
+LSG BATTING --
+^^^^^^^^^^^^^^^^^^^^
+        striker batting_team  runs  balls  out  strike_rate  points
+0  Shubman Gill          LSG    78     55  N/O       141.82      95
+1       SS Iyer          LSG    49     30  N/O       163.33      62
+2      WG Jacks          LSG    38     35  out       108.57      43
+  
+Score :: 168-1  (20.0), run-rate = 8.4
+******************************
+******************************
+innings 2
+LSG BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+           bowler bowling_team  runs  balls  wkts  dots  economy  points
+0        NT Ellis          LSG    50     24     2     3    12.50      44
+1      M Markande          LSG    29     18     1     6     9.67      26
+2        WG Jacks          LSG     5      6     0     1     5.00       4
+3   Shahbaz Ahmed          LSG    24     24     0     9     6.00       4
+4         A Zampa          LSG    25     24     0     8     6.25       4
+5  Arshdeep Singh          LSG    30     24     0    10     7.50       2
+----------
+DC BATTING --
+^^^^^^^^^^^^^^^^^^^^
+       striker batting_team  runs  balls outs  strike_rate  points
+0      V Kohli           DC    73     43  N/O       169.77      96
+1     SA Yadav           DC    34     33  out       103.03      39
+2    DA Warner           DC    16     11  out       145.45      19
+3  Urvil Patel           DC    15      9  out       166.67      20
+4    V Shankar           DC    11     12  out        91.67      11
+5   AD Russell           DC     9     13  N/O        69.23       6
+  
+Score :: 164-4  (20.0), run-rate = 8.2
+******************************
+******************************
+LSG wins!!
+******************************
+The Player of the Match is ~~ V Kohli

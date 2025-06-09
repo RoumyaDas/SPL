@@ -1,0 +1,57 @@
+Match between RR(H) and KKR !! 
+innings 1
+RR BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+               bowler bowling_team  runs  balls  wkts  dots  economy  points
+0        TU Deshpande           RR    30     24     3    10      7.5      81
+1  Azmatullah Omarzai           RR    26     24     1    11      6.5      29
+2      Sandeep Sharma           RR    34     24     1     9      8.5      27
+3        JR Hazlewood           RR    36     24     1    10      9.0      27
+4          GJ Maxwell           RR    46     24     0     3     11.5      -3
+----------
+KKR BATTING --
+^^^^^^^^^^^^^^^^^^^^
+        striker batting_team  runs  balls  out  strike_rate  points
+0     MK Pandey          KKR    35     24  N/O       145.83      43
+1     AM Rahane          KKR    34     25  out       136.00      44
+2        N Rana          KKR    29     13  out       223.08      40
+3  Ishan Kishan          KKR    29     27  out       107.41      30
+4     G Coetzee          KKR    18     14  N/O       128.57      18
+5    JC Buttler          KKR    13     10  out       130.00      14
+6  RD Rickelton          KKR     6      4  out       150.00       8
+7      R Ashwin          KKR     3      3  out       100.00       2
+  
+Score :: 172-6  (20.0), run-rate = 8.6
+******************************
+******************************
+innings 2
+KKR BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+      bowler bowling_team  runs  balls  wkts  dots  economy  points
+0   MA Starc          KKR    33     20     5    10     9.90     143
+1    B Kumar          KKR    49     24     2     8    12.25      46
+2   VG Arora          KKR    12     12     1     6     6.00      28
+3  G Coetzee          KKR    13     12     1     6     6.50      28
+4   R Ashwin          KKR    42     18     0     3    14.00      -5
+----------
+RR BATTING --
+^^^^^^^^^^^^^^^^^^^^
+               striker batting_team  runs  balls outs  strike_rate  points
+0   Azmatullah Omarzai           RR    34     18  out       188.89      47
+1           GJ Maxwell           RR    28     18  out       155.56      36
+2               S Dube           RR    22      8  out       275.00      32
+3          YBK Jaiswal           RR    18     15  out       120.00      19
+4         JR Hazlewood           RR    16      8  out       200.00      24
+5         TU Deshpande           RR     9      4  out       225.00      16
+6          RA Tripathi           RR     9      7  out       128.57      10
+7             MP Yadav           RR     6      5  out       120.00       6
+8            DA Miller           RR     4      2  out       200.00      10
+9       Sandeep Sharma           RR     1      1  N/O       100.00       1
+10           JM Sharma           RR     0      1  out         0.00      -6
+  
+Score :: 149-10  (14.2), run-rate = 10.4
+******************************
+******************************
+KKR wins!!
+******************************
+The Player of the Match is ~~ MA Starc

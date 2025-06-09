@@ -1,0 +1,54 @@
+Match between CSK(H) and KKR !! 
+innings 1
+CSK BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+             bowler bowling_team  runs  balls  wkts  dots  economy  points
+0      Jagjit Singh          CSK    23     21     2     6     6.57      53
+1       T Natarajan          CSK    15     12     2     5     7.50      51
+2          AR Patel          CSK    27     18     2     5     9.00      51
+3   Suryansh Shedge          CSK    44     24     2     6    11.00      49
+4  Fazalhaq Farooqi          CSK    49     24     2     8    12.25      46
+----------
+KKR BATTING --
+^^^^^^^^^^^^^^^^^^^^
+         striker batting_team  runs  balls  out  strike_rate  points
+0         N Rana          KKR    56     28  out       200.00      79
+1      AM Rahane          KKR    44     20  out       220.00      62
+2       MA Starc          KKR    16      6  out       266.67      23
+3       R Ashwin          KKR    12     12  out       100.00      12
+4   RD Rickelton          KKR    11      9  out       122.22      11
+5       SB Dubey          KKR     9     10  out        90.00       8
+6      SM Curran          KKR     3      5  out        60.00       0
+7       VG Arora          KKR     2      3  out        66.67       0
+8        B Kumar          KKR     2      4  N/O        50.00      -2
+9     JC Buttler          KKR     0      1  out         0.00      -6
+10     MK Pandey          KKR     0      1  out         0.00      -6
+  
+Score :: 159-10  (16.3), run-rate = 9.64
+******************************
+******************************
+innings 2
+KKR BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+      bowler bowling_team  runs  balls  wkts  dots  economy  points
+0   MA Starc          KKR    31     24     2    12     7.75      53
+1    B Kumar          KKR    45     23     1     6    11.74      22
+2   R Ashwin          KKR    28     24     0     9     7.00       4
+3  SM Curran          KKR    26     18     0     8     8.67       2
+4   VG Arora          KKR    27     18     0     7     9.00       1
+----------
+CSK BATTING --
+^^^^^^^^^^^^^^^^^^^^
+        striker batting_team  runs  balls outs  strike_rate  points
+0   Tilak Varma          CSK    75     49  N/O       153.06      99
+1       TM Head          CSK    30     23  out       130.43      36
+2      T Stubbs          CSK    27     22  N/O       122.73      29
+3    RM Patidar          CSK    15     10  out       150.00      18
+4  F du Plessis          CSK     6      3  out       200.00      13
+  
+Score :: 160-3  (17.5), run-rate = 8.97
+******************************
+******************************
+CSK wins!!
+******************************
+The Player of the Match is ~~ Tilak Varma

@@ -1,0 +1,59 @@
+Match between PBKS(H) and CSK !! 
+innings 1
+PBKS BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+              bowler bowling_team  runs  balls  wkts  dots  economy  points
+0           CV Varun         PBKS    35     24     3     9     8.75      81
+1           HV Patel         PBKS    35     24     2     9     8.75      52
+2       Ravi Bishnoi         PBKS    12     18     1     9     4.00      33
+3  Washington Sundar         PBKS    47     24     1     6    11.75      22
+4         MP Stoinis         PBKS    10      6     0     1    10.00      -1
+5           TA Boult         PBKS    47     24     0     5    11.75      -2
+----------
+CSK BATTING --
+^^^^^^^^^^^^^^^^^^^^
+           striker batting_team  runs  balls  out  strike_rate  points
+0       RM Patidar          CSK    43     17  out       252.94      62
+1     F du Plessis          CSK    43     23  out       186.96      61
+2      Tilak Varma          CSK    32     23  out       139.13      42
+3         MS Dhoni          CSK    22     15  N/O       146.67      26
+4  Suryansh Shedge          CSK    13     11  out       118.18      13
+5     Jagjit Singh          CSK    11     12  N/O        91.67      10
+6         T Stubbs          CSK    10      9  out       111.11      11
+7          TM Head          CSK     9      7  out       128.57      10
+8         AR Patel          CSK     1      3  out        33.33      -5
+  
+Score :: 186-7  (20.0), run-rate = 9.3
+******************************
+******************************
+innings 2
+CSK BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+            bowler bowling_team  runs  balls  wkts  dots  economy  points
+0         AR Patel          CSK    29     24     5     8     7.25     143
+1  Suryansh Shedge          CSK    37     24     2    10     9.25      52
+2      T Natarajan          CSK    32     17     1     2    11.29      21
+3     Jagjit Singh          CSK    54     24     1     3    13.50      19
+4      M Siddharth          CSK    33     24     0    11     8.25       2
+----------
+PBKS BATTING --
+^^^^^^^^^^^^^^^^^^^^
+              striker batting_team  runs  balls outs  strike_rate  points
+0      Shashank Singh         PBKS    63     31  out       203.23      86
+1           Q de Kock         PBKS    32     22  out       145.45      41
+2   Washington Sundar         PBKS    29     15  out       193.33      39
+3             RR Pant         PBKS    21     14  out       150.00      23
+4            TA Boult         PBKS    15      7  N/O       214.29      22
+5           RG Sharma         PBKS    15      9  out       166.67      20
+6           H Klaasen         PBKS     6     10  out        60.00       2
+7            CV Varun         PBKS     1      2  out        50.00      -3
+8            HV Patel         PBKS     0      1  out         0.00      -6
+9          MP Stoinis         PBKS     0      1  out         0.00      -6
+10       Ravi Bishnoi         PBKS     0      1  out         0.00      -6
+  
+Score :: 185-10  (18.5), run-rate = 9.82
+******************************
+******************************
+CSK wins!!
+******************************
+The Player of the Match is ~~ AR Patel
