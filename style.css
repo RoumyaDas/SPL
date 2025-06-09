@@ -8,7 +8,7 @@ body {
 }
 
 /* Container for Career tab */
-#career {
+#careerSection {
   background-color: #cce0ff; /* blue-ish background */
   padding: 20px;
   min-height: 600px;
@@ -41,7 +41,7 @@ body {
 }
 
 /* Tables styling */
-#career table {
+#careerSection table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 15px;
@@ -52,7 +52,7 @@ body {
 }
 
 /* Table header */
-#career th {
+#careerSection th {
   background-color: #0074D9;
   color: white;
   font-weight: 700;
@@ -66,22 +66,12 @@ body {
   transition: background-color 0.25s ease;
 }
 
-#career th:hover {
+#careerSection th:hover {
   background-color: #005bb5;
 }
 
-/* Filter input row */
-.filter-row input {
-  width: 90%;
-  padding: 6px 8px;
-  box-sizing: border-box;
-  font-size: 0.85em;
-  border: 1px solid #bbb;
-  border-radius: 3px;
-}
-
 /* Table cells */
-#career td {
+#careerSection td {
   padding: 10px 15px;
   border-bottom: 1px solid #e0e6f1;
   font-size: 14px;
@@ -90,7 +80,7 @@ body {
 }
 
 /* First column - player names */
-#career td:first-child {
+#careerSection td:first-child {
   font-size: 13px;
   font-weight: 600;
   color: #003366;
@@ -98,7 +88,7 @@ body {
 }
 
 /* Row hover effect */
-#career tbody tr:hover {
+#careerSection tbody tr:hover {
   background-color: #f1f9ff;
 }
 
@@ -131,11 +121,11 @@ body {
 
 /* Responsive */
 @media (max-width: 768px) {
-  #career {
+  #careerSection {
     padding: 10px;
   }
 
-  #career th, #career td {
+  #careerSection th, #careerSection td {
     padding: 8px 10px;
     font-size: 13px;
   }
