@@ -352,28 +352,6 @@
       renderCareerSection(tab, csvData[tab], document.getElementById("careerSearch").value);
     });
 
-    // Create and insert match selector dropdown for flows and scorecards inside each season content once
-function createMatchSelector(seasonId, container, type, maxMatches) {
-  // Avoid duplicate dropdowns
-  if (container.querySelector(".match-select")) return;
-
-  const select = document.createElement("select");
-  select.classList.add("match-select");
-  select.style.margin = "10px 0";
-  for (let i = 1; i <= maxMatches; i++) {
-    let option = document.createElement("option");
-    option.value = i;
-    option.textContent = `Match ${i.toString().padStart(3, "0")}`;
-    select.appendChild(option);
-  }
-
-  // When changed, reload content
-  select.addEventListener("change", () => {
-    loadSeasonSubtabContent(seasonId, type, select.value, container);
-  });
-
-  container.prepend(select);
-}
 
 // Load the text file for given season, type and match number
 function loadSeasonSubtabContent(seasonId, type, matchNum, container) {
@@ -395,9 +373,11 @@ function loadSeasonSubtabContent(seasonId, type, matchNum, container) {
     return;
   }
 
+  console.log("Fetching file URL:", fileUrl); // Debug line
+
   fetch(fileUrl)
     .then(res => {
-      if (!res.ok) throw new Error("File not found");
+      if (!res.ok) throw new Error(`File not found: ${fileUrl}`);
       return res.text();
     })
     .then(text => {
@@ -409,6 +389,29 @@ function loadSeasonSubtabContent(seasonId, type, matchNum, container) {
     });
 }
 
+
+// Create and insert match selector dropdown for flows and scorecards inside each season content once
+function createMatchSelector(seasonId, container, type, maxMatches) {
+  // Avoid duplicate dropdowns
+  if (container.querySelector(".match-select")) return;
+
+  const select = document.createElement("select");
+  select.classList.add("match-select");
+  select.style.margin = "10px 0";
+  for (let i = 1; i <= maxMatches; i++) {
+    let option = document.createElement("option");
+    option.value = i;
+    option.textContent = `Match ${i.toString().padStart(3, "0")}`;
+    select.appendChild(option);
+  }
+
+  // When changed, reload content
+  select.addEventListener("change", () => {
+    loadSeasonSubtabContent(seasonId, type, select.value, container);
+  });
+
+  container.prepend(select);
+}
 // Main season subtab click handler
 document.querySelectorAll(".season-subtab").forEach(btn => {
   btn.addEventListener("click", () => {
