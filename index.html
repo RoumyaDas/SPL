@@ -5,8 +5,6 @@
   <link rel="stylesheet" href="style.css">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Roumya's IPL Stats</title>
-  <link rel="stylesheet" href="style.css" />
   <style>
     /* Include this in case you want to inline critical CSS */
     .tab-content { display: none; padding: 20px; }
@@ -38,22 +36,43 @@
       border-collapse: collapse;
       width: 100%;
       margin-top: 15px;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      color: #333;
     }
 
     th, td {
       border: 1px solid #ccc;
-      padding: 8px;
+      padding: 8px 12px;
       text-align: left;
+    }
+
+    th {
+      background-color: #f0f8ff;
+      user-select: none;
+    }
+
+    th:hover {
+      background-color: #d0e4ff;
     }
 
     input[type="text"] {
       margin-top: 10px;
       padding: 5px;
       width: 250px;
+      font-size: 14px;
     }
 
     .tabs button {
       margin-right: 5px;
+    }
+
+    /* Filter inputs below headers */
+    .filter-row input {
+      width: 90%;
+      padding: 4px 6px;
+      box-sizing: border-box;
+      font-size: 0.85em;
     }
   </style>
 </head>
@@ -135,69 +154,99 @@
       return { headers, rows };
     }
 
-    function renderCareerSection(type, data, searchTerm = "", sortConfig = {}) {
-        const head = document.getElementById(`${type}Head`);
-        const body = document.getElementById(`${type}Body`);
-        head.innerHTML = "";
-        body.innerHTML = "";
+    function renderCareerSection(type, data, searchTerm = "", sortConfig = {}, columnFilters = {}) {
+      const head = document.getElementById(`${type}Head`);
+      const body = document.getElementById(`${type}Body`);
+      head.innerHTML = "";
+      body.innerHTML = "";
 
-        const tr = document.createElement("tr");
-        data.headers.forEach((h, idx) => {
-            const th = document.createElement("th");
-            th.textContent = h;
-            th.style.cursor = "pointer";
+      // First header row (column titles with sorting)
+      const tr1 = document.createElement("tr");
+      data.headers.forEach((h, idx) => {
+        const th = document.createElement("th");
+        th.textContent = h;
+        th.style.cursor = "pointer";
 
-            // Add sort indicator
-            if (sortConfig.column === idx) {
-            th.textContent += sortConfig.order === "asc" ? " ▲" : " ▼";
+        // Add sort indicator
+        if (sortConfig.column === idx) {
+          th.textContent += sortConfig.order === "asc" ? " ▲" : " ▼";
+        }
+
+        // Sort on click
+        th.addEventListener("click", () => {
+          const currentOrder = (sortConfig.column === idx && sortConfig.order === "asc") ? "desc" : "asc";
+          const sortedRows = [...data.rows].sort((a, b) => {
+            const aVal = a[h];
+            const bVal = b[h];
+            const isNumeric = !isNaN(parseFloat(aVal)) && !isNaN(parseFloat(bVal));
+            if (isNumeric) {
+              return currentOrder === "asc" ? aVal - bVal : bVal - aVal;
+            } else {
+              return currentOrder === "asc"
+                ? aVal.localeCompare(bVal)
+                : bVal.localeCompare(aVal);
             }
+          });
 
-            // Sort on click
-            th.addEventListener("click", () => {
-            const currentOrder = (sortConfig.column === idx && sortConfig.order === "asc") ? "desc" : "asc";
-            const sortedRows = [...data.rows].sort((a, b) => {
-                const aVal = a[h];
-                const bVal = b[h];
-                const isNumeric = !isNaN(parseFloat(aVal)) && !isNaN(parseFloat(bVal));
-
-                if (isNumeric) {
-                return currentOrder === "asc" ? aVal - bVal : bVal - aVal;
-                } else {
-                return currentOrder === "asc"
-                    ? aVal.localeCompare(bVal)
-                    : bVal.localeCompare(aVal);
-                }
-            });
-
-            renderCareerSection(type, { headers: data.headers, rows: sortedRows }, document.getElementById("careerSearch").value, {
-                column: idx,
-                order: currentOrder
-            });
-            });
-
-            tr.appendChild(th);
+          renderCareerSection(type, { headers: data.headers, rows: sortedRows }, document.getElementById("careerSearch").value, {
+            column: idx,
+            order: currentOrder
+          }, columnFilters);
         });
-        head.appendChild(tr);
 
-        let filtered = data.rows;
-        if (searchTerm) {
-            filtered = filtered.filter(row =>
-            row[data.headers[0]].toLowerCase().includes(searchTerm.toLowerCase())
-            );
-        }
+        tr1.appendChild(th);
+      });
+      head.appendChild(tr1);
 
-        filtered.slice(0, 20).forEach(row => {
-            const tr = document.createElement("tr");
-            data.headers.forEach(h => {
-            const td = document.createElement("td");
-            td.textContent = row[h];
-            tr.appendChild(td);
-            });
-            body.appendChild(tr);
+      // Second header row (filters)
+      const tr2 = document.createElement("tr");
+      tr2.classList.add("filter-row");
+      data.headers.forEach((h, idx) => {
+        const th = document.createElement("th");
+        const input = document.createElement("input");
+        input.type = "text";
+        input.placeholder = `Filter ${h}`;
+        input.value = columnFilters[idx] || "";
+
+        input.addEventListener("input", () => {
+          columnFilters[idx] = input.value.toLowerCase();
+          renderCareerSection(type, data, document.getElementById("careerSearch").value, sortConfig, columnFilters);
         });
-        }
 
+        th.appendChild(input);
+        tr2.appendChild(th);
+      });
+      head.appendChild(tr2);
 
+      // Filter rows by careerSearch (player name) and columnFilters
+      let filtered = data.rows;
+
+      // Filter by careerSearch input (player name) - assuming first column is player name
+      if (searchTerm) {
+        filtered = filtered.filter(row => row[data.headers[0]].toLowerCase().includes(searchTerm.toLowerCase()));
+      }
+
+      // Filter by each column filter input
+      filtered = filtered.filter(row => {
+        return data.headers.every((h, idx) => {
+          if (!columnFilters[idx]) return true; // no filter for this column
+          return row[h].toLowerCase().includes(columnFilters[idx]);
+        });
+      });
+
+      // Show first 20 rows
+      filtered.slice(0, 20).forEach(row => {
+        const tr = document.createElement("tr");
+        data.headers.forEach(h => {
+          const td = document.createElement("td");
+          td.textContent = row[h];
+          tr.appendChild(td);
+        });
+        body.appendChild(tr);
+      });
+    }
+
+    // Initial CSV loading and rendering batting by default
     for (let type in csvUrls) {
       fetch(csvUrls[type])
         .then(res => res.text())
@@ -210,16 +259,18 @@
         });
     }
 
+    // Career subtabs navigation and rendering
     document.querySelectorAll(".career-subtab").forEach(btn => {
       btn.addEventListener("click", () => {
         document.querySelectorAll(".career-subtab").forEach(b => b.classList.remove("active"));
         document.querySelectorAll(".career-table").forEach(t => t.classList.remove("active"));
         btn.classList.add("active");
-        document.getElementById(btn.dataset.tab).classList.add("active");
-        renderCareerSection(btn.dataset.tab, csvData[btn.dataset.tab], document.getElementById("careerSearch").value);
+        const activeTab = btn.dataset.tab;
+        renderCareerSection(activeTab, csvData[activeTab], document.getElementById("careerSearch").value);
       });
     });
 
+    // Global player search input
     document.getElementById("careerSearch").addEventListener("input", () => {
       const tab = document.querySelector(".career-subtab.active").dataset.tab;
       renderCareerSection(tab, csvData[tab], document.getElementById("careerSearch").value);
