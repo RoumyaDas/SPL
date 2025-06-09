@@ -77,26 +77,6 @@ document.querySelectorAll(".main-tab").forEach(btn => {
     });
     head.appendChild(tr);
   
-    // Optional: add filter input row below headers (if needed)
-    /*
-    const filterRow = document.createElement("tr");
-    filterRow.classList.add("filter-row");
-    data.headers.forEach((h, idx) => {
-      const th = document.createElement("th");
-      if (idx === 0) { // only filter on player name column or all?
-        const input = document.createElement("input");
-        input.type = "text";
-        input.placeholder = "Filter...";
-        input.addEventListener("input", (e) => {
-          renderCareerSection(type, data, e.target.value, sortConfig);
-        });
-        th.appendChild(input);
-      }
-      filterRow.appendChild(th);
-    });
-    head.appendChild(filterRow);
-    */
-  
     // Filter rows based on searchTerm on first column (player name)
     let filtered = data.rows;
     if (searchTerm) {
@@ -117,18 +97,24 @@ document.querySelectorAll(".main-tab").forEach(btn => {
     });
   }
   
-  // Fetch all CSV data initially
-  for (let type in csvUrls) {
-    fetch(csvUrls[type])
-      .then(res => res.text())
-      .then(text => {
-        const parsed = parseCSV(text);
-        csvData[type] = parsed;
-        if (type === "batting") {
-          renderCareerSection("batting", parsed);
-        }
-      });
-  }
+  // Fetch all CSV data initially and render batting first
+  Promise.all(
+    Object.entries(csvUrls).map(([type, url]) =>
+      fetch(url)
+        .then(res => res.text())
+        .then(text => {
+          csvData[type] = parseCSV(text);
+        })
+    )
+  ).then(() => {
+    // Render batting first by default
+    renderCareerSection("batting", csvData["batting"]);
+  
+    // Activate batting sub-tab
+    document.querySelectorAll(".career-subtab").forEach(b => b.classList.remove("active"));
+    const battingTab = document.querySelector(".career-subtab[data-tab='batting']");
+    if (battingTab) battingTab.classList.add("active");
+  });
   
   // Sub-tab switching inside career tab
   document.querySelectorAll(".career-subtab").forEach(btn => {
@@ -148,4 +134,3 @@ document.querySelectorAll(".main-tab").forEach(btn => {
     renderCareerSection(tab, csvData[tab], document.getElementById("careerSearch").value);
   });
   
-
