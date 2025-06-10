@@ -41,6 +41,15 @@ document.querySelectorAll(".season-tab").forEach(btn => {
       });
   }
   
+  const tabDisplayNames = [
+    "Orange-cap leaderboard", "Purple-cap leaderboard", "points table", "MVP", "Fantasy pts","Bowler ranking","Batter ranking",
+     "Fielding","Most Dots",
+    "Most 4s", "Most 6s", "Most_Run_Contribution", "Most_Wkt_Contribution", "Most_3wkt_hauls","Most_50+",
+    "Lowest_Economy", "Best_Strike_Rate", "Team_best_Performance", "Match_Summary", "exit_pt_stats",
+    "phase_bowl_stats", "Phase_wise_team_bowling", "Phase_wise_team_batting"
+  ];
+
+  
   // Create match selector dropdown
   function createMatchSelector(seasonId, container, type, maxMatches) {
     if (container.querySelector(".match-select")) return;
@@ -129,13 +138,14 @@ function loadStatsTabs(seasonId) {
   for (let i = 1; i <= 23; i++) {
       let tabId = `TAB${String(i).padStart(2, '0')}`;
       let button = document.createElement("button");
-      button.textContent = tabId;
+      button.textContent = tabDisplayNames[i - 1] || tabId; // fallback if name missing
       button.onclick = () => loadCSVData(seasonId, tabId);
       buttonContainer.appendChild(button);
   }
 
   loadCSVData(seasonId, "TAB01");
 }
+
 
 
 function loadCSVData(seasonId, tabId) {
