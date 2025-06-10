@@ -132,7 +132,7 @@ function loadStatsTabs(seasonId) {
     }
 
     // Optionally load first CSV by default
-    loadCSVData(seasonId, "tab01");
+    loadCSVData(seasonId, "TAB01");
 }
 
 function loadCSVData(seasonId, tabId) {
