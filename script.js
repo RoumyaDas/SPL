@@ -163,8 +163,13 @@ function loadCSVData(seasonId, tabId) {
       });
 }
 
+let currentSort = { columnIndex: null, ascending: true };
+
 function renderFilteredTable(headers, rows) {
   const tableDiv = document.getElementById("csv-table-container");
+
+  // Show only first 20 rows
+  const visibleRows = rows.slice(0, 20);
 
   let html = `
     <table id="csv-table" style="
@@ -178,19 +183,20 @@ function renderFilteredTable(headers, rows) {
         <tr style="background-color: #f2f2f2;">
   `;
 
-  headers.forEach(header => {
+  headers.forEach((header, index) => {
     html += `<th style="
       border: 1px solid #ddd;
       padding: 8px;
       text-align: left;
-    ">${header}</th>`;
+      cursor: pointer;
+    " onclick="sortTable(${index})">${header} &#x25B4;&#x25BE;</th>`;
   });
 
   html += `</tr></thead><tbody>`;
 
-  for (let i = 0; i < rows.length; i++) {
+  for (let i = 0; i < visibleRows.length; i++) {
     html += `<tr style="background-color: ${i % 2 === 0 ? '#ffffff' : '#fafafa'};">`;
-    rows[i].forEach(cell => {
+    visibleRows[i].forEach(cell => {
       html += `<td style="
         border: 1px solid #ddd;
         padding: 8px;
@@ -200,9 +206,13 @@ function renderFilteredTable(headers, rows) {
   }
 
   html += `</tbody></table>`;
-
   tableDiv.innerHTML = html;
+
+  // Store latest headers & full rows for future sorting
+  tableDiv.dataset.headers = JSON.stringify(headers);
+  tableDiv.dataset.rows = JSON.stringify(rows);
 }
+
 
 
 function filterTable(query, headers, allRows) {
