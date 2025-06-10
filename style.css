@@ -7,6 +7,23 @@ body {
   color: #222;
 }
 
+.season-subtab-content {
+  display: none;
+}
+
+.season-subtab-content.active {
+  display: block;
+}
+
+.subtab-pre-content {
+  white-space: pre-wrap; 
+  background:#f9f9f9; 
+  padding:10px; 
+  border:1px solid #ccc; 
+  height: 300px; 
+  overflow-y: auto;
+}
+
 /* Container for Career tab */
 #careerSection {
   background-color: #cce0ff; /* blue-ish background */

@@ -1,161 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="script.js" defer></script>
-
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Roumya's IPL Stats</title>
   <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
   <style>
-    /* Include this in case you want to inline critical CSS */
+    /* Critical CSS (minimal) */
     .tab-content { display: none; padding: 20px; }
     .tab-content.active { display: block; }
-    .tab-content { display: none; padding: 20px; }
-    .tab-content.active { display: block; }
-
-    /* Add these season tab styles here */
-    .season-content {
-      display: none;
-    }
-    .season-content.active {
-      display: block;
-    }
-    .season-subtab-content {
-      display: none;
-    }
-    .season-subtab-content.active {
-      display: block;
-    }
-
-    .career-subtab {
-      padding: 8px 16px;
-      margin-right: 5px;
-      border: 1px solid #888;
-      background-color: #cce0ff;
-      cursor: pointer;
-      font-weight: bold;
-    }
-
-    .career-subtab.active {
-      background-color: #ffffff;
-      border-bottom: none;
-    }
-
-    .career-table {
-      display: none;
-    }
-
-    .career-table.active {
-      display: block;
-    }
-
-    table {
-      border-collapse: collapse;
-      width: 100%;
-      margin-top: 15px;
-    }
-
-    th, td {
-      border: 1px solid #ccc;
-      padding: 8px;
-      text-align: left;
-    }
-
-    input[type="text"] {
-      margin-top: 10px;
-      padding: 5px;
-      width: 250px;
-    }
-
-    .tabs button {
-      margin-right: 5px;
-    }
+    .season-content { display: none; }
+    .season-content.active { display: block; }
+    .season-subtab-content { display: none; }
+    .season-subtab-content.active { display: block; }
+    .career-table { display: none; }
+    .career-table.active { display: block; }
   </style>
 </head>
 <body>
   <h1>Welcome to SPL's Stats</h1>
   <p>All player stats are precomputed. No live updates.</p>
 
+  <!-- Main Tabs -->
   <div class="tabs">
     <button class="main-tab active" data-tab="seasons">Seasons</button>
     <button class="main-tab" data-tab="career">Career</button>
   </div>
 
+  <!-- Seasons Tab Content -->
+  <div id="seasons" class="tab-content active">
+    <h2>Season Stats</h2>
   
-    <div id="seasons" class="tab-content active">
-        <h2>Season Stats</h2>
-      
-        <div class="tabs" id="season-tabs">
-          <button class="season-tab active" data-season="01">01</button>
-          <button class="season-tab" data-season="02">02</button>
-          <button class="season-tab" data-season="03">03</button>
-        </div>
-      
-        <!-- Season content containers -->
-        <div id="season-01" class="season-content active">
-          <div class="tabs" id="season-01-subtabs">
-            <button class="season-subtab active" data-subtab="flow-01">Flow</button>
-            <button class="season-subtab" data-subtab="scorecard-01">Scorecard</button>
-            <button class="season-subtab" data-subtab="graphs-01">Graphs</button>
-          </div>
-      
-          <div id="flow-01" class="season-subtab-content active">
-            <select id="flow-select-01"></select>
-            <pre id="flow-content-01" style="white-space: pre-wrap; background:#f9f9f9; padding:10px; border:1px solid #ccc; height: 300px; overflow-y: auto;"></pre>
-          </div>
-          <div id="scorecard-01" class="season-subtab-content">
-            <select id="scorecard-select-01"></select>
-            <pre id="scorecard-content-01" style="white-space: pre-wrap; background:#f9f9f9; padding:10px; border:1px solid #ccc; height: 300px; overflow-y: auto;"></pre>
-          </div>
-          <div id="graphs-01" class="season-subtab-content">
-            <p>Graphs coming soon...</p>
-          </div>
-        </div>
-      
-        <div id="season-02" class="season-content">
-          <div class="tabs" id="season-02-subtabs">
-            <button class="season-subtab active" data-subtab="flow-02">Flow</button>
-            <button class="season-subtab" data-subtab="scorecard-02">Scorecard</button>
-            <button class="season-subtab" data-subtab="graphs-02">Graphs</button>
-          </div>
-      
-          <div id="flow-02" class="season-subtab-content active">
-            <select id="flow-select-02"></select>
-            <pre id="flow-content-02" style="white-space: pre-wrap; background:#f9f9f9; padding:10px; border:1px solid #ccc; height: 300px; overflow-y: auto;"></pre>
-          </div>
-          <div id="scorecard-02" class="season-subtab-content">
-            <select id="scorecard-select-02"></select>
-            <pre id="scorecard-content-02" style="white-space: pre-wrap; background:#f9f9f9; padding:10px; border:1px solid #ccc; height: 300px; overflow-y: auto;"></pre>
-          </div>
-          <div id="graphs-02" class="season-subtab-content">
-            <p>Graphs coming soon...</p>
-          </div>
-        </div>
-      
-        <div id="season-03" class="season-content">
-          <div class="tabs" id="season-03-subtabs">
-            <button class="season-subtab active" data-subtab="flow-03">Flow</button>
-            <button class="season-subtab" data-subtab="scorecard-03">Scorecard</button>
-            <button class="season-subtab" data-subtab="graphs-03">Graphs</button>
-          </div>
-      
-          <div id="flow-03" class="season-subtab-content active">
-            <select id="flow-select-03"></select>
-            <pre id="flow-content-03" style="white-space: pre-wrap; background:#f9f9f9; padding:10px; border:1px solid #ccc; height: 300px; overflow-y: auto;"></pre>
-          </div>
-          <div id="scorecard-03" class="season-subtab-content">
-            <select id="scorecard-select-03"></select>
-            <pre id="scorecard-content-03" style="white-space: pre-wrap; background:#f9f9f9; padding:10px; border:1px solid #ccc; height: 300px; overflow-y: auto;"></pre>
-          </div>
-          <div id="graphs-03" class="season-subtab-content">
-            <p>Graphs coming soon...</p>
-          </div>
-        </div>
+    <div class="tabs" id="season-tabs">
+      <button class="season-tab active" data-season="01">01</button>
+      <button class="season-tab" data-season="02">02</button>
+      <button class="season-tab" data-season="03">03</button>
+    </div>
+  
+    <!-- Season 01 -->
+    <div id="season-01" class="season-content active">
+      <div class="tabs" id="season-01-subtabs">
+        <button class="season-subtab active" data-subtab="flow-01">Flow</button>
+        <button class="season-subtab" data-subtab="scorecard-01">Scorecard</button>
+        <button class="season-subtab" data-subtab="graphs-01">Graphs</button>
       </div>
-      
+  
+      <div id="flow-01" class="season-subtab-content active">
+        <pre id="flow-content-01"></pre>
+      </div>
+      <div id="scorecard-01" class="season-subtab-content">
+        <pre id="scorecard-content-01"></pre>
+      </div>
+      <div id="graphs-01" class="season-subtab-content">
+        <p>Graphs coming soon...</p>
+      </div>
+    </div>
+  
+    <!-- Season 02 -->
+    <div id="season-02" class="season-content">
+      <div class="tabs" id="season-02-subtabs">
+        <button class="season-subtab active" data-subtab="flow-02">Flow</button>
+        <button class="season-subtab" data-subtab="scorecard-02">Scorecard</button>
+        <button class="season-subtab" data-subtab="graphs-02">Graphs</button>
+      </div>
+  
+      <div id="flow-02" class="season-subtab-content active">
+        <pre id="flow-content-02"></pre>
+      </div>
+      <div id="scorecard-02" class="season-subtab-content">
+        <pre id="scorecard-content-02"></pre>
+      </div>
+      <div id="graphs-02" class="season-subtab-content">
+        <p>Graphs coming soon...</p>
+      </div>
+    </div>
+  
+    <!-- Season 03 -->
+    <div id="season-03" class="season-content">
+      <div class="tabs" id="season-03-subtabs">
+        <button class="season-subtab active" data-subtab="flow-03">Flow</button>
+        <button class="season-subtab" data-subtab="scorecard-03">Scorecard</button>
+        <button class="season-subtab" data-subtab="graphs-03">Graphs</button>
+      </div>
+  
+      <div id="flow-03" class="season-subtab-content active">
+        <pre id="flow-content-03"></pre>
+      </div>
+      <div id="scorecard-03" class="season-subtab-content">
+        <pre id="scorecard-content-03"></pre>
+      </div>
+      <div id="graphs-03" class="season-subtab-content">
+        <p>Graphs coming soon...</p>
+      </div>
+    </div>
+  </div>
 
-  <div id="career" class="tab-content" style="background-color: #e0f0ff;">
+  <!-- Career Tab Content -->
+  <div id="career" class="tab-content">
     <h2>Career Stats</h2>
 
     <div class="tabs">
@@ -189,53 +131,9 @@
     </div>
   </div>
 
+  <!-- Career Tab Script (unique to this page) -->
   <script>
-
-    // Season tabs switching
-  document.querySelectorAll(".season-tab").forEach(btn => {
-    btn.addEventListener("click", () => {
-      document.querySelectorAll(".season-tab").forEach(b => b.classList.remove("active"));
-      document.querySelectorAll(".season-content").forEach(c => c.classList.remove("active"));
-
-      btn.classList.add("active");
-      document.getElementById("season-" + btn.dataset.season).classList.add("active");
-    });
-  });
-
-  // Season subtabs switching
-  document.querySelectorAll(".season-subtab").forEach(btn => {
-    btn.addEventListener("click", () => {
-      const parentTabs = btn.parentNode;
-      parentTabs.querySelectorAll(".season-subtab").forEach(b => b.classList.remove("active"));
-      const container = parentTabs.nextElementSibling.parentNode;
-      container.querySelectorAll(".season-subtab-content").forEach(c => c.classList.remove("active"));
-
-      btn.classList.add("active");
-      const activeSubtabId = btn.dataset.subtab;
-      container.querySelector("#" + activeSubtabId).classList.add("active");
-    });
-  });
-
-  function loadTextFile(url, containerId) {
-  fetch(url)
-    .then(response => {
-      if (!response.ok) throw new Error("Network response was not ok");
-      return response.text();
-    })
-    .then(text => {
-      document.getElementById(containerId).textContent = text;
-    })
-    .catch(err => {
-      document.getElementById(containerId).textContent = "Error loading file.";
-      console.error(err);
-    });
-}
-
-
-
-
-
-    // Tab navigation for main tabs
+    // Main tab switching
     document.querySelectorAll(".main-tab").forEach(btn => {
       btn.addEventListener("click", () => {
         document.querySelectorAll(".main-tab").forEach(b => b.classList.remove("active"));
@@ -245,7 +143,7 @@
       });
     });
 
-    // CSV File URLs
+    // Career CSV data loading
     const csvUrls = {
       batting: "https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Season_03/career/batting.csv",
       bowling: "https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Season_03/career/bowling.csv",
@@ -265,68 +163,67 @@
     }
 
     function renderCareerSection(type, data, searchTerm = "", sortConfig = {}) {
-        const head = document.getElementById(`${type}Head`);
-        const body = document.getElementById(`${type}Body`);
-        head.innerHTML = "";
-        body.innerHTML = "";
+      const head = document.getElementById(`${type}Head`);
+      const body = document.getElementById(`${type}Body`);
+      head.innerHTML = "";
+      body.innerHTML = "";
 
-        const tr = document.createElement("tr");
-        data.headers.forEach((h, idx) => {
-            const th = document.createElement("th");
-            th.textContent = h;
-            th.style.cursor = "pointer";
+      const tr = document.createElement("tr");
+      data.headers.forEach((h, idx) => {
+        const th = document.createElement("th");
+        th.textContent = h;
+        th.style.cursor = "pointer";
 
-            // Add sort indicator
-            if (sortConfig.column === idx) {
-            th.textContent += sortConfig.order === "asc" ? " ▲" : " ▼";
+        if (sortConfig.column === idx) {
+          th.textContent += sortConfig.order === "asc" ? " ▲" : " ▼";
+        }
+
+        th.addEventListener("click", () => {
+          const currentOrder = (sortConfig.column === idx && sortConfig.order === "asc") ? "desc" : "asc";
+          const sortedRows = [...data.rows].sort((a, b) => {
+            const aVal = a[h];
+            const bVal = b[h];
+            const isNumeric = !isNaN(parseFloat(aVal)) && !isNaN(parseFloat(bVal));
+
+            if (isNumeric) {
+              return currentOrder === "asc" ? aVal - bVal : bVal - aVal;
+            } else {
+              return currentOrder === "asc"
+                ? aVal.localeCompare(bVal)
+                : bVal.localeCompare(aVal);
             }
+          });
 
-            // Sort on click
-            th.addEventListener("click", () => {
-            const currentOrder = (sortConfig.column === idx && sortConfig.order === "asc") ? "desc" : "asc";
-            const sortedRows = [...data.rows].sort((a, b) => {
-                const aVal = a[h];
-                const bVal = b[h];
-                const isNumeric = !isNaN(parseFloat(aVal)) && !isNaN(parseFloat(bVal));
-
-                if (isNumeric) {
-                return currentOrder === "asc" ? aVal - bVal : bVal - aVal;
-                } else {
-                return currentOrder === "asc"
-                    ? aVal.localeCompare(bVal)
-                    : bVal.localeCompare(aVal);
-                }
+          renderCareerSection(type, { headers: data.headers, rows: sortedRows }, 
+            document.getElementById("careerSearch").value, {
+              column: idx,
+              order: currentOrder
             });
-
-            renderCareerSection(type, { headers: data.headers, rows: sortedRows }, document.getElementById("careerSearch").value, {
-                column: idx,
-                order: currentOrder
-            });
-            });
-
-            tr.appendChild(th);
         });
-        head.appendChild(tr);
 
-        let filtered = data.rows;
-        if (searchTerm) {
-            filtered = filtered.filter(row =>
-            row[data.headers[0]].toLowerCase().includes(searchTerm.toLowerCase())
-            );
-        }
+        tr.appendChild(th);
+      });
+      head.appendChild(tr);
 
-        filtered.slice(0, 20).forEach(row => {
-            const tr = document.createElement("tr");
-            data.headers.forEach(h => {
-            const td = document.createElement("td");
-            td.textContent = row[h];
-            tr.appendChild(td);
-            });
-            body.appendChild(tr);
+      let filtered = data.rows;
+      if (searchTerm) {
+        filtered = filtered.filter(row =>
+          row[data.headers[0]].toLowerCase().includes(searchTerm.toLowerCase())
+        );
+      }
+
+      filtered.slice(0, 20).forEach(row => {
+        const tr = document.createElement("tr");
+        data.headers.forEach(h => {
+          const td = document.createElement("td");
+          td.textContent = row[h];
+          tr.appendChild(td);
         });
-        }
+        body.appendChild(tr);
+      });
+    }
 
-
+    // Load CSV data
     for (let type in csvUrls) {
       fetch(csvUrls[type])
         .then(res => res.text())
@@ -339,119 +236,23 @@
         });
     }
 
+    // Career subtab switching
     document.querySelectorAll(".career-subtab").forEach(btn => {
       btn.addEventListener("click", () => {
         document.querySelectorAll(".career-subtab").forEach(b => b.classList.remove("active"));
         document.querySelectorAll(".career-table").forEach(t => t.classList.remove("active"));
         btn.classList.add("active");
         document.getElementById(btn.dataset.tab).classList.add("active");
-        renderCareerSection(btn.dataset.tab, csvData[btn.dataset.tab], document.getElementById("careerSearch").value);
+        renderCareerSection(btn.dataset.tab, csvData[btn.dataset.tab], 
+          document.getElementById("careerSearch").value);
       });
     });
 
+    // Career search
     document.getElementById("careerSearch").addEventListener("input", () => {
       const tab = document.querySelector(".career-subtab.active").dataset.tab;
       renderCareerSection(tab, csvData[tab], document.getElementById("careerSearch").value);
     });
-
-
-// Load the text file for given season, type and match number
-function loadSeasonSubtabContent(seasonId, type, matchNum, container) {
-  container.textContent = "Loading...";
-
-  let baseUrl = `https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Season_${seasonId}/`;
-
-  let fileUrl = "";
-  if (type === "flow") {
-    // matchNum corresponds to ball-by-ball_N.txt (N is matchNum)
-    fileUrl = `${baseUrl}Match_flows/ball-by-ball_${matchNum}.txt`;
-  } else if (type === "scorecard") {
-    // matchNum corresponds to matchcard_SXXMYYY.txt
-    const seasonPadded = seasonId.padStart(2, "0");
-    const matchPadded = matchNum.toString().padStart(3, "0");
-    fileUrl = `${baseUrl}Scorecards/matchcard_S${seasonPadded}M${matchPadded}.txt`;
-  } else if (type === "graphs") {
-    container.textContent = "Graphs will be shown here soon.";
-    return;
-  }
-
-  console.log("Fetching file URL:", fileUrl); // Debug line
-
-  fetch(fileUrl)
-    .then(res => {
-      if (!res.ok) throw new Error(`File not found: ${fileUrl}`);
-      return res.text();
-    })
-    .then(text => {
-      container.textContent = text;
-    })
-    .catch(err => {
-      container.textContent = "Error loading file.";
-      console.error(err);
-    });
-}
-
-
-// Create and insert match selector dropdown for flows and scorecards inside each season content once
-function createMatchSelector(seasonId, container, type, maxMatches) {
-  // Avoid duplicate dropdowns
-  if (container.querySelector(".match-select")) return;
-
-  const select = document.createElement("select");
-  select.classList.add("match-select");
-  select.style.margin = "10px 0";
-  for (let i = 1; i <= maxMatches; i++) {
-    let option = document.createElement("option");
-    option.value = i;
-    option.textContent = `Match ${i.toString().padStart(3, "0")}`;
-    select.appendChild(option);
-  }
-
-  // When changed, reload content
-  select.addEventListener("change", () => {
-    loadSeasonSubtabContent(seasonId, type, select.value, container);
-  });
-
-  container.prepend(select);
-}
-// Main season subtab click handler
-document.querySelectorAll(".season-subtab").forEach(btn => {
-  btn.addEventListener("click", () => {
-    const parentTabs = btn.parentNode;
-    parentTabs.querySelectorAll(".season-subtab").forEach(b => b.classList.remove("active"));
-    const container = parentTabs.nextElementSibling.parentNode;
-    container.querySelectorAll(".season-subtab-content").forEach(c => c.classList.remove("active"));
-
-    btn.classList.add("active");
-    const activeSubtabId = btn.dataset.subtab;
-    const activeSubtabContent = container.querySelector("#" + activeSubtabId);
-    activeSubtabContent.classList.add("active");
-
-    const seasonContainer = btn.closest(".season-content");
-    const seasonId = seasonContainer.id.split("-")[1];
-
-    // Clear previous dropdowns
-    const existingSelect = activeSubtabContent.querySelector(".match-select");
-    if (existingSelect) {
-      existingSelect.remove();
-    }
-
-    // Add dropdown only for flows and scorecards
-    if (activeSubtabId === "flow" || activeSubtabId === "scorecard") {
-      // maxMatches depends on season (example: 74)
-      const maxMatches = 74; // Adjust if seasons have different counts
-      createMatchSelector(seasonId, activeSubtabContent, activeSubtabId, maxMatches);
-
-      // Load first match by default
-      loadSeasonSubtabContent(seasonId, activeSubtabId, 1, activeSubtabContent);
-    } else if (activeSubtabId === "graphs") {
-      activeSubtabContent.textContent = "Graphs will be shown here soon.";
-    }
-  });
-});
-
-
-
   </script>
 </body>
 </html>

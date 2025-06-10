@@ -1,4 +1,4 @@
-// Tab switching: season tabs
+// Season tabs switching
 document.querySelectorAll(".season-tab").forEach(btn => {
     btn.addEventListener("click", () => {
       document.querySelectorAll(".season-tab").forEach(b => b.classList.remove("active"));
@@ -9,28 +9,7 @@ document.querySelectorAll(".season-tab").forEach(btn => {
     });
   });
   
-  // Utility: Create match selector dropdown
-  function createMatchSelector(seasonId, container, type, maxMatches) {
-    if (container.querySelector(".match-select")) return;
-  
-    const select = document.createElement("select");
-    select.classList.add("match-select");
-    select.style.margin = "10px 0";
-    for (let i = 1; i <= maxMatches; i++) {
-      let option = document.createElement("option");
-      option.value = i;
-      option.textContent = `Match ${i.toString().padStart(3, "0")}`;
-      select.appendChild(option);
-    }
-  
-    select.addEventListener("change", () => {
-      loadSeasonSubtabContent(seasonId, type, select.value, container);
-    });
-  
-    container.prepend(select);
-  }
-  
-  // Utility: Load the text file
+  // Load the text file for a given season, type, and match number
   function loadSeasonSubtabContent(seasonId, type, matchNum, container) {
     container.textContent = "Loading...";
   
@@ -60,6 +39,27 @@ document.querySelectorAll(".season-tab").forEach(btn => {
         container.textContent = "Error loading file.";
         console.error("Error loading file:", fileUrl, err);
       });
+  }
+  
+  // Create match selector dropdown
+  function createMatchSelector(seasonId, container, type, maxMatches) {
+    if (container.querySelector(".match-select")) return;
+  
+    const select = document.createElement("select");
+    select.classList.add("match-select");
+    select.style.margin = "10px 0";
+    for (let i = 1; i <= maxMatches; i++) {
+      let option = document.createElement("option");
+      option.value = i;
+      option.textContent = `Match ${i.toString().padStart(3, "0")}`;
+      select.appendChild(option);
+    }
+  
+    select.addEventListener("change", () => {
+      loadSeasonSubtabContent(seasonId, type, select.value, container);
+    });
+  
+    container.prepend(select);
   }
   
   // Season subtabs logic
@@ -92,4 +92,3 @@ document.querySelectorAll(".season-tab").forEach(btn => {
       }
     });
   });
-  
