@@ -73,55 +73,12 @@ document.querySelectorAll(".season-tab").forEach(btn => {
     container.prepend(select);
   }
   
-  // Season subtabs logic
   document.querySelectorAll(".season-subtab").forEach(btn => {
     btn.addEventListener("click", () => {
-      const parentTabs = btn.parentNode;
-      parentTabs.querySelectorAll(".season-subtab").forEach(b => b.classList.remove("active"));
-      const container = parentTabs.nextElementSibling.parentNode;
-      container.querySelectorAll(".season-subtab-content").forEach(c => c.classList.remove("active"));
+      // ...
+    }); // ✅ This closes the click event
+  }); // ❌ This line is missing!
   
-      btn.classList.add("active");
-      const activeSubtabId = btn.dataset.subtab;
-      const activeSubtabContent = container.querySelector("#" + activeSubtabId);
-      activeSubtabContent.classList.add("active");
-  
-      const seasonContainer = btn.closest(".season-content");
-      const seasonId = seasonContainer.id.split("-")[1];
-  
-      const existingSelect = activeSubtabContent.querySelector(".match-select");
-      if (existingSelect) {
-        existingSelect.remove();
-      }
-  
-      if (activeSubtabId === "flow" || activeSubtabId === "scorecard") {
-        const maxMatches = 74;
-        createMatchSelector(seasonId, activeSubtabContent, activeSubtabId, maxMatches);
-        loadSeasonSubtabContent(seasonId, activeSubtabId, 1, activeSubtabContent);
-      } else if (activeSubtabId === "graphs") {
-        activeSubtabContent.textContent = "Graphs will be shown here soon.";
-      }
-    });
-  });
-
-  function openMainTab(evt, tabName) {
-    let tabcontent = document.getElementsByClassName("tabcontent");
-    for (let i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-    }
-
-    let tablinks = document.getElementsByTagName("a");
-    for (let i = 0; i < tablinks.length; i++) {
-        tablinks[i].classList.remove("active");
-    }
-
-    document.getElementById(tabName).style.display = "block";
-    evt.currentTarget.classList.add("active");
-
-    if (tabName === "Stats") {
-        loadStatsTabs("s01"); // default load
-    }
-}
 
 function openStatsSubTab(evt, subTabName) {
     let buttons = document.querySelectorAll("#Stats .subtabs button");
@@ -250,4 +207,3 @@ function renderCSV(csvText) {
 
   renderFilteredTable(headers, dataRows); // initial full render
 }
-
