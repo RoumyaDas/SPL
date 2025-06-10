@@ -124,7 +124,7 @@ function loadStatsTabs(seasonId) {
     container.innerHTML = "";
 
     for (let i = 1; i <= 23; i++) {
-        let tabId = `tab${String(i).padStart(2, '0')}`;
+        let tabId = `TAB${String(i).padStart(2, '0')}`;
         let button = document.createElement("button");
         button.textContent = tabId.toUpperCase();
         button.onclick = () => loadCSVData(seasonId, tabId);
@@ -136,7 +136,8 @@ function loadStatsTabs(seasonId) {
 }
 
 function loadCSVData(seasonId, tabId) {
-    const csvPath = `https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/${seasonId}/${tabId}.csv`;
+  const csvPath = `https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/${seasonId}/${tabId}.csv`;
+
     
     fetch(csvPath)
         .then(response => response.text())
