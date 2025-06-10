@@ -151,21 +151,53 @@ function loadCSVData(seasonId, tabId) {
       });
 }
 
+function renderFilteredTable(headers, rows) {
+  const tableDiv = document.getElementById("csv-table-container");
+  let html = `<table id="csv-table" border="1"><thead><tr>`;
+  headers.forEach(header => html += `<th>${header}</th>`);
+  html += `</tr></thead><tbody>`;
+  for (let i = 0; i < rows.length; i++) {
+      html += `<tr>`;
+      rows[i].forEach(cell => html += `<td>${cell}</td>`);
+      html += `</tr>`;
+  }
+  html += `</tbody></table>`;
+  tableDiv.innerHTML = html;
+}
+
+function filterTable(query, headers, allRows) {
+  const filtered = allRows.filter(row =>
+      row.some(cell => cell.toLowerCase().includes(query))
+  );
+  renderFilteredTable(headers, filtered);
+}
+
 
 function renderCSV(csvText) {
   const tableContainer = document.getElementById("CSVTableOutput");
   tableContainer.innerHTML = "";
 
   const rows = csvText.trim().split("\n").map(row => row.split(","));
-  let html = `<table id="csv-table" border="1"><thead><tr>`;
-  rows[0].forEach(header => html += `<th>${header}</th>`);
-  html += `</tr></thead><tbody>`;
-  for (let i = 1; i < rows.length; i++) {
-      html += `<tr>`;
-      rows[i].forEach(cell => html += `<td>${cell}</td>`);
-      html += `</tr>`;
-  }
-  html += `</tbody></table>`;
+  const headers = rows[0];
+  const dataRows = rows.slice(1);
 
-  tableContainer.innerHTML = html;
+  // 🔍 Create filter input box
+  const filterInput = document.createElement("input");
+  filterInput.type = "text";
+  filterInput.placeholder = "Type to filter rows...";
+  filterInput.style.marginBottom = "10px";
+  filterInput.style.display = "block";
+  filterInput.oninput = () => {
+      filterTable(filterInput.value.toLowerCase(), headers, dataRows);
+  };
+
+  tableContainer.appendChild(filterInput);
+
+  // Table rendering container
+  const tableDiv = document.createElement("div");
+  tableDiv.id = "csv-table-container";
+  tableContainer.appendChild(tableDiv);
+
+  renderFilteredTable(headers, dataRows); // initial full render
 }
+
