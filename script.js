@@ -46,7 +46,8 @@ document.querySelectorAll(".season-tab").forEach(btn => {
     "Impact_pts","Fantasy pts","Bowler ranking","Batter ranking",
      "Fielding","Most Dots",
     "Most 4s", "Most 6s", "Most_Run_Contribution", "Most_Wkt_Contribution", "Most_3wkt_hauls","Most_50+",
-    "Lowest_Economy", "Best_Strike_Rate", "Team_best_Performance", "Match_Summary", "exit_pt_stats",
+    "Lowest_Economy", "Best_Strike_Rate", "Team_best_Performance", "Match_Summary", 
+    "exit_pt_stats",
     "phase_bowl_stats", "Phase_wise_team_bowling", "Phase_wise_team_batting"
   ];
 
