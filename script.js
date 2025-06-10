@@ -92,3 +92,79 @@ document.querySelectorAll(".season-tab").forEach(btn => {
       }
     });
   });
+
+  function openMainTab(evt, tabName) {
+    let tabcontent = document.getElementsByClassName("tabcontent");
+    for (let i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+
+    let tablinks = document.getElementsByTagName("a");
+    for (let i = 0; i < tablinks.length; i++) {
+        tablinks[i].classList.remove("active");
+    }
+
+    document.getElementById(tabName).style.display = "block";
+    evt.currentTarget.classList.add("active");
+
+    if (tabName === "Stats") {
+        loadStatsTabs("s01"); // default load
+    }
+}
+
+function openStatsSubTab(evt, subTabName) {
+    let buttons = document.querySelectorAll("#Stats .subtabs button");
+    buttons.forEach(btn => btn.classList.remove("active"));
+    evt.currentTarget.classList.add("active");
+    loadStatsTabs(subTabName);
+}
+
+function loadStatsTabs(seasonId) {
+    const container = document.getElementById("StatsSubContent");
+    container.innerHTML = "";
+
+    for (let i = 1; i <= 23; i++) {
+        let tabId = `tab${String(i).padStart(2, '0')}`;
+        let button = document.createElement("button");
+        button.textContent = tabId.toUpperCase();
+        button.onclick = () => loadCSVData(seasonId, tabId);
+        container.appendChild(button);
+    }
+
+    // Optionally load first CSV by default
+    loadCSVData(seasonId, "tab01");
+}
+
+function loadCSVData(seasonId, tabId) {
+    const csvPath = `https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/${seasonId}/${tabId}.csv`;
+    
+    fetch(csvPath)
+        .then(response => response.text())
+        .then(data => {
+            renderCSV(data, seasonId, tabId);
+        })
+        .catch(error => {
+            document.getElementById("StatsSubContent").innerHTML += `<div>Error loading ${tabId}: ${error}</div>`;
+        });
+}
+
+function renderCSV(csvText, seasonId, tabId) {
+    const container = document.getElementById("StatsSubContent");
+
+    // Remove old CSV table if any
+    const existing = document.getElementById("csv-table");
+    if (existing) existing.remove();
+
+    const rows = csvText.trim().split("\n").map(row => row.split(","));
+    let html = `<table id="csv-table" border="1" style="margin-top: 10px;"><thead><tr>`;
+    rows[0].forEach(header => html += `<th>${header}</th>`);
+    html += `</tr></thead><tbody>`;
+    for (let i = 1; i < rows.length; i++) {
+        html += `<tr>`;
+        rows[i].forEach(cell => html += `<td>${cell}</td>`);
+        html += `</tr>`;
+    }
+    html += `</tbody></table>`;
+    
+    container.innerHTML += html;
+}
