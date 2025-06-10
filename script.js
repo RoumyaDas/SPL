@@ -120,52 +120,52 @@ function openStatsSubTab(evt, subTabName) {
 }
 
 function loadStatsTabs(seasonId) {
-    const container = document.getElementById("StatsSubContent");
-    container.innerHTML = "";
+  const buttonContainer = document.getElementById("CSVTabButtons");
+  const tableContainer = document.getElementById("CSVTableOutput");
 
-    for (let i = 1; i <= 23; i++) {
-        let tabId = `TAB${String(i).padStart(2, '0')}`;
-        let button = document.createElement("button");
-        button.textContent = tabId.toUpperCase();
-        button.onclick = () => loadCSVData(seasonId, tabId);
-        container.appendChild(button);
-    }
+  buttonContainer.innerHTML = "";
+  tableContainer.innerHTML = "";
 
-    // Optionally load first CSV by default
-    loadCSVData(seasonId, "TAB01");
+  for (let i = 1; i <= 23; i++) {
+      let tabId = `TAB${String(i).padStart(2, '0')}`;
+      let button = document.createElement("button");
+      button.textContent = tabId;
+      button.onclick = () => loadCSVData(seasonId, tabId);
+      buttonContainer.appendChild(button);
+  }
+
+  loadCSVData(seasonId, "TAB01");
 }
+
 
 function loadCSVData(seasonId, tabId) {
   const csvPath = `https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/${seasonId}/${tabId}.csv`;
 
-    
-    fetch(csvPath)
-        .then(response => response.text())
-        .then(data => {
-            renderCSV(data, seasonId, tabId);
-        })
-        .catch(error => {
-            document.getElementById("StatsSubContent").innerHTML += `<div>Error loading ${tabId}: ${error}</div>`;
-        });
+  fetch(csvPath)
+      .then(response => response.text())
+      .then(data => {
+          renderCSV(data);
+      })
+      .catch(error => {
+          document.getElementById("CSVTableOutput").innerHTML = `<div>Error loading ${tabId}: ${error}</div>`;
+      });
 }
 
-function renderCSV(csvText, seasonId, tabId) {
-    const container = document.getElementById("StatsSubContent");
 
-    // Remove old CSV table if any
-    const existing = document.getElementById("csv-table");
-    if (existing) existing.remove();
+function renderCSV(csvText) {
+  const tableContainer = document.getElementById("CSVTableOutput");
+  tableContainer.innerHTML = "";
 
-    const rows = csvText.trim().split("\n").map(row => row.split(","));
-    let html = `<table id="csv-table" border="1" style="margin-top: 10px;"><thead><tr>`;
-    rows[0].forEach(header => html += `<th>${header}</th>`);
-    html += `</tr></thead><tbody>`;
-    for (let i = 1; i < rows.length; i++) {
-        html += `<tr>`;
-        rows[i].forEach(cell => html += `<td>${cell}</td>`);
-        html += `</tr>`;
-    }
-    html += `</tbody></table>`;
-    
-    container.innerHTML += html;
+  const rows = csvText.trim().split("\n").map(row => row.split(","));
+  let html = `<table id="csv-table" border="1"><thead><tr>`;
+  rows[0].forEach(header => html += `<th>${header}</th>`);
+  html += `</tr></thead><tbody>`;
+  for (let i = 1; i < rows.length; i++) {
+      html += `<tr>`;
+      rows[i].forEach(cell => html += `<td>${cell}</td>`);
+      html += `</tr>`;
+  }
+  html += `</tbody></table>`;
+
+  tableContainer.innerHTML = html;
 }
