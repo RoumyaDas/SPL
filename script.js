@@ -42,7 +42,8 @@ document.querySelectorAll(".season-tab").forEach(btn => {
   }
   
   const tabDisplayNames = [
-    "Orange-cap leaderboard", "Purple-cap leaderboard", "points table", "MVP", "Fantasy pts","Bowler ranking","Batter ranking",
+    "Orange-cap leaderboard", "Purple-cap leaderboard", "points table", "MVP", 
+    "Impact_pts","Fantasy pts","Bowler ranking","Batter ranking",
      "Fielding","Most Dots",
     "Most 4s", "Most 6s", "Most_Run_Contribution", "Most_Wkt_Contribution", "Most_3wkt_hauls","Most_50+",
     "Lowest_Economy", "Best_Strike_Rate", "Team_best_Performance", "Match_Summary", "exit_pt_stats",
@@ -163,17 +164,45 @@ function loadCSVData(seasonId, tabId) {
 
 function renderFilteredTable(headers, rows) {
   const tableDiv = document.getElementById("csv-table-container");
-  let html = `<table id="csv-table" border="1"><thead><tr>`;
-  headers.forEach(header => html += `<th>${header}</th>`);
+
+  let html = `
+    <table id="csv-table" style="
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 10px;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+    ">
+      <thead>
+        <tr style="background-color: #f2f2f2;">
+  `;
+
+  headers.forEach(header => {
+    html += `<th style="
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    ">${header}</th>`;
+  });
+
   html += `</tr></thead><tbody>`;
+
   for (let i = 0; i < rows.length; i++) {
-      html += `<tr>`;
-      rows[i].forEach(cell => html += `<td>${cell}</td>`);
-      html += `</tr>`;
+    html += `<tr style="background-color: ${i % 2 === 0 ? '#ffffff' : '#fafafa'};">`;
+    rows[i].forEach(cell => {
+      html += `<td style="
+        border: 1px solid #ddd;
+        padding: 8px;
+      ">${cell}</td>`;
+    });
+    html += `</tr>`;
   }
+
   html += `</tbody></table>`;
+
   tableDiv.innerHTML = html;
 }
+
 
 function filterTable(query, headers, allRows) {
   const filtered = allRows.filter(row =>
