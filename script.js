@@ -9,37 +9,60 @@ document.querySelectorAll(".season-tab").forEach(btn => {
   });
 });
 
-// Load the text file for a given season, type, and match number
 function loadSeasonSubtabContent(seasonId, type, matchNum, container) {
   container.textContent = "Loading...";
 
   let baseUrl = `https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Season_${seasonId}/`;
-
   let fileUrl = "";
+
   if (type === "flow") {
     fileUrl = `${baseUrl}Match_flows/ball-by-ball_${matchNum}.txt`;
+
+    fetch(fileUrl)
+      .then(res => {
+        if (!res.ok) throw new Error("File not found");
+        return res.text();
+      })
+      .then(text => {
+        container.textContent = text;
+      })
+      .catch(err => {
+        container.textContent = "Error loading file.";
+        console.error("Error loading file:", fileUrl, err);
+      });
+
   } else if (type === "scorecard") {
-    const seasonPadded = seasonId.padStart(2, "0");
-    const matchPadded = matchNum.toString().padStart(3, "0");
-    fileUrl = `${baseUrl}Scorecards/matchcard_S${seasonPadded}M${matchPadded}.txt`;
+    // ✅ Now pull the CSV for full season and render a filtered table
+    const csvUrl = `https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Matchcards/Season_${seasonId}.csv`;
+
+    fetch(csvUrl)
+      .then(res => res.text())
+      .then(csv => {
+        const rows = csv.trim().split("\n").map(row => row.split(","));
+        const headers = rows[0];
+        const data = rows.slice(1);
+
+        // Inject search + table into container
+        container.innerHTML = `
+          <div id="csv-search-container">
+            <input type="text" id="csv-search" placeholder="Search matchcards...">
+          </div>
+          <div id="csv-table-container"></div>
+        `;
+
+        renderFilteredTable(headers, data, true); // true = show only first row
+        setupSearch(headers, data);
+      })
+      .catch(err => {
+        container.textContent = "Error loading CSV.";
+        console.error("CSV fetch error:", err);
+      });
+
   } else if (type === "graphs") {
     container.textContent = "Graphs will be shown here soon.";
-    return;
   }
-
-  fetch(fileUrl)
-    .then(res => {
-      if (!res.ok) throw new Error("File not found");
-      return res.text();
-    })
-    .then(text => {
-      container.textContent = text;
-    })
-    .catch(err => {
-      container.textContent = "Error loading file.";
-      console.error("Error loading file:", fileUrl, err);
-    });
 }
+
 
 const tabDisplayNames = [
   "Orange-cap leaderboard", "Purple-cap leaderboard", "points table", "MVP", 
@@ -213,6 +236,31 @@ tableDiv.dataset.headers = JSON.stringify(headers);
 tableDiv.dataset.rows = JSON.stringify(rows);
 }
 
+function sortTable(colIndex) {
+  const tableDiv = document.getElementById("csv-table-container");
+  const headers = JSON.parse(tableDiv.dataset.headers);
+  let rows = JSON.parse(tableDiv.dataset.rows);
+
+  // Determine current sort direction (asc/desc) by tracking it per column
+  if (!sortTable.directions) sortTable.directions = {};
+  sortTable.directions[colIndex] = !sortTable.directions[colIndex]; // toggle
+
+  const isAsc = sortTable.directions[colIndex];
+
+  rows.sort((a, b) => {
+    const valA = a[colIndex].toLowerCase();
+    const valB = b[colIndex].toLowerCase();
+    
+    if (!isNaN(valA) && !isNaN(valB)) {
+      return isAsc ? valA - valB : valB - valA;
+    }
+
+    return isAsc ? valA.localeCompare(valB) : valB.localeCompare(valA);
+  });
+
+  // Re-render with sorted rows (again only showing first 20)
+  renderFilteredTable(headers, rows);
+}
 
 
 function filterTable(query, headers, allRows) {
