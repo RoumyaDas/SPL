@@ -187,7 +187,15 @@ function loadSeasonSubtabContent(seasonId, type, matchNum, container) {
   
     // Load scorecard from txt
     const loadScorecard = (matchId) => {
-      const fileUrl = `${baseUrl}Scorecards/matchcard_S${seasonId}M0${matchId}.txt`;
+      
+      let fileUrl = "";
+
+      if (String(matchId).startsWith("01")) {
+        fileUrl = `${baseUrl}Scorecards/matchcard_M0${matchId}.txt`;
+      } else {
+        fileUrl = `${baseUrl}Scorecards/matchcard_S${seasonId}M0${matchId}.txt`;
+      }
+
   
       fetch(fileUrl)
         .then(res => {
