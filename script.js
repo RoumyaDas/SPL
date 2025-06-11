@@ -75,7 +75,7 @@ function loadSeasonSubtabContent(seasonId, type, matchNum, container) {
   let baseUrl = `https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Season_${seasonId}/`;
   let fileUrl = "";
 
-  if (type === "flow") {
+  if (type.toLowerCase().startsWith("flow")) {
     fileUrl = `${baseUrl}Match_flows/ball-by-ball_${matchNum}.txt`;
 
     fetch(fileUrl)
