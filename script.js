@@ -163,11 +163,13 @@ function loadSeasonSubtabContent(seasonId, type, matchNum, container) {
         // Search logic
         searchInput.addEventListener("input", () => {
           const query = searchInput.value.toLowerCase();
-          const filtered = rows.filter(row =>
-            Object.values(row).some(val => val.toLowerCase().includes(query))
-          );
+          const filtered = rows.filter(row => {
+            const firstValue = Object.values(row)[0];
+            return (firstValue ?? "").toString().toLowerCase().includes(query);
+          });
           renderTable(filtered);
         });
+        
       })
       .catch(err => {
         container.textContent = "Error loading CSV.";
