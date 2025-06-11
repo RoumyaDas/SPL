@@ -9,6 +9,66 @@ document.querySelectorAll(".season-tab").forEach(btn => {
   });
 });
 
+const parseCustomCSV = (csv) => {
+  const lines = [];
+  let currentLine = "";
+  let insideQuotes = false;
+
+  const chars = csv.trim().split("");
+
+  for (let i = 0; i < chars.length; i++) {
+    const c = chars[i];
+
+    if (c === '"') {
+      insideQuotes = !insideQuotes;
+    }
+
+    if (c === '\n' && !insideQuotes) {
+      lines.push(currentLine);
+      currentLine = "";
+    } else {
+      currentLine += c;
+    }
+  }
+
+  if (currentLine) lines.push(currentLine); // last line
+
+  const headers = splitSafe(lines[0]);
+
+  const rows = lines.slice(1).map(line => {
+    const values = splitSafe(line);
+    return Object.fromEntries(headers.map((h, i) => [h, values[i]]));
+  });
+
+  return rows;
+};
+
+function splitSafe(line) {
+  const parts = [];
+  let current = "";
+  let insideQuotes = false;
+
+  for (let i = 0; i < line.length; i++) {
+    const c = line[i];
+
+    if (c === '"') {
+      insideQuotes = !insideQuotes;
+    }
+
+    if (line[i] === "$" && !insideQuotes) {
+      parts.push(current);
+      current = "";
+    } else {
+      current += c;
+    }
+  }
+
+  parts.push(current);
+  return parts.map(p => p.replace(/^"|"$/g, "")); // remove outer quotes
+}
+
+
+
 function loadSeasonSubtabContent(seasonId, type, matchNum, container) {
   container.textContent = "Loading...";
 
@@ -40,12 +100,7 @@ function loadSeasonSubtabContent(seasonId, type, matchNum, container) {
         return res.text();
       })
       .then(csv => {
-        const lines = csv.trim().split("\n");
-        const headers = lines[0].split("$");
-        const rows = lines.slice(1).map(line => {
-          const values = line.split("$");
-          return Object.fromEntries(headers.map((h, i) => [h, values[i]]));
-        });
+        const rows = parseCustomCSV(csv);
 
         // Add filter input
         const searchInput = document.createElement("input");
