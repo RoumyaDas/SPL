@@ -1,5 +1,5 @@
-match_id|scorecard
-M054|"Match between GT(H) and SRH !! 
+match_id$scorecard
+M054$"Match between GT(H) and SRH !! 
 innings 1
 GT BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -52,7 +52,7 @@ GT wins!!
 ******************************
 The Player of the Match is ~~ SV Samson
 "
-M040|"Match between SRH(H) and RR !! 
+M040$"Match between SRH(H) and RR !! 
 innings 1
 SRH BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -105,7 +105,7 @@ SRH wins!!
 ******************************
 The Player of the Match is ~~ GJ Maxwell
 "
-M068|"Match between KKR(H) and LSG !! 
+M068$"Match between KKR(H) and LSG !! 
 innings 1
 KKR BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -158,7 +158,7 @@ LSG wins!!
 ******************************
 The Player of the Match is ~~ MA Starc
 "
-M069|"Match between SRH(H) and DC !! 
+M069$"Match between SRH(H) and DC !! 
 innings 1
 SRH BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -209,7 +209,7 @@ SRH wins!!
 ******************************
 The Player of the Match is ~~ P Simran Singh
 "
-M041|"Match between DC(H) and CSK !! 
+M041$"Match between DC(H) and CSK !! 
 innings 1
 DC BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -260,7 +260,7 @@ DC wins!!
 ******************************
 The Player of the Match is ~~ AR Patel
 "
-M055|"Match between RR(H) and MI !! 
+M055$"Match between RR(H) and MI !! 
 innings 1
 RR BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -317,7 +317,7 @@ RR wins!!
 ******************************
 The Player of the Match is ~~ S Dube
 "
-M043|"Match between RCB(H) and KKR !! 
+M043$"Match between RCB(H) and KKR !! 
 innings 1
 RCB BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -378,7 +378,7 @@ KKR wins!!
 ******************************
 The Player of the Match is ~~ B Kumar
 "
-M057|"Match between KKR(H) and SRH !! 
+M057$"Match between KKR(H) and SRH !! 
 innings 1
 SRH BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -437,7 +437,7 @@ KKR wins!!
 ******************************
 The Player of the Match is ~~ VG Arora
 "
-M056|"Match between LSG(H) and DC !! 
+M056$"Match between LSG(H) and DC !! 
 innings 1
 LSG BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -489,7 +489,7 @@ DC wins!!
 ******************************
 The Player of the Match is ~~ SS Iyer
 "
-M042|"Match between MI(H) and PBKS !! 
+M042$"Match between MI(H) and PBKS !! 
 innings 1
 PBKS BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -543,7 +543,7 @@ PBKS wins!!
 ******************************
 The Player of the Match is ~~ Shashank Singh
 "
-M046|"Match between LSG(H) and CSK !! 
+M046$"Match between LSG(H) and CSK !! 
 innings 1
 LSG BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -597,7 +597,7 @@ LSG wins!!
 ******************************
 The Player of the Match is ~~ AR Patel
 "
-M052|"Match between RR(H) and KKR !! 
+M052$"Match between RR(H) and KKR !! 
 innings 1
 RR BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -655,7 +655,7 @@ KKR wins!!
 ******************************
 The Player of the Match is ~~ MA Starc
 "
-M053|"Match between PBKS(H) and CSK !! 
+M053$"Match between PBKS(H) and CSK !! 
 innings 1
 PBKS BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -715,7 +715,7 @@ CSK wins!!
 ******************************
 The Player of the Match is ~~ AR Patel
 "
-M047|"Match between RCB(H) and PBKS !! 
+M047$"Match between RCB(H) and PBKS !! 
 innings 1
 RCB BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -767,7 +767,7 @@ PBKS wins!!
 ******************************
 The Player of the Match is ~~ RG Sharma
 "
-M051|"Match between SRH(H) and RCB !! 
+M051$"Match between SRH(H) and RCB !! 
 innings 1
 RCB BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -822,7 +822,7 @@ SRH wins!!
 ******************************
 The Player of the Match is ~~ LS Livingstone
 "
-M045|"Match between MI(H) and GT !! 
+M045$"Match between MI(H) and GT !! 
 innings 1
 MI BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -879,7 +879,7 @@ MI wins!!
 ******************************
 The Player of the Match is ~~ J Anderson
 "
-M044|"Match between RR(H) and SRH !! 
+M044$"Match between RR(H) and SRH !! 
 innings 1
 SRH BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -932,7 +932,7 @@ SRH wins!!
 ******************************
 The Player of the Match is ~~ YBK Jaiswal
 "
-M050|"Match between GT(H) and CSK !! 
+M050$"Match between GT(H) and CSK !! 
 innings 1
 CSK BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -987,7 +987,7 @@ CSK wins!!
 ******************************
 The Player of the Match is ~~ Fazalhaq Farooqi
 "
-M037|"Match between RCB(H) and MI !! 
+M037$"Match between RCB(H) and MI !! 
 innings 1
 MI BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -1046,7 +1046,7 @@ MI wins!!
 ******************************
 The Player of the Match is ~~ HH Pandya
 "
-M023|"Match between RR(H) and PBKS !! 
+M023$"Match between RR(H) and PBKS !! 
 innings 1
 PBKS BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -1102,7 +1102,7 @@ PBKS wins!!
 ******************************
 The Player of the Match is ~~ Azmatullah Omarzai
 "
-M022|"Match between MI(H) and SRH !! 
+M022$"Match between MI(H) and SRH !! 
 innings 1
 SRH BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -1161,7 +1161,7 @@ MI wins!!
 ******************************
 The Player of the Match is ~~ B Sai Sudharsan
 "
-M036|"Match between DC(H) and SRH !! 
+M036$"Match between DC(H) and SRH !! 
 innings 1
 SRH BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -1212,7 +1212,7 @@ SRH wins!!
 ******************************
 The Player of the Match is ~~ KL Rahul
 "
-M020|"Match between LSG(H) and KKR !! 
+M020$"Match between LSG(H) and KKR !! 
 innings 1
 LSG BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -1269,7 +1269,7 @@ LSG wins!!
 ******************************
 The Player of the Match is ~~ Noor Ahmad
 "
-M034|"Match between CSK(H) and RR !! 
+M034$"Match between CSK(H) and RR !! 
 innings 1
 RR BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -1328,7 +1328,7 @@ CSK wins!!
 ******************************
 The Player of the Match is ~~ TM Head
 "
-M008|"Match between LSG(H) and RR !! 
+M008$"Match between LSG(H) and RR !! 
 innings 1
 LSG BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -1382,7 +1382,7 @@ LSG wins!!
 ******************************
 The Player of the Match is ~~ Shahbaz Ahmed
 "
-M009|"Match between RCB(H) and DC !! 
+M009$"Match between RCB(H) and DC !! 
 innings 1
 DC BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -1438,7 +1438,7 @@ RCB wins!!
 ******************************
 The Player of the Match is ~~ RD Gaikwad
 "
-M035|"Match between LSG(H) and PBKS !! 
+M035$"Match between LSG(H) and PBKS !! 
 innings 1
 LSG BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -1491,7 +1491,7 @@ LSG wins!!
 ******************************
 The Player of the Match is ~~ Shubman Gill
 "
-M021|"Match between RCB(H) and CSK !! 
+M021$"Match between RCB(H) and CSK !! 
 innings 1
 RCB BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -1549,7 +1549,7 @@ CSK wins!!
 ******************************
 The Player of the Match is ~~ TM Head
 "
-M019|"Match between DC(H) and GT !! 
+M019$"Match between DC(H) and GT !! 
 innings 1
 DC BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -1607,7 +1607,7 @@ GT wins!!
 ******************************
 The Player of the Match is ~~ Mohammad Ghazanfar
 "
-M025|"Match between DC(H) and MI !! 
+M025$"Match between DC(H) and MI !! 
 innings 1
 MI BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -1662,7 +1662,7 @@ DC wins!!
 ******************************
 The Player of the Match is ~~ SA Yadav
 "
-M031|"Match between PBKS(H) and RCB !! 
+M031$"Match between PBKS(H) and RCB !! 
 innings 1
 PBKS BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -1722,7 +1722,7 @@ PBKS wins!!
 ******************************
 The Player of the Match is ~~ Washington Sundar
 "
-M030|"Match between CSK(H) and GT !! 
+M030$"Match between CSK(H) and GT !! 
 innings 1
 GT BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -1779,7 +1779,7 @@ CSK wins!!
 ******************************
 The Player of the Match is ~~ Jagjit Singh
 "
-M024|"Match between GT(H) and LSG !! 
+M024$"Match between GT(H) and LSG !! 
 innings 1
 LSG BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -1830,7 +1830,7 @@ GT wins!!
 ******************************
 The Player of the Match is ~~ Shubman Gill
 "
-M018|"Match between RR(H) and RCB !! 
+M018$"Match between RR(H) and RCB !! 
 innings 1
 RCB BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -1887,7 +1887,7 @@ RCB wins!!
 ******************************
 The Player of the Match is ~~ GJ Maxwell
 "
-M032|"Match between SRH(H) and LSG !! 
+M032$"Match between SRH(H) and LSG !! 
 innings 1
 LSG BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -1946,7 +1946,7 @@ SRH wins!!
 ******************************
 The Player of the Match is ~~ LS Livingstone
 "
-M026|"Match between KKR(H) and CSK !! 
+M026$"Match between KKR(H) and CSK !! 
 innings 1
 CSK BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -2000,7 +2000,7 @@ CSK wins!!
 ******************************
 The Player of the Match is ~~ Suryansh Shedge
 "
-M027|"Match between SRH(H) and PBKS !! 
+M027$"Match between SRH(H) and PBKS !! 
 innings 1
 SRH BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -2054,7 +2054,7 @@ PBKS wins!!
 ******************************
 The Player of the Match is ~~ Washington Sundar
 "
-M033|"Match between GT(H) and MI !! 
+M033$"Match between GT(H) and MI !! 
 innings 1
 GT BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -2105,7 +2105,7 @@ GT wins!!
 ******************************
 The Player of the Match is ~~ DP Conway
 "
-M016|"Match between SRH(H) and GT !! 
+M016$"Match between SRH(H) and GT !! 
 innings 1
 SRH BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -2159,7 +2159,7 @@ GT wins!!
 ******************************
 The Player of the Match is ~~ LS Livingstone
 "
-M002|"Match between KKR(H) and MI !! 
+M002$"Match between KKR(H) and MI !! 
 innings 1
 KKR BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -2214,7 +2214,7 @@ MI wins!!
 ******************************
 The Player of the Match is ~~ Abhishek Sharma
 "
-M003|"Match between RR(H) and CSK !! 
+M003$"Match between RR(H) and CSK !! 
 innings 1
 CSK BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -2269,7 +2269,7 @@ CSK wins!!
 ******************************
 The Player of the Match is ~~ T Natarajan
 "
-M017|"Match between PBKS(H) and MI !! 
+M017$"Match between PBKS(H) and MI !! 
 innings 1
 MI BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -2326,7 +2326,7 @@ PBKS wins!!
 ******************************
 The Player of the Match is ~~ RR Pant
 "
-M001|"Match between DC(H) and LSG !! 
+M001$"Match between DC(H) and LSG !! 
 innings 1
 DC BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -2376,7 +2376,7 @@ LSG wins!!
 ******************************
 The Player of the Match is ~~ V Kohli
 "
-M015|"Match between CSK(H) and DC !! 
+M015$"Match between CSK(H) and DC !! 
 innings 1
 DC BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -2427,7 +2427,7 @@ DC wins!!
 ******************************
 The Player of the Match is ~~ F du Plessis
 "
-M029|"Match between MI(H) and KKR !! 
+M029$"Match between MI(H) and KKR !! 
 innings 1
 KKR BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -2481,7 +2481,7 @@ KKR wins!!
 ******************************
 The Player of the Match is ~~ PJ Cummins
 "
-M028|"Match between RCB(H) and RR !! 
+M028$"Match between RCB(H) and RR !! 
 innings 1
 RR BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -2534,7 +2534,7 @@ RR wins!!
 ******************************
 The Player of the Match is ~~ GJ Maxwell
 "
-M014|"Match between KKR(H) and RCB !! 
+M014$"Match between KKR(H) and RCB !! 
 innings 1
 RCB BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -2589,7 +2589,7 @@ KKR wins!!
 ******************************
 The Player of the Match is ~~ JC Buttler
 "
-M038|"Match between CSK(H) and KKR !! 
+M038$"Match between CSK(H) and KKR !! 
 innings 1
 CSK BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -2644,7 +2644,7 @@ CSK wins!!
 ******************************
 The Player of the Match is ~~ Tilak Varma
 "
-M004|"Match between PBKS(H) and SRH !! 
+M004$"Match between PBKS(H) and SRH !! 
 innings 1
 PBKS BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -2703,7 +2703,7 @@ SRH wins!!
 ******************************
 The Player of the Match is ~~ HV Patel
 "
-M010|"Match between GT(H) and KKR !! 
+M010$"Match between GT(H) and KKR !! 
 innings 1
 KKR BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -2759,7 +2759,7 @@ KKR wins!!
 ******************************
 The Player of the Match is ~~ Ishan Kishan
 "
-M011|"Match between MI(H) and RR !! 
+M011$"Match between MI(H) and RR !! 
 innings 1
 RR BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -2812,7 +2812,7 @@ RR wins!!
 ******************************
 The Player of the Match is ~~ Abhishek Sharma
 "
-M005|"Match between GT(H) and RCB !! 
+M005$"Match between GT(H) and RCB !! 
 innings 1
 GT BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -2863,7 +2863,7 @@ GT wins!!
 ******************************
 The Player of the Match is ~~ PD Salt
 "
-M039|"Match between LSG(H) and GT !! 
+M039$"Match between LSG(H) and GT !! 
 innings 1
 LSG BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -2919,7 +2919,7 @@ LSG wins!!
 ******************************
 The Player of the Match is ~~ WG Jacks
 "
-M013|"Match between PBKS(H) and LSG !! 
+M013$"Match between PBKS(H) and LSG !! 
 innings 1
 LSG BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -2979,7 +2979,7 @@ PBKS wins!!
 ******************************
 The Player of the Match is ~~ BA Stokes
 "
-M007|"Match between CSK(H) and MI !! 
+M007$"Match between CSK(H) and MI !! 
 innings 1
 CSK BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -3037,7 +3037,7 @@ CSK wins!!
 ******************************
 The Player of the Match is ~~ M Siddharth
 "
-M006|"Match between KKR(H) and DC !! 
+M006$"Match between KKR(H) and DC !! 
 innings 1
 DC BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -3090,7 +3090,7 @@ KKR wins!!
 ******************************
 The Player of the Match is ~~ V Kohli
 "
-M012|"Match between CSK(H) and SRH !! 
+M012$"Match between CSK(H) and SRH !! 
 innings 1
 SRH BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -3144,7 +3144,7 @@ SRH wins!!
 ******************************
 The Player of the Match is ~~ LS Livingstone
 "
-M061|"Match between LSG(H) and RCB !! 
+M061$"Match between LSG(H) and RCB !! 
 innings 1
 LSG BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -3199,7 +3199,7 @@ RCB wins!!
 ******************************
 The Player of the Match is ~~ RD Gaikwad
 "
-M049|"Match between MI(H) and LSG !! 
+M049$"Match between MI(H) and LSG !! 
 innings 1
 MI BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -3248,7 +3248,7 @@ LSG wins!!
 ******************************
 The Player of the Match is ~~ WG Jacks
 "
-M048|"Match between DC(H) and RR !! 
+M048$"Match between DC(H) and RR !! 
 innings 1
 DC BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -3299,7 +3299,7 @@ DC wins!!
 ******************************
 The Player of the Match is ~~ GJ Maxwell
 "
-M060|"Match between CSK(H) and PBKS !! 
+M060$"Match between CSK(H) and PBKS !! 
 innings 1
 PBKS BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -3354,7 +3354,7 @@ CSK wins!!
 ******************************
 The Player of the Match is ~~ TM Head
 "
-M074|"Match between PBKS(H) and CSK !! 
+M074$"Match between PBKS(H) and CSK !! 
 ```match about to begin```
 ------------------------------
           
@@ -3492,7 +3492,7 @@ PBKS wins!!
           
 The Player of the Match is ~~ Washington Sundar
 "
-M062|"Match between GT(H) and RR !! 
+M062$"Match between GT(H) and RR !! 
 innings 1
 GT BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -3548,7 +3548,7 @@ RR wins!!
 ******************************
 The Player of the Match is ~~ Rashid Khan
 "
-M063|"Match between PBKS(H) and DC !! 
+M063$"Match between PBKS(H) and DC !! 
 innings 1
 DC BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -3599,7 +3599,7 @@ DC wins!!
 ******************************
 The Player of the Match is ~~ H Klaasen
 "
-M067|"Match between DC(H) and RCB !! 
+M067$"Match between DC(H) and RCB !! 
 innings 1
 RCB BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -3659,7 +3659,7 @@ DC wins!!
 ******************************
 The Player of the Match is ~~ Sikandar Raza
 "
-M073|"Match between SRH(H) and CSK !! 
+M073$"Match between SRH(H) and CSK !! 
 ```match about to begin```
 ------------------------------
           
@@ -3793,7 +3793,7 @@ CSK wins!!
           
 The Player of the Match is ~~ LS Livingstone
 "
-M072|"Match between SRH(H) and LSG !! 
+M072$"Match between SRH(H) and LSG !! 
 ```match about to begin```
 ------------------------------
           
@@ -3927,7 +3927,7 @@ SRH wins!!
           
 The Player of the Match is ~~ Shahbaz Ahmed
 "
-M066|"Match between PBKS(H) and GT !! 
+M066$"Match between PBKS(H) and GT !! 
 innings 1
 GT BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -3983,7 +3983,7 @@ PBKS wins!!
 ******************************
 The Player of the Match is ~~ H Klaasen
 "
-M058|"Match between RCB(H) and GT !! 
+M058$"Match between RCB(H) and GT !! 
 innings 1
 GT BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -4043,7 +4043,7 @@ GT wins!!
 ******************************
 The Player of the Match is ~~ GD Phillips
 "
-M070|"Match between KKR(H) and PBKS !! 
+M070$"Match between KKR(H) and PBKS !! 
 innings 1
 PBKS BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -4098,7 +4098,7 @@ PBKS wins!!
 ******************************
 The Player of the Match is ~~ RR Pant
 "
-M064|"Match between SRH(H) and KKR !! 
+M064$"Match between SRH(H) and KKR !! 
 innings 1
 SRH BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -4153,7 +4153,7 @@ KKR wins!!
 ******************************
 The Player of the Match is ~~ Noor Ahmad
 "
-M065|"Match between RR(H) and LSG !! 
+M065$"Match between RR(H) and LSG !! 
 innings 1
 RR BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
@@ -4210,7 +4210,7 @@ RR wins!!
 ******************************
 The Player of the Match is ~~ BA Stokes
 "
-M071|"Match between CSK(H) and PBKS !! 
+M071$"Match between CSK(H) and PBKS !! 
 ```match about to begin```
 ------------------------------
           
@@ -4350,7 +4350,7 @@ PBKS wins!!
           
 The Player of the Match is ~~ T Natarajan
 "
-M059|"Match between MI(H) and DC !! 
+M059$"Match between MI(H) and DC !! 
 innings 1
 MI BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^

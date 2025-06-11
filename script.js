@@ -41,9 +41,9 @@ function loadSeasonSubtabContent(seasonId, type, matchNum, container) {
       })
       .then(csv => {
         const lines = csv.trim().split("\n");
-        const headers = lines[0].split("|");
+        const headers = lines[0].split("$");
         const rows = lines.slice(1).map(line => {
-          const values = line.split("|");
+          const values = line.split("$");
           return Object.fromEntries(headers.map((h, i) => [h, values[i]]));
         });
 
@@ -200,7 +200,7 @@ function openMainTab(evt, tabName) {
   evt.currentTarget.classList.add("active");
 
   if (tabName === "Stats") {
-      loadStatsTabs("s01"); // default load
+      loadStatsTabs("S01"); // default load
   }
 }
 
