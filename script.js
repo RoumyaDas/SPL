@@ -190,7 +190,7 @@ function loadSeasonSubtabContent(seasonId, type, matchNum, container) {
       
       let fileUrl = "";
 
-      if (String(matchId).startsWith("01")) {
+      if (String(seasonId).startsWith("01")) {
         fileUrl = `${baseUrl}Scorecards/matchcard_M0${matchId}.txt`;
       } else {
         fileUrl = `${baseUrl}Scorecards/matchcard_S${seasonId}M0${matchId}.txt`;
