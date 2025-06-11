@@ -76,22 +76,82 @@ function loadSeasonSubtabContent(seasonId, type, matchNum, container) {
   let fileUrl = "";
 
   if (type.toLowerCase().startsWith("flow")) {
-    fileUrl = `${baseUrl}Match_flows/ball-by-ball_${matchNum}.txt`;
+    // Clear the container
+    container.innerHTML = "";
+  
+    // Create match number dropdown
+    const matchSelector = document.createElement("select");
+    for (let i = 1; i <= 74; i++) {
+      const option = document.createElement("option");
+      const matchId = i < 10 ? `0${i}` : `${i}`;
+      option.value = matchId;
+      option.textContent = `Match ${matchId}`;
+      if (matchId === matchNum) option.selected = true;
+      matchSelector.appendChild(option);
+    }
+  
+    // Create search input
+    const searchInput = document.createElement("input");
+    searchInput.type = "text";
+    searchInput.placeholder = "Search within flow...";
+    searchInput.style.margin = "10px";
+  
+    // Create display area (using <pre> for proper formatting)
+    const flowDisplay = document.createElement("pre");
+    flowDisplay.style.whiteSpace = "pre-wrap";
+    flowDisplay.style.border = "1px solid #ccc";
+    flowDisplay.style.padding = "10px";
+    flowDisplay.textContent = "Loading...";
+  
+    container.appendChild(matchSelector);
+    container.appendChild(searchInput);
+    container.appendChild(flowDisplay);
+  
+    const loadMatchFlow = (matchId) => {
+      const fileUrl = `${baseUrl}Match_flows/ball-by-ball_${matchId}.txt`;
+  
+      fetch(fileUrl)
+        .then(res => {
+          if (!res.ok) throw new Error("File not found");
+          return res.text();
+        })
+        .then(text => {
+          flowDisplay.textContent = text;
+          flowDisplay.dataset.raw = text; // store original for search
+        })
+        .catch(err => {
+          flowDisplay.textContent = "Error loading file.";
+          console.error("Error loading file:", fileUrl, err);
+        });
+    };
+  
+    // Initial load
+    loadMatchFlow(matchNum);
+  
+    // Match number selection change
+    matchSelector.addEventListener("change", () => {
+      const selected = matchSelector.value;
+      loadMatchFlow(selected);
+    });
+  
+    // Search filtering
+    searchInput.addEventListener("input", () => {
+      const rawText = flowDisplay.dataset.raw || "";
+      const query = searchInput.value.toLowerCase();
+      if (!query) {
+        flowDisplay.textContent = rawText;
+      } else {
+        const filtered = rawText
+          .split("\n")
+          .filter(line => line.toLowerCase().includes(query))
+          .join("\n");
+        flowDisplay.textContent = filtered;
+      }
+    });
+  }
 
-    fetch(fileUrl)
-      .then(res => {
-        if (!res.ok) throw new Error("File not found");
-        return res.text();
-      })
-      .then(text => {
-        container.textContent = text;
-      })
-      .catch(err => {
-        container.textContent = "Error loading file.";
-        console.error("Error loading file:", fileUrl, err);
-      });
 
-  } else if (type.toLowerCase().startsWith("scorecard")) {
+  else if (type.toLowerCase().startsWith("scorecard")) {
     const csvUrl = `https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Matchcards/Season_${seasonId}.csv`;
 
     fetch(csvUrl)
