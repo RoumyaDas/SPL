@@ -100,10 +100,13 @@ function loadSeasonSubtabContent(seasonId, type, matchNum, container) {
         return res.text();
       })
       .then(csv => {
-        const rows = parseCustomCSV(csv);
-
-        // ✅ Define headers from the keys of the first row
-        const headers = Object.keys(rows[0]);
+        const lines = csv.trim().split("%");
+        const headers = lines[0].split("$");
+        const rows = lines.slice(1).map(line => {
+          const values = line.split("$");
+          return Object.fromEntries(headers.map((h, i) => [h, values[i]]));
+        });
+      
 
         // Add filter input
         const searchInput = document.createElement("input");
