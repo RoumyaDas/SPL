@@ -9,6 +9,11 @@ document.querySelectorAll(".season-tab").forEach(btn => {
   });
 });
 
+const specialCsvBase = "https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/special_stats/";
+let specialCsvData = {}; // cache
+
+const tabKeys = Array.from({ length: 25 }, (_, i) => `tab${i + 1}`);
+
 const parseCustomCSV = (csv) => {
   const lines = [];
   let currentLine = "";
@@ -42,6 +47,16 @@ const parseCustomCSV = (csv) => {
 
   return rows;
 };
+function parseCSV(text) {
+  const lines = text.trim().split("\n");
+  const headers = lines[0].split(",");
+  const rows = lines.slice(1).map(line => {
+    const values = line.split(",");
+    return Object.fromEntries(headers.map((h, i) => [h, values[i]]));
+  });
+  return { headers, rows };
+}
+
 
 function splitSafe(line) {
   const parts = [];
@@ -66,6 +81,94 @@ function splitSafe(line) {
   parts.push(current);
   return parts.map(p => p.replace(/^"|"$/g, "")); // remove outer quotes
 }
+
+
+let specialSortConfig = { tabKey: "", column: null, order: "asc" };
+
+function renderSpecialTable(tabKey, searchTerm = "") {
+  const container = document.getElementById("special-table-container");
+  container.innerHTML = "";
+
+  const { headers, rows } = specialCsvData[tabKey] || {};
+  if (!headers || !rows) {
+    container.innerHTML = "<p>No data loaded.</p>";
+    return;
+  }
+
+  let filteredRows = rows;
+  if (searchTerm) {
+    filteredRows = rows.filter(row =>
+      headers.some(h => row[h]?.toLowerCase().includes(searchTerm.toLowerCase()))
+    );
+  }
+
+  // Sorting
+  if (specialSortConfig.tabKey === tabKey && specialSortConfig.column !== null) {
+    const h = headers[specialSortConfig.column];
+    const order = specialSortConfig.order;
+    filteredRows.sort((a, b) => {
+      const aVal = a[h], bVal = b[h];
+      const isNum = !isNaN(parseFloat(aVal)) && !isNaN(parseFloat(bVal));
+      if (isNum) {
+        return order === "asc" ? aVal - bVal : bVal - aVal;
+      }
+      return order === "asc"
+        ? String(aVal).localeCompare(String(bVal))
+        : String(bVal).localeCompare(String(aVal));
+    });
+  }
+
+  // Table render
+  const table = document.createElement("table");
+  table.style.width = "100%";
+  table.style.borderCollapse = "collapse";
+
+  const thead = document.createElement("thead");
+  const headRow = document.createElement("tr");
+  headers.forEach((h, idx) => {
+    const th = document.createElement("th");
+    th.textContent = h;
+    th.style.cursor = "pointer";
+    th.style.border = "1px solid #ccc";
+    th.style.padding = "4px";
+
+    // Add sort indicator
+    if (specialSortConfig.tabKey === tabKey && specialSortConfig.column === idx) {
+      th.textContent += specialSortConfig.order === "asc" ? " ▲" : " ▼";
+    }
+
+    // Add click handler
+    th.addEventListener("click", () => {
+      if (specialSortConfig.tabKey === tabKey && specialSortConfig.column === idx) {
+        // Toggle order
+        specialSortConfig.order = specialSortConfig.order === "asc" ? "desc" : "asc";
+      } else {
+        specialSortConfig = { tabKey, column: idx, order: "asc" };
+      }
+      renderSpecialTable(tabKey, document.getElementById("specialSearch").value);
+    });
+
+    headRow.appendChild(th);
+  });
+  thead.appendChild(headRow);
+  table.appendChild(thead);
+
+  const tbody = document.createElement("tbody");
+  filteredRows.slice(0, 20).forEach(row => {
+    const tr = document.createElement("tr");
+    headers.forEach(h => {
+      const td = document.createElement("td");
+      td.textContent = row[h];
+      td.style.border = "1px solid #ccc";
+      td.style.padding = "4px";
+      tr.appendChild(td);
+    });
+    tbody.appendChild(tr);
+  });
+  table.appendChild(tbody);
+  container.appendChild(table);
+}
+
 
 
 
@@ -241,6 +344,55 @@ function loadSeasonSubtabContent(seasonId, type, matchNum, container) {
     container.textContent = "Graphs will be shown here soon.";
   }
 }
+
+const tabSpecialstatsnames = [
+  "stats1", "stats2", "stats3", "stats4",
+  "stats5", "stats6", "stats7", "stats8",
+  "stats9", "stats10", "stats11", "stats12", "stats13", "stats14",
+  "stats15", "stats16", "stats17", "stats18",
+  "stats19", "stats20", "stats21", "stats22", "stats23", "stats24",
+  "stats25" // fill with whatever name you want
+];
+
+
+
+const specialSubtabs = document.getElementById("special-subtabs");
+
+tabKeys.forEach((tabKey, i) => {
+  const displayName = tabSpecialstatsnames[i] || tabKey;
+
+  const button = document.createElement("button");
+  button.textContent = displayName;
+  button.dataset.tabkey = tabKey;
+
+  button.addEventListener("click", () => {
+    document.querySelectorAll("#special-subtabs button").forEach(b => b.classList.remove("active"));
+    button.classList.add("active");
+    renderSpecialTable(tabKey, document.getElementById("specialSearch").value);
+  });
+
+  specialSubtabs.appendChild(button);
+
+  fetch(`${specialCsvBase}${tabKey}.csv`)
+    .then(res => res.text())
+    .then(text => {
+      specialCsvData[tabKey] = parseCSV(text);
+      if (i === 0) {
+        button.classList.add("active");
+        renderSpecialTable(tabKey);
+      }
+    });
+});
+
+
+document.getElementById("specialSearch").addEventListener("input", () => {
+  const activeTab = document.querySelector("#special-subtabs button.active");
+const tabKey = activeTab?.dataset.tabkey;
+if (tabKey) {
+  renderSpecialTable(tabKey, document.getElementById("specialSearch").value);
+}
+
+});
 
 
 

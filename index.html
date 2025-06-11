@@ -26,6 +26,8 @@
   <div class="tabs">
     <button class="main-tab active" data-tab="seasons">Seasons</button>
     <button class="main-tab" data-tab="career">Career</button>
+    <button class="main-tab" data-tab="special">Special Stats</button>
+
   </div>
 
   <li><a href="#" onclick="openMainTab(event, 'Stats')">Stats</a></li>
@@ -151,6 +153,24 @@
       </table>
     </div>
   </div>
+
+  <!-- Special Stats Tab Content -->
+<div id="special" class="tab-content">
+  <h2>Special Stats</h2>
+
+  <!-- Search Filter -->
+  <label for="specialSearch">Search:</label>
+  <input type="text" id="specialSearch" placeholder="Type to filter..." />
+
+  <!-- Subtabs -->
+  <div class="tabs" id="special-subtabs">
+    <!-- JS will auto-populate 25 buttons here -->
+  </div>
+
+  <!-- CSV Table Output -->
+  <div id="special-table-container" class="csv-table-output" style="margin-top: 10px;"></div>
+</div>
+
 
   <!-- Career Tab Script (unique to this page) -->
   <script>
