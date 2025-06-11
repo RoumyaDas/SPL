@@ -102,6 +102,9 @@ function loadSeasonSubtabContent(seasonId, type, matchNum, container) {
       .then(csv => {
         const rows = parseCustomCSV(csv);
 
+        // ✅ Define headers from the keys of the first row
+        const headers = Object.keys(rows[0]);
+
         // Add filter input
         const searchInput = document.createElement("input");
         searchInput.type = "text";
