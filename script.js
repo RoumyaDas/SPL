@@ -31,34 +31,88 @@ function loadSeasonSubtabContent(seasonId, type, matchNum, container) {
         console.error("Error loading file:", fileUrl, err);
       });
 
-  } else if (type.toLowerCase().startsWith("scorecard")) {
+  }  else if (type.toLowerCase().startsWith("scorecard")) {
     const csvUrl = `https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Matchcards/Season_${seasonId}.csv`;
-
+  
     fetch(csvUrl)
       .then(res => {
         if (!res.ok) throw new Error("CSV not found");
         return res.text();
       })
       .then(csv => {
-        const rows = csv.trim().split("\n").map(row => row.split(","));
-        const headers = rows[0];
-        const data = rows.slice(1);
-
-        // Inject search + table into container
-        container.innerHTML = `
-          <div id="csv-search-container">
-            <input type="text" id="csv-search" placeholder="Search matchcards...">
-          </div>
-          <div id="csv-table-container"></div>
-        `;
-
-        renderFilteredTable(headers, data, true); // true = show only first row
-        setupSearch(headers, data);
+        const lines = csv.trim().split("\n");
+        const headers = lines[0].split(",");
+        const rows = lines.slice(1).map(line => {
+          const values = line.split(",");
+          return Object.fromEntries(headers.map((h, i) => [h, values[i]]));
+        });
+  
+        // Add filter input
+        const searchInput = document.createElement("input");
+        searchInput.type = "text";
+        searchInput.placeholder = "Search...";
+        searchInput.style.margin = "10px 0";
+        container.innerHTML = "";
+        container.appendChild(searchInput);
+  
+        // Add table
+        const table = document.createElement("table");
+        table.style.width = "100%";
+        table.style.borderCollapse = "collapse";
+        table.style.marginTop = "10px";
+  
+        const thead = document.createElement("thead");
+        const tbody = document.createElement("tbody");
+        table.appendChild(thead);
+        table.appendChild(tbody);
+  
+        container.appendChild(table);
+  
+        const renderTable = (filteredRows) => {
+          thead.innerHTML = "";
+          tbody.innerHTML = "";
+  
+          const trHead = document.createElement("tr");
+          headers.forEach(h => {
+            const th = document.createElement("th");
+            th.textContent = h;
+            th.style.border = "1px solid #ddd";
+            th.style.padding = "8px";
+            th.style.background = "#f2f2f2";
+            trHead.appendChild(th);
+          });
+          thead.appendChild(trHead);
+  
+          filteredRows.forEach(row => {
+            const tr = document.createElement("tr");
+            headers.forEach(h => {
+              const td = document.createElement("td");
+              td.textContent = row[h];
+              td.style.border = "1px solid #ddd";
+              td.style.padding = "8px";
+              tr.appendChild(td);
+            });
+            tbody.appendChild(tr);
+          });
+        };
+  
+        // Initial render
+        renderTable(rows);
+  
+        // Search logic
+        searchInput.addEventListener("input", () => {
+          const query = searchInput.value.toLowerCase();
+          const filtered = rows.filter(row =>
+            Object.values(row).some(val => val.toLowerCase().includes(query))
+          );
+          renderTable(filtered);
+        });
       })
       .catch(err => {
         container.textContent = "Error loading CSV.";
         console.error("CSV fetch error:", err);
       });
+  
 
   } else if (type === "graphs") {
     container.textContent = "Graphs will be shown here soon.";
