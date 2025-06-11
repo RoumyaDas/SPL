@@ -174,7 +174,8 @@ document.querySelectorAll(".season-subtab").forEach(btn => {
       existingSelect.remove();
     }
 
-    if (activeSubtabId === "flow" || activeSubtabId === "scorecard") {
+    if (activeSubtabId.startsWith("flow") || activeSubtabId.startsWith("scorecard")) {
+
       const maxMatches = 74;
       createMatchSelector(seasonId, activeSubtabContent, activeSubtabId, maxMatches);
       loadSeasonSubtabContent(seasonId, activeSubtabId, 1, activeSubtabContent);
