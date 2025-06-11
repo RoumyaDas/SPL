@@ -31,10 +31,10 @@ function loadSeasonSubtabContent(seasonId, type, matchNum, container) {
         console.error("Error loading file:", fileUrl, err);
       });
 
-  } else if (type === "scorecard") {
-    // ✅ Now pull the CSV for full season and render a filtered table
-    const csvUrl = `https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Matchcards/Season_${seasonId}.csv`;
-
+  } else if (type.startsWith("scorecard")) {
+  const seasonNum = type.split("-")[1];
+  const csvUrl = `https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Matchcards/Season_${seasonNum}.csv`;
+  // ...rest of CSV fetch logic
     fetch(csvUrl)
       .then(res => res.text())
       .then(csv => {
