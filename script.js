@@ -346,7 +346,7 @@ function loadSeasonSubtabContent(seasonId, type, matchNum, container) {
 }
 
 const tabSpecialstatsnames = [
-  "stats1", "stats2", "stats3", "stats4",
+  "Phase-wise Batter", "Phase-wise Bowler", "stats3", "stats4",
   "stats5", "stats6", "stats7", "stats8",
   "stats9", "stats10", "stats11", "stats12", "stats13", "stats14",
   "stats15", "stats16", "stats17", "stats18",
