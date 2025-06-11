@@ -31,12 +31,14 @@ function loadSeasonSubtabContent(seasonId, type, matchNum, container) {
         console.error("Error loading file:", fileUrl, err);
       });
 
-  } else if (type.startsWith("scorecard")) {
-  const seasonNum = type.split("-")[1];
-  const csvUrl = `https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Matchcards/Season_${seasonId}.csv`;
-  // ...rest of CSV fetch logic
+  } else if (type.toLowerCase().startsWith("scorecard")) {
+    const csvUrl = `https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Matchcards/Season_${seasonId}.csv`;
+
     fetch(csvUrl)
-      .then(res => res.text())
+      .then(res => {
+        if (!res.ok) throw new Error("CSV not found");
+        return res.text();
+      })
       .then(csv => {
         const rows = csv.trim().split("\n").map(row => row.split(","));
         const headers = rows[0];
@@ -62,6 +64,7 @@ function loadSeasonSubtabContent(seasonId, type, matchNum, container) {
     container.textContent = "Graphs will be shown here soon.";
   }
 }
+
 
 
 const tabDisplayNames = [
@@ -171,6 +174,20 @@ for (let i = 1; i <= 23; i++) {
 loadCSVData(seasonId, "TAB01");
 }
 
+function setupSearch(headers, data) {
+  const searchInput = document.getElementById("csv-search");
+  const tableDiv = document.getElementById("csv-table-container");
+
+  searchInput.addEventListener("input", () => {
+    const query = searchInput.value.toLowerCase();
+
+    const filteredRows = data.filter(row =>
+      row.some(cell => cell.toLowerCase().includes(query))
+    );
+
+    renderFilteredTable(headers, filteredRows); // Renders all matched rows
+  });
+}
 
 
 function loadCSVData(seasonId, tabId) {
@@ -188,11 +205,13 @@ fetch(csvPath)
 
 let currentSort = { columnIndex: null, ascending: true };
 
-function renderFilteredTable(headers, rows) {
+function renderFilteredTable(headers, rows, onlyFirstRow = false) {
+
 const tableDiv = document.getElementById("csv-table-container");
 
 // Show only first 20 rows
-const visibleRows = rows.slice(0, 20);
+const visibleRows = onlyFirstRow ? rows.slice(0, 1) : rows;
+
 
 let html = `
   <table id="csv-table" style="
