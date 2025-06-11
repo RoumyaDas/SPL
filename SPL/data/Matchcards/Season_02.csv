@@ -1,5 +1,5 @@
-match_id,scorecard
-S02M045,"Match between RR(H) and SRH !! 
+match_id|scorecard
+S02M045|"Match between RR(H) and SRH !! 
 ```match about to begin```
 ------------------------------
           
@@ -129,7 +129,7 @@ RR wins!!
           
 The Player of the Match is ~~ GJ Maxwell
 "
-S02M051,"Match between LSG(H) and SRH !! 
+S02M051|"Match between LSG(H) and SRH !! 
 ```match about to begin```
 ------------------------------
           
@@ -263,7 +263,7 @@ SRH wins!!
           
 The Player of the Match is ~~ AK Markram
 "
-S02M050,"Match between DC(H) and KKR !! 
+S02M050|"Match between DC(H) and KKR !! 
 ```match about to begin```
 ------------------------------
           
@@ -391,7 +391,7 @@ DC wins!!
           
 The Player of the Match is ~~ AM Rahane
 "
-S02M044,"Match between MI(H) and CSK !! 
+S02M044|"Match between MI(H) and CSK !! 
 ```match about to begin```
 ------------------------------
           
@@ -513,7 +513,7 @@ MI wins!!
           
 The Player of the Match is ~~ Abhishek Sharma
 "
-S02M052,"Match between GT(H) and RCB !! 
+S02M052|"Match between GT(H) and RCB !! 
 ```match about to begin```
 ------------------------------
           
@@ -627,7 +627,7 @@ GT wins!!
           
 The Player of the Match is ~~ RD Gaikwad
 "
-S02M046,"Match between KKR(H) and RCB !! 
+S02M046|"Match between KKR(H) and RCB !! 
 ```match about to begin```
 ------------------------------
           
@@ -755,7 +755,7 @@ RCB wins!!
           
 The Player of the Match is ~~ J Fraser-McGurk
 "
-S02M047,"Match between LSG(H) and MI !! 
+S02M047|"Match between LSG(H) and MI !! 
 ```match about to begin```
 ------------------------------
           
@@ -885,7 +885,7 @@ LSG wins!!
           
 The Player of the Match is ~~ Abhishek Sharma
 "
-S02M053,"Match between CSK(H) and MI !! 
+S02M053|"Match between CSK(H) and MI !! 
 ```match about to begin```
 ------------------------------
           
@@ -1005,7 +1005,7 @@ CSK wins!!
           
 The Player of the Match is ~~ RR Rossouw
 "
-S02M057,"Match between SRH(H) and LSG !! 
+S02M057|"Match between SRH(H) and LSG !! 
 ```match about to begin```
 ------------------------------
           
@@ -1129,7 +1129,7 @@ SRH wins!!
           
 The Player of the Match is ~~ SP Narine
 "
-S02M043,"Match between GT(H) and DC !! 
+S02M043|"Match between GT(H) and DC !! 
 ```match about to begin```
 ------------------------------
           
@@ -1257,7 +1257,7 @@ DC wins!!
           
 The Player of the Match is ~~ SV Samson
 "
-S02M042,"Match between LSG(H) and RCB !! 
+S02M042|"Match between LSG(H) and RCB !! 
 ```match about to begin```
 ------------------------------
           
@@ -1379,7 +1379,7 @@ RCB wins!!
           
 The Player of the Match is ~~ SP Narine
 "
-S02M056,"Match between PBKS(H) and GT !! 
+S02M056|"Match between PBKS(H) and GT !! 
 ```match about to begin```
 ------------------------------
           
@@ -1507,7 +1507,7 @@ GT wins!!
           
 The Player of the Match is ~~ DP Conway
 "
-S02M040,"Match between CSK(H) and KKR !! 
+S02M040|"Match between CSK(H) and KKR !! 
 ```match about to begin```
 ------------------------------
           
@@ -1625,7 +1625,7 @@ CSK wins!!
           
 The Player of the Match is ~~ F du Plessis
 "
-S02M054,"Match between DC(H) and RR !! 
+S02M054|"Match between DC(H) and RR !! 
 ```match about to begin```
 ------------------------------
           
@@ -1743,7 +1743,7 @@ RR wins!!
           
 The Player of the Match is ~~ GJ Maxwell
 "
-S02M068,"Match between DC and SRH !! 
+S02M068|"Match between DC and SRH !! 
 Venue -- DC
 ```match about to begin```
 ------------------------------
@@ -1866,7 +1866,7 @@ DC wins!!
           
 The Player of the Match is ~~ Abishek Porel
 "
-S02M069,"Match between GT and LSG !! 
+S02M069|"Match between GT and LSG !! 
 Venue -- GT
 ```match about to begin```
 ------------------------------
@@ -2001,7 +2001,7 @@ LSG wins!!
           
 The Player of the Match is ~~ JC Archer
 "
-S02M055,"Match between RCB(H) and KKR !! 
+S02M055|"Match between RCB(H) and KKR !! 
 ```match about to begin```
 ------------------------------
           
@@ -2121,7 +2121,7 @@ KKR wins!!
           
 The Player of the Match is ~~ RK Singh
 "
-S02M041,"Match between PBKS(H) and RR !! 
+S02M041|"Match between PBKS(H) and RR !! 
 ```match about to begin```
 ------------------------------
           
@@ -2247,7 +2247,7 @@ PBKS wins!!
           
 The Player of the Match is ~~ GJ Maxwell
 "
-S02M026,"Match between SRH(H) and RCB !! 
+S02M026|"Match between SRH(H) and RCB !! 
 ```match about to begin```
 ------------------------------
           
@@ -2375,7 +2375,7 @@ SRH wins!!
           
 The Player of the Match is ~~ AK Markram
 "
-S02M032,"Match between GT(H) and CSK !! 
+S02M032|"Match between GT(H) and CSK !! 
 ```match about to begin```
 ------------------------------
           
@@ -2493,7 +2493,7 @@ GT wins!!
           
 The Player of the Match is ~~ Naman Dhir
 "
-S02M033,"Match between DC(H) and PBKS !! 
+S02M033|"Match between DC(H) and PBKS !! 
 ```match about to begin```
 ------------------------------
           
@@ -2625,7 +2625,7 @@ DC wins!!
           
 The Player of the Match is ~~ SA Yadav
 "
-S02M027,"Match between CSK(H) and PBKS !! 
+S02M027|"Match between CSK(H) and PBKS !! 
 ```match about to begin```
 ------------------------------
           
@@ -2747,7 +2747,7 @@ CSK wins!!
           
 The Player of the Match is ~~ Q de Kock
 "
-S02M019,"Match between MI(H) and KKR !! 
+S02M019|"Match between MI(H) and KKR !! 
 ```match about to begin```
 ------------------------------
           
@@ -2861,7 +2861,7 @@ MI wins!!
           
 The Player of the Match is ~~ N Pooran
 "
-S02M031,"Match between RR(H) and RCB !! 
+S02M031|"Match between RR(H) and RCB !! 
 ```match about to begin```
 ------------------------------
           
@@ -2981,7 +2981,7 @@ RR wins!!
           
 The Player of the Match is ~~ GJ Maxwell
 "
-S02M025,"Match between KKR(H) and RR !! 
+S02M025|"Match between KKR(H) and RR !! 
 ```match about to begin```
 ------------------------------
           
@@ -3103,7 +3103,7 @@ RR wins!!
           
 The Player of the Match is ~~ GJ Maxwell
 "
-S02M024,"Match between LSG(H) and DC !! 
+S02M024|"Match between LSG(H) and DC !! 
 ```match about to begin```
 ------------------------------
           
@@ -3219,7 +3219,7 @@ LSG wins!!
           
 The Player of the Match is ~~ SS Iyer
 "
-S02M030,"Match between SRH(H) and KKR !! 
+S02M030|"Match between SRH(H) and KKR !! 
 ```match about to begin```
 ------------------------------
           
@@ -3345,7 +3345,7 @@ SRH wins!!
           
 The Player of the Match is ~~ BM Duckett
 "
-S02M018,"Match between GT(H) and SRH !! 
+S02M018|"Match between GT(H) and SRH !! 
 ```match about to begin```
 ------------------------------
           
@@ -3479,7 +3479,7 @@ SRH wins!!
           
 The Player of the Match is ~~ Rasikh Salam
 "
-S02M034,"Match between SRH(H) and MI !! 
+S02M034|"Match between SRH(H) and MI !! 
 ```match about to begin```
 ------------------------------
           
@@ -3599,7 +3599,7 @@ MI wins!!
           
 The Player of the Match is ~~ N Pooran
 "
-S02M020,"Match between RR(H) and LSG !! 
+S02M020|"Match between RR(H) and LSG !! 
 ```match about to begin```
 ------------------------------
           
@@ -3729,7 +3729,7 @@ RR wins!!
           
 The Player of the Match is ~~ Shubman Gill
 "
-S02M008,"Match between MI(H) and PBKS !! 
+S02M008|"Match between MI(H) and PBKS !! 
 ```match about to begin```
 ------------------------------
           
@@ -3859,7 +3859,7 @@ MI wins!!
           
 The Player of the Match is ~~ SS Ghosh
 "
-S02M009,"Match between LSG(H) and GT !! 
+S02M009|"Match between LSG(H) and GT !! 
 ```match about to begin```
 ------------------------------
           
@@ -3983,7 +3983,7 @@ GT wins!!
           
 The Player of the Match is ~~ DP Conway
 "
-S02M021,"Match between PBKS(H) and RCB !! 
+S02M021|"Match between PBKS(H) and RCB !! 
 ```match about to begin```
 ------------------------------
           
@@ -4109,7 +4109,7 @@ RCB wins!!
           
 The Player of the Match is ~~ Mujeeb Ur Rahman
 "
-S02M035,"Match between KKR(H) and LSG !! 
+S02M035|"Match between KKR(H) and LSG !! 
 ```match about to begin```
 ------------------------------
           
@@ -4239,7 +4239,7 @@ KKR wins!!
           
 The Player of the Match is ~~ MA Starc
 "
-S02M023,"Match between GT(H) and MI !! 
+S02M023|"Match between GT(H) and MI !! 
 ```match about to begin```
 ------------------------------
           
@@ -4355,7 +4355,7 @@ MI wins!!
           
 The Player of the Match is ~~ Naman Dhir
 "
-S02M037,"Match between RCB(H) and GT !! 
+S02M037|"Match between RCB(H) and GT !! 
 ```match about to begin```
 ------------------------------
           
@@ -4487,7 +4487,7 @@ GT wins!!
           
 The Player of the Match is ~~ Rasikh Salam
 "
-S02M036,"Match between CSK(H) and RR !! 
+S02M036|"Match between CSK(H) and RR !! 
 ```match about to begin```
 ------------------------------
           
@@ -4607,7 +4607,7 @@ CSK wins!!
           
 The Player of the Match is ~~ MP Yadav
 "
-S02M022,"Match between SRH(H) and CSK !! 
+S02M022|"Match between SRH(H) and CSK !! 
 ```match about to begin```
 ------------------------------
           
@@ -4733,7 +4733,7 @@ SRH wins!!
           
 The Player of the Match is ~~ BM Duckett
 "
-S02M007,"Match between RCB(H) and SRH !! 
+S02M007|"Match between RCB(H) and SRH !! 
 ```match about to begin```
 ------------------------------
           
@@ -4857,7 +4857,7 @@ RCB wins!!
           
 The Player of the Match is ~~ RD Gaikwad
 "
-S02M013,"Match between PBKS(H) and LSG !! 
+S02M013|"Match between PBKS(H) and LSG !! 
 ```match about to begin```
 ------------------------------
           
@@ -4985,7 +4985,7 @@ PBKS wins!!
           
 The Player of the Match is ~~ Shubman Gill
 "
-S02M012,"Match between CSK(H) and SRH !! 
+S02M012|"Match between CSK(H) and SRH !! 
 ```match about to begin```
 ------------------------------
           
@@ -5109,7 +5109,7 @@ CSK wins!!
           
 The Player of the Match is ~~ VR Iyer
 "
-S02M006,"Match between DC(H) and CSK !! 
+S02M006|"Match between DC(H) and CSK !! 
 ```match about to begin```
 ------------------------------
           
@@ -5233,7 +5233,7 @@ DC wins!!
           
 The Player of the Match is ~~ V Kohli
 "
-S02M038,"Match between PBKS(H) and SRH !! 
+S02M038|"Match between PBKS(H) and SRH !! 
 ```match about to begin```
 ------------------------------
           
@@ -5359,7 +5359,7 @@ SRH wins!!
           
 The Player of the Match is ~~ LS Livingstone
 "
-S02M010,"Match between RR(H) and KKR !! 
+S02M010|"Match between RR(H) and KKR !! 
 ```match about to begin```
 ------------------------------
           
@@ -5493,7 +5493,7 @@ KKR wins!!
           
 The Player of the Match is ~~ GJ Maxwell
 "
-S02M004,"Match between LSG(H) and KKR !! 
+S02M004|"Match between LSG(H) and KKR !! 
 ```match about to begin```
 ------------------------------
           
@@ -5627,7 +5627,7 @@ LSG wins!!
           
 The Player of the Match is ~~ Ishan Kishan
 "
-S02M005,"Match between GT(H) and RR !! 
+S02M005|"Match between GT(H) and RR !! 
 ```match about to begin```
 ------------------------------
           
@@ -5747,7 +5747,7 @@ RR wins!!
           
 The Player of the Match is ~~ RD Rickelton
 "
-S02M011,"Match between RCB(H) and DC !! 
+S02M011|"Match between RCB(H) and DC !! 
 ```match about to begin```
 ------------------------------
           
@@ -5877,7 +5877,7 @@ DC wins!!
           
 The Player of the Match is ~~ V Kohli
 "
-S02M039,"Match between MI(H) and DC !! 
+S02M039|"Match between MI(H) and DC !! 
 ```match about to begin```
 ------------------------------
           
@@ -5999,7 +5999,7 @@ DC wins!!
           
 The Player of the Match is ~~ SA Yadav
 "
-S02M015,"Match between RR(H) and MI !! 
+S02M015|"Match between RR(H) and MI !! 
 ```match about to begin```
 ------------------------------
           
@@ -6123,7 +6123,7 @@ RR wins!!
           
 The Player of the Match is ~~ Mayank Dagar
 "
-S02M001,"Match between PBKS(H) and CSK !! 
+S02M001|"Match between PBKS(H) and CSK !! 
 ```match about to begin```
 ------------------------------
           
@@ -6255,7 +6255,7 @@ PBKS wins!!
           
 The Player of the Match is ~~ M Markande
 "
-S02M029,"Match between MI(H) and LSG !! 
+S02M029|"Match between MI(H) and LSG !! 
 ```match about to begin```
 ------------------------------
           
@@ -6375,7 +6375,7 @@ MI wins!!
           
 The Player of the Match is ~~ SS Iyer
 "
-S02M028,"Match between DC(H) and GT !! 
+S02M028|"Match between DC(H) and GT !! 
 ```match about to begin```
 ------------------------------
           
@@ -6497,7 +6497,7 @@ DC wins!!
           
 The Player of the Match is ~~ SV Samson
 "
-S02M014,"Match between KKR(H) and GT !! 
+S02M014|"Match between KKR(H) and GT !! 
 ```match about to begin```
 ------------------------------
           
@@ -6629,7 +6629,7 @@ KKR wins!!
           
 The Player of the Match is ~~ SM Curran
 "
-S02M002,"Match between SRH(H) and DC !! 
+S02M002|"Match between SRH(H) and DC !! 
 ```match about to begin```
 ------------------------------
           
@@ -6749,7 +6749,7 @@ SRH wins!!
           
 The Player of the Match is ~~ BM Duckett
 "
-S02M016,"Match between RCB(H) and CSK !! 
+S02M016|"Match between RCB(H) and CSK !! 
 ```match about to begin```
 ------------------------------
           
@@ -6879,7 +6879,7 @@ CSK wins!!
           
 The Player of the Match is ~~ Tilak Varma
 "
-S02M017,"Match between PBKS(H) and DC !! 
+S02M017|"Match between PBKS(H) and DC !! 
 ```match about to begin```
 ------------------------------
           
@@ -7005,7 +7005,7 @@ PBKS wins!!
           
 The Player of the Match is ~~ M Markande
 "
-S02M003,"Match between MI(H) and RCB !! 
+S02M003|"Match between MI(H) and RCB !! 
 ```match about to begin```
 ------------------------------
           
@@ -7123,7 +7123,7 @@ RCB wins!!
           
 The Player of the Match is ~~ PD Salt
 "
-S02M058,"Match between DC(H) and MI !! 
+S02M058|"Match between DC(H) and MI !! 
 ```match about to begin```
 ------------------------------
           
@@ -7241,7 +7241,7 @@ MI wins!!
           
 The Player of the Match is ~~ SA Yadav
 "
-S02M064,"Match between KKR(H) and DC !! 
+S02M064|"Match between KKR(H) and DC !! 
 ```match about to begin```
 ------------------------------
           
@@ -7369,7 +7369,7 @@ DC wins!!
           
 The Player of the Match is ~~ RA Jadeja
 "
-S02M070,"Match between KKR and PBKS !! 
+S02M070|"Match between KKR and PBKS !! 
 Venue -- KKR
 ```match about to begin```
 ------------------------------
@@ -7492,7 +7492,7 @@ KKR wins!!
           
 The Player of the Match is ~~ AM Rahane
 "
-S02M071,"Match between SRH and DC !! 
+S02M071|"Match between SRH and DC !! 
 Venue -- CSK
 ```match about to begin```
 ------------------------------
@@ -7625,7 +7625,7 @@ SRH wins!!
           
 The Player of the Match is ~~ AD Russell
 "
-S02M065,"Match between SRH and RR !! 
+S02M065|"Match between SRH and RR !! 
 Venue -- SRH
 ```match about to begin```
 ------------------------------
@@ -7746,7 +7746,7 @@ SRH wins!!
           
 The Player of the Match is ~~ BM Duckett
 "
-S02M059,"Match between RR(H) and GT !! 
+S02M059|"Match between RR(H) and GT !! 
 ```match about to begin```
 ------------------------------
           
@@ -7874,7 +7874,7 @@ GT wins!!
           
 The Player of the Match is ~~ JP Inglis
 "
-S02M073,"Match between RR and DC !! 
+S02M073|"Match between RR and DC !! 
 Venue -- PBKS
 ```match about to begin```
 ------------------------------
@@ -7995,7 +7995,7 @@ RR wins!!
           
 The Player of the Match is ~~ SA Yadav
 "
-S02M067,"Match between RCB and MI !! 
+S02M067|"Match between RCB and MI !! 
 Venue -- RCB
 ```match about to begin```
 ------------------------------
@@ -8120,7 +8120,7 @@ MI wins!!
           
 The Player of the Match is ~~ JJ Bumrah
 "
-S02M066,"Match between CSK and LSG !! 
+S02M066|"Match between CSK and LSG !! 
 Venue -- CSK
 ```match about to begin```
 ------------------------------
@@ -8245,7 +8245,7 @@ LSG wins!!
           
 The Player of the Match is ~~ BA Stokes
 "
-S02M072,"Match between RR and MI !! 
+S02M072|"Match between RR and MI !! 
 Venue -- CSK
 ```match about to begin```
 ------------------------------
@@ -8374,7 +8374,7 @@ RR wins!!
           
 The Player of the Match is ~~ JR Hazlewood
 "
-S02M062,"Match between MI(H) and RR !! 
+S02M062|"Match between MI(H) and RR !! 
 ```match about to begin```
 ------------------------------
           
@@ -8496,7 +8496,7 @@ RR wins!!
           
 The Player of the Match is ~~ S Dube
 "
-S02M063,"Match between RCB(H) and PBKS !! 
+S02M063|"Match between RCB(H) and PBKS !! 
 ```match about to begin```
 ------------------------------
           
@@ -8620,7 +8620,7 @@ RCB wins!!
           
 The Player of the Match is ~~ Washington Sundar
 "
-S02M061,"Match between LSG(H) and PBKS !! 
+S02M061|"Match between LSG(H) and PBKS !! 
 ```match about to begin```
 ------------------------------
           
@@ -8750,7 +8750,7 @@ LSG wins!!
           
 The Player of the Match is ~~ Washington Sundar
 "
-S02M075,"Match between PBKS_f and RR_f !! 
+S02M075|"Match between PBKS_f and RR_f !! 
 Venue -- CSK
 ```match about to begin```
 ------------------------------
@@ -8873,7 +8873,7 @@ PBKS_f wins!!
           
 The Player of the Match is ~~ RR Pant
 "
-S02M049,"Match between RR(H) and PBKS !! 
+S02M049|"Match between RR(H) and PBKS !! 
 ```match about to begin```
 ------------------------------
           
@@ -9003,7 +9003,7 @@ PBKS wins!!
           
 The Player of the Match is ~~ Shakib Al Hasan
 "
-S02M048,"Match between CSK(H) and GT !! 
+S02M048|"Match between CSK(H) and GT !! 
 ```match about to begin```
 ------------------------------
           
@@ -9133,7 +9133,7 @@ CSK wins!!
           
 The Player of the Match is ~~ Fazalhaq Farooqi
 "
-S02M074,"Match between SRH and RR !! 
+S02M074|"Match between SRH and RR !! 
 Venue -- PBKS
 ```match about to begin```
 ------------------------------
@@ -9256,7 +9256,7 @@ RR wins!!
           
 The Player of the Match is ~~ S Dube
 "
-S02M060,"Match between KKR(H) and CSK !! 
+S02M060|"Match between KKR(H) and CSK !! 
 ```match about to begin```
 ------------------------------
           

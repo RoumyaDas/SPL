@@ -31,9 +31,9 @@ function loadSeasonSubtabContent(seasonId, type, matchNum, container) {
         console.error("Error loading file:", fileUrl, err);
       });
 
-  }  else if (type.toLowerCase().startsWith("scorecard")) {
+  } else if (type.toLowerCase().startsWith("scorecard")) {
     const csvUrl = `https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Matchcards/Season_${seasonId}.csv`;
-  
+
     fetch(csvUrl)
       .then(res => {
         if (!res.ok) throw new Error("CSV not found");
@@ -41,12 +41,12 @@ function loadSeasonSubtabContent(seasonId, type, matchNum, container) {
       })
       .then(csv => {
         const lines = csv.trim().split("\n");
-        const headers = lines[0].split(",");
+        const headers = lines[0].split("|");
         const rows = lines.slice(1).map(line => {
-          const values = line.split(",");
+          const values = line.split("|");
           return Object.fromEntries(headers.map((h, i) => [h, values[i]]));
         });
-  
+
         // Add filter input
         const searchInput = document.createElement("input");
         searchInput.type = "text";
@@ -54,24 +54,24 @@ function loadSeasonSubtabContent(seasonId, type, matchNum, container) {
         searchInput.style.margin = "10px 0";
         container.innerHTML = "";
         container.appendChild(searchInput);
-  
+
         // Add table
         const table = document.createElement("table");
         table.style.width = "100%";
         table.style.borderCollapse = "collapse";
         table.style.marginTop = "10px";
-  
+
         const thead = document.createElement("thead");
         const tbody = document.createElement("tbody");
         table.appendChild(thead);
         table.appendChild(tbody);
-  
+
         container.appendChild(table);
-  
+
         const renderTable = (filteredRows) => {
           thead.innerHTML = "";
           tbody.innerHTML = "";
-  
+
           const trHead = document.createElement("tr");
           headers.forEach(h => {
             const th = document.createElement("th");
@@ -82,7 +82,7 @@ function loadSeasonSubtabContent(seasonId, type, matchNum, container) {
             trHead.appendChild(th);
           });
           thead.appendChild(trHead);
-  
+
           filteredRows.forEach(row => {
             const tr = document.createElement("tr");
             headers.forEach(h => {
@@ -95,10 +95,10 @@ function loadSeasonSubtabContent(seasonId, type, matchNum, container) {
             tbody.appendChild(tr);
           });
         };
-  
+
         // Initial render
         renderTable(rows);
-  
+
         // Search logic
         searchInput.addEventListener("input", () => {
           const query = searchInput.value.toLowerCase();
@@ -112,12 +112,12 @@ function loadSeasonSubtabContent(seasonId, type, matchNum, container) {
         container.textContent = "Error loading CSV.";
         console.error("CSV fetch error:", err);
       });
-  
 
   } else if (type === "graphs") {
     container.textContent = "Graphs will be shown here soon.";
   }
 }
+
 
 
 
