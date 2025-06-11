@@ -83,7 +83,8 @@ function loadSeasonSubtabContent(seasonId, type, matchNum, container) {
     const matchSelector = document.createElement("select");
     for (let i = 1; i <= 74; i++) {
       const option = document.createElement("option");
-      const matchId = i < 10 ? `0${i}` : `${i}`;
+      const matchId = `${i}`;
+
       option.value = matchId;
       option.textContent = `Match ${matchId}`;
       if (matchId === matchNum) option.selected = true;
@@ -152,91 +153,83 @@ function loadSeasonSubtabContent(seasonId, type, matchNum, container) {
 
 
   else if (type.toLowerCase().startsWith("scorecard")) {
-    const csvUrl = `https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Matchcards/Season_${seasonId}.csv`;
-
-    fetch(csvUrl)
-      .then(res => {
-        if (!res.ok) throw new Error("CSV not found");
-        return res.text();
-      })
-      .then(csv => {
-        const lines = csv.trim().split("%");
-        const headers = lines[0].split("$");
-        const rows = lines.slice(1).map(line => {
-          const values = line.split("$");
-          return Object.fromEntries(headers.map((h, i) => [h, values[i]]));
+    // Clear container
+    container.innerHTML = "";
+  
+    // Match selector dropdown
+    const matchSelector = document.createElement("select");
+    for (let i = 1; i <= 74; i++) {
+      const option = document.createElement("option");
+      const matchId = i < 10 ? `0${i}` : `${i}`;
+      option.value = matchId;
+      option.textContent = `Match ${matchId}`;
+      if (matchId === matchNum) option.selected = true;
+      matchSelector.appendChild(option);
+    }
+  
+    // Search input
+    const searchInput = document.createElement("input");
+    searchInput.type = "text";
+    searchInput.placeholder = "Search scorecard...";
+    searchInput.style.margin = "10px";
+  
+    // Text display area
+    const scorecardDisplay = document.createElement("pre");
+    scorecardDisplay.style.whiteSpace = "pre-wrap";
+    scorecardDisplay.style.border = "1px solid #ccc";
+    scorecardDisplay.style.padding = "10px";
+    scorecardDisplay.textContent = "Loading...";
+  
+    // Append UI
+    container.appendChild(matchSelector);
+    container.appendChild(searchInput);
+    container.appendChild(scorecardDisplay);
+  
+    // Load scorecard from txt
+    const loadScorecard = (matchId) => {
+      const fileUrl = `${baseUrl}Scorecards/matchcard_S_${seasonId}_M0${matchId}.txt`;
+  
+      fetch(fileUrl)
+        .then(res => {
+          if (!res.ok) throw new Error("File not found");
+          return res.text();
+        })
+        .then(text => {
+          scorecardDisplay.textContent = text;
+          scorecardDisplay.dataset.raw = text;
+        })
+        .catch(err => {
+          scorecardDisplay.textContent = "Error loading file.";
+          console.error("Scorecard file error:", fileUrl, err);
         });
-      
-
-        // Add filter input
-        const searchInput = document.createElement("input");
-        searchInput.type = "text";
-        searchInput.placeholder = "Search...";
-        searchInput.style.margin = "10px 0";
-        container.innerHTML = "";
-        container.appendChild(searchInput);
-
-        // Add table
-        const table = document.createElement("table");
-        table.style.width = "100%";
-        table.style.borderCollapse = "collapse";
-        table.style.marginTop = "10px";
-
-        const thead = document.createElement("thead");
-        const tbody = document.createElement("tbody");
-        table.appendChild(thead);
-        table.appendChild(tbody);
-
-        container.appendChild(table);
-
-        const renderTable = (filteredRows) => {
-          thead.innerHTML = "";
-          tbody.innerHTML = "";
-
-          const trHead = document.createElement("tr");
-          headers.forEach(h => {
-            const th = document.createElement("th");
-            th.textContent = h;
-            th.style.border = "1px solid #ddd";
-            th.style.padding = "8px";
-            th.style.background = "#f2f2f2";
-            trHead.appendChild(th);
-          });
-          thead.appendChild(trHead);
-
-          filteredRows.forEach(row => {
-            const tr = document.createElement("tr");
-            headers.forEach(h => {
-              const td = document.createElement("td");
-              td.textContent = row[h];
-              td.style.border = "1px solid #ddd";
-              td.style.padding = "8px";
-              tr.appendChild(td);
-            });
-            tbody.appendChild(tr);
-          });
-        };
-
-        // Initial render
-        renderTable(rows);
-
-        // Search logic
-        searchInput.addEventListener("input", () => {
-          const query = searchInput.value.toLowerCase();
-          const filtered = rows.filter(row => {
-            const firstValue = Object.values(row)[0];
-            return (firstValue ?? "").toString().toLowerCase().includes(query);
-          });
-          renderTable(filtered);
-        });
-        
-      })
-      .catch(err => {
-        container.textContent = "Error loading CSV.";
-        console.error("CSV fetch error:", err);
-      });
-
-  } else if (type === "graphs") {
+    };
+  
+    // Initial load
+    loadScorecard(matchNum);
+  
+    // Match selector change
+    matchSelector.addEventListener("change", () => {
+      const selected = matchSelector.value;
+      loadScorecard(selected);
+      searchInput.value = "";
+    });
+  
+    // Search inside scorecard
+    searchInput.addEventListener("input", () => {
+      const rawText = scorecardDisplay.dataset.raw || "";
+      const query = searchInput.value.toLowerCase();
+      if (!query) {
+        scorecardDisplay.textContent = rawText;
+      } else {
+        const filtered = rawText
+          .split("\n")
+          .filter(line => line.toLowerCase().includes(query))
+          .join("\n");
+        scorecardDisplay.textContent = filtered;
+      }
+    });
+  }
+   else if (type === "graphs") {
     container.textContent = "Graphs will be shown here soon.";
   }
 }
