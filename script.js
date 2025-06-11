@@ -33,7 +33,7 @@ function loadSeasonSubtabContent(seasonId, type, matchNum, container) {
 
   } else if (type.startsWith("scorecard")) {
   const seasonNum = type.split("-")[1];
-  const csvUrl = `https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Matchcards/Season_${seasonNum}.csv`;
+  const csvUrl = `https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Matchcards/Season_${seasonId}.csv`;
   // ...rest of CSV fetch logic
     fetch(csvUrl)
       .then(res => res.text())
