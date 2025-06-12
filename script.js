@@ -346,8 +346,8 @@ function loadSeasonSubtabContent(seasonId, type, matchNum, container) {
 }
 
 const tabSpecialstatsnames = [
-  "Phase-wise Batter", "Phase-wise Bowler", "stats3", "stats4",
-  "stats5", "stats6", "stats7", "stats8",
+  "Phase-wise Batter", "Phase-wise Bowler", "Inning-wise Bowler", "Inning-wise Batter",
+  "Pitch-wise Bowler", "Bowl-type wise Batter", "stats7", "stats8",
   "stats9", "stats10", "stats11", "stats12", "stats13", "stats14",
   "stats15", "stats16", "stats17", "stats18",
   "stats19", "stats20", "stats21", "stats22", "stats23", "stats24",
@@ -481,11 +481,25 @@ function openMainTab(evt, tabName) {
 }
 
 function openStatsSubTab(evt, subTabName) {
+  // 1. Remove active class from all subtab buttons
   let buttons = document.querySelectorAll("#Stats .subtabs button");
   buttons.forEach(btn => btn.classList.remove("active"));
+
+  // 2. Add active class to the clicked button
   evt.currentTarget.classList.add("active");
+
+  // 3. Hide all tab contents inside #StatsSubContent
+  const allTabSections = document.querySelectorAll("#StatsSubContent > div");
+  allTabSections.forEach(div => div.style.display = "none");
+
+  // 4. Show the selected subTab content if it exists
+  const activeTab = document.getElementById(subTabName);
+  if (activeTab) activeTab.style.display = "block";
+
+  // 5. Load the data
   loadStatsTabs(subTabName);
 }
+
 
 function loadStatsTabs(seasonId) {
 const buttonContainer = document.getElementById("CSVTabButtons");
