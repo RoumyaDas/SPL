@@ -494,6 +494,7 @@ function renderStatsTable(season, tabId, searchTerm = "") {
 
 function renderStatsTableFromCache(cacheKey, searchTerm = "") {
   const container = document.getElementById("stats-table-container");
+  container.innerHTML = ""; // <-- add this line
   const { headers, rows } = statsCsvData[cacheKey] || {};
   
   if (!headers || !rows) {
@@ -545,6 +546,7 @@ function renderStatsTableFromCache(cacheKey, searchTerm = "") {
       th.textContent += statsSortConfig.order === "asc" ? " ▲" : " ▼";
     }
 
+    // Add click handler
     th.addEventListener("click", () => {
       if (statsSortConfig.column === idx) {
         statsSortConfig.order = statsSortConfig.order === "asc" ? "desc" : "asc";
@@ -578,7 +580,7 @@ function renderStatsTableFromCache(cacheKey, searchTerm = "") {
 }
 
 // Initialize when DOM is loaded
-document.addEventListener("DOMContentLoaded", initStatsTab);
+// document.addEventListener("DOMContentLoaded", initStatsTab);
 
 // Create match selector dropdown
 function createMatchSelector(seasonId, container, type, maxMatches) {
