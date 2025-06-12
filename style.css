@@ -19,6 +19,29 @@ body {
   font-weight: bold;
   border-bottom: 2px solid #000;
 }
+/* Stats Tab Visibility */
+#stats.tab-content {
+  display: none;
+}
+
+#stats.tab-content.active {
+  display: block;
+}
+
+/* Stats Tab Button Styling */
+.main-tab[data-tab="stats"] {
+  /* Match your existing tab style */
+  background-color: #e0e0e0;
+  border: 1px solid #ccc;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.main-tab[data-tab="stats"].active {
+  background-color: #4CAF50;
+  color: white;
+}
+
 
 
 .tab-content.active {
