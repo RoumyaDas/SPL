@@ -24,6 +24,7 @@
 
     <!-- Main Tabs -->
 <div class="tabs">
+  <button class="tablinks" onclick="openTab(event, 'About')">About</button> <!-- About tab placing -->
   <button class="main-tab active" data-tab="seasons">Seasons</button>
   <button class="main-tab" data-tab="career">Career</button>
   <button class="main-tab" data-tab="special">Special Stats</button>
@@ -32,6 +33,10 @@
 
   </div>
 
+  <div id="About" class="tabcontent">
+    <pre id="readme-content">Loading README...</pre>
+  </div>
+  
   <!-- In index.html, replace the Stats tab with this: -->
 <div id="stats" class="tab-content">
   <h2>Stats</h2>
@@ -316,6 +321,15 @@
     document.getElementById("careerSearch").addEventListener("input", () => {
       const tab = document.querySelector(".career-subtab.active").dataset.tab;
       renderCareerSection(tab, csvData[tab], document.getElementById("careerSearch").value);
+    });
+  </script>
+
+
+<script>
+  fetch("https://raw.githubusercontent.com/RoumyaDas/SPL/main/README.md")
+    .then(response => response.text())
+    .then(text => {
+      document.getElementById('readme-content').textContent = text;
     });
   </script>
 </body>
