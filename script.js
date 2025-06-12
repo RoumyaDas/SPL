@@ -433,10 +433,16 @@ function initStatsTab() {
     const btn = document.createElement("button");
     btn.textContent = name;
     btn.dataset.tab = tabId;
-    btn.addEventListener("click", () => renderStatsTable(
-      document.querySelector("#stats-season-tabs button.active").dataset.season,
-      tabId
-    ));
+    btn.addEventListener("click", function() {
+      // Remove active from all stats subtabs
+      document.querySelectorAll("#stats-subtabs button").forEach(b => b.classList.remove("active"));
+      // Add active to this button
+      btn.classList.add("active");
+      renderStatsTable(
+        document.querySelector("#stats-season-tabs button.active").dataset.season,
+        tabId
+      );
+    });
     statsSubtabs.appendChild(btn);
   });
 
@@ -459,13 +465,18 @@ function switchStatsSeason(season) {
     btn.classList.toggle("active", btn.dataset.season === season)
   );
 
-  // Load first tab for this season
+  // Remove "active" from all stats subtabs
+  document.querySelectorAll("#stats-subtabs button").forEach(b => b.classList.remove("active"));
+
+  // Load first tab for this season and set it active
   const firstTab = document.querySelector("#stats-subtabs button");
   if (firstTab) {
     firstTab.classList.add("active");
     renderStatsTable(season, firstTab.dataset.tab);
   }
 }
+
+
 
 function renderStatsTable(season, tabId, searchTerm = "") {
   const container = document.getElementById("stats-table-container");
