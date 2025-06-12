@@ -30,19 +30,28 @@
 
   </div>
 
-  <li><a href="#" onclick="openMainTab(event, 'Stats')">Stats</a></li>
-  <!-- Stats tab content -->
-  <div id="Stats" class="tabcontent" style="display:none;">
-    <div class="subtabs">
-        <button onclick="openStatsSubTab(event, 'S01')">S01</button>
-        <button onclick="openStatsSubTab(event, 'S02')">S02</button>
-        <button onclick="openStatsSubTab(event, 'S03')">S03</button>
-    </div>
-    <div id="StatsSubContent" class="stats-subcontent">
-      <div id="CSVTabButtons" class="csv-tab-buttons"></div>
-      <div id="CSVTableOutput" class="csv-table-output" style="margin-top: 10px;"></div>
+  <!-- In index.html, replace the Stats tab with this: -->
+<div id="stats" class="tab-content">
+  <h2>Stats</h2>
+
+  <!-- Search Filter -->
+  <label for="statsSearch">Search:</label>
+  <input type="text" id="statsSearch" placeholder="Type to filter..." />
+
+  <!-- Season Subtabs -->
+  <div class="tabs" id="stats-season-tabs">
+    <button class="stats-season-tab active" data-season="S01">Season 01</button>
+    <button class="stats-season-tab" data-season="S02">Season 02</button>
+    <button class="stats-season-tab" data-season="S03">Season 03</button>
   </div>
-  
+
+  <!-- Stats Subtabs -->
+  <div class="tabs" id="stats-subtabs">
+    <!-- JS will auto-populate 23 buttons here -->
+  </div>
+
+  <!-- Stats Table Output -->
+  <div id="stats-table-container" class="csv-table-output" style="margin-top: 10px;"></div>
 </div>
 
 

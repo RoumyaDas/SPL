@@ -397,16 +397,188 @@ if (tabKey) {
 
 
 
-const tabDisplayNames = [
+// Stats tab data
+const statsCsvBase = "https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/";
+const statsDisplayNames = [
   "Orange-cap leaderboard", "Purple-cap leaderboard", "points table", "MVP", 
   "Impact_pts","Fantasy pts","Bowler ranking","Batter ranking",
-   "Fielding","Most Dots",
+  "Fielding","Most Dots",
   "Most 4s", "Most 6s", "Most_Run_Contribution", "Most_Wkt_Contribution", "Most_3wkt_hauls","Most_50+",
   "Lowest_Economy", "Best_Strike_Rate", "Team_best_Performance", "Match_Summary", 
   "exit_pt_stats",
   "phase_bowl_stats", "Phase_wise_team_bowling", "Phase_wise_team_batting"
 ];
 
+
+let statsCsvData = {}; // cache
+let statsSortConfig = { season: "", tab: "", column: null, order: "asc" };
+
+// Initialize Stats tab
+function initStatsTab() {
+  const seasonTabs = document.getElementById("stats-season-tabs");
+  const statsSubtabs = document.getElementById("stats-subtabs");
+  
+  // Create season tabs
+  ['S01', 'S02', 'S03'].forEach(season => {
+    const btn = document.createElement("button");
+    btn.textContent = `Season ${season.slice(1)}`;
+    btn.dataset.season = season;
+    btn.addEventListener("click", () => switchStatsSeason(season));
+    seasonTabs.appendChild(btn);
+  });
+
+  // Create stats subtabs
+  statsDisplayNames.forEach((name, i) => {
+    const tabId = `TAB${String(i+1).padStart(2, '0')}`;
+    const btn = document.createElement("button");
+    btn.textContent = name;
+    btn.dataset.tab = tabId;
+    btn.addEventListener("click", () => renderStatsTable(
+      document.querySelector("#stats-season-tabs button.active").dataset.season,
+      tabId
+    ));
+    statsSubtabs.appendChild(btn);
+  });
+
+  // Set up search
+  document.getElementById("statsSearch").addEventListener("input", () => {
+    const activeSeason = document.querySelector("#stats-season-tabs button.active").dataset.season;
+    const activeTab = document.querySelector("#stats-subtabs button.active").dataset.tab;
+    if (activeSeason && activeTab) {
+      renderStatsTable(activeSeason, activeTab, document.getElementById("statsSearch").value);
+    }
+  });
+
+  // Load initial data
+  switchStatsSeason('S01');
+}
+
+function switchStatsSeason(season) {
+  // Update active season tab
+  document.querySelectorAll("#stats-season-tabs button").forEach(btn => 
+    btn.classList.toggle("active", btn.dataset.season === season)
+  );
+
+  // Load first tab for this season
+  const firstTab = document.querySelector("#stats-subtabs button");
+  if (firstTab) {
+    firstTab.classList.add("active");
+    renderStatsTable(season, firstTab.dataset.tab);
+  }
+}
+
+function renderStatsTable(season, tabId, searchTerm = "") {
+  const container = document.getElementById("stats-table-container");
+  container.innerHTML = "";
+
+  // Check if data is cached
+  const cacheKey = `${season}_${tabId}`;
+  if (statsCsvData[cacheKey]) {
+    renderStatsTableFromCache(cacheKey, searchTerm);
+    return;
+  }
+
+  // Fetch data if not cached
+  const url = `${statsCsvBase}${season}/${tabId}.csv`;
+  fetch(url)
+    .then(res => res.text())
+    .then(text => {
+      const data = parseCSV(text);
+      statsCsvData[cacheKey] = data;
+      renderStatsTableFromCache(cacheKey, searchTerm);
+    })
+    .catch(err => {
+      container.innerHTML = `<p>Error loading data: ${err.message}</p>`;
+    });
+}
+
+function renderStatsTableFromCache(cacheKey, searchTerm = "") {
+  const container = document.getElementById("stats-table-container");
+  const { headers, rows } = statsCsvData[cacheKey] || {};
+  
+  if (!headers || !rows) {
+    container.innerHTML = "<p>No data loaded.</p>";
+    return;
+  }
+
+  // Filter rows if search term exists
+  let filteredRows = rows;
+  if (searchTerm) {
+    filteredRows = rows.filter(row =>
+      headers.some(h => row[h]?.toLowerCase().includes(searchTerm.toLowerCase()))
+    );
+  }
+
+  // Apply sorting if configured
+  if (statsSortConfig.column !== null) {
+    const h = headers[statsSortConfig.column];
+    const order = statsSortConfig.order;
+    filteredRows.sort((a, b) => {
+      const aVal = a[h], bVal = b[h];
+      const isNum = !isNaN(parseFloat(aVal)) && !isNaN(parseFloat(bVal));
+      if (isNum) {
+        return order === "asc" ? aVal - bVal : bVal - aVal;
+      }
+      return order === "asc"
+        ? String(aVal).localeCompare(String(bVal))
+        : String(bVal).localeCompare(String(aVal));
+    });
+  }
+
+  // Create table
+  const table = document.createElement("table");
+  table.style.width = "100%";
+  table.style.borderCollapse = "collapse";
+
+  // Create header
+  const thead = document.createElement("thead");
+  const headRow = document.createElement("tr");
+  headers.forEach((h, idx) => {
+    const th = document.createElement("th");
+    th.textContent = h;
+    th.style.cursor = "pointer";
+    th.style.border = "1px solid #ccc";
+    th.style.padding = "4px";
+
+    // Add sort indicator
+    if (statsSortConfig.column === idx) {
+      th.textContent += statsSortConfig.order === "asc" ? " ▲" : " ▼";
+    }
+
+    th.addEventListener("click", () => {
+      if (statsSortConfig.column === idx) {
+        statsSortConfig.order = statsSortConfig.order === "asc" ? "desc" : "asc";
+      } else {
+        statsSortConfig.column = idx;
+        statsSortConfig.order = "asc";
+      }
+      renderStatsTableFromCache(cacheKey, searchTerm);
+    });
+
+    headRow.appendChild(th);
+  });
+  thead.appendChild(headRow);
+  table.appendChild(thead);
+
+  // Create body
+  const tbody = document.createElement("tbody");
+  filteredRows.slice(0, 20).forEach(row => {
+    const tr = document.createElement("tr");
+    headers.forEach(h => {
+      const td = document.createElement("td");
+      td.textContent = row[h];
+      td.style.border = "1px solid #ccc";
+      td.style.padding = "4px";
+      tr.appendChild(td);
+    });
+    tbody.appendChild(tr);
+  });
+  table.appendChild(tbody);
+  container.appendChild(table);
+}
+
+// Initialize when DOM is loaded
+document.addEventListener("DOMContentLoaded", initStatsTab);
 
 // Create match selector dropdown
 function createMatchSelector(seasonId, container, type, maxMatches) {
@@ -461,63 +633,10 @@ document.querySelectorAll(".season-subtab").forEach(btn => {
   });
 });
 
-function openMainTab(evt, tabName) {
-  let tabcontent = document.getElementsByClassName("tabcontent");
-  for (let i = 0; i < tabcontent.length; i++) {
-      tabcontent[i].style.display = "none";
-  }
-
-  let tablinks = document.getElementsByTagName("a");
-  for (let i = 0; i < tablinks.length; i++) {
-      tablinks[i].classList.remove("active");
-  }
-
-  document.getElementById(tabName).style.display = "block";
-  evt.currentTarget.classList.add("active");
-
-  if (tabName === "Stats") {
-      loadStatsTabs("S01"); // default load
-  }
-}
-
-function openStatsSubTab(evt, subTabName) {
-  // 1. Remove active class from all subtab buttons
-  let buttons = document.querySelectorAll("#Stats .subtabs button");
-  buttons.forEach(btn => btn.classList.remove("active"));
-
-  // 2. Add active class to the clicked button
-  evt.currentTarget.classList.add("active");
-
-  // 3. Hide all tab contents inside #StatsSubContent
-  const allTabSections = document.querySelectorAll("#StatsSubContent > div");
-  allTabSections.forEach(div => div.style.display = "none");
-
-  // 4. Show the selected subTab content if it exists
-  const activeTab = document.getElementById(subTabName);
-  if (activeTab) activeTab.style.display = "block";
-
-  // 5. Load the data
-  loadStatsTabs(subTabName);
-}
 
 
-function loadStatsTabs(seasonId) {
-const buttonContainer = document.getElementById("CSVTabButtons");
-const tableContainer = document.getElementById("CSVTableOutput");
 
-buttonContainer.innerHTML = "";
-tableContainer.innerHTML = "";
 
-for (let i = 1; i <= 23; i++) {
-    let tabId = `TAB${String(i).padStart(2, '0')}`;
-    let button = document.createElement("button");
-    button.textContent = tabDisplayNames[i - 1] || tabId; // fallback if name missing
-    button.onclick = () => loadCSVData(seasonId, tabId);
-    buttonContainer.appendChild(button);
-}
-
-loadCSVData(seasonId, "TAB01");
-}
 
 function setupSearch(headers, data) {
   const searchInput = document.getElementById("csv-search");

@@ -43,6 +43,54 @@ body {
   overflow-y: auto;
 }
 
+/* Stats Tab Styles */
+#stats .tabs button {
+  padding: 8px 16px;
+  margin: 0 4px 4px 0;
+  background-color: #e0e0e0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#stats .tabs button.active {
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+}
+
+#statsSearch {
+  padding: 8px;
+  margin-bottom: 10px;
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+#stats-table-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#stats-table-container th, 
+#stats-table-container td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+#stats-table-container th {
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+#stats-table-container tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+#stats-table-container tr:hover {
+  background-color: #f1f1f1;
+}
 
 #special .tabs button.active {
   background-color: #9c27b0;
