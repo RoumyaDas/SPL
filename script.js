@@ -781,3 +781,21 @@ tableContainer.appendChild(tableDiv);
 
 renderFilteredTable(headers, dataRows); // initial full render
 }
+// Initialize Stats Tab when DOM is loaded
+document.addEventListener('DOMContentLoaded', function() {
+  initStatsTab();
+  
+  // Add to your existing main tab switching logic
+  document.querySelectorAll(".main-tab").forEach(btn => {
+    btn.addEventListener("click", function() {
+      // Your existing tab switching code...
+      
+      // Make sure it handles the new Stats tab
+      const targetTab = document.getElementById(this.dataset.tab);
+      if (targetTab) {
+        targetTab.classList.add("active");
+        targetTab.style.display = "block";
+      }
+    });
+  });
+});
