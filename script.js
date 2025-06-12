@@ -784,18 +784,27 @@ renderFilteredTable(headers, dataRows); // initial full render
 // Initialize Stats Tab when DOM is loaded
 document.addEventListener('DOMContentLoaded', function() {
   initStatsTab();
-  
-  // Add to your existing main tab switching logic
-  document.querySelectorAll(".main-tab").forEach(btn => {
-    btn.addEventListener("click", function() {
-      // Your existing tab switching code...
-      
-      // Make sure it handles the new Stats tab
-      const targetTab = document.getElementById(this.dataset.tab);
-      if (targetTab) {
-        targetTab.classList.add("active");
-        targetTab.style.display = "block";
-      }
+
+
+
+// Enhanced main tab switching (hides everything else)
+document.querySelectorAll(".main-tab").forEach(btn => {
+  btn.addEventListener("click", () => {
+    // Deactivate all main tabs
+    document.querySelectorAll(".main-tab").forEach(b => b.classList.remove("active"));
+
+    // Hide all tab content blocks
+    document.querySelectorAll(".tab-content").forEach(t => {
+      t.classList.remove("active");
+      t.style.display = "none";
     });
+
+    // Activate the clicked tab
+    btn.classList.add("active");
+
+    const targetTab = document.getElementById(btn.dataset.tab);
+    targetTab.classList.add("active");
+    targetTab.style.display = "block";
   });
+});
 });
