@@ -58,6 +58,24 @@ function parseCSV(text) {
   return { headers, rows };
 }
 
+function openTab(evt, tabName) {
+  // Hide all tab content sections
+  const tabcontent = document.getElementsByClassName("tabcontent");
+  for (let i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Remove "active" class from all tab buttons
+  const tablinks = document.getElementsByClassName("tablinks");
+  for (let i = 0; i < tablinks.length; i++) {
+    tablinks[i].classList.remove("active");
+  }
+
+  // Show the clicked tab
+  document.getElementById(tabName).style.display = "block";
+  evt.currentTarget.classList.add("active");
+}
+
 
 function splitSafe(line) {
   const parts = [];
