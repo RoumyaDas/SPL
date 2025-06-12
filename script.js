@@ -13,6 +13,7 @@ const specialCsvBase = "https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL
 let specialCsvData = {}; // cache
 
 const tabKeys = Array.from({ length: 25 }, (_, i) => `tab${i + 1}`);
+// tabs for special stats, change if length needs to be changed
 
 const parseCustomCSV = (csv) => {
   const lines = [];
