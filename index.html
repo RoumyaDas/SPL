@@ -28,6 +28,7 @@
     <div class="tabs">
       <button class="main-tab" data-tab="about">About</button> <!-- now consistent -->
       <button class="main-tab" data-tab="seasons">Seasons</button>
+      <button class="main-tab" data-tab="schedule">Schedule</button> <!-- Schedule tab -->
       <button class="main-tab" data-tab="career">Career</button>
       <button class="main-tab" data-tab="special">Special Stats</button>
       <button class="main-tab" data-tab="stats">Stats</button>
@@ -335,5 +336,21 @@
       document.getElementById('readme-content').textContent = text;
     });
   </script>
+
+<!-- Schedule tab stuff-->
+<div id="schedule" class="tab-content">
+  <h2>Match Schedule</h2>
+
+  <div class="tabs" id="schedule-subtabs">
+    <button class="schedule-subtab active" data-tab="sch-s01">S01</button>
+    <button class="schedule-subtab" data-tab="sch-s02">S02</button>
+    <button class="schedule-subtab" data-tab="sch-s03">S03</button>
+  </div>
+
+  <div id="sch-s01" class="schedule-table-container active"></div>
+  <div id="sch-s02" class="schedule-table-container"></div>
+  <div id="sch-s03" class="schedule-table-container"></div>
+</div>
+
 </body>
 </html>

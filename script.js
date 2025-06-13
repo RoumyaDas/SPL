@@ -787,6 +787,7 @@ renderFilteredTable(headers, filtered);
 }
 
 
+
 function renderCSV(csvText) {
 const tableContainer = document.getElementById("CSVTableOutput");
 tableContainer.innerHTML = "";
@@ -840,4 +841,71 @@ document.querySelectorAll(".main-tab").forEach(btn => {
     targetTab.style.display = "block";
   });
 });
+});
+
+
+// --- Schedule Tab Functionality ---
+
+const scheduleCSVs = {
+  "sch-s01": "https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Fixtures/schedule_S01.csv",
+  "sch-s02": "https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Fixtures/schedule_S02.csv",
+  "sch-s03": "https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Fixtures/schedule_S03.csv"
+};
+
+function parseCSV(csvText) {
+  const lines = csvText.trim().split("\n");
+  const headers = lines[0].split(",");
+  const rows = lines.slice(1).map(line => line.split(","));
+  return { headers, rows };
+}
+
+function renderScheduleTable(tabId, data) {
+  const container = document.getElementById(tabId);
+  container.innerHTML = "";
+
+  const table = document.createElement("table");
+  const thead = document.createElement("thead");
+  const tbody = document.createElement("tbody");
+
+  const headerRow = document.createElement("tr");
+  data.headers.forEach(h => {
+    const th = document.createElement("th");
+    th.textContent = h;
+    headerRow.appendChild(th);
+  });
+  thead.appendChild(headerRow);
+
+  data.rows.forEach(row => {
+    const tr = document.createElement("tr");
+    row.forEach(val => {
+      const td = document.createElement("td");
+      td.textContent = val;
+      tr.appendChild(td);
+    });
+    tbody.appendChild(tr);
+  });
+
+  table.appendChild(thead);
+  table.appendChild(tbody);
+  container.appendChild(table);
+}
+
+// Load and render all 3 schedule CSVs
+Object.entries(scheduleCSVs).forEach(([tabId, url]) => {
+  fetch(url)
+    .then(res => res.text())
+    .then(csv => {
+      const parsed = parseCSV(csv);
+      renderScheduleTable(tabId, parsed);
+    });
+});
+
+// Subtab switching for schedule
+document.querySelectorAll(".schedule-subtab").forEach(btn => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll(".schedule-subtab").forEach(b => b.classList.remove("active"));
+    document.querySelectorAll(".schedule-table-container").forEach(div => div.classList.remove("active"));
+    btn.classList.add("active");
+    document.getElementById(btn.dataset.tab).classList.add("active");
+  });
 });
