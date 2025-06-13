@@ -241,3 +241,48 @@ body {
     width: 100%;
   }
 }
+
+#schedule .tabs button {
+  padding: 8px 16px;
+  margin: 4px 4px 0 0;
+  background-color: #eee;
+  border: 1px solid #aaa;
+  cursor: pointer;
+}
+
+#schedule .tabs button.active {
+  background-color: #333;
+  color: white;
+  font-weight: bold;
+}
+
+.schedule-table-container {
+  display: none;
+  margin-top: 15px;
+}
+
+.schedule-table-container.active {
+  display: block;
+}
+
+.schedule-table-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.schedule-table-container th, 
+.schedule-table-container td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.schedule-table-container th {
+  background-color: #f4f4f4;
+}
+
+.schedule-table-container tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
