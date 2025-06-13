@@ -919,3 +919,60 @@ document.querySelectorAll(".schedule-subtab").forEach(btn => {
 
 // Default: show only S01 tab and trigger its load
 document.querySelector(".schedule-subtab.active").click();
+
+
+// --- Combined Points Table Tab ---
+const combinedCsvUrl = "https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/combined_pts_table.csv";
+
+function renderCombinedTable(headers, rows, searchTerm = "") {
+  const container = document.getElementById("combined-table-container");
+  container.innerHTML = "";
+
+  // Filter rows by search
+  const filtered = searchTerm
+    ? rows.filter(row => row[0].toLowerCase().includes(searchTerm.toLowerCase()))
+    : rows;
+
+  const table = document.createElement("table");
+  const thead = document.createElement("thead");
+  const tbody = document.createElement("tbody");
+
+  // Header row
+  const trHead = document.createElement("tr");
+  headers.forEach(h => {
+    const th = document.createElement("th");
+    th.textContent = h;
+    trHead.appendChild(th);
+  });
+  thead.appendChild(trHead);
+
+  // All rows (no slicing)
+  filtered.forEach(row => {
+    const tr = document.createElement("tr");
+    row.forEach(val => {
+      const td = document.createElement("td");
+      td.textContent = val;
+      tr.appendChild(td);
+    });
+    tbody.appendChild(tr);
+  });
+
+  table.appendChild(thead);
+  table.appendChild(tbody);
+  container.appendChild(table);
+}
+
+// Load and render combined CSV
+fetch(combinedCsvUrl)
+  .then(res => res.text())
+  .then(csv => {
+    const lines = csv.trim().split("\n");
+    const headers = lines[0].split(",");
+    const rows = lines.slice(1).map(line => line.split(","));
+
+    renderCombinedTable(headers, rows);
+
+    document.getElementById("combinedSearch").addEventListener("input", (e) => {
+      renderCombinedTable(headers, rows, e.target.value);
+    });
+  });
