@@ -852,6 +852,8 @@ const scheduleCSVs = {
   "sch-s03": "https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Fixtures/schedule_S03.csv"
 };
 
+const scheduleCache = {};  // to store loaded CSVs
+
 function parseCSV(csvText) {
   const lines = csvText.trim().split("\n");
   const headers = lines[0].split(",");
@@ -890,22 +892,29 @@ function renderScheduleTable(tabId, data) {
   container.appendChild(table);
 }
 
-// Load and render all 3 schedule CSVs
-Object.entries(scheduleCSVs).forEach(([tabId, url]) => {
-  fetch(url)
-    .then(res => res.text())
-    .then(csv => {
-      const parsed = parseCSV(csv);
-      renderScheduleTable(tabId, parsed);
-    });
-});
-
 // Subtab switching for schedule
 document.querySelectorAll(".schedule-subtab").forEach(btn => {
   btn.addEventListener("click", () => {
+    const tabId = btn.dataset.tab;
+
+    // Toggle active classes
     document.querySelectorAll(".schedule-subtab").forEach(b => b.classList.remove("active"));
     document.querySelectorAll(".schedule-table-container").forEach(div => div.classList.remove("active"));
     btn.classList.add("active");
-    document.getElementById(btn.dataset.tab).classList.add("active");
+    document.getElementById(tabId).classList.add("active");
+
+    // Lazy-load if not already loaded
+    if (!scheduleCache[tabId]) {
+      fetch(scheduleCSVs[tabId])
+        .then(res => res.text())
+        .then(csv => {
+          const parsed = parseCSV(csv);
+          scheduleCache[tabId] = parsed;
+          renderScheduleTable(tabId, parsed);
+        });
+    }
   });
 });
+
+// Default: show only S01 tab and trigger its load
+document.querySelector(".schedule-subtab.active").click();
