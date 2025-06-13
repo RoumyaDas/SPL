@@ -1,7 +1,7 @@
 /* General resets */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #ffe6f0;
+  background-color: #ee8eb4;
   margin: 0;
   padding: 0;
   color: #222;
@@ -15,7 +15,7 @@ body {
 }
 
 .main-tab.active {
-  background-color: #333;
+  background-color: #4CAF50;
   color: white;
   font-weight: bold;
   border-bottom: 2px solid #000;
@@ -67,6 +67,8 @@ body {
   overflow-y: auto;
 }
 
+
+
 /* Stats Tab Styles */
 #stats .tabs button {
   padding: 8px 16px;
@@ -114,6 +116,14 @@ body {
 
 #stats-table-container tr:hover {
   background-color: #f1f1f1;
+}
+
+#special .tabs button {
+  padding: 8px 16px;
+  margin: 4px 4px 0 0;
+  background-color: #eee;
+  border: 1px solid #aaa;
+  cursor: pointer;
 }
 
 #special .tabs button.active {
@@ -251,7 +261,7 @@ body {
 }
 
 #schedule .tabs button.active {
-  background-color: #333;
+  background-color: #58e687;
   color: white;
   font-weight: bold;
 }
