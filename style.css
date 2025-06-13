@@ -124,19 +124,31 @@ body {
   background-color: #f1f1f1;
 }
 
+/*special section tab styling*/
+
 #special .tabs button {
-  padding: 8px 16px;
-  margin: 4px 4px 0 0;
-  background-color: #eee;
-  border: 1px solid #aaa;
-  border-radius: 4px;
+  display: inline-block;
+  padding: 10px 18px;
+  margin-right: 6px;
+  border: 1px solid #5a8ad6;
+  background-color: #e6f0ff;
+  color: #004080;
+  font-weight: 600;
   cursor: pointer;
+  border-radius: 6px 6px 0 0;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  user-select: none;
+}
+
+#special .tabs button:hover {
+  background-color: #c0d4ff;
 }
 
 #special .tabs button.active {
-  background-color: #9c27b0;
+  background-color: #0050c8;
   color: white;
-  font-weight: bold;
+  border-color: #0044aa;
+  box-shadow: inset 0 -2px 4px rgba(0, 0, 0, 0.15);
 }
 
 /* Container for Career tab */
