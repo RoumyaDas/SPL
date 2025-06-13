@@ -123,6 +123,7 @@ body {
   margin: 4px 4px 0 0;
   background-color: #eee;
   border: 1px solid #aaa;
+  border-radius: 4px;
   cursor: pointer;
 }
 
@@ -257,6 +258,7 @@ body {
   margin: 4px 4px 0 0;
   background-color: #eee;
   border: 1px solid #aaa;
+  border-radius: 4px;
   cursor: pointer;
 }
 
