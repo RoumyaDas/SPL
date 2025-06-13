@@ -24,8 +24,15 @@
 <body>
   <h1>Welcome to SPL :: where champions are curated.</h1>
   <p>
-    The SPL isn't just a league — it's a battleground of stories, upsets, and comebacks. \n In a thrilling pilot run dubbed Season 0, the daring DC stormed through and emerged victorious. \n PBKS then stunned everyone by clinching the inaugural Season 1 title, \n while RR rose with unmatched flair to dominate Season 2. \n The rivalries have grown sharper, the stakes higher, and the comebacks more jaw-dropping than ever. \n As Season 3 looms, anticipation brews — will a new force rise, or will past champions reign again? \n Buckle up — SPL is just getting started.
+    The SPL isn't just a league — it's a battleground of stories, upsets, and comebacks.<br>
+    In a thrilling pilot run dubbed Season 0, the daring DC stormed through and emerged victorious.<br>
+    PBKS then stunned everyone by clinching the inaugural Season 1 title,<br>
+    while RR rose with unmatched flair to dominate Season 2.<br>
+    The rivalries have grown sharper, the stakes higher, and the comebacks more jaw-dropping than ever.<br>
+    As Season 3 looms, anticipation brews — will a new force rise, or will past champions reign again?<br>
+    Buckle up — SPL is just getting started.
   </p>
+  
   <p class="footnote">* All player stats are precomputed. No live updates.</p>
 
 
@@ -39,6 +46,7 @@
       <button class="main-tab" data-tab="career">Career</button>
       <button class="main-tab" data-tab="special">Special Stats</button>
       <button class="main-tab" data-tab="stats">Stats</button>
+      <button class="main-tab" data-tab="combined">Combined Points Table</button>
     </div>
     
 
@@ -357,6 +365,18 @@
   <div id="sch-s01" class="schedule-table-container active"></div>
   <div id="sch-s02" class="schedule-table-container"></div>
   <div id="sch-s03" class="schedule-table-container"></div>
+</div>
+
+<!-- Combined Points table stuff-->
+<div id="combined" class="tab-content">
+  <h2>Combined Points Table</h2>
+
+  <!-- Search Filter -->
+  <label for="combinedSearch">Search:</label>
+  <input type="text" id="combinedSearch" placeholder="Type to filter..." />
+
+  <!-- Table Output -->
+  <div id="combined-table-container" class="csv-table-output" style="margin-top: 10px;"></div>
 </div>
 
 </body>
