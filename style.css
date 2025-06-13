@@ -77,7 +77,7 @@ body {
 
 /* Stats Tab Styles */
 #stats .tabs button {
-  padding: 12px 24px;
+  padding: 8px 16px;
   margin: 0 4px 4px 0;
   background-color: #e0e0e0;
   border: 1px solid #ccc;
