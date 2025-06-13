@@ -335,7 +335,8 @@ function loadSeasonSubtabContent(seasonId, type, matchNum, container) {
     };
   
     // Initial load
-    loadScorecard(matchNum);
+    //loadScorecard(matchNum);
+    loadScorecard('01');
   
     // Match selector change
     matchSelector.addEventListener("change", () => {
