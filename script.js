@@ -854,7 +854,7 @@ const scheduleCSVs = {
 
 const scheduleCache = {};  // to store loaded CSVs
 
-function parseCSV(csvText) {
+function parseScheduleCSV(csvText) {
   const lines = csvText.trim().split("\n");
   const headers = lines[0].split(",");
   const rows = lines.slice(1).map(line => line.split(","));
@@ -908,7 +908,7 @@ document.querySelectorAll(".schedule-subtab").forEach(btn => {
       fetch(scheduleCSVs[tabId])
         .then(res => res.text())
         .then(csv => {
-          const parsed = parseCSV(csv);
+          const parsed = parseScheduleCSV(csv);
           scheduleCache[tabId] = parsed;
           renderScheduleTable(tabId, parsed);
         });
