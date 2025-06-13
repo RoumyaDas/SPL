@@ -71,7 +71,7 @@ body {
 
 /* Stats Tab Styles */
 #stats .tabs button {
-  padding: 8px 16px;
+  padding: 12px 24px;
   margin: 0 4px 4px 0;
   background-color: #e0e0e0;
   border: 1px solid #ccc;
@@ -119,7 +119,7 @@ body {
 }
 
 #special .tabs button {
-  padding: 8px 16px;
+  padding: 12px 24px;
   margin: 4px 4px 0 0;
   background-color: #eee;
   border: 1px solid #aaa;
@@ -254,7 +254,7 @@ body {
 }
 
 #schedule .tabs button {
-  padding: 8px 16px;
+  padding: 12px 24px;
   margin: 4px 4px 0 0;
   background-color: #eee;
   border: 1px solid #aaa;
