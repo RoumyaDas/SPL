@@ -67,7 +67,7 @@ body {
 .subtab-pre-content {
   white-space: pre-wrap; 
   background: #f9f9f9; 
-  padding: 10px; 
+  padding: 6px; 
   border: 1px solid #ccc; 
   height: 300px; 
   overflow-y: auto;
