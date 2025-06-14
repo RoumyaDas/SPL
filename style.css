@@ -494,6 +494,7 @@ body {
 
 .squad-table-container th,
 .squad-table-container td {
+  font-size: 9px;  /* font inside the table */
   border: 1px solid #ccc;
   padding: 8px;
   text-align: left;
