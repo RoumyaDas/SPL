@@ -1,76 +1,75 @@
-﻿Date,Venue,Day,Team One,Team Two,num,Matchday,Spin:Pace,Spin,Pace
-14/06/25,RR,Sat,RR,SRH,1,1,,,
-14/06/25,MI,Sat,MI,CSK,2,1,,,
-15/06/25,DC,Sun,DC,RCB,3,2,,,
-15/06/25,LSG,Sun,LSG,KKR,4,2,,,
-16/06/25,GT,Mon,GT,PBKS,5,3,,,
-16/06/25,SRH,Mon,SRH,MI,6,3,,,
-17/06/25,RR,Tue,RR,LSG,7,4,,,
-17/06/25,CSK,Tue,CSK,KKR,8,4,,,
-18/06/25,RCB,Wed,RCB,PBKS,9,5,,,
-18/06/25,DC,Wed,DC,GT,10,5,,,
-19/06/25,LSG,Thu,LSG,SRH,11,6,,,
-19/06/25,RR,Thu,RR,MI,12,6,,,
-20/06/25,RCB,Fri,RCB,DC,13,7,,,
-20/06/25,GT,Fri,GT,CSK,14,7,,,
-21/06/25,KKR,Sat,KKR,PBKS,15,8,,,
-21/06/25,SRH,Sat,SRH,RR,16,8,,,
-22/06/25,MI,Sun,MI,LSG,17,9,,,
-22/06/25,DC,Sun,DC,CSK,18,9,,,
-23/06/25,GT,Mon,GT,RCB,19,10,,,
-23/06/25,PBKS,Mon,PBKS,KKR,20,10,,,
-24/06/25,SRH,Tue,SRH,DC,21,11,,,
-24/06/25,CSK,Tue,CSK,MI,22,11,,,
-25/06/25,KKR,Wed,KKR,RR,23,12,,,
-25/06/25,PBKS,Wed,PBKS,GT,24,12,,,
-26/06/25,LSG,Thu,LSG,RCB,25,13,,,
-26/06/25,CSK,Thu,CSK,SRH,26,13,,,
-27/06/25,KKR,Fri,KKR,GT,27,14,,,
-27/06/25,MI,Fri,MI,PBKS,28,14,,,
-28/06/25,RR,Sat,RR,RCB,29,15,,,
-28/06/25,LSG,Sat,LSG,DC,30,15,,,
-29/06/25,PBKS,Sun,PBKS,SRH,31,16,,,
-29/06/25,KKR,Sun,KKR,CSK,32,16,,,
-30/06/25,MI,Mon,MI,GT,33,17,,,
-30/06/25,RR,Mon,RR,DC,34,17,,,
-01/07/25,RCB,Tue,RCB,LSG,35,18,,,
-01/07/25,SRH,Tue,SRH,CSK,36,18,,,
-02/07/25,RR,Wed,RR,KKR,37,19,,,
-02/07/25,DC,Wed,DC,MI,38,19,,,
-03/07/25,GT,Thu,GT,LSG,39,20,,,
-03/07/25,PBKS,Thu,PBKS,RCB,40,20,,,
-04/07/25,DC,Fri,DC,SRH,41,21,,,
-04/07/25,CSK,Fri,CSK,RR,42,21,,,
-05/07/25,PBKS,Sat,PBKS,MI,43,22,,,
-05/07/25,KKR,Sat,KKR,LSG,44,22,,,
-06/07/25,RCB,Sun,RCB,CSK,45,23,,,
-06/07/25,GT,Sun,GT,SRH,46,23,,,
-07/07/25,DC,Mon,DC,PBKS,47,24,,,
-07/07/25,LSG,Mon,LSG,MI,48,24,,,
-08/07/25,RCB,Tue,RCB,RR,49,25,,,
-08/07/25,CSK,Tue,CSK,GT,50,25,,,
-09/07/25,KKR,Wed,KKR,DC,51,26,,,
-09/07/25,SRH,Wed,SRH,PBKS,52,26,,,
-10/07/25,MI,Thu,MI,RR,53,27,,,
-10/07/25,CSK,Thu,CSK,RCB,54,27,,,
-11/07/25,LSG,Fri,LSG,GT,55,28,,,
-11/07/25,KKR,Fri,KKR,SRH,56,28,,,
-12/07/25,RCB,Sat,RCB,MI,57,29,,,
-12/07/25,PBKS,Sat,PBKS,CSK,58,29,,,
-13/07/25,RR,Sun,RR,GT,59,30,,,
-13/07/25,DC,Sun,DC,KKR,60,30,,,
-14/07/25,LSG,Mon,LSG,PBKS,61,31,,,
-14/07/25,SRH,Mon,SRH,RCB,62,31,,,
-15/07/25,GT,Tue,GT,DC,63,32,,,
-15/07/25,MI,Tue,MI,KKR,64,32,,,
-16/07/25,CSK,Wed,CSK,LSG,65,33,,,
-16/07/25,PBKS,Wed,PBKS,RR,66,33,,,
-17/07/25,RCB,Thu,RCB,KKR,67,34,,,
-17/07/25,MI,Thu,MI,DC,68,34,,,
-18/07/25,SRH,Fri,SRH,LSG,69,35,,,
-18/07/25,GT,Fri,GT,RR,70,35,,,
-20/07/25,SRH,Sun,,,71,36,,,
-21/07/25,SRH,Mon,,,72,37,,,
-22/07/25,RR,Tue,,,73,38,,,
-23/07/25,RR,Wed,,,74,39,,,
-,,,,,,,,,
+Date,Venue,Day,Team One,Team Two,num,Matchday,Spin:Pace,Spin,Pace,desc
+2025-06-14,RR,Sat,RR,SRH,1,1,35:65,35.0,65.0,"Day= 1, Venue= RR, Match= 1 :: RR v SRH"
+2025-06-14,MI,Sat,MI,CSK,2,1,10:90,10.0,90.0,"Day= 1, Venue= MI, Match= 2 :: MI v CSK"
+2025-06-15,DC,Sun,DC,RCB,3,2,,,,"Day= 2, Venue= DC, Match= 3 :: DC v RCB"
+2025-06-15,LSG,Sun,LSG,KKR,4,2,,,,"Day= 2, Venue= LSG, Match= 4 :: LSG v KKR"
+2025-06-16,GT,Mon,GT,PBKS,5,3,,,,"Day= 3, Venue= GT, Match= 5 :: GT v PBKS"
+2025-06-16,SRH,Mon,SRH,MI,6,3,,,,"Day= 3, Venue= SRH, Match= 6 :: SRH v MI"
+2025-06-17,RR,Tue,RR,LSG,7,4,,,,"Day= 4, Venue= RR, Match= 7 :: RR v LSG"
+2025-06-17,CSK,Tue,CSK,KKR,8,4,,,,"Day= 4, Venue= CSK, Match= 8 :: CSK v KKR"
+2025-06-18,RCB,Wed,RCB,PBKS,9,5,,,,"Day= 5, Venue= RCB, Match= 9 :: RCB v PBKS"
+2025-06-18,DC,Wed,DC,GT,10,5,,,,"Day= 5, Venue= DC, Match= 10 :: DC v GT"
+2025-06-19,LSG,Thu,LSG,SRH,11,6,,,,"Day= 6, Venue= LSG, Match= 11 :: LSG v SRH"
+2025-06-19,RR,Thu,RR,MI,12,6,,,,"Day= 6, Venue= RR, Match= 12 :: RR v MI"
+2025-06-20,RCB,Fri,RCB,DC,13,7,,,,"Day= 7, Venue= RCB, Match= 13 :: RCB v DC"
+2025-06-20,GT,Fri,GT,CSK,14,7,,,,"Day= 7, Venue= GT, Match= 14 :: GT v CSK"
+2025-06-21,KKR,Sat,KKR,PBKS,15,8,,,,"Day= 8, Venue= KKR, Match= 15 :: KKR v PBKS"
+2025-06-21,SRH,Sat,SRH,RR,16,8,,,,"Day= 8, Venue= SRH, Match= 16 :: SRH v RR"
+2025-06-22,MI,Sun,MI,LSG,17,9,,,,"Day= 9, Venue= MI, Match= 17 :: MI v LSG"
+2025-06-22,DC,Sun,DC,CSK,18,9,,,,"Day= 9, Venue= DC, Match= 18 :: DC v CSK"
+2025-06-23,GT,Mon,GT,RCB,19,10,,,,"Day= 10, Venue= GT, Match= 19 :: GT v RCB"
+2025-06-23,PBKS,Mon,PBKS,KKR,20,10,,,,"Day= 10, Venue= PBKS, Match= 20 :: PBKS v KKR"
+2025-06-24,SRH,Tue,SRH,DC,21,11,,,,"Day= 11, Venue= SRH, Match= 21 :: SRH v DC"
+2025-06-24,CSK,Tue,CSK,MI,22,11,,,,"Day= 11, Venue= CSK, Match= 22 :: CSK v MI"
+2025-06-25,KKR,Wed,KKR,RR,23,12,,,,"Day= 12, Venue= KKR, Match= 23 :: KKR v RR"
+2025-06-25,PBKS,Wed,PBKS,GT,24,12,,,,"Day= 12, Venue= PBKS, Match= 24 :: PBKS v GT"
+2025-06-26,LSG,Thu,LSG,RCB,25,13,,,,"Day= 13, Venue= LSG, Match= 25 :: LSG v RCB"
+2025-06-26,CSK,Thu,CSK,SRH,26,13,,,,"Day= 13, Venue= CSK, Match= 26 :: CSK v SRH"
+2025-06-27,KKR,Fri,KKR,GT,27,14,,,,"Day= 14, Venue= KKR, Match= 27 :: KKR v GT"
+2025-06-27,MI,Fri,MI,PBKS,28,14,,,,"Day= 14, Venue= MI, Match= 28 :: MI v PBKS"
+2025-06-28,RR,Sat,RR,RCB,29,15,,,,"Day= 15, Venue= RR, Match= 29 :: RR v RCB"
+2025-06-28,LSG,Sat,LSG,DC,30,15,,,,"Day= 15, Venue= LSG, Match= 30 :: LSG v DC"
+2025-06-29,PBKS,Sun,PBKS,SRH,31,16,,,,"Day= 16, Venue= PBKS, Match= 31 :: PBKS v SRH"
+2025-06-29,KKR,Sun,KKR,CSK,32,16,,,,"Day= 16, Venue= KKR, Match= 32 :: KKR v CSK"
+2025-06-30,MI,Mon,MI,GT,33,17,,,,"Day= 17, Venue= MI, Match= 33 :: MI v GT"
+2025-06-30,RR,Mon,RR,DC,34,17,,,,"Day= 17, Venue= RR, Match= 34 :: RR v DC"
+2025-07-01,RCB,Tue,RCB,LSG,35,18,,,,"Day= 18, Venue= RCB, Match= 35 :: RCB v LSG"
+2025-07-01,SRH,Tue,SRH,CSK,36,18,,,,"Day= 18, Venue= SRH, Match= 36 :: SRH v CSK"
+2025-07-02,RR,Wed,RR,KKR,37,19,,,,"Day= 19, Venue= RR, Match= 37 :: RR v KKR"
+2025-07-02,DC,Wed,DC,MI,38,19,,,,"Day= 19, Venue= DC, Match= 38 :: DC v MI"
+2025-07-03,GT,Thu,GT,LSG,39,20,,,,"Day= 20, Venue= GT, Match= 39 :: GT v LSG"
+2025-07-03,PBKS,Thu,PBKS,RCB,40,20,,,,"Day= 20, Venue= PBKS, Match= 40 :: PBKS v RCB"
+2025-07-04,DC,Fri,DC,SRH,41,21,,,,"Day= 21, Venue= DC, Match= 41 :: DC v SRH"
+2025-07-04,CSK,Fri,CSK,RR,42,21,,,,"Day= 21, Venue= CSK, Match= 42 :: CSK v RR"
+2025-07-05,PBKS,Sat,PBKS,MI,43,22,,,,"Day= 22, Venue= PBKS, Match= 43 :: PBKS v MI"
+2025-07-05,KKR,Sat,KKR,LSG,44,22,,,,"Day= 22, Venue= KKR, Match= 44 :: KKR v LSG"
+2025-07-06,RCB,Sun,RCB,CSK,45,23,,,,"Day= 23, Venue= RCB, Match= 45 :: RCB v CSK"
+2025-07-06,GT,Sun,GT,SRH,46,23,,,,"Day= 23, Venue= GT, Match= 46 :: GT v SRH"
+2025-07-07,DC,Mon,DC,PBKS,47,24,,,,"Day= 24, Venue= DC, Match= 47 :: DC v PBKS"
+2025-07-07,LSG,Mon,LSG,MI,48,24,,,,"Day= 24, Venue= LSG, Match= 48 :: LSG v MI"
+2025-07-08,RCB,Tue,RCB,RR,49,25,,,,"Day= 25, Venue= RCB, Match= 49 :: RCB v RR"
+2025-07-08,CSK,Tue,CSK,GT,50,25,,,,"Day= 25, Venue= CSK, Match= 50 :: CSK v GT"
+2025-07-09,KKR,Wed,KKR,DC,51,26,,,,"Day= 26, Venue= KKR, Match= 51 :: KKR v DC"
+2025-07-09,SRH,Wed,SRH,PBKS,52,26,,,,"Day= 26, Venue= SRH, Match= 52 :: SRH v PBKS"
+2025-07-10,MI,Thu,MI,RR,53,27,,,,"Day= 27, Venue= MI, Match= 53 :: MI v RR"
+2025-07-10,CSK,Thu,CSK,RCB,54,27,,,,"Day= 27, Venue= CSK, Match= 54 :: CSK v RCB"
+2025-07-11,LSG,Fri,LSG,GT,55,28,,,,"Day= 28, Venue= LSG, Match= 55 :: LSG v GT"
+2025-07-11,KKR,Fri,KKR,SRH,56,28,,,,"Day= 28, Venue= KKR, Match= 56 :: KKR v SRH"
+2025-07-12,RCB,Sat,RCB,MI,57,29,,,,"Day= 29, Venue= RCB, Match= 57 :: RCB v MI"
+2025-07-12,PBKS,Sat,PBKS,CSK,58,29,,,,"Day= 29, Venue= PBKS, Match= 58 :: PBKS v CSK"
+2025-07-13,RR,Sun,RR,GT,59,30,,,,"Day= 30, Venue= RR, Match= 59 :: RR v GT"
+2025-07-13,DC,Sun,DC,KKR,60,30,,,,"Day= 30, Venue= DC, Match= 60 :: DC v KKR"
+2025-07-14,LSG,Mon,LSG,PBKS,61,31,,,,"Day= 31, Venue= LSG, Match= 61 :: LSG v PBKS"
+2025-07-14,SRH,Mon,SRH,RCB,62,31,,,,"Day= 31, Venue= SRH, Match= 62 :: SRH v RCB"
+2025-07-15,GT,Tue,GT,DC,63,32,,,,"Day= 32, Venue= GT, Match= 63 :: GT v DC"
+2025-07-15,MI,Tue,MI,KKR,64,32,,,,"Day= 32, Venue= MI, Match= 64 :: MI v KKR"
+2025-07-16,CSK,Wed,CSK,LSG,65,33,,,,"Day= 33, Venue= CSK, Match= 65 :: CSK v LSG"
+2025-07-16,PBKS,Wed,PBKS,RR,66,33,,,,"Day= 33, Venue= PBKS, Match= 66 :: PBKS v RR"
+2025-07-17,RCB,Thu,RCB,KKR,67,34,,,,"Day= 34, Venue= RCB, Match= 67 :: RCB v KKR"
+2025-07-17,MI,Thu,MI,DC,68,34,,,,"Day= 34, Venue= MI, Match= 68 :: MI v DC"
+2025-07-18,SRH,Fri,SRH,LSG,69,35,,,,"Day= 35, Venue= SRH, Match= 69 :: SRH v LSG"
+2025-07-18,GT,Fri,GT,RR,70,35,,,,"Day= 35, Venue= GT, Match= 70 :: GT v RR"
+2025-07-20,SRH,Sun,,,71,36,,,,"Day= 36, Venue= SRH, Match= 71 ::  v "
+2025-07-21,SRH,Mon,,,72,37,,,,"Day= 37, Venue= SRH, Match= 72 ::  v "
+2025-07-22,RR,Tue,,,73,38,,,,"Day= 38, Venue= RR, Match= 73 ::  v "
+2025-07-23,RR,Wed,,,74,39,,,,"Day= 39, Venue= RR, Match= 74 ::  v "
