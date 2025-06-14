@@ -454,3 +454,62 @@ body {
   box-shadow: 0 0 6px rgba(0, 91, 181, 0.5);
 }
 
+#squads .tabs button {
+  padding: 10px 16px;
+  margin-right: 6px;
+  border: 1px solid #5a8ad6;
+  background-color: #e6f0ff;
+  color: #004080;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 6px 6px 0 0;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  user-select: none;
+}
+
+#squads .tabs button:hover {
+  background-color: #c0d4ff;
+}
+
+#squads .tabs button.active {
+  background-color: #0050c8;
+  color: white;
+  border-color: #0044aa;
+  box-shadow: inset 0 -2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.squad-table-container {
+  display: none;
+  margin-top: 15px;
+}
+
+.squad-table-container.active {
+  display: block;
+}
+
+.squad-table-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.squad-table-container th,
+.squad-table-container td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.squad-table-container th {
+  background-color: #f4f4f4;
+  cursor: pointer;
+}
+
+.squad-table-container tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.squad-table-container tr:hover {
+  background-color: #f1f1f1;
+}
+
+

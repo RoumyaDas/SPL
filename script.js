@@ -920,6 +920,64 @@ document.querySelectorAll(".schedule-subtab").forEach(btn => {
 // Default: show only S01 tab and trigger its load
 document.querySelector(".schedule-subtab.active").click();
 
+// Current Squads tab
+const teamList = ["CSK", "DC", "GT", "KKR", "LSG", "MI", "PBKS", "RR", "RCB", "SRH"];
+const squadBaseUrl = "https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Squads/";
+
+function renderSquadTable(team, data) {
+  const container = document.getElementById(team);
+  const table = document.createElement("table");
+
+  const thead = document.createElement("thead");
+  const headRow = document.createElement("tr");
+  data.headers.forEach(h => {
+    const th = document.createElement("th");
+    th.textContent = h;
+    th.addEventListener("click", () => {
+      const idx = data.headers.indexOf(h);
+      data.rows.sort((a, b) => a[idx].localeCompare(b[idx], undefined, { numeric: true }));
+      renderSquadTable(team, data); // re-render sorted
+    });
+    headRow.appendChild(th);
+  });
+  thead.appendChild(headRow);
+
+  const tbody = document.createElement("tbody");
+  data.rows.forEach(row => {
+    const tr = document.createElement("tr");
+    row.forEach(cell => {
+      const td = document.createElement("td");
+      td.textContent = cell;
+      tr.appendChild(td);
+    });
+    tbody.appendChild(tr);
+  });
+
+  table.appendChild(thead);
+  table.appendChild(tbody);
+  container.innerHTML = ""; // Clear previous
+  container.appendChild(table);
+}
+
+// Load all team CSVs once
+teamList.forEach(team => {
+  fetch(`${squadBaseUrl}${team}.csv`)
+    .then(res => res.text())
+    .then(text => {
+      const data = parseCSV(text);
+      renderSquadTable(team, data);
+    });
+});
+
+// Subtab switching logic
+document.querySelectorAll(".squad-subtab").forEach(btn => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll(".squad-subtab").forEach(b => b.classList.remove("active"));
+    document.querySelectorAll(".squad-table-container").forEach(div => div.classList.remove("active"));
+    btn.classList.add("active");
+    document.getElementById(btn.dataset.tab).classList.add("active");
+  });
+});
 
 // --- Combined Points Table Tab ---
 const combinedCsvUrl = "https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/combined_pts_table.csv";

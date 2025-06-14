@@ -47,6 +47,8 @@
       <button class="main-tab" data-tab="special">Special Stats</button>
       <button class="main-tab" data-tab="stats">Stats</button>
       <button class="main-tab" data-tab="combined">Combined Points Table</button>
+      <button class="main-tab" data-tab="squads">Current Squads</button> <!-- Squads tab -->
+
     </div>
     
 
@@ -205,6 +207,38 @@
   <!-- CSV Table Output -->
   <div id="special-table-container" class="csv-table-output" style="margin-top: 10px;"></div>
 </div>
+
+<!-- Current Squads Tab -->
+<div id="squads" class="tab-content">
+  <h2>Current Squads</h2>
+
+  <!-- Subtabs for teams -->
+  <div class="tabs" id="squad-subtabs">
+    <button class="squad-subtab active" data-tab="CSK">CSK</button>
+    <button class="squad-subtab" data-tab="DC">DC</button>
+    <button class="squad-subtab" data-tab="GT">GT</button>
+    <button class="squad-subtab" data-tab="KKR">KKR</button>
+    <button class="squad-subtab" data-tab="LSG">LSG</button>
+    <button class="squad-subtab" data-tab="MI">MI</button>
+    <button class="squad-subtab" data-tab="PBKS">PBKS</button>
+    <button class="squad-subtab" data-tab="RR">RR</button>
+    <button class="squad-subtab" data-tab="RCB">RCB</button>
+    <button class="squad-subtab" data-tab="SRH">SRH</button>
+  </div>
+
+  <!-- Containers for each team -->
+  <div id="CSK" class="squad-table-container active"></div>
+  <div id="DC" class="squad-table-container"></div>
+  <div id="GT" class="squad-table-container"></div>
+  <div id="KKR" class="squad-table-container"></div>
+  <div id="LSG" class="squad-table-container"></div>
+  <div id="MI" class="squad-table-container"></div>
+  <div id="PBKS" class="squad-table-container"></div>
+  <div id="RR" class="squad-table-container"></div>
+  <div id="RCB" class="squad-table-container"></div>
+  <div id="SRH" class="squad-table-container"></div>
+</div>
+
 
 
   <!-- Career Tab Script (unique to this page) -->
