@@ -1,7 +1,6 @@
 bowler,num_innings,runs,balls,wkts,bowl_phase,bowl_sr,bowl_eco,team
-Fazalhaq Farooqi,5,151,120,11,middle,10.91,7.55,CSK
+Fazalhaq Farooqi,5,174,132,11,middle,12.0,7.91,CSK
 Sandeep Sharma,5,209,120,10,middle,12.0,10.45,RR
-Jagjit Singh,5,177,117,9,pp,13.0,9.08,CSK
 MA Starc,5,200,117,9,pp,13.0,10.26,KKR
 JJ Bumrah,5,207,120,9,middle,13.33,10.35,MI
 JC Archer,5,170,119,9,death,13.22,8.57,LSG
@@ -11,33 +10,35 @@ Harpreet Brar,5,163,120,8,middle,15.0,8.15,RCB
 M Siddharth,5,153,120,8,pp,15.0,7.65,CSK
 Arshdeep Singh,5,165,120,8,pp,15.0,8.25,LSG
 Mustafizur Rahman,5,164,114,8,death,14.25,8.63,DC
-RA Jadeja,5,206,120,7,pp,17.14,10.3,DC
 I Sharma,4,145,96,7,middle,13.71,9.06,GT
-M Markande,5,152,114,6,middle,19.0,8.0,PBKS
+RA Jadeja,5,206,120,7,pp,17.14,10.3,DC
+AR Patel,5,160,120,6,middle,20.0,8.0,CSK
+Jagjit Singh,5,246,141,6,pp,23.5,10.47,CSK
 JR Hazlewood,5,221,138,6,pp,23.0,9.61,RR
+NT Ellis,5,165,108,6,death,18.0,9.17,LSG
 CV Varun,5,162,108,6,middle,18.0,9.0,PBKS
 Rasikh Salam,5,169,106,6,middle,17.67,9.57,GT
-NT Ellis,5,165,108,6,death,18.0,9.17,LSG
-AK Markram,5,179,96,6,death,16.0,11.19,SRH
 Mohammad Nabi,5,168,120,6,pp,20.0,8.4,GT
-AR Patel,5,176,120,6,middle,20.0,8.8,CSK
+M Markande,5,152,114,6,middle,19.0,8.0,PBKS
+AK Markram,5,179,96,6,death,16.0,11.19,SRH
 MP Yadav,5,154,120,6,death,20.0,7.7,CSK
 SH Johnson,5,127,90,6,pp,15.0,8.47,SRH
-B Kumar,5,209,120,5,middle,24.0,10.45,KKR
+TU Deshpande,4,126,84,5,death,16.8,9.0,RR
 Washington Sundar,5,156,108,5,pp,21.6,8.67,PBKS
 WG Jacks,5,128,90,5,middle,18.0,8.53,LSG
 SM Curran,5,207,120,5,death,24.0,10.35,KKR
-Abhishek Sharma,5,102,64,5,death,12.8,9.56,MI
+B Kumar,5,209,120,5,middle,24.0,10.45,KKR
 GD Phillips,5,131,72,5,middle,14.4,10.92,GT
+Abhishek Sharma,5,102,64,5,death,12.8,9.56,MI
 Mujeeb Ur Rahman,3,88,72,5,death,14.4,7.33,CSK
-Shahbaz Ahmed,5,181,120,5,middle,24.0,9.05,LSG
 K Rabada,5,186,120,5,pp,24.0,9.3,DC
-TU Deshpande,4,126,84,5,death,16.8,9.0,RR
 Shakib Al Hasan,4,123,84,5,pp,16.8,8.79,PBKS
-MG Bracewell,4,120,72,4,pp,18.0,10.0,DC
+T Natarajan,5,204,132,5,death,26.4,9.27,CSK
+Shahbaz Ahmed,5,181,120,5,middle,24.0,9.05,LSG
+M Theekshana,5,162,109,4,middle,27.25,8.92,MI
 R Sai Kishore,5,140,114,4,middle,28.5,7.37,GT
 KK Ahmed,5,207,114,4,pp,28.5,10.89,GT
-M Theekshana,5,162,109,4,middle,27.25,8.92,MI
+MG Bracewell,4,120,72,4,pp,18.0,10.0,DC
 Yash Thakur,5,140,102,4,middle,25.5,8.24,PBKS
 GF Linde,5,154,114,4,middle,28.5,8.11,RR
 HH Pandya,5,174,102,4,middle,25.5,10.24,MI
@@ -49,11 +50,10 @@ C Sakariya,5,148,114,4,middle,28.5,7.79,SRH
 Rashid Khan,5,197,108,4,middle,27.0,10.94,GT
 Mohammed Shami,5,160,114,4,pp,28.5,8.42,PBKS
 Ravi Teja,3,113,72,4,middle,18.0,9.42,LSG
-SP Narine,4,142,90,3,middle,30.0,9.47,LSG
 Naman Dhir,1,51,24,3,middle,8.0,12.75,GT
+SP Narine,4,142,90,3,middle,30.0,9.47,LSG
 Nithish Kumar Reddy,5,63,42,3,death,14.0,9.0,GT
 PWH de Silva,5,169,114,3,middle,38.0,8.89,DC
-T Natarajan,5,179,108,3,middle,36.0,9.94,CSK
 R Ashwin,5,194,120,3,middle,40.0,9.7,KKR
 R Parag,3,103,72,3,middle,24.0,8.58,GT
 Mukesh Kumar,3,83,54,3,middle,18.0,9.22,GT
@@ -64,26 +64,25 @@ YS Chahal,5,182,120,3,middle,40.0,9.1,RCB
 Ramandeep Singh,4,63,36,3,middle,12.0,10.5,LSG
 MR Marsh,1,26,24,3,middle,8.0,6.5,DC
 HV Patel,5,190,120,3,middle,40.0,9.5,PBKS
-GJ Maxwell,5,202,114,3,middle,38.0,10.63,RR
-KH Pandya,5,224,120,3,middle,40.0,11.2,SRH
+A Kamboj,4,173,96,3,middle,32.0,10.81,RR
 Cheepurapalli Stephen,4,132,84,3,pp,28.0,9.43,DC
 KV Sharma,2,92,48,3,middle,16.0,11.5,RR
 Azmatullah Omarzai,5,174,90,3,pp,30.0,11.6,RR
-Harshit Rana,4,137,96,3,middle,32.0,8.56,CSK
-A Kamboj,4,173,96,3,middle,32.0,10.81,RR
+Harshit Rana,5,205,144,3,middle,48.0,8.54,CSK
+Avesh Khan,5,166,108,3,middle,36.0,9.22,DC
+KH Pandya,5,224,120,3,middle,40.0,11.2,SRH
+GJ Maxwell,5,202,114,3,middle,38.0,10.63,RR
 AD Russell,5,108,66,3,death,22.0,9.82,DC
 A Zampa,5,156,108,3,pp,36.0,8.67,SRH
-Avesh Khan,5,166,108,3,middle,36.0,9.22,DC
-Suyash Sharma,5,170,120,2,middle,60.0,8.5,MI
 Swapnil Singh,5,208,120,2,middle,60.0,10.4,RR
-K Kartikeya,1,25,24,2,middle,12.0,6.25,GT
-C Green,4,138,78,2,middle,39.0,10.62,RCB
+Suyash Sharma,5,170,120,2,middle,60.0,8.5,MI
 BA Stokes,5,153,102,2,middle,51.0,9.0,LSG
-Suryansh Shedge,5,159,120,2,middle,60.0,7.95,CSK
 JD Unadkat,2,92,48,2,death,24.0,11.5,SRH
 JG Bethell,5,72,42,2,middle,21.0,10.29,SRH
+K Kartikeya,1,25,24,2,middle,12.0,6.25,GT
 DS Rathi,5,161,120,2,middle,60.0,8.05,KKR
 Sanvir Singh,2,44,30,2,middle,15.0,8.8,SRH
+C Green,4,138,78,2,middle,39.0,10.62,RCB
 R Tewatia,3,73,42,2,middle,21.0,10.43,RR
 Kuldeep Yadav,5,182,114,2,middle,57.0,9.58,SRH
 LH Ferguson,4,142,84,2,middle,42.0,10.14,MI
@@ -99,6 +98,7 @@ DL Chahar,3,137,72,2,middle,36.0,11.42,PBKS
 V Kaverappa,1,31,18,1,pp,18.0,10.33,SRH
 AS Roy,5,122,84,1,death,84.0,8.71,SRH
 VR Iyer,4,139,78,1,middle,78.0,10.69,SRH
+Suryansh Shedge,5,200,132,1,middle,132.0,9.09,CSK
 Sikandar Raza,5,170,120,1,middle,120.0,8.5,DC
 Mohammad Ghazanfar,5,182,108,1,middle,108.0,10.11,CSK
 Noor Ahmad,2,74,48,1,pp,48.0,9.25,RCB
