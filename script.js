@@ -928,26 +928,38 @@ function renderSquadTable(team, data) {
   const container = document.getElementById(team);
   const table = document.createElement("table");
 
+  // Create table header
   const thead = document.createElement("thead");
   const headRow = document.createElement("tr");
-  data.headers.forEach(h => {
+  data.headers.forEach((h, idx) => {
     const th = document.createElement("th");
     th.textContent = h;
+    th.style.cursor = "pointer";
+
     th.addEventListener("click", () => {
-      const idx = data.headers.indexOf(h);
-      data.rows.sort((a, b) => a[idx].localeCompare(b[idx], undefined, { numeric: true }));
-      renderSquadTable(team, data); // re-render sorted
+      const sortedRows = [...data.rows].sort((a, b) => {
+        const aVal = a[h] ?? "";
+        const bVal = b[h] ?? "";
+        const isNumeric = !isNaN(aVal) && !isNaN(bVal);
+        return isNumeric
+          ? parseFloat(aVal) - parseFloat(bVal)
+          : aVal.localeCompare(bVal);
+      });
+
+      renderSquadTable(team, { headers: data.headers, rows: sortedRows });
     });
+
     headRow.appendChild(th);
   });
   thead.appendChild(headRow);
 
+  // Create table body
   const tbody = document.createElement("tbody");
   data.rows.forEach(row => {
     const tr = document.createElement("tr");
-    row.forEach(cell => {
+    data.headers.forEach(h => {
       const td = document.createElement("td");
-      td.textContent = cell;
+      td.textContent = row[h] ?? "";
       tr.appendChild(td);
     });
     tbody.appendChild(tr);
@@ -955,9 +967,11 @@ function renderSquadTable(team, data) {
 
   table.appendChild(thead);
   table.appendChild(tbody);
-  container.innerHTML = ""; // Clear previous
+
+  container.innerHTML = "";
   container.appendChild(table);
 }
+
 
 // Load all team CSVs once
 teamList.forEach(team => {
