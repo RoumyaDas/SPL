@@ -1,16 +1,27 @@
 bowler,bowling_team,num_innings,economy,balls,wkts
 JJ Bumrah,MI,1,5.43,21,3
+C Green,RCB,1,6.0,12,0
+Harpreet Brar,RCB,1,6.25,24,2
 T Natarajan,CSK,1,7.0,24,2
 Sandeep Sharma,RR,1,7.0,18,3
 Fazalhaq Farooqi,CSK,1,7.33,18,2
 AR Patel,CSK,1,7.5,12,1
 C Sakariya,SRH,1,8.0,24,1
+Ashutosh Sharma,RCB,1,8.0,12,1
+K Gowtham,DC,1,8.33,18,0
 DAJ Bracewell,MI,1,8.5,24,2
+RA Jadeja,DC,1,8.5,24,2
 Harshit Rana,CSK,1,8.5,24,0
+A Nortje,RCB,1,9.0,24,4
 M Jansen,RR,1,9.0,24,0
+M Pathirana,RCB,1,9.25,24,1
 JD Unadkat,SRH,1,9.25,24,0
 JR Hazlewood,RR,1,9.5,24,0
+Mustafizur Rahman,DC,1,9.5,24,0
 JO Holder,SRH,1,9.5,12,1
+M Prasidh Krishna,DC,1,9.75,24,2
+Sumit Kumar,DC,1,10.0,6,0
+AD Russell,DC,1,11.25,24,0
 HH Pandya,MI,1,11.25,24,0
 Umran Malik,MI,1,11.33,18,1
 Mayank Dagar,RR,1,11.5,24,1
@@ -20,5 +31,6 @@ Suryansh Shedge,CSK,1,12.67,18,0
 Akash Deep,SRH,1,13.5,24,0
 Jagjit Singh,CSK,1,13.75,24,0
 S Dube,RR,1,14.0,6,0
+Mohsin Khan,RCB,1,14.25,24,0
 TA Boult,MI,1,15.25,24,1
 LS Livingstone,SRH,1,18.0,5,0
