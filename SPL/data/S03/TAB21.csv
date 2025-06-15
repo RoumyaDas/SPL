@@ -1,6 +1,8 @@
 match_id,innings,runs,balls,SR,final_score,total_balls,wkts,exit_pt_score,win,PP_perf,Middle_perf,Death_perf,batter,team
 S03M003,1,79,46,171.74,194,120,4,152-4(16.0),1,25 off 18,41 off 23,13 off 5,B Sai Sudharsan,RCB
 S03M003,2,72,33,218.18,183,120,8,85-3(7.4),0,65 off 27,7 off 6,,V Kohli,DC
+S03M004,1,70,41,170.73,216,120,5,172-5(16.4),1,17 off 9,49 off 28,4 off 4,Ishan Kishan,KKR
 S03M001,2,66,36,183.33,207,113,5,106-2(9.5),1,40 off 23,26 off 13,,GJ Maxwell,RR
 S03M002,2,63,37,170.27,193,111,7,148-4(14.1),1,32 off 17,31 off 20,,TM Head,CSK
 S03M002,1,57,33,172.73,192,120,5,180-4(18.2),0,,27 off 21,30 off 12,N Pooran,MI
+S03M004,1,51,27,188.89,216,120,5,164-3(15.3),1,,47 off 25,4 off 2,AM Rahane,KKR
