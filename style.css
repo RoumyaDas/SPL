@@ -250,6 +250,14 @@ body {
   box-shadow: inset 0 -2px 4px rgba(0, 0, 0, 0.15);
 }
 
+.pagination-buttons button.active {
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+  border: 1px solid #388E3C;
+}
+
+
 /* Career table styling */
 #career table {
   width: 100%;
