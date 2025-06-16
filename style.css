@@ -10,7 +10,7 @@ body::before {
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  opacity: 0.25; /* Adjust this value as needed */
+  opacity: 0.10; /* Adjust this value as needed */
   z-index: -1;
   background-color: rgba(0, 0, 0, 0.3); /* semi-transparent black overlay */
   background-blend-mode: darken;
@@ -22,7 +22,8 @@ body {
   background-color: #ee8eb4; /* fallback color */
   margin: 0;
   padding: 0;
-  color: #222;
+  color: #000;
+text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   background-image: url('https://raw.githubusercontent.com/RoumyaDas/SPL/main/background.png'); /* keep this only if you're using ::before */
 }
 
