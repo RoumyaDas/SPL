@@ -10,7 +10,7 @@ body::before {
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  opacity: 0.10; /* Adjust this value as needed */
+  opacity: 0.025; /* Adjust this value as needed */
   z-index: -1;
   background-color: rgba(0, 0, 0, 0.3); /* semi-transparent black overlay */
   background-blend-mode: darken;
