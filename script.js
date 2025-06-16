@@ -104,7 +104,7 @@ function splitSafe(line) {
 
 let specialSortConfig = { tabKey: "", column: null, order: "asc" };
 
-function renderSpecialTable(tabKey, searchTerm = "") {
+function renderSpecialTable(tabKey, searchTerm = "", page = 1) {
   const container = document.getElementById("special-table-container");
   container.innerHTML = "";
 
@@ -114,6 +114,7 @@ function renderSpecialTable(tabKey, searchTerm = "") {
     return;
   }
 
+  // 🔍 Filter rows
   let filteredRows = rows;
   if (searchTerm) {
     filteredRows = rows.filter(row =>
@@ -121,7 +122,7 @@ function renderSpecialTable(tabKey, searchTerm = "") {
     );
   }
 
-  // Sorting
+  // 🔃 Sort if configured
   if (specialSortConfig.tabKey === tabKey && specialSortConfig.column !== null) {
     const h = headers[specialSortConfig.column];
     const order = specialSortConfig.order;
@@ -137,7 +138,7 @@ function renderSpecialTable(tabKey, searchTerm = "") {
     });
   }
 
-  // Table render
+  // 📄 Create table
   const table = document.createElement("table");
   table.style.width = "100%";
   table.style.borderCollapse = "collapse";
@@ -156,15 +157,13 @@ function renderSpecialTable(tabKey, searchTerm = "") {
       th.textContent += specialSortConfig.order === "asc" ? " ▲" : " ▼";
     }
 
-    // Add click handler
     th.addEventListener("click", () => {
       if (specialSortConfig.tabKey === tabKey && specialSortConfig.column === idx) {
-        // Toggle order
         specialSortConfig.order = specialSortConfig.order === "asc" ? "desc" : "asc";
       } else {
         specialSortConfig = { tabKey, column: idx, order: "asc" };
       }
-      renderSpecialTable(tabKey, document.getElementById("specialSearch").value);
+      renderSpecialTable(tabKey, document.getElementById("specialSearch").value, 1);
     });
 
     headRow.appendChild(th);
@@ -172,8 +171,13 @@ function renderSpecialTable(tabKey, searchTerm = "") {
   thead.appendChild(headRow);
   table.appendChild(thead);
 
+  // ⬇️ Paginate rows
+  const rowsPerPage = 20;
+  const start = (page - 1) * rowsPerPage;
+  const currentRows = filteredRows.slice(start, start + rowsPerPage);
+
   const tbody = document.createElement("tbody");
-  filteredRows.slice(0, 20).forEach(row => {
+  currentRows.forEach(row => {
     const tr = document.createElement("tr");
     headers.forEach(h => {
       const td = document.createElement("td");
@@ -186,6 +190,16 @@ function renderSpecialTable(tabKey, searchTerm = "") {
   });
   table.appendChild(tbody);
   container.appendChild(table);
+
+  // 📌 Pagination controls
+  const pagination = document.getElementById("special-pagination");
+  pagination.innerHTML = renderPagination(filteredRows.length, rowsPerPage, page);
+  pagination.querySelectorAll("button").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const newPage = parseInt(btn.dataset.page);
+      renderSpecialTable(tabKey, searchTerm, newPage);
+    });
+  });
 }
 
 
@@ -410,7 +424,9 @@ document.getElementById("specialSearch").addEventListener("input", () => {
   const activeTab = document.querySelector("#special-subtabs button.active");
 const tabKey = activeTab?.dataset.tabkey;
 if (tabKey) {
-  renderSpecialTable(tabKey, document.getElementById("specialSearch").value);
+  // renderSpecialTable(tabKey, document.getElementById("specialSearch").value);
+  renderSpecialTable(tabKey, document.getElementById("specialSearch").value, 1);
+
 }
 
 });
