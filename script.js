@@ -524,17 +524,17 @@ function renderStatsTable(season, tabId, searchTerm = "") {
     });
 }
 
-function renderStatsTableFromCache(cacheKey, searchTerm = "") {
+function renderStatsTableFromCache(cacheKey, searchTerm = "", page = 1) {
   const container = document.getElementById("stats-table-container");
-  container.innerHTML = ""; // <-- add this line
+  container.innerHTML = "";
+
   const { headers, rows } = statsCsvData[cacheKey] || {};
-  
   if (!headers || !rows) {
     container.innerHTML = "<p>No data loaded.</p>";
     return;
   }
 
-  // Filter rows if search term exists
+  // 🔍 Filter
   let filteredRows = rows;
   if (searchTerm) {
     filteredRows = rows.filter(row =>
@@ -542,7 +542,7 @@ function renderStatsTableFromCache(cacheKey, searchTerm = "") {
     );
   }
 
-  // Apply sorting if configured
+  // 🔃 Sort
   if (statsSortConfig.column !== null) {
     const h = headers[statsSortConfig.column];
     const order = statsSortConfig.order;
@@ -558,12 +558,11 @@ function renderStatsTableFromCache(cacheKey, searchTerm = "") {
     });
   }
 
-  // Create table
+  // 📄 Table
   const table = document.createElement("table");
   table.style.width = "100%";
   table.style.borderCollapse = "collapse";
 
-  // Create header
   const thead = document.createElement("thead");
   const headRow = document.createElement("tr");
   headers.forEach((h, idx) => {
@@ -573,12 +572,11 @@ function renderStatsTableFromCache(cacheKey, searchTerm = "") {
     th.style.border = "1px solid #ccc";
     th.style.padding = "4px";
 
-    // Add sort indicator
+    // Sort indicator
     if (statsSortConfig.column === idx) {
       th.textContent += statsSortConfig.order === "asc" ? " ▲" : " ▼";
     }
 
-    // Add click handler
     th.addEventListener("click", () => {
       if (statsSortConfig.column === idx) {
         statsSortConfig.order = statsSortConfig.order === "asc" ? "desc" : "asc";
@@ -586,7 +584,7 @@ function renderStatsTableFromCache(cacheKey, searchTerm = "") {
         statsSortConfig.column = idx;
         statsSortConfig.order = "asc";
       }
-      renderStatsTableFromCache(cacheKey, searchTerm);
+      renderStatsTableFromCache(cacheKey, searchTerm, 1); // reset to page 1 on sort
     });
 
     headRow.appendChild(th);
@@ -594,9 +592,13 @@ function renderStatsTableFromCache(cacheKey, searchTerm = "") {
   thead.appendChild(headRow);
   table.appendChild(thead);
 
-  // Create body
+  // ⬇️ Pagination logic
+  const rowsPerPage = 20;
+  const start = (page - 1) * rowsPerPage;
+  const currentRows = filteredRows.slice(start, start + rowsPerPage);
+
   const tbody = document.createElement("tbody");
-  filteredRows.slice(0, 20).forEach(row => {
+  currentRows.forEach(row => {
     const tr = document.createElement("tr");
     headers.forEach(h => {
       const td = document.createElement("td");
@@ -609,7 +611,18 @@ function renderStatsTableFromCache(cacheKey, searchTerm = "") {
   });
   table.appendChild(tbody);
   container.appendChild(table);
+
+  // ➕ Pagination control
+  const pagination = document.getElementById("stats-pagination");
+  pagination.innerHTML = renderPagination(filteredRows.length, rowsPerPage, page);
+  pagination.querySelectorAll("button").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const newPage = parseInt(btn.dataset.page);
+      renderStatsTableFromCache(cacheKey, searchTerm, newPage);
+    });
+  });
 }
+
 
 // Initialize when DOM is loaded
 // document.addEventListener("DOMContentLoaded", initStatsTab);
