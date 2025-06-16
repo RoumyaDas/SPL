@@ -1048,3 +1048,21 @@ fetch(combinedCsvUrl)
       renderCombinedTable(headers, rows, e.target.value);
     });
   });
+
+
+
+function renderPagination(totalRows, rowsPerPage, currentPage, onPageChange) {
+  const totalPages = Math.ceil(totalRows / rowsPerPage);
+  if (totalPages <= 1) return "";
+
+  let html = `<div class="pagination-buttons">`;
+  if (currentPage > 1) html += `<button data-page="${currentPage - 1}">Prev</button>`;
+  for (let i = 1; i <= totalPages; i++) {
+    html += `<button data-page="${i}" ${i === currentPage ? "class='active'" : ""}>${i}</button>`;
+  }
+  if (currentPage < totalPages) html += `<button data-page="${currentPage + 1}">Next</button>`;
+  html += `</div>`;
+
+  return html;
+}
+  
