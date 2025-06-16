@@ -331,7 +331,9 @@
   let filtered = data.rows;
   if (searchTerm) {
     filtered = filtered.filter(row =>
-      row[data.headers[0]].toLowerCase().includes(searchTerm.toLowerCase())
+      //row[data.headers[0]].toLowerCase().includes(searchTerm.toLowerCase())
+      Object.values(row).some(val =>
+      val.toLowerCase().includes(searchTerm.toLowerCase()) )
     );
   }
 
