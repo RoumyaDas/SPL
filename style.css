@@ -1,11 +1,19 @@
 /* General resets */
+
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #ee8eb4;
+  background-color: #ee8eb4; /* fallback if image fails */
+  background-image: url('https://raw.githubusercontent.com/RoumyaDas/SPL/main/background.png'); /* or full URL */
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
   margin: 0;
   padding: 0;
   color: #222;
 }
+
+
 
 .footnote {
   font-size: 12px;
