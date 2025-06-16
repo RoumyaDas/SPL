@@ -575,3 +575,11 @@ body {
 }
 
 
+.csv-table-output,
+.schedule-table-container,
+.career-table,
+.squad-table-container {
+  background-color: #cedffa; /* or any other sky tone */
+  border-radius: 8px;
+  padding: 16px;
+}
