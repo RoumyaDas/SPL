@@ -4,7 +4,9 @@ JR Hazlewood,RR,2,20,48,41.67
 Arshad Khan,KKR,2,19,48,39.58
 Fazalhaq Farooqi,CSK,2,18,42,42.86
 VG Arora,KKR,2,17,48,35.42
+A Nortje,RCB,2,16,48,33.33
 Arshdeep Singh,LSG,2,16,48,33.33
+Harpreet Brar,RCB,2,16,48,33.33
 Ravi Teja,LSG,2,15,36,41.67
 Harshit Rana,CSK,2,14,42,33.33
 GJ Maxwell,RR,2,14,48,29.17
@@ -12,14 +14,17 @@ Suryansh Shedge,CSK,2,13,36,36.11
 Sandeep Sharma,RR,2,13,42,30.95
 B Kumar,KKR,2,13,48,27.08
 MM Ali,KKR,2,13,48,27.08
+M Pathirana,RCB,2,12,48,25.0
 Mayank Dagar,RR,2,12,48,25.0
-A Nortje,RCB,1,11,24,45.83
+Mohammed Siraj,RCB,1,11,18,61.11
 AR Patel,CSK,2,11,36,30.56
 JC Archer,LSG,2,11,42,26.19
 JJ Bumrah,MI,1,10,21,47.62
-Harpreet Brar,RCB,1,10,24,41.67
+C Green,RCB,2,10,30,33.33
 HH Pandya,MI,2,10,42,23.81
+Washington Sundar,PBKS,2,10,42,23.81
 AK Markram,SRH,1,9,24,37.5
+Ashutosh Sharma,RCB,2,9,24,37.5
 A Zampa,SRH,1,9,24,37.5
 Shakib Al Hasan,PBKS,1,9,24,37.5
 C Sakariya,SRH,1,9,24,37.5
@@ -34,11 +39,12 @@ LS Livingstone,SRH,2,7,21,33.33
 T Natarajan,CSK,1,7,24,29.17
 DAJ Bracewell,MI,1,7,24,29.17
 SZ Mulani,MI,1,7,24,29.17
+PJ Cummins,PBKS,1,7,24,29.17
+Mohammed Shami,PBKS,1,7,24,29.17
 Zeeshan Ansari,LSG,1,7,24,29.17
 Umran Malik,MI,1,6,18,33.33
 Kuldeep Yadav,SRH,1,6,24,25.0
 AJ Turner,MI,1,6,24,25.0
-M Pathirana,RCB,1,6,24,25.0
 Ramandeep Singh,LSG,1,6,24,25.0
 Mustafizur Rahman,DC,1,6,24,25.0
 SP Narine,LSG,2,6,48,12.5
@@ -46,21 +52,20 @@ Suyash Sharma,MI,1,5,18,27.78
 Abdul Samad,LSG,1,5,18,27.78
 M Markande,PBKS,1,5,18,27.78
 CV Varun,PBKS,1,5,18,27.78
+HV Patel,PBKS,1,5,18,27.78
 R Sai Kishore,GT,1,5,22,22.73
 Ravi Bishnoi,PBKS,1,5,24,20.83
 JD Unadkat,SRH,1,5,24,20.83
 Jagjit Singh,CSK,1,5,24,20.83
-Ashutosh Sharma,RCB,1,4,12,33.33
 K Gowtham,DC,1,4,18,22.22
 M Prasidh Krishna,DC,1,4,24,16.67
 TA Boult,MI,1,4,24,16.67
 M Jansen,RR,1,4,24,16.67
-Washington Sundar,PBKS,1,4,24,16.67
 Abhishek Sharma,MI,1,3,12,25.0
 JO Holder,SRH,1,3,12,25.0
-C Green,RCB,1,3,12,25.0
 Azmatullah Omarzai,RR,1,3,18,16.67
 AD Russell,DC,1,3,24,12.5
+MP Stoinis,PBKS,2,3,24,12.5
 Akash Deep,SRH,1,3,24,12.5
 Mohsin Khan,RCB,1,3,24,12.5
 Sumit Kumar,DC,1,2,6,33.33
@@ -68,4 +73,4 @@ MK Lomror,SRH,1,2,6,33.33
 Mohammad Nabi,GT,1,2,24,8.33
 I Sharma,GT,1,2,24,8.33
 R Parag,GT,1,1,6,16.67
-MP Stoinis,PBKS,1,1,12,8.33
+Yash Thakur,PBKS,1,1,15,6.67
