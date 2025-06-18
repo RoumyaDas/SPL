@@ -2,11 +2,11 @@ bowler,bowling_team,num_innings,economy,balls,wkts
 Shakib Al Hasan,PBKS,1,5.0,24,1
 JJ Bumrah,MI,1,5.43,21,3
 MP Yadav,CSK,1,6.0,15,2
-R Parag,GT,1,6.0,6,0
 Arshad Khan,KKR,2,6.38,48,3
 Suyash Sharma,MI,1,6.67,18,1
 C Green,RCB,2,7.0,30,1
 AK Markram,SRH,1,7.0,24,2
+R Shepherd,GT,1,7.0,24,2
 T Natarajan,CSK,1,7.0,24,2
 Ashutosh Sharma,RCB,2,7.25,24,2
 K Kartikeya,GT,1,7.33,18,2
@@ -22,9 +22,8 @@ Kuldeep Yadav,SRH,1,8.0,24,3
 C Sakariya,SRH,1,8.0,24,1
 MM Ali,KKR,2,8.12,48,2
 Washington Sundar,PBKS,2,8.14,42,1
-K Gowtham,DC,1,8.33,18,0
+Mohammad Nabi,GT,2,8.25,48,2
 DAJ Bracewell,MI,1,8.5,24,2
-RA Jadeja,DC,1,8.5,24,2
 Ravi Bishnoi,PBKS,1,8.5,24,2
 Ramandeep Singh,LSG,1,8.5,24,0
 Mohammed Siraj,RCB,1,8.67,18,1
@@ -33,35 +32,39 @@ SZ Mulani,MI,1,8.75,24,2
 M Theekshana,MI,1,8.75,24,1
 MA Starc,KKR,2,9.0,48,5
 JR Hazlewood,RR,2,9.0,48,0
-Mohammad Nabi,GT,1,9.0,24,1
 M Jansen,RR,1,9.0,24,0
 Abhishek Sharma,MI,1,9.0,12,1
 B Kumar,KKR,2,9.25,48,3
 JD Unadkat,SRH,1,9.25,24,0
+K Gowtham,DC,2,9.29,42,1
 AR Patel,CSK,2,9.33,36,2
 CV Varun,PBKS,1,9.33,18,0
+R Parag,GT,2,9.33,18,0
 Mayank Dagar,RR,2,9.5,48,1
 VG Arora,KKR,2,9.5,48,0
 Ravi Teja,LSG,2,9.5,36,2
 PJ Cummins,PBKS,1,9.5,24,2
-Mustafizur Rahman,DC,1,9.5,24,0
 JO Holder,SRH,1,9.5,12,1
-M Prasidh Krishna,DC,1,9.75,24,2
+RA Jadeja,DC,2,9.75,48,3
+Rasikh Salam,GT,1,9.75,24,4
+M Prasidh Krishna,DC,2,9.86,42,3
 Zeeshan Ansari,LSG,1,10.0,24,0
 Abdul Samad,LSG,1,10.0,18,1
 N Wadhera,RR,1,10.0,6,0
 Sumit Kumar,DC,1,10.0,6,0
 M Pathirana,RCB,2,10.38,48,4
 Suryansh Shedge,CSK,2,10.5,36,2
-R Sai Kishore,GT,1,10.64,22,1
+AD Russell,DC,2,10.67,36,1
 GJ Maxwell,RR,2,10.75,48,4
 Mohammed Shami,PBKS,1,10.75,24,1
 HH Pandya,MI,2,10.86,42,2
+Mustafizur Rahman,DC,2,10.86,42,0
 A Nortje,RCB,2,11.0,48,4
 M Markande,PBKS,1,11.0,18,1
-AD Russell,DC,1,11.25,24,0
-I Sharma,GT,1,11.25,24,0
+R Sai Kishore,GT,2,11.1,40,2
+MG Bracewell,DC,1,11.25,24,0
 Umran Malik,MI,1,11.33,18,1
+I Sharma,GT,2,11.71,42,0
 SP Narine,LSG,2,12.12,48,1
 SH Johnson,SRH,1,12.25,24,2
 JC Archer,LSG,2,12.29,42,3

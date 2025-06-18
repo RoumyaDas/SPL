@@ -1,23 +1,24 @@
 striker,batting_team,num_innings,runs,strike_rate,bat_avg,run_contribution_%
-V Kohli,DC,1,72,218.18,72.0,39.34
-Naman Dhir,GT,1,59,190.32,59.0,33.15
+SV Samson,GT,2,143,168.24,71.5,36.29
 RM Patidar,RR,2,118,145.68,118.0,28.85
-JP Inglis,GT,1,51,141.67,51.0,28.65
 SP Narine,LSG,2,99,154.69,49.5,25.0
 Ashutosh Sharma,RCB,2,96,200.0,48.0,24.49
 TM Head,CSK,2,79,171.74,39.5,23.87
 H Klaasen,PBKS,2,83,172.92,83.0,22.13
 Ishan Kishan,KKR,2,77,167.39,38.5,21.81
 PD Salt,RCB,2,82,170.83,82.0,20.92
+Naman Dhir,GT,2,81,176.09,40.5,20.56
 B Sai Sudharsan,RCB,2,80,163.27,40.0,20.41
-SV Samson,GT,1,36,138.46,36.0,20.22
 T Stubbs,SRH,2,76,172.73,38.0,20.21
 Kartik Sharma,LSG,2,80,181.82,80.0,20.2
+JP Inglis,GT,2,79,146.3,39.5,20.05
+V Kohli,DC,2,74,211.43,37.0,19.79
+AD Russell,DC,2,72,141.18,inf,19.25
 N Pooran,MI,2,64,152.38,32.0,17.93
 GJ Maxwell,RR,2,73,178.05,36.5,17.85
 FH Allen,LSG,2,70,140.0,35.0,17.68
+SA Yadav,DC,2,66,173.68,33.0,17.65
 VR Iyer,SRH,2,66,173.68,66.0,17.55
-AD Russell,DC,1,32,133.33,inf,17.49
 PP Shaw,MI,2,61,169.44,30.5,17.09
 MP Stoinis,PBKS,2,63,175.0,31.5,16.8
 Shashank Singh,PBKS,2,63,161.54,31.5,16.8
@@ -32,46 +33,47 @@ F du Plessis,CSK,2,50,106.38,25.0,15.11
 LS Livingstone,SRH,2,53,123.26,26.5,14.1
 BM Duckett,CSK,2,45,250.0,22.5,13.6
 Smaran Ravichandran,PBKS,2,50,116.28,25.0,13.33
-P Simran Singh,SRH,2,49,163.33,24.5,13.03
 JC Buttler,KKR,2,46,135.29,23.0,13.03
+P Simran Singh,SRH,2,49,163.33,24.5,13.03
+N Sindhu,DC,2,48,165.52,24.0,12.83
 RD Rickelton,RR,2,51,221.74,25.5,12.47
+LG Pretorius,GT,2,47,174.07,23.5,11.93
 Tilak Varma,CSK,2,39,150.0,19.5,11.78
 Shubman Gill,LSG,2,46,176.92,23.0,11.62
 AR Patel,CSK,2,38,146.15,19.0,11.48
-K Gowtham,DC,1,21,140.0,21.0,11.48
 V Suryavanshi,PBKS,2,41,170.83,20.5,10.93
 TH David,LSG,2,40,153.85,40.0,10.1
 Aniket Verma,RR,2,41,205.0,20.5,10.02
 RR Rossouw,MI,1,35,159.09,35.0,9.8
-RA Jadeja,DC,1,17,242.86,17.0,9.29
 RK Singh,RCB,2,36,163.64,36.0,9.18
 AK Markram,SRH,1,34,170.0,inf,9.04
 SS Iyer,LSG,2,34,170.0,17.0,8.59
 Priyansh Arya,SRH,2,32,145.45,16.0,8.51
+RA Jadeja,DC,2,31,193.75,15.5,8.29
 Anmolpreet Singh,CSK,1,27,128.57,27.0,8.16
-Sumit Kumar,DC,1,14,100.0,14.0,7.65
 RK Bhui,CSK,2,25,89.29,25.0,7.55
 Washington Sundar,PBKS,1,28,164.71,inf,7.47
 KL Rahul,SRH,2,28,155.56,14.0,7.45
-R Parag,GT,1,13,216.67,inf,7.3
 RD Gaikwad,RCB,2,28,93.33,14.0,7.14
-Abishek Porel,DC,1,13,100.0,13.0,7.1
 Q de Kock,PBKS,2,26,118.18,13.0,6.93
 N Wadhera,RR,2,28,233.33,inf,6.85
+K Gowtham,DC,2,24,114.29,12.0,6.42
+R Parag,GT,2,25,208.33,inf,6.35
 JM Bairstow,KKR,2,22,95.65,11.0,6.23
 YBK Jaiswal,RR,2,25,166.67,12.5,6.11
-DJ Hooda,GT,1,10,76.92,10.0,5.62
-SA Yadav,DC,1,10,125.0,10.0,5.46
+BJ McMullen,DC,1,21,175.0,21.0,5.61
 RR Pant,KKR,2,19,146.15,9.5,5.38
 AJ Turner,MI,1,19,105.56,19.0,5.32
 Abdul Samad,LSG,1,19,316.67,inf,4.8
-LG Pretorius,GT,1,8,133.33,8.0,4.49
 M Theekshana,MI,1,15,136.36,15.0,4.2
+Sumit Kumar,DC,1,14,100.0,14.0,3.74
 Jay Gohil,MI,2,13,108.33,13.0,3.64
 WL Madsen,MI,1,13,92.86,13.0,3.64
 Suryansh Shedge,CSK,2,12,171.43,6.0,3.63
+Abishek Porel,DC,2,13,86.67,6.5,3.48
 MK Lomror,SRH,1,13,108.33,13.0,3.46
 Suyash Sharma,MI,1,12,240.0,inf,3.36
+DJ Hooda,GT,1,10,76.92,10.0,2.54
 MM Ali,KKR,1,8,80.0,8.0,2.27
 PJ Cummins,PBKS,1,8,200.0,inf,2.13
 JO Holder,SRH,1,8,160.0,8.0,2.13
@@ -80,13 +82,15 @@ VG Arora,KKR,1,6,600.0,inf,1.7
 Harshit Rana,CSK,2,5,71.43,5.0,1.51
 KH Pandya,SRH,1,5,166.67,5.0,1.33
 MP Yadav,CSK,1,4,100.0,inf,1.21
-Akash Vashisht,MI,1,4,200.0,4.0,1.12
 KD Karthik,MI,1,4,133.33,inf,1.12
-M Prasidh Krishna,DC,1,2,66.67,inf,1.09
+Akash Vashisht,MI,1,4,200.0,4.0,1.12
+M Prasidh Krishna,DC,2,4,80.0,inf,1.07
 Ramandeep Singh,LSG,1,3,75.0,inf,0.76
-Mohammad Nabi,GT,1,1,50.0,inf,0.56
 SH Johnson,SRH,1,2,200.0,inf,0.53
+MG Bracewell,DC,1,2,66.67,2.0,0.53
 Kuldeep Yadav,SRH,1,2,40.0,inf,0.53
 Jagjit Singh,CSK,1,1,100.0,inf,0.3
 B Kumar,KKR,1,1,25.0,1.0,0.28
 MA Starc,KKR,1,1,20.0,1.0,0.28
+R Shepherd,GT,1,1,100.0,inf,0.25
+Mohammad Nabi,GT,1,1,50.0,inf,0.25
