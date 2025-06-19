@@ -598,3 +598,27 @@ body {
   border-radius: 8px;
   padding: 16px;
 }
+
+
+/* === Wes Anderson Tab Styling === */
+
+/* For #stats tab */
+#stats {
+  background-color: #f8c7cc; /* Wes pink */
+}
+
+/* For #career tab */
+#career {
+  background-color: #d6a83f; /* mustard */
+}
+
+/* For tables in #special */
+#special table {
+  background-color: #fae7b5; /* tan */
+}
+
+/* Table headers in #combined */
+#combined th {
+  background-color: #694f4f; /* deep brown */
+  color: #fff;
+}
