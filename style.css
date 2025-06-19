@@ -607,9 +607,19 @@ body {
   background-color: #f8c7cc; /* Wes pink */
 }
 
+/* For #schedule tab */
+#schedule {
+  background-color: #919067; /* yellow-green */
+}
+
 /* For #career tab */
 #career {
   background-color: #d6a83f; /* mustard */
+}
+
+/* For #about tab */
+#about {
+  background-color: #a385a9; /* pink-ish */
 }
 
 /* For tables in #special */
