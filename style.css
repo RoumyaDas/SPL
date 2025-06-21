@@ -128,8 +128,10 @@ body {
   background: #eaf2ff; /* sky blue to match parent */
   padding: 6px; 
   border: 1px solid #ccc; 
-  height: 300px; 
-  overflow-y: auto;
+  /* height: 300px; */
+  /* overflow-y: auto; */
+  height: auto !important;
+  overflow-y: visible !important;
   border-radius: 4px;
 }
 
