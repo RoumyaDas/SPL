@@ -682,21 +682,78 @@ document.querySelectorAll(".season-subtab").forEach(btn => {
     const seasonContainer = btn.closest(".season-content");
     const seasonId = seasonContainer.id.split("-")[1];
 
+    // Remove existing select dropdowns (Flow, Scorecard, Impact)
     const existingSelect = activeSubtabContent.querySelector(".match-select");
     if (existingSelect) {
       existingSelect.remove();
     }
 
-    if (activeSubtabId.startsWith("flow") || activeSubtabId.startsWith("scorecard")) {
+    const maxMatches = 74;
 
-      const maxMatches = 74;
+    if (activeSubtabId.startsWith("flow") || activeSubtabId.startsWith("scorecard")) {
       createMatchSelector(seasonId, activeSubtabContent, activeSubtabId, maxMatches);
       loadSeasonSubtabContent(seasonId, activeSubtabId, 1, activeSubtabContent);
-    } else if (activeSubtabId === "graphs") {
+    } 
+    
+    else if (activeSubtabId.startsWith("impact")) {
+      // Create dropdown dynamically
+      const select = document.createElement("select");
+      select.className = "match-select";
+      select.style.marginBottom = "10px";
+      const defaultOption = document.createElement("option");
+      defaultOption.value = "";
+      defaultOption.textContent = "-- Select a match --";
+      select.appendChild(defaultOption);
+
+      for (let i = 1; i <= maxMatches; i++) {
+        const matchNum = i.toString().padStart(3, '0');
+        const matchId = `S03M${matchNum}`;
+        const opt = document.createElement("option");
+        opt.value = matchId;
+        opt.textContent = `Match ${matchNum}`;
+        select.appendChild(opt);
+      }
+
+      const pre = activeSubtabContent.querySelector("pre") || document.createElement("pre");
+      pre.id = "impactContent";
+      pre.className = "subtab-pre-content";
+
+      activeSubtabContent.innerHTML = ""; // Clear old content
+      activeSubtabContent.appendChild(select);
+      activeSubtabContent.appendChild(pre);
+
+      pre.textContent = "Please select a match.";
+
+      select.addEventListener("change", () => {
+        const matchId = select.value;
+        if (!matchId) {
+          pre.textContent = "Please select a match.";
+          return;
+        }
+
+        const url = `https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Season_03/total_impact/${matchId}_impact.txt`;
+
+        fetch(url)
+          .then(res => {
+            if (!res.ok) throw new Error("File not found");
+            return res.text();
+          })
+          .then(text => {
+            pre.textContent = text;
+          })
+          .catch(() => {
+            pre.textContent = "Impact file not found for " + matchId;
+          });
+      });
+    }
+
+    // If future subtabs like "graphs" return:
+    else if (activeSubtabId === "graphs") {
       activeSubtabContent.textContent = "Graphs will be shown here soon.";
     }
   });
 });
+
 
 
 
