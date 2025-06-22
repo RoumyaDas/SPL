@@ -17,25 +17,25 @@ JJ Bumrah,5,135,105,7,middle,15.0,7.71,M.I.
 Swapnil Singh,5,130,88,7,middle,12.57,8.86,R.R.
 RA Jadeja,5,183,114,7,pp,16.29,9.63,D.C.
 M Theekshana,5,162,102,7,death,14.57,9.53,M.I.
+MA Starc,5,198,104,7,pp,14.86,11.42,K.K.R.
 Mohsin Khan,5,191,112,7,pp,16.0,10.23,R.C.B.
 V Puthur,4,153,84,7,middle,12.0,10.93,L.S.G.
 B Kumar,5,203,109,7,death,15.57,11.17,K.K.R.
 Mohammad Ghazanfar,4,139,82,7,middle,11.71,10.17,C.S.K.
 R Sai Kishore,5,158,101,7,middle,14.43,9.39,G.T.
-MA Starc,5,198,104,7,pp,14.86,11.42,K.K.R.
 Jagjit Singh,5,172,114,6,middle,19.0,9.05,C.S.K.
+CV Varun,5,170,100,6,middle,16.67,10.2,P.B.K.S.
 BA Stokes,5,137,102,6,middle,17.0,8.06,L.S.G.
-GJ Maxwell,5,164,96,6,middle,16.0,10.25,R.R.
 DS Rathi,4,146,96,6,middle,16.0,9.12,K.K.R.
 Harpreet Brar,5,191,120,6,middle,20.0,9.55,R.C.B.
-Washington Sundar,5,127,96,5,middle,19.2,7.94,P.B.K.S.
+HV Patel,5,141,89,6,middle,14.83,9.51,P.B.K.S.
+Shakib Al Hasan,5,109,84,6,pp,14.0,7.79,P.B.K.S.
+GJ Maxwell,5,164,96,6,middle,16.0,10.25,R.R.
+Washington Sundar,5,137,102,5,middle,20.4,8.06,P.B.K.S.
 Harshit Rana,5,146,102,5,pp,20.4,8.59,C.S.K.
-HV Patel,5,156,101,5,middle,20.2,9.27,P.B.K.S.
-Shakib Al Hasan,5,102,84,5,pp,16.8,7.29,P.B.K.S.
 Suryansh Shedge,5,116,108,5,middle,21.6,6.44,C.S.K.
 MG Bracewell,5,191,114,5,middle,22.8,10.05,D.C.
 DAJ Bracewell,2,70,48,5,pp,9.6,8.75,M.I.
-CV Varun,5,150,90,5,middle,18.0,10.0,P.B.K.S.
 C Sakariya,5,152,104,5,middle,20.8,8.77,S.R.H.
 Tanush Kotian,5,170,102,5,pp,20.4,10.0,S.R.H.
 MP Yadav,5,136,89,5,pp,17.8,9.17,C.S.K.
@@ -54,9 +54,10 @@ PJ Cummins,5,165,102,4,pp,25.5,9.71,P.B.K.S.
 SS Ghosh,1,30,24,4,death,6.0,7.5,M.I.
 AD Russell,5,146,78,4,death,19.5,11.23,D.C.
 VG Arora,5,173,108,4,middle,27.0,9.61,K.K.R.
-Atharva Ankolekar,1,35,24,4,pp,6.0,8.75,M.I.
+Shashank Singh,5,95,60,4,middle,15.0,9.5,P.B.K.S.
 Sikandar Raza,5,157,108,4,middle,27.0,8.72,D.C.
 G Coetzee,4,110,78,4,pp,19.5,8.46,K.K.R.
+Atharva Ankolekar,1,35,24,4,pp,6.0,8.75,M.I.
 Azmatullah Omarzai,5,187,109,3,middle,36.33,10.29,R.R.
 PWH de Silva,5,145,102,3,pp,34.0,8.53,D.C.
 R Ashwin,5,142,113,3,middle,37.67,7.54,K.K.R.
@@ -64,22 +65,21 @@ Mujeeb Ur Rahman,3,126,72,3,pp,24.0,10.5,C.S.K.
 Abhishek Sharma,5,142,96,3,middle,32.0,8.88,M.I.
 Arshdeep Singh,5,170,102,3,middle,34.0,10.0,L.S.G.
 TU Deshpande,4,134,90,3,middle,30.0,8.93,R.R.
+Ravi Bishnoi,5,152,120,3,middle,40.0,7.6,P.B.K.S.
+M Siddharth,5,136,106,3,middle,35.33,7.7,C.S.K.
 SZ Mulani,3,118,72,3,middle,24.0,9.83,M.I.
 JG Bethell,2,55,36,3,middle,12.0,9.17,S.R.H.
-JR Hazlewood,5,148,102,3,pp,34.0,8.71,R.R.
-M Jansen,5,173,111,3,middle,37.0,9.35,R.R.
-Shashank Singh,4,70,42,3,middle,14.0,10.0,P.B.K.S.
 M Markande,5,144,114,3,middle,38.0,7.58,P.B.K.S.
-M Siddharth,5,136,106,3,middle,35.33,7.7,C.S.K.
-Yash Dayal,3,131,71,2,pp,35.5,11.07,L.S.G.
-R Shepherd,1,28,24,2,middle,12.0,7.0,G.T.
-Ravi Bishnoi,5,160,120,2,middle,60.0,8.0,P.B.K.S.
-YS Chahal,5,187,116,2,middle,58.0,9.67,R.C.B.
+M Jansen,5,173,111,3,middle,37.0,9.35,R.R.
+JR Hazlewood,5,148,102,3,pp,34.0,8.71,R.R.
 SP Narine,5,155,103,2,middle,51.5,9.03,L.S.G.
-WG Jacks,5,82,60,2,death,30.0,8.2,L.S.G.
-Sandeep Sharma,5,208,120,2,middle,60.0,10.4,R.R.
-T Natarajan,5,192,108,2,middle,54.0,10.67,C.S.K.
 Umran Malik,2,76,42,2,middle,21.0,10.86,M.I.
+T Natarajan,5,192,108,2,middle,54.0,10.67,C.S.K.
+Sandeep Sharma,5,208,120,2,middle,60.0,10.4,R.R.
+WG Jacks,5,82,60,2,death,30.0,8.2,L.S.G.
+YS Chahal,5,187,116,2,middle,58.0,9.67,R.C.B.
+R Shepherd,1,28,24,2,middle,12.0,7.0,G.T.
+Yash Dayal,3,131,71,2,pp,35.5,11.07,L.S.G.
 SN Thakur,2,71,42,2,pp,21.0,10.14,D.C.
 A Badoni,3,46,25,2,middle,12.5,11.04,S.R.H.
 I Sharma,3,118,66,2,pp,33.0,10.73,G.T.
