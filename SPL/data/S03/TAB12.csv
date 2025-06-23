@@ -1,15 +1,16 @@
 striker,batting_team,num_innings,sixes,runs,strike_rate
 Aniket Verma,RR,4,12,151,196.1
+Ashutosh Sharma,RCB,4,12,169,189.89
 FH Allen,LSG,4,9,204,175.86
 N Sindhu,DC,4,9,170,150.44
 JM Sharma,RCB,3,8,105,205.88
 Tilak Varma,CSK,4,8,174,181.25
-Ashutosh Sharma,RCB,3,8,126,180.0
 Priyansh Arya,SRH,4,8,156,175.28
 SP Narine,LSG,4,8,145,157.61
 S Dube,RR,4,8,141,151.61
 BJ McMullen,DC,3,7,92,184.0
 AR Patel,CSK,4,7,91,171.7
+SV Samson,GT,4,7,173,163.21
 PP Shaw,MI,4,7,124,158.97
 N Pooran,MI,4,7,141,154.95
 Arshad Khan,KKR,4,7,89,153.45
@@ -19,17 +20,17 @@ MP Stoinis,PBKS,4,6,110,183.33
 P Simran Singh,SRH,4,6,133,166.25
 RM Patidar,RR,4,6,176,137.5
 N Rana,KKR,4,5,97,215.56
-R Parag,GT,3,5,79,179.55
-SV Samson,GT,3,5,144,161.8
+R Parag,GT,4,5,79,175.56
+B Sai Sudharsan,RCB,4,5,198,160.98
 Ishan Kishan,KKR,3,5,90,155.17
 JC Buttler,KKR,4,5,108,147.95
 LS Livingstone,SRH,4,5,109,147.3
 Q de Kock,PBKS,4,5,120,139.53
 BM Duckett,CSK,4,4,77,187.8
 RD Rickelton,RR,4,4,83,184.44
+JP Inglis,GT,4,4,159,172.83
 AK Markram,SRH,2,4,73,165.91
 VR Iyer,SRH,3,4,68,165.85
-B Sai Sudharsan,RCB,3,4,112,164.71
 Kartik Sharma,LSG,4,4,95,163.79
 KL Rahul,SRH,4,4,108,163.64
 H Klaasen,PBKS,4,4,162,160.4
@@ -41,19 +42,21 @@ RR Rossouw,MI,2,4,83,150.91
 RA Jadeja,DC,3,3,39,205.26
 N Wadhera,RR,4,3,30,200.0
 Shubman Gill,LSG,4,3,99,190.38
+Naman Dhir,GT,4,3,142,169.05
 Urvil Patel,DC,3,3,103,168.85
 Suryansh Shedge,CSK,4,3,27,168.75
 V Suryavanshi,PBKS,4,3,113,168.66
-JP Inglis,GT,3,3,114,165.22
-PD Salt,RCB,3,3,87,164.15
+LG Pretorius,GT,3,3,97,161.67
+PD Salt,RCB,4,3,88,160.0
 Abhishek Sharma,MI,4,3,96,157.38
 WL Madsen,MI,2,3,79,154.9
 SS Iyer,LSG,4,3,52,148.57
+RD Gaikwad,RCB,4,3,111,140.51
 AD Russell,DC,3,3,72,138.46
-LG Pretorius,GT,2,2,47,174.07
-Naman Dhir,GT,3,2,107,167.19
+R Shepherd,GT,2,2,20,222.22
+R Sai Kishore,GT,2,2,17,170.0
 GJ Maxwell,RR,4,2,95,163.79
-RK Singh,RCB,3,2,85,157.41
+RK Singh,RCB,4,2,99,159.68
 TH David,LSG,2,2,40,153.85
 R Ashwin,KKR,1,2,23,135.29
 JM Bairstow,KKR,4,2,99,125.32
@@ -68,6 +71,7 @@ Suyash Sharma,MI,2,1,15,187.5
 Atharva Ankolekar,MI,1,1,7,175.0
 YBK Jaiswal,RR,4,1,71,173.17
 Washington Sundar,PBKS,2,1,37,160.87
+D Padikkal,GT,2,1,12,150.0
 RR Pant,KKR,4,1,49,144.12
 Abdul Samad,LSG,3,1,47,142.42
 M Theekshana,MI,1,1,15,136.36
