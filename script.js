@@ -386,7 +386,7 @@ const tabSpecialstatsnames = [
   "Form_inning_1 Batter", "Form_inning_2 Batter", "Form_inning_1 Bowler",
   "Form_inning_2 Bowler", "Venue stats", "Pos.n-wise Batter (min. 100 balls)", "H2H stats (min. 15 balls)",
   "Partnership stats (min. 50 balls)", "Home-Away record", "Venue-wise Bowler", "Venue-wise Batter",
-  "stats23", "stats24",
+  "Indi. Impact list (>=50 pts)", "stats24",
   "stats25" // fill with whatever name you want
 ];
 
