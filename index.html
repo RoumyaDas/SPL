@@ -208,6 +208,14 @@
 <div id="special" class="tab-content">
   <h2>Special Stats</h2>
 
+  <div style="display: flex; justify-content: space-between; align-items: center;">
+    <h2>Special Stats</h2>
+    <button id="exportSpecialStats" style="padding: 6px 12px; font-weight: bold; background: #0074D9; color: white; border: none; border-radius: 4px; cursor: pointer;">
+      Export All as Excel
+    </button>
+  </div>
+  
+
   <!-- Search Filter -->
   <label for="specialSearch">Search:</label>
   <input type="text" id="specialSearch" placeholder="Type to filter..." />
@@ -436,6 +444,8 @@
   <!-- Table Output -->
   <div id="combined-table-container" class="csv-table-output" style="margin-top: 10px;"></div>
 </div>
+
+<script src="https://cdn.sheetjs.com/xlsx-latest/package/dist/xlsx.full.min.js"></script>
 
 </body>
 </html>

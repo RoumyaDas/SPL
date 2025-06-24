@@ -1154,3 +1154,47 @@ function renderPagination(totalRows, rowsPerPage, currentPage, onPageChange) {
   return html;
 }
   
+// export tab
+document.getElementById("exportSpecialStats").addEventListener("click", () => {
+  const searchTerm = document.getElementById("specialSearch").value.trim().toLowerCase();
+  const wb = XLSX.utils.book_new();
+
+  // Loop over each special subtab
+  document.querySelectorAll(".special-subtab").forEach(btn => {
+    const subtabId = btn.dataset.tab;
+    const container = document.getElementById(subtabId);
+
+    if (!container) return;
+
+    const rows = [];
+    const headers = [];
+
+    container.querySelectorAll("table thead tr th").forEach(th => {
+      headers.push(th.textContent);
+    });
+
+    container.querySelectorAll("table tbody tr").forEach(tr => {
+      const row = [];
+      tr.querySelectorAll("td").forEach(td => {
+        const val = td.textContent.trim();
+        row.push(val);
+      });
+
+      if (searchTerm === "" || row.some(cell => cell.toLowerCase().includes(searchTerm))) {
+        rows.push(row);
+      }
+    });
+
+    if (headers.length > 0 && rows.length > 0) {
+      const sheetData = [headers, ...rows];
+      const ws = XLSX.utils.aoa_to_sheet(sheetData);
+      XLSX.utils.book_append_sheet(wb, ws, subtabId.substring(0, 31)); // Excel sheet name limit
+    }
+  });
+
+  if (wb.SheetNames.length > 0) {
+    XLSX.writeFile(wb, "SPL_Special_Stats.xlsx");
+  } else {
+    alert("No data found to export.");
+  }
+});
