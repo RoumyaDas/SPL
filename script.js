@@ -1159,36 +1159,40 @@ document.getElementById("exportSpecialStats").addEventListener("click", () => {
   const searchTerm = document.getElementById("specialSearch").value.trim().toLowerCase();
   const wb = XLSX.utils.book_new();
 
-  // Loop over each special subtab
-  document.querySelectorAll(".special-subtab").forEach(btn => {
+  // Loop over each subtab button in Special Stats
+  document.querySelectorAll("#special .tabs button").forEach(btn => {
     const subtabId = btn.dataset.tab;
     const container = document.getElementById(subtabId);
-
     if (!container) return;
 
-    const rows = [];
-    const headers = [];
+    const table = container.querySelector("table");
+    if (!table) return;
 
-    container.querySelectorAll("table thead tr th").forEach(th => {
-      headers.push(th.textContent);
+    const headers = [];
+    const rows = [];
+
+    // Extract headers
+    table.querySelectorAll("thead tr th").forEach(th => {
+      headers.push(th.textContent.trim());
     });
 
-    container.querySelectorAll("table tbody tr").forEach(tr => {
+    // Extract filtered rows
+    table.querySelectorAll("tbody tr").forEach(tr => {
       const row = [];
       tr.querySelectorAll("td").forEach(td => {
-        const val = td.textContent.trim();
-        row.push(val);
+        row.push(td.textContent.trim());
       });
 
-      if (searchTerm === "" || row.some(cell => cell.toLowerCase().includes(searchTerm))) {
-        rows.push(row);
-      }
+      const include = searchTerm === "" || row.some(cell => cell.toLowerCase().includes(searchTerm));
+      if (include) rows.push(row);
     });
 
+    // Add sheet if data exists
     if (headers.length > 0 && rows.length > 0) {
       const sheetData = [headers, ...rows];
       const ws = XLSX.utils.aoa_to_sheet(sheetData);
-      XLSX.utils.book_append_sheet(wb, ws, subtabId.substring(0, 31)); // Excel sheet name limit
+      const sheetName = subtabId.slice(0, 31); // Excel max length
+      XLSX.utils.book_append_sheet(wb, ws, sheetName);
     }
   });
 
