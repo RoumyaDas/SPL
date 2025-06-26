@@ -1170,8 +1170,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const newsFiles = [
     "240625_MI_injury.txt","250625_PBKS_GT_thriller.txt","260625_LSG_Stokes_missing.txt","230625_GT_RCB_thriller.txt","250625_recap.txt",
     "160625_SRH_MI_recap.txt","250625_KKR_trumps_RR.txt",
-    "ddmmyy_placeholder2.txt","ddmmyy_placeholder3.txt","ddmmyy_placeholder4.txt","ddmmyy_placeholder5.txt","ddmmyy_placeholder6.txt",
-    "ddmmyy_placeholder7.txt","ddmmyy_placeholder8.txt","ddmmyy_placeholder9.txt"
+    "260625_placeholder2.txt","260625_placeholder3.txt","260625_placeholder4.txt","260625_placeholder5.txt","260625_placeholder6.txt",
+    "260625_placeholder7.txt","260625_placeholder8.txt","260625_placeholder9.txt"
   ];
 
   const newsData = []; // will store all stories
@@ -1179,7 +1179,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Sort by date in filename
   const sortedNewsFiles = [...newsFiles].sort((a, b) => {
     const getSortableDate = (filename) => {
-      const match = filename.match(/^(\d{2})(\d{2})(\d{2})_/); // captures DDMMYY_
+      const match = filename.match(/^(\d{2})(\d{2})(\d{2})_/); // captures 260625_
       if (!match) return new Date(0); // fail-safe
       const [_, dd, mm, yy] = match;
       return new Date(`20${yy}-${mm}-${dd}`);
