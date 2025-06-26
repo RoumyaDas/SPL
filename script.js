@@ -1167,12 +1167,11 @@ document.addEventListener("DOMContentLoaded", () => {
   const detailBody = document.querySelector(".news-detail-body");
   const searchInput = document.getElementById("newsSearch");
 
-  const newsFiles = [
-    "240625_MI_injury.txt","250625_PBKS_GT_thriller.txt","260625_LSG_Stokes_missing.txt","230625_GT_RCB_thriller.txt","250625_recap.txt",
-    "160625_SRH_MI_recap.txt","250625_KKR_trumps_RR.txt",
-    "260625_placeholder2.txt","260625_placeholder3.txt","260625_placeholder4.txt","260625_placeholder5.txt","260625_placeholder6.txt",
-    "260625_placeholder7.txt","260625_placeholder8.txt","260625_placeholder9.txt"
-  ];
+  const newsFiles = ['260625_LSG_Stokes_missing.txt','250625_KKR_trumps_RR.txt','250625_KKR_duo.txt','240625_CSK_MI.txt',
+    '250625_recap.txt','160625_SRH_MI_recap.txt','240625_Liam_dim.txt','250625_PBKS_GT_thriller.txt',
+    '240625_Allen_fire.txt','260625_GT_debuts.txt','230625_GT_RCB_thriller.txt','220625_DC_injury.txt','170625_MI_caps.txt',
+    '190625_RR_ownership.txt','240625_MI_injury.txt']
+    ;
 
   const newsData = []; // will store all stories
 
