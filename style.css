@@ -340,6 +340,22 @@ body {
   line-height: 1.4;
 }
 
+#newsSearch {
+  padding: 8px 12px;
+  margin-bottom: 12px;
+  width: 300px;
+  font-size: 14px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  outline: none;
+  transition: box-shadow 0.2s ease;
+}
+
+#newsSearch:focus {
+  border-color: #0074D9;
+  box-shadow: 0 0 6px rgba(0, 116, 217, 0.3);
+}
+
 
 
 /* Container for Career tab */

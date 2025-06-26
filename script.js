@@ -1160,6 +1160,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const newsList = document.getElementById("news-list");
   const detailTitle = document.querySelector(".news-detail-title");
   const detailBody = document.querySelector(".news-detail-body");
+  const searchInput = document.getElementById("newsSearch");
 
   const newsFiles = [
     "240625_MI_injury.txt",
@@ -1170,16 +1171,16 @@ document.addEventListener("DOMContentLoaded", () => {
     "160625_SRH_MI_recap.txt"
   ];
 
-  // LIFO - latest first
+  const newsData = []; // will store all stories
+
+  // Sort by date in filename
   const sortedNewsFiles = newsFiles.sort((a, b) => {
-    const getDateValue = filename => {
-      const datePart = filename.slice(0, 6); // DDMMYY
-      const [dd, mm, yy] = [datePart.slice(0, 2), datePart.slice(2, 4), datePart.slice(4, 6)];
-      return new Date(`20${yy}-${mm}-${dd}`); // e.g. 2024-06-25
+    const getDateValue = f => {
+      const [dd, mm, yy] = [f.slice(0, 2), f.slice(2, 4), f.slice(4, 6)];
+      return new Date(`20${yy}-${mm}-${dd}`);
     };
-    return getDateValue(b) - getDateValue(a); // descending (latest first)
+    return getDateValue(b) - getDateValue(a);
   });
-  
 
   sortedNewsFiles.forEach(filename => {
     fetch(`https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/news/${filename}`)
@@ -1189,23 +1190,46 @@ document.addEventListener("DOMContentLoaded", () => {
         const lines = text.trim().split("\n");
         const title = lines[0] || "Untitled";
         const body = lines.slice(1).join("\n");
-  
-        const card = document.createElement("div");
-        card.className = "news-card";
-        card.textContent = title;
-  
-        card.addEventListener("click", () => {
-          detailTitle.textContent = title;
-          detailBody.textContent = body;
-          window.location.hash = filename.replace(".txt", "");
-        });
-  
-        newsList.appendChild(card);
+
+        newsData.push({ filename, title, body });
+        renderNewsList(newsData, searchInput.value.trim().toLowerCase());
       });
   });
-  
 
-  // Handle deep link (optional)
+  function renderNewsList(data, filter) {
+    newsList.innerHTML = "";
+    const filtered = data.filter(story =>
+      story.title.toLowerCase().includes(filter) ||
+      story.body.toLowerCase().includes(filter)
+    );
+
+    filtered.forEach(({ filename, title, body }) => {
+      const card = document.createElement("div");
+      card.className = "news-card";
+      card.textContent = title;
+
+      card.addEventListener("click", () => {
+        detailTitle.textContent = title;
+        detailBody.textContent = body;
+        window.location.hash = filename.replace(".txt", "");
+      });
+
+      newsList.appendChild(card);
+    });
+
+    if (filtered.length === 0) {
+      newsList.innerHTML = `<div style="color:#666; font-style: italic;">No news matched your search.</div>`;
+      detailTitle.textContent = "Select a news item";
+      detailBody.textContent = "Full story will appear here.";
+    }
+  }
+
+  searchInput.addEventListener("input", () => {
+    const filter = searchInput.value.trim().toLowerCase();
+    renderNewsList(newsData, filter);
+  });
+
+  // Optional: Load story from URL hash
   const hash = window.location.hash.replace("#", "");
   if (hash) {
     fetch(`https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/news/${hash}.txt`)
