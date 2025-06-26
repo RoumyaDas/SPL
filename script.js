@@ -1170,9 +1170,17 @@ document.addEventListener("DOMContentLoaded", () => {
   ];
 
   // LIFO - latest first
-  newsFiles.reverse();
+  const sortedNewsFiles = newsFiles.sort((a, b) => {
+    const getDateValue = filename => {
+      const datePart = filename.slice(0, 6); // DDMMYY
+      const [dd, mm, yy] = [datePart.slice(0, 2), datePart.slice(2, 4), datePart.slice(4, 6)];
+      return new Date(`20${yy}-${mm}-${dd}`); // e.g. 2024-06-25
+    };
+    return getDateValue(b) - getDateValue(a); // descending (latest first)
+  });
+  
 
-  newsFiles.forEach(filename => {
+  sortedNewsFiles.forEach(filename => {
     fetch(`https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/news/${filename}`)
       .then(res => res.ok ? res.text() : null)
       .then(text => {
@@ -1180,20 +1188,21 @@ document.addEventListener("DOMContentLoaded", () => {
         const lines = text.trim().split("\n");
         const title = lines[0] || "Untitled";
         const body = lines.slice(1).join("\n");
-
+  
         const card = document.createElement("div");
         card.className = "news-card";
         card.textContent = title;
-
+  
         card.addEventListener("click", () => {
           detailTitle.textContent = title;
           detailBody.textContent = body;
           window.location.hash = filename.replace(".txt", "");
         });
-
+  
         newsList.appendChild(card);
       });
   });
+  
 
   // Handle deep link (optional)
   const hash = window.location.hash.replace("#", "");
