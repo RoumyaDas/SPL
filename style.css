@@ -283,39 +283,63 @@ body {
 }
 
 /* NEWS tab */
-#news-container {
+.news-flex {
+  display: flex;
+  gap: 24px;
+}
+
+.news-left {
+  width: 300px;
+  background-color: #f3f4fa;
+  border-radius: 6px;
+  padding: 12px;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 12px;
+  max-height: 600px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
 }
 
 .news-card {
-  border: 1px solid #aaa;
-  border-radius: 6px;
-  background: #fffce0;
-  padding: 10px 14px;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 10px;
   cursor: pointer;
-  transition: background-color 0.2s ease;
+  border-radius: 4px;
+  font-weight: 600;
+  color: #002244;
+  transition: background 0.2s;
 }
 
 .news-card:hover {
-  background-color: #fff8b5;
+  background-color: #e1e9ff;
 }
 
-.news-title {
-  font-weight: bold;
+.news-right {
+  flex: 1;
+  background: #fff;
+  padding: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px rgba(0,0,0,0.05);
+}
+
+.news-detail-title {
+  margin-top: 0;
   color: #003366;
+  font-size: 18px;
+  font-weight: bold;
 }
 
-.news-body {
-  margin-top: 8px;
+.news-detail-body {
+  margin-top: 12px;
   white-space: pre-wrap;
-  display: none;
+  color: #333;
+  font-size: 15px;
+  line-height: 1.4;
 }
 
-.news-card.open .news-body {
-  display: block;
-}
 
 
 /* Container for Career tab */

@@ -1157,45 +1157,52 @@ function renderPagination(totalRows, rowsPerPage, currentPage, onPageChange) {
   
 /// NEWS tab stuff
 document.addEventListener("DOMContentLoaded", () => {
-  const newsContainer = document.getElementById("news-container");
+  const newsList = document.getElementById("news-list");
+  const detailTitle = document.querySelector(".news-detail-title");
+  const detailBody = document.querySelector(".news-detail-body");
 
-  // List of file names (simulate dynamically)
-  const newsFilenames = [
+  const newsFiles = [
     "240625_MI_injury.txt",
     "250625_PBKS_GT_thriller.txt",
     "260625_LSG_Stokes_missing.txt"
-    // Add more files here as you push
   ];
 
-  // Show latest first (LIFO)
-  newsFilenames.reverse();
+  // LIFO - latest first
+  newsFiles.reverse();
 
-  Promise.all(newsFilenames.map(filename =>
+  newsFiles.forEach(filename => {
     fetch(`https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/news/${filename}`)
       .then(res => res.ok ? res.text() : null)
-      .then(text => ({ filename, text }))
-  )).then(newsItems => {
-    newsContainer.innerHTML = "";
+      .then(text => {
+        if (!text) return;
+        const lines = text.trim().split("\n");
+        const title = lines[0] || "Untitled";
+        const body = lines.slice(1).join("\n");
 
-    newsItems.forEach(({ filename, text }) => {
-      if (!text) return;
-      const lines = text.trim().split("\n");
-      const title = lines[0] || "Untitled";
-      const body = lines.slice(1).join("\n");
+        const card = document.createElement("div");
+        card.className = "news-card";
+        card.textContent = title;
 
-      const card = document.createElement("div");
-      card.className = "news-card";
+        card.addEventListener("click", () => {
+          detailTitle.textContent = title;
+          detailBody.textContent = body;
+          window.location.hash = filename.replace(".txt", "");
+        });
 
-      card.innerHTML = `
-        <div class="news-title">${title}</div>
-        <div class="news-body">${body}</div>
-      `;
-
-      card.addEventListener("click", () => {
-        card.classList.toggle("open");
+        newsList.appendChild(card);
       });
-
-      newsContainer.appendChild(card);
-    });
   });
+
+  // Handle deep link (optional)
+  const hash = window.location.hash.replace("#", "");
+  if (hash) {
+    fetch(`https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/news/${hash}.txt`)
+      .then(res => res.ok ? res.text() : null)
+      .then(text => {
+        if (!text) return;
+        const lines = text.trim().split("\n");
+        detailTitle.textContent = lines[0];
+        detailBody.textContent = lines.slice(1).join("\n");
+      });
+  }
 });
