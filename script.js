@@ -1,3 +1,8 @@
+// news section
+let currentPage = 1;
+const pageSize = 10;
+
+
 // Season tabs switching
 document.querySelectorAll(".season-tab").forEach(btn => {
   btn.addEventListener("click", () => {
@@ -1174,13 +1179,16 @@ document.addEventListener("DOMContentLoaded", () => {
   const newsData = []; // will store all stories
 
   // Sort by date in filename
-  const sortedNewsFiles = newsFiles.sort((a, b) => {
-    const getDateValue = f => {
-      const [dd, mm, yy] = [f.slice(0, 2), f.slice(2, 4), f.slice(4, 6)];
+  const sortedNewsFiles = [...newsFiles].sort((a, b) => {
+    const getSortableDate = (filename) => {
+      const match = filename.match(/^(\d{2})(\d{2})(\d{2})_/); // captures DDMMYY_
+      if (!match) return new Date(0); // fail-safe
+      const [_, dd, mm, yy] = match;
       return new Date(`20${yy}-${mm}-${dd}`);
     };
-    return getDateValue(b) - getDateValue(a);
+    return getSortableDate(b) - getSortableDate(a); // Newest first
   });
+  
 
   sortedNewsFiles.forEach(filename => {
     fetch(`https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/news/${filename}`)
@@ -1197,37 +1205,81 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   function renderNewsList(data, filter) {
-    newsList.innerHTML = "";
+    const newsList = document.getElementById("news-list");
+    const pagination = document.getElementById("news-pagination");
+  
     const filtered = data.filter(story =>
       story.title.toLowerCase().includes(filter) ||
       story.body.toLowerCase().includes(filter)
     );
-
-    filtered.forEach(({ filename, title, body }) => {
+  
+    const totalPages = Math.ceil(filtered.length / pageSize);
+    currentPage = Math.min(currentPage, totalPages) || 1;
+  
+    const startIndex = (currentPage - 1) * pageSize;
+    const endIndex = startIndex + pageSize;
+    const paginatedData = filtered.slice(startIndex, endIndex);
+  
+    newsList.innerHTML = "";
+    pagination.innerHTML = "";
+  
+    paginatedData.forEach(({ filename, title, body }) => {
       const card = document.createElement("div");
       card.className = "news-card";
       card.textContent = title;
-
+  
       card.addEventListener("click", () => {
         detailTitle.textContent = title;
         detailBody.textContent = body;
         window.location.hash = filename.replace(".txt", "");
       });
-
+  
       newsList.appendChild(card);
     });
-
+  
     if (filtered.length === 0) {
       newsList.innerHTML = `<div style="color:#666; font-style: italic;">No news matched your search.</div>`;
       detailTitle.textContent = "Select a news item";
       detailBody.textContent = "Full story will appear here.";
+      return;
+    }
+  
+    // Pagination controls
+    if (totalPages > 1) {
+      const prevBtn = document.createElement("button");
+      prevBtn.textContent = "← Prev";
+      prevBtn.disabled = currentPage === 1;
+      prevBtn.onclick = () => {
+        currentPage--;
+        renderNewsList(data, filter);
+      };
+  
+      const nextBtn = document.createElement("button");
+      nextBtn.textContent = "Next →";
+      nextBtn.disabled = currentPage === totalPages;
+      nextBtn.onclick = () => {
+        currentPage++;
+        renderNewsList(data, filter);
+      };
+  
+      pagination.appendChild(prevBtn);
+  
+      const pageInfo = document.createElement("span");
+      pageInfo.textContent = `Page ${currentPage} of ${totalPages}`;
+      pageInfo.style.padding = "0 10px";
+      pagination.appendChild(pageInfo);
+  
+      pagination.appendChild(nextBtn);
     }
   }
+  
 
   searchInput.addEventListener("input", () => {
+    currentPage = 1;  // reset to first page on new search
     const filter = searchInput.value.trim().toLowerCase();
     renderNewsList(newsData, filter);
   });
+  
 
   // Optional: Load story from URL hash
   const hash = window.location.hash.replace("#", "");
