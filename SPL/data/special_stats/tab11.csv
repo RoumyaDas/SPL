@@ -27,8 +27,8 @@ pace,1,MI,4,11,36.36
 pace,1,PBKS,4,8,50.0
 pace,1,RCB,5,10,50.0
 pace,1,RR,1,4,25.0
-pace,1,SRH,1,3,33.33
-pace,2,CSK,7,8,87.5
+pace,1,SRH,1,4,25.0
+pace,2,CSK,8,9,88.89
 pace,2,DC,2,5,40.0
 pace,2,GT,2,4,50.0
 pace,2,KKR,5,11,45.45
@@ -45,14 +45,14 @@ spin,1,KKR,1,3,33.33
 spin,1,LSG,3,6,50.0
 spin,1,MI,3,6,50.0
 spin,1,PBKS,7,11,63.64
-spin,1,RCB,1,5,20.0
+spin,1,RCB,1,6,16.67
 spin,1,RR,3,8,37.5
 spin,1,SRH,11,14,78.57
 spin,2,CSK,3,6,50.0
 spin,2,DC,5,9,55.56
 spin,2,GT,6,9,66.67
 spin,2,KKR,0,3,0.0
-spin,2,LSG,2,6,33.33
+spin,2,LSG,3,7,42.86
 spin,2,MI,1,5,20.0
 spin,2,PBKS,5,8,62.5
 spin,2,RCB,1,5,20.0
