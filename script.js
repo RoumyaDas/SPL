@@ -1169,7 +1169,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const newsFiles = [
     "240625_MI_injury.txt","250625_PBKS_GT_thriller.txt","260625_LSG_Stokes_missing.txt","230625_GT_RCB_thriller.txt","250625_recap.txt",
-    "160625_SRH_MI_recap.txt","250625_KKR_trumps_RR",
+    "160625_SRH_MI_recap.txt","250625_KKR_trumps_RR.txt",
     "ddmmyy_placeholder2.txt","ddmmyy_placeholder3.txt","ddmmyy_placeholder4.txt","ddmmyy_placeholder5.txt","ddmmyy_placeholder6.txt",
     "ddmmyy_placeholder7.txt","ddmmyy_placeholder8.txt","ddmmyy_placeholder9.txt"
   ];
