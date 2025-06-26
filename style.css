@@ -375,6 +375,33 @@ body {
   cursor: not-allowed;
 }
 
+.news-pagination-row {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.news-pagination-row button {
+  background-color: #e6f0ff;
+  border: 1px solid #5a8ad6;
+  padding: 6px 12px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.news-pagination-row button:hover:enabled {
+  background-color: #c0d4ff;
+}
+
+.news-pagination-row button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
 
 
 /* Container for Career tab */
