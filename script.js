@@ -1175,31 +1175,34 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const newsData = []; // will store all stories
 
-  // Sort by date in filename
-  const sortedNewsFiles = [...newsFiles].sort((a, b) => {
-    const getSortableDate = (filename) => {
-      const match = filename.match(/^(\d{2})(\d{2})(\d{2})_/); // captures 260625_
-      if (!match) return new Date(0); // fail-safe
-      const [_, dd, mm, yy] = match;
-      return new Date(`20${yy}-${mm}-${dd}`);
-    };
-    return getSortableDate(b) - getSortableDate(a); // Newest first
+  const getDateFromFilename = (filename) => {
+    const match = filename.match(/^(\d{2})(\d{2})(\d{2})_/); // e.g., 260625_
+    if (!match) return new Date(0);
+    const [_, dd, mm, yy] = match;
+    return new Date(`20${yy}-${mm}-${dd}`);
+  };
+  
+  Promise.all(
+    newsFiles.map(filename => {
+      return fetch(`https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/news/${filename}`)
+        .then(res => res.ok ? res.text() : null)
+        .then(text => {
+          if (!text) return null;
+          const lines = text.trim().split("\n");
+          const title = lines[0] || "Untitled";
+          const body = lines.slice(1).join("\n");
+          return { filename, title, body };
+        });
+    })
+  ).then(fetchedNews => {
+    const validNews = fetchedNews.filter(item => item !== null);
+  
+    validNews.sort((a, b) => getDateFromFilename(b.filename) - getDateFromFilename(a.filename)); // LIFO
+  
+    newsData.push(...validNews);
+    renderNewsList(newsData, searchInput.value.trim().toLowerCase());
   });
   
-
-  sortedNewsFiles.forEach(filename => {
-    fetch(`https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/news/${filename}`)
-      .then(res => res.ok ? res.text() : null)
-      .then(text => {
-        if (!text) return;
-        const lines = text.trim().split("\n");
-        const title = lines[0] || "Untitled";
-        const body = lines.slice(1).join("\n");
-
-        newsData.push({ filename, title, body });
-        renderNewsList(newsData, searchInput.value.trim().toLowerCase());
-      });
-  });
 
   function renderNewsList(data, filter) {
     const newsList = document.getElementById("news-list");
