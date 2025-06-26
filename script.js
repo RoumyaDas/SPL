@@ -1164,7 +1164,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const newsFiles = [
     "240625_MI_injury.txt",
     "250625_PBKS_GT_thriller.txt",
-    "260625_LSG_Stokes_missing.txt"
+    "260625_LSG_Stokes_missing.txt",
+    "230625_GT_RCB_thriller.txt"
   ];
 
   // LIFO - latest first
