@@ -1155,3 +1155,47 @@ function renderPagination(totalRows, rowsPerPage, currentPage, onPageChange) {
   return html;
 }
   
+/// NEWS tab stuff
+document.addEventListener("DOMContentLoaded", () => {
+  const newsContainer = document.getElementById("news-container");
+
+  // List of file names (simulate dynamically)
+  const newsFilenames = [
+    "240625_MI_injury.txt",
+    "250625_PBKS_GT_thriller.txt",
+    "260625_LSG_Stokes_missing.txt"
+    // Add more files here as you push
+  ];
+
+  // Show latest first (LIFO)
+  newsFilenames.reverse();
+
+  Promise.all(newsFilenames.map(filename =>
+    fetch(`https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/news/${filename}`)
+      .then(res => res.ok ? res.text() : null)
+      .then(text => ({ filename, text }))
+  )).then(newsItems => {
+    newsContainer.innerHTML = "";
+
+    newsItems.forEach(({ filename, text }) => {
+      if (!text) return;
+      const lines = text.trim().split("\n");
+      const title = lines[0] || "Untitled";
+      const body = lines.slice(1).join("\n");
+
+      const card = document.createElement("div");
+      card.className = "news-card";
+
+      card.innerHTML = `
+        <div class="news-title">${title}</div>
+        <div class="news-body">${body}</div>
+      `;
+
+      card.addEventListener("click", () => {
+        card.classList.toggle("open");
+      });
+
+      newsContainer.appendChild(card);
+    });
+  });
+});
