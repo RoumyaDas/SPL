@@ -9,7 +9,7 @@ Shubman Gill  - WG Jacks,865,566,18,81,36,152.83,48.06,4.84
 KL Rahul  - VR Iyer,840,521,12,72,31,161.23,70.0,5.06
 AM Rahane  - JC Buttler,817,512,18,67,30,159.57,45.39,5.28
 KL Rahul  - P Simran Singh,787,490,23,60,42,160.61,34.22,4.8
-Ishan Kishan  - JC Buttler,659,416,22,78,21,158.41,29.95,4.2
+Ishan Kishan  - JC Buttler,668,425,22,78,21,157.18,30.36,4.29
 B Sai Sudharsan  - RD Gaikwad,608,389,10,50,23,156.3,60.8,5.33
 Abhishek Sharma  - PP Shaw,585,339,14,60,19,172.57,41.79,4.29
 LS Livingstone  - P Simran Singh,581,332,15,61,23,175.0,38.73,3.95
@@ -25,10 +25,10 @@ BM Duckett  - P Simran Singh,514,319,10,44,18,161.13,51.4,5.15
 H Klaasen  - Shashank Singh,494,317,12,29,22,155.84,41.17,6.22
 BA Stokes  - SS Iyer,493,306,9,39,21,161.11,54.78,5.1
 F du Plessis  - Tilak Varma,493,353,15,36,24,139.66,32.87,5.88
+AM Rahane  - Ishan Kishan,488,299,15,44,24,163.21,32.53,4.4
 GJ Maxwell  - YBK Jaiswal,487,284,12,50,18,171.48,40.58,4.18
 RM Patidar  - S Dube,473,324,9,24,22,145.99,52.56,7.04
 F du Plessis  - T Stubbs,468,309,7,34,18,151.46,66.86,5.94
-AM Rahane  - Ishan Kishan,450,285,14,43,20,157.89,32.14,4.52
 Dhruv Jurel  - SS Iyer,436,267,6,30,18,163.3,72.67,5.56
 N Pooran  - RR Rossouw,422,255,8,33,16,165.49,52.75,5.2
 BM Duckett  - KL Rahul,404,234,6,32,15,172.65,67.33,4.98
@@ -36,18 +36,19 @@ Abhishek Sharma  - B Sai Sudharsan,395,265,14,35,17,149.06,28.21,5.1
 H Klaasen  - RG Sharma,388,232,9,31,20,167.24,43.11,4.55
 Q de Kock  - RG Sharma,386,250,12,36,17,154.4,32.17,4.72
 MP Stoinis  - Q de Kock,381,236,12,44,13,161.44,31.75,4.14
+P Simran Singh  - Priyansh Arya,378,216,11,39,19,175.0,34.36,3.72
 BA Stokes  - Shubman Gill,374,253,20,41,10,147.83,18.7,4.96
 LS Livingstone  - VR Iyer,369,244,9,17,22,151.23,41.0,6.26
 GJ Maxwell  - S Dube,363,228,12,24,21,159.21,30.25,5.07
 JP Inglis  - Naman Dhir,357,184,6,23,17,194.02,59.5,4.6
-P Simran Singh  - Priyansh Arya,348,194,10,36,17,179.38,34.8,3.66
 DJ Hooda  - SV Samson,342,248,7,34,9,137.9,48.86,5.77
-AM Rahane  - N Rana,333,232,8,25,13,143.53,41.62,6.11
 N Sindhu  - Urvil Patel,333,197,7,30,14,169.04,47.57,4.48
+AM Rahane  - N Rana,333,232,8,25,13,143.53,41.62,6.11
 SA Yadav  - Urvil Patel,330,202,10,35,7,163.37,33.0,4.81
 GJ Maxwell  - RM Patidar,321,199,11,28,12,161.31,29.18,4.97
 Abishek Porel  - V Kohli,319,179,7,25,13,178.21,45.57,4.71
 T Stubbs  - TM Head,317,203,5,30,8,156.16,63.4,5.34
+LS Livingstone  - Priyansh Arya,316,187,5,21,15,168.98,63.2,5.19
 C Green  - PD Salt,314,207,11,29,14,151.69,28.55,4.81
 AM Rahane  - MK Pandey,313,219,12,24,14,142.92,26.08,5.76
 Naman Dhir  - Nithish Kumar Reddy,307,179,10,20,16,171.51,30.7,4.97
@@ -59,37 +60,38 @@ LG Pretorius  - SV Samson,279,176,4,21,13,158.52,69.75,5.18
 N Sindhu  - SA Yadav,278,169,8,31,8,164.5,34.75,4.33
 JM Sharma  - RK Singh,272,148,5,16,15,183.78,54.4,4.77
 BJ McMullen  - V Kohli,271,170,5,20,14,159.41,54.2,5.0
+BM Duckett  - TM Head,269,157,7,31,9,171.34,38.43,3.92
 AM Rahane  - R Powell,268,163,6,18,14,164.42,44.67,5.09
 T Stubbs  - Tilak Varma,266,188,0,19,12,141.49,inf,6.06
-Sikandar Raza  - Urvil Patel,266,173,7,16,12,153.76,38.0,6.18
 HH Pandya  - N Pooran,266,157,5,17,15,169.43,53.2,4.91
-Dhruv Jurel  - Shubman Gill,262,181,3,24,3,144.75,87.33,6.7
+Sikandar Raza  - Urvil Patel,266,173,7,16,12,153.76,38.0,6.18
 Q de Kock  - Smaran Ravichandran,262,164,5,17,12,159.76,52.4,5.66
 Abishek Porel  - SA Yadav,262,163,8,16,14,160.74,32.75,5.43
+Dhruv Jurel  - Shubman Gill,262,181,3,24,3,144.75,87.33,6.7
 Q de Kock  - Shashank Singh,257,166,9,29,8,154.82,28.56,4.49
-BM Duckett  - TM Head,254,148,6,29,9,171.62,42.33,3.89
 BJ McMullen  - SA Yadav,252,141,5,16,14,178.72,50.4,4.7
 B Sai Sudharsan  - PD Salt,251,158,10,30,6,158.86,25.1,4.39
 SA Yadav  - Sikandar Raza,251,153,2,19,14,164.05,125.5,4.64
 DJ Hooda  - DP Conway,250,165,7,26,5,151.52,35.71,5.32
 RG Sharma  - RR Pant,249,159,6,27,9,156.6,41.5,4.42
 FH Allen  - Shubman Gill,243,144,6,25,10,168.75,40.5,4.11
-GJ Maxwell  - RA Tripathi,237,166,5,21,8,142.77,47.4,5.72
 DP Conway  - Naman Dhir,237,144,4,20,7,164.58,59.25,5.33
-AK Markram  - KL Rahul,224,153,4,16,9,146.41,56.0,6.12
+GJ Maxwell  - RA Tripathi,237,166,5,21,8,142.77,47.4,5.72
 RD Rickelton  - YBK Jaiswal,224,161,5,17,9,139.13,44.8,6.19
-LS Livingstone  - Priyansh Arya,223,122,4,14,12,182.79,55.75,4.69
+AK Markram  - KL Rahul,224,153,4,16,9,146.41,56.0,6.12
 DP Conway  - JP Inglis,222,158,4,18,8,140.51,55.5,6.08
 KA Pollard  - Tilak Varma,218,138,4,20,6,157.97,54.5,5.31
-FH Allen  - SP Narine,211,130,4,17,7,162.31,52.75,5.42
 SS Iyer  - WG Jacks,211,152,8,19,6,138.82,26.38,6.08
+FH Allen  - SP Narine,211,130,4,17,7,162.31,52.75,5.42
 DA Miller  - S Dube,210,144,5,13,13,145.83,42.0,5.54
 Abishek Porel  - N Sindhu,207,98,2,12,14,211.22,103.5,3.77
+AR Patel  - KA Pollard,206,135,2,18,5,152.59,103.0,5.87
 Ishan Kishan  - MK Pandey,199,131,4,18,9,151.91,49.75,4.85
 AR Patel  - TM Head,196,139,6,18,9,141.01,32.67,5.15
-PP Shaw  - RR Rossouw,196,133,6,13,6,147.37,32.67,7.0
 DA Warner  - SA Yadav,196,121,2,21,6,161.98,98.0,4.48
+PP Shaw  - RR Rossouw,196,133,6,13,6,147.37,32.67,7.0
 AR Patel  - F du Plessis,192,147,5,21,1,130.61,38.4,6.68
+T Stubbs  - VR Iyer,190,104,2,11,10,182.69,95.0,4.95
 AK Markram  - VR Iyer,189,112,4,23,4,168.75,47.25,4.15
 DA Miller  - GJ Maxwell,185,130,5,11,6,142.31,37.0,7.65
 RM Patidar  - Tilak Varma,184,121,5,14,9,152.07,36.8,5.26
@@ -97,32 +99,33 @@ PD Salt  - SO Hetmyer,183,117,4,14,9,156.41,45.75,5.09
 Urvil Patel  - V Kohli,179,115,7,10,11,155.65,25.57,5.48
 DJ Hooda  - Nithish Kumar Reddy,171,115,8,8,10,148.7,21.38,6.39
 AR Patel  - T Stubbs,169,113,3,12,7,149.56,56.33,5.95
-Naman Dhir  - Rashid Khan,165,114,3,11,8,144.74,55.0,6.0
 Abishek Porel  - Sikandar Raza,165,99,3,12,9,166.67,55.0,4.71
+Naman Dhir  - Rashid Khan,165,114,3,11,8,144.74,55.0,6.0
 RD Gaikwad  - SO Hetmyer,164,103,2,15,6,159.22,82.0,4.9
 DP Conway  - Nithish Kumar Reddy,163,96,4,8,11,169.79,40.75,5.05
 C Green  - RD Gaikwad,163,108,5,12,8,150.93,32.6,5.4
 Azmatullah Omarzai  - S Dube,161,87,2,11,8,185.06,80.5,4.58
 H Klaasen  - Smaran Ravichandran,158,105,5,10,5,150.48,31.6,7.0
 C Green  - RK Singh,156,83,3,14,7,187.95,52.0,3.95
-JC Buttler  - N Rana,156,95,4,13,5,164.21,39.0,5.28
 Naman Dhir  - R Parag,156,105,2,12,4,148.57,78.0,6.56
-RG Sharma  - Smaran Ravichandran,153,97,5,16,4,157.73,30.6,4.85
+JC Buttler  - N Rana,156,95,4,13,5,164.21,39.0,5.28
+Ishan Kishan  - JM Bairstow,155,101,3,20,4,153.47,51.67,4.21
 B Sai Sudharsan  - C Green,153,87,3,17,5,175.86,51.0,3.95
+RG Sharma  - Smaran Ravichandran,153,97,5,16,4,157.73,30.6,4.85
 Ishan Kishan  - SM Curran,152,106,3,17,4,143.4,50.67,5.05
 Anmolpreet Singh  - F du Plessis,152,111,3,9,4,136.94,50.67,8.54
-T Stubbs  - VR Iyer,150,84,2,8,8,178.57,75.0,5.25
+Q de Kock  - V Suryavanshi,148,94,3,16,5,157.45,49.33,4.48
 A Badoni  - PD Salt,145,130,8,14,2,111.54,18.12,8.12
-D Brevis  - Q de Kock,144,96,3,12,8,150.0,48.0,4.8
 AD Russell  - Abishek Porel,144,76,5,8,11,189.47,28.8,4.0
+D Brevis  - Q de Kock,144,96,3,12,8,150.0,48.0,4.8
 Ashutosh Sharma  - B Sai Sudharsan,143,82,6,10,5,174.39,23.83,5.47
 SP Narine  - SS Iyer,140,81,5,3,10,172.84,28.0,6.23
 KA Pollard  - MS Dhoni,140,82,2,9,8,170.73,70.0,4.82
 MP Stoinis  - RR Pant,139,94,3,8,7,147.87,46.33,6.27
 DA Warner  - V Kohli,136,84,6,16,5,161.9,22.67,4.0
 Abhishek Sharma  - RK Singh,135,108,1,11,5,125.0,135.0,6.75
-JP Inglis  - SV Samson,134,76,3,15,4,176.32,44.67,4.0
 FH Allen  - PP Shaw,134,86,5,10,7,155.81,26.8,5.06
+JP Inglis  - SV Samson,134,76,3,15,4,176.32,44.67,4.0
 SS Iyer  - Sameer Rizvi,131,76,2,13,6,172.37,65.5,4.0
 D Padikkal  - Ishan Kishan,130,96,2,7,7,135.42,65.0,6.86
 JM Sharma  - PD Salt,130,71,1,4,10,183.1,130.0,5.07
@@ -133,13 +136,12 @@ MP Stoinis  - Smaran Ravichandran,126,95,4,9,3,132.63,31.5,7.92
 Ashutosh Sharma  - RK Singh,124,72,3,6,6,172.22,41.33,6.0
 H Klaasen  - MP Stoinis,121,79,4,12,2,153.16,30.25,5.64
 Abdul Samad  - N Wadhera,120,72,2,9,6,166.67,60.0,4.8
-Shahbaz Ahmed  - Shubman Gill,119,82,3,2,9,145.12,39.67,7.45
 N Pooran  - RK Singh,119,73,2,10,7,163.01,59.5,4.29
 AK Markram  - P Simran Singh,119,83,3,12,2,143.37,39.67,5.93
+Shahbaz Ahmed  - Shubman Gill,119,82,3,2,9,145.12,39.67,7.45
 J Fraser-McGurk  - RK Singh,117,66,2,5,7,177.27,58.5,5.5
 MP Stoinis  - Washington Sundar,115,82,4,8,4,140.24,28.75,6.83
 B Sai Sudharsan  - RK Singh,115,82,6,6,5,140.24,19.17,7.45
-AR Patel  - KA Pollard,114,67,1,13,3,170.15,114.0,4.19
 B Sai Sudharsan  - J Fraser-McGurk,112,75,3,11,3,149.33,37.33,5.36
 AD Russell  - SA Yadav,111,64,4,9,5,173.44,27.75,4.57
 BM Duckett  - MK Lomror,111,62,1,8,4,179.03,111.0,5.17
@@ -157,33 +159,34 @@ Abhishek Sharma  - HH Pandya,102,73,7,12,2,139.73,14.57,5.21
 RM Patidar  - YBK Jaiswal,101,50,2,14,2,202.0,50.5,3.12
 Bhanu Pania  - RK Singh,100,70,1,5,4,142.86,100.0,7.78
 DA Miller  - JM Sharma,99,57,2,8,6,173.68,49.5,4.07
+AK Markram  - JG Bethell,98,86,3,10,2,113.95,32.67,7.17
 AK Markram  - LS Livingstone,98,57,2,9,6,171.93,49.0,3.8
 B Sai Sudharsan  - HH Pandya,98,65,4,6,4,150.77,24.5,6.5
-AK Markram  - JG Bethell,98,86,3,10,2,113.95,32.67,7.17
 RG Sharma  - Washington Sundar,97,56,0,10,3,173.21,inf,4.31
 Atharva Taide  - GJ Maxwell,97,75,2,7,5,129.33,48.5,6.25
 BM Duckett  - Priyansh Arya,97,69,2,6,3,140.58,48.5,7.67
-Q de Kock  - V Suryavanshi,96,59,2,10,3,162.71,48.0,4.54
-SP Narine  - YBK Jaiswal,95,67,2,9,4,141.79,47.5,5.15
 AK Markram  - MK Lomror,95,60,2,3,7,158.33,47.5,6.0
+SP Narine  - YBK Jaiswal,95,67,2,9,4,141.79,47.5,5.15
 Nithish Kumar Reddy  - Rashid Khan,93,63,3,6,4,147.62,31.0,6.3
 BM Duckett  - LS Livingstone,93,62,2,8,3,150.0,46.5,5.64
 Ashutosh Sharma  - J Fraser-McGurk,93,67,1,8,3,138.81,93.0,6.09
+BM Duckett  - Tilak Varma,92,56,4,4,6,164.29,23.0,5.6
 KA Pollard  - TM Head,92,59,3,7,3,155.93,30.67,5.9
 Abhishek Sharma  - R Parag,91,67,2,7,4,135.82,45.5,6.09
 H Klaasen  - Washington Sundar,91,61,5,10,3,149.18,18.2,4.69
-B Sai Sudharsan  - N Pooran,88,59,3,10,1,149.15,29.33,5.36
+A Raghuvanshi  - JM Bairstow,90,63,4,9,6,142.86,22.5,4.2
 N Pooran  - R Parag,88,76,4,6,4,115.79,22.0,7.6
+B Sai Sudharsan  - N Pooran,88,59,3,10,1,149.15,29.33,5.36
 PWH de Silva  - Urvil Patel,87,60,0,5,4,145.0,inf,6.67
-AM Rahane  - D Padikkal,85,57,2,10,2,149.12,42.5,4.75
+SP Narine  - WG Jacks,85,54,3,8,3,157.41,28.33,4.91
 J Fraser-McGurk  - RD Gaikwad,85,52,3,10,2,163.46,28.33,4.33
 B Sai Sudharsan  - Bhanu Pania,85,73,2,8,2,116.44,42.5,7.3
-SP Narine  - WG Jacks,85,54,3,8,3,157.41,28.33,4.91
+AM Rahane  - D Padikkal,85,57,2,10,2,149.12,42.5,4.75
 DJ Hooda  - Naman Dhir,82,51,3,7,3,160.78,27.33,5.1
 KD Karthik  - Tilak Varma,80,62,2,10,0,129.03,40.0,6.2
-RM Patidar  - TM Head,79,61,5,4,4,129.51,15.8,7.62
-R Powell  - SM Curran,79,53,2,7,5,149.06,39.5,4.42
 F du Plessis  - RM Patidar,79,53,4,6,3,149.06,19.75,5.89
+R Powell  - SM Curran,79,53,2,7,5,149.06,39.5,4.42
+RM Patidar  - TM Head,79,61,5,4,4,129.51,15.8,7.62
 HV Patel  - Washington Sundar,78,68,5,3,3,114.71,15.6,11.33
 A Badoni  - Ramandeep Singh,77,56,2,6,3,137.5,38.5,6.22
 Harpreet Brar  - RD Chahar,73,60,2,7,3,121.67,36.5,6.0
