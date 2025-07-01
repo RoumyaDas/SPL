@@ -1173,7 +1173,8 @@ document.addEventListener("DOMContentLoaded", () => {
     '190625_RR_ownership.txt','240625_MI_injury.txt','160625_GT_caps.txt','260625_Big_Show_Maxi.txt','260625_Conway_vanish.txt',
     '260625_LSG_RCB.txt','260625_CSK_SRH.txt','260625_RR_caps.txt','270625_LSG_decline.txt','270625_MI_PBKS.txt',
     '270625_KKR_GT.txt','280625_RR_RCB.txt','280625_LSG_DC.txt','290625_KKR_CSK.txt','290625_PBKS_SRH.txt','290625_RR_caps.txt',
-    '290625_MI_caps.txt','300625_RR_DC.txt','300625_MI_GT.txt']
+    '290625_MI_caps.txt','300625_RR_DC.txt','300625_MI_GT.txt','010725_SRH_CSK.txt','010725_RCB_LSG.txt','010725_TcRp.txt',
+    '020725_RR_caps.txt']
     ;
 
   const newsData = []; // will store all stories
