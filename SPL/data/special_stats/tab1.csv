@@ -355,7 +355,7 @@ RA Jadeja,Middle,18,14,7,1,18.0,128.57,D.C.
 M Prasidh Krishna,Death,18,19,7,2,9.0,94.74,D.C.
 Jagjit Singh,Middle,18,6,2,0,,300.0,C.S.K.
 YS Chahal,Death,18,22,15,4,4.5,81.82,R.C.B.
-MR Marsh,PP,18,17,8,1,18.0,105.88,D.C.
+MR Marsh,PP,18,17,8,1,18.0,105.88,
 T Natarajan,Death,17,10,5,3,5.67,170.0,C.S.K.
 LH Ferguson,Death,17,29,24,3,5.67,58.62,M.I.
 JC Archer,Death,17,22,17,5,3.4,77.27,L.S.G.
@@ -366,7 +366,7 @@ DS Rathi,Death,16,10,4,2,8.0,160.0,K.K.R.
 MP Yadav,Death,16,15,5,1,16.0,106.67,C.S.K.
 T Natarajan,Middle,16,9,2,1,16.0,177.78,C.S.K.
 Ayush Mhatre,PP,16,8,3,0,,200.0,
-MR Marsh,Death,16,16,7,1,16.0,100.0,D.C.
+MR Marsh,Death,16,16,7,1,16.0,100.0,
 Rasikh Salam,Death,16,16,9,2,8.0,100.0,G.T.
 M Prasidh Krishna,Middle,16,9,2,0,,177.78,D.C.
 GD Phillips,PP,16,14,7,0,,114.29,G.T.
@@ -430,14 +430,14 @@ MA Agarwal,Death,8,7,2,1,8.0,114.29,C.S.K.
 JO Holder,Death,8,5,1,1,8.0,160.0,S.R.H.
 Sanvir Singh,Middle,7,7,3,0,,100.0,S.R.H.
 A Badoni,Death,7,7,3,1,7.0,100.0,S.R.H.
-Salman Nizar,Middle,7,11,4,1,7.0,63.64,
+Salman Nizar,Middle,7,11,4,1,7.0,63.64,P.B.K.S.
 R Ravindra,PP,7,7,6,1,7.0,100.0,R.R.
 K Rabada,Death,7,14,8,0,,50.0,D.C.
 Atharva Ankolekar,Death,7,4,2,1,7.0,175.0,M.I.
 Mukesh Kumar,Death,7,9,7,4,1.75,77.78,G.T.
 NT Ellis,Middle,7,8,3,0,,87.5,L.S.G.
 PN Mankad,PP,7,9,4,1,7.0,77.78,S.R.H.
-MR Marsh,Middle,7,14,7,2,3.5,50.0,D.C.
+MR Marsh,Middle,7,14,7,2,3.5,50.0,
 SH Johnson,Middle,7,6,3,0,,116.67,S.R.H.
 MADI Hemantha,Death,6,1,0,0,,600.0,
 Sumit Kumar,Death,6,5,2,1,6.0,120.0,D.C.
@@ -455,7 +455,7 @@ Anmolpreet Singh,PP,6,5,3,1,6.0,120.0,C.S.K.
 HR Shokeen,Middle,5,8,3,0,,62.5,R.R.
 Ayush Mhatre,Middle,5,7,2,1,5.0,71.43,
 RK Bhui,PP,5,3,1,0,,166.67,C.S.K.
-Salman Nizar,Death,5,7,2,0,,71.43,
+Salman Nizar,Death,5,7,2,0,,71.43,P.B.K.S.
 D Brevis,Death,5,7,2,2,2.5,71.43,P.B.K.S.
 Yash Thakur,Death,5,13,8,2,2.5,38.46,P.B.K.S.
 Suryansh Shedge,Middle,5,4,2,1,5.0,125.0,C.S.K.

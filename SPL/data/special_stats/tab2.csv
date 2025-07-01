@@ -152,7 +152,7 @@ M Markande,Death,161,108,4,32,8.94,27.0,P.B.K.S.
 HR Shokeen,Middle,80,60,4,21,8.0,15.0,R.R.
 Mohammad Nabi,PP,222,144,4,41,9.25,36.0,G.T.
 R Shepherd,Middle,69,54,4,13,7.67,13.5,G.T.
-MR Marsh,Middle,128,84,4,22,9.14,21.0,D.C.
+MR Marsh,Middle,128,84,4,22,9.14,21.0,
 KK Ahmed,Middle,177,108,4,35,9.83,27.0,G.T.
 Mohammad Nabi,Middle,99,90,4,22,6.6,22.5,G.T.
 M Siddharth,Middle,216,150,4,45,8.64,37.5,C.S.K.
@@ -243,9 +243,9 @@ Shakib Al Hasan,Middle,67,36,2,10,11.17,18.0,P.B.K.S.
 SN Thakur,Death,34,18,2,4,11.33,9.0,D.C.
 Yudhvir Singh,PP,42,36,2,21,7.0,18.0,G.T.
 C Sakariya,Death,70,50,2,15,8.4,25.0,S.R.H.
-MR Marsh,PP,86,48,2,15,10.75,24.0,D.C.
+MR Marsh,PP,86,48,2,15,10.75,24.0,
 JO Holder,Death,84,42,2,9,12.0,21.0,S.R.H.
-MR Marsh,Death,125,47,2,3,15.96,23.5,D.C.
+MR Marsh,Death,125,47,2,3,15.96,23.5,
 TU Deshpande,Middle,97,60,2,22,9.7,30.0,R.R.
 R Shepherd,PP,19,12,2,7,9.5,6.0,G.T.
 Tanush Kotian,PP,151,84,2,22,10.79,42.0,S.R.H.
@@ -435,8 +435,8 @@ KA Pollard,PP,52,24,0,5,13.0,inf,C.S.K.
 LH Ferguson,Death,47,21,0,3,13.43,inf,M.I.
 M Shahrukh Khan,Middle,21,12,0,3,10.5,inf,R.C.B.
 MADI Hemantha,PP,56,30,0,4,11.2,inf,
-MJ Henry,Middle,16,12,0,6,8.0,inf,R.R.
-MJ Henry,PP,37,12,0,0,18.5,inf,R.R.
+MJ Henry,Middle,16,12,0,6,8.0,inf,
+MJ Henry,PP,37,12,0,0,18.5,inf,
 MJ Santner,Death,64,48,0,16,8.0,inf,
 MK Lomror,PP,13,6,0,2,13.0,inf,S.R.H.
 MM Ali,Death,20,12,0,3,10.0,inf,K.K.R.
