@@ -1,29 +1,29 @@
 striker,batting_team,num_innings,50+_scores,runs,strike_rate,100+_scores
 N Sindhu,DC,8,4,386,172.32,0
+FH Allen,LSG,8,4,383,165.8,1
 B Sai Sudharsan,RCB,8,4,376,160.0,0
-FH Allen,LSG,7,3,326,171.58,1
+SV Samson,GT,8,3,342,159.07,1
 RD Rickelton,RR,8,3,316,171.74,0
 TM Head,CSK,8,3,302,161.5,0
 JM Bairstow,KKR,8,3,284,142.0,0
 PD Salt,RCB,8,3,271,179.47,0
 GJ Maxwell,RR,8,3,269,157.31,0
+Shubman Gill,LSG,8,3,263,177.7,0
 AM Rahane,KKR,8,3,263,152.02,0
-Shubman Gill,LSG,7,3,216,171.43,0
 Aniket Verma,RR,8,2,327,196.99,0
 Priyansh Arya,SRH,8,2,327,173.94,1
 SA Yadav,DC,8,2,292,180.25,0
-SV Samson,GT,7,2,284,156.91,1
+JP Inglis,GT,8,2,288,165.52,0
 Tilak Varma,CSK,8,2,278,166.47,1
-JP Inglis,GT,7,2,271,166.26,0
 P Simran Singh,SRH,8,2,258,159.26,0
 YBK Jaiswal,RR,8,2,251,197.64,0
 KL Rahul,SRH,8,2,238,150.63,0
 V Kohli,DC,7,2,237,172.99,1
 Q de Kock,PBKS,8,2,237,130.94,0
 V Suryavanshi,PBKS,8,2,236,139.64,0
+Naman Dhir,GT,8,2,233,166.43,0
 BM Duckett,CSK,8,2,232,164.54,0
 VR Iyer,SRH,7,2,227,189.17,0
-Naman Dhir,GT,7,2,210,169.35,0
 RM Patidar,RR,7,2,209,133.97,0
 N Pooran,MI,8,2,193,153.17,0
 Ishan Kishan,KKR,6,2,173,150.43,0
@@ -33,19 +33,21 @@ PP Shaw,MI,8,1,240,151.9,0
 JC Buttler,KKR,8,1,237,171.74,0
 LS Livingstone,SRH,8,1,225,145.16,0
 Ashutosh Sharma,RCB,8,1,222,185.0,0
-SP Narine,LSG,7,1,207,161.72,0
+SP Narine,LSG,8,1,212,157.04,0
 BJ McMullen,DC,7,1,194,160.33,0
 RD Gaikwad,RCB,8,1,188,155.37,0
+SS Iyer,LSG,8,1,186,156.3,0
 H Klaasen,PBKS,8,1,186,152.46,0
 MP Stoinis,PBKS,7,1,181,149.59,0
 RR Rossouw,MI,4,1,159,159.0,0
+R Parag,GT,7,1,157,189.16,0
 Urvil Patel,DC,6,1,146,162.22,0
-R Parag,GT,6,1,135,187.5,0
 Abishek Porel,DC,7,1,130,191.18,0
 KA Pollard,CSK,4,1,126,135.48,0
 F du Plessis,CSK,3,1,112,131.76,0
 Washington Sundar,PBKS,6,1,101,150.75,0
+Dhruv Jurel,LSG,3,1,100,166.67,0
 Arshad Khan,KKR,6,1,99,152.31,0
-Dhruv Jurel,LSG,2,1,90,169.81,0
 WL Madsen,MI,2,1,79,154.9,0
 Rahul Singh,MI,2,1,67,186.11,0
+DP Conway,GT,1,1,52,148.57,0
