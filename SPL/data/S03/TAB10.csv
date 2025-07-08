@@ -1,23 +1,26 @@
 bowler,bowling_team,num_innings,dots,balls,dot_%
 Arshdeep Singh,LSG,10,72,240,30.0
-JR Hazlewood,RR,7,64,168,38.1
+JR Hazlewood,RR,8,70,192,36.46
+M Pathirana,RCB,9,61,209,29.19
 Washington Sundar,PBKS,10,59,204,28.92
 SP Narine,LSG,10,57,240,23.75
 B Kumar,KKR,8,56,183,30.6
-M Pathirana,RCB,8,56,191,29.32
 Shakib Al Hasan,PBKS,6,55,130,42.31
+Ashutosh Sharma,RCB,9,53,144,36.81
 GJ Maxwell,RR,9,53,204,25.98
+Suryansh Shedge,CSK,9,52,191,27.23
+R Shepherd,GT,7,51,168,30.36
+T Natarajan,CSK,5,49,120,40.83
+MP Yadav,CSK,6,49,123,39.84
+Fazalhaq Farooqi,CSK,8,49,180,27.22
 MA Starc,KKR,8,49,186,26.34
-Ashutosh Sharma,RCB,8,47,120,39.17
-Suryansh Shedge,CSK,8,45,167,26.95
-AR Patel,CSK,9,44,186,23.66
+Rasikh Salam,GT,7,47,166,28.31
+Yudhvir Singh,GT,5,45,108,41.67
+AR Patel,CSK,10,45,210,21.43
 TA Boult,MI,6,43,134,32.09
 A Zampa,SRH,6,43,144,29.86
 RA Jadeja,DC,9,43,186,23.12
-MP Yadav,CSK,5,42,99,42.42
 DAJ Bracewell,MI,5,42,120,35.0
-R Shepherd,GT,6,42,144,29.17
-Fazalhaq Farooqi,CSK,7,42,156,26.92
 Harpreet Brar,RCB,8,41,180,22.78
 M Prasidh Krishna,DC,8,41,186,22.04
 Ravi Teja,LSG,5,40,90,44.44
@@ -25,21 +28,21 @@ Arshad Khan,KKR,6,40,144,27.78
 R Sai Kishore,GT,7,40,149,26.85
 Shashank Singh,PBKS,8,39,84,46.43
 CV Varun,PBKS,7,39,135,28.89
-Rasikh Salam,GT,6,39,142,27.46
 M Theekshana,MI,5,38,117,32.48
+C Green,RCB,8,38,138,27.54
 HH Pandya,MI,7,38,150,25.33
 Mayank Dagar,RR,7,38,162,23.46
-T Natarajan,CSK,4,36,96,37.5
 Ravi Bishnoi,PBKS,6,36,120,30.0
 KH Pandya,SRH,6,36,132,27.27
 AK Markram,SRH,6,36,138,26.09
 Kuldeep Yadav,SRH,6,36,138,26.09
 M Siddharth,CSK,4,35,96,36.46
 JJ Bumrah,MI,6,35,129,27.13
-C Green,RCB,7,34,114,29.82
-Yudhvir Singh,GT,4,33,84,39.29
+M Jansen,RR,5,34,120,28.33
 Rashid Khan,GT,4,33,90,36.67
 R Ashwin,KKR,6,33,144,22.92
+Sandeep Sharma,RR,7,32,143,22.38
+Mukesh Kumar,GT,3,31,72,43.06
 WG Jacks,LSG,5,31,108,28.7
 MM Ali,KKR,5,31,120,25.83
 SH Johnson,SRH,4,30,93,32.26
@@ -51,21 +54,19 @@ DS Rathi,KKR,4,28,90,31.11
 VG Arora,KKR,3,27,72,37.5
 YS Chahal,RCB,4,27,90,30.0
 Harshit Rana,CSK,4,27,90,30.0
-M Jansen,RR,4,27,96,28.12
 M Markande,PBKS,4,26,72,36.11
-Sandeep Sharma,RR,6,26,119,21.85
+RS Hangargekar,RCB,3,25,72,34.72
 BA Stokes,LSG,3,24,72,33.33
 Mohammed Shami,PBKS,3,24,72,33.33
 Suyash Sharma,MI,4,24,84,28.57
 HR Shokeen,RR,3,23,72,31.94
+CJ Jordan,GT,4,23,81,28.4
 HV Patel,PBKS,5,23,84,27.38
 PJ Cummins,PBKS,4,23,90,25.56
 A Mishra,CSK,4,23,96,23.96
-Mukesh Kumar,GT,2,21,48,43.75
 BJ McMullen,DC,7,21,90,23.33
 AD Russell,DC,10,21,158,13.29
 AJ Tye,DC,2,20,48,41.67
-CJ Jordan,GT,3,20,57,35.09
 C Sakariya,SRH,4,20,96,20.83
 Mohammed Siraj,RCB,2,19,36,52.78
 MG Bracewell,DC,3,19,66,28.79
@@ -74,7 +75,6 @@ AJ Turner,MI,4,19,78,24.36
 K Kartikeya,GT,3,18,54,33.33
 Atharva Ankolekar,MI,3,18,71,25.35
 Abhishek Sharma,MI,5,18,90,20.0
-RS Hangargekar,RCB,2,17,48,35.42
 Yash Thakur,PBKS,4,17,81,20.99
 JC Archer,LSG,4,17,84,20.24
 Akash Vasisht,MI,2,16,36,44.44
@@ -83,6 +83,7 @@ Mustafizur Rahman,DC,4,16,90,17.78
 Mujeeb Ur Rahman,CSK,2,15,36,41.67
 Sikandar Raza,DC,3,15,72,20.83
 Noor Ahmad,RCB,2,14,42,33.33
+OEG Baartman,RCB,2,14,48,29.17
 SZ Mulani,MI,2,14,48,29.17
 N Rana,KKR,3,14,66,21.21
 Naveen-ul-Haq,SRH,2,13,45,28.89
@@ -107,6 +108,7 @@ SM Curran,KKR,1,8,24,33.33
 Shahbaz Ahmed,LSG,1,8,24,33.33
 Mohsin Khan,RCB,2,8,42,19.05
 Ramandeep Singh,LSG,5,8,60,13.33
+TU Deshpande,RR,1,7,18,38.89
 Tanush Kotian,SRH,1,7,18,38.89
 V Kaverappa,SRH,1,7,24,29.17
 G Coetzee,KKR,1,7,24,29.17
@@ -114,10 +116,10 @@ R Tewatia,RR,3,7,36,19.44
 I Sharma,GT,2,7,42,16.67
 KA Maharaj,RR,1,6,18,33.33
 Umran Malik,MI,1,6,18,33.33
-OEG Baartman,RCB,1,6,24,25.0
 S Gopal,DC,1,6,24,25.0
 Mohit Avasthi,MI,1,6,24,25.0
 MJ Henry,RR,1,6,24,25.0
+Ashwani Kumar,RR,2,6,30,20.0
 PHKD Mendis,KKR,1,5,12,41.67
 Yash Dayal,LSG,1,5,18,27.78
 DL Chahar,PBKS,1,5,24,20.83
@@ -129,13 +131,12 @@ DS Airee,RCB,1,4,24,16.67
 A Kamboj,RR,1,4,24,16.67
 M Shahrukh Khan,RCB,1,3,12,25.0
 N Sindhu,DC,1,3,18,16.67
+S Dube,RR,3,3,18,16.67
 Azmatullah Omarzai,RR,1,3,18,16.67
 K Rabada,DC,1,3,24,12.5
-Ashwani Kumar,RR,1,2,6,33.33
 Sumit Kumar,DC,1,2,6,33.33
 MK Lomror,SRH,1,2,6,33.33
 GD Phillips,GT,1,2,12,16.67
-S Dube,RR,2,2,12,16.67
 VR Iyer,SRH,1,2,12,16.67
 PWH de Silva,DC,1,2,24,8.33
 Nithish Kumar Reddy,GT,1,1,12,8.33
