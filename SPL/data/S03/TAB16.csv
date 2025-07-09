@@ -1,22 +1,22 @@
 striker,batting_team,num_innings,50+_scores,runs,strike_rate,100+_scores
-N Sindhu,DC,10,5,464,166.91,0
+N Sindhu,DC,11,5,466,166.43,0
+V Kohli,DC,10,5,455,164.26,1
 FH Allen,LSG,10,4,451,162.23,1
 B Sai Sudharsan,RCB,10,4,415,160.85,0
 SV Samson,GT,10,4,412,153.16,1
 TM Head,CSK,11,4,411,155.68,0
 V Suryavanshi,PBKS,11,4,389,147.35,0
-V Kohli,DC,9,4,387,165.38,1
 Priyansh Arya,SRH,11,3,448,170.99,1
 GJ Maxwell,RR,10,3,342,158.33,0
 Shubman Gill,LSG,10,3,338,171.57,0
 YBK Jaiswal,RR,10,3,331,192.44,0
 KL Rahul,SRH,11,3,325,141.92,0
 RD Rickelton,RR,10,3,318,167.37,0
-AM Rahane,KKR,9,3,299,156.54,0
+AM Rahane,KKR,10,3,305,156.41,0
 PD Salt,RCB,10,3,291,172.19,0
-JM Bairstow,KKR,9,3,285,141.09,0
+JM Bairstow,KKR,10,3,290,140.78,0
 KA Pollard,CSK,7,3,269,157.31,0
-SA Yadav,DC,10,2,377,180.38,0
+SA Yadav,DC,11,2,394,175.11,0
 JP Inglis,GT,10,2,366,160.53,0
 Abhishek Sharma,MI,10,2,349,163.08,1
 Aniket Verma,RR,10,2,343,194.89,0
@@ -26,16 +26,17 @@ LS Livingstone,SRH,11,2,324,144.64,0
 Q de Kock,PBKS,10,2,306,132.47,0
 Naman Dhir,GT,10,2,297,182.21,0
 BM Duckett,CSK,11,2,292,161.33,0
-BJ McMullen,DC,9,2,275,183.33,0
+BJ McMullen,DC,10,2,281,180.13,0
 VR Iyer,SRH,9,2,267,186.71,0
 R Parag,GT,9,2,230,181.1,0
-Ishan Kishan,KKR,7,2,211,141.61,0
+Ishan Kishan,KKR,8,2,212,138.56,0
 RM Patidar,RR,7,2,209,133.97,0
 N Pooran,MI,10,2,204,147.83,0
+Abishek Porel,DC,9,2,197,179.09,0
 WL Madsen,MI,4,2,165,166.67,0
 LG Pretorius,GT,6,2,163,146.85,0
 PP Shaw,MI,10,1,283,152.15,0
-JC Buttler,KKR,9,1,271,179.47,0
+JC Buttler,KKR,10,1,271,178.29,0
 SS Iyer,LSG,10,1,268,154.02,0
 SP Narine,LSG,10,1,241,157.52,0
 Ashutosh Sharma,RCB,10,1,236,169.78,0
@@ -45,12 +46,12 @@ MP Stoinis,PBKS,7,1,181,149.59,0
 RR Rossouw,MI,4,1,159,159.0,0
 Urvil Patel,DC,6,1,146,162.22,0
 Washington Sundar,PBKS,8,1,146,158.7,0
-Abishek Porel,DC,8,1,145,193.33,0
 Dhruv Jurel,LSG,5,1,130,154.76,0
 N Wadhera,RR,7,1,125,166.67,0
 F du Plessis,CSK,3,1,112,131.76,0
 C Green,RCB,4,1,109,201.85,0
 Arshad Khan,KKR,6,1,99,152.31,0
+PHKD Mendis,KKR,2,1,98,178.18,0
 Rahul Singh,MI,3,1,93,169.09,0
 HC Brook,PBKS,3,1,78,173.33,0
 DP Conway,GT,3,1,66,143.48,0
