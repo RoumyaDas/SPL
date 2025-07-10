@@ -1160,6 +1160,98 @@ function renderPagination(totalRows, rowsPerPage, currentPage, onPageChange) {
   return html;
 }
   
+/// Records tab thing
+
+const recordsUrl = "https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/records.csv";
+
+function renderRecordsTable(data, searchTerm = "", sortConfig = {}, page = 1) {
+  const container = document.getElementById("records-table-container");
+  const paginationDiv = document.getElementById("records-pagination");
+  container.innerHTML = "";
+  paginationDiv.innerHTML = "";
+
+  let rows = data.rows;
+  const headers = data.headers;
+
+  if (searchTerm) {
+    rows = rows.filter(row =>
+      Object.values(row).some(val => val.toLowerCase().includes(searchTerm.toLowerCase()))
+    );
+  }
+
+  const rowsPerPage = 20;
+  const start = (page - 1) * rowsPerPage;
+  const currentRows = rows.slice(start, start + rowsPerPage);
+
+  const table = document.createElement("table");
+  const thead = document.createElement("thead");
+  const tr = document.createElement("tr");
+
+  headers.forEach((h, idx) => {
+    const th = document.createElement("th");
+    th.textContent = h;
+
+    if (sortConfig.column === idx) {
+      th.textContent += sortConfig.order === "asc" ? " ▲" : " ▼";
+    }
+
+    th.addEventListener("click", () => {
+      const currentOrder = (sortConfig.column === idx && sortConfig.order === "asc") ? "desc" : "asc";
+      const sortedRows = [...data.rows].sort((a, b) => {
+        const aVal = a[h], bVal = b[h];
+        const isNumeric = !isNaN(parseFloat(aVal)) && !isNaN(parseFloat(bVal));
+        return isNumeric
+          ? (currentOrder === "asc" ? aVal - bVal : bVal - aVal)
+          : (currentOrder === "asc" ? aVal.localeCompare(bVal) : bVal.localeCompare(aVal));
+      });
+
+      renderRecordsTable({ headers, rows: sortedRows }, document.getElementById("recordsSearch").value, {
+        column: idx,
+        order: currentOrder
+      }, 1);
+    });
+
+    tr.appendChild(th);
+  });
+  thead.appendChild(tr);
+  table.appendChild(thead);
+
+  const tbody = document.createElement("tbody");
+  currentRows.forEach(row => {
+    const tr = document.createElement("tr");
+    headers.forEach(h => {
+      const td = document.createElement("td");
+      td.textContent = row[h];
+      tr.appendChild(td);
+    });
+    tbody.appendChild(tr);
+  });
+  table.appendChild(tbody);
+  container.appendChild(table);
+
+  paginationDiv.innerHTML = renderPagination(rows.length, rowsPerPage, page, () => {});
+  paginationDiv.querySelectorAll("button").forEach(btn => {
+    btn.addEventListener("click", () => {
+      renderRecordsTable(data, document.getElementById("recordsSearch").value, sortConfig, parseInt(btn.dataset.page));
+    });
+  });
+}
+
+fetch(recordsUrl)
+  .then(res => res.text())
+  .then(text => {
+    const parsed = parseCSV(text);
+    renderRecordsTable(parsed);
+
+    document.getElementById("recordsSearch").addEventListener("input", () => {
+      renderRecordsTable(parsed, document.getElementById("recordsSearch").value);
+    });
+  });
+
+
+
+
+
 /// NEWS tab stuff
 document.addEventListener("DOMContentLoaded", () => {
   const newsList = document.getElementById("news-list");

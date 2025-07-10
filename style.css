@@ -282,6 +282,34 @@ body {
   box-shadow: 0 0 6px rgba(0, 91, 181, 0.5);
 }
 
+
+
+/* Records tab */
+#records {
+  background-color: #ffe7ce; /* a distinct pastel tone */
+  padding: 20px;
+  min-height: 600px;
+  border-radius: 8px;
+}
+
+#recordsSearch {
+  padding: 8px 14px;
+  width: 250px;
+  font-size: 14px;
+  margin-bottom: 14px;
+  border: 1px solid #a3b1d1;
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#recordsSearch:focus {
+  border-color: #d18400;
+  box-shadow: 0 0 6px rgba(209, 132, 0, 0.5);
+}
+
+
+
 /* NEWS tab */
 .news-flex {
   display: flex;

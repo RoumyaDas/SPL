@@ -41,6 +41,7 @@
     <!-- Main Tabs -->
     <div class="tabs">
       <button class="main-tab" data-tab="about">About</button> <!-- now consistent -->
+      <button class="main-tab" data-tab="records">Records</button> <!-- Records tab -->
       <button class="main-tab" data-tab="seasons">Seasons</button>
       <button class="main-tab" data-tab="schedule">Schedule</button> <!-- Schedule tab -->
       <button class="main-tab" data-tab="career">Career</button>
@@ -67,6 +68,16 @@
       <div id="news-pagination" class="news-pagination-row"></div>
     </div>
     
+    <!-- Records tab -->
+    <div id="records" class="tab-content">
+      <h2>Records</h2>
+    
+      <label for="recordsSearch">Search:</label>
+      <input type="text" id="recordsSearch" placeholder="Type to search..." />
+    
+      <div id="records-table-container" class="csv-table-output" style="margin-top: 10px;"></div>
+      <div id="records-pagination" class="pagination-buttons"></div>
+    </div>
     
     
 
