@@ -308,6 +308,40 @@ body {
   box-shadow: 0 0 6px rgba(209, 132, 0, 0.5);
 }
 
+#records table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border: 1px solid #aaa;
+  margin-top: 12px;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.06);
+}
+
+#records th, #records td {
+  border: 1px solid #ccc;
+  padding: 10px 14px;
+  text-align: left;
+  font-size: 14px;
+}
+
+#records th {
+  background-color: #ffdaaa;
+  color: #333;
+  font-weight: 600;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+#records tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+#records tr:hover {
+  background-color: #fff6e6;
+}
 
 
 /* NEWS tab */
