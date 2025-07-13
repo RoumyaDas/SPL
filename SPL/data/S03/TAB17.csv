@@ -1,13 +1,12 @@
 bowler,bowling_team,num_innings,economy,balls,wkts
 CJ Green,RCB,1,5.25,24,0
-PHKD Mendis,KKR,3,5.41,41,4
 Akash Vasisht,MI,3,6.5,48,6
 Tanush Kotian,SRH,3,6.5,48,5
 SS Ghosh,MI,2,6.6,30,4
 LH Ferguson,MI,1,6.75,24,2
 Shashank Singh,PBKS,10,7.06,108,6
+PHKD Mendis,KKR,4,7.2,65,5
 Mohammad Ghazanfar,CSK,1,7.25,24,5
-Rashid Khan,GT,5,7.32,114,7
 DS Rathi,KKR,6,7.39,138,11
 TU Deshpande,RR,2,7.43,42,3
 AJ Turner,MI,4,7.54,78,4
@@ -16,39 +15,37 @@ Abdul Samad,LSG,6,7.75,48,2
 Washington Sundar,PBKS,12,7.92,240,9
 M Siddharth,CSK,5,7.95,120,8
 Noor Ahmad,RCB,2,8.0,42,1
+Rashid Khan,GT,6,8.09,138,11
 RS Hangargekar,RCB,5,8.15,120,4
 JJ Bumrah,MI,8,8.23,159,9
 A Zampa,SRH,8,8.25,192,10
+HR Shokeen,RR,4,8.25,96,4
 TM Head,CSK,1,8.25,24,0
 MM Ali,KKR,7,8.29,168,7
 KH Pandya,SRH,8,8.31,174,8
 Shakib Al Hasan,PBKS,8,8.32,176,15
-Arshad Khan,KKR,6,8.38,144,5
-HR Shokeen,RR,3,8.42,72,2
-Avesh Khan,DC,3,8.45,66,1
+MG Bracewell,DC,5,8.41,102,6
+M Prasidh Krishna,DC,10,8.46,234,12
 K Gowtham,DC,4,8.53,90,2
 Mohammed Siraj,RCB,4,8.54,78,3
+Arshad Khan,KKR,7,8.57,168,7
 Suyash Sharma,MI,4,8.57,84,2
-AJ Tye,DC,2,8.62,48,7
 MR Marsh,DC,2,8.62,48,0
-MG Bracewell,DC,4,8.71,84,5
+K Kartikeya,GT,5,8.71,102,5
 N Rana,KKR,5,8.72,108,3
 DAJ Bracewell,MI,7,8.73,156,13
 SP Narine,LSG,11,8.75,264,10
 BA Stokes,LSG,3,8.75,72,6
 M Jansen,RR,6,8.79,144,5
 C Sakariya,SRH,4,8.81,96,3
-BJ McMullen,DC,8,8.81,96,1
-VG Arora,KKR,3,8.83,72,1
-R Parag,GT,8,8.92,78,0
+KA Maharaj,RR,2,8.86,42,2
 Harpreet Brar,RCB,8,8.93,180,3
 Naveen-ul-Haq,SRH,2,8.93,45,4
 Kuldeep Yadav,SRH,8,8.96,162,9
-M Prasidh Krishna,DC,9,8.97,210,10
 Rasikh Salam,GT,7,9.0,166,14
+BJ McMullen,DC,9,9.0,108,1
 Abhishek Sharma,MI,6,9.0,96,1
 Harshit Rana,CSK,4,9.0,90,3
-K Kartikeya,GT,4,9.0,78,4
 Mukesh Kumar,GT,3,9.0,72,2
 PWH de Silva,DC,2,9.0,48,3
 DS Airee,RCB,1,9.0,24,2
@@ -56,18 +53,20 @@ Mohit Avasthi,MI,1,9.0,24,0
 T Natarajan,CSK,6,9.04,144,12
 Yudhvir Singh,GT,5,9.06,108,5
 Mujeeb Ur Rahman,CSK,3,9.1,60,1
+VG Arora,KKR,4,9.12,96,1
 TA Boult,MI,8,9.13,182,13
 R Ashwin,KKR,8,9.16,186,7
 Arshdeep Singh,LSG,11,9.2,264,11
 C Green,RCB,10,9.24,150,7
 MP Yadav,CSK,7,9.24,135,9
-Mohammad Nabi,GT,6,9.33,144,9
 M Markande,PBKS,6,9.33,108,3
 Fazalhaq Farooqi,CSK,9,9.35,204,12
+R Sai Kishore,GT,9,9.35,197,8
 JR Hazlewood,RR,9,9.36,216,9
-R Sai Kishore,GT,8,9.4,173,8
+Mohammad Nabi,GT,7,9.39,168,9
+Avesh Khan,DC,4,9.4,90,2
+R Parag,GT,9,9.4,90,0
 Ashutosh Sharma,RCB,11,9.42,186,10
-V Nigam,GT,2,9.43,42,2
 M Theekshana,MI,5,9.49,117,5
 R Shepherd,GT,7,9.5,168,11
 Zeeshan Ansari,LSG,6,9.5,132,7
@@ -82,24 +81,26 @@ G Coetzee,KKR,1,9.75,24,0
 SM Curran,KKR,1,9.75,24,0
 Umran Malik,MI,2,9.8,30,2
 CV Varun,PBKS,9,9.84,183,17
-GJ Maxwell,RR,9,9.88,204,13
 YS Chahal,RCB,4,9.93,90,7
 HV Patel,PBKS,5,9.93,84,6
+B Kumar,KKR,10,9.97,225,16
 WG Jacks,LSG,6,10.0,126,11
+AJ Tye,DC,3,10.0,72,8
+GJ Maxwell,RR,10,10.05,228,14
 Atharva Ankolekar,MI,3,10.06,71,7
 SZ Mulani,MI,2,10.12,48,2
 Ravi Teja,LSG,5,10.13,90,3
-B Kumar,KKR,9,10.15,201,15
 R Tewatia,RR,3,10.17,36,3
 M Pathirana,RCB,11,10.23,257,18
 V Kaverappa,SRH,1,10.25,24,1
 Sandeep Sharma,RR,8,10.28,167,8
+Mayank Dagar,RR,8,10.32,186,10
+V Nigam,GT,3,10.44,54,2
 A Mishra,CSK,5,10.45,120,4
 Suryansh Shedge,CSK,11,10.47,224,9
 JD Unadkat,SRH,3,10.5,72,2
 AK Markram,SRH,8,10.58,186,15
 Yash Thakur,PBKS,4,10.59,81,2
-Mayank Dagar,RR,7,10.63,162,9
 NT Ellis,LSG,2,10.71,42,3
 K Rabada,DC,1,10.75,24,0
 HH Pandya,MI,7,10.8,150,10
@@ -110,7 +111,7 @@ RA Jadeja,DC,10,11.12,198,6
 GF Linde,RR,2,11.12,48,3
 Mustafizur Rahman,DC,4,11.2,90,1
 S Gopal,DC,1,11.25,24,1
-MA Starc,KKR,8,11.55,186,9
+MA Starc,KKR,9,11.29,210,11
 Ashwani Kumar,RR,3,11.56,54,4
 Mohammed Shami,PBKS,3,11.58,72,4
 Harsh Dubey,LSG,3,11.67,72,3
@@ -120,9 +121,9 @@ Akash Deep,SRH,2,11.88,48,0
 A Kamboj,RR,1,12.0,24,1
 JO Holder,SRH,4,12.23,78,3
 A Nortje,RCB,7,12.25,167,10
-Swapnil Singh,RR,2,12.38,48,2
 JC Archer,LSG,4,12.43,84,3
-AD Russell,DC,11,12.48,163,8
+AD Russell,DC,12,12.51,178,13
+Swapnil Singh,RR,3,12.75,72,2
 Mohsin Khan,RCB,2,12.86,42,1
 KA Pollard,CSK,3,13.0,24,0
 MJ Henry,RR,1,13.25,24,0
