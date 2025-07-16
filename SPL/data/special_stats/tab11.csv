@@ -18,7 +18,7 @@ neutralish,2,PBKS,1,1,100.0
 neutralish,2,RCB,2,2,100.0
 neutralish,2,RR,2,5,40.0
 neutralish,2,SRH,0,3,0.0
-pace,1,CSK,9,14,64.29
+pace,1,CSK,10,15,66.67
 pace,1,DC,6,10,60.0
 pace,1,GT,4,10,40.0
 pace,1,KKR,8,14,57.14
@@ -32,7 +32,7 @@ pace,2,CSK,9,12,75.0
 pace,2,DC,2,6,33.33
 pace,2,GT,4,6,66.67
 pace,2,KKR,6,13,46.15
-pace,2,LSG,6,14,42.86
+pace,2,LSG,6,15,40.0
 pace,2,MI,7,11,63.64
 pace,2,PBKS,3,9,33.33
 pace,2,RCB,4,11,36.36
@@ -46,7 +46,7 @@ spin,1,LSG,4.5,8,56.25
 spin,1,MI,3,7,42.86
 spin,1,PBKS,9,13,69.23
 spin,1,RCB,2,7,28.57
-spin,1,RR,5,10,50.0
+spin,1,RR,6,11,54.55
 spin,1,SRH,13,16,81.25
 spin,2,CSK,3,8,37.5
 spin,2,DC,5,9,55.56
@@ -54,7 +54,7 @@ spin,2,GT,6,11,54.55
 spin,2,KKR,0,5,0.0
 spin,2,LSG,4,9,44.44
 spin,2,MI,1.5,6,25.0
-spin,2,PBKS,6,11,54.55
+spin,2,PBKS,6,12,50.0
 spin,2,RCB,1,6,16.67
 spin,2,RR,4,7,57.14
 spin,2,SRH,6,13,46.15
