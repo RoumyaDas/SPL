@@ -1,28 +1,29 @@
 striker,batting_team,num_innings,strike_rate,runs,outs
 MA Agarwal,CSK,4,212.5,51,2
-C Green,RCB,7,205.63,146,2
+C Green,RCB,8,200.0,150,2
 RA Jadeja,DC,6,194.74,74,3
 YBK Jaiswal,RR,14,191.46,381,7
 Aniket Verma,RR,14,189.67,459,10
+R Parag,GT,14,188.83,372,9
 Abishek Porel,DC,12,184.8,316,9
 VR Iyer,SRH,11,183.33,275,7
-Naman Dhir,GT,14,183.1,520,12
-R Parag,GT,13,182.56,314,8
+Naman Dhir,GT,15,181.31,524,13
 SA Yadav,DC,14,180.51,491,12
-PD Salt,RCB,14,177.73,407,13
 M Jansen,RR,4,177.42,55,2
 N Rana,KKR,12,177.33,266,11
 Suryansh Shedge,CSK,12,177.03,131,8
 Abdul Samad,LSG,7,176.47,120,2
 Sameer Rizvi,LSG,7,173.42,137,3
 PHKD Mendis,KKR,5,173.4,163,2
+PD Salt,RCB,15,172.08,487,14
 BJ McMullen,DC,13,171.49,391,11
-Ashutosh Sharma,RCB,14,170.29,407,13
+JM Sharma,RCB,14,169.3,364,10
+Ashutosh Sharma,RCB,15,169.29,408,14
 GJ Maxwell,RR,14,168.71,523,13
 DAJ Bracewell,MI,5,167.86,94,4
 Priyansh Arya,SRH,13,167.65,513,13
 WL Madsen,MI,4,166.67,165,2
-JM Sharma,RCB,13,165.59,308,9
+JP Inglis,GT,15,165.46,594,14
 Dhruv Jurel,LSG,8,165.25,195,5
 Arshad Khan,KKR,8,165.12,142,4
 Abhishek Sharma,MI,14,164.79,557,11
@@ -34,7 +35,6 @@ JC Buttler,KKR,14,163.98,346,10
 Shubman Gill,LSG,14,163.75,542,12
 Rahul Singh,MI,5,163.75,131,4
 AD Russell,DC,12,163.64,180,7
-JP Inglis,GT,14,163.12,522,13
 RD Rickelton,RR,14,162.2,399,13
 BM Duckett,CSK,14,162.17,373,14
 KA Pollard,CSK,10,162.03,384,6
@@ -45,18 +45,19 @@ V Kohli,DC,13,159.02,485,13
 RR Rossouw,MI,7,158.97,186,5
 FH Allen,LSG,14,158.58,536,13
 Tilak Varma,CSK,14,158.18,435,12
+B Sai Sudharsan,RCB,15,158.06,569,15
 TM Head,CSK,14,157.51,430,14
-RK Singh,RCB,12,157.14,286,8
-RD Gaikwad,RCB,14,156.44,316,14
-B Sai Sudharsan,RCB,14,156.23,539,14
+RK Singh,RCB,13,157.45,296,9
 AK Markram,SRH,8,156.1,192,5
 PP Shaw,MI,14,155.68,425,14
-SV Samson,GT,14,155.61,596,13
+SV Samson,GT,15,155.67,632,14
 Washington Sundar,PBKS,9,155.32,146,4
 N Pooran,MI,14,155.3,410,11
 R Ashwin,KKR,6,155.0,62,2
 V Suryavanshi,PBKS,14,154.1,564,14
 AM Rahane,KKR,14,153.85,380,14
+RD Gaikwad,RCB,15,152.13,321,15
+GD Phillips,GT,4,151.85,82,2
 SS Iyer,LSG,13,151.19,381,11
 AR Patel,CSK,14,150.98,231,11
 Kartik Sharma,LSG,5,150.7,107,4
@@ -78,7 +79,6 @@ Ishan Kishan,KKR,12,142.62,348,11
 T Stubbs,SRH,10,142.55,134,6
 RM Patidar,RR,10,138.89,350,9
 Jay Gohil,MI,6,138.6,79,3
-GD Phillips,GT,3,137.78,62,2
 LG Pretorius,GT,8,136.67,205,8
 Smaran Ravichandran,PBKS,9,136.6,209,8
 RR Pant,KKR,7,135.05,131,7

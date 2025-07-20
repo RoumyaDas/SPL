@@ -1,31 +1,32 @@
 striker,batting_team,num_innings,50+_scores,runs,strike_rate,100+_scores
 V Suryavanshi,PBKS,14,6,564,154.1,0
 Shubman Gill,LSG,14,6,542,163.75,0
-SV Samson,GT,14,5,596,155.61,1
+SV Samson,GT,15,5,632,155.67,1
+JP Inglis,GT,15,5,594,165.46,0
+B Sai Sudharsan,RCB,15,5,569,158.06,0
 N Sindhu,DC,14,5,560,164.71,0
-B Sai Sudharsan,RCB,14,5,539,156.23,0
 FH Allen,LSG,14,5,536,158.58,1
 GJ Maxwell,RR,14,5,523,168.71,0
+PD Salt,RCB,15,5,487,172.08,0
 V Kohli,DC,13,5,485,159.02,1
 Abhishek Sharma,MI,14,4,557,164.79,1
-JP Inglis,GT,14,4,522,163.12,0
-Naman Dhir,GT,14,4,520,183.1,0
+Naman Dhir,GT,15,4,524,181.31,0
 Priyansh Arya,SRH,13,4,513,167.65,1
 TM Head,CSK,14,4,430,157.51,0
 JM Bairstow,KKR,14,4,416,145.96,0
 N Pooran,MI,14,4,410,155.3,0
-PD Salt,RCB,14,4,407,177.73,0
 KA Pollard,CSK,10,4,384,162.03,0
 SA Yadav,DC,14,3,491,180.51,0
 Aniket Verma,RR,14,3,459,189.67,0
 Tilak Varma,CSK,14,3,435,158.18,1
 P Simran Singh,SRH,13,3,431,164.5,0
-Ashutosh Sharma,RCB,14,3,407,170.29,0
+Ashutosh Sharma,RCB,15,3,408,169.29,0
 RD Rickelton,RR,14,3,399,162.2,0
 BJ McMullen,DC,13,3,391,171.49,0
 YBK Jaiswal,RR,14,3,381,191.46,0
 AM Rahane,KKR,14,3,380,153.85,0
 BM Duckett,CSK,14,3,373,162.17,0
+R Parag,GT,14,3,372,188.83,0
 KL Rahul,SRH,13,3,360,145.75,0
 RM Patidar,RR,10,3,350,138.89,0
 Ishan Kishan,KKR,12,3,348,142.62,0
@@ -33,14 +34,14 @@ Abishek Porel,DC,12,3,316,184.8,0
 PP Shaw,MI,14,2,425,155.68,0
 LS Livingstone,SRH,13,2,371,133.45,0
 Q de Kock,PBKS,12,2,322,134.17,0
-R Parag,GT,13,2,314,182.56,0
 VR Iyer,SRH,11,2,275,183.33,0
 MP Stoinis,PBKS,9,2,254,149.41,0
 LG Pretorius,GT,8,2,205,136.67,0
 WL Madsen,MI,4,2,165,166.67,0
 SS Iyer,LSG,13,1,381,151.19,0
+JM Sharma,RCB,14,1,364,169.3,0
 JC Buttler,KKR,14,1,346,163.98,0
-RD Gaikwad,RCB,14,1,316,156.44,0
+RD Gaikwad,RCB,15,1,321,152.13,0
 H Klaasen,PBKS,14,1,293,147.24,0
 S Dube,RR,12,1,287,159.44,0
 SP Narine,LSG,12,1,262,160.74,0
@@ -50,7 +51,7 @@ Anmolpreet Singh,CSK,5,1,189,150.0,0
 RR Rossouw,MI,7,1,186,158.97,0
 Urvil Patel,DC,8,1,166,161.17,0
 PHKD Mendis,KKR,5,1,163,173.4,0
-C Green,RCB,7,1,146,205.63,0
+C Green,RCB,8,1,150,200.0,0
 Washington Sundar,PBKS,9,1,146,155.32,0
 Arshad Khan,KKR,8,1,142,165.12,0
 Rahul Singh,MI,5,1,131,163.75,0

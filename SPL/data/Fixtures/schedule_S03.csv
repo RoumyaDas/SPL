@@ -71,5 +71,5 @@ Date,Venue,Day,Team One,Team Two,num,Matchday,Spin:Pace,Spin,Pace
 2025-07-18,GT,Fri,GT,RR,70,35,49:51,49.0,51.0
 2025-07-20,SRH,Sun,GT,RCB,71,36,33:67,33.0,67.0
 2025-07-21,SRH,Mon,MI,DC,72,37,44:56,44.0,56.0
-2025-07-22,RR,Tue,,,73,38,,,
-2025-07-23,RR,Wed,,,74,39,,,
+2025-07-22,RR,Tue,,RCB,73,38,,,
+2025-07-23,RR,Wed,GT,,74,39,,,
