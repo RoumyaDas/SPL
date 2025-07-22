@@ -1,26 +1,26 @@
 striker,batting_team,num_innings,fours,runs,strike_rate
-B Sai Sudharsan,RCB,15,64,569,158.06
 SV Samson,GT,15,64,632,155.67
+B Sai Sudharsan,RCB,16,64,583,155.47
 Shubman Gill,LSG,14,62,542,163.75
 V Kohli,DC,14,59,489,157.74
-Abhishek Sharma,MI,15,58,620,164.89
+Abhishek Sharma,MI,16,58,629,165.09
 SA Yadav,DC,15,56,533,175.91
 GJ Maxwell,RR,14,56,523,168.71
+PD Salt,RCB,16,54,528,169.23
 JP Inglis,GT,15,54,594,165.46
 V Suryavanshi,PBKS,14,52,564,154.1
-PD Salt,RCB,15,50,487,172.08
 Priyansh Arya,SRH,13,50,513,167.65
 N Sindhu,DC,14,49,560,164.71
 JM Bairstow,KKR,14,48,416,145.96
 Naman Dhir,GT,15,47,524,181.31
 TM Head,CSK,14,47,430,157.51
+PP Shaw,MI,16,46,482,156.49
 P Simran Singh,SRH,13,43,431,164.5
 FH Allen,LSG,14,43,536,158.58
-PP Shaw,MI,15,43,450,156.25
-N Pooran,MI,15,39,466,156.38
+N Pooran,MI,16,41,521,156.46
+RD Gaikwad,RCB,16,40,361,147.95
 RD Rickelton,RR,14,38,399,162.2
 Aniket Verma,RR,14,37,459,189.67
-RD Gaikwad,RCB,15,36,321,152.13
 YBK Jaiswal,RR,14,33,381,191.46
 BJ McMullen,DC,14,33,410,170.83
 BM Duckett,CSK,14,32,373,162.17
@@ -28,8 +28,8 @@ Tilak Varma,CSK,14,32,435,158.18
 SS Iyer,LSG,13,32,381,151.19
 Ishan Kishan,KKR,12,32,348,142.62
 Q de Kock,PBKS,12,32,322,134.17
+JM Sharma,RCB,15,31,392,173.45
 R Parag,GT,14,30,372,188.83
-JM Sharma,RCB,14,30,364,169.3
 AM Rahane,KKR,14,30,380,153.85
 KA Pollard,CSK,10,29,384,162.03
 LS Livingstone,SRH,13,29,371,133.45
@@ -39,31 +39,31 @@ SP Narine,LSG,12,25,262,160.74
 JC Buttler,KKR,14,24,346,163.98
 RK Singh,RCB,13,24,296,157.45
 KL Rahul,SRH,13,23,360,145.75
-Ashutosh Sharma,RCB,15,22,408,169.29
+Ashutosh Sharma,RCB,16,22,411,169.14
 MP Stoinis,PBKS,9,22,254,149.41
 Abishek Porel,DC,13,20,325,182.58
 S Dube,RR,12,20,287,159.44
 Urvil Patel,DC,9,20,203,157.36
 LG Pretorius,GT,8,20,205,136.67
 N Rana,KKR,12,19,266,177.33
+WL Madsen,MI,5,18,225,161.87
 VR Iyer,SRH,11,17,275,183.33
 Dhruv Jurel,LSG,8,17,195,165.25
 Shashank Singh,PBKS,14,16,308,147.37
 Anmolpreet Singh,CSK,5,15,189,150.0
 Smaran Ravichandran,PBKS,9,15,209,136.6
-WL Madsen,MI,4,14,165,166.67
+HH Pandya,MI,9,14,157,157.0
 AR Patel,CSK,14,14,231,150.98
 RR Rossouw,MI,8,13,198,157.14
 AK Markram,SRH,8,12,192,156.1
 F du Plessis,CSK,3,12,112,131.76
 Abdul Samad,LSG,7,11,120,176.47
-Rahul Singh,MI,5,11,131,163.75
 AD Russell,DC,13,11,205,162.7
+Rahul Singh,MI,6,11,131,161.73
 Sameer Rizvi,LSG,7,10,137,173.42
 PHKD Mendis,KKR,5,10,163,173.4
 Washington Sundar,PBKS,9,10,146,155.32
 KD Karthik,MI,8,10,178,152.14
-HH Pandya,MI,8,10,121,144.05
 RR Pant,KKR,7,10,131,135.05
 C Green,RCB,8,9,150,200.0
 Arshad Khan,KKR,8,9,142,165.12
@@ -82,6 +82,7 @@ RS Hangargekar,RCB,4,6,35,233.33
 HC Brook,PBKS,4,6,87,164.15
 Nithish Kumar Reddy,GT,4,6,58,126.09
 MA Agarwal,CSK,4,5,51,212.5
+DS Airee,RCB,2,5,46,191.67
 Kartik Sharma,LSG,5,5,107,150.7
 WG Jacks,LSG,7,5,110,148.65
 DP Conway,GT,3,5,66,143.48
@@ -89,17 +90,17 @@ DJ Hooda,GT,4,5,45,118.42
 KH Pandya,SRH,7,5,34,113.33
 AJ Turner,MI,5,5,75,111.94
 Azmatullah Omarzai,RR,1,4,25,192.31
-J Fraser-McGurk,RCB,2,4,40,153.85
+Yuvraj Chaudhary,RCB,3,4,53,182.76
+J Fraser-McGurk,RCB,3,4,59,168.57
 JG Bethell,SRH,3,4,66,150.0
-Jay Gohil,MI,6,4,79,138.6
 MG Bracewell,DC,5,4,30,136.36
+Jay Gohil,MI,7,4,81,135.0
 Umran Malik,MI,2,3,20,222.22
 DS Rathi,KKR,3,3,24,200.0
 M Jansen,RR,4,3,55,177.42
-Yuvraj Chaudhary,RCB,2,3,46,176.92
 TH David,LSG,2,3,40,153.85
-Harpreet Brar,RCB,4,3,34,147.83
 SB Dubey,GT,2,3,29,145.0
+Harpreet Brar,RCB,5,3,36,138.46
 A Mhatre,KKR,4,3,33,106.45
 K Kartikeya,GT,2,2,16,266.67
 JO Holder,SRH,2,2,26,236.36
@@ -109,7 +110,6 @@ R Ashwin,KKR,6,2,62,155.0
 R Shepherd,GT,7,2,40,148.15
 Tanush Kotian,SRH,3,2,27,135.0
 Samarth Vyas,MI,1,2,21,131.25
-DS Airee,RCB,1,2,14,127.27
 Swapnil Singh,RR,1,2,10,125.0
 CV Varun,PBKS,3,2,16,123.08
 Shakib Al Hasan,PBKS,5,2,24,92.31
@@ -128,7 +128,7 @@ R Sai Kishore,GT,5,1,28,147.37
 M Theekshana,MI,1,1,15,136.36
 HV Patel,PBKS,2,1,27,135.0
 G Coetzee,KKR,1,1,12,120.0
-YS Chahal,RCB,2,1,12,120.0
+YS Chahal,RCB,3,1,13,118.18
 Ravi Bishnoi,PBKS,3,1,10,111.11
 AJ Tye,DC,4,1,21,105.0
 R Tewatia,RR,2,1,11,100.0

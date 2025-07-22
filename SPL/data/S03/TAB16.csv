@@ -1,16 +1,16 @@
 striker,batting_team,num_innings,50+_scores,runs,strike_rate,100+_scores
 V Suryavanshi,PBKS,14,6,564,154.1,0
 Shubman Gill,LSG,14,6,542,163.75,0
+N Pooran,MI,16,6,521,156.46,0
 SV Samson,GT,15,5,632,155.67,1
-Abhishek Sharma,MI,15,5,620,164.89,1
+Abhishek Sharma,MI,16,5,629,165.09,1
 JP Inglis,GT,15,5,594,165.46,0
-B Sai Sudharsan,RCB,15,5,569,158.06,0
+B Sai Sudharsan,RCB,16,5,583,155.47,0
 N Sindhu,DC,14,5,560,164.71,0
 FH Allen,LSG,14,5,536,158.58,1
+PD Salt,RCB,16,5,528,169.23,0
 GJ Maxwell,RR,14,5,523,168.71,0
 V Kohli,DC,14,5,489,157.74,1
-PD Salt,RCB,15,5,487,172.08,0
-N Pooran,MI,15,5,466,156.38,0
 Naman Dhir,GT,15,4,524,181.31,0
 Priyansh Arya,SRH,13,4,513,167.65,1
 TM Head,CSK,14,4,430,157.51,0
@@ -20,8 +20,8 @@ SA Yadav,DC,15,3,533,175.91,0
 Aniket Verma,RR,14,3,459,189.67,0
 Tilak Varma,CSK,14,3,435,158.18,1
 P Simran Singh,SRH,13,3,431,164.5,0
+Ashutosh Sharma,RCB,16,3,411,169.14,0
 BJ McMullen,DC,14,3,410,170.83,0
-Ashutosh Sharma,RCB,15,3,408,169.29,0
 RD Rickelton,RR,14,3,399,162.2,0
 YBK Jaiswal,RR,14,3,381,191.46,0
 AM Rahane,KKR,14,3,380,153.85,0
@@ -31,17 +31,17 @@ KL Rahul,SRH,13,3,360,145.75,0
 RM Patidar,RR,10,3,350,138.89,0
 Ishan Kishan,KKR,12,3,348,142.62,0
 Abishek Porel,DC,13,3,325,182.58,0
-PP Shaw,MI,15,2,450,156.25,0
+WL Madsen,MI,5,3,225,161.87,0
+PP Shaw,MI,16,2,482,156.49,0
 LS Livingstone,SRH,13,2,371,133.45,0
 Q de Kock,PBKS,12,2,322,134.17,0
 VR Iyer,SRH,11,2,275,183.33,0
 MP Stoinis,PBKS,9,2,254,149.41,0
 LG Pretorius,GT,8,2,205,136.67,0
-WL Madsen,MI,4,2,165,166.67,0
+JM Sharma,RCB,15,1,392,173.45,0
 SS Iyer,LSG,13,1,381,151.19,0
-JM Sharma,RCB,14,1,364,169.3,0
+RD Gaikwad,RCB,16,1,361,147.95,0
 JC Buttler,KKR,14,1,346,163.98,0
-RD Gaikwad,RCB,15,1,321,152.13,0
 H Klaasen,PBKS,14,1,293,147.24,0
 S Dube,RR,12,1,287,159.44,0
 SP Narine,LSG,12,1,262,160.74,0
@@ -54,7 +54,7 @@ PHKD Mendis,KKR,5,1,163,173.4,0
 C Green,RCB,8,1,150,200.0,0
 Washington Sundar,PBKS,9,1,146,155.32,0
 Arshad Khan,KKR,8,1,142,165.12,0
-Rahul Singh,MI,5,1,131,163.75,0
+Rahul Singh,MI,6,1,131,161.73,0
 RR Pant,KKR,7,1,131,135.05,0
 N Wadhera,RR,8,1,125,164.47,0
 F du Plessis,CSK,3,1,112,131.76,0
