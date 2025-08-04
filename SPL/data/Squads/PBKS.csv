@@ -1,6 +1,18 @@
-Name,Country,Specialism,Price,Func_Name,Spin/Pace,CORNERSTONE,injury
-Shashank Singh,India,BATTER,20,Shashank Singh,0,,
-Washington Sundar,India,ALL-ROUNDER,15,Washington Sundar,Spin,,
-Varun Chakaravarthy,India,BOWLER,12,CV Varun,Spin,,
-Vaibhav Suryavanshi,India,BATTER,6,V Suryavanshi,Spin,,
-Smaran Ravichandran,India,BATTER,5,Smaran Ravichandran,Spin,,
+Set,Name,Country,Specialism,Price
+R,Varun Chakaravarthy,India,BOWLER,12
+R,Shashank Singh,India,ALL-ROUNDER,20
+R,Washington Sundar,India,ALL-ROUNDER,15
+R,Vaibhav Suryavanshi,India,BATTER,6
+R,Smaran Ravichandran,India,BATTER,5
+L,Lasith Malinga,Sri Lanka,BOWLER,12
+BA1,Devon Conway,New Zealand,BATTER,2
+BA1,Finn Allen,New Zealand,BATTER,3
+FA1,Mayank Yadav,India,BOWLER,12.75
+WK1,Ben Duckett,England,WICKETKEEPER,8.75
+AL1,Nitish Rana,India,ALL-ROUNDER,13
+AL1,Shakib Al Hasan,Bangladesh,ALL-ROUNDER,2.25
+UAL1,Harpreet Brar,India,ALL-ROUNDER,2.5
+UWK1,Harvik Desai,India,WICKETKEEPER,2.75
+SP2,Wanindu Hasaranga,Sri Lanka,BOWLER,1
+UAL2,Sanvir Singh,India,ALL-ROUNDER,2.5
+USP2,Karn Sharma,India,BOWLER,0.4

@@ -1,5 +1,17 @@
-Name,Country,Specialism,Price,Func_Name,Spin/Pace,CORNERSTONE,injury
-Abhishek Sharma,India,ALL-ROUNDER,15.5,Abhishek Sharma,Spin,,
-Nicholas Pooran,West Indies,WICKETKEEPER,15.5,N Pooran,0,,
-Hardik Pandya,India,ALL-ROUNDER,15.5,HH Pandya,Pace,,
-Jasprit Bumrah,India,BOWLER,15.5,JJ Bumrah,Pace,,
+Set,Name,Country,Specialism,Price
+R,Jasprit Bumrah,India,BOWLER,15.5
+R,Nicholas Pooran,West Indies,WICKETKEEPER,15.5
+R,Hardik Pandya,India,ALL-ROUNDER,15.5
+R,Abhishek Sharma,India,ALL-ROUNDER,15.5
+M1,Travis Head,Australia,BATTER,11.75
+M1,Trent Boult,New Zealand,BOWLER,7.25
+M2,Ajinkya Rahane,India,BATTER,7.5
+BA1,Rinku Singh,India,BATTER,6
+WK1,Ishan Kishan,India,WICKETKEEPER,3.5
+UFA1,Sayan Ghosh,India,BOWLER,3.5
+UAL1,Rajvardhan Hangargekar,India,ALL-ROUNDER,3
+UBA1,Atharva Taide,India,BATTER,5.5
+AL2,Sikandar Raza,Zimbabwe,ALL-ROUNDER,1
+SP2,R. Sai Kishore,India,BOWLER,6.5
+UAL2,Vipraj Nigam,India,ALL-ROUNDER,2.75
+UAL2,Atharva Ankolekar,India,ALL-ROUNDER,2

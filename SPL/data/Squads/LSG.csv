@@ -1,6 +1,21 @@
-Name,Country,Specialism,Price,Func_Name,Spin/Pace,CORNERSTONE,injury
-Shubman Gill,India,BATTER,19.5,Shubman Gill,0,,
-Shreyas Iyer,India,BATTER,15,SS Iyer,0,,
-Arshdeep Singh,India,BOWLER,13,Arshdeep Singh,Pace,,
-Abdul Samad,India,ALL-ROUNDER,5,Abdul Samad,Spin,,
-Sameer Rizvi,India,ALL-ROUNDER,5,Sameer Rizvi,Spin,,
+Set,Name,Country,Specialism,Price
+R,Shreyas Iyer,India,BATTER,15.5
+R,Arshdeep Singh,India,BOWLER,13
+R,Shubman Gill,India,BATTER,19.5
+R,Sameer Rizvi,India,BATTER,5
+R,Abdul Samad,India,BATTER,5
+M2,Jos Buttler,England,WICKETKEEPER,12.75
+M2,Will Jacks,England,ALL-ROUNDER,13
+M2,Jofra Archer,England,BOWLER,5
+FA1,Mohammad Siraj,India,BOWLER,4.5
+WK1,Ryan Rickelton,South Africa,WICKETKEEPER,4.75
+AL1,Ben Stokes,England,ALL-ROUNDER,2
+AL1,Mohammad Nabi,Afghanistan,ALL-ROUNDER,2
+SP1,Ravi Bishnoi,India,BOWLER,7
+UFA1,Mohsin Khan,India,BOWLER,3.75
+UBA1,Jay Gohil,India,BATTER,3
+FA2,Andrew Tye,Australia,BOWLER,1.6
+BA2,Deepak Hooda,India,BATTER,2.25
+AL2,Ramandeep Singh,India,ALL-ROUNDER,5.75
+UAL2,Anukul Roy,India,ALL-ROUNDER,0.4
+USP2,Shams Mulani,India,BOWLER,0.4

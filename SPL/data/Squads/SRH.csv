@@ -1,6 +1,22 @@
-Name,Country,Specialism,Price,Func_Name,Spin/Pace,CORNERSTONE,injury
-KL Rahul,India,WICKETKEEPER,18,KL Rahul,0,,
-Prabhsimran Singh,India,WICKETKEEPER,14,P Simran Singh,0,,1 game (S04 game 1)
-Venkatesh Iyer,India,ALL-ROUNDER,14,VR Iyer,Pace,,
-Kuldeep Yadav,India,BOWLER,14,Kuldeep Yadav,Spin,,
-Priyansh Arya,India,ALL-ROUNDER,8,Priyansh Arya,Spin,,
+Set,Name,Country,Specialism,Price
+R,KL Rahul,India,WICKETKEEPER,18
+R,Venkatesh Iyer,India,ALL-ROUNDER,14
+R,Kuldeep Yadav,India,BOWLER,14
+R,Prabhsimran Singh,India,WICKETKEEPER,14
+R,Priyansh Arya,India,BATTER,8
+BA1,Rilee Rossouw,South Africa,BATTER,3.5
+AL1,Nitish Kumar Reddy,India,ALL-ROUNDER,12.25
+AL1,Krunal Pandya,India,ALL-ROUNDER,4.25
+AL1,Kamindu Mendis,Sri Lanka,ALL-ROUNDER,3.25
+SP1,Allah Ghazanfar,Afghanistan,BOWLER,4.25
+UFA1,Jagjit Singh,India,BOWLER,2.75
+UBA1,Mahipal Lomror,India,BATTER,3.75
+USP1,Mayank Markande,India,BOWLER,1.5
+UWK1,Kartik Sharma,India,WICKETKEEPER,2.75
+FA2,Nathan Ellis,Australia,BOWLER,2.25
+FA2,Chetan Sakariya,India,BOWLER,6
+AL2,Azmatullah Omarzai,Afghanistan,ALL-ROUNDER,3.25
+AL2,Jacob Bethell,England,ALL-ROUNDER,3.25
+UBA2,Raj Angad Bawa,India,BATTER,2
+UFA2,Kartik Tyagi,India,BOWLER,0.9
+USP2,Zeeshan Ansari,India,BOWLER,2.25

@@ -1,5 +1,17 @@
-Name,Country,Specialism,Price,Func_Name,Spin/Pace,CORNERSTONE,injury
-Phil Salt,England,WICKETKEEPER,17.5,PD Salt,0,,
-Matheesha Pathirana,Sri Lanka,BOWLER,17.5,M Pathirana,Pace,,
-Jitesh Sharma,India,WICKETKEEPER,12,JM Sharma,0,,
-Ashutosh Sharma,India,ALL-ROUNDER,6,Ashutosh Sharma,Pace,,
+Set,Name,Country,Specialism,Price
+R,Phil Salt,England,WICKETKEEPER,17.5
+R,Matheesha Pathirana,Sri Lanka,BOWLER,17.5
+R,Ashutosh Sharma,India,ALL-ROUNDER,6
+R,Jitesh Sharma,India,WICKETKEEPER,12
+M1,Liam Livingstone,England,ALL-ROUNDER,12.5
+L,Dwayne Bravo,West Indies,ALL-ROUNDER,12
+BA1,Prithvi Shaw,India,BATTER,3.75
+WK1,Dhruv Jurel,India,WICKETKEEPER,7.75
+AL1,Ravindra Jadeja,India,ALL-ROUNDER,15
+SP1,Yuzvendra Chahal,India,BOWLER,4.25
+WK2,Dinesh Karthik,India,WICKETKEEPER,1.9
+AL2,Dipendra Airee,Nepal,ALL-ROUNDER,1
+AL2,Doug Bracewell,New Zealand,ALL-ROUNDER,5.5
+UBA2,Yuvraj Chaudhary,India,BATTER,2.5
+UBA2,Gahlaut Rahul Singh,India,BATTER,0.8
+UFA2,Yudhvir Charak,India,BOWLER,4.75

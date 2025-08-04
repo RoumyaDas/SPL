@@ -1,7 +1,13 @@
-Name,Country,Specialism,Price,Func_Name,Spin/Pace,CORNERSTONE,injury
-Virat Kohli,India,BATTER,19,V Kohli,0,,
-SuryaKumar Yadav,India,BATTER,17.5,SA Yadav,0,,
-Andre Russell,West Indies,ALL-ROUNDER,12,AD Russell,Pace,,
-Abhishek Porel,India,WICKETKEEPER,11,Abishek Porel,0,,
-Nishant Sindhu,India,ALL-ROUNDER,8,N Sindhu,Spin,,
-Urvil Patel,India,WICKETKEEPER,6.25,Urvil Patel,0,,
+Set,Name,Country,Specialism,Price
+R,SuryaKumar Yadav,India,BATTER,17.5
+R,Virat Kohli,India,BATTER,19
+R,Andre Russell,West Indies,ALL-ROUNDER,12
+R,Nishant Sindhu,India,BATTER,8
+R,Abhishek Porel,India,WICKETKEEPER,11
+R,Urvil Patel,India,WICKETKEEPER,6.25
+M2,Aiden Markram,South Africa,ALL-ROUNDER,12
+L,Chris Morris,South Africa,BOWLER,12
+FA1,Prasidh Krishna,India,BOWLER,6
+UFA1,T. Ravi teja,India,BOWLER,1.2
+UAL1,Akash Vasisht,India,ALL-ROUNDER,8.25
+USP2,Vignesh Puthur,India,BOWLER,0.7

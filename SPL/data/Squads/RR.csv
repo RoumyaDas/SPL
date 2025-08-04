@@ -1,7 +1,20 @@
-Name,Country,Specialism,Price,Func_Name,Spin/Pace,CORNERSTONE,injury
-Glenn Maxwell,Australia,ALL-ROUNDER,24,GJ Maxwell,Spin,,
-Yashasvi Jaiswal,India,BATTER,15,YBK Jaiswal,0,,
-Shivam Dube,India,ALL-ROUNDER,12,S Dube,Pace,,
-Josh Hazlewood,Australia,BOWLER,11,JR Hazlewood,Pace,,
-Aniket Verma,India,BATTER,6,Aniket Verma,Pace,,
-Sandeep Sharma,India,BOWLER,5,Sandeep Sharma,Pace,,
+Set,Name,Country,Specialism,Price
+R,Yashasvi Jaiswal,India,BATTER,15
+R,Glenn Maxwell,Australia,ALL-ROUNDER,24
+R,Shivam Dube,India,BATTER,12
+R,Josh Hazlewood,Australia,BOWLER,11
+R,Sandeep Sharma,India,BOWLER,5
+R,Aniket Verma,India,BATTER,6
+M1,Adam Zampa,Australia,BOWLER,9.5
+L,AB De Villiers,South Africa,BATTER,12
+UAL1,Mohd. Arshad Khan,India,ALL-ROUNDER,6.5
+USP1,Mayank Dagar,India,BOWLER,3.5
+WK2,Lhuan Dre Pretorius,South Africa,WICKETKEEPER,1
+FA2,Pat Cummins,Australia,BOWLER,3.5
+FA2,Harshal Patel,India,BOWLER,8.25
+BA2,Tim David,Australia,BATTER,1.8
+AL2,Brandon McMullen,Scotland,ALL-ROUNDER,3.5
+SP2,Ravichandaran Ashwin,India,BOWLER,1.6
+UBA2,Salman Nizar,India,BATTER,0.4
+UFA2,Mohit Sharma,India,BOWLER,0.4
+USP2,Hritik Shokeen,India,BOWLER,0.4

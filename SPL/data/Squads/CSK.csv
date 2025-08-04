@@ -1,5 +1,16 @@
-Name,Country,Specialism,Price,Func_Name,Spin/Pace,CORNERSTONE,injury
-Axar Patel,India,ALL-ROUNDER,19,AR Patel,Spin,,
-Tilak Varma,India,BATTER,16,Tilak Varma,Spin,,
-Kieron Pollard,West Indies,BATTER,11,KA Pollard,Pace,,
-Suryansh Shedge,India,ALL-ROUNDER,7,Suryansh Shedge,Pace,,
+Set,Name,Country,Specialism,Price
+R,Tilak Varma,India,BATTER,16
+R,Axar Patel,India,ALL-ROUNDER,19
+R,Suryansh Shedge,India,ALL-ROUNDER,7
+R,Kieron Pollard,West Indies,BATTER,11
+M1,T. Natarajan,India,BOWLER,12
+M2,Sai Sudharsan,India,BATTER,14
+M2,Fazalhaq Farooqi,Afghanistan,BOWLER,8.75
+L,Chris Gayle,West Indies,BATTER,12
+WK1,Heinrich Klaasen,South Africa,WICKETKEEPER,3.25
+WK1,Tristan Stubbs,South Africa,WICKETKEEPER,3
+UAL1,Tanush Kotian,India,ALL-ROUNDER,4.25
+UBA1,Anmolpreet Singh,India,BATTER,3.75
+USP1,M. Siddharth,India,BOWLER,7.5
+UFA2,Akash Madhwal,India,BOWLER,1.5
+UFA2,Yash Thakur,India,BOWLER,5.25
