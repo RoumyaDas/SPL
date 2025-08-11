@@ -1,25 +1,25 @@
-Set,Name,Country,Specialism,Price
-R,Mitchell Starc,Australia,BOWLER,20
-R,Bhuvneshwar Kumar,India,BOWLER,15
-R,Digvesh Singh,India,BOWLER,6
-M1,Sunil Narine,West Indies,ALL-ROUNDER,13
-L,Zaheer Khan,India,BOWLER,12
-BA1,Jake Fraser-Mcgurk,Australia,BATTER,2
-BA1,Rajat Patidar,India,BATTER,6.5
-WK1,Quinton De Kock,South Africa,WICKETKEEPER,2
-AL1,Cameron Green,Australia,ALL-ROUNDER,9.25
-UFA1,Vaibhav Arora,India,BOWLER,0.5
-UBA1,Nehal Wadhera,India,BATTER,6.25
-USP1,Suyash Sharma,India,BOWLER,1.6
-UWK1,MSD,India,WICKETKEEPER,2.75
-WK2,Jamie Smith,England,WICKETKEEPER,8.75
-FA2,Spencer Johnson,Australia,BOWLER,3
-BA2,Devdutt Padikkal,India,BATTER,3.75
-BA2,Rohit Sharma,India,BATTER,3
-BA2,Rovman Powell,West Indies,BATTER,2
-UBA2,Angkrish Raghuvanshi,India,BATTER,1.7
-UBA2,Bhanu Pania,India,BATTER,1.3
-UAL2,Rahul Tewatia,India,ALL-ROUNDER,2.5
-BA3,Rahul Tripathi,India,BATTER,0.5
-FA3,Harshit Rana,India,BOWLER,3.75
-UFA3,Simarjeet Singh,India,BOWLER,0.4
+Name,Country,Specialism,Price,Func_Name,Spin/Pace,CORNERSTONE,injury
+Mitchell Starc,Australia,BOWLER,20.0,MA Starc,Pace,,
+Bhuvneshwar Kumar,India,BOWLER,15.0,B Kumar,Pace,,
+Digvesh Singh,India,BOWLER,6.0,DS Rathi,Spin,,
+Sunil Narine,West Indies,ALL-ROUNDER,13.0,SP Narine,Spin,,
+Zaheer Khan,India,BOWLER,12.0,Z Khan,Pace,,
+Jake Fraser-Mcgurk,Australia,BATTER,2.0,J Fraser-McGurk,0,,
+Rajat Patidar,India,BATTER,6.5,RM Patidar,0,,
+Quinton De Kock,South Africa,WICKETKEEPER,2.0,Q de Kock,0,,
+Cameron Green,Australia,ALL-ROUNDER,9.25,C Green,Pace,,
+Vaibhav Arora,India,BOWLER,0.5,VG Arora,Pace,,
+Nehal Wadhera,India,BATTER,6.25,N Wadhera,0,,
+Suyash Sharma,India,BOWLER,1.6,Suyash Sharma,Spin,,
+MSD,India,WICKETKEEPER,2.75,MS Dhoni,0,,
+Jamie Smith,England,WICKETKEEPER,8.75,JL Smith,0,,
+Spencer Johnson,Australia,BOWLER,3.0,SH Johnson,Pace,,
+Devdutt Padikkal,India,BATTER,3.75,D Padikkal,0,,
+Rohit Sharma,India,BATTER,3.0,RG Sharma,Spin,,
+Rovman Powell,West Indies,BATTER,2.0,R Powell,Pace,,
+Angkrish Raghuvanshi,India,BATTER,1.7,A Raghuvanshi,0,,
+Bhanu Pania,India,BATTER,1.3,Bhanu Pania,0,,
+Rahul Tewatia,India,ALL-ROUNDER,2.5,R Tewatia,Spin,,
+Rahul Tripathi,India,BATTER,0.5,RA Tripathi,0,,
+Harshit Rana,India,BOWLER,3.75,Harshit Rana,Pace,,
+Simarjeet Singh,India,BOWLER,0.4,Simarjeet Singh,Pace,,

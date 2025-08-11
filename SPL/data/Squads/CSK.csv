@@ -1,20 +1,20 @@
-Set,Name,Country,Specialism,Price
-R,Tilak Varma,India,BATTER,16
-R,Axar Patel,India,ALL-ROUNDER,19
-R,Suryansh Shedge,India,ALL-ROUNDER,7
-R,Kieron Pollard,West Indies,BATTER,11
-M1,T. Natarajan,India,BOWLER,12
-M2,Sai Sudharsan,India,BATTER,14
-M2,Fazalhaq Farooqi,Afghanistan,BOWLER,8.75
-L,Chris Gayle,West Indies,BATTER,12
-WK1,Heinrich Klaasen,South Africa,WICKETKEEPER,3.25
-WK1,Tristan Stubbs,South Africa,WICKETKEEPER,3
-UAL1,Tanush Kotian,India,ALL-ROUNDER,4.25
-UBA1,Anmolpreet Singh,India,BATTER,3.75
-USP1,M. Siddharth,India,BOWLER,7.5
-UFA2,Akash Madhwal,India,BOWLER,1.5
-UFA2,Yash Thakur,India,BOWLER,5.25
-BA5,Steve Smith,Australia,BATTER,0.5
-FA5,Ottneil Baartman,South Africa,BOWLER,0.5
-UBA4,Apoorv Wankhade,India,BATTER,0.3
-UBA8,Gaurav Puri,India,BATTER,0.3
+Name,Country,Specialism,Price,Func_Name,Spin/Pace,CORNERSTONE,injury
+Tilak Varma,India,BATTER,16.0,Tilak Varma,Pace,1.0,
+Axar Patel,India,ALL-ROUNDER,19.0,AR Patel,Spin,1.0,
+Suryansh Shedge,India,ALL-ROUNDER,7.0,Suryansh Shedge,Pace,,
+Kieron Pollard,West Indies,BATTER,11.0,KA Pollard,Pace,,
+T. Natarajan,India,BOWLER,12.0,T Natarajan,Pace,,
+Sai Sudharsan,India,BATTER,14.0,B Sai Sudharsan,0,,
+Fazalhaq Farooqi,Afghanistan,BOWLER,8.75,Fazalhaq Farooqi,Pace,,
+Chris Gayle,West Indies,BATTER,12.0,CH Gayle,Spin,,
+Heinrich Klaasen,South Africa,WICKETKEEPER,3.25,H Klaasen,0,,
+Tristan Stubbs,South Africa,WICKETKEEPER,3.0,T Stubbs,Spin,,
+Tanush Kotian,India,ALL-ROUNDER,4.25,Tanush Kotian,Spin,,
+Anmolpreet Singh,India,BATTER,3.75,Anmolpreet Singh,0,,
+M. Siddharth,India,BOWLER,7.5,M Siddharth,Spin,,
+Akash Madhwal,India,BOWLER,1.5,Akash Madhwal,Pace,,
+Yash Thakur,India,BOWLER,5.25,Yash Thakur,Pace,,
+Steve Smith,Australia,BATTER,0.5,SPD Smith,Spin,,
+Ottneil Baartman,South Africa,BOWLER,0.5,OEG Baartman,Pace,,
+Apoorv Wankhade,India,BATTER,0.3,AV Wankhade,Pace,1.0,
+Gaurav Puri,India,BATTER,0.3,Gaurav Puri,0,,

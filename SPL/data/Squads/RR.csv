@@ -1,25 +1,25 @@
-Set,Name,Country,Specialism,Price
-R,Yashasvi Jaiswal,India,BATTER,15
-R,Glenn Maxwell,Australia,ALL-ROUNDER,24
-R,Shivam Dube,India,BATTER,12
-R,Josh Hazlewood,Australia,BOWLER,11
-R,Sandeep Sharma,India,BOWLER,5
-R,Aniket Verma,India,BATTER,6
-M1,Adam Zampa,Australia,BOWLER,9.5
-L,AB De Villiers,South Africa,BATTER,12
-UAL1,Mohd. Arshad Khan,India,ALL-ROUNDER,6.5
-USP1,Mayank Dagar,India,BOWLER,3.5
-WK2,Lhuan Dre Pretorius,South Africa,WICKETKEEPER,1
-FA2,Pat Cummins,Australia,BOWLER,3.5
-FA2,Harshal Patel,India,BOWLER,8.25
-BA2,Tim David,Australia,BATTER,1.8
-AL2,Brandon McMullen,Scotland,ALL-ROUNDER,3.5
-SP2,Ravichandaran Ashwin,India,BOWLER,1.6
-UBA2,Salman Nizar,India,BATTER,0.4
-UFA2,Mohit Sharma,India,BOWLER,0.4
-USP2,Hritik Shokeen,India,BOWLER,0.4
-BA3,Mayank Agarawal,India,BATTER,1.2
-FA3,Shardul Thakur,India,BOWLER,0.5
-UAL3,Harsh Dubey,India,ALL-ROUNDER,1.5
-UBA3,Ayush Mhatre,India,BATTER,0.8
-UFA3,Ashwani Kumar,India,BOWLER,0.4
+Name,Country,Specialism,Price,Func_Name,Spin/Pace,CORNERSTONE,injury
+Yashasvi Jaiswal,India,BATTER,15.0,YBK Jaiswal,0,1.0,
+Glenn Maxwell,Australia,ALL-ROUNDER,24.0,GJ Maxwell,Spin,1.0,
+Shivam Dube,India,BATTER,12.0,S Dube,Pace,,
+Josh Hazlewood,Australia,BOWLER,11.0,JR Hazlewood,Pace,,
+Sandeep Sharma,India,BOWLER,5.0,Sandeep Sharma,Pace,,
+Aniket Verma,India,BATTER,6.0,Aniket Verma,Pace,1.0,
+Adam Zampa,Australia,BOWLER,9.5,A Zampa,Spin,,
+AB De Villiers,South Africa,BATTER,12.0,AB de Villiers,0,,
+Mohd. Arshad Khan,India,ALL-ROUNDER,6.5,Arshad Khan,Pace,,
+Mayank Dagar,India,BOWLER,3.5,Mayank Dagar,Spin,,
+Lhuan Dre Pretorius,South Africa,WICKETKEEPER,1.0,LG Pretorius,0,,
+Pat Cummins,Australia,BOWLER,3.5,PJ Cummins,Pace,,
+Harshal Patel,India,BOWLER,8.25,HV Patel,Pace,,
+Tim David,Australia,BATTER,1.8,TH David,Spin,,
+Brandon McMullen,Scotland,ALL-ROUNDER,3.5,BJ McMullen,Pace,,
+Ravichandaran Ashwin,India,BOWLER,1.6,R Ashwin,Spin,,
+Salman Nizar,India,BATTER,0.4,Salman Nizar,0,,
+Mohit Sharma,India,BOWLER,0.4,MM Sharma,Pace,,
+Hritik Shokeen,India,BOWLER,0.4,HR Shokeen,Spin,,
+Mayank Agarawal,India,BATTER,1.2,MA Agarwal,0,,
+Shardul Thakur,India,BOWLER,0.5,SN Thakur,Pace,,
+Harsh Dubey,India,ALL-ROUNDER,1.5,Harsh Dubey,Spin,,
+Ayush Mhatre,India,BATTER,0.8,A Mhatre,Spin,,
+Ashwani Kumar,India,BOWLER,0.4,Ashwani Kumar,Pace,,

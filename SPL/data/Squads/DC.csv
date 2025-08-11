@@ -1,24 +1,24 @@
-Set,Name,Country,Specialism,Price
-R,SuryaKumar Yadav,India,BATTER,17.5
-R,Virat Kohli,India,BATTER,19
-R,Andre Russell,West Indies,ALL-ROUNDER,12
-R,Nishant Sindhu,India,BATTER,8
-R,Abhishek Porel,India,WICKETKEEPER,11
-R,Urvil Patel,India,WICKETKEEPER,6.25
-M2,Aiden Markram,South Africa,ALL-ROUNDER,12
-L,Chris Morris,South Africa,BOWLER,12
-FA1,Prasidh Krishna,India,BOWLER,6
-UFA1,T. Ravi teja,India,BOWLER,1.2
-UAL1,Akash Vasisht,India,ALL-ROUNDER,8.25
-USP2,Vignesh Puthur,India,BOWLER,0.7
-AL3,Mitch Owen,Australia,ALL-ROUNDER,3.25
-AL3,Matthew Short,Australia,ALL-ROUNDER,0.5
-AL4,Sean Abbott,Australia,ALL-ROUNDER,0.5
-FA3,Tushar Deshpande,India,BOWLER,1.6
-SP4,Sandeep Lamichhane,Nepal,BOWLER,1.2
-UAL10,Delano Potgieter,South Africa,ALL-ROUNDER,0.3
-UAL7,Atit Sheth,India,ALL-ROUNDER,0.8
-UAL8,Abid Mushtaq,India,ALL-ROUNDER,0.3
-UAL9,Saransh Jain,India,ALL-ROUNDER,0.3
-UFA5,Lukman Meriwala,India,BOWLER,6.25
-UWK7,Tarang Gohel,India,WICKETKEEPER,1
+Name,Country,Specialism,Price,Func_Name,Spin/Pace,CORNERSTONE,injury
+SuryaKumar Yadav,India,BATTER,17.5,SA Yadav,0,1.0,
+Virat Kohli,India,BATTER,19.0,V Kohli,0,,
+Andre Russell,West Indies,ALL-ROUNDER,12.0,AD Russell,Pace,,
+Nishant Sindhu,India,BATTER,8.0,N Sindhu,Spin,,
+Abhishek Porel,India,WICKETKEEPER,11.0,Abishek Porel,0,1.0,
+Urvil Patel,India,WICKETKEEPER,6.25,Urvil Patel,0,,
+Aiden Markram,South Africa,ALL-ROUNDER,12.0,AK Markram,Spin,,
+Chris Morris,South Africa,BOWLER,12.0,CH Morris,Pace,,
+Prasidh Krishna,India,BOWLER,6.0,M Prasidh Krishna,Pace,,
+T. Ravi teja,India,BOWLER,1.2,Ravi Teja,Pace,,
+Akash Vasisht,India,ALL-ROUNDER,8.25,Akash Vasisht,Spin,,
+Vignesh Puthur,India,BOWLER,0.7,V Puthur,Spin,,
+Mitch Owen,Australia,ALL-ROUNDER,3.25,MJ Owen,Pace,1.0,
+Matthew Short,Australia,ALL-ROUNDER,0.5,MW Short,Spin,,
+Sean Abbott,Australia,ALL-ROUNDER,0.5,SA Abbott,Pace,,
+Tushar Deshpande,India,BOWLER,1.6,TU Deshpande,Pace,,
+Sandeep Lamichhane,Nepal,BOWLER,1.2,S Lamichhane,Spin,,
+Delano Potgieter,South Africa,ALL-ROUNDER,0.3,D Potgieter,Pace,,
+Atit Sheth,India,ALL-ROUNDER,0.8,A Sheth,Pace,,
+Abid Mushtaq,India,ALL-ROUNDER,0.3,Abid Mushtaq,Spin,,
+Saransh Jain,India,ALL-ROUNDER,0.3,Saransh Jain,Spin,,
+Lukman Meriwala,India,BOWLER,6.25,LI Meriwala,Pace,,
+Tarang Gohel,India,WICKETKEEPER,1.0,Tarang Gohel,0,,
