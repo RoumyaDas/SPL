@@ -464,7 +464,7 @@ function initStatsTab() {
   const statsSubtabs = document.getElementById("stats-subtabs");
   
   // Create season tabs
-  ['S01', 'S02', 'S03'].forEach(season => {
+  ['S01', 'S02', 'S03', 'S04'].forEach(season => {
     const btn = document.createElement("button");
     btn.textContent = `Season ${season.slice(1)}`;
     btn.dataset.season = season;
@@ -501,7 +501,7 @@ function initStatsTab() {
   });
 
   // Load initial data
-  switchStatsSeason('S01');
+  switchStatsSeason('S04');
 }
 
 function switchStatsSeason(season) {
@@ -694,7 +694,7 @@ document.querySelectorAll(".season-subtab").forEach(btn => {
       existingSelect.remove();
     }
 
-    const maxMatches = 74;
+    const maxMatches = 94;
 
     if (activeSubtabId.startsWith("flow") || activeSubtabId.startsWith("scorecard")) {
       createMatchSelector(seasonId, activeSubtabContent, activeSubtabId, maxMatches);
@@ -713,7 +713,7 @@ document.querySelectorAll(".season-subtab").forEach(btn => {
 
       for (let i = 1; i <= maxMatches; i++) {
         const matchNum = i.toString().padStart(3, '0');
-        const matchId = `S03M${matchNum}`;
+        const matchId = `S04M${matchNum}`;
         const opt = document.createElement("option");
         opt.value = matchId;
         opt.textContent = `Match ${matchNum}`;
@@ -737,7 +737,7 @@ document.querySelectorAll(".season-subtab").forEach(btn => {
           return;
         }
 
-        const url = `https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Season_03/total_impact/${matchId}_impact.txt`;
+        const url = `https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Season_04/total_impact/${matchId}_impact.txt`;
 
         fetch(url)
           .then(res => {
@@ -944,7 +944,8 @@ document.querySelectorAll(".main-tab").forEach(btn => {
 const scheduleCSVs = {
   "sch-s01": "https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Fixtures/schedule_S01.csv",
   "sch-s02": "https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Fixtures/schedule_S02.csv",
-  "sch-s03": "https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Fixtures/schedule_S03.csv"
+  "sch-s03": "https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Fixtures/schedule_S03.csv",
+  "sch-s04": "https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Fixtures/schedule_S04.csv"
 };
 
 const scheduleCache = {};  // to store loaded CSVs

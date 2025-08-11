@@ -117,12 +117,13 @@
 
   <!-- Seasons Tab Content -->
   <div id="seasons" class="tab-content active">
-    <h2>Season Stats</h2>
+    <h2>Season Game by Game</h2>
   
     <div class="tabs" id="season-tabs">
       <button class="season-tab active" data-season="01">01</button>
       <button class="season-tab" data-season="02">02</button>
       <button class="season-tab" data-season="03">03</button>
+      <button class="season-tab" data-season="04">04</button>
     </div>
   
     <!-- Season 01 -->
@@ -187,11 +188,7 @@
       <!--<div id="graphs-03" class="season-subtab-content"> -->
         <!--<p>Graphs coming soon...</p> -->
       <!--</div> -->
-      <div id="impact-03" class="season-subtab-content">
-        <label for="impactMatchSelect">Select Match:</label>
-        <select id="impactMatchSelect"></select>
-        <pre id="impactContent" class="subtab-pre-content">Loading impact points...</pre>
-      </div>
+      
       
     </div>
 
@@ -473,14 +470,16 @@
   <h2>Match Schedule</h2>
 
   <div class="tabs" id="schedule-subtabs">
-    <button class="schedule-subtab active" data-tab="sch-s01">S01</button>
+    <button class="schedule-subtab" data-tab="sch-s01">S01</button>
     <button class="schedule-subtab" data-tab="sch-s02">S02</button>
     <button class="schedule-subtab" data-tab="sch-s03">S03</button>
+    <button class="schedule-subtab active" data-tab="sch-s04">S04</button>
   </div>
 
-  <div id="sch-s01" class="schedule-table-container active"></div>
+  <div id="sch-s01" class="schedule-table-container"></div>
   <div id="sch-s02" class="schedule-table-container"></div>
   <div id="sch-s03" class="schedule-table-container"></div>
+  <div id="sch-s04" class="schedule-table-container active"></div>
 </div>
 
 <!-- Combined Points table stuff-->
