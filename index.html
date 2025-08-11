@@ -51,6 +51,7 @@
       <button class="main-tab" data-tab="combined">Combined Points Table</button>
       <button class="main-tab" data-tab="squads">Current Squads</button> <!-- Squads tab -->
       <button class="main-tab" data-tab="news">News</button> <!-- NEWS tab -->
+      <button class="main-tab" data-tab="player-mappings">Player name Mappings (current season only)</button> <!-- Player Name Mappings from current season tab -->
 
 
     </div>
@@ -80,6 +81,17 @@
       <div id="records-pagination" class="pagination-buttons"></div>
     </div>
     
+    <!-- name mappings tab -->
+  <div id="player-mappings" class="tab-content">
+    <h2>Player name Mappings (current season only)</h2>
+
+    <!-- Optional Search Filter -->
+    <label for="playerMappingsSearch">Search:</label>
+    <input type="text" id="playerMappingsSearch" placeholder="Type to filter..." />
+
+    <!-- Table Output -->
+    <div id="player-mappings-table" class="csv-table-output" style="margin-top: 10px;"></div>
+  </div>
     
 
   </div>
@@ -129,7 +141,7 @@
     <!-- Season 01 -->
     <div id="season-01" class="season-content">
       <div class="tabs" id="season-01-subtabs">
-        <button class="season-subtab active" data-subtab="flow-01">Flow</button>
+        <button class="season-subtab" data-subtab="flow-01">Flow</button>
         <button class="season-subtab" data-subtab="scorecard-01">Scorecard</button>
         <!--<button class="season-subtab" data-subtab="graphs-01">Graphs</button>-->
       </div>
@@ -153,7 +165,7 @@
     <!-- Season 02 -->
     <div id="season-02" class="season-content">
       <div class="tabs" id="season-02-subtabs">
-        <button class="season-subtab active" data-subtab="flow-02">Flow</button>
+        <button class="season-subtab" data-subtab="flow-02">Flow</button>
         <button class="season-subtab" data-subtab="scorecard-02">Scorecard</button>
         <!--<button class="season-subtab" data-subtab="graphs-02">Graphs</button>-->
       </div>
@@ -172,10 +184,10 @@
     <!-- Season 03 -->
     <div id="season-03" class="season-content">
       <div class="tabs" id="season-03-subtabs">
-        <button class="season-subtab active" data-subtab="flow-03">Flow</button>
+        <button class="season-subtab" data-subtab="flow-03">Flow</button>
         <button class="season-subtab" data-subtab="scorecard-03">Scorecard</button>
         <!--<button class="season-subtab" data-subtab="graphs-03">Graphs</button>-->
-        <button class="season-subtab" data-subtab="impact-03">Impact</button>
+        <!--<button class="season-subtab" data-subtab="impact-03">Impact</button>-->
 
       </div>
   

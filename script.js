@@ -438,6 +438,34 @@ if (tabKey) {
 });
 
 
+// CSV URL for Player Mappings (replace with real path)
+const playerMappingsCsvUrl = "https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/player_mappings_current.csv";
+
+// Load Player Mappings CSV
+function loadPlayerMappings() {
+  fetch(playerMappingsCsvUrl)
+    .then(res => res.text())
+    .then(csv => {
+      const lines = csv.trim().split("\n");
+      const headers = lines[0].split(",");
+      const rows = lines.slice(1).map(line => line.split(","));
+      renderTable(headers, rows, "player-mappings-table"); // same render fn as schedule
+    })
+    .catch(err => console.error("Error loading player mappings CSV:", err));
+}
+
+// Search filter for Player Mappings
+document.getElementById("playerMappingsSearch").addEventListener("input", (e) => {
+  const term = e.target.value.toLowerCase();
+  const table = document.querySelector("#player-mappings-table table");
+  if (!table) return;
+  table.querySelectorAll("tbody tr").forEach(row => {
+    row.style.display = row.textContent.toLowerCase().includes(term) ? "" : "none";
+  });
+});
+
+// Optionally trigger load when tab is clicked
+document.querySelector('[data-tab="player-mappings"]').addEventListener("click", loadPlayerMappings);
 
 
 // Stats tab data

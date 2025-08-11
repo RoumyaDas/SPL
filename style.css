@@ -726,6 +726,17 @@ body {
   color: white;
 }
 
+/* Optional: Ensure new tab content matches others */
+#player-mappings table {
+  border-collapse: collapse;
+  width: 100%;
+}
+#player-mappings th, #player-mappings td {
+  border: 1px solid #ccc;
+  padding: 5px;
+  text-align: left;
+}
+
 
 #squads .tabs button {
   padding: 10px 16px;
