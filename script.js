@@ -385,8 +385,8 @@ function loadSeasonSubtabContent(seasonId, type, matchNum, container) {
 }
 
 const tabSpecialstatsnames = [
-  "Phase-wise Batter", "Phase-wise Bowler", "Inning-wise Bowler", "Inning-wise Batter",
-  "Pitch-wise Bowler", "Bowl-type wise Batter", "Fastest-100", "Fastest-50",
+  "Phase-Pitch-wise Batter", "Phase-Pitch-wise Bowler", "Inning-Pitch-wise Bowler", "Inning-Pitch-wise Batter",
+  "Batter order-wise Bowler", "Bowler type-Phase wise Batter", "Fastest-100", "Fastest-50",
   "Fastest-5W-haul", "Fastest_3W-haul", "Pitch-Inning-wise Win%", 
   "Form_inning_1 Batter", "Form_inning_2 Batter", "Form_inning_1 Bowler",
   "Form_inning_2 Bowler", "Venue stats", "Pos.n-wise Batter (min. 100 balls)", "H2H stats (min. 15 balls)",
