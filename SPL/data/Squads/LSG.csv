@@ -1,7 +1,7 @@
 Name,Country,Specialism,Price,Func_Name,Spin/Pace,CORNERSTONE,injury
-Shreyas Iyer,India,BATTER,15.5,SS Iyer,0,,
-Arshdeep Singh,India,BOWLER,13.0,Arshdeep Singh,Pace,,
-Shubman Gill,India,BATTER,19.5,Shubman Gill,0,,
+Shreyas Iyer,India,BATTER,15.5,SS Iyer,0,1.0,
+Arshdeep Singh,India,BOWLER,13.0,Arshdeep Singh,Pace,1.0,
+Shubman Gill,India,BATTER,19.5,Shubman Gill,0,1.0,
 Sameer Rizvi,India,BATTER,5.0,Sameer Rizvi,Spin,,
 Abdul Samad,India,BATTER,5.0,Abdul Samad,Spin,,
 Jos Buttler,England,WICKETKEEPER,12.75,JC Buttler,0,,
