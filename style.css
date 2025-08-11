@@ -715,6 +715,18 @@ body {
   box-shadow: 0 0 6px rgba(0, 91, 181, 0.5);
 }
 
+.combined-points-subtab-content {
+  display: none;
+}
+.combined-points-subtab-content.active {
+  display: block;
+}
+.combined-points-subtab.active {
+  background-color: #444;
+  color: white;
+}
+
+
 #squads .tabs button {
   padding: 10px 16px;
   margin-right: 6px;

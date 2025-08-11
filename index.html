@@ -482,17 +482,25 @@
   <div id="sch-s04" class="schedule-table-container active"></div>
 </div>
 
-<!-- Combined Points table stuff-->
-<div id="combined" class="tab-content">
+<!-- Combined Points Table stuff-->
+<div class="tabs" id="combined-points-subtabs">
   <h2>Combined Points Table</h2>
-
-  <!-- Search Filter -->
-  <label for="combinedSearch">Search:</label>
-  <input type="text" id="combinedSearch" placeholder="Type to filter..." />
-
-  <!-- Table Output -->
-  <div id="combined-table-container" class="csv-table-output" style="margin-top: 10px;"></div>
+  <button class="combined-points-subtab active" data-subtab="cpt-current">Current Cycle</button>
+  <button class="combined-points-subtab" data-subtab="cpt-overall">Overall</button>
 </div>
+
+<label for="combinedSearch">Search:</label>
+<input type="text" id="combinedSearch" placeholder="Type to filter..." />
+
+<div id="cpt-current" class="combined-points-subtab-content active">
+  <div id="combined-table-container-current" class="csv-table-output" style="margin-top: 10px;"></div>
+</div>
+
+<div id="cpt-overall" class="combined-points-subtab-content">
+  <div id="combined-table-container-overall" class="csv-table-output" style="margin-top: 10px;"></div>
+</div>
+
+
 
 </body>
 </html>

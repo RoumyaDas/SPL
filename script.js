@@ -1089,13 +1089,20 @@ document.querySelectorAll(".squad-subtab").forEach(btn => {
 });
 
 // --- Combined Points Table Tab ---
-const combinedCsvUrl = "https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/combined_pts_table.csv";
+const combinedCsvUrlOverall = "https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/combined_pts_table.csv"; // Overall
+const combinedCsvUrlCurrent = "https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/combined_cc_pts_table.csv"; // Current cycle
 
-function renderCombinedTable(headers, rows, searchTerm = "") {
-  const container = document.getElementById("combined-table-container");
+// Store CSV data for both tables
+const combinedData = {
+  current: { headers: [], rows: [] },
+  overall: { headers: [], rows: [] }
+};
+
+function renderCombinedTable(headers, rows, containerId, searchTerm = "") {
+  const container = document.getElementById(containerId);
   container.innerHTML = "";
 
-  // Filter rows by search
+  // Filter rows by search term (only checks first column for now)
   const filtered = searchTerm
     ? rows.filter(row => row[0].toLowerCase().includes(searchTerm.toLowerCase()))
     : rows;
@@ -1113,7 +1120,7 @@ function renderCombinedTable(headers, rows, searchTerm = "") {
   });
   thead.appendChild(trHead);
 
-  // All rows (no slicing)
+  // All rows
   filtered.forEach(row => {
     const tr = document.createElement("tr");
     row.forEach(val => {
@@ -1129,20 +1136,41 @@ function renderCombinedTable(headers, rows, searchTerm = "") {
   container.appendChild(table);
 }
 
-// Load and render combined CSV
-fetch(combinedCsvUrl)
-  .then(res => res.text())
-  .then(csv => {
-    const lines = csv.trim().split("\n");
-    const headers = lines[0].split(",");
-    const rows = lines.slice(1).map(line => line.split(","));
+function loadCombinedCSV(url, key, containerId) {
+  fetch(url)
+    .then(res => res.text())
+    .then(csv => {
+      const lines = csv.trim().split("\n");
+      const headers = lines[0].split(",");
+      const rows = lines.slice(1).map(line => line.split(","));
+      combinedData[key] = { headers, rows };
+      renderCombinedTable(headers, rows, containerId);
+    })
+    .catch(err => console.error(`Error loading ${key} CSV:`, err));
+}
 
-    renderCombinedTable(headers, rows);
-
-    document.getElementById("combinedSearch").addEventListener("input", (e) => {
-      renderCombinedTable(headers, rows, e.target.value);
-    });
+// Tab switching
+document.querySelectorAll('.combined-points-subtab').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.combined-points-subtab').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.combined-points-subtab-content').forEach(c => c.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById(btn.dataset.subtab).classList.add('active');
   });
+});
+
+// Search filter — applies only to the active table
+document.getElementById("combinedSearch").addEventListener("input", (e) => {
+  const activeTabId = document.querySelector('.combined-points-subtab-content.active').id;
+  const key = activeTabId === "cpt-current" ? "current" : "overall";
+  const containerId = key === "current" ? "combined-table-container-current" : "combined-table-container-overall";
+  renderCombinedTable(combinedData[key].headers, combinedData[key].rows, containerId, e.target.value);
+});
+
+// Initial load
+loadCombinedCSV(combinedCsvUrlCurrent, "current", "combined-table-container-current");
+loadCombinedCSV(combinedCsvUrlOverall, "overall", "combined-table-container-overall");
+
 
 
 
