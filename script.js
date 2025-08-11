@@ -438,10 +438,48 @@ if (tabKey) {
 });
 
 
-// CSV URL for Player Mappings (replace with real path)
+// --- Player Name Mappings ---
 const playerMappingsCsvUrl = "https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/player_mappings_current.csv";
 
-// Load Player Mappings CSV
+function renderPlayerMappingsTable(headers, rows, searchTerm = "") {
+  const container = document.getElementById("player-mappings-table");
+  container.innerHTML = "";
+
+  // Filter rows
+  const filtered = searchTerm
+    ? rows.filter(row => row.join(" ").toLowerCase().includes(searchTerm.toLowerCase()))
+    : rows;
+
+  // Create table
+  const table = document.createElement("table");
+  const thead = document.createElement("thead");
+  const tbody = document.createElement("tbody");
+
+  // Header row
+  const trHead = document.createElement("tr");
+  headers.forEach(h => {
+    const th = document.createElement("th");
+    th.textContent = h;
+    trHead.appendChild(th);
+  });
+  thead.appendChild(trHead);
+
+  // Data rows
+  filtered.forEach(row => {
+    const tr = document.createElement("tr");
+    row.forEach(val => {
+      const td = document.createElement("td");
+      td.textContent = val;
+      tr.appendChild(td);
+    });
+    tbody.appendChild(tr);
+  });
+
+  table.appendChild(thead);
+  table.appendChild(tbody);
+  container.appendChild(table);
+}
+
 function loadPlayerMappings() {
   fetch(playerMappingsCsvUrl)
     .then(res => res.text())
@@ -449,23 +487,22 @@ function loadPlayerMappings() {
       const lines = csv.trim().split("\n");
       const headers = lines[0].split(",");
       const rows = lines.slice(1).map(line => line.split(","));
-      renderTable(headers, rows, "player-mappings-table"); // same render fn as schedule
+      renderPlayerMappingsTable(headers, rows);
+
+      // Attach search
+      document.getElementById("playerMappingsSearch").addEventListener("input", (e) => {
+        renderPlayerMappingsTable(headers, rows, e.target.value);
+      });
     })
-    .catch(err => console.error("Error loading player mappings CSV:", err));
+    .catch(err => {
+      console.error("Error loading player mappings CSV:", err);
+      document.getElementById("player-mappings-table").innerHTML = "<p>Error loading data.</p>";
+    });
 }
 
-// Search filter for Player Mappings
-document.getElementById("playerMappingsSearch").addEventListener("input", (e) => {
-  const term = e.target.value.toLowerCase();
-  const table = document.querySelector("#player-mappings-table table");
-  if (!table) return;
-  table.querySelectorAll("tbody tr").forEach(row => {
-    row.style.display = row.textContent.toLowerCase().includes(term) ? "" : "none";
-  });
-});
-
-// Optionally trigger load when tab is clicked
+// Load only when tab clicked
 document.querySelector('[data-tab="player-mappings"]').addEventListener("click", loadPlayerMappings);
+
 
 
 // Stats tab data
