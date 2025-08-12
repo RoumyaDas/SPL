@@ -514,7 +514,7 @@ const statsDisplayNames = [
   "Most 4s", "Most 6s", "Most_Run_Contribution", "Most_Wkt_Contribution", "Most_3wkt_hauls","Most_50+",
   "Lowest_Economy (min. 4 ovs)", "Best_Strike_Rate (min. 50 runs)", 
   "Team_best_Performance", "Match_Summary", 
-  "exit_pt_stats",
+  "Entry_Exit_pt_stats",
   "phase_bowl_stats", "Phase_wise_team_bowling", "Phase_wise_team_batting",
   "Partnership_stats (min. 20 balls)"
 ];
