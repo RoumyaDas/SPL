@@ -831,7 +831,7 @@ document.querySelectorAll(".season-subtab").forEach(btn => {
 
       for (let i = 1; i <= maxMatches; i++) {
         const matchNum = i.toString().padStart(3, '0');
-        const matchId = `S03M${matchNum}`;
+        const matchId = `S04M${matchNum}`;
         const opt = document.createElement("option");
         opt.value = matchId;
         opt.textContent = `Match ${matchNum}`;
@@ -855,7 +855,7 @@ document.querySelectorAll(".season-subtab").forEach(btn => {
           return;
         }
 
-        const url = `https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Season_03/Match_Breakdown/${matchId}_breakdown.txt`;
+        const url = `https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Season_04/Match_Breakdown/${matchId}_breakdown.txt`;
 
         fetch(url)
           .then(res => {
