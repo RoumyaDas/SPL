@@ -1,1 +1,5 @@
-match_id,innings,runs,balls,SR,final_score,total_balls,wkts,exit_pt_score,win,PP_perf,Middle_perf,Death_perf,batter,team
+match_id,innings,runs,balls,SR,final_score,total_balls,wkts,post_1st_strike_score,exit_pt_score,win,PP_perf,Middle_perf,Death_perf,batter,team
+S04M001,2,95,60,158.33,212,120,5,4-0(0.1),189-3(18.1),0,36 off 23,39 off 26,20 off 11,Ishan Kishan,MI
+S04M001,1,75,47,159.57,226,120,3,10-0(1.1),184-3(17.1),1,25 off 16,38 off 25,12 off 6,JP Inglis,GT
+S04M001,2,61,32,190.62,212,120,5,6-0(0.3),125-1(12.3),0,28 off 13,33 off 19,,Abhishek Sharma,MI
+S04M001,1,53,33,160.61,226,120,3,0-0(0.1),102-1(10.4),1,33 off 20,20 off 13,,RD Gaikwad,GT

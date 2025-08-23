@@ -4,7 +4,7 @@ DAJ Bracewell,5,169,108,10,pp,10.8,9.39,R.C.B.
 DS Rathi,5,157,114,10,middle,11.4,8.26,K.K.R.
 CV Varun,5,134,87,10,middle,8.7,9.24,P.B.K.S.
 Shakib Al Hasan,5,155,92,10,pp,9.2,10.11,P.B.K.S.
-Noor Ahmad,5,168,114,10,pp,11.4,8.84,G.T.
+Noor Ahmad,5,164,114,10,death,11.4,8.63,G.T.
 TA Boult,5,172,114,9,pp,12.67,9.05,M.I.
 B Kumar,5,185,111,9,death,12.33,10.0,K.K.R.
 Kuldeep Yadav,5,148,108,9,middle,12.0,8.22,S.R.H.
@@ -14,12 +14,12 @@ AD Russell,5,122,64,9,death,7.11,11.44,D.C.
 M Prasidh Krishna,5,177,120,8,middle,15.0,8.85,D.C.
 MP Yadav,5,149,87,8,middle,10.88,10.28,P.B.K.S.
 LS Livingstone,5,113,73,8,death,9.12,9.29,R.C.B.
-Rashid Khan,5,179,120,8,pp,15.0,8.95,G.T.
 JC Archer,5,173,105,8,death,13.12,9.89,L.S.G.
 SH Johnson,5,202,117,8,pp,14.62,10.36,K.K.R.
 AK Markram,5,195,108,8,middle,13.5,10.83,D.C.
 AJ Tye,5,184,96,8,pp,12.0,11.5,L.S.G.
 R Shepherd,5,212,114,8,death,14.25,11.16,G.T.
+Rashid Khan,5,186,120,7,pp,17.14,9.3,G.T.
 Naveen-ul-Haq,5,139,105,7,death,15.0,7.94,S.R.H.
 Shahbaz Ahmed,5,191,108,7,pp,15.43,10.61,G.T.
 Mohsin Khan,5,191,112,7,pp,16.0,10.23,L.S.G.
@@ -27,7 +27,7 @@ Atharva Ankolekar,3,119,71,7,death,10.14,10.06,M.I.
 V Puthur,4,153,84,7,middle,12.0,10.93,D.C.
 Tanush Kotian,5,149,90,7,pp,12.86,9.93,C.S.K.
 Akash Vasisht,3,91,60,7,middle,8.57,9.1,D.C.
-Avesh Khan,5,177,120,6,middle,20.0,8.85,G.T.
+Avesh Khan,5,201,120,6,middle,20.0,10.05,G.T.
 Jagjit Singh,5,172,114,6,middle,19.0,9.05,S.R.H.
 JR Hazlewood,5,187,120,6,pp,20.0,9.35,R.R.
 M Pathirana,5,189,114,6,death,19.0,9.95,R.C.B.
@@ -63,29 +63,29 @@ A Kamboj,3,107,66,4,middle,16.5,9.73,G.T.
 Zeeshan Ansari,2,91,48,4,death,12.0,11.38,S.R.H.
 HR Shokeen,5,176,97,4,middle,24.25,10.89,R.R.
 Mayank Dagar,5,190,120,4,pp,30.0,9.5,R.R.
-KA Maharaj,3,95,66,4,pp,16.5,8.64,S.R.H.
 Harpreet Brar,5,143,114,4,middle,28.5,7.53,P.B.K.S.
 GJ Maxwell,5,210,117,4,middle,29.25,10.77,R.R.
 M Siddharth,5,160,118,4,middle,29.5,8.14,C.S.K.
-C Sakariya,5,177,120,4,middle,30.0,8.85,S.R.H.
 MA Starc,5,231,114,4,pp,28.5,12.16,K.K.R.
-Mohammed Shami,5,166,102,4,pp,25.5,9.76,G.T.
+C Sakariya,5,177,120,4,middle,30.0,8.85,S.R.H.
+KA Maharaj,3,95,66,4,pp,16.5,8.64,S.R.H.
 Ashutosh Sharma,5,142,90,4,pp,22.5,9.47,R.C.B.
 Mukesh Kumar,5,162,102,4,pp,25.5,9.53,M.I.
 AR Patel,5,198,120,4,middle,30.0,9.9,C.S.K.
-TU Deshpande,4,134,90,3,middle,30.0,8.93,D.C.
 T Natarajan,5,214,108,3,pp,36.0,11.89,C.S.K.
-Azmatullah Omarzai,5,187,109,3,middle,36.33,10.29,S.R.H.
+TU Deshpande,4,134,90,3,middle,30.0,8.93,D.C.
 JG Bethell,3,96,50,3,middle,16.67,11.52,S.R.H.
-GD Phillips,3,52,36,3,middle,12.0,8.67,G.T.
+Azmatullah Omarzai,5,187,109,3,middle,36.33,10.29,S.R.H.
 Sandeep Sharma,5,190,107,3,middle,35.67,10.65,R.R.
 SZ Mulani,3,118,72,3,middle,24.0,9.83,L.S.G.
 N Rana,4,93,72,3,middle,24.0,7.75,P.B.K.S.
 SP Narine,5,166,120,3,middle,40.0,8.3,K.K.R.
 JD Unadkat,4,156,96,3,middle,32.0,9.75,G.T.
+GD Phillips,4,85,54,3,middle,18.0,9.44,G.T.
 Mustafizur Rahman,5,211,114,3,pp,38.0,11.11,M.I.
 KK Ahmed,5,159,101,3,pp,33.67,9.45,M.I.
 M Markande,5,153,108,3,middle,36.0,8.5,S.R.H.
+Mohammed Shami,5,178,108,3,pp,36.0,9.89,G.T.
 K Kartikeya,3,94,53,2,middle,26.5,10.64,G.T.
 C Green,5,138,78,2,middle,39.0,10.62,K.K.R.
 AS Roy,5,169,96,2,pp,48.0,10.56,L.S.G.
@@ -95,25 +95,25 @@ Arshdeep Singh,5,154,120,2,pp,60.0,7.7,L.S.G.
 OEG Baartman,4,154,87,2,death,43.5,10.62,C.S.K.
 BJ McMullen,5,94,66,2,middle,33.0,8.55,R.R.
 Mohammed Siraj,5,149,102,2,pp,51.0,8.76,L.S.G.
-SN Thakur,2,71,42,2,pp,21.0,10.14,R.R.
 R Tewatia,3,55,30,2,middle,15.0,11.0,K.K.R.
+SN Thakur,2,71,42,2,pp,21.0,10.14,R.R.
 N Sindhu,2,77,30,1,pp,30.0,15.4,D.C.
 S Dube,2,33,18,1,middle,18.0,11.0,R.R.
 Nithish Kumar Reddy,1,52,24,1,death,24.0,13.0,S.R.H.
-V Kaverappa,1,41,24,1,pp,24.0,10.25,L.S.G.
 RA Jadeja,5,129,74,1,death,74.0,10.46,R.C.B.
+V Kaverappa,1,41,24,1,pp,24.0,10.25,L.S.G.
 Naman Dhir,2,35,30,1,middle,30.0,7.0,G.T.
-VR Iyer,2,40,18,0,pp,40.0,13.33,S.R.H.
-Ramandeep Singh,3,29,24,0,middle,29.0,7.25,L.S.G.
 Abdul Samad,2,14,12,0,middle,14.0,7.0,L.S.G.
 Abhishek Sharma,5,129,78,0,middle,129.0,9.92,M.I.
 WL Madsen,2,18,12,0,pp,18.0,9.0,M.I.
+VR Iyer,2,40,18,0,pp,40.0,13.33,S.R.H.
 DJ Hooda,5,39,30,0,pp,39.0,7.8,L.S.G.
 DG Nalkande,1,36,24,0,middle,36.0,9.0,S.R.H.
 Tilak Varma,2,53,30,0,death,53.0,10.6,C.S.K.
 M Shahrukh Khan,1,21,12,0,middle,21.0,10.5,G.T.
-MP Stoinis,5,90,57,0,middle,90.0,9.47,G.T.
-R Parag,5,86,54,0,middle,86.0,9.56,G.T.
-Suyash Sharma,5,175,108,0,middle,175.0,9.72,K.K.R.
+Ramandeep Singh,3,29,24,0,middle,29.0,7.25,L.S.G.
+R Parag,5,84,54,0,middle,84.0,9.33,G.T.
 MM Sharma,2,29,12,0,pp,29.0,14.5,R.R.
+Suyash Sharma,5,175,108,0,middle,175.0,9.72,K.K.R.
+MP Stoinis,5,90,57,0,middle,90.0,9.47,G.T.
 V Nigam,1,40,24,0,middle,40.0,10.0,M.I.
