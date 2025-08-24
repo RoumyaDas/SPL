@@ -1423,7 +1423,7 @@ document.addEventListener("DOMContentLoaded", () => {
     '170725_RCB_KKR.txt','170725_MI_DC.txt','180725_SRH_LSG.txt','180725_GT_RR.txt',
     '200725_GT_RCB_Q1.txt','210725_MI_DC_E.txt','220725_MI_RCB_Q2.txt','230725_GT_MI_GF.txt',
     '270725_S04_retentions_special.txt','270725_S04_retentions.txt','020825_S04_mega_day_1.txt','030825_S04_mega_day_2.txt','040825_S04_mega_day_3.txt','060825_S04_mega_day_4.txt',
-    '240825_GT_MI.txt'
+    '240825_GT_MI.txt','240825_RCB_DC.txt','240825_CSK_SRH.txt','240825_PBKS_KKR.txt','240825_RR_LSG.txt'
     ]
     ;
 
