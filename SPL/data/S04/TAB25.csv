@@ -1,20 +1,28 @@
 partners,batting_team,runs,balls,outs,fours,sixes,SR,Bat_avg,bpb
-Abhishek Sharma  - Ishan Kishan,MI,125,75,1,15,3,166.67,125,4.17
-Q de Kock  - RM Patidar,KKR,116,73,1,12,4,158.9,116,4.56
-Smaran Ravichandran  - V Suryavanshi,PBKS,111,59,1,11,4,188.14,111,3.93
-RD Rickelton  - Shubman Gill,LSG,104,54,1,9,5,192.59,104,3.86
-JP Inglis  - RD Gaikwad,GT,102,64,1,12,1,159.38,102,4.92
-Abishek Porel  - MJ Owen,DC,94,51,1,8,5,184.31,94,3.92
-DS Airee  - JM Sharma,RCB,70,40,1,6,4,175.0,70,4.0
-Aniket Verma  - S Dube,RR,69,34,1,2,6,202.94,69,4.25
-JP Inglis  - Naman Dhir,GT,66,29,1,7,3,227.59,66,2.9
-MW Short  - SA Yadav,DC,65,39,1,8,2,166.67,65,3.9
-CH Gayle  - SPD Smith,CSK,65,40,1,2,5,162.5,65,5.71
-AM Rahane  - Ishan Kishan,MI,60,32,1,5,1,187.5,60,5.33
-N Wadhera  - RM Patidar,KKR,56,25,1,5,2,224.0,56,3.57
-Aniket Verma  - BJ McMullen,RR,53,28,1,6,2,189.29,53,3.5
-KL Rahul  - Priyansh Arya,SRH,50,28,1,5,4,178.57,50,3.11
-DS Airee  - RA Jadeja,RCB,43,30,1,2,1,143.33,43,10.0
-B Sai Sudharsan  - SPD Smith,CSK,40,32,1,4,1,125.0,40,6.4
-BM Duckett  - V Suryavanshi,PBKS,37,29,1,2,2,127.59,37,7.25
-SS Iyer  - WG Jacks,LSG,32,20,1,2,1,160.0,32,6.67
+RD Rickelton  - Shubman Gill,LSG,142,81,2,10,9,175.31,71.0,4.26
+P Simran Singh  - Priyansh Arya,SRH,139,84,1,13,2,165.48,139.0,5.6
+Abishek Porel  - MJ Owen,DC,129,69,2,10,7,186.96,64.5,4.06
+Abhishek Sharma  - Ishan Kishan,MI,125,75,1,15,3,166.67,125.0,4.17
+Q de Kock  - RM Patidar,KKR,116,73,1,12,4,158.9,116.0,4.56
+Smaran Ravichandran  - V Suryavanshi,PBKS,111,59,1,11,4,188.14,111.0,3.93
+JP Inglis  - RD Gaikwad,GT,102,64,1,12,1,159.38,102.0,4.92
+PD Salt  - Rahul Singh,RCB,87,59,1,10,1,147.46,87.0,5.36
+MJ Owen  - MW Short,DC,78,47,1,8,3,165.96,78.0,4.27
+DS Airee  - JM Sharma,RCB,70,40,1,6,4,175.0,70.0,4.0
+Aniket Verma  - S Dube,RR,69,34,1,2,6,202.94,69.0,4.25
+MW Short  - SA Yadav,DC,66,41,2,8,2,160.98,33.0,4.1
+JP Inglis  - Naman Dhir,GT,66,29,1,7,3,227.59,66.0,2.9
+CH Gayle  - SPD Smith,CSK,65,40,1,2,5,162.5,65.0,5.71
+AM Rahane  - Ishan Kishan,MI,60,32,1,5,1,187.5,60.0,5.33
+SS Iyer  - WG Jacks,LSG,59,44,2,3,2,134.09,29.5,8.8
+N Sindhu  - V Kohli,DC,58,39,2,10,0,148.72,29.0,3.9
+N Wadhera  - RM Patidar,KKR,56,25,1,5,2,224.0,56.0,3.57
+Aniket Verma  - BJ McMullen,RR,53,28,1,6,2,189.29,53.0,3.5
+KL Rahul  - Priyansh Arya,SRH,50,28,1,5,4,178.57,50.0,3.11
+DS Airee  - RA Jadeja,RCB,43,30,1,2,1,143.33,43.0,10.0
+CH Morris  - Urvil Patel,DC,43,25,0,5,1,172.0,inf,4.17
+B Sai Sudharsan  - SPD Smith,CSK,40,32,1,4,1,125.0,40.0,6.4
+BM Duckett  - V Suryavanshi,PBKS,37,29,1,2,2,127.59,37.0,7.25
+RD Rickelton  - WG Jacks,LSG,34,26,2,2,2,130.77,17.0,6.5
+Ashutosh Sharma  - Rahul Singh,RCB,28,22,1,3,0,127.27,28.0,7.33
+Ashutosh Sharma  - JM Sharma,RCB,28,20,1,2,1,140.0,28.0,6.67
