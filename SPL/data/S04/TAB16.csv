@@ -1,7 +1,9 @@
 striker,batting_team,num_innings,50+_scores,runs,strike_rate,100+_scores
-MJ Owen,DC,2,2,119,191.94,0
+MJ Owen,DC,3,2,154,192.5,0
+RD Rickelton,LSG,3,2,143,193.24,0
 Abhishek Sharma,MI,2,2,111,191.38,0
 V Suryavanshi,PBKS,2,1,139,193.06,0
+Shubman Gill,LSG,3,1,137,145.74,0
 JM Sharma,RCB,3,1,126,177.46,0
 AB de Villiers,RR,2,1,120,179.1,1
 Priyansh Arya,SRH,3,1,113,171.21,0
@@ -9,12 +11,12 @@ PD Salt,RCB,3,1,112,175.0,0
 RM Patidar,KKR,2,1,111,170.77,0
 KL Rahul,SRH,3,1,111,160.87,0
 JP Inglis,GT,2,1,106,168.25,0
+Sameer Rizvi,LSG,3,1,101,229.55,0
 Smaran Ravichandran,PBKS,2,1,100,181.82,0
-Sameer Rizvi,LSG,2,1,97,248.72,0
 Aniket Verma,RR,2,1,96,184.62,0
 Ishan Kishan,MI,1,1,95,158.33,0
 R Parag,GT,2,1,93,226.83,0
-RD Rickelton,LSG,2,1,88,183.33,0
+SA Yadav,DC,3,1,89,150.85,0
 P Simran Singh,SRH,2,1,88,160.0,0
 B Sai Sudharsan,CSK,2,1,84,161.54,0
 Q de Kock,KKR,2,1,83,136.07,0
@@ -24,4 +26,3 @@ RD Gaikwad,GT,2,1,68,147.83,0
 YBK Jaiswal,RR,2,1,65,250.0,0
 Rahul Singh,RCB,1,1,57,129.55,0
 TM Head,MI,1,1,51,145.71,0
-SA Yadav,DC,2,1,50,178.57,0
