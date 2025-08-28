@@ -17,7 +17,7 @@ document.querySelectorAll(".season-tab").forEach(btn => {
 const specialCsvBase = "https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/special_stats/";
 let specialCsvData = {}; // cache
 
-const tabKeys = Array.from({ length: 25 }, (_, i) => `tab${i + 1}`);
+const tabKeys = Array.from({ length: 27 }, (_, i) => `tab${i + 1}`);
 // tabs for special stats, change if length needs to be changed
 
 const parseCustomCSV = (csv) => {
@@ -391,6 +391,7 @@ const tabSpecialstatsnames = [
   "Form_inning_1 Batter", "Form_inning_2 Batter", "Form_inning_1 Bowler",
   "Form_inning_2 Bowler", "Venue stats", "Pos.n-wise Batter (min. 100 balls)", "H2H stats (min. 15 balls)",
   "Partnership stats (min. 50 balls)", "Home-Away record", "Venue-wise Bowler", "Venue-wise Batter",
+  "Opposition-wise Bowler","Opposition-wise Batter",
   "Indi. Impact list (>=50 pts)", "Bowl-type wise Team",
   "Team-v-Team record" // fill with whatever name you want
 ];
