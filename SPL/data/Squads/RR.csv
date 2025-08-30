@@ -1,11 +1,12 @@
 Name,Country,Specialism,Price,Func_Name,Spin/Pace,CORNERSTONE,injury
 Glenn Maxwell,Australia,ALL-ROUNDER,24.0,GJ Maxwell,Spin,1.0,
-AB De Villiers,South Africa,BATTER,12.0,AB de Villiers,0,,
 Aniket Verma,India,BATTER,6.0,Aniket Verma,Pace,1.0,
+AB De Villiers,South Africa,BATTER,12.0,AB de Villiers,0,,
 Shivam Dube,India,BATTER,12.0,S Dube,Pace,,
 Yashasvi Jaiswal,India,BATTER,15.0,YBK Jaiswal,0,1.0,
 Mayank Agarawal,India,BATTER,1.2,MA Agarwal,0,,
 Mohd. Arshad Khan,India,ALL-ROUNDER,6.5,Arshad Khan,Pace,,
+Harshal Patel,India,BOWLER,8.25,HV Patel,Pace,,"2 games (M10, M15)"
 Pat Cummins,Australia,BOWLER,3.5,PJ Cummins,Pace,,
 Josh Hazlewood,Australia,BOWLER,11.0,JR Hazlewood,Pace,,
 Ashwani Kumar,India,BOWLER,0.4,Ashwani Kumar,Pace,,
@@ -15,7 +16,6 @@ Harsh Dubey,India,ALL-ROUNDER,1.5,Harsh Dubey,Spin,,
 Adam Zampa,Australia,BOWLER,9.5,A Zampa,Spin,,
 Mayank Dagar,India,BOWLER,3.5,Mayank Dagar,Spin,,
 Hritik Shokeen,India,BOWLER,0.4,HR Shokeen,Spin,,
-Harshal Patel,India,BOWLER,8.25,HV Patel,Pace,,"2 games (M10, M15)"
 Lhuan Dre Pretorius,South Africa,WICKETKEEPER,1.0,LG Pretorius,0,,
 Tim David,Australia,BATTER,1.8,TH David,Spin,,
 Ravichandaran Ashwin,India,BOWLER,1.6,R Ashwin,Spin,,
