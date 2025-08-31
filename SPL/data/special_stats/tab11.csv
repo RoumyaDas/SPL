@@ -1,6 +1,6 @@
 pitch,inning,team,wins,matches,win%
 neutralish,1,CSK,0,3,0.0
-neutralish,1,DC,5,8,62.5
+neutralish,1,DC,6,9,66.67
 neutralish,1,GT,2,5,40.0
 neutralish,1,KKR,0,1,0.0
 neutralish,1,MI,0,3,0.0
@@ -10,7 +10,7 @@ neutralish,1,RR,2,4,50.0
 neutralish,1,SRH,2,4,50.0
 neutralish,2,CSK,1,2,50.0
 neutralish,2,DC,2,4,50.0
-neutralish,2,GT,4,5,80.0
+neutralish,2,GT,4,6,66.67
 neutralish,2,KKR,1,2,50.0
 neutralish,2,LSG,3,4,75.0
 neutralish,2,MI,3,3,100.0
@@ -24,7 +24,7 @@ pace,1,GT,6,12,50.0
 pace,1,KKR,10,17,58.82
 pace,1,LSG,4,9,44.44
 pace,1,MI,6,15,40.0
-pace,1,PBKS,4,8,50.0
+pace,1,PBKS,4,9,44.44
 pace,1,RCB,7,14,50.0
 pace,1,RR,2,6,33.33
 pace,1,SRH,2,5,40.0
@@ -37,8 +37,8 @@ pace,2,MI,8,13,61.54
 pace,2,PBKS,4,11,36.36
 pace,2,RCB,6,14,42.86
 pace,2,RR,8,15,53.33
-pace,2,SRH,3,7,42.86
-spin,1,CSK,3,5,60.0
+pace,2,SRH,4,8,50.0
+spin,1,CSK,3,6,50.0
 spin,1,DC,4,9,44.44
 spin,1,GT,3,7,42.86
 spin,1,KKR,4,8,50.0
@@ -53,7 +53,7 @@ spin,2,DC,5,9,55.56
 spin,2,GT,7,12,58.33
 spin,2,KKR,0,5,0.0
 spin,2,LSG,6,11,54.55
-spin,2,MI,1.5,7,21.43
+spin,2,MI,2.5,8,31.25
 spin,2,PBKS,7,13,53.85
 spin,2,RCB,2,10,20.0
 spin,2,RR,4,7,57.14
