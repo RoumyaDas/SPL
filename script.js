@@ -560,6 +560,20 @@ if (tabKey) {
 
 });
 
+// 🧹 Clear Special Stats filters
+document.getElementById("clearSpecialFilters").addEventListener("click", () => {
+  const activeTab = document.querySelector("#special-subtabs button.active");
+  const tabKey = activeTab?.dataset.tabkey;
+  if (tabKey) {
+    const stateKey = `special:${tabKey}`;
+    columnFilterState[stateKey] = {}; // reset filter state
+    // clear inputs
+    document.querySelectorAll("#special-table-container thead .col-filter")
+      .forEach(inp => inp.value = "");
+    // re-render
+    renderSpecialTable(tabKey, document.getElementById("specialSearch").value, 1);
+  }
+});
 
 // --- Player Name Mappings ---
 const playerMappingsCsvUrl = "https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/player_mappings_current.csv";

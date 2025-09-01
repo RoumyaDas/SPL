@@ -287,6 +287,10 @@
   <label for="specialSearch">Search:</label>
   <input type="text" id="specialSearch" placeholder="Type to filter..." />
 
+  <input type="text" id="specialSearch" placeholder="Search special stats..." />
+  <button id="clearSpecialFilters">Clear Filters</button>
+
+
   <!-- Subtabs -->
   <div class="tabs" id="special-subtabs">
     <!-- JS will auto-populate N number of buttons here -->
@@ -500,6 +504,9 @@ document.getElementById("careerSearch").addEventListener("input", () => {
 });
 </script>
 
+<input type="text" id="careerSearch" placeholder="Search career..." />
+<button id="clearCareerFilters">Clear Filters</button>
+
 
 <script>
   fetch("https://raw.githubusercontent.com/RoumyaDas/SPL/main/README.md")
@@ -507,7 +514,7 @@ document.getElementById("careerSearch").addEventListener("input", () => {
     .then(text => {
       document.getElementById('readme-content').textContent = text;
     });
-  </script>
+</script>
 
 <!-- Schedule tab stuff-->
 <div id="schedule" class="tab-content">
