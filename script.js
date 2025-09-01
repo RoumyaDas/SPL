@@ -3,6 +3,102 @@ let currentPage = 1;
 const pageSize = 10;
 
 
+/// filtration stuff
+
+// === Column Filters: generic engine ===
+const columnFilterState = {};            // key -> { colIndex: {text}|{min,max} }
+const DEBOUNCE_MS = 180;
+
+function debounce(fn, ms){ let t; return (...a)=>{ clearTimeout(t); t=setTimeout(()=>fn(...a), ms); }; }
+
+// robust numeric parser (handles %, commas, currency)
+function toNumber(v){
+  if (v == null) return null;
+  const n = parseFloat(String(v).replace(/[^0-9.\-]/g, ""));
+  return Number.isNaN(n) ? null : n;
+}
+
+// Detect column types from sample of data
+function inferTypes(rows, headers, isArrayRows){
+  return headers.map((h,i)=>{
+    let num=0, tot=0;
+    for (const r of rows){
+      const raw = isArrayRows ? r[i] : r[h];
+      if (raw === "" || raw == null) continue;
+      tot++; if (toNumber(raw) !== null) num++;
+      if (tot >= 50) break;              // cap sampling
+    }
+    return (tot && num / tot >= 0.8) ? "number" : "text";
+  });
+}
+
+// Apply filters to rows
+function applyFilters(rows, headers, types, filters, isArrayRows){
+  return rows.filter(r => headers.every((h,i)=>{
+    const raw = isArrayRows ? r[i] : r[h];
+    if (types[i] === "number"){
+      const val = toNumber(raw);
+      const f = filters?.[i] || {};
+      if (f.min != null && (val == null || val < f.min)) return false;
+      if (f.max != null && (val == null || val > f.max)) return false;
+      return true;
+    } else {
+      const q = (filters?.[i]?.text || "").trim().toLowerCase();
+      if (!q) return true;
+      return String(raw ?? "").toLowerCase().includes(q);
+    }
+  }));
+}
+
+// Build the second header row with inputs
+function buildFilterRow(thead, headers, types, stateKey, onChange){
+  const filters = columnFilterState[stateKey] || {};
+  const tr = document.createElement("tr");
+
+  headers.forEach((h,i)=>{
+    const th = document.createElement("th");
+    th.style.padding = "2px 4px";
+
+    if (types[i] === "number"){
+      const wrap = document.createElement("div");
+      wrap.className = "num-range";
+      const min = document.createElement("input");
+      const max = document.createElement("input");
+      min.type = "number"; max.type = "number";
+      min.placeholder = "min"; max.placeholder = "max";
+      min.className = "col-filter"; max.className = "col-filter";
+      if (filters[i]?.min != null) min.value = filters[i].min;
+      if (filters[i]?.max != null) max.value = filters[i].max;
+
+      const fire = debounce(()=>{
+        columnFilterState[stateKey] = { ...(columnFilterState[stateKey]||{}),
+          [i]: { min: min.value === "" ? null : Number(min.value),
+                 max: max.value === "" ? null : Number(max.value) }
+        };
+        onChange();
+      }, DEBOUNCE_MS);
+      min.addEventListener("input", fire); max.addEventListener("input", fire);
+
+      wrap.append(min, max);
+      th.appendChild(wrap);
+    } else {
+      const inp = document.createElement("input");
+      inp.type = "text"; inp.placeholder = "contains";
+      inp.className = "col-filter";
+      if (filters[i]?.text) inp.value = filters[i].text;
+      inp.addEventListener("input", debounce(()=>{
+        columnFilterState[stateKey] = { ...(columnFilterState[stateKey]||{}), [i]: { text: inp.value } };
+        onChange();
+      }, DEBOUNCE_MS));
+      th.appendChild(inp);
+    }
+    tr.appendChild(th);
+  });
+
+  thead.appendChild(tr);
+}
+
+
 // Season tabs switching
 document.querySelectorAll(".season-tab").forEach(btn => {
   btn.addEventListener("click", () => {
@@ -119,6 +215,10 @@ function renderSpecialTable(tabKey, searchTerm = "", page = 1) {
     return;
   }
 
+   // 🆕 infer types + make state key
+  const types = inferTypes(rows, headers, false);
+  const stateKey = `special:${tabKey}`;
+
   // 🔍 Filter rows
   let filteredRows = rows;
   if (searchTerm) {
@@ -126,6 +226,15 @@ function renderSpecialTable(tabKey, searchTerm = "", page = 1) {
       headers.some(h => row[h]?.toLowerCase().includes(searchTerm.toLowerCase()))
     );
   }
+
+  // ⬇️ add column filter step here
+  filteredRows = applyFilters(
+    filteredRows,
+    headers,
+    types,
+    columnFilterState[stateKey],
+    false
+  );
 
   // 🔃 Sort if configured
   if (specialSortConfig.tabKey === tabKey && specialSortConfig.column !== null) {
@@ -175,6 +284,19 @@ function renderSpecialTable(tabKey, searchTerm = "", page = 1) {
   });
   thead.appendChild(headRow);
   table.appendChild(thead);
+
+  buildFilterRow(
+  thead, 
+  headers, 
+  types, 
+  stateKey, 
+  () => renderSpecialTable(
+    tabKey, 
+    document.getElementById("specialSearch").value, 
+    1
+  )
+);
+
 
   // ⬇️ Paginate rows
   const rowsPerPage = 20;
