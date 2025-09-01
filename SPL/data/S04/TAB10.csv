@@ -1,68 +1,72 @@
 bowler,bowling_team,num_innings,dots,balls,dot_%
 Ravi Bishnoi,LSG,4,47,96,48.96
 Arshdeep Singh,LSG,5,37,120,30.83
+Shashank Singh,PBKS,5,34,90,37.78
 JR Hazlewood,RR,3,32,72,44.44
+T Natarajan,CSK,5,32,120,26.67
 Khrievitso Kense,RCB,3,31,72,43.06
 B Kumar,KKR,4,31,87,35.63
+Avesh Khan,GT,5,30,120,25.0
 WG Jacks,LSG,5,29,120,24.17
 Naveen-ul-Haq,SRH,3,28,72,38.89
-T Natarajan,CSK,4,28,96,29.17
-Shashank Singh,PBKS,4,27,66,40.91
-Avesh Khan,GT,4,26,96,27.08
+Yash Thakur,CSK,3,26,51,50.98
+Noor Ahmad,GT,4,26,96,27.08
+Tanush Kotian,CSK,5,25,84,29.76
+MP Yadav,PBKS,4,24,78,30.77
+Ashwani Kumar,RR,4,24,84,28.57
 MA Starc,KKR,2,23,43,53.49
-Tanush Kotian,CSK,4,23,60,38.33
 TA Boult,MI,2,22,48,45.83
-Noor Ahmad,GT,3,22,72,30.56
-Yash Thakur,CSK,2,21,33,63.64
 Yuvraj Singh,RCB,2,21,48,43.75
 Jagjit Singh,SRH,2,21,48,43.75
-Ashwani Kumar,RR,3,20,60,33.33
-MP Yadav,PBKS,3,20,66,30.3
 Mohammad Nabi,LSG,3,20,72,27.78
 C Sakariya,SRH,3,20,72,27.78
 R Shepherd,GT,2,19,48,39.58
 YS Chahal,RCB,3,19,66,28.79
 NT Ellis,SRH,3,19,72,26.39
+SL Malinga,PBKS,4,19,83,22.89
 M Prasidh Krishna,DC,4,19,96,19.79
 AK Markram,DC,2,18,48,37.5
+Shakib Al Hasan,PBKS,2,18,48,37.5
+Harsh Dubey,RR,3,18,60,30.0
+HV Patel,RR,3,18,72,25.0
 PJ Cummins,RR,2,17,48,35.42
 C Green,KKR,3,17,54,31.48
+Arshad Khan,RR,3,17,60,28.33
 DS Airee,RCB,3,17,60,28.33
+GD Phillips,GT,4,17,66,25.76
+M Siddharth,CSK,3,17,72,23.61
+Washington Sundar,PBKS,4,17,78,21.79
 Suyash Sharma,KKR,2,16,42,38.1
 V Puthur,DC,2,16,42,38.1
 KA Maharaj,SRH,2,16,42,38.1
-M Siddharth,CSK,2,16,48,33.33
 S Lamichhane,DC,3,16,53,30.19
 HH Pandya,MI,3,16,54,29.63
-SL Malinga,PBKS,3,16,65,24.62
+GJ Maxwell,RR,4,16,66,24.24
 CH Morris,DC,3,16,72,22.22
+Swapnil Singh,GT,2,15,48,31.25
 Akash Vasisht,DC,2,15,48,31.25
 Suryansh Shedge,CSK,3,15,60,25.0
 Akash Madhwal,CSK,2,14,40,35.0
-Arshad Khan,RR,2,14,42,33.33
 R Sai Kishore,MI,2,14,48,29.17
-GD Phillips,GT,3,14,48,29.17
-GJ Maxwell,RR,3,14,54,25.93
 LS Livingstone,RCB,3,14,60,23.33
 PHKD Mendis,SRH,3,13,44,29.55
+A Zampa,RR,2,13,48,27.08
 Kuldeep Yadav,SRH,2,13,48,27.08
 SA Abbott,DC,2,13,48,27.08
 Mohammed Shami,GT,2,13,48,27.08
-HV Patel,RR,2,13,48,27.08
 Nithish Kumar Reddy,SRH,3,13,48,27.08
 Bal Krishna,PBKS,3,13,66,19.7
+AR Patel,CSK,3,13,72,18.06
+Rashid Khan,GT,3,13,72,18.06
 KR Sen,LSG,2,12,36,33.33
-Harsh Dubey,RR,2,12,42,28.57
 Sami Sohail,MI,2,12,45,26.67
 DAJ Bracewell,RCB,2,12,48,25.0
 M Pathirana,RCB,2,12,48,25.0
 MA Wood,PBKS,3,12,60,20.0
-Shakib Al Hasan,PBKS,1,11,24,45.83
 Ashutosh Sharma,RCB,2,11,30,36.67
 SP Narine,KKR,2,11,42,26.19
 Sikandar Raza,MI,2,11,48,22.92
 JJ Bumrah,MI,2,11,48,22.92
-Washington Sundar,PBKS,3,11,54,20.37
 M Markande,SRH,1,10,18,55.56
 Harshit Rana,KKR,1,10,24,41.67
 Ashutosh Aman,RCB,1,10,24,41.67
@@ -71,6 +75,7 @@ JC Archer,LSG,2,10,48,20.83
 RA Jadeja,RCB,4,10,54,18.52
 R Tewatia,KKR,2,9,36,25.0
 Abhishek Sharma,MI,2,9,36,25.0
+CV Varun,PBKS,2,9,42,21.43
 KH Pandya,SRH,2,9,48,18.75
 Bilal Zalmai,MI,2,9,48,18.75
 KK Ahmed,MI,2,9,48,18.75
@@ -79,9 +84,7 @@ HR Shokeen,RR,1,8,18,44.44
 Abid Mushtaq,DC,1,8,24,33.33
 Mohammad Ghazanfar,SRH,2,8,48,16.67
 Rasikh Salam,GT,2,8,48,16.67
-AR Patel,CSK,2,8,48,16.67
 Z Khan,KKR,1,7,18,38.89
-A Zampa,RR,1,7,24,29.17
 Sandeep Sharma,RR,1,6,22,27.27
 D Wiese,GT,1,6,24,25.0
 Atharva Ankolekar,MI,1,6,24,25.0
@@ -90,17 +93,15 @@ VG Arora,KKR,1,6,24,25.0
 TU Deshpande,DC,1,6,24,25.0
 DJ Bravo,RCB,2,6,42,14.29
 MJ Owen,DC,3,6,44,13.64
-Rashid Khan,GT,2,6,48,12.5
 Mayank Dagar,RR,1,5,14,35.71
 D Visser,RCB,1,5,18,27.78
 Yuvraj Chaudhary,RCB,2,5,18,27.78
-CV Varun,PBKS,1,5,24,20.83
 Abdul Samad,LSG,3,4,18,22.22
-Swapnil Singh,GT,1,4,24,16.67
 KA Pollard,CSK,1,4,24,16.67
 Ramandeep Singh,LSG,1,3,6,50.0
 Chirag Jani,PBKS,1,3,12,25.0
 Tilak Varma,CSK,1,3,12,25.0
+R Parag,GT,3,3,18,16.67
 Simarjeet Singh,KKR,1,3,24,12.5
 Mohammed Siraj,LSG,1,3,24,12.5
 A Sheth,DC,1,3,24,12.5
@@ -113,7 +114,6 @@ JG Bethell,SRH,1,2,10,20.0
 MW Short,DC,2,2,12,16.67
 PWH de Silva,PBKS,1,2,12,16.67
 Yudhvir Singh,RCB,1,2,12,16.67
-R Parag,GT,2,2,12,16.67
 Harpreet Brar,PBKS,1,2,18,11.11
 AM Rahane,MI,1,1,6,16.67
 BJ McMullen,RR,2,1,12,8.33

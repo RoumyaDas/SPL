@@ -1,31 +1,32 @@
 striker,batting_team,num_innings,50+_scores,runs,strike_rate,100+_scores
+B Sai Sudharsan,CSK,5,3,280,175.0,1
 RD Rickelton,LSG,5,3,211,186.73,0
 Abhishek Sharma,MI,4,3,207,189.91,0
+JP Inglis,GT,5,2,251,174.31,1
 MJ Owen,DC,5,2,221,181.15,0
+Smaran Ravichandran,PBKS,5,2,206,149.28,0
 Abishek Porel,DC,5,2,202,181.98,0
-RD Gaikwad,GT,4,2,187,173.15,0
-Smaran Ravichandran,PBKS,4,2,179,159.82,0
-Aniket Verma,RR,4,2,156,156.0,0
-B Sai Sudharsan,CSK,4,2,149,158.51,0
+AB de Villiers,RR,5,2,198,172.17,1
+RD Gaikwad,GT,5,2,191,172.07,0
+Aniket Verma,RR,5,2,165,155.66,0
 Q de Kock,KKR,4,2,142,140.59,0
+Naman Dhir,GT,5,1,197,193.14,0
 JM Sharma,RCB,5,1,194,183.02,0
+GJ Maxwell,RR,5,1,192,164.1,1
+R Parag,GT,5,1,182,219.28,0
+V Suryavanshi,PBKS,5,1,176,164.49,0
 KL Rahul,SRH,5,1,176,155.75,0
 Shubman Gill,LSG,5,1,176,133.33,0
 N Sindhu,DC,5,1,175,173.27,0
 PD Salt,RCB,5,1,167,173.96,0
 PHKD Mendis,SRH,5,1,166,171.13,0
-V Suryavanshi,PBKS,4,1,165,175.53,0
-GJ Maxwell,RR,4,1,163,169.79,1
+SV Samson,GT,5,1,160,164.95,0
 RM Patidar,KKR,4,1,154,154.0,0
-SV Samson,GT,4,1,153,170.0,0
-JP Inglis,GT,4,1,151,167.78,0
-Naman Dhir,GT,4,1,150,208.33,0
-CH Gayle,CSK,4,1,145,138.1,0
-R Parag,GT,4,1,139,217.19,0
-AB de Villiers,RR,4,1,134,169.62,1
+BJ McMullen,RR,3,1,153,154.55,0
+BM Duckett,PBKS,5,1,147,133.64,0
+CH Gayle,CSK,5,1,146,136.45,0
 SS Iyer,LSG,4,1,134,148.89,0
 N Pooran,MI,4,1,133,190.0,0
-BM Duckett,PBKS,4,1,132,132.0,0
 AM Rahane,MI,4,1,127,149.41,0
 Ishan Kishan,MI,2,1,124,153.09,0
 Priyansh Arya,SRH,5,1,115,166.67,0
@@ -35,5 +36,6 @@ Sameer Rizvi,LSG,4,1,101,224.44,0
 SA Yadav,DC,5,1,97,144.78,0
 Rahul Singh,RCB,2,1,95,153.23,0
 TM Head,MI,2,1,81,150.0,0
-YBK Jaiswal,RR,4,1,69,237.93,0
+YBK Jaiswal,RR,5,1,79,225.71,0
+T Stubbs,CSK,3,1,79,164.58,0
 MA Agarwal,RR,1,1,50,161.29,0
