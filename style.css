@@ -840,21 +840,3 @@ body {
   background-color: #694f4f; /* deep brown */
   color: #fff;
 }
-
-
-/* === Column filter inputs === */
-th .col-filter {
-  width: 100%;
-  box-sizing: border-box;
-  font-size: 12px;
-  padding: 2px 4px;
-}
-
-th .num-range {
-  display: flex;
-  gap: 4px;
-}
-
-th .num-range > input {
-  width: 100%;
-}
