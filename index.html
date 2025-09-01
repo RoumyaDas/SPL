@@ -252,6 +252,7 @@
 
     <label for="careerSearch">Search Player:</label>
     <input type="text" id="careerSearch" placeholder="Type to search..." />
+    <button id="clearCareerFilters">Clear Filters</button>
 
     <div id="batting" class="career-table active">
       <table>
@@ -286,9 +287,9 @@
   <!-- Search Filter -->
   <label for="specialSearch">Search:</label>
   <input type="text" id="specialSearch" placeholder="Type to filter..." />
-
-  <input type="text" id="specialSearch" placeholder="Search special stats..." />
   <button id="clearSpecialFilters">Clear Filters</button>
+  </div>
+  
 
 
   <!-- Subtabs -->
@@ -504,8 +505,7 @@ document.getElementById("careerSearch").addEventListener("input", () => {
 });
 </script>
 
-<input type="text" id="careerSearch" placeholder="Search career..." />
-<button id="clearCareerFilters">Clear Filters</button>
+
 
 
 <script>
