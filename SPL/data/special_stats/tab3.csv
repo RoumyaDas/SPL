@@ -138,8 +138,8 @@ GJ Maxwell,2,pace,125,84,6,23,8.93,14.0,R.R.
 GF Linde,1,spin,204,138,6,44,8.87,23.0,
 Yash Thakur,1,pace,266,192,6,54,8.31,32.0,C.S.K.
 DS Airee,1,spin,158,108,6,27,8.78,18.0,R.C.B.
-R Ashwin,2,pace,330,252,6,84,7.86,42.0,R.R.
-R Ashwin,2,spin,165,131,6,47,7.56,21.83,R.R.
+R Ashwin,2,pace,330,252,6,84,7.86,42.0,
+R Ashwin,2,spin,165,131,6,47,7.56,21.83,
 HR Shokeen,2,spin,147,97,6,26,9.09,16.17,R.R.
 HV Patel,1,pace,326,192,6,56,10.19,32.0,R.R.
 Washington Sundar,2,pace,170,132,6,35,7.73,22.0,P.B.K.S.
@@ -283,7 +283,7 @@ HH Pandya,2,neutralish,78,41,3,13,11.41,13.67,M.I.
 R Shepherd,2,neutralish,79,48,3,10,9.88,16.0,G.T.
 JR Hazlewood,2,spin,159,114,3,36,8.37,38.0,R.R.
 JC Archer,1,spin,110,72,3,25,9.17,24.0,L.S.G.
-R Ashwin,1,pace,198,132,3,36,9.0,44.0,R.R.
+R Ashwin,1,pace,198,132,3,36,9.0,44.0,
 PJ Cummins,2,spin,49,42,3,19,7.0,14.0,R.R.
 M Theekshana,1,pace,96,67,3,21,8.6,22.33,
 Harpreet Brar,2,pace,166,103,3,31,9.67,34.33,P.B.K.S.
@@ -324,7 +324,7 @@ PHKD Mendis,1,pace,94,60,2,12,9.4,30.0,S.R.H.
 Yash Dayal,1,pace,115,66,2,14,10.45,33.0,G.T.
 R Parag,1,neutralish,59,42,2,9,8.43,21.0,G.T.
 Yash Dayal,2,pace,131,71,2,26,11.07,35.5,G.T.
-R Ashwin,1,spin,219,120,2,29,10.95,60.0,R.R.
+R Ashwin,1,spin,219,120,2,29,10.95,60.0,
 PWH de Silva,2,pace,70,36,2,7,11.67,18.0,P.B.K.S.
 Ramandeep Singh,2,pace,35,30,2,9,7.0,15.0,L.S.G.
 MA Wood,1,pace,84,42,2,7,12.0,21.0,P.B.K.S.
@@ -417,7 +417,7 @@ Gurjapneet Singh,1,neutralish,33,18,1,4,11.0,18.0,
 PWH de Silva,2,neutralish,32,24,1,11,8.0,24.0,P.B.K.S.
 GF Linde,2,spin,27,24,1,8,6.75,24.0,
 Fazalhaq Farooqi,1,spin,31,24,1,6,7.75,24.0,C.S.K.
-R Ashwin,1,neutralish,80,48,1,8,10.0,48.0,R.R.
+R Ashwin,1,neutralish,80,48,1,8,10.0,48.0,
 TU Deshpande,2,spin,35,24,1,10,8.75,24.0,D.C.
 GF Linde,1,neutralish,39,24,1,6,9.75,24.0,
 AS Roy,1,spin,102,72,1,24,8.5,72.0,L.S.G.
@@ -695,7 +695,7 @@ DL Chahar,1,pace,28,24,0,9,7.0,inf,
 PP Chawla,2,pace,38,23,0,5,9.91,inf,
 PWH de Silva,1,pace,31,24,0,3,7.75,inf,P.B.K.S.
 GF Linde,2,neutralish,37,18,0,3,12.33,inf,
-R Ashwin,2,neutralish,29,18,0,4,9.67,inf,R.R.
+R Ashwin,2,neutralish,29,18,0,4,9.67,inf,
 R Parag,2,neutralish,76,42,0,7,10.86,inf,G.T.
 R Parag,2,pace,29,18,0,2,9.67,inf,G.T.
 R Ravindra,1,spin,40,18,0,2,13.33,inf,
