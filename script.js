@@ -7,7 +7,7 @@ const pageSize = 10;
 
 // === Column Filters: generic engine ===
 const columnFilterState = {};            // key -> { colIndex: {text}|{min,max} }
-const DEBOUNCE_MS = 180;
+const DEBOUNCE_MS = 750;
 
 function debounce(fn, ms){ let t; return (...a)=>{ clearTimeout(t); t=setTimeout(()=>fn(...a), ms); }; }
 
