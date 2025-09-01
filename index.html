@@ -373,7 +373,7 @@
       return { headers, rows };
     }
 
-    function renderCareerSection(type, data, searchTerm = "", sortConfig = {}, page = 1) {
+function renderCareerSection(type, data, searchTerm = "", sortConfig = {}, page = 1) {
   const head = document.getElementById(`${type}Head`);
   const body = document.getElementById(`${type}Body`);
   const paginationDiv = document.getElementById(`${type}Pagination`);
@@ -382,6 +382,11 @@
   body.innerHTML = "";
   paginationDiv.innerHTML = "";
 
+  // 🆕 infer types & create stateKey
+  const types = inferTypes(data.rows, data.headers, false); // rows are objects
+  const stateKey = `career:${type}`;
+
+  // Build header row
   const tr = document.createElement("tr");
   data.headers.forEach((h, idx) => {
     const th = document.createElement("th");
@@ -400,7 +405,7 @@
         const isNumeric = !isNaN(parseFloat(aVal)) && !isNaN(parseFloat(bVal));
         return isNumeric
           ? (currentOrder === "asc" ? aVal - bVal : bVal - aVal)
-          : (currentOrder === "asc" ? aVal.localeCompare(bVal) : bVal.localeCompare(aVal));
+          : (currentOrder === "asc" ? String(aVal).localeCompare(String(bVal)) : String(bVal).localeCompare(String(aVal)));
       });
 
       renderCareerSection(type, { headers: data.headers, rows: sortedRows },
@@ -411,15 +416,34 @@
   });
   head.appendChild(tr);
 
+  // 🆕 build filter row under header
+  buildFilterRow(
+    head,
+    data.headers,
+    types,
+    stateKey,
+    () => renderCareerSection(
+      type,
+      data,
+      document.getElementById("careerSearch").value,
+      sortConfig,
+      1
+    )
+  );
+
+  // 🔍 search filter
   let filtered = data.rows;
   if (searchTerm) {
+    const q = searchTerm.toLowerCase();
     filtered = filtered.filter(row =>
-      //row[data.headers[0]].toLowerCase().includes(searchTerm.toLowerCase())
-      Object.values(row).some(val =>
-      val.toLowerCase().includes(searchTerm.toLowerCase()) )
+      Object.values(row).some(val => String(val).toLowerCase().includes(q))
     );
   }
 
+  // 🆕 column filters
+  filtered = applyFilters(filtered, data.headers, types, columnFilterState[stateKey], false);
+
+  // paginate
   const rowsPerPage = 20;
   const start = (page - 1) * rowsPerPage;
   const currentRows = filtered.slice(start, start + rowsPerPage);
@@ -434,7 +458,7 @@
     body.appendChild(tr);
   });
 
-  // Render pagination
+  // pagination
   paginationDiv.innerHTML = renderPagination(filtered.length, rowsPerPage, page, () => {});
   paginationDiv.querySelectorAll("button").forEach(btn => {
     btn.addEventListener("click", () => {
@@ -444,37 +468,37 @@
 }
 
 
-    // Load CSV data
-    for (let type in csvUrls) {
-      fetch(csvUrls[type])
-        .then(res => res.text())
-        .then(text => {
-          const parsed = parseCSV(text);
-          csvData[type] = parsed;
-          if (type === "batting") {
-            renderCareerSection("batting", parsed);
-          }
-        });
-    }
-
-    // Career subtab switching
-    document.querySelectorAll(".career-subtab").forEach(btn => {
-      btn.addEventListener("click", () => {
-        document.querySelectorAll(".career-subtab").forEach(b => b.classList.remove("active"));
-        document.querySelectorAll(".career-table").forEach(t => t.classList.remove("active"));
-        btn.classList.add("active");
-        document.getElementById(btn.dataset.tab).classList.add("active");
-        renderCareerSection(btn.dataset.tab, csvData[btn.dataset.tab], 
-          document.getElementById("careerSearch").value);
-      });
+// Load CSV data
+for (let type in csvUrls) {
+  fetch(csvUrls[type])
+    .then(res => res.text())
+    .then(text => {
+      const parsed = parseCSV(text);
+      csvData[type] = parsed;
+      if (type === "batting") {
+        renderCareerSection("batting", parsed);
+      }
     });
+}
 
-    // Career search
-    document.getElementById("careerSearch").addEventListener("input", () => {
-      const tab = document.querySelector(".career-subtab.active").dataset.tab;
-      renderCareerSection(tab, csvData[tab], document.getElementById("careerSearch").value);
+// Career subtab switching
+  document.querySelectorAll(".career-subtab").forEach(btn => {
+    btn.addEventListener("click", () => {
+      document.querySelectorAll(".career-subtab").forEach(b => b.classList.remove("active"));
+      document.querySelectorAll(".career-table").forEach(t => t.classList.remove("active"));
+      btn.classList.add("active");
+      document.getElementById(btn.dataset.tab).classList.add("active");
+      renderCareerSection(btn.dataset.tab, csvData[btn.dataset.tab], 
+        document.getElementById("careerSearch").value);
     });
-  </script>
+});
+
+// Career search
+document.getElementById("careerSearch").addEventListener("input", () => {
+  const tab = document.querySelector(".career-subtab.active").dataset.tab;
+  renderCareerSection(tab, csvData[tab], document.getElementById("careerSearch").value);
+});
+</script>
 
 
 <script>
