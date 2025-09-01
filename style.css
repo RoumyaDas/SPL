@@ -858,3 +858,11 @@ th .num-range {
 th .num-range > input {
   width: 100%;
 }
+
+button#clearCareerFilters,
+button#clearSpecialFilters {
+  margin-left: 8px;
+  padding: 4px 8px;
+  font-size: 12px;
+  cursor: pointer;
+}
