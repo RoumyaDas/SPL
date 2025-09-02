@@ -1,20 +1,19 @@
 striker,batting_team,num_innings,strike_rate,runs,outs
 YBK Jaiswal,RR,5,225.71,79,2
-Sameer Rizvi,LSG,4,224.44,101,3
 R Parag,GT,5,219.28,182,3
-FH Allen,PBKS,4,213.79,62,4
+FH Allen,PBKS,5,206.67,62,5
 Abhishek Sharma,MI,5,200.0,244,5
 GD Phillips,GT,3,200.0,50,2
-JC Buttler,LSG,5,196.55,57,4
+Sameer Rizvi,LSG,5,198.8,165,4
 Naman Dhir,GT,5,193.14,197,2
-RD Rickelton,LSG,5,186.73,211,5
+RD Rickelton,LSG,6,182.76,212,6
 N Pooran,MI,5,182.56,157,4
 Abishek Porel,DC,5,181.98,202,3
 MJ Owen,DC,5,181.15,221,4
-Shashank Singh,PBKS,5,178.43,91,3
 C Green,KKR,5,177.94,121,4
 JM Sharma,RCB,6,176.72,205,4
 B Sai Sudharsan,CSK,5,175.0,280,5
+JC Buttler,LSG,6,175.0,70,5
 JP Inglis,GT,5,174.31,251,5
 N Sindhu,DC,5,173.27,175,4
 RG Sharma,KKR,5,172.34,81,2
@@ -22,18 +21,17 @@ Nithish Kumar Reddy,SRH,5,172.31,112,3
 AB de Villiers,RR,5,172.17,198,3
 RD Gaikwad,GT,5,172.07,191,5
 PHKD Mendis,SRH,5,171.13,166,5
+V Suryavanshi,PBKS,6,169.7,224,6
+Shashank Singh,PBKS,6,169.49,100,4
 KA Pollard,CSK,4,167.65,57,3
 PD Salt,RCB,6,166.93,212,6
 SV Samson,GT,5,164.95,160,5
 T Stubbs,CSK,3,164.58,79,1
-V Suryavanshi,PBKS,5,164.49,176,5
 GJ Maxwell,RR,5,164.1,192,5
 Tilak Varma,CSK,5,161.9,68,5
 MA Agarwal,RR,1,161.29,50,1
 Priyansh Arya,SRH,6,159.77,139,6
 V Kohli,DC,5,159.02,97,4
-Washington Sundar,PBKS,4,158.33,57,3
-N Rana,PBKS,5,157.14,88,4
 RA Jadeja,RCB,5,156.1,64,3
 S Dube,RR,3,156.06,103,1
 Aniket Verma,RR,5,155.66,165,5
@@ -42,21 +40,23 @@ P Simran Singh,SRH,5,154.31,179,4
 Rahul Singh,RCB,2,153.23,95,2
 KL Rahul,SRH,6,152.85,188,5
 RM Patidar,KKR,5,152.63,174,5
-WG Jacks,LSG,5,151.97,193,5
+N Rana,PBKS,6,152.31,99,5
 Ishan Kishan,MI,3,151.02,148,4
 TM Head,MI,2,150.0,81,2
-Smaran Ravichandran,PBKS,5,149.28,206,4
-SS Iyer,LSG,4,148.89,134,3
+WG Jacks,LSG,6,149.24,197,6
+Smaran Ravichandran,PBKS,6,148.2,206,5
 SA Yadav,DC,5,144.78,97,5
+SS Iyer,LSG,5,142.57,144,4
 H Klaasen,CSK,3,141.03,55,3
 N Wadhera,KKR,3,140.0,77,2
 Dhruv Jurel,RCB,5,139.0,139,3
+Washington Sundar,PBKS,5,138.1,58,4
 CH Gayle,CSK,5,136.45,146,5
 AM Rahane,MI,5,135.71,152,5
 Q de Kock,KKR,5,135.34,157,5
 SP Narine,KKR,5,134.21,153,5
 BM Duckett,PBKS,5,133.64,147,5
-Shubman Gill,LSG,5,133.33,176,5
+Shubman Gill,LSG,6,133.09,181,6
 MW Short,DC,3,121.57,62,3
 PP Shaw,RCB,5,119.64,67,5
 VR Iyer,SRH,6,116.87,97,4
