@@ -1,6 +1,7 @@
 striker,batting_team,num_innings,strike_rate,runs,outs
+AD Russell,DC,5,213.33,96,3
 R Parag,GT,8,212.38,223,6
-Sameer Rizvi,LSG,5,198.8,165,4
+Sameer Rizvi,LSG,6,207.87,185,4
 Shashank Singh,PBKS,8,198.72,155,5
 YBK Jaiswal,RR,8,197.67,170,5
 FH Allen,PBKS,6,197.06,67,6
@@ -9,33 +10,34 @@ RG Sharma,KKR,7,194.81,150,3
 Naman Dhir,GT,8,193.04,305,5
 JM Sharma,RCB,9,190.2,291,5
 GD Phillips,GT,4,188.89,51,3
+RD Rickelton,LSG,8,184.92,331,7
+JC Buttler,LSG,7,181.82,80,6
 PHKD Mendis,SRH,6,180.0,198,5
-AD Russell,DC,4,180.0,63,2
+Urvil Patel,DC,3,178.95,68,2
+N Sindhu,DC,8,178.91,229,7
 N Pooran,MI,7,178.57,200,6
 Bilal Zalmai,MI,3,178.57,50,1
-RD Rickelton,LSG,7,176.05,294,6
 C Green,KKR,7,175.68,195,5
-MJ Owen,DC,7,175.16,282,5
-JC Buttler,LSG,6,175.0,70,5
 Aniket Verma,RR,8,174.6,330,7
+MJ Owen,DC,8,173.62,283,6
 AB de Villiers,RR,7,173.39,215,4
-N Sindhu,DC,7,172.81,197,6
 Nithish Kumar Reddy,SRH,5,172.31,112,3
 RD Gaikwad,GT,8,171.02,301,8
 Anmolpreet Singh,CSK,2,170.59,58,1
 KA Pollard,CSK,6,170.0,85,4
+SA Yadav,DC,8,169.78,236,7
 Rahul Singh,RCB,4,168.82,157,4
 AK Markram,DC,3,167.65,57,3
 JP Inglis,GT,8,167.47,417,7
-SA Yadav,DC,7,166.67,155,7
 V Suryavanshi,PBKS,8,164.92,315,8
 B Sai Sudharsan,CSK,8,163.48,291,8
 SV Samson,GT,8,162.89,259,7
-V Kohli,DC,7,162.5,195,5
 RA Jadeja,RCB,8,162.5,117,3
 PD Salt,RCB,9,162.2,339,9
-Abishek Porel,DC,7,161.94,251,5
+WG Jacks,LSG,7,161.71,283,6
+Abishek Porel,DC,8,161.36,284,6
 MA Agarwal,RR,1,161.29,50,1
+V Kohli,DC,8,161.16,195,6
 BJ McMullen,RR,6,158.57,222,6
 GJ Maxwell,RR,8,156.45,291,7
 KL Rahul,SRH,7,156.25,250,6
@@ -46,20 +48,19 @@ CH Gayle,CSK,8,154.55,340,8
 N Rana,PBKS,8,154.55,136,7
 P Simran Singh,SRH,5,154.31,179,5
 WL Madsen,MI,5,153.95,117,3
+Shubman Gill,LSG,8,153.17,386,7
 Ishan Kishan,MI,5,153.08,199,5
-Shubman Gill,LSG,7,151.71,311,6
 TM Head,MI,2,150.0,81,2
 H Klaasen,CSK,4,149.25,100,4
-WG Jacks,LSG,6,149.24,197,6
 Tilak Varma,CSK,8,146.94,144,8
 Washington Sundar,PBKS,6,146.67,88,5
 Ishaan Gadekar,RCB,3,146.15,171,3
 Dhruv Jurel,RCB,8,145.52,195,6
 RM Patidar,KKR,7,142.68,224,7
-SS Iyer,LSG,5,142.57,144,4
 LS Livingstone,RCB,5,142.11,81,5
 JL Smith,KKR,4,141.27,89,4
 HH Pandya,MI,6,140.54,52,3
+SS Iyer,LSG,6,139.81,144,5
 HS Desai,PBKS,1,138.78,68,1
 AM Rahane,MI,7,138.64,183,7
 AR Patel,CSK,4,137.5,66,3

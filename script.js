@@ -1550,7 +1550,7 @@ document.addEventListener("DOMContentLoaded", () => {
     '260825_GT_KKR.txt','270825_RR_CSK.txt','270825_SRH_RCB.txt','280825_LSG_DC.txt','280825_KKR_MI.txt','290825_Injuries.txt','290825_PBKS_GT.txt','290825_CSK_RR.txt','300825_Injury.txt',
     '300825_LSG_SRH.txt','300825_DC_RCB.txt','310825_LSG_RCB.txt','310825_KKR_RR.txt','310825_SRH_PBKS.txt','310825_MI_CSK.txt','310825_DC_GT.txt','010925_GT_CSK.txt','010925_RR_PBKS.txt',
     '020925_MI_KKR.txt','020925_RCB_SRH.txt','030925_PBKS_LSG.txt','030925_CSK_DC.txt','040925_GT_RCB.txt','040925_RR_KKR.txt','050925_DC_MI.txt','050925_CSK_PBKS.txt','060925_GT_LSG.txt','060925_RR_RCB.txt',
-    '070925_KKR_CSK.txt','070925_SRH_MI.txt','070925_PBKS_RR.txt','070925_RCB_GT.txt'
+    '070925_KKR_CSK.txt','070925_SRH_MI.txt','070925_PBKS_RR.txt','070925_RCB_GT.txt','070925_DC_LSG.txt'
     ]
     ;
 
