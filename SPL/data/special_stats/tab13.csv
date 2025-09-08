@@ -2,11 +2,11 @@ striker,num_innings,runs,balls,outs,bat_avg,bat_sr,team
 Shubman Gill,5,352,217,3,117.33,162.21,L.S.G.
 JP Inglis,5,281,142,5,56.2,197.89,G.T.
 P Simran Singh,5,265,171,5,53.0,154.97,S.R.H.
-Abhishek Sharma,5,257,134,5,51.4,191.79,M.I.
 V Kohli,5,251,164,4,62.75,153.05,D.C.
-Ishan Kishan,5,238,157,5,47.6,151.59,M.I.
 SS Iyer,5,235,153,3,78.33,153.59,L.S.G.
 CH Gayle,4,234,154,4,58.5,151.95,C.S.K.
+Abhishek Sharma,5,232,117,5,46.4,198.29,M.I.
+Ishan Kishan,5,220,137,5,44.0,160.58,M.I.
 SV Samson,5,209,136,5,41.8,153.68,G.T.
 WG Jacks,5,206,119,4,51.5,173.11,L.S.G.
 PD Salt,5,204,124,5,40.8,164.52,R.C.B.
@@ -15,19 +15,19 @@ BJ McMullen,5,187,98,5,37.4,190.82,R.R.
 RD Rickelton,5,181,95,4,45.25,190.53,L.S.G.
 DP Conway,5,180,120,5,36.0,150.0,P.B.K.S.
 R Parag,5,179,90,4,44.75,198.89,G.T.
+AM Rahane,5,176,118,5,35.2,149.15,M.I.
 Naman Dhir,5,175,97,3,58.33,180.41,G.T.
+N Pooran,5,174,84,2,87.0,207.14,M.I.
 GJ Maxwell,5,174,110,4,43.5,158.18,R.R.
 H Klaasen,5,171,114,4,42.75,150.0,C.S.K.
 Ishaan Gadekar,3,171,117,3,57.0,146.15,R.C.B.
 Aniket Verma,5,170,88,5,34.0,193.18,R.R.
-N Pooran,5,167,89,2,83.5,187.64,M.I.
+TM Head,5,167,118,5,33.4,141.53,M.I.
 Tilak Varma,5,156,99,5,31.2,157.58,C.S.K.
-AM Rahane,5,156,108,5,31.2,144.44,M.I.
 Smaran Ravichandran,5,145,104,5,29.0,139.42,P.B.K.S.
 KL Rahul,5,143,91,5,28.6,157.14,S.R.H.
 BM Duckett,5,143,108,5,28.6,132.41,P.B.K.S.
 VR Iyer,5,141,109,2,70.5,129.36,S.R.H.
-TM Head,5,139,97,5,27.8,143.3,M.I.
 SA Yadav,5,137,80,5,27.4,171.25,D.C.
 BA Stokes,5,136,93,4,34.0,146.24,L.S.G.
 V Suryavanshi,5,128,83,4,32.0,154.22,P.B.K.S.
@@ -51,11 +51,11 @@ RD Gaikwad,5,100,73,5,20.0,136.99,G.T.
 S Dube,5,99,67,4,24.75,147.76,R.R.
 C Green,5,98,55,1,98.0,178.18,K.K.R.
 RG Sharma,5,96,64,4,24.0,150.0,K.K.R.
-RK Singh,5,94,60,5,18.8,156.67,M.I.
 Jay Gohil,5,94,50,2,47.0,188.0,L.S.G.
 KD Karthik,5,94,57,4,23.5,164.91,R.C.B.
 J Fraser-McGurk,5,93,54,5,18.6,172.22,K.K.R.
 RK Bhui,5,93,59,3,31.0,157.63,P.B.K.S.
+RK Singh,5,93,56,4,23.25,166.07,M.I.
 FH Allen,5,91,60,5,18.2,151.67,P.B.K.S.
 R Powell,5,89,55,5,17.8,161.82,K.K.R.
 B Sai Sudharsan,5,87,73,5,17.4,119.18,C.S.K.
