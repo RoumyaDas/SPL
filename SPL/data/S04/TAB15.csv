@@ -1,24 +1,23 @@
 bowler,bowling_team,num_innings,3+_wkts,balls,economy,5+_wkts
 Naveen-ul-Haq,SRH,5,3,120,8.1,0
-MA Starc,KKR,3,2,67,8.51,0
 AK Markram,DC,3,2,72,6.83,0
 S Lamichhane,DC,4,2,77,9.97,0
+MA Starc,KKR,4,2,91,8.84,0
 MP Yadav,PBKS,5,2,96,11.12,0
 Sikandar Raza,MI,5,2,102,12.06,0
 YS Chahal,RCB,6,2,132,10.55,1
 Noor Ahmad,GT,7,2,168,10.25,0
 Arshdeep Singh,LSG,8,2,186,10.42,0
-JJ Smit,PBKS,1,1,24,8.25,0
+JJ Smit,PBKS,2,1,48,8.12,0
 Mayank Dagar,RR,3,1,62,13.26,0
 SZ Mulani,LSG,4,1,66,7.64,0
-PHKD Mendis,SRH,4,1,68,10.5,0
+KA Maharaj,SRH,3,1,66,9.91,0
 A Sheth,DC,3,1,72,9.75,0
 Mohammad Nabi,LSG,4,1,84,7.21,0
-C Green,KKR,5,1,90,8.6,1
-SP Narine,KKR,4,1,90,9.67,0
 Suyash Sharma,KKR,4,1,90,10.33,0
-M Siddharth,CSK,4,1,96,7.62,0
+PHKD Mendis,SRH,5,1,92,10.57,0
 C Sakariya,SRH,4,1,96,9.06,0
+SP Narine,KKR,5,1,96,10.0,0
 JC Archer,LSG,4,1,96,11.06,0
 DAJ Bracewell,RCB,4,1,96,11.62,0
 Shakib Al Hasan,PBKS,5,1,102,9.47,0
@@ -26,8 +25,10 @@ Suryansh Shedge,CSK,5,1,102,11.29,0
 CV Varun,PBKS,5,1,108,7.94,0
 Ashwani Kumar,RR,5,1,108,9.94,0
 Yash Thakur,CSK,6,1,111,8.27,0
-AR Patel,CSK,5,1,120,12.1,0
+C Green,KKR,6,1,114,8.26,1
+M Siddharth,CSK,5,1,120,8.65,0
 Harsh Dubey,RR,6,1,132,10.32,0
 M Pathirana,RCB,6,1,142,9.46,1
-Shashank Singh,PBKS,8,1,148,8.15,0
+AR Patel,CSK,6,1,144,12.58,0
+Shashank Singh,PBKS,9,1,172,8.55,0
 WG Jacks,LSG,8,1,172,9.87,0
