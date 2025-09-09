@@ -1,13 +1,14 @@
 striker,batting_team,num_innings,50+_scores,runs,strike_rate,100+_scores
+Shubman Gill,LSG,9,4,446,152.22,1
 CH Gayle,CSK,9,4,418,153.11,0
 JP Inglis,GT,8,4,417,167.47,1
 Abhishek Sharma,MI,8,4,365,195.19,0
-RD Rickelton,LSG,8,4,331,184.92,0
-Aniket Verma,RR,8,4,330,174.6,1
-Shubman Gill,LSG,8,3,386,153.17,1
+Aniket Verma,RR,9,4,355,174.02,1
+RD Rickelton,LSG,9,4,349,183.68,0
 MJ Owen,DC,9,3,321,181.36,0
 B Sai Sudharsan,CSK,9,3,291,160.77,1
 P Simran Singh,SRH,6,3,259,160.87,0
+GJ Maxwell,RR,9,2,356,156.14,1
 V Suryavanshi,PBKS,9,2,340,165.85,0
 PD Salt,RCB,9,2,339,162.2,0
 Abishek Porel,DC,9,2,312,160.82,0
@@ -17,17 +18,16 @@ V Kohli,DC,9,2,289,164.2,0
 KL Rahul,SRH,8,2,288,154.01,0
 Smaran Ravichandran,PBKS,9,2,270,155.17,0
 N Pooran,MI,8,2,263,186.52,0
+BJ McMullen,RR,7,2,260,157.58,0
 SV Samson,GT,8,2,259,162.89,0
 SA Yadav,DC,9,2,242,169.23,0
-BJ McMullen,RR,6,2,222,158.57,0
-AB de Villiers,RR,7,2,215,173.39,1
-Sameer Rizvi,LSG,6,2,185,207.87,0
+AB de Villiers,RR,8,2,218,170.31,1
+Sameer Rizvi,LSG,7,2,211,204.85,0
+YBK Jaiswal,RR,9,2,192,200.0,0
 Q de Kock,KKR,7,2,177,130.15,0
 Ishaan Gadekar,RCB,3,2,171,146.15,0
-YBK Jaiswal,RR,8,2,170,197.67,0
 Naman Dhir,GT,8,1,305,193.04,0
-GJ Maxwell,RR,8,1,291,156.45,1
-WG Jacks,LSG,7,1,283,161.71,0
+WG Jacks,LSG,8,1,292,160.44,0
 N Sindhu,DC,9,1,263,170.78,0
 RM Patidar,KKR,8,1,233,137.87,0
 R Parag,GT,8,1,223,212.38,0
@@ -40,12 +40,12 @@ Priyansh Arya,SRH,8,1,183,163.39,0
 VR Iyer,SRH,7,1,174,123.4,0
 Shashank Singh,PBKS,9,1,168,197.65,0
 Nithish Kumar Reddy,SRH,6,1,160,177.78,0
+SS Iyer,LSG,7,1,160,144.14,0
 Rahul Singh,RCB,4,1,157,168.82,0
 BM Duckett,PBKS,5,1,147,133.64,0
-SS Iyer,LSG,6,1,144,139.81,0
 FH Allen,PBKS,7,1,135,166.67,0
 TM Head,MI,3,1,128,147.13,0
-S Dube,RR,6,1,121,155.13,0
+S Dube,RR,7,1,121,153.16,0
 WL Madsen,MI,5,1,117,153.95,0
 T Stubbs,CSK,7,1,113,139.51,0
 LS Livingstone,RCB,5,1,81,142.11,0
