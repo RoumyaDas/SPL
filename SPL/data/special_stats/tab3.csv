@@ -336,7 +336,7 @@ JR Hazlewood,2,neutralish,154,96,3,30,9.62,32.0,R.R.
 Washington Sundar,1,neutralish,60,48,2,16,7.5,24.0,P.B.K.S.
 JC Archer,2,spin,100,66,2,14,9.09,33.0,L.S.G.
 Ramandeep Singh,2,pace,35,30,2,9,7.0,15.0,L.S.G.
-MP Stoinis,2,pace,167,106,2,29,9.45,53.0,G.T.
+MP Stoinis,2,pace,167,106,2,29,9.45,53.0,
 Rashid Khan,1,pace,64,48,2,14,8.0,24.0,G.T.
 JD Unadkat,1,pace,92,48,2,10,11.5,24.0,G.T.
 JD Unadkat,2,pace,126,72,2,12,10.5,36.0,G.T.
@@ -503,13 +503,13 @@ V Kaverappa,1,neutralish,31,18,1,8,10.33,18.0,L.S.G.
 T Natarajan,2,neutralish,119,72,1,15,9.92,72.0,C.S.K.
 Nithish Kumar Reddy,1,spin,29,18,1,3,9.67,18.0,S.R.H.
 MM Ali,2,pace,36,24,1,8,9.0,24.0,
-MP Stoinis,2,spin,48,24,1,4,12.0,24.0,G.T.
+MP Stoinis,2,spin,48,24,1,4,12.0,24.0,
 D Wiese,2,pace,26,24,1,6,6.5,24.0,G.T.
 MM Ali,2,spin,190,120,1,38,9.5,120.0,
 MM Sharma,1,pace,79,36,1,7,13.17,36.0,R.R.
 D Wiese,2,spin,32,22,1,11,8.73,22.0,G.T.
 MM Sharma,1,spin,52,30,1,6,10.4,30.0,R.R.
-MP Stoinis,1,pace,169,108,1,21,9.39,108.0,G.T.
+MP Stoinis,1,pace,169,108,1,21,9.39,108.0,
 Gurjapneet Singh,1,neutralish,33,18,1,4,11.0,18.0,
 M Pathirana,2,neutralish,68,40,1,7,10.2,40.0,R.C.B.
 KC Cariappa,2,spin,40,24,1,6,10.0,24.0,M.I.
@@ -668,8 +668,8 @@ MR Marsh,2,neutralish,105,48,0,7,13.12,inf,
 CV Varun,2,neutralish,35,24,0,5,8.75,inf,P.B.K.S.
 Rahul Singh,1,pace,14,6,0,2,14.0,inf,R.C.B.
 Ashutosh Aman,1,spin,39,24,0,10,9.75,inf,R.C.B.
-MP Stoinis,2,neutralish,9,6,0,1,9.0,inf,G.T.
-MP Stoinis,1,spin,101,48,0,3,12.62,inf,G.T.
+MP Stoinis,2,neutralish,9,6,0,1,9.0,inf,
+MP Stoinis,1,spin,101,48,0,3,12.62,inf,
 MM Sharma,2,pace,29,12,0,1,14.5,inf,R.R.
 Arshad Khan,2,neutralish,20,18,0,3,6.67,inf,R.R.
 Rasikh Salam,2,spin,40,20,0,4,12.0,inf,G.T.
