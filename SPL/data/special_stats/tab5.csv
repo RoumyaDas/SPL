@@ -167,7 +167,7 @@ PWH de Silva,top,297,214,6,8.33,35.67,P.B.K.S.
 Suyash Sharma,middle,236,144,6,9.83,24.0,K.K.R.
 SZ Mulani,top,213,142,6,9.0,23.67,L.S.G.
 Abhishek Sharma,middle,225,153,6,8.82,25.5,M.I.
-Azmatullah Omarzai,top,257,145,6,10.63,24.17,S.R.H.
+Azmatullah Omarzai,top,257,145,6,10.63,24.17,
 SM Curran,middle,297,187,6,9.53,31.17,
 Ravi Teja,top,225,139,6,9.71,23.17,D.C.
 Ravi Teja,middle,127,85,6,8.96,14.17,D.C.
@@ -207,8 +207,8 @@ Karan Lal,middle,50,36,4,8.33,9.0,R.R.
 Mohammad Ghazanfar,tail,42,32,4,7.88,8.0,S.R.H.
 Sandeep Sharma,tail,51,36,4,8.5,9.0,R.R.
 M Markande,tail,35,39,4,5.38,9.75,S.R.H.
-MR Marsh,top,189,86,4,13.19,21.5,
-MR Marsh,middle,146,92,4,9.52,23.0,
+MR Marsh,top,189,86,4,13.19,21.5,S.R.H.
+MR Marsh,middle,146,92,4,9.52,23.0,S.R.H.
 Naveen-ul-Haq,tail,73,47,4,9.32,11.75,S.R.H.
 Nithish Kumar Reddy,middle,179,122,4,8.8,30.5,S.R.H.
 Nithish Kumar Reddy,top,84,52,4,9.69,13.0,S.R.H.
@@ -263,7 +263,7 @@ Sikandar Raza,tail,37,27,3,8.22,9.0,M.I.
 V Nigam,middle,200,109,3,11.01,36.33,M.I.
 MM Ali,top,255,165,3,9.27,55.0,
 GF Linde,top,167,106,3,9.45,35.33,
-Azmatullah Omarzai,middle,218,133,3,9.83,44.33,S.R.H.
+Azmatullah Omarzai,middle,218,133,3,9.83,44.33,
 Mohammed Shami,middle,276,163,3,10.16,54.33,G.T.
 Ashwani Kumar,tail,10,11,3,5.45,3.67,R.R.
 I Sharma,middle,110,61,3,10.82,20.33,M.I.
@@ -530,7 +530,7 @@ R Parag,tail,20,19,0,6.32,inf,G.T.
 Gurjapneet Singh,tail,8,6,0,8.0,inf,
 HR Shokeen,tail,5,3,0,10.0,inf,R.R.
 Harpreet Brar,tail,48,37,0,7.78,inf,P.B.K.S.
-MR Marsh,tail,4,1,0,24.0,inf,
+MR Marsh,tail,4,1,0,24.0,inf,S.R.H.
 I Sharma,tail,4,1,0,24.0,inf,M.I.
 Ashutosh Aman,top,12,8,0,9.0,inf,R.C.B.
 MM Sharma,tail,11,4,0,16.5,inf,R.R.
@@ -552,7 +552,7 @@ Bal Krishna,middle,56,32,0,10.5,inf,
 N Rana,top,76,45,0,10.13,inf,P.B.K.S.
 N Rana,tail,3,4,0,4.5,inf,P.B.K.S.
 BJ McMullen,tail,11,5,0,13.2,inf,R.R.
-Azmatullah Omarzai,tail,29,17,0,10.24,inf,S.R.H.
+Azmatullah Omarzai,tail,29,17,0,10.24,inf,
 N Burger,middle,10,11,0,5.45,inf,
 G Coetzee,middle,40,21,0,11.43,inf,
 SN Thakur,top,82,43,0,11.44,inf,R.R.

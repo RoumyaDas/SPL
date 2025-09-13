@@ -200,10 +200,10 @@ Harsh Dubey,1,pace,88,48,5,14,11.0,9.6,R.R.
 Karan Lal,2,spin,76,60,5,16,7.6,12.0,R.R.
 Rashid Khan,1,neutralish,211,114,5,25,11.11,22.8,G.T.
 R Sai Kishore,1,spin,301,216,5,80,8.36,43.2,M.I.
-Azmatullah Omarzai,1,pace,212,132,5,41,9.64,26.4,S.R.H.
+Azmatullah Omarzai,1,pace,212,132,5,41,9.64,26.4,
 C Sakariya,2,pace,206,144,5,33,8.58,28.8,S.R.H.
 Mohsin Khan,2,pace,155,88,5,30,10.57,17.6,L.S.G.
-MR Marsh,2,pace,208,107,5,23,11.66,21.4,
+MR Marsh,2,pace,208,107,5,23,11.66,21.4,S.R.H.
 MA Starc,1,spin,160,96,5,19,10.0,19.2,K.K.R.
 PP Chawla,2,spin,166,114,5,33,8.74,22.8,
 M Theekshana,2,pace,141,84,5,26,10.07,16.8,
@@ -287,7 +287,7 @@ R Ashwin,1,pace,198,132,3,36,9.0,44.0,
 MG Bracewell,2,neutralish,183,102,3,24,10.76,34.0,
 MM Ali,1,spin,96,72,3,27,8.0,24.0,
 MP Yadav,2,spin,63,48,3,17,7.88,16.0,P.B.K.S.
-MR Marsh,1,pace,26,24,3,10,6.5,8.0,
+MR Marsh,1,pace,26,24,3,10,6.5,8.0,S.R.H.
 Mohammad Ghazanfar,1,spin,241,156,3,37,9.27,52.0,S.R.H.
 Mohammad Nabi,1,neutralish,55,48,3,25,6.88,16.0,L.S.G.
 Mohammad Nabi,1,pace,63,48,3,15,7.88,16.0,L.S.G.
@@ -427,7 +427,7 @@ MG Bracewell,1,spin,82,48,2,15,10.25,24.0,
 DL Chahar,2,pace,223,138,2,38,9.7,69.0,
 JD Unadkat,2,pace,126,72,2,12,10.5,36.0,G.T.
 JD Unadkat,1,pace,92,48,2,10,11.5,24.0,G.T.
-Azmatullah Omarzai,2,spin,62,36,1,11,10.33,36.0,S.R.H.
+Azmatullah Omarzai,2,spin,62,36,1,11,10.33,36.0,
 R Ashwin,1,neutralish,80,48,1,8,10.0,48.0,
 JC Archer,2,neutralish,65,36,1,11,10.83,36.0,L.S.G.
 Ashutosh Sharma,2,spin,36,24,1,4,9.0,24.0,R.C.B.
@@ -447,10 +447,10 @@ RA Jadeja,2,pace,226,132,1,21,10.27,132.0,R.C.B.
 HV Patel,2,neutralish,68,48,1,11,8.5,48.0,R.R.
 TU Deshpande,2,spin,35,24,1,10,8.75,24.0,D.C.
 AJ Hosein,2,spin,57,48,1,24,7.12,48.0,
-Azmatullah Omarzai,2,pace,71,48,1,13,8.88,48.0,S.R.H.
-Azmatullah Omarzai,2,neutralish,80,37,1,8,12.97,37.0,S.R.H.
+Azmatullah Omarzai,2,pace,71,48,1,13,8.88,48.0,
+Azmatullah Omarzai,2,neutralish,80,37,1,8,12.97,37.0,
 R Sai Kishore,2,pace,80,48,1,10,10.0,48.0,M.I.
-Azmatullah Omarzai,1,spin,15,6,1,1,15.0,6.0,S.R.H.
+Azmatullah Omarzai,1,spin,15,6,1,1,15.0,6.0,
 JD Unadkat,2,spin,30,24,1,6,7.5,24.0,G.T.
 Avesh Khan,2,neutralish,36,24,1,2,9.0,24.0,G.T.
 R Parag,2,spin,82,54,1,6,9.11,54.0,G.T.
@@ -680,7 +680,7 @@ MP Stoinis,2,neutralish,9,6,0,1,9.0,inf,
 MA Wood,2,pace,68,42,0,9,9.71,inf,P.B.K.S.
 Cheepurapalli Stephen,2,neutralish,51,24,0,1,12.75,inf,
 Chirag Jani,1,pace,19,12,0,3,9.5,inf,P.B.K.S.
-MR Marsh,2,neutralish,105,48,0,7,13.12,inf,
+MR Marsh,2,neutralish,105,48,0,7,13.12,inf,S.R.H.
 D Ferreira,1,spin,9,6,0,1,9.0,inf,
 Mohammed Siraj,2,neutralish,28,18,0,6,9.33,inf,L.S.G.
 CV Varun,2,neutralish,35,24,0,5,8.75,inf,P.B.K.S.
@@ -736,7 +736,7 @@ LS Livingstone,1,pace,82,48,0,9,10.25,inf,R.C.B.
 R Parag,2,neutralish,76,42,0,7,10.86,inf,G.T.
 R Parag,2,pace,35,24,0,2,8.75,inf,G.T.
 R Ravindra,1,spin,40,18,0,2,13.33,inf,
-Azmatullah Omarzai,1,neutralish,64,36,0,8,10.67,inf,S.R.H.
+Azmatullah Omarzai,1,neutralish,64,36,0,8,10.67,inf,
 LH Ferguson,2,neutralish,52,21,0,4,14.86,inf,
 LH Ferguson,1,neutralish,44,24,0,6,11.0,inf,
 Fazalhaq Farooqi,2,spin,34,21,0,2,9.71,inf,C.S.K.
