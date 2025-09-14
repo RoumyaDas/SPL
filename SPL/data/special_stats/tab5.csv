@@ -71,7 +71,7 @@ WG Jacks,middle,462,272,15,10.19,18.13,L.S.G.
 MA Starc,tail,112,66,14,10.18,4.71,K.K.R.
 Sandeep Sharma,top,713,447,14,9.57,31.93,R.R.
 AK Markram,top,408,222,14,11.03,15.86,D.C.
-Mustafizur Rahman,top,523,326,14,9.63,23.29,M.I.
+Mustafizur Rahman,top,523,326,14,9.63,23.29,
 Ashutosh Sharma,top,427,263,14,9.74,18.79,R.C.B.
 Ravi Bishnoi,top,493,351,14,8.43,25.07,L.S.G.
 Shahbaz Ahmed,middle,344,219,14,9.42,15.64,G.T.
@@ -96,10 +96,10 @@ WG Jacks,top,301,190,12,9.51,15.83,L.S.G.
 Avesh Khan,top,674,437,12,9.25,36.42,G.T.
 Jagjit Singh,middle,262,162,12,9.7,13.5,S.R.H.
 Ravi Bishnoi,middle,364,266,12,8.21,22.17,L.S.G.
-Mustafizur Rahman,middle,437,269,12,9.75,22.42,M.I.
+Mustafizur Rahman,middle,437,269,12,9.75,22.42,
 MG Bracewell,top,396,245,12,9.7,20.42,
 M Prasidh Krishna,middle,536,379,12,8.49,31.58,D.C.
-SH Johnson,top,410,252,12,9.76,21.0,K.K.R.
+SH Johnson,top,410,252,12,9.76,21.0,
 LS Livingstone,tail,97,84,12,6.93,7.0,R.C.B.
 HV Patel,top,421,281,12,8.99,23.42,R.R.
 C Sakariya,middle,294,206,12,8.56,17.17,S.R.H.
@@ -150,7 +150,7 @@ M Theekshana,top,329,238,8,8.29,29.75,
 M Pathirana,tail,73,69,8,6.35,8.62,R.C.B.
 AD Russell,tail,65,38,7,10.26,5.43,D.C.
 PWH de Silva,top,307,222,7,8.3,31.71,P.B.K.S.
-SH Johnson,middle,143,89,7,9.64,12.71,K.K.R.
+SH Johnson,middle,143,89,7,9.64,12.71,
 JC Archer,tail,85,64,7,7.97,9.14,L.S.G.
 J Anderson,middle,140,71,7,11.83,10.14,
 S Lamichhane,middle,97,46,7,12.65,6.57,D.C.
@@ -213,7 +213,7 @@ MR Marsh,top,189,86,4,13.19,21.5,S.R.H.
 MR Marsh,middle,146,92,4,9.52,23.0,S.R.H.
 Naveen-ul-Haq,tail,73,47,4,9.32,11.75,S.R.H.
 MM Ali,middle,136,95,4,8.59,23.75,
-MJ Santner,top,193,114,4,10.16,28.5,
+MJ Santner,top,193,114,4,10.16,28.5,K.K.R.
 Nithish Kumar Reddy,middle,179,122,4,8.8,30.5,S.R.H.
 PP Chawla,top,182,114,4,9.58,28.5,
 SS Ghosh,top,103,66,4,9.36,16.5,M.I.
@@ -325,10 +325,10 @@ DS Airee,tail,10,9,2,6.67,4.5,R.C.B.
 SL Malinga,middle,144,78,2,11.08,39.0,P.B.K.S.
 SL Malinga,tail,6,9,2,4.0,4.5,P.B.K.S.
 BJ McMullen,middle,120,83,2,8.67,41.5,R.R.
-Mustafizur Rahman,tail,20,23,2,5.22,11.5,M.I.
+Mustafizur Rahman,tail,20,23,2,5.22,11.5,
 Mukesh Kumar,tail,50,32,2,9.38,16.0,M.I.
 Mukesh Kumar,middle,108,75,2,8.64,37.5,M.I.
-SH Johnson,tail,1,6,2,1.0,3.0,K.K.R.
+SH Johnson,tail,1,6,2,1.0,3.0,
 R Sai Kishore,tail,17,20,2,5.1,10.0,M.I.
 JA Richardson,top,27,21,2,7.71,10.5,
 TU Deshpande,top,175,99,2,10.61,49.5,D.C.
@@ -409,8 +409,8 @@ Gurjapneet Singh,top,63,30,1,12.6,30.0,
 MW Short,top,19,7,1,16.29,7.0,D.C.
 MW Short,middle,8,5,1,9.6,5.0,D.C.
 MP Stoinis,middle,220,117,1,11.28,117.0,
-MJ Santner,tail,12,14,1,5.14,14.0,
-MJ Santner,middle,125,88,1,8.52,88.0,
+MJ Santner,tail,12,14,1,5.14,14.0,K.K.R.
+MJ Santner,middle,125,88,1,8.52,88.0,K.K.R.
 MJ Owen,top,36,16,1,13.5,16.0,D.C.
 MADI Hemantha,tail,8,9,1,5.33,9.0,
 DJ Bravo,top,37,21,1,10.57,21.0,R.C.B.

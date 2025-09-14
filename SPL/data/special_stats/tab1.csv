@@ -549,7 +549,7 @@ T Stubbs,Death,neutralish,45,31,4,1,45.0,145.16,C.S.K.
 MK Pandey,Middle,spin,45,24,9,1,45.0,187.5,
 SP Narine,Death,spin,45,25,9,3,15.0,180.0,K.K.R.
 Ramandeep Singh,Middle,spin,45,38,15,3,15.0,118.42,L.S.G.
-HC Brook,Middle,pace,45,29,12,1,45.0,155.17,
+HC Brook,Middle,pace,45,29,12,1,45.0,155.17,M.I.
 Abhishek Sharma,Death,neutralish,45,25,3,0,,180.0,M.I.
 BM Duckett,Death,neutralish,45,25,4,1,45.0,180.0,P.B.K.S.
 TM Head,Middle,neutralish,44,34,12,3,14.67,129.41,M.I.
@@ -648,7 +648,7 @@ Abdul Samad,Death,neutralish,31,12,4,0,,258.33,L.S.G.
 YS Chahal,Death,spin,31,29,16,5,6.2,106.9,R.C.B.
 MK Pandey,Death,pace,31,22,7,1,31.0,140.91,
 JG Bethell,Death,neutralish,31,16,4,1,31.0,193.75,S.R.H.
-HC Brook,PP,pace,31,18,8,1,31.0,172.22,
+HC Brook,PP,pace,31,18,8,1,31.0,172.22,M.I.
 MJ Owen,PP,pace,31,21,9,2,15.5,147.62,D.C.
 R Tewatia,Death,spin,31,23,8,3,10.33,134.78,K.K.R.
 WL Madsen,Middle,neutralish,31,23,8,0,,134.78,M.I.
@@ -663,7 +663,7 @@ Ishan Kishan,PP,neutralish,30,18,6,2,15.0,166.67,M.I.
 DP Conway,Death,pace,30,23,7,1,30.0,130.43,P.B.K.S.
 Akash Vasisht,Death,spin,30,17,5,2,15.0,176.47,D.C.
 PJ Cummins,Middle,pace,30,23,7,1,30.0,130.43,R.R.
-SH Johnson,Death,spin,29,17,8,2,14.5,170.59,K.K.R.
+SH Johnson,Death,spin,29,17,8,2,14.5,170.59,
 Sikandar Raza,PP,spin,29,26,13,0,,111.54,M.I.
 MK Lomror,Death,neutralish,29,14,3,1,29.0,207.14,S.R.H.
 Yuvraj Chaudhary,Death,pace,29,20,8,3,9.67,145.0,R.C.B.
@@ -715,7 +715,7 @@ Rasikh Salam,Death,pace,25,18,9,3,8.33,138.89,G.T.
 AJ Tye,Death,pace,25,22,11,2,12.5,113.64,L.S.G.
 Rashid Khan,Death,pace,25,21,8,3,8.33,119.05,G.T.
 SPD Smith,PP,spin,25,23,11,2,12.5,108.7,C.S.K.
-SH Johnson,Death,pace,25,16,5,2,12.5,156.25,K.K.R.
+SH Johnson,Death,pace,25,16,5,2,12.5,156.25,
 RA Tripathi,Death,pace,25,14,1,0,,178.57,K.K.R.
 A Zampa,Death,spin,25,24,13,1,25.0,104.17,R.R.
 RK Bhui,Death,spin,25,14,5,1,25.0,178.57,P.B.K.S.
@@ -893,13 +893,13 @@ MG Bracewell,Death,spin,14,16,6,1,14.0,87.5,
 Anmolpreet Singh,Middle,spin,14,5,1,0,,280.0,C.S.K.
 Sanvir Singh,Death,pace,14,14,6,2,7.0,100.0,P.B.K.S.
 R Tewatia,Middle,spin,14,8,3,2,7.0,175.0,K.K.R.
-MJ Santner,Middle,pace,14,10,4,2,7.0,140.0,
+MJ Santner,Middle,pace,14,10,4,2,7.0,140.0,K.K.R.
 MA Starc,Death,spin,14,19,12,3,4.67,73.68,K.K.R.
 SB Dubey,Middle,pace,14,12,2,1,14.0,116.67,P.B.K.S.
 Kartik Sharma,Death,neutralish,14,11,4,0,,127.27,S.R.H.
 V Puthur,Death,spin,14,11,5,1,14.0,127.27,D.C.
 Abishek Porel,PP,neutralish,14,9,3,0,,155.56,D.C.
-Mustafizur Rahman,Death,spin,14,16,7,1,14.0,87.5,M.I.
+Mustafizur Rahman,Death,spin,14,16,7,1,14.0,87.5,
 LS Livingstone,Death,neutralish,14,12,3,0,,116.67,R.C.B.
 A Badoni,Death,pace,14,6,2,0,,233.33,
 MG Bracewell,Death,pace,13,8,2,1,13.0,162.5,
@@ -931,7 +931,7 @@ Anmolpreet Singh,Death,spin,12,7,1,1,12.0,171.43,C.S.K.
 Dhruv Jurel,PP,spin,12,17,6,0,,70.59,R.C.B.
 Smaran Ravichandran,PP,neutralish,12,12,4,0,,100.0,P.B.K.S.
 Abid Mushtaq,Middle,spin,12,9,4,0,,133.33,D.C.
-MJ Santner,Death,spin,12,17,5,1,12.0,70.59,
+MJ Santner,Death,spin,12,17,5,1,12.0,70.59,K.K.R.
 SK Rasheed,PP,pace,12,7,4,1,12.0,171.43,
 DL Chahar,Death,pace,12,12,6,1,12.0,100.0,
 MK Pandey,PP,neutralish,12,3,1,0,,400.0,
@@ -943,7 +943,7 @@ Yuvraj Chaudhary,Death,spin,11,5,3,2,5.5,220.0,R.C.B.
 D Padikkal,PP,neutralish,11,3,0,0,,366.67,K.K.R.
 SE Rutherford,Death,neutralish,11,5,2,1,11.0,220.0,
 RA Bawa,Middle,neutralish,11,7,3,0,,157.14,S.R.H.
-HC Brook,Middle,spin,11,6,3,2,5.5,183.33,
+HC Brook,Middle,spin,11,6,3,2,5.5,183.33,M.I.
 AR Patel,PP,pace,11,15,9,1,11.0,73.33,C.S.K.
 BA Stokes,Death,spin,11,7,2,0,,157.14,L.S.G.
 Gaurav Puri,Death,neutralish,11,4,1,1,11.0,275.0,C.S.K.
@@ -986,7 +986,7 @@ R Tewatia,PP,spin,9,3,0,0,,300.0,K.K.R.
 Chirag Jani,PP,pace,9,3,0,0,,300.0,P.B.K.S.
 RA Jadeja,Middle,spin,9,10,3,1,9.0,90.0,R.C.B.
 MG Bracewell,Middle,spin,9,8,3,0,,112.5,
-MJ Santner,Middle,spin,9,9,4,0,,100.0,
+MJ Santner,Middle,spin,9,9,4,0,,100.0,K.K.R.
 M Pathirana,Middle,spin,9,7,2,1,9.0,128.57,R.C.B.
 R Ahir,Middle,pace,9,9,3,0,,100.0,
 KH Pandya,Death,neutralish,9,5,2,1,9.0,180.0,S.R.H.
@@ -1019,7 +1019,7 @@ AK Markram,Death,pace,7,6,2,1,7.0,116.67,D.C.
 K Rabada,Death,pace,7,14,8,0,,50.0,
 HH Pandya,PP,spin,7,9,5,1,7.0,77.78,M.I.
 Harsh Dubey,Death,spin,7,5,1,0,,140.0,R.R.
-Mustafizur Rahman,Middle,spin,7,10,5,0,,70.0,M.I.
+Mustafizur Rahman,Middle,spin,7,10,5,0,,70.0,
 Salman Nizar,Middle,pace,7,11,4,1,7.0,63.64,R.R.
 JM Vince,PP,spin,7,15,11,1,7.0,46.67,R.C.B.
 MR Marsh,Middle,pace,7,14,7,2,3.5,50.0,S.R.H.
@@ -1038,7 +1038,7 @@ Shubman Gill,Death,neutralish,7,5,0,0,,140.0,L.S.G.
 Z Khan,Death,pace,7,2,0,0,,350.0,K.K.R.
 Atharva Ankolekar,Death,spin,7,4,2,1,7.0,175.0,M.I.
 Yuvraj Singh,Death,pace,7,5,3,1,7.0,140.0,R.C.B.
-SH Johnson,Middle,pace,7,6,3,0,,116.67,K.K.R.
+SH Johnson,Middle,pace,7,6,3,0,,116.67,
 RR Pant,Middle,neutralish,7,7,3,1,7.0,100.0,G.T.
 R Ravindra,PP,spin,7,7,6,1,7.0,100.0,
 A Badoni,Death,spin,7,7,3,1,7.0,100.0,
@@ -1161,7 +1161,7 @@ V Shankar,Death,spin,2,5,3,1,2.0,40.0,
 Suyash Sharma,Middle,spin,2,4,3,0,,50.0,K.K.R.
 Sandeep Sharma,Death,spin,2,5,4,0,,40.0,R.R.
 Mohammad Nabi,Death,pace,2,4,2,0,,50.0,L.S.G.
-Mustafizur Rahman,Middle,neutralish,2,3,1,0,,66.67,M.I.
+Mustafizur Rahman,Middle,neutralish,2,3,1,0,,66.67,
 MA Wood,Death,spin,2,2,1,1,2.0,100.0,P.B.K.S.
 JG Bethell,PP,spin,2,14,12,0,,14.29,S.R.H.
 R Shepherd,Middle,pace,2,5,3,1,2.0,40.0,G.T.
@@ -1181,7 +1181,7 @@ Naveen-ul-Haq,Death,pace,1,2,1,0,,50.0,S.R.H.
 M Jansen,PP,pace,1,2,1,1,1.0,50.0,
 B Kumar,Middle,pace,1,1,0,0,,100.0,K.K.R.
 Ashwani Kumar,Middle,pace,1,2,1,1,1.0,50.0,R.R.
-Mustafizur Rahman,Death,neutralish,1,4,3,2,0.5,25.0,M.I.
+Mustafizur Rahman,Death,neutralish,1,4,3,2,0.5,25.0,
 Harshit Rana,Middle,pace,1,1,0,0,,100.0,K.K.R.
 KV Sharma,Middle,spin,1,3,2,0,,33.33,P.B.K.S.
 Ashwani Kumar,Death,pace,1,1,0,0,,100.0,R.R.
@@ -1264,7 +1264,7 @@ Ashutosh Sharma,Death,spin,0,1,1,1,0.0,0.0,R.C.B.
 Sandeep Sharma,Death,neutralish,0,1,1,1,0.0,0.0,R.R.
 MM Ali,PP,spin,0,6,6,1,0.0,0.0,
 MJ Suthar,Death,spin,0,1,1,0,,0.0,
-MJ Santner,Death,pace,0,2,2,1,0.0,0.0,
+MJ Santner,Death,pace,0,2,2,1,0.0,0.0,K.K.R.
 BJ McMullen,Death,spin,0,1,1,1,0.0,0.0,R.R.
 MA Starc,Death,neutralish,0,1,2,1,0.0,0.0,K.K.R.
 M Theekshana,Death,neutralish,0,1,1,1,0.0,0.0,
