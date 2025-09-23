@@ -344,7 +344,7 @@ function loadSeasonSubtabContent(seasonId, type, matchNum, container) {
   
     // Create match number dropdown
     const matchSelector = document.createElement("select");
-    for (let i = 1; i <= 74; i++) {
+    for (let i = 1; i <= 94; i++) {
       const option = document.createElement("option");
       const matchId = `${i}`;
 
@@ -421,7 +421,7 @@ function loadSeasonSubtabContent(seasonId, type, matchNum, container) {
   
     // Match selector dropdown
     const matchSelector = document.createElement("select");
-    for (let i = 1; i <= 74; i++) {
+    for (let i = 1; i <= 94; i++) {
       const option = document.createElement("option");
       const matchId = i < 10 ? `0${i}` : `${i}`;
       option.value = matchId;
