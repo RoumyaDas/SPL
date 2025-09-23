@@ -1,5 +1,5 @@
 striker,num_innings,runs,balls,outs,bat_avg,bat_sr,team
-P Simran Singh,5,323,193,4,80.75,167.36,S.R.H.
+P Simran Singh,5,414,239,3,138.0,173.22,S.R.H.
 JP Inglis,5,291,167,4,72.75,174.25,G.T.
 JM Sharma,5,260,130,1,260.0,200.0,R.C.B.
 Sameer Rizvi,5,245,150,3,81.67,163.33,L.S.G.
@@ -9,25 +9,26 @@ RD Gaikwad,5,227,126,3,75.67,180.16,G.T.
 GJ Maxwell,5,227,135,5,45.4,168.15,R.R.
 SA Yadav,5,221,105,3,73.67,210.48,D.C.
 N Sindhu,5,220,118,2,110.0,186.44,D.C.
-KL Rahul,5,218,140,5,43.6,155.71,S.R.H.
 V Kohli,5,212,119,4,53.0,178.15,D.C.
 Tilak Varma,5,210,123,4,52.5,170.73,C.S.K.
 WL Madsen,5,202,142,4,50.5,142.25,M.I.
-Naman Dhir,5,193,110,5,38.6,175.45,G.T.
+KL Rahul,5,200,130,5,40.0,153.85,S.R.H.
 YBK Jaiswal,5,193,106,4,48.25,182.08,R.R.
+Naman Dhir,5,193,110,5,38.6,175.45,G.T.
 Shashank Singh,5,188,95,2,94.0,197.89,P.B.K.S.
 JC Buttler,5,184,118,4,46.0,155.93,L.S.G.
+Nithish Kumar Reddy,5,184,85,2,92.0,216.47,S.R.H.
 Abishek Porel,5,183,96,3,61.0,190.62,D.C.
-Nithish Kumar Reddy,5,179,88,2,89.5,203.41,S.R.H.
 SP Narine,5,177,117,4,44.25,151.28,K.K.R.
 PD Salt,5,169,102,5,33.8,165.69,R.C.B.
 BM Duckett,5,167,103,5,33.4,162.14,P.B.K.S.
 TM Head,5,166,119,5,33.2,139.5,M.I.
-CH Gayle,5,165,99,5,33.0,166.67,C.S.K.
 BJ McMullen,5,165,104,5,33.0,158.65,R.R.
 Aniket Verma,5,165,91,3,55.0,181.32,R.R.
+CH Gayle,5,165,99,5,33.0,166.67,C.S.K.
 RG Sharma,5,160,89,4,40.0,179.78,K.K.R.
 V Suryavanshi,5,160,106,5,32.0,150.94,P.B.K.S.
+Priyansh Arya,5,159,89,5,31.8,178.65,S.R.H.
 MJ Owen,5,158,80,4,39.5,197.5,D.C.
 SV Samson,5,149,104,3,49.67,143.27,G.T.
 H Klaasen,5,144,92,3,48.0,156.52,C.S.K.
@@ -46,8 +47,8 @@ AB de Villiers,5,122,74,3,40.67,164.86,R.R.
 JG Bethell,5,122,104,4,30.5,117.31,S.R.H.
 N Wadhera,5,121,82,4,30.25,147.56,K.K.R.
 Shubman Gill,5,120,73,5,24.0,164.38,L.S.G.
-J Fraser-McGurk,5,118,81,4,29.5,145.68,K.K.R.
 KD Karthik,5,118,73,4,29.5,161.64,R.C.B.
+J Fraser-McGurk,5,118,81,4,29.5,145.68,K.K.R.
 BA Stokes,5,117,74,3,39.0,158.11,L.S.G.
 C Green,5,116,81,4,29.0,143.21,K.K.R.
 Q de Kock,5,116,96,5,23.2,120.83,K.K.R.
@@ -58,11 +59,10 @@ Tarang Gohel,1,107,53,1,107.0,201.89,D.C.
 LG Pretorius,5,105,68,5,21.0,154.41,R.R.
 RK Singh,5,104,71,4,26.0,146.48,M.I.
 AK Markram,5,104,68,3,34.67,152.94,D.C.
-Priyansh Arya,5,103,63,5,20.6,163.49,S.R.H.
 MK Lomror,5,102,74,3,34.0,137.84,S.R.H.
 HC Brook,2,100,66,1,100.0,151.52,M.I.
-RR Pant,5,98,67,4,24.5,146.27,G.T.
 FH Allen,5,98,45,5,19.6,217.78,P.B.K.S.
+RR Pant,5,98,67,4,24.5,146.27,G.T.
 R Powell,5,94,63,4,23.5,149.21,K.K.R.
 D Brevis,4,94,77,4,23.5,122.08,R.R.
 PJ Cummins,5,93,64,2,46.5,145.31,R.R.
@@ -83,12 +83,10 @@ RA Tripathi,5,77,53,2,38.5,145.28,K.K.R.
 Washington Sundar,5,76,60,3,25.33,126.67,P.B.K.S.
 PWH de Silva,5,75,54,2,37.5,138.89,P.B.K.S.
 SB Dubey,5,74,53,3,24.67,139.62,P.B.K.S.
-RR Rossouw,5,73,37,4,18.25,197.3,S.R.H.
 Abdul Samad,5,71,45,5,14.2,157.78,L.S.G.
 Utkarsh Singh,3,68,45,2,34.0,151.11,P.B.K.S.
 MA Agarwal,4,67,42,4,16.75,159.52,R.R.
 AR Patel,5,66,46,3,22.0,143.48,C.S.K.
-VR Iyer,5,65,49,4,16.25,132.65,S.R.H.
 Shakib Al Hasan,5,64,63,3,21.33,101.59,P.B.K.S.
 Arshad Khan,5,64,50,2,32.0,128.0,R.R.
 MA Starc,5,64,35,5,12.8,182.86,K.K.R.
@@ -99,9 +97,11 @@ Bilal Zalmai,3,58,34,1,58.0,170.59,M.I.
 KK Nair,2,58,39,2,29.0,148.72,G.T.
 AD Russell,5,58,31,5,11.6,187.1,D.C.
 Ishaan Gadekar,1,57,28,1,57.0,203.57,R.C.B.
-Shahbaz Ahmed,5,56,50,3,18.67,112.0,G.T.
 Akash Vasisht,3,56,38,2,28.0,147.37,D.C.
+Shahbaz Ahmed,5,56,50,3,18.67,112.0,G.T.
 HH Pandya,5,56,36,3,18.67,155.56,M.I.
+RR Rossouw,5,55,31,4,13.75,177.42,S.R.H.
+VR Iyer,5,55,45,3,18.33,122.22,S.R.H.
 A Mhatre,4,55,43,4,13.75,127.91,R.R.
 SPD Smith,3,54,54,3,18.0,100.0,C.S.K.
 Salman Nizar,3,53,46,2,26.5,115.22,R.R.
