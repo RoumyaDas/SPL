@@ -2,6 +2,7 @@ striker,batting_team,num_innings,50+_scores,runs,strike_rate,100+_scores
 P Simran Singh,SRH,13,7,646,161.1,0
 JP Inglis,GT,15,6,715,173.12,1
 CH Gayle,CSK,15,6,585,156.0,1
+N Sindhu,DC,16,5,647,199.08,1
 JM Sharma,RCB,16,5,616,193.1,0
 Shubman Gill,LSG,15,5,585,154.76,1
 Smaran Ravichandran,PBKS,16,5,526,155.62,0
@@ -10,7 +11,6 @@ Aniket Verma,RR,15,5,466,171.96,1
 Naman Dhir,GT,15,4,662,177.01,0
 GJ Maxwell,RR,16,4,638,170.59,1
 RD Gaikwad,GT,15,4,599,176.7,1
-N Sindhu,DC,15,4,586,197.97,1
 WG Jacks,LSG,13,4,528,166.04,0
 SV Samson,GT,15,4,520,160.0,0
 PD Salt,RCB,16,4,519,164.76,0
@@ -21,24 +21,24 @@ AB de Villiers,RR,14,4,413,169.96,1
 YBK Jaiswal,RR,15,4,407,191.98,0
 FH Allen,PBKS,13,4,379,175.46,0
 KL Rahul,SRH,15,3,556,153.17,0
-SA Yadav,DC,15,3,482,193.57,1
+SA Yadav,DC,16,3,494,194.49,1
+V Kohli,DC,16,3,479,159.14,0
+SP Narine,KKR,13,3,443,140.19,0
 Sameer Rizvi,LSG,13,3,437,182.08,0
-V Kohli,DC,15,3,430,156.93,0
+RM Patidar,KKR,15,3,432,144.48,0
 TM Head,MI,9,3,379,144.66,0
 BJ McMullen,RR,11,3,378,163.64,0
-MJ Owen,DC,13,3,355,178.39,0
+MJ Owen,DC,14,3,361,177.83,0
 T Stubbs,CSK,12,3,353,163.43,0
 Q de Kock,KKR,10,3,275,122.77,0
-Tarang Gohel,DC,4,3,244,186.26,1
+Tarang Gohel,DC,5,3,268,178.67,1
 Ishaan Gadekar,RCB,5,3,229,155.78,0
 V Suryavanshi,PBKS,16,2,527,161.66,0
 Tilak Varma,CSK,15,2,442,162.5,0
 Ishan Kishan,MI,13,2,418,153.11,0
-SP Narine,KKR,12,2,383,142.91,0
-RM Patidar,KKR,14,2,377,139.11,0
 Priyansh Arya,SRH,14,2,363,164.25,0
 RG Sharma,KKR,14,2,356,191.4,0
-Abishek Porel,DC,11,2,347,161.4,0
+Abishek Porel,DC,12,2,351,160.27,0
 Shashank Singh,PBKS,15,2,333,185.0,0
 Rahul Singh,RCB,10,2,330,173.68,0
 PHKD Mendis,SRH,13,2,318,175.69,0
