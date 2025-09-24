@@ -1,128 +1,128 @@
 Match between CSK and RR !! 
 Venue -- CSK
-```match about to begin```
-------------------------------
+match about to begin
+
           
 innings 1
-```first inning begins```
+first inning begins
 CSK BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
-------------------------------
+
           
-------------------------------
-``` bowler | runs | balls | wkts | dots | economy | points ```
-------------------------------
-``` Yash Thakur | 15 | 18 | 1 | 11 | 5.0 | 31 ```
-------------------------------
-``` Suryansh Shedge | 28 | 18 | 1 | 2 | 9.33 | 25 ```
-------------------------------
-``` KA Pollard | 51 | 24 | 1 | 4 | 12.75 | 20 ```
-------------------------------
-``` Fazalhaq Farooqi | 28 | 18 | 0 | 1 | 9.33 | 0 ```
-------------------------------
-``` T Natarajan | 41 | 24 | 0 | 6 | 10.25 | 0 ```
-------------------------------
-``` Tanush Kotian | 34 | 18 | 0 | 1 | 11.33 | -3 ```
-------------------------------
+
+ bowler | runs | balls | wkts | dots | economy | points 
+
+ Yash Thakur | 15 | 18 | 1 | 11 | 5.0 | 31 
+
+ Suryansh Shedge | 28 | 18 | 1 | 2 | 9.33 | 25 
+
+ KA Pollard | 51 | 24 | 1 | 4 | 12.75 | 20 
+
+ Fazalhaq Farooqi | 28 | 18 | 0 | 1 | 9.33 | 0 
+
+ T Natarajan | 41 | 24 | 0 | 6 | 10.25 | 0 
+
+ Tanush Kotian | 34 | 18 | 0 | 1 | 11.33 | -3 
+
           
 Extras = 3
           
 ----------
 RR BATTING --
 ^^^^^^^^^^^^^^^^^^^^
-------------------------------
+
           
-------------------------------
-``` player | wicket_event | runs | balls | strike_rate | 4s_6s ```
-------------------------------
-``` GJ Maxwell | C T Natarajan B Suryansh Shedge | 108 | 57 | 189.47 | 4s = 11, 6s = 4 ```
-------------------------------
-``` AB de Villiers | C CH Gayle B Yash Thakur | 14 | 11 | 127.27 | 4s = 1, 6s = 1 ```
-------------------------------
-``` Aniket Verma | Bo KA Pollard | 60 | 46 | 130.43 | 4s = 5, 6s = 2 ```
-------------------------------
-``` S Dube | Not Out | 9 | 4 | 225.0 | 4s = 0, 6s = 1 ```
-------------------------------
-``` YBK Jaiswal | Not Out | 4 | 2 | 200.0 | 4s = 0, 6s = 0 ```
-------------------------------
-------------------------------
+
+ player | wicket_event | runs | balls | strike_rate | 4s_6s 
+
+ GJ Maxwell | C T Natarajan B Suryansh Shedge | 108 | 57 | 189.47 | 4s = 11, 6s = 4 
+
+ AB de Villiers | C CH Gayle B Yash Thakur | 14 | 11 | 127.27 | 4s = 1, 6s = 1 
+
+ Aniket Verma | Bo KA Pollard | 60 | 46 | 130.43 | 4s = 5, 6s = 2 
+
+ S Dube | Not Out | 9 | 4 | 225.0 | 4s = 0, 6s = 1 
+
+ YBK Jaiswal | Not Out | 4 | 2 | 200.0 | 4s = 0, 6s = 0 
+
+
           
-<.>.<.>.<.>.<.>.<.>.
+
           
 Score :: 198-3  (20.0), run-rate = 9.9
 ******************************
 ******************************
-------------------------------
+
           
-------------------------------
+
           
 innings 2
-```second inning begins```
+second inning begins
 RR BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
-------------------------------
+
           
-------------------------------
-``` bowler | runs | balls | wkts | dots | economy | points ```
-------------------------------
-``` Ashwani Kumar | 29 | 18 | 4 | 6 | 9.67 | 109 ```
-------------------------------
-``` Arshad Khan | 19 | 18 | 2 | 8 | 6.33 | 54 ```
-------------------------------
-``` PJ Cummins | 27 | 24 | 2 | 11 | 6.75 | 54 ```
-------------------------------
-``` JR Hazlewood | 30 | 24 | 1 | 14 | 7.5 | 28 ```
-------------------------------
-``` Sandeep Sharma | 39 | 22 | 1 | 6 | 10.64 | 24 ```
-------------------------------
-``` GJ Maxwell | 13 | 6 | 0 | 0 | 13.0 | -6 ```
-------------------------------
+
+ bowler | runs | balls | wkts | dots | economy | points 
+
+ Ashwani Kumar | 29 | 18 | 4 | 6 | 9.67 | 109 
+
+ Arshad Khan | 19 | 18 | 2 | 8 | 6.33 | 54 
+
+ PJ Cummins | 27 | 24 | 2 | 11 | 6.75 | 54 
+
+ JR Hazlewood | 30 | 24 | 1 | 14 | 7.5 | 28 
+
+ Sandeep Sharma | 39 | 22 | 1 | 6 | 10.64 | 24 
+
+ GJ Maxwell | 13 | 6 | 0 | 0 | 13.0 | -6 
+
           
 Extras = 3
-------------------------------
+
           
 ----------
 CSK BATTING --
 ^^^^^^^^^^^^^^^^^^^^
-------------------------------
+
           
-------------------------------
-``` player | wicket_event | runs | balls | strike_rate | 4s_6s ```
-------------------------------
-``` CH Gayle | C JR Hazlewood B Ashwani Kumar | 80 | 53 | 150.94 | 4s = 4, 6s = 6 ```
-------------------------------
-``` Tilak Varma | LBW JR Hazlewood | 11 | 10 | 110.0 | 4s = 2, 6s = 0 ```
-------------------------------
-``` B Sai Sudharsan | C Aniket Verma B Arshad Khan | 2 | 3 | 66.67 | 4s = 0, 6s = 0 ```
-------------------------------
-``` KA Pollard | C YBK Jaiswal B PJ Cummins | 28 | 10 | 280.0 | 4s = 3, 6s = 2 ```
-------------------------------
-``` H Klaasen | C GJ Maxwell B Arshad Khan | 21 | 14 | 150.0 | 4s = 0, 6s = 1 ```
-------------------------------
-``` AV Wankhade | C AB de Villiers B PJ Cummins | 5 | 8 | 62.5 | 4s = 0, 6s = 0 ```
-------------------------------
-``` Suryansh Shedge | Bo Ashwani Kumar | 0 | 1 | 0.0 | 4s = 0, 6s = 0 ```
-------------------------------
-``` Tanush Kotian | C GJ Maxwell B Ashwani Kumar | 4 | 2 | 200.0 | 4s = 1, 6s = 0 ```
-------------------------------
-``` T Natarajan | C GJ Maxwell B Ashwani Kumar | 0 | 1 | 0.0 | 4s = 0, 6s = 0 ```
-------------------------------
-``` Yash Thakur | Not Out | 4 | 8 | 50.0 | 4s = 0, 6s = 0 ```
-------------------------------
-``` Fazalhaq Farooqi | C Arshad Khan B Sandeep Sharma | 1 | 2 | 50.0 | 4s = 0, 6s = 0 ```
-------------------------------
-------------------------------
+
+ player | wicket_event | runs | balls | strike_rate | 4s_6s 
+
+ CH Gayle | C JR Hazlewood B Ashwani Kumar | 80 | 53 | 150.94 | 4s = 4, 6s = 6 
+
+ Tilak Varma | LBW JR Hazlewood | 11 | 10 | 110.0 | 4s = 2, 6s = 0 
+
+ B Sai Sudharsan | C Aniket Verma B Arshad Khan | 2 | 3 | 66.67 | 4s = 0, 6s = 0 
+
+ KA Pollard | C YBK Jaiswal B PJ Cummins | 28 | 10 | 280.0 | 4s = 3, 6s = 2 
+
+ H Klaasen | C GJ Maxwell B Arshad Khan | 21 | 14 | 150.0 | 4s = 0, 6s = 1 
+
+ AV Wankhade | C AB de Villiers B PJ Cummins | 5 | 8 | 62.5 | 4s = 0, 6s = 0 
+
+ Suryansh Shedge | Bo Ashwani Kumar | 0 | 1 | 0.0 | 4s = 0, 6s = 0 
+
+ Tanush Kotian | C GJ Maxwell B Ashwani Kumar | 4 | 2 | 200.0 | 4s = 1, 6s = 0 
+
+ T Natarajan | C GJ Maxwell B Ashwani Kumar | 0 | 1 | 0.0 | 4s = 0, 6s = 0 
+
+ Yash Thakur | Not Out | 4 | 8 | 50.0 | 4s = 0, 6s = 0 
+
+ Fazalhaq Farooqi | C Arshad Khan B Sandeep Sharma | 1 | 2 | 50.0 | 4s = 0, 6s = 0 
+
+
           
           
-<.>.<.>.<.>.<.>.<.>.
+
           
 Score :: 159-10  (18.4), run-rate = 8.52
 ******************************
 ******************************
-------------------------------
+
           
-```match ends```
-<.>.<.>.<.>.<.>.<.>.
+match ends
+
 RR wins!!
 ******************************
           

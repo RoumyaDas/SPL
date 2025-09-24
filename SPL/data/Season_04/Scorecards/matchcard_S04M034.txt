@@ -1,126 +1,126 @@
 Match between RR and RCB !! 
 Venue -- RR
-```match about to begin```
-------------------------------
+match about to begin
+
           
 innings 1
-```first inning begins```
+first inning begins
 RR BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
-------------------------------
+
           
-------------------------------
-``` bowler | runs | balls | wkts | dots | economy | points ```
-------------------------------
-``` Ashwani Kumar | 48 | 24 | 2 | 4 | 12.0 | 47 ```
-------------------------------
-``` Harsh Dubey | 38 | 24 | 1 | 8 | 9.5 | 27 ```
-------------------------------
-``` GJ Maxwell | 42 | 24 | 1 | 6 | 10.5 | 24 ```
-------------------------------
-``` BJ McMullen | 8 | 6 | 0 | 1 | 8.0 | 0 ```
-------------------------------
-``` Arshad Khan | 33 | 18 | 0 | 4 | 11.0 | -1 ```
-------------------------------
-``` HV Patel | 45 | 24 | 0 | 5 | 11.25 | -2 ```
-------------------------------
+
+ bowler | runs | balls | wkts | dots | economy | points 
+
+ Ashwani Kumar | 48 | 24 | 2 | 4 | 12.0 | 47 
+
+ Harsh Dubey | 38 | 24 | 1 | 8 | 9.5 | 27 
+
+ GJ Maxwell | 42 | 24 | 1 | 6 | 10.5 | 24 
+
+ BJ McMullen | 8 | 6 | 0 | 1 | 8.0 | 0 
+
+ Arshad Khan | 33 | 18 | 0 | 4 | 11.0 | -1 
+
+ HV Patel | 45 | 24 | 0 | 5 | 11.25 | -2 
+
           
 Extras = 5
           
 ----------
 RCB BATTING --
 ^^^^^^^^^^^^^^^^^^^^
-------------------------------
+
           
-------------------------------
-``` player | wicket_event | runs | balls | strike_rate | 4s_6s ```
-------------------------------
-``` D Visser | C LG Pretorius B Ashwani Kumar | 0 | 1 | 0.0 | 4s = 0, 6s = 0 ```
-------------------------------
-``` PD Salt | C HV Patel B Ashwani Kumar | 72 | 44 | 163.64 | 4s = 10, 6s = 2 ```
-------------------------------
-``` Rahul Singh | Bo GJ Maxwell | 47 | 25 | 188.0 | 4s = 2, 6s = 3 ```
-------------------------------
-``` Dhruv Jurel | LBW Harsh Dubey | 21 | 14 | 150.0 | 4s = 1, 6s = 1 ```
-------------------------------
-``` JM Sharma | Not Out | 50 | 21 | 238.1 | 4s = 4, 6s = 3 ```
-------------------------------
-``` RA Jadeja | Not Out | 23 | 15 | 153.33 | 4s = 1, 6s = 1 ```
-------------------------------
-------------------------------
+
+ player | wicket_event | runs | balls | strike_rate | 4s_6s 
+
+ D Visser | C LG Pretorius B Ashwani Kumar | 0 | 1 | 0.0 | 4s = 0, 6s = 0 
+
+ PD Salt | C HV Patel B Ashwani Kumar | 72 | 44 | 163.64 | 4s = 10, 6s = 2 
+
+ Rahul Singh | Bo GJ Maxwell | 47 | 25 | 188.0 | 4s = 2, 6s = 3 
+
+ Dhruv Jurel | LBW Harsh Dubey | 21 | 14 | 150.0 | 4s = 1, 6s = 1 
+
+ JM Sharma | Not Out | 50 | 21 | 238.1 | 4s = 4, 6s = 3 
+
+ RA Jadeja | Not Out | 23 | 15 | 153.33 | 4s = 1, 6s = 1 
+
+
           
-<.>.<.>.<.>.<.>.<.>.
+
           
 Score :: 218-4  (20.0), run-rate = 10.9
 ******************************
 ******************************
-------------------------------
+
           
-------------------------------
+
           
 innings 2
-```second inning begins```
+second inning begins
 RCB BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
-------------------------------
+
           
-------------------------------
-``` bowler | runs | balls | wkts | dots | economy | points ```
-------------------------------
-``` M Pathirana | 40 | 22 | 2 | 3 | 10.91 | 48 ```
-------------------------------
-``` RA Jadeja | 13 | 12 | 1 | 4 | 6.5 | 28 ```
-------------------------------
-``` Yudhvir Singh | 20 | 18 | 1 | 9 | 6.67 | 29 ```
-------------------------------
-``` DAJ Bracewell | 51 | 24 | 1 | 7 | 12.75 | 20 ```
-------------------------------
-``` Pankaj Jaswal | 36 | 18 | 0 | 6 | 12.0 | -2 ```
-------------------------------
-``` YS Chahal | 39 | 18 | 0 | 0 | 13.0 | -6 ```
-------------------------------
-``` D Visser | 22 | 6 | 0 | 0 | 22.0 | -6 ```
-------------------------------
+
+ bowler | runs | balls | wkts | dots | economy | points 
+
+ M Pathirana | 40 | 22 | 2 | 3 | 10.91 | 48 
+
+ RA Jadeja | 13 | 12 | 1 | 4 | 6.5 | 28 
+
+ Yudhvir Singh | 20 | 18 | 1 | 9 | 6.67 | 29 
+
+ DAJ Bracewell | 51 | 24 | 1 | 7 | 12.75 | 20 
+
+ Pankaj Jaswal | 36 | 18 | 0 | 6 | 12.0 | -2 
+
+ YS Chahal | 39 | 18 | 0 | 0 | 13.0 | -6 
+
+ D Visser | 22 | 6 | 0 | 0 | 22.0 | -6 
+
           
 Extras = 7
-------------------------------
+
           
 ----------
 RR BATTING --
 ^^^^^^^^^^^^^^^^^^^^
-------------------------------
+
           
-------------------------------
-``` player | wicket_event | runs | balls | strike_rate | 4s_6s ```
-------------------------------
-``` LG Pretorius | LBW DAJ Bracewell | 5 | 4 | 125.0 | 4s = 1, 6s = 0 ```
-------------------------------
-``` TH David | Run-out by DAJ Bracewell | 13 | 15 | 86.67 | 4s = 0, 6s = 1 ```
-------------------------------
-``` YBK Jaiswal | C Yudhvir Singh B Yudhvir Singh | 21 | 11 | 190.91 | 4s = 3, 6s = 1 ```
-------------------------------
-``` GJ Maxwell | Not Out | 47 | 30 | 156.67 | 4s = 3, 6s = 1 ```
-------------------------------
-``` Aniket Verma | C PD Salt B RA Jadeja | 52 | 21 | 247.62 | 4s = 7, 6s = 2 ```
-------------------------------
-``` BJ McMullen | C Yudhvir Singh B M Pathirana | 53 | 27 | 196.3 | 4s = 7, 6s = 2 ```
-------------------------------
-``` S Dube | Bo M Pathirana | 0 | 1 | 0.0 | 4s = 0, 6s = 0 ```
-------------------------------
-``` Arshad Khan | Not Out | 24 | 9 | 266.67 | 4s = 3, 6s = 1 ```
-------------------------------
-------------------------------
+
+ player | wicket_event | runs | balls | strike_rate | 4s_6s 
+
+ LG Pretorius | LBW DAJ Bracewell | 5 | 4 | 125.0 | 4s = 1, 6s = 0 
+
+ TH David | Run-out by DAJ Bracewell | 13 | 15 | 86.67 | 4s = 0, 6s = 1 
+
+ YBK Jaiswal | C Yudhvir Singh B Yudhvir Singh | 21 | 11 | 190.91 | 4s = 3, 6s = 1 
+
+ GJ Maxwell | Not Out | 47 | 30 | 156.67 | 4s = 3, 6s = 1 
+
+ Aniket Verma | C PD Salt B RA Jadeja | 52 | 21 | 247.62 | 4s = 7, 6s = 2 
+
+ BJ McMullen | C Yudhvir Singh B M Pathirana | 53 | 27 | 196.3 | 4s = 7, 6s = 2 
+
+ S Dube | Bo M Pathirana | 0 | 1 | 0.0 | 4s = 0, 6s = 0 
+
+ Arshad Khan | Not Out | 24 | 9 | 266.67 | 4s = 3, 6s = 1 
+
+
           
           
-<.>.<.>.<.>.<.>.<.>.
+
           
 Score :: 222-6  (19.4), run-rate = 11.29
 ******************************
 ******************************
-------------------------------
+
           
-```match ends```
-<.>.<.>.<.>.<.>.<.>.
+match ends
+
 RR wins!!
 ******************************
           

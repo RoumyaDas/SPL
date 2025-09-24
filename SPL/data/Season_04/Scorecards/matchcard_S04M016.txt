@@ -1,134 +1,134 @@
 Match between LSG and SRH !! 
 Venue -- LSG
-```match about to begin```
-------------------------------
+match about to begin
+
           
 innings 1
-```first inning begins```
+first inning begins
 LSG BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
-------------------------------
+
           
-------------------------------
-``` bowler | runs | balls | wkts | dots | economy | points ```
-------------------------------
-``` Mohammad Nabi | 29 | 24 | 3 | 9 | 7.25 | 81 ```
-------------------------------
-``` Ravi Bishnoi | 22 | 24 | 2 | 15 | 5.5 | 57 ```
-------------------------------
-``` WG Jacks | 23 | 24 | 2 | 9 | 5.75 | 56 ```
-------------------------------
-``` Arshdeep Singh | 42 | 24 | 2 | 11 | 10.5 | 50 ```
-------------------------------
-``` SZ Mulani | 21 | 18 | 0 | 4 | 7.0 | 3 ```
-------------------------------
-``` Abdul Samad | 12 | 6 | 0 | 1 | 12.0 | -3 ```
-------------------------------
+
+ bowler | runs | balls | wkts | dots | economy | points 
+
+ Mohammad Nabi | 29 | 24 | 3 | 9 | 7.25 | 81 
+
+ Ravi Bishnoi | 22 | 24 | 2 | 15 | 5.5 | 57 
+
+ WG Jacks | 23 | 24 | 2 | 9 | 5.75 | 56 
+
+ Arshdeep Singh | 42 | 24 | 2 | 11 | 10.5 | 50 
+
+ SZ Mulani | 21 | 18 | 0 | 4 | 7.0 | 3 
+
+ Abdul Samad | 12 | 6 | 0 | 1 | 12.0 | -3 
+
           
 Extras = 5
           
 ----------
 SRH BATTING --
 ^^^^^^^^^^^^^^^^^^^^
-------------------------------
+
           
-------------------------------
-``` player | wicket_event | runs | balls | strike_rate | 4s_6s ```
-------------------------------
-``` P Simran Singh | C Shubman Gill B Ravi Bishnoi | 4 | 5 | 80.0 | 4s = 1, 6s = 0 ```
-------------------------------
-``` Priyansh Arya | C Abdul Samad B Arshdeep Singh | 0 | 1 | 0.0 | 4s = 0, 6s = 0 ```
-------------------------------
-``` KL Rahul | Bo WG Jacks | 41 | 23 | 178.26 | 4s = 5, 6s = 2 ```
-------------------------------
-``` PHKD Mendis | C RD Rickelton B Mohammad Nabi | 10 | 18 | 55.56 | 4s = 1, 6s = 0 ```
-------------------------------
-``` VR Iyer | C SZ Mulani B Arshdeep Singh | 28 | 23 | 121.74 | 4s = 3, 6s = 0 ```
-------------------------------
-``` Azmatullah Omarzai | LBW Ravi Bishnoi | 14 | 13 | 107.69 | 4s = 2, 6s = 0 ```
-------------------------------
-``` Nithish Kumar Reddy | C SS Iyer B Mohammad Nabi | 23 | 14 | 164.29 | 4s = 1, 6s = 1 ```
-------------------------------
-``` M Markande | C SS Iyer B Mohammad Nabi | 5 | 3 | 166.67 | 4s = 1, 6s = 0 ```
-------------------------------
-``` Mohammad Ghazanfar | Not Out | 16 | 12 | 133.33 | 4s = 2, 6s = 0 ```
-------------------------------
-``` Kuldeep Yadav | Bo WG Jacks | 2 | 5 | 40.0 | 4s = 0, 6s = 0 ```
-------------------------------
-``` KA Maharaj | Not Out | 4 | 3 | 133.33 | 4s = 1, 6s = 0 ```
-------------------------------
-------------------------------
+
+ player | wicket_event | runs | balls | strike_rate | 4s_6s 
+
+ P Simran Singh | C Shubman Gill B Ravi Bishnoi | 4 | 5 | 80.0 | 4s = 1, 6s = 0 
+
+ Priyansh Arya | C Abdul Samad B Arshdeep Singh | 0 | 1 | 0.0 | 4s = 0, 6s = 0 
+
+ KL Rahul | Bo WG Jacks | 41 | 23 | 178.26 | 4s = 5, 6s = 2 
+
+ PHKD Mendis | C RD Rickelton B Mohammad Nabi | 10 | 18 | 55.56 | 4s = 1, 6s = 0 
+
+ VR Iyer | C SZ Mulani B Arshdeep Singh | 28 | 23 | 121.74 | 4s = 3, 6s = 0 
+
+ Azmatullah Omarzai | LBW Ravi Bishnoi | 14 | 13 | 107.69 | 4s = 2, 6s = 0 
+
+ Nithish Kumar Reddy | C SS Iyer B Mohammad Nabi | 23 | 14 | 164.29 | 4s = 1, 6s = 1 
+
+ M Markande | C SS Iyer B Mohammad Nabi | 5 | 3 | 166.67 | 4s = 1, 6s = 0 
+
+ Mohammad Ghazanfar | Not Out | 16 | 12 | 133.33 | 4s = 2, 6s = 0 
+
+ Kuldeep Yadav | Bo WG Jacks | 2 | 5 | 40.0 | 4s = 0, 6s = 0 
+
+ KA Maharaj | Not Out | 4 | 3 | 133.33 | 4s = 1, 6s = 0 
+
+
           
-<.>.<.>.<.>.<.>.<.>.
+
           
 Score :: 152-9  (20.0), run-rate = 7.6
 ******************************
 ******************************
-------------------------------
+
           
-------------------------------
+
           
 innings 2
-```second inning begins```
+second inning begins
 SRH BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
-------------------------------
+
           
-------------------------------
-``` bowler | runs | balls | wkts | dots | economy | points ```
-------------------------------
-``` M Markande | 21 | 18 | 2 | 10 | 7.0 | 54 ```
-------------------------------
-``` Kuldeep Yadav | 30 | 24 | 2 | 8 | 7.5 | 52 ```
-------------------------------
-``` KA Maharaj | 8 | 18 | 1 | 11 | 2.67 | 33 ```
-------------------------------
-``` PHKD Mendis | 32 | 20 | 1 | 4 | 9.6 | 26 ```
-------------------------------
-``` Mohammad Ghazanfar | 38 | 24 | 0 | 2 | 9.5 | 0 ```
-------------------------------
-``` Azmatullah Omarzai | 26 | 12 | 0 | 2 | 13.0 | -5 ```
-------------------------------
+
+ bowler | runs | balls | wkts | dots | economy | points 
+
+ M Markande | 21 | 18 | 2 | 10 | 7.0 | 54 
+
+ Kuldeep Yadav | 30 | 24 | 2 | 8 | 7.5 | 52 
+
+ KA Maharaj | 8 | 18 | 1 | 11 | 2.67 | 33 
+
+ PHKD Mendis | 32 | 20 | 1 | 4 | 9.6 | 26 
+
+ Mohammad Ghazanfar | 38 | 24 | 0 | 2 | 9.5 | 0 
+
+ Azmatullah Omarzai | 26 | 12 | 0 | 2 | 13.0 | -5 
+
           
 Extras = 2
-------------------------------
+
           
 ----------
 LSG BATTING --
 ^^^^^^^^^^^^^^^^^^^^
-------------------------------
+
           
-------------------------------
-``` player | wicket_event | runs | balls | strike_rate | 4s_6s ```
-------------------------------
-``` Shubman Gill | LBW M Markande | 0 | 1 | 0.0 | 4s = 0, 6s = 0 ```
-------------------------------
-``` RD Rickelton | LBW Kuldeep Yadav | 6 | 4 | 150.0 | 4s = 1, 6s = 0 ```
-------------------------------
-``` WG Jacks | LBW Kuldeep Yadav | 44 | 33 | 133.33 | 4s = 5, 6s = 1 ```
-------------------------------
-``` SS Iyer | Bo PHKD Mendis | 82 | 52 | 157.69 | 4s = 11, 6s = 1 ```
-------------------------------
-``` JC Buttler | C Azmatullah Omarzai B M Markande | 3 | 6 | 50.0 | 4s = 0, 6s = 0 ```
-------------------------------
-``` Sameer Rizvi | Bo KA Maharaj | 0 | 1 | 0.0 | 4s = 0, 6s = 0 ```
-------------------------------
-``` Abdul Samad | Not Out | 14 | 15 | 93.33 | 4s = 0, 6s = 1 ```
-------------------------------
-``` Mohammad Nabi | Not Out | 6 | 4 | 150.0 | 4s = 0, 6s = 0 ```
-------------------------------
-------------------------------
+
+ player | wicket_event | runs | balls | strike_rate | 4s_6s 
+
+ Shubman Gill | LBW M Markande | 0 | 1 | 0.0 | 4s = 0, 6s = 0 
+
+ RD Rickelton | LBW Kuldeep Yadav | 6 | 4 | 150.0 | 4s = 1, 6s = 0 
+
+ WG Jacks | LBW Kuldeep Yadav | 44 | 33 | 133.33 | 4s = 5, 6s = 1 
+
+ SS Iyer | Bo PHKD Mendis | 82 | 52 | 157.69 | 4s = 11, 6s = 1 
+
+ JC Buttler | C Azmatullah Omarzai B M Markande | 3 | 6 | 50.0 | 4s = 0, 6s = 0 
+
+ Sameer Rizvi | Bo KA Maharaj | 0 | 1 | 0.0 | 4s = 0, 6s = 0 
+
+ Abdul Samad | Not Out | 14 | 15 | 93.33 | 4s = 0, 6s = 1 
+
+ Mohammad Nabi | Not Out | 6 | 4 | 150.0 | 4s = 0, 6s = 0 
+
+
           
           
-<.>.<.>.<.>.<.>.<.>.
+
           
 Score :: 157-6  (19.2), run-rate = 8.12
 ******************************
 ******************************
-------------------------------
+
           
-```match ends```
-<.>.<.>.<.>.<.>.<.>.
+match ends
+
 LSG wins!!
 ******************************
           

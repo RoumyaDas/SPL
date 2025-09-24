@@ -1,128 +1,128 @@
 Match between SRH and DC !! 
 Venue -- SRH
-```match about to begin```
-------------------------------
+match about to begin
+
           
 innings 1
-```first inning begins```
+first inning begins
 SRH BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
-------------------------------
+
           
-------------------------------
-``` bowler | runs | balls | wkts | dots | economy | points ```
-------------------------------
-``` Naveen-ul-Haq | 25 | 24 | 1 | 6 | 6.25 | 28 ```
-------------------------------
-``` Mohammad Ghazanfar | 29 | 24 | 1 | 7 | 7.25 | 26 ```
-------------------------------
-``` Kuldeep Yadav | 25 | 12 | 1 | 2 | 12.5 | 19 ```
-------------------------------
-``` Nithish Kumar Reddy | 6 | 6 | 0 | 1 | 6.0 | 2 ```
-------------------------------
-``` NT Ellis | 45 | 24 | 0 | 3 | 11.25 | -3 ```
-------------------------------
-``` RA Bawa | 35 | 18 | 0 | 1 | 11.67 | -3 ```
-------------------------------
-``` PHKD Mendis | 38 | 12 | 0 | 1 | 19.0 | -5 ```
-------------------------------
+
+ bowler | runs | balls | wkts | dots | economy | points 
+
+ Naveen-ul-Haq | 25 | 24 | 1 | 6 | 6.25 | 28 
+
+ Mohammad Ghazanfar | 29 | 24 | 1 | 7 | 7.25 | 26 
+
+ Kuldeep Yadav | 25 | 12 | 1 | 2 | 12.5 | 19 
+
+ Nithish Kumar Reddy | 6 | 6 | 0 | 1 | 6.0 | 2 
+
+ NT Ellis | 45 | 24 | 0 | 3 | 11.25 | -3 
+
+ RA Bawa | 35 | 18 | 0 | 1 | 11.67 | -3 
+
+ PHKD Mendis | 38 | 12 | 0 | 1 | 19.0 | -5 
+
           
 Extras = 5
           
 ----------
 DC BATTING --
 ^^^^^^^^^^^^^^^^^^^^
-------------------------------
+
           
-------------------------------
-``` player | wicket_event | runs | balls | strike_rate | 4s_6s ```
-------------------------------
-``` Urvil Patel | C Mohammad Ghazanfar B Naveen-ul-Haq | 66 | 47 | 140.43 | 4s = 5, 6s = 2 ```
-------------------------------
-``` V Kohli | C KL Rahul B Mohammad Ghazanfar | 49 | 35 | 140.0 | 4s = 3, 6s = 2 ```
-------------------------------
-``` SA Yadav | Bo Kuldeep Yadav | 9 | 5 | 180.0 | 4s = 2, 6s = 0 ```
-------------------------------
-``` N Sindhu | Not Out | 52 | 23 | 226.09 | 4s = 1, 6s = 5 ```
-------------------------------
-``` Abishek Porel | Not Out | 24 | 10 | 240.0 | 4s = 3, 6s = 1 ```
-------------------------------
-------------------------------
+
+ player | wicket_event | runs | balls | strike_rate | 4s_6s 
+
+ Urvil Patel | C Mohammad Ghazanfar B Naveen-ul-Haq | 66 | 47 | 140.43 | 4s = 5, 6s = 2 
+
+ V Kohli | C KL Rahul B Mohammad Ghazanfar | 49 | 35 | 140.0 | 4s = 3, 6s = 2 
+
+ SA Yadav | Bo Kuldeep Yadav | 9 | 5 | 180.0 | 4s = 2, 6s = 0 
+
+ N Sindhu | Not Out | 52 | 23 | 226.09 | 4s = 1, 6s = 5 
+
+ Abishek Porel | Not Out | 24 | 10 | 240.0 | 4s = 3, 6s = 1 
+
+
           
-<.>.<.>.<.>.<.>.<.>.
+
           
 Score :: 205-3  (20.0), run-rate = 10.25
 ******************************
 ******************************
-------------------------------
+
           
-------------------------------
+
           
 innings 2
-```second inning begins```
+second inning begins
 DC BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
-------------------------------
+
           
-------------------------------
-``` bowler | runs | balls | wkts | dots | economy | points ```
-------------------------------
-``` Akash Vasisht | 26 | 24 | 4 | 6 | 6.5 | 111 ```
-------------------------------
-``` S Lamichhane | 28 | 19 | 3 | 6 | 8.84 | 80 ```
-------------------------------
-``` V Puthur | 34 | 24 | 1 | 6 | 8.5 | 26 ```
-------------------------------
-``` AK Markram | 43 | 24 | 1 | 5 | 10.75 | 24 ```
-------------------------------
-``` Abid Mushtaq | 47 | 24 | 1 | 7 | 11.75 | 22 ```
-------------------------------
+
+ bowler | runs | balls | wkts | dots | economy | points 
+
+ Akash Vasisht | 26 | 24 | 4 | 6 | 6.5 | 111 
+
+ S Lamichhane | 28 | 19 | 3 | 6 | 8.84 | 80 
+
+ V Puthur | 34 | 24 | 1 | 6 | 8.5 | 26 
+
+ AK Markram | 43 | 24 | 1 | 5 | 10.75 | 24 
+
+ Abid Mushtaq | 47 | 24 | 1 | 7 | 11.75 | 22 
+
           
 Extras = 1
-------------------------------
+
           
 ----------
 SRH BATTING --
 ^^^^^^^^^^^^^^^^^^^^
-------------------------------
+
           
-------------------------------
-``` player | wicket_event | runs | balls | strike_rate | 4s_6s ```
-------------------------------
-``` Priyansh Arya | Bo V Puthur | 1 | 4 | 25.0 | 4s = 0, 6s = 0 ```
-------------------------------
-``` P Simran Singh | C SA Yadav B Akash Vasisht | 61 | 32 | 190.62 | 4s = 7, 6s = 0 ```
-------------------------------
-``` KL Rahul | LBW Abid Mushtaq | 38 | 25 | 152.0 | 4s = 2, 6s = 2 ```
-------------------------------
-``` PHKD Mendis | C Akash Vasisht B Akash Vasisht | 2 | 3 | 66.67 | 4s = 0, 6s = 0 ```
-------------------------------
-``` VR Iyer | LBW Akash Vasisht | 14 | 8 | 175.0 | 4s = 2, 6s = 0 ```
-------------------------------
-``` Nithish Kumar Reddy | C Abid Mushtaq B AK Markram | 3 | 5 | 60.0 | 4s = 0, 6s = 0 ```
-------------------------------
-``` RA Bawa | Bo S Lamichhane | 39 | 16 | 243.75 | 4s = 1, 6s = 3 ```
-------------------------------
-``` NT Ellis | C SA Yadav B Akash Vasisht | 1 | 3 | 33.33 | 4s = 0, 6s = 0 ```
-------------------------------
-``` Mohammad Ghazanfar | C S Lamichhane B S Lamichhane | 1 | 5 | 20.0 | 4s = 0, 6s = 0 ```
-------------------------------
-``` Kuldeep Yadav | C N Sindhu B S Lamichhane | 5 | 9 | 55.56 | 4s = 0, 6s = 0 ```
-------------------------------
-``` Naveen-ul-Haq | Not Out | 12 | 6 | 200.0 | 4s = 2, 6s = 0 ```
-------------------------------
-------------------------------
+
+ player | wicket_event | runs | balls | strike_rate | 4s_6s 
+
+ Priyansh Arya | Bo V Puthur | 1 | 4 | 25.0 | 4s = 0, 6s = 0 
+
+ P Simran Singh | C SA Yadav B Akash Vasisht | 61 | 32 | 190.62 | 4s = 7, 6s = 0 
+
+ KL Rahul | LBW Abid Mushtaq | 38 | 25 | 152.0 | 4s = 2, 6s = 2 
+
+ PHKD Mendis | C Akash Vasisht B Akash Vasisht | 2 | 3 | 66.67 | 4s = 0, 6s = 0 
+
+ VR Iyer | LBW Akash Vasisht | 14 | 8 | 175.0 | 4s = 2, 6s = 0 
+
+ Nithish Kumar Reddy | C Abid Mushtaq B AK Markram | 3 | 5 | 60.0 | 4s = 0, 6s = 0 
+
+ RA Bawa | Bo S Lamichhane | 39 | 16 | 243.75 | 4s = 1, 6s = 3 
+
+ NT Ellis | C SA Yadav B Akash Vasisht | 1 | 3 | 33.33 | 4s = 0, 6s = 0 
+
+ Mohammad Ghazanfar | C S Lamichhane B S Lamichhane | 1 | 5 | 20.0 | 4s = 0, 6s = 0 
+
+ Kuldeep Yadav | C N Sindhu B S Lamichhane | 5 | 9 | 55.56 | 4s = 0, 6s = 0 
+
+ Naveen-ul-Haq | Not Out | 12 | 6 | 200.0 | 4s = 2, 6s = 0 
+
+
           
           
-<.>.<.>.<.>.<.>.<.>.
+
           
 Score :: 178-10  (19.1), run-rate = 9.29
 ******************************
 ******************************
-------------------------------
+
           
-```match ends```
-<.>.<.>.<.>.<.>.<.>.
+match ends
+
 DC wins!!
 ******************************
           

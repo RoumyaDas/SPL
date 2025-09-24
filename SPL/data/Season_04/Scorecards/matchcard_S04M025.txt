@@ -1,124 +1,124 @@
 Match between MI and KKR !! 
 Venue -- MI
-```match about to begin```
-------------------------------
+match about to begin
+
           
 innings 1
-```first inning begins```
+first inning begins
 MI BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
-------------------------------
+
           
-------------------------------
-``` bowler | runs | balls | wkts | dots | economy | points ```
-------------------------------
-``` Sikandar Raza | 28 | 24 | 3 | 7 | 7.0 | 82 ```
-------------------------------
-``` Bilal Zalmai | 24 | 24 | 1 | 10 | 6.0 | 29 ```
-------------------------------
-``` Abhishek Sharma | 33 | 24 | 1 | 4 | 8.25 | 26 ```
-------------------------------
-``` V Nigam | 39 | 24 | 1 | 5 | 9.75 | 26 ```
-------------------------------
-``` R Sai Kishore | 37 | 24 | 0 | 8 | 9.25 | 2 ```
-------------------------------
+
+ bowler | runs | balls | wkts | dots | economy | points 
+
+ Sikandar Raza | 28 | 24 | 3 | 7 | 7.0 | 82 
+
+ Bilal Zalmai | 24 | 24 | 1 | 10 | 6.0 | 29 
+
+ Abhishek Sharma | 33 | 24 | 1 | 4 | 8.25 | 26 
+
+ V Nigam | 39 | 24 | 1 | 5 | 9.75 | 26 
+
+ R Sai Kishore | 37 | 24 | 0 | 8 | 9.25 | 2 
+
           
 Extras = 4
           
 ----------
 KKR BATTING --
 ^^^^^^^^^^^^^^^^^^^^
-------------------------------
+
           
-------------------------------
-``` player | wicket_event | runs | balls | strike_rate | 4s_6s ```
-------------------------------
-``` SP Narine | C HH Pandya B V Nigam | 33 | 25 | 132.0 | 4s = 4, 6s = 1 ```
-------------------------------
-``` Q de Kock | C Abhishek Sharma B Abhishek Sharma | 15 | 15 | 100.0 | 4s = 1, 6s = 0 ```
-------------------------------
-``` RM Patidar | Run-out by Bilal Zalmai | 20 | 14 | 142.86 | 4s = 2, 6s = 0 ```
-------------------------------
-``` JL Smith | Bo Sikandar Raza | 23 | 22 | 104.55 | 4s = 0, 6s = 1 ```
-------------------------------
-``` C Green | Not Out | 43 | 26 | 165.38 | 4s = 4, 6s = 1 ```
-------------------------------
-``` RA Tripathi | Bo Sikandar Raza | 4 | 2 | 200.0 | 4s = 1, 6s = 0 ```
-------------------------------
-``` RG Sharma | LBW Sikandar Raza | 0 | 1 | 0.0 | 4s = 0, 6s = 0 ```
-------------------------------
-``` R Tewatia | C N Jagadeesan B Bilal Zalmai | 17 | 10 | 170.0 | 4s = 1, 6s = 1 ```
-------------------------------
-``` DS Rathi | Not Out | 4 | 5 | 80.0 | 4s = 0, 6s = 0 ```
-------------------------------
-------------------------------
+
+ player | wicket_event | runs | balls | strike_rate | 4s_6s 
+
+ SP Narine | C HH Pandya B V Nigam | 33 | 25 | 132.0 | 4s = 4, 6s = 1 
+
+ Q de Kock | C Abhishek Sharma B Abhishek Sharma | 15 | 15 | 100.0 | 4s = 1, 6s = 0 
+
+ RM Patidar | Run-out by Bilal Zalmai | 20 | 14 | 142.86 | 4s = 2, 6s = 0 
+
+ JL Smith | Bo Sikandar Raza | 23 | 22 | 104.55 | 4s = 0, 6s = 1 
+
+ C Green | Not Out | 43 | 26 | 165.38 | 4s = 4, 6s = 1 
+
+ RA Tripathi | Bo Sikandar Raza | 4 | 2 | 200.0 | 4s = 1, 6s = 0 
+
+ RG Sharma | LBW Sikandar Raza | 0 | 1 | 0.0 | 4s = 0, 6s = 0 
+
+ R Tewatia | C N Jagadeesan B Bilal Zalmai | 17 | 10 | 170.0 | 4s = 1, 6s = 1 
+
+ DS Rathi | Not Out | 4 | 5 | 80.0 | 4s = 0, 6s = 0 
+
+
           
-<.>.<.>.<.>.<.>.<.>.
+
           
 Score :: 163-7  (20.0), run-rate = 8.15
 ******************************
 ******************************
-------------------------------
+
           
-------------------------------
+
           
 innings 2
-```second inning begins```
+second inning begins
 KKR BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
-------------------------------
+
           
-------------------------------
-``` bowler | runs | balls | wkts | dots | economy | points ```
-------------------------------
-``` B Kumar | 16 | 14 | 2 | 5 | 6.86 | 53 ```
-------------------------------
-``` DS Rathi | 36 | 18 | 1 | 7 | 12.0 | 22 ```
-------------------------------
-``` Suyash Sharma | 53 | 24 | 1 | 5 | 13.25 | 20 ```
-------------------------------
-``` SP Narine | 25 | 24 | 0 | 7 | 6.25 | 3 ```
-------------------------------
-``` R Tewatia | 35 | 24 | 0 | 4 | 8.75 | 1 ```
-------------------------------
+
+ bowler | runs | balls | wkts | dots | economy | points 
+
+ B Kumar | 16 | 14 | 2 | 5 | 6.86 | 53 
+
+ DS Rathi | 36 | 18 | 1 | 7 | 12.0 | 22 
+
+ Suyash Sharma | 53 | 24 | 1 | 5 | 13.25 | 20 
+
+ SP Narine | 25 | 24 | 0 | 7 | 6.25 | 3 
+
+ R Tewatia | 35 | 24 | 0 | 4 | 8.75 | 1 
+
           
 Extras = 2
-------------------------------
+
           
 ----------
 MI BATTING --
 ^^^^^^^^^^^^^^^^^^^^
-------------------------------
+
           
-------------------------------
-``` player | wicket_event | runs | balls | strike_rate | 4s_6s ```
-------------------------------
-``` Abhishek Sharma | C RM Patidar B DS Rathi | 37 | 13 | 284.62 | 4s = 5, 6s = 2 ```
-------------------------------
-``` Ishan Kishan | C RM Patidar B B Kumar | 24 | 17 | 141.18 | 4s = 1, 6s = 2 ```
-------------------------------
-``` AM Rahane | LBW B Kumar | 25 | 27 | 92.59 | 4s = 1, 6s = 0 ```
-------------------------------
-``` N Pooran | Run-out by Suyash Sharma | 24 | 16 | 150.0 | 4s = 3, 6s = 1 ```
-------------------------------
-``` WL Madsen | LBW Suyash Sharma | 27 | 22 | 122.73 | 4s = 2, 6s = 0 ```
-------------------------------
-``` Bilal Zalmai | Not Out | 12 | 5 | 240.0 | 4s = 2, 6s = 0 ```
-------------------------------
-``` HH Pandya | Not Out | 14 | 4 | 350.0 | 4s = 1, 6s = 1 ```
-------------------------------
-------------------------------
+
+ player | wicket_event | runs | balls | strike_rate | 4s_6s 
+
+ Abhishek Sharma | C RM Patidar B DS Rathi | 37 | 13 | 284.62 | 4s = 5, 6s = 2 
+
+ Ishan Kishan | C RM Patidar B B Kumar | 24 | 17 | 141.18 | 4s = 1, 6s = 2 
+
+ AM Rahane | LBW B Kumar | 25 | 27 | 92.59 | 4s = 1, 6s = 0 
+
+ N Pooran | Run-out by Suyash Sharma | 24 | 16 | 150.0 | 4s = 3, 6s = 1 
+
+ WL Madsen | LBW Suyash Sharma | 27 | 22 | 122.73 | 4s = 2, 6s = 0 
+
+ Bilal Zalmai | Not Out | 12 | 5 | 240.0 | 4s = 2, 6s = 0 
+
+ HH Pandya | Not Out | 14 | 4 | 350.0 | 4s = 1, 6s = 1 
+
+
           
           
-<.>.<.>.<.>.<.>.<.>.
+
           
 Score :: 165-5  (17.2), run-rate = 9.52
 ******************************
 ******************************
-------------------------------
+
           
-```match ends```
-<.>.<.>.<.>.<.>.<.>.
+match ends
+
 MI wins!!
 ******************************
           

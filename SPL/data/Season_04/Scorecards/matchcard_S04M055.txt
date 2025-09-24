@@ -1,126 +1,126 @@
 Match between MI and LSG !! 
 Venue -- MI
-```match about to begin```
-------------------------------
+match about to begin
+
           
 innings 1
-```first inning begins```
+first inning begins
 MI BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
-------------------------------
+
           
-------------------------------
-``` bowler | runs | balls | wkts | dots | economy | points ```
-------------------------------
-``` JJ Bumrah | 29 | 24 | 3 | 9 | 7.25 | 81 ```
-------------------------------
-``` TA Boult | 37 | 24 | 2 | 8 | 9.25 | 52 ```
-------------------------------
-``` HH Pandya | 52 | 24 | 1 | 4 | 13.0 | 20 ```
-------------------------------
-``` RS Hangargekar | 44 | 24 | 0 | 2 | 11.0 | -1 ```
-------------------------------
-``` Mustafizur Rahman | 49 | 24 | 0 | 5 | 12.25 | -4 ```
-------------------------------
+
+ bowler | runs | balls | wkts | dots | economy | points 
+
+ JJ Bumrah | 29 | 24 | 3 | 9 | 7.25 | 81 
+
+ TA Boult | 37 | 24 | 2 | 8 | 9.25 | 52 
+
+ HH Pandya | 52 | 24 | 1 | 4 | 13.0 | 20 
+
+ RS Hangargekar | 44 | 24 | 0 | 2 | 11.0 | -1 
+
+ Mustafizur Rahman | 49 | 24 | 0 | 5 | 12.25 | -4 
+
           
 Extras = 5
           
 ----------
 LSG BATTING --
 ^^^^^^^^^^^^^^^^^^^^
-------------------------------
+
           
-------------------------------
-``` player | wicket_event | runs | balls | strike_rate | 4s_6s ```
-------------------------------
-``` Shubman Gill | C RS Hangargekar B TA Boult | 32 | 20 | 160.0 | 4s = 5, 6s = 0 ```
-------------------------------
-``` RD Rickelton | C RS Hangargekar B TA Boult | 38 | 18 | 211.11 | 4s = 6, 6s = 1 ```
-------------------------------
-``` WG Jacks | C Mustafizur Rahman B HH Pandya | 63 | 35 | 180.0 | 4s = 2, 6s = 4 ```
-------------------------------
-``` SS Iyer | C RK Singh B JJ Bumrah | 2 | 3 | 66.67 | 4s = 0, 6s = 0 ```
-------------------------------
-``` BA Stokes | LBW JJ Bumrah | 3 | 3 | 100.0 | 4s = 0, 6s = 0 ```
-------------------------------
-``` Sameer Rizvi | LBW JJ Bumrah | 44 | 29 | 151.72 | 4s = 3, 6s = 2 ```
-------------------------------
-``` Jay Gohil | Not Out | 15 | 7 | 214.29 | 4s = 1, 6s = 1 ```
-------------------------------
-``` Ramandeep Singh | Not Out | 10 | 5 | 200.0 | 4s = 2, 6s = 0 ```
-------------------------------
-------------------------------
+
+ player | wicket_event | runs | balls | strike_rate | 4s_6s 
+
+ Shubman Gill | C RS Hangargekar B TA Boult | 32 | 20 | 160.0 | 4s = 5, 6s = 0 
+
+ RD Rickelton | C RS Hangargekar B TA Boult | 38 | 18 | 211.11 | 4s = 6, 6s = 1 
+
+ WG Jacks | C Mustafizur Rahman B HH Pandya | 63 | 35 | 180.0 | 4s = 2, 6s = 4 
+
+ SS Iyer | C RK Singh B JJ Bumrah | 2 | 3 | 66.67 | 4s = 0, 6s = 0 
+
+ BA Stokes | LBW JJ Bumrah | 3 | 3 | 100.0 | 4s = 0, 6s = 0 
+
+ Sameer Rizvi | LBW JJ Bumrah | 44 | 29 | 151.72 | 4s = 3, 6s = 2 
+
+ Jay Gohil | Not Out | 15 | 7 | 214.29 | 4s = 1, 6s = 1 
+
+ Ramandeep Singh | Not Out | 10 | 5 | 200.0 | 4s = 2, 6s = 0 
+
+
           
-<.>.<.>.<.>.<.>.<.>.
+
           
 Score :: 212-6  (20.0), run-rate = 10.6
 ******************************
 ******************************
-------------------------------
+
           
-------------------------------
+
           
 innings 2
-```second inning begins```
+second inning begins
 LSG BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
-------------------------------
+
           
-------------------------------
-``` bowler | runs | balls | wkts | dots | economy | points ```
-------------------------------
-``` JC Archer | 33 | 18 | 4 | 6 | 11.0 | 107 ```
-------------------------------
-``` WG Jacks | 33 | 18 | 1 | 1 | 11.0 | 23 ```
-------------------------------
-``` Mohammed Siraj | 55 | 24 | 1 | 3 | 13.75 | 19 ```
-------------------------------
-``` Ramandeep Singh | 16 | 12 | 0 | 2 | 8.0 | 0 ```
-------------------------------
-``` BA Stokes | 37 | 24 | 0 | 5 | 9.25 | 1 ```
-------------------------------
-``` Arshdeep Singh | 38 | 20 | 0 | 5 | 11.4 | -2 ```
-------------------------------
+
+ bowler | runs | balls | wkts | dots | economy | points 
+
+ JC Archer | 33 | 18 | 4 | 6 | 11.0 | 107 
+
+ WG Jacks | 33 | 18 | 1 | 1 | 11.0 | 23 
+
+ Mohammed Siraj | 55 | 24 | 1 | 3 | 13.75 | 19 
+
+ Ramandeep Singh | 16 | 12 | 0 | 2 | 8.0 | 0 
+
+ BA Stokes | 37 | 24 | 0 | 5 | 9.25 | 1 
+
+ Arshdeep Singh | 38 | 20 | 0 | 5 | 11.4 | -2 
+
           
 Extras = 3
-------------------------------
+
           
 ----------
 MI BATTING --
 ^^^^^^^^^^^^^^^^^^^^
-------------------------------
+
           
-------------------------------
-``` player | wicket_event | runs | balls | strike_rate | 4s_6s ```
-------------------------------
-``` Abhishek Sharma | C Jay Gohil B Mohammed Siraj | 33 | 12 | 275.0 | 4s = 4, 6s = 2 ```
-------------------------------
-``` Ishan Kishan | C WG Jacks B JC Archer | 72 | 41 | 175.61 | 4s = 6, 6s = 3 ```
-------------------------------
-``` TM Head | LBW WG Jacks | 39 | 30 | 130.0 | 4s = 3, 6s = 0 ```
-------------------------------
-``` N Pooran | C Sameer Rizvi B JC Archer | 23 | 12 | 191.67 | 4s = 1, 6s = 1 ```
-------------------------------
-``` AM Rahane | C Jay Gohil B JC Archer | 11 | 9 | 122.22 | 4s = 2, 6s = 0 ```
-------------------------------
-``` RK Singh | C Arshdeep Singh B JC Archer | 21 | 7 | 300.0 | 4s = 3, 6s = 1 ```
-------------------------------
-``` HH Pandya | Not Out | 6 | 3 | 200.0 | 4s = 1, 6s = 0 ```
-------------------------------
-``` RS Hangargekar | Not Out | 5 | 2 | 250.0 | 4s = 1, 6s = 0 ```
-------------------------------
-------------------------------
+
+ player | wicket_event | runs | balls | strike_rate | 4s_6s 
+
+ Abhishek Sharma | C Jay Gohil B Mohammed Siraj | 33 | 12 | 275.0 | 4s = 4, 6s = 2 
+
+ Ishan Kishan | C WG Jacks B JC Archer | 72 | 41 | 175.61 | 4s = 6, 6s = 3 
+
+ TM Head | LBW WG Jacks | 39 | 30 | 130.0 | 4s = 3, 6s = 0 
+
+ N Pooran | C Sameer Rizvi B JC Archer | 23 | 12 | 191.67 | 4s = 1, 6s = 1 
+
+ AM Rahane | C Jay Gohil B JC Archer | 11 | 9 | 122.22 | 4s = 2, 6s = 0 
+
+ RK Singh | C Arshdeep Singh B JC Archer | 21 | 7 | 300.0 | 4s = 3, 6s = 1 
+
+ HH Pandya | Not Out | 6 | 3 | 200.0 | 4s = 1, 6s = 0 
+
+ RS Hangargekar | Not Out | 5 | 2 | 250.0 | 4s = 1, 6s = 0 
+
+
           
           
-<.>.<.>.<.>.<.>.<.>.
+
           
 Score :: 213-6  (19.2), run-rate = 11.02
 ******************************
 ******************************
-------------------------------
+
           
-```match ends```
-<.>.<.>.<.>.<.>.<.>.
+match ends
+
 MI wins!!
 ******************************
           

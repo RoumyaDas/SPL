@@ -1,120 +1,120 @@
 Match between DC and PBKS !! 
 Venue -- DC
-```match about to begin```
-------------------------------
+match about to begin
+
           
 innings 1
-```first inning begins```
+first inning begins
 DC BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
-------------------------------
+
           
-------------------------------
-``` bowler | runs | balls | wkts | dots | economy | points ```
-------------------------------
-``` AK Markram | 30 | 24 | 1 | 3 | 7.5 | 25 ```
-------------------------------
-``` V Puthur | 24 | 18 | 1 | 8 | 8.0 | 27 ```
-------------------------------
-``` Akash Vasisht | 40 | 24 | 1 | 3 | 10.0 | 23 ```
-------------------------------
-``` S Lamichhane | 31 | 24 | 0 | 9 | 7.75 | 2 ```
-------------------------------
-``` MJ Owen | 12 | 6 | 0 | 0 | 12.0 | -4 ```
-------------------------------
-``` Abid Mushtaq | 54 | 24 | 0 | 7 | 13.5 | -4 ```
-------------------------------
+
+ bowler | runs | balls | wkts | dots | economy | points 
+
+ AK Markram | 30 | 24 | 1 | 3 | 7.5 | 25 
+
+ V Puthur | 24 | 18 | 1 | 8 | 8.0 | 27 
+
+ Akash Vasisht | 40 | 24 | 1 | 3 | 10.0 | 23 
+
+ S Lamichhane | 31 | 24 | 0 | 9 | 7.75 | 2 
+
+ MJ Owen | 12 | 6 | 0 | 0 | 12.0 | -4 
+
+ Abid Mushtaq | 54 | 24 | 0 | 7 | 13.5 | -4 
+
           
 Extras = 2
           
 ----------
 PBKS BATTING --
 ^^^^^^^^^^^^^^^^^^^^
-------------------------------
+
           
-------------------------------
-``` player | wicket_event | runs | balls | strike_rate | 4s_6s ```
-------------------------------
-``` V Suryavanshi | C AK Markram B V Puthur | 23 | 14 | 164.29 | 4s = 4, 6s = 0 ```
-------------------------------
-``` FH Allen | C AK Markram B Akash Vasisht | 53 | 20 | 265.0 | 4s = 2, 6s = 6 ```
-------------------------------
-``` Utkarsh Singh | Run-out by AD Russell | 7 | 11 | 63.64 | 4s = 0, 6s = 0 ```
-------------------------------
-``` Smaran Ravichandran | Not Out | 46 | 35 | 131.43 | 4s = 2, 6s = 1 ```
-------------------------------
-``` DP Conway | C SA Yadav B AK Markram | 42 | 31 | 135.48 | 4s = 2, 6s = 1 ```
-------------------------------
-``` Shashank Singh | Not Out | 19 | 9 | 211.11 | 4s = 3, 6s = 0 ```
-------------------------------
-------------------------------
+
+ player | wicket_event | runs | balls | strike_rate | 4s_6s 
+
+ V Suryavanshi | C AK Markram B V Puthur | 23 | 14 | 164.29 | 4s = 4, 6s = 0 
+
+ FH Allen | C AK Markram B Akash Vasisht | 53 | 20 | 265.0 | 4s = 2, 6s = 6 
+
+ Utkarsh Singh | Run-out by AD Russell | 7 | 11 | 63.64 | 4s = 0, 6s = 0 
+
+ Smaran Ravichandran | Not Out | 46 | 35 | 131.43 | 4s = 2, 6s = 1 
+
+ DP Conway | C SA Yadav B AK Markram | 42 | 31 | 135.48 | 4s = 2, 6s = 1 
+
+ Shashank Singh | Not Out | 19 | 9 | 211.11 | 4s = 3, 6s = 0 
+
+
           
-<.>.<.>.<.>.<.>.<.>.
+
           
 Score :: 192-4  (20.0), run-rate = 9.6
 ******************************
 ******************************
-------------------------------
+
           
-------------------------------
+
           
 innings 2
-```second inning begins```
+second inning begins
 PBKS BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
-------------------------------
+
           
-------------------------------
-``` bowler | runs | balls | wkts | dots | economy | points ```
-------------------------------
-``` Utkarsh Singh | 11 | 12 | 2 | 5 | 5.5 | 55 ```
-------------------------------
-``` Shashank Singh | 35 | 24 | 1 | 10 | 8.75 | 27 ```
-------------------------------
-``` MP Yadav | 33 | 20 | 1 | 8 | 9.9 | 27 ```
-------------------------------
-``` SL Malinga | 28 | 18 | 0 | 5 | 9.33 | 1 ```
-------------------------------
-``` Washington Sundar | 20 | 12 | 0 | 1 | 10.0 | -1 ```
-------------------------------
-``` CV Varun | 68 | 24 | 0 | 1 | 17.0 | -5 ```
-------------------------------
+
+ bowler | runs | balls | wkts | dots | economy | points 
+
+ Utkarsh Singh | 11 | 12 | 2 | 5 | 5.5 | 55 
+
+ Shashank Singh | 35 | 24 | 1 | 10 | 8.75 | 27 
+
+ MP Yadav | 33 | 20 | 1 | 8 | 9.9 | 27 
+
+ SL Malinga | 28 | 18 | 0 | 5 | 9.33 | 1 
+
+ Washington Sundar | 20 | 12 | 0 | 1 | 10.0 | -1 
+
+ CV Varun | 68 | 24 | 0 | 1 | 17.0 | -5 
+
           
 Extras = 3
-------------------------------
+
           
 ----------
 DC BATTING --
 ^^^^^^^^^^^^^^^^^^^^
-------------------------------
+
           
-------------------------------
-``` player | wicket_event | runs | balls | strike_rate | 4s_6s ```
-------------------------------
-``` Tarang Gohel | C Washington Sundar B Utkarsh Singh | 58 | 34 | 170.59 | 4s = 7, 6s = 2 ```
-------------------------------
-``` V Kohli | C Utkarsh Singh B MP Yadav | 56 | 39 | 143.59 | 4s = 2, 6s = 3 ```
-------------------------------
-``` SA Yadav | Bo Utkarsh Singh | 15 | 7 | 214.29 | 4s = 0, 6s = 2 ```
-------------------------------
-``` N Sindhu | Not Out | 47 | 18 | 261.11 | 4s = 4, 6s = 3 ```
-------------------------------
-``` Akash Vasisht | C MP Yadav B Shashank Singh | 6 | 5 | 120.0 | 4s = 0, 6s = 1 ```
-------------------------------
-``` MJ Owen | Not Out | 12 | 7 | 171.43 | 4s = 2, 6s = 0 ```
-------------------------------
-------------------------------
+
+ player | wicket_event | runs | balls | strike_rate | 4s_6s 
+
+ Tarang Gohel | C Washington Sundar B Utkarsh Singh | 58 | 34 | 170.59 | 4s = 7, 6s = 2 
+
+ V Kohli | C Utkarsh Singh B MP Yadav | 56 | 39 | 143.59 | 4s = 2, 6s = 3 
+
+ SA Yadav | Bo Utkarsh Singh | 15 | 7 | 214.29 | 4s = 0, 6s = 2 
+
+ N Sindhu | Not Out | 47 | 18 | 261.11 | 4s = 4, 6s = 3 
+
+ Akash Vasisht | C MP Yadav B Shashank Singh | 6 | 5 | 120.0 | 4s = 0, 6s = 1 
+
+ MJ Owen | Not Out | 12 | 7 | 171.43 | 4s = 2, 6s = 0 
+
+
           
           
-<.>.<.>.<.>.<.>.<.>.
+
           
 Score :: 197-4  (18.2), run-rate = 10.75
 ******************************
 ******************************
-------------------------------
+
           
-```match ends```
-<.>.<.>.<.>.<.>.<.>.
+match ends
+
 DC wins!!
 ******************************
           

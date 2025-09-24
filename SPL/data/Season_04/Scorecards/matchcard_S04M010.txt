@@ -1,126 +1,126 @@
 Match between RR and CSK !! 
 Venue -- RR
-```match about to begin```
-------------------------------
+match about to begin
+
           
 innings 1
-```first inning begins```
+first inning begins
 CSK BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
-------------------------------
+
           
-------------------------------
-``` bowler | runs | balls | wkts | dots | economy | points ```
-------------------------------
-``` Tanush Kotian | 15 | 24 | 2 | 13 | 3.75 | 59 ```
-------------------------------
-``` AR Patel | 55 | 24 | 1 | 4 | 13.75 | 20 ```
-------------------------------
-``` M Siddharth | 31 | 24 | 0 | 8 | 7.75 | 2 ```
-------------------------------
-``` T Natarajan | 38 | 24 | 0 | 9 | 9.5 | 2 ```
-------------------------------
-``` Suryansh Shedge | 76 | 24 | 0 | 1 | 19.0 | -5 ```
-------------------------------
+
+ bowler | runs | balls | wkts | dots | economy | points 
+
+ Tanush Kotian | 15 | 24 | 2 | 13 | 3.75 | 59 
+
+ AR Patel | 55 | 24 | 1 | 4 | 13.75 | 20 
+
+ M Siddharth | 31 | 24 | 0 | 8 | 7.75 | 2 
+
+ T Natarajan | 38 | 24 | 0 | 9 | 9.5 | 2 
+
+ Suryansh Shedge | 76 | 24 | 0 | 1 | 19.0 | -5 
+
           
 Extras = 4
           
 ----------
 RR BATTING --
 ^^^^^^^^^^^^^^^^^^^^
-------------------------------
+
           
-------------------------------
-``` player | wicket_event | runs | balls | strike_rate | 4s_6s ```
-------------------------------
-``` GJ Maxwell | C AR Patel B Tanush Kotian | 1 | 2 | 50.0 | 4s = 0, 6s = 0 ```
-------------------------------
-``` BJ McMullen | LBW AR Patel | 42 | 33 | 127.27 | 4s = 5, 6s = 0 ```
-------------------------------
-``` Aniket Verma | C M Siddharth B Tanush Kotian | 0 | 1 | 0.0 | 4s = 0, 6s = 0 ```
-------------------------------
-``` AB de Villiers | Not Out | 107 | 61 | 175.41 | 4s = 10, 6s = 7 ```
-------------------------------
-``` YBK Jaiswal | Not Out | 62 | 23 | 269.57 | 4s = 7, 6s = 3 ```
-------------------------------
-------------------------------
+
+ player | wicket_event | runs | balls | strike_rate | 4s_6s 
+
+ GJ Maxwell | C AR Patel B Tanush Kotian | 1 | 2 | 50.0 | 4s = 0, 6s = 0 
+
+ BJ McMullen | LBW AR Patel | 42 | 33 | 127.27 | 4s = 5, 6s = 0 
+
+ Aniket Verma | C M Siddharth B Tanush Kotian | 0 | 1 | 0.0 | 4s = 0, 6s = 0 
+
+ AB de Villiers | Not Out | 107 | 61 | 175.41 | 4s = 10, 6s = 7 
+
+ YBK Jaiswal | Not Out | 62 | 23 | 269.57 | 4s = 7, 6s = 3 
+
+
           
-<.>.<.>.<.>.<.>.<.>.
+
           
 Score :: 216-3  (20.0), run-rate = 10.8
 ******************************
 ******************************
-------------------------------
+
           
-------------------------------
+
           
 innings 2
-```second inning begins```
+second inning begins
 RR BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
-------------------------------
+
           
-------------------------------
-``` bowler | runs | balls | wkts | dots | economy | points ```
-------------------------------
-``` Mayank Dagar | 28 | 14 | 3 | 5 | 12.0 | 76 ```
-------------------------------
-``` HR Shokeen | 18 | 18 | 2 | 8 | 6.0 | 54 ```
-------------------------------
-``` A Zampa | 35 | 24 | 2 | 7 | 8.75 | 51 ```
-------------------------------
-``` GJ Maxwell | 40 | 24 | 2 | 7 | 10.0 | 49 ```
-------------------------------
-``` Harsh Dubey | 27 | 18 | 1 | 6 | 9.0 | 26 ```
-------------------------------
-``` BJ McMullen | 13 | 6 | 0 | 0 | 13.0 | -6 ```
-------------------------------
+
+ bowler | runs | balls | wkts | dots | economy | points 
+
+ Mayank Dagar | 28 | 14 | 3 | 5 | 12.0 | 76 
+
+ HR Shokeen | 18 | 18 | 2 | 8 | 6.0 | 54 
+
+ A Zampa | 35 | 24 | 2 | 7 | 8.75 | 51 
+
+ GJ Maxwell | 40 | 24 | 2 | 7 | 10.0 | 49 
+
+ Harsh Dubey | 27 | 18 | 1 | 6 | 9.0 | 26 
+
+ BJ McMullen | 13 | 6 | 0 | 0 | 13.0 | -6 
+
           
 Extras = 8
-------------------------------
+
           
 ----------
 CSK BATTING --
 ^^^^^^^^^^^^^^^^^^^^
-------------------------------
+
           
-------------------------------
-``` player | wicket_event | runs | balls | strike_rate | 4s_6s ```
-------------------------------
-``` SPD Smith | C GJ Maxwell B GJ Maxwell | 18 | 13 | 138.46 | 4s = 2, 6s = 0 ```
-------------------------------
-``` B Sai Sudharsan | C AB de Villiers B GJ Maxwell | 62 | 41 | 151.22 | 4s = 7, 6s = 1 ```
-------------------------------
-``` Tilak Varma | LBW A Zampa | 21 | 9 | 233.33 | 4s = 3, 6s = 1 ```
-------------------------------
-``` KA Pollard | C AB de Villiers B A Zampa | 0 | 2 | 0.0 | 4s = 0, 6s = 0 ```
-------------------------------
-``` H Klaasen | C Arshad Khan B HR Shokeen | 22 | 12 | 183.33 | 4s = 3, 6s = 0 ```
-------------------------------
-``` CH Gayle | Bo HR Shokeen | 1 | 4 | 25.0 | 4s = 0, 6s = 0 ```
-------------------------------
-``` Suryansh Shedge | LBW Mayank Dagar | 6 | 8 | 75.0 | 4s = 1, 6s = 0 ```
-------------------------------
-``` AR Patel | C AB de Villiers B Harsh Dubey | 13 | 7 | 185.71 | 4s = 1, 6s = 1 ```
-------------------------------
-``` Tanush Kotian | C GJ Maxwell B Mayank Dagar | 0 | 1 | 0.0 | 4s = 0, 6s = 0 ```
-------------------------------
-``` M Siddharth | C Aniket Verma B Mayank Dagar | 4 | 2 | 200.0 | 4s = 1, 6s = 0 ```
-------------------------------
-``` T Natarajan | Not Out | 6 | 5 | 120.0 | 4s = 0, 6s = 1 ```
-------------------------------
-------------------------------
+
+ player | wicket_event | runs | balls | strike_rate | 4s_6s 
+
+ SPD Smith | C GJ Maxwell B GJ Maxwell | 18 | 13 | 138.46 | 4s = 2, 6s = 0 
+
+ B Sai Sudharsan | C AB de Villiers B GJ Maxwell | 62 | 41 | 151.22 | 4s = 7, 6s = 1 
+
+ Tilak Varma | LBW A Zampa | 21 | 9 | 233.33 | 4s = 3, 6s = 1 
+
+ KA Pollard | C AB de Villiers B A Zampa | 0 | 2 | 0.0 | 4s = 0, 6s = 0 
+
+ H Klaasen | C Arshad Khan B HR Shokeen | 22 | 12 | 183.33 | 4s = 3, 6s = 0 
+
+ CH Gayle | Bo HR Shokeen | 1 | 4 | 25.0 | 4s = 0, 6s = 0 
+
+ Suryansh Shedge | LBW Mayank Dagar | 6 | 8 | 75.0 | 4s = 1, 6s = 0 
+
+ AR Patel | C AB de Villiers B Harsh Dubey | 13 | 7 | 185.71 | 4s = 1, 6s = 1 
+
+ Tanush Kotian | C GJ Maxwell B Mayank Dagar | 0 | 1 | 0.0 | 4s = 0, 6s = 0 
+
+ M Siddharth | C Aniket Verma B Mayank Dagar | 4 | 2 | 200.0 | 4s = 1, 6s = 0 
+
+ T Natarajan | Not Out | 6 | 5 | 120.0 | 4s = 0, 6s = 1 
+
+
           
           
-<.>.<.>.<.>.<.>.<.>.
+
           
 Score :: 161-10  (17.2), run-rate = 9.29
 ******************************
 ******************************
-------------------------------
+
           
-```match ends```
-<.>.<.>.<.>.<.>.<.>.
+match ends
+
 RR wins!!
 ******************************
           

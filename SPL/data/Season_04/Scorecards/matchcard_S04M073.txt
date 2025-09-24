@@ -1,118 +1,118 @@
 Match between MI and RCB !! 
 Venue -- MI
-```match about to begin```
-------------------------------
+match about to begin
+
           
 innings 1
-```first inning begins```
+first inning begins
 RCB BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
-------------------------------
+
           
-------------------------------
-``` bowler | runs | balls | wkts | dots | economy | points ```
-------------------------------
-``` M Pathirana | 38 | 24 | 3 | 7 | 9.5 | 80 ```
-------------------------------
-``` DAJ Bracewell | 36 | 24 | 1 | 4 | 9.0 | 26 ```
-------------------------------
-``` Ashutosh Sharma | 35 | 24 | 0 | 8 | 8.75 | 2 ```
-------------------------------
-``` DJ Bravo | 37 | 24 | 0 | 4 | 9.25 | 1 ```
-------------------------------
-``` Yudhvir Singh | 39 | 24 | 0 | 6 | 9.75 | 1 ```
-------------------------------
+
+ bowler | runs | balls | wkts | dots | economy | points 
+
+ M Pathirana | 38 | 24 | 3 | 7 | 9.5 | 80 
+
+ DAJ Bracewell | 36 | 24 | 1 | 4 | 9.0 | 26 
+
+ Ashutosh Sharma | 35 | 24 | 0 | 8 | 8.75 | 2 
+
+ DJ Bravo | 37 | 24 | 0 | 4 | 9.25 | 1 
+
+ Yudhvir Singh | 39 | 24 | 0 | 6 | 9.75 | 1 
+
           
 Extras = 7
           
 ----------
 MI BATTING --
 ^^^^^^^^^^^^^^^^^^^^
-------------------------------
+
           
-------------------------------
-``` player | wicket_event | runs | balls | strike_rate | 4s_6s ```
-------------------------------
-``` Ishan Kishan | Bo M Pathirana | 0 | 1 | 0.0 | 4s = 0, 6s = 0 ```
-------------------------------
-``` TM Head | Bo DAJ Bracewell | 71 | 49 | 144.9 | 4s = 7, 6s = 2 ```
-------------------------------
-``` AM Rahane | Bo M Pathirana | 0 | 1 | 0.0 | 4s = 0, 6s = 0 ```
-------------------------------
-``` N Pooran | LBW M Pathirana | 17 | 12 | 141.67 | 4s = 3, 6s = 0 ```
-------------------------------
-``` HC Brook | Not Out | 80 | 49 | 163.27 | 4s = 8, 6s = 3 ```
-------------------------------
-``` RK Singh | Not Out | 12 | 8 | 150.0 | 4s = 0, 6s = 1 ```
-------------------------------
-------------------------------
+
+ player | wicket_event | runs | balls | strike_rate | 4s_6s 
+
+ Ishan Kishan | Bo M Pathirana | 0 | 1 | 0.0 | 4s = 0, 6s = 0 
+
+ TM Head | Bo DAJ Bracewell | 71 | 49 | 144.9 | 4s = 7, 6s = 2 
+
+ AM Rahane | Bo M Pathirana | 0 | 1 | 0.0 | 4s = 0, 6s = 0 
+
+ N Pooran | LBW M Pathirana | 17 | 12 | 141.67 | 4s = 3, 6s = 0 
+
+ HC Brook | Not Out | 80 | 49 | 163.27 | 4s = 8, 6s = 3 
+
+ RK Singh | Not Out | 12 | 8 | 150.0 | 4s = 0, 6s = 1 
+
+
           
-<.>.<.>.<.>.<.>.<.>.
+
           
 Score :: 187-4  (20.0), run-rate = 9.35
 ******************************
 ******************************
-------------------------------
+
           
-------------------------------
+
           
 innings 2
-```second inning begins```
+second inning begins
 MI BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
-------------------------------
+
           
-------------------------------
-``` bowler | runs | balls | wkts | dots | economy | points ```
-------------------------------
-``` JJ Bumrah | 31 | 24 | 2 | 5 | 7.75 | 51 ```
-------------------------------
-``` TA Boult | 44 | 24 | 1 | 4 | 11.0 | 24 ```
-------------------------------
-``` Mukesh Kumar | 45 | 18 | 1 | 4 | 15.0 | 20 ```
-------------------------------
-``` HH Pandya | 36 | 24 | 0 | 5 | 9.0 | 1 ```
-------------------------------
-``` SS Ghosh | 34 | 20 | 0 | 6 | 10.2 | 0 ```
-------------------------------
+
+ bowler | runs | balls | wkts | dots | economy | points 
+
+ JJ Bumrah | 31 | 24 | 2 | 5 | 7.75 | 51 
+
+ TA Boult | 44 | 24 | 1 | 4 | 11.0 | 24 
+
+ Mukesh Kumar | 45 | 18 | 1 | 4 | 15.0 | 20 
+
+ HH Pandya | 36 | 24 | 0 | 5 | 9.0 | 1 
+
+ SS Ghosh | 34 | 20 | 0 | 6 | 10.2 | 0 
+
           
 Extras = 1
-------------------------------
+
           
 ----------
 RCB BATTING --
 ^^^^^^^^^^^^^^^^^^^^
-------------------------------
+
           
-------------------------------
-``` player | wicket_event | runs | balls | strike_rate | 4s_6s ```
-------------------------------
-``` Rahul Singh | C AM Rahane B TA Boult | 14 | 10 | 140.0 | 4s = 2, 6s = 0 ```
-------------------------------
-``` PD Salt | C JJ Bumrah B Mukesh Kumar | 75 | 43 | 174.42 | 4s = 5, 6s = 3 ```
-------------------------------
-``` Dhruv Jurel | Run-out by HH Pandya | 29 | 20 | 145.0 | 4s = 4, 6s = 1 ```
-------------------------------
-``` RA Jadeja | LBW JJ Bumrah | 5 | 6 | 83.33 | 4s = 0, 6s = 0 ```
-------------------------------
-``` JM Sharma | Not Out | 48 | 23 | 208.7 | 4s = 4, 6s = 3 ```
-------------------------------
-``` DAJ Bracewell | C TM Head B JJ Bumrah | 7 | 4 | 175.0 | 4s = 0, 6s = 1 ```
-------------------------------
-``` KD Karthik | Not Out | 12 | 4 | 300.0 | 4s = 1, 6s = 1 ```
-------------------------------
-------------------------------
+
+ player | wicket_event | runs | balls | strike_rate | 4s_6s 
+
+ Rahul Singh | C AM Rahane B TA Boult | 14 | 10 | 140.0 | 4s = 2, 6s = 0 
+
+ PD Salt | C JJ Bumrah B Mukesh Kumar | 75 | 43 | 174.42 | 4s = 5, 6s = 3 
+
+ Dhruv Jurel | Run-out by HH Pandya | 29 | 20 | 145.0 | 4s = 4, 6s = 1 
+
+ RA Jadeja | LBW JJ Bumrah | 5 | 6 | 83.33 | 4s = 0, 6s = 0 
+
+ JM Sharma | Not Out | 48 | 23 | 208.7 | 4s = 4, 6s = 3 
+
+ DAJ Bracewell | C TM Head B JJ Bumrah | 7 | 4 | 175.0 | 4s = 0, 6s = 1 
+
+ KD Karthik | Not Out | 12 | 4 | 300.0 | 4s = 1, 6s = 1 
+
+
           
           
-<.>.<.>.<.>.<.>.<.>.
+
           
 Score :: 191-5  (18.2), run-rate = 10.42
 ******************************
 ******************************
-------------------------------
+
           
-```match ends```
-<.>.<.>.<.>.<.>.<.>.
+match ends
+
 RCB wins!!
 ******************************
           

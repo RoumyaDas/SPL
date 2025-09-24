@@ -1,120 +1,120 @@
 Match between DC and GT !! 
 Venue -- DC
-```match about to begin```
-------------------------------
+match about to begin
+
           
 innings 1
-```first inning begins```
+first inning begins
 GT BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
-------------------------------
+
           
-------------------------------
-``` bowler | runs | balls | wkts | dots | economy | points ```
-------------------------------
-``` Noor Ahmad | 54 | 24 | 2 | 8 | 13.5 | 46 ```
-------------------------------
-``` R Shepherd | 24 | 24 | 1 | 11 | 6.0 | 29 ```
-------------------------------
-``` Avesh Khan | 63 | 24 | 1 | 3 | 15.75 | 19 ```
-------------------------------
-``` Rasikh Salam | 37 | 24 | 0 | 4 | 9.25 | 1 ```
-------------------------------
-``` Shahbaz Ahmed | 26 | 12 | 0 | 1 | 13.0 | -5 ```
-------------------------------
-``` GD Phillips | 31 | 12 | 0 | 3 | 15.5 | -5 ```
-------------------------------
+
+ bowler | runs | balls | wkts | dots | economy | points 
+
+ Noor Ahmad | 54 | 24 | 2 | 8 | 13.5 | 46 
+
+ R Shepherd | 24 | 24 | 1 | 11 | 6.0 | 29 
+
+ Avesh Khan | 63 | 24 | 1 | 3 | 15.75 | 19 
+
+ Rasikh Salam | 37 | 24 | 0 | 4 | 9.25 | 1 
+
+ Shahbaz Ahmed | 26 | 12 | 0 | 1 | 13.0 | -5 
+
+ GD Phillips | 31 | 12 | 0 | 3 | 15.5 | -5 
+
           
 Extras = 4
           
 ----------
 DC BATTING --
 ^^^^^^^^^^^^^^^^^^^^
-------------------------------
+
           
-------------------------------
-``` player | wicket_event | runs | balls | strike_rate | 4s_6s ```
-------------------------------
-``` Urvil Patel | C Shahbaz Ahmed B R Shepherd | 9 | 6 | 150.0 | 4s = 2, 6s = 0 ```
-------------------------------
-``` SA Yadav | C Rasikh Salam B Avesh Khan | 6 | 4 | 150.0 | 4s = 1, 6s = 0 ```
-------------------------------
-``` MJ Owen | Run-out by Rasikh Salam | 21 | 11 | 190.91 | 4s = 3, 6s = 1 ```
-------------------------------
-``` N Sindhu | Not Out | 89 | 47 | 189.36 | 4s = 8, 6s = 5 ```
-------------------------------
-``` Abishek Porel | C RD Gaikwad B Noor Ahmad | 63 | 34 | 185.29 | 4s = 8, 6s = 1 ```
-------------------------------
-``` AD Russell | Bo Noor Ahmad | 0 | 3 | 0.0 | 4s = 0, 6s = 0 ```
-------------------------------
-``` V Kohli | Not Out | 46 | 15 | 306.67 | 4s = 6, 6s = 3 ```
-------------------------------
-------------------------------
+
+ player | wicket_event | runs | balls | strike_rate | 4s_6s 
+
+ Urvil Patel | C Shahbaz Ahmed B R Shepherd | 9 | 6 | 150.0 | 4s = 2, 6s = 0 
+
+ SA Yadav | C Rasikh Salam B Avesh Khan | 6 | 4 | 150.0 | 4s = 1, 6s = 0 
+
+ MJ Owen | Run-out by Rasikh Salam | 21 | 11 | 190.91 | 4s = 3, 6s = 1 
+
+ N Sindhu | Not Out | 89 | 47 | 189.36 | 4s = 8, 6s = 5 
+
+ Abishek Porel | C RD Gaikwad B Noor Ahmad | 63 | 34 | 185.29 | 4s = 8, 6s = 1 
+
+ AD Russell | Bo Noor Ahmad | 0 | 3 | 0.0 | 4s = 0, 6s = 0 
+
+ V Kohli | Not Out | 46 | 15 | 306.67 | 4s = 6, 6s = 3 
+
+
           
-<.>.<.>.<.>.<.>.<.>.
+
           
 Score :: 238-5  (20.0), run-rate = 11.9
 ******************************
 ******************************
-------------------------------
+
           
-------------------------------
+
           
 innings 2
-```second inning begins```
+second inning begins
 DC BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
-------------------------------
+
           
-------------------------------
-``` bowler | runs | balls | wkts | dots | economy | points ```
-------------------------------
-``` S Lamichhane | 46 | 24 | 2 | 5 | 11.5 | 47 ```
-------------------------------
-``` MJ Owen | 18 | 12 | 1 | 2 | 9.0 | 25 ```
-------------------------------
-``` M Prasidh Krishna | 43 | 24 | 1 | 3 | 10.75 | 23 ```
-------------------------------
-``` A Sheth | 43 | 24 | 0 | 3 | 10.75 | -1 ```
-------------------------------
-``` AD Russell | 25 | 12 | 0 | 0 | 12.5 | -6 ```
-------------------------------
-``` CH Morris | 57 | 24 | 0 | 2 | 14.25 | -5 ```
-------------------------------
+
+ bowler | runs | balls | wkts | dots | economy | points 
+
+ S Lamichhane | 46 | 24 | 2 | 5 | 11.5 | 47 
+
+ MJ Owen | 18 | 12 | 1 | 2 | 9.0 | 25 
+
+ M Prasidh Krishna | 43 | 24 | 1 | 3 | 10.75 | 23 
+
+ A Sheth | 43 | 24 | 0 | 3 | 10.75 | -1 
+
+ AD Russell | 25 | 12 | 0 | 0 | 12.5 | -6 
+
+ CH Morris | 57 | 24 | 0 | 2 | 14.25 | -5 
+
           
 Extras = 2
-------------------------------
+
           
 ----------
 GT BATTING --
 ^^^^^^^^^^^^^^^^^^^^
-------------------------------
+
           
-------------------------------
-``` player | wicket_event | runs | balls | strike_rate | 4s_6s ```
-------------------------------
-``` RD Gaikwad | C Urvil Patel B S Lamichhane | 36 | 15 | 240.0 | 4s = 4, 6s = 2 ```
-------------------------------
-``` SV Samson | Bo S Lamichhane | 91 | 48 | 189.58 | 4s = 7, 6s = 5 ```
-------------------------------
-``` JP Inglis | C V Kohli B M Prasidh Krishna | 45 | 25 | 180.0 | 4s = 4, 6s = 2 ```
-------------------------------
-``` Naman Dhir | Not Out | 33 | 17 | 194.12 | 4s = 5, 6s = 0 ```
-------------------------------
-``` R Parag | C Urvil Patel B MJ Owen | 25 | 15 | 166.67 | 4s = 0, 6s = 2 ```
-------------------------------
-------------------------------
+
+ player | wicket_event | runs | balls | strike_rate | 4s_6s 
+
+ RD Gaikwad | C Urvil Patel B S Lamichhane | 36 | 15 | 240.0 | 4s = 4, 6s = 2 
+
+ SV Samson | Bo S Lamichhane | 91 | 48 | 189.58 | 4s = 7, 6s = 5 
+
+ JP Inglis | C V Kohli B M Prasidh Krishna | 45 | 25 | 180.0 | 4s = 4, 6s = 2 
+
+ Naman Dhir | Not Out | 33 | 17 | 194.12 | 4s = 5, 6s = 0 
+
+ R Parag | C Urvil Patel B MJ Owen | 25 | 15 | 166.67 | 4s = 0, 6s = 2 
+
+
           
           
-<.>.<.>.<.>.<.>.<.>.
+
           
 Score :: 232-4  (20.0), run-rate = 11.6
 ******************************
 ******************************
-------------------------------
+
           
-```match ends```
-<.>.<.>.<.>.<.>.<.>.
+match ends
+
 DC wins!!
 ******************************
           

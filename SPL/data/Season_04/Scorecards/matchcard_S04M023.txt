@@ -1,120 +1,120 @@
 Match between GT and CSK !! 
 Venue -- GT
-```match about to begin```
-------------------------------
+match about to begin
+
           
 innings 1
-```first inning begins```
+first inning begins
 GT BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
-------------------------------
+
           
-------------------------------
-``` bowler | runs | balls | wkts | dots | economy | points ```
-------------------------------
-``` Noor Ahmad | 40 | 24 | 2 | 4 | 10.0 | 49 ```
-------------------------------
-``` Swapnil Singh | 30 | 24 | 1 | 11 | 7.5 | 27 ```
-------------------------------
-``` Avesh Khan | 50 | 24 | 1 | 4 | 12.5 | 20 ```
-------------------------------
-``` R Parag | 8 | 6 | 0 | 1 | 8.0 | 0 ```
-------------------------------
-``` Rashid Khan | 39 | 24 | 0 | 7 | 9.75 | 1 ```
-------------------------------
-``` GD Phillips | 39 | 18 | 0 | 3 | 13.0 | -5 ```
-------------------------------
+
+ bowler | runs | balls | wkts | dots | economy | points 
+
+ Noor Ahmad | 40 | 24 | 2 | 4 | 10.0 | 49 
+
+ Swapnil Singh | 30 | 24 | 1 | 11 | 7.5 | 27 
+
+ Avesh Khan | 50 | 24 | 1 | 4 | 12.5 | 20 
+
+ R Parag | 8 | 6 | 0 | 1 | 8.0 | 0 
+
+ Rashid Khan | 39 | 24 | 0 | 7 | 9.75 | 1 
+
+ GD Phillips | 39 | 18 | 0 | 3 | 13.0 | -5 
+
           
 Extras = 3
           
 ----------
 CSK BATTING --
 ^^^^^^^^^^^^^^^^^^^^
-------------------------------
+
           
-------------------------------
-``` player | wicket_event | runs | balls | strike_rate | 4s_6s ```
-------------------------------
-``` H Klaasen | Run-out by SV Samson | 12 | 13 | 92.31 | 4s = 2, 6s = 0 ```
-------------------------------
-``` B Sai Sudharsan | Bo Avesh Khan | 131 | 66 | 198.48 | 4s = 12, 6s = 7 ```
-------------------------------
-``` Tilak Varma | C JP Inglis B Noor Ahmad | 5 | 4 | 125.0 | 4s = 1, 6s = 0 ```
-------------------------------
-``` CH Gayle | C GD Phillips B Noor Ahmad | 1 | 2 | 50.0 | 4s = 0, 6s = 0 ```
-------------------------------
-``` SPD Smith | Bo Swapnil Singh | 1 | 4 | 25.0 | 4s = 0, 6s = 0 ```
-------------------------------
-``` T Stubbs | Not Out | 50 | 29 | 172.41 | 4s = 5, 6s = 2 ```
-------------------------------
-``` Tanush Kotian | Not Out | 3 | 2 | 150.0 | 4s = 0, 6s = 0 ```
-------------------------------
-------------------------------
+
+ player | wicket_event | runs | balls | strike_rate | 4s_6s 
+
+ H Klaasen | Run-out by SV Samson | 12 | 13 | 92.31 | 4s = 2, 6s = 0 
+
+ B Sai Sudharsan | Bo Avesh Khan | 131 | 66 | 198.48 | 4s = 12, 6s = 7 
+
+ Tilak Varma | C JP Inglis B Noor Ahmad | 5 | 4 | 125.0 | 4s = 1, 6s = 0 
+
+ CH Gayle | C GD Phillips B Noor Ahmad | 1 | 2 | 50.0 | 4s = 0, 6s = 0 
+
+ SPD Smith | Bo Swapnil Singh | 1 | 4 | 25.0 | 4s = 0, 6s = 0 
+
+ T Stubbs | Not Out | 50 | 29 | 172.41 | 4s = 5, 6s = 2 
+
+ Tanush Kotian | Not Out | 3 | 2 | 150.0 | 4s = 0, 6s = 0 
+
+
           
-<.>.<.>.<.>.<.>.<.>.
+
           
 Score :: 206-5  (20.0), run-rate = 10.3
 ******************************
 ******************************
-------------------------------
+
           
-------------------------------
+
           
 innings 2
-```second inning begins```
+second inning begins
 CSK BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
-------------------------------
+
           
-------------------------------
-``` bowler | runs | balls | wkts | dots | economy | points ```
-------------------------------
-``` T Natarajan | 53 | 24 | 2 | 4 | 13.25 | 45 ```
-------------------------------
-``` AR Patel | 38 | 24 | 1 | 5 | 9.5 | 26 ```
-------------------------------
-``` Tanush Kotian | 42 | 24 | 1 | 2 | 10.5 | 23 ```
-------------------------------
-``` M Siddharth | 37 | 24 | 0 | 1 | 9.25 | 0 ```
-------------------------------
-``` Yash Thakur | 38 | 18 | 0 | 5 | 12.67 | -4 ```
-------------------------------
+
+ bowler | runs | balls | wkts | dots | economy | points 
+
+ T Natarajan | 53 | 24 | 2 | 4 | 13.25 | 45 
+
+ AR Patel | 38 | 24 | 1 | 5 | 9.5 | 26 
+
+ Tanush Kotian | 42 | 24 | 1 | 2 | 10.5 | 23 
+
+ M Siddharth | 37 | 24 | 0 | 1 | 9.25 | 0 
+
+ Yash Thakur | 38 | 18 | 0 | 5 | 12.67 | -4 
+
           
 Extras = 4
-------------------------------
+
           
 ----------
 GT BATTING --
 ^^^^^^^^^^^^^^^^^^^^
-------------------------------
+
           
-------------------------------
-``` player | wicket_event | runs | balls | strike_rate | 4s_6s ```
-------------------------------
-``` RD Gaikwad | Bo T Natarajan | 4 | 3 | 133.33 | 4s = 1, 6s = 0 ```
-------------------------------
-``` SV Samson | C M Siddharth B AR Patel | 7 | 7 | 100.0 | 4s = 1, 6s = 0 ```
-------------------------------
-``` JP Inglis | C Tilak Varma B T Natarajan | 100 | 54 | 185.19 | 4s = 14, 6s = 1 ```
-------------------------------
-``` Naman Dhir | C Tilak Varma B Tanush Kotian | 47 | 30 | 156.67 | 4s = 6, 6s = 0 ```
-------------------------------
-``` R Parag | Not Out | 43 | 19 | 226.32 | 4s = 2, 6s = 3 ```
-------------------------------
-``` GD Phillips | Not Out | 4 | 1 | 400.0 | 4s = 1, 6s = 0 ```
-------------------------------
-------------------------------
+
+ player | wicket_event | runs | balls | strike_rate | 4s_6s 
+
+ RD Gaikwad | Bo T Natarajan | 4 | 3 | 133.33 | 4s = 1, 6s = 0 
+
+ SV Samson | C M Siddharth B AR Patel | 7 | 7 | 100.0 | 4s = 1, 6s = 0 
+
+ JP Inglis | C Tilak Varma B T Natarajan | 100 | 54 | 185.19 | 4s = 14, 6s = 1 
+
+ Naman Dhir | C Tilak Varma B Tanush Kotian | 47 | 30 | 156.67 | 4s = 6, 6s = 0 
+
+ R Parag | Not Out | 43 | 19 | 226.32 | 4s = 2, 6s = 3 
+
+ GD Phillips | Not Out | 4 | 1 | 400.0 | 4s = 1, 6s = 0 
+
+
           
           
-<.>.<.>.<.>.<.>.<.>.
+
           
 Score :: 209-4  (19.0), run-rate = 11.0
 ******************************
 ******************************
-------------------------------
+
           
-```match ends```
-<.>.<.>.<.>.<.>.<.>.
+match ends
+
 GT wins!!
 ******************************
           

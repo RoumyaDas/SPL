@@ -1,126 +1,126 @@
 Match between KKR and RCB !! 
 Venue -- KKR
-```match about to begin```
-------------------------------
+match about to begin
+
           
 innings 1
-```first inning begins```
+first inning begins
 KKR BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
-------------------------------
+
           
-------------------------------
-``` bowler | runs | balls | wkts | dots | economy | points ```
-------------------------------
-``` Suyash Sharma | 30 | 24 | 2 | 9 | 7.5 | 52 ```
-------------------------------
-``` SP Narine | 21 | 24 | 1 | 14 | 5.25 | 32 ```
-------------------------------
-``` C Green | 31 | 24 | 1 | 7 | 7.75 | 26 ```
-------------------------------
-``` DS Rathi | 40 | 24 | 1 | 7 | 10.0 | 24 ```
-------------------------------
-``` B Kumar | 49 | 24 | 1 | 4 | 12.25 | 20 ```
-------------------------------
+
+ bowler | runs | balls | wkts | dots | economy | points 
+
+ Suyash Sharma | 30 | 24 | 2 | 9 | 7.5 | 52 
+
+ SP Narine | 21 | 24 | 1 | 14 | 5.25 | 32 
+
+ C Green | 31 | 24 | 1 | 7 | 7.75 | 26 
+
+ DS Rathi | 40 | 24 | 1 | 7 | 10.0 | 24 
+
+ B Kumar | 49 | 24 | 1 | 4 | 12.25 | 20 
+
           
 Extras = 5
           
 ----------
 RCB BATTING --
 ^^^^^^^^^^^^^^^^^^^^
-------------------------------
+
           
-------------------------------
-``` player | wicket_event | runs | balls | strike_rate | 4s_6s ```
-------------------------------
-``` PP Shaw | Bo Suyash Sharma | 3 | 5 | 60.0 | 4s = 0, 6s = 0 ```
-------------------------------
-``` PD Salt | C Q de Kock B B Kumar | 5 | 6 | 83.33 | 4s = 1, 6s = 0 ```
-------------------------------
-``` LS Livingstone | LBW Suyash Sharma | 14 | 9 | 155.56 | 4s = 1, 6s = 1 ```
-------------------------------
-``` JM Vince | C DS Rathi B SP Narine | 7 | 15 | 46.67 | 4s = 1, 6s = 0 ```
-------------------------------
-``` JM Sharma | Bo C Green | 53 | 31 | 170.97 | 4s = 5, 6s = 3 ```
-------------------------------
-``` DS Airee | C R Tewatia B DS Rathi | 44 | 26 | 169.23 | 4s = 6, 6s = 1 ```
-------------------------------
-``` Rahul Singh | Not Out | 28 | 20 | 140.0 | 4s = 2, 6s = 1 ```
-------------------------------
-``` RA Jadeja | Not Out | 14 | 8 | 175.0 | 4s = 0, 6s = 1 ```
-------------------------------
-------------------------------
+
+ player | wicket_event | runs | balls | strike_rate | 4s_6s 
+
+ PP Shaw | Bo Suyash Sharma | 3 | 5 | 60.0 | 4s = 0, 6s = 0 
+
+ PD Salt | C Q de Kock B B Kumar | 5 | 6 | 83.33 | 4s = 1, 6s = 0 
+
+ LS Livingstone | LBW Suyash Sharma | 14 | 9 | 155.56 | 4s = 1, 6s = 1 
+
+ JM Vince | C DS Rathi B SP Narine | 7 | 15 | 46.67 | 4s = 1, 6s = 0 
+
+ JM Sharma | Bo C Green | 53 | 31 | 170.97 | 4s = 5, 6s = 3 
+
+ DS Airee | C R Tewatia B DS Rathi | 44 | 26 | 169.23 | 4s = 6, 6s = 1 
+
+ Rahul Singh | Not Out | 28 | 20 | 140.0 | 4s = 2, 6s = 1 
+
+ RA Jadeja | Not Out | 14 | 8 | 175.0 | 4s = 0, 6s = 1 
+
+
           
-<.>.<.>.<.>.<.>.<.>.
+
           
 Score :: 173-6  (20.0), run-rate = 8.65
 ******************************
 ******************************
-------------------------------
+
           
-------------------------------
+
           
 innings 2
-```second inning begins```
+second inning begins
 RCB BOWLING ---
 ^^^^^^^^^^^^^^^^^^^^
-------------------------------
+
           
-------------------------------
-``` bowler | runs | balls | wkts | dots | economy | points ```
-------------------------------
-``` YS Chahal | 43 | 24 | 3 | 8 | 10.75 | 79 ```
-------------------------------
-``` Shivank Vashisth | 19 | 18 | 2 | 8 | 6.33 | 54 ```
-------------------------------
-``` DS Airee | 47 | 24 | 1 | 3 | 11.75 | 21 ```
-------------------------------
-``` RA Jadeja | 9 | 12 | 0 | 3 | 4.5 | 6 ```
-------------------------------
-``` Khrievitso Kense | 21 | 24 | 0 | 12 | 5.25 | 7 ```
-------------------------------
-``` LS Livingstone | 26 | 18 | 0 | 8 | 8.67 | 2 ```
-------------------------------
+
+ bowler | runs | balls | wkts | dots | economy | points 
+
+ YS Chahal | 43 | 24 | 3 | 8 | 10.75 | 79 
+
+ Shivank Vashisth | 19 | 18 | 2 | 8 | 6.33 | 54 
+
+ DS Airee | 47 | 24 | 1 | 3 | 11.75 | 21 
+
+ RA Jadeja | 9 | 12 | 0 | 3 | 4.5 | 6 
+
+ Khrievitso Kense | 21 | 24 | 0 | 12 | 5.25 | 7 
+
+ LS Livingstone | 26 | 18 | 0 | 8 | 8.67 | 2 
+
           
 Extras = 1
-------------------------------
+
           
 ----------
 KKR BATTING --
 ^^^^^^^^^^^^^^^^^^^^
-------------------------------
+
           
-------------------------------
-``` player | wicket_event | runs | balls | strike_rate | 4s_6s ```
-------------------------------
-``` SP Narine | C PD Salt B YS Chahal | 77 | 56 | 137.5 | 4s = 4, 6s = 5 ```
-------------------------------
-``` Q de Kock | LBW YS Chahal | 5 | 14 | 35.71 | 4s = 0, 6s = 0 ```
-------------------------------
-``` J Fraser-McGurk | C Shivank Vashisth B Shivank Vashisth | 29 | 19 | 152.63 | 4s = 1, 6s = 2 ```
-------------------------------
-``` RM Patidar | C PD Salt B Shivank Vashisth | 15 | 10 | 150.0 | 4s = 1, 6s = 1 ```
-------------------------------
-``` C Green | Not Out | 30 | 15 | 200.0 | 4s = 2, 6s = 2 ```
-------------------------------
-``` N Wadhera | C YS Chahal B YS Chahal | 0 | 1 | 0.0 | 4s = 0, 6s = 0 ```
-------------------------------
-``` RG Sharma | C LS Livingstone B DS Airee | 7 | 5 | 140.0 | 4s = 1, 6s = 0 ```
-------------------------------
-``` R Tewatia | Not Out | 1 | 1 | 100.0 | 4s = 0, 6s = 0 ```
-------------------------------
-------------------------------
+
+ player | wicket_event | runs | balls | strike_rate | 4s_6s 
+
+ SP Narine | C PD Salt B YS Chahal | 77 | 56 | 137.5 | 4s = 4, 6s = 5 
+
+ Q de Kock | LBW YS Chahal | 5 | 14 | 35.71 | 4s = 0, 6s = 0 
+
+ J Fraser-McGurk | C Shivank Vashisth B Shivank Vashisth | 29 | 19 | 152.63 | 4s = 1, 6s = 2 
+
+ RM Patidar | C PD Salt B Shivank Vashisth | 15 | 10 | 150.0 | 4s = 1, 6s = 1 
+
+ C Green | Not Out | 30 | 15 | 200.0 | 4s = 2, 6s = 2 
+
+ N Wadhera | C YS Chahal B YS Chahal | 0 | 1 | 0.0 | 4s = 0, 6s = 0 
+
+ RG Sharma | C LS Livingstone B DS Airee | 7 | 5 | 140.0 | 4s = 1, 6s = 0 
+
+ R Tewatia | Not Out | 1 | 1 | 100.0 | 4s = 0, 6s = 0 
+
+
           
           
-<.>.<.>.<.>.<.>.<.>.
+
           
 Score :: 165-6  (20.0), run-rate = 8.25
 ******************************
 ******************************
-------------------------------
+
           
-```match ends```
-<.>.<.>.<.>.<.>.<.>.
+match ends
+
 RCB wins!!
 ******************************
           
