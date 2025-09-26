@@ -2,23 +2,23 @@ striker,batting_team,num_innings,50+_scores,runs,strike_rate,100+_scores
 P Simran Singh,SRH,14,7,683,160.33,0
 JP Inglis,GT,16,6,720,172.25,1
 CH Gayle,CSK,16,6,597,155.47,1
+Abhishek Sharma,MI,12,6,562,195.14,0
 N Sindhu,DC,16,5,647,199.08,1
 JM Sharma,RCB,16,5,616,193.1,0
 Shubman Gill,LSG,16,5,603,151.89,1
 B Sai Sudharsan,CSK,16,5,555,156.78,2
 Smaran Ravichandran,PBKS,16,5,526,155.62,0
-Abhishek Sharma,MI,11,5,495,193.36,0
-Aniket Verma,RR,15,5,466,171.96,1
+YBK Jaiswal,RR,16,5,479,194.72,0
+Aniket Verma,RR,16,5,476,170.61,1
 Naman Dhir,GT,16,4,670,176.78,0
+GJ Maxwell,RR,17,4,653,170.94,1
 RD Gaikwad,GT,16,4,638,175.27,1
-GJ Maxwell,RR,16,4,638,170.59,1
 WG Jacks,LSG,14,4,559,167.37,0
 SV Samson,GT,16,4,545,157.97,0
+N Pooran,MI,17,4,534,175.66,0
 PD Salt,RCB,16,4,519,164.76,0
-N Pooran,MI,16,4,505,175.35,0
 RD Rickelton,LSG,15,4,451,176.86,0
-AB de Villiers,RR,14,4,413,169.96,1
-YBK Jaiswal,RR,15,4,407,191.98,0
+AB de Villiers,RR,15,4,440,172.55,1
 FH Allen,PBKS,13,4,379,175.46,0
 KL Rahul,SRH,16,3,584,156.57,0
 Tilak Varma,CSK,16,3,497,161.89,0
@@ -27,8 +27,8 @@ V Kohli,DC,16,3,479,159.14,0
 Sameer Rizvi,LSG,14,3,471,186.17,0
 SP Narine,KKR,14,3,459,139.51,0
 RM Patidar,KKR,16,3,433,143.85,0
-TM Head,MI,10,3,404,147.99,0
-BJ McMullen,RR,11,3,378,163.64,0
+BJ McMullen,RR,12,3,411,166.4,0
+TM Head,MI,11,3,405,147.27,0
 MJ Owen,DC,14,3,361,177.83,0
 T Stubbs,CSK,13,3,357,164.52,0
 Q de Kock,KKR,10,3,275,122.77,0
@@ -39,11 +39,11 @@ Ishan Kishan,MI,14,2,444,153.1,0
 Priyansh Arya,SRH,15,2,398,167.23,0
 RG Sharma,KKR,15,2,388,184.76,0
 Abishek Porel,DC,12,2,351,160.27,0
+S Dube,RR,14,2,349,152.4,0
 JC Buttler,LSG,14,2,346,170.44,0
 Shashank Singh,PBKS,15,2,333,185.0,0
 Rahul Singh,RCB,10,2,330,173.68,0
 PHKD Mendis,SRH,14,2,327,176.76,0
-S Dube,RR,13,2,300,157.89,0
 R Parag,GT,16,1,328,196.41,0
 VR Iyer,SRH,14,1,322,143.75,0
 Nithish Kumar Reddy,SRH,14,1,299,164.29,0
@@ -51,9 +51,10 @@ AM Rahane,MI,16,1,275,144.74,0
 SS Iyer,LSG,14,1,253,142.13,0
 KA Pollard,CSK,12,1,252,203.23,0
 H Klaasen,CSK,8,1,248,163.16,0
-RK Singh,MI,9,1,207,186.49,0
+RK Singh,MI,10,1,208,184.07,0
 BM Duckett,PBKS,7,1,166,141.88,0
 PP Shaw,RCB,8,1,158,119.7,0
+Atharva Taide,MI,4,1,155,156.57,0
 Bilal Zalmai,MI,6,1,153,173.86,0
 Chirag Jani,PBKS,4,1,147,181.48,0
 Urvil Patel,DC,5,1,138,156.82,0
@@ -61,7 +62,7 @@ WL Madsen,MI,6,1,135,140.62,0
 LS Livingstone,RCB,9,1,132,128.16,0
 RR Rossouw,SRH,6,1,128,203.17,0
 Anmolpreet Singh,CSK,6,1,116,170.59,0
-HC Brook,MI,2,1,100,151.52,0
-MA Agarwal,RR,4,1,88,176.0,0
+HC Brook,MI,3,1,110,154.93,0
+MA Agarwal,RR,5,1,104,196.23,0
 HS Desai,PBKS,3,1,85,134.92,0
 JM Vince,RCB,3,1,68,125.93,0
