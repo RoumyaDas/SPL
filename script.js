@@ -1555,7 +1555,7 @@ document.addEventListener("DOMContentLoaded", () => {
     '140925_CSK_GT.txt','140925_RR_DC.txt','140925_PBKS_SRH.txt','140925_KKR_RCB.txt','140925_MI_LSG.txt','150925_PBKS_MI.txt','150925_RR_GT.txt','160925_injury.txt','160925_CSK_RCB.txt','160925_LSG_KKR.txt',
     '170925_MI_RR.txt','170925_SRH_DC.txt','170925_injury.txt','180925_Replacements.txt','180925_KKR_LSG.txt','180925_RCB_PBKS.txt','190925_GT_RR.txt','190925_CSK_MI.txt','200925_RCB_KKR.txt','200925_SRH_LSG.txt',
     '200925_injury.txt','210925_GT_DC.txt','210925_MI_RCB.txt','210925_CSK_KKR.txt','220925_DC_PBKS.txt','220925_MI_GT.txt','230925_RR_SRH.txt','240925_KKR_DC.txt','240925_LSG_CSK.txt','250925_MI_SRH.txt','250925_KKR_GT.txt',
-    '260925_RR_MI.txt','260925_RCB_CSK.txt','260925_PBKS_DC.txt','270925_SRH_KKR.txt','270925_LSG_GT.txt'
+    '260925_RR_MI.txt','260925_RCB_CSK.txt','260925_PBKS_DC.txt','270925_SRH_KKR.txt','270925_LSG_GT.txt','270925_injury.txt'
     ]
     ;
 
