@@ -1,71 +1,72 @@
 striker,batting_team,num_innings,fours,runs,strike_rate
-RD Gaikwad,GT,16,72,638,175.27
+RD Gaikwad,GT,17,78,689,176.67
+JP Inglis,GT,17,73,787,173.35
 Abhishek Sharma,MI,12,68,562,195.14
-JP Inglis,GT,16,66,720,172.25
 V Suryavanshi,PBKS,17,66,584,162.67
-Naman Dhir,GT,16,63,670,176.78
+Naman Dhir,GT,17,63,672,175.92
 SA Yadav,DC,17,61,536,194.2
 GJ Maxwell,RR,17,61,653,170.94
 Tilak Varma,CSK,17,59,503,161.22
+Shubman Gill,LSG,17,58,658,155.56
+Priyansh Arya,SRH,16,56,438,171.09
+SV Samson,GT,17,56,595,159.52
 PD Salt,RCB,17,55,546,162.02
 JM Sharma,RCB,17,54,676,195.94
 BJ McMullen,RR,12,54,411,166.4
-Priyansh Arya,SRH,15,52,398,167.23
-P Simran Singh,SRH,14,52,683,160.33
-KL Rahul,SRH,16,52,584,156.57
-Shubman Gill,LSG,16,52,603,151.89
-WG Jacks,LSG,14,51,559,167.37
+KL Rahul,SRH,17,53,611,156.67
+P Simran Singh,SRH,15,52,684,159.81
+WG Jacks,LSG,15,51,563,164.62
 B Sai Sudharsan,CSK,17,51,592,157.87
 N Sindhu,DC,17,50,665,199.7
-SV Samson,GT,16,50,545,157.97
 V Kohli,DC,17,50,479,157.57
 CH Gayle,CSK,17,50,653,154.01
 Aniket Verma,RR,16,49,476,170.61
-RD Rickelton,LSG,15,48,451,176.86
-SP Narine,KKR,14,48,459,139.51
+RD Rickelton,LSG,16,48,451,176.17
+SP Narine,KKR,15,48,459,138.67
 YBK Jaiswal,RR,16,42,479,194.72
-RM Patidar,KKR,16,42,433,143.85
+RM Patidar,KKR,17,42,433,143.38
 FH Allen,PBKS,14,41,428,173.28
 TM Head,MI,11,40,405,147.27
 Tarang Gohel,DC,6,39,296,174.12
 Rahul Singh,RCB,11,39,379,164.78
 N Pooran,MI,17,38,534,175.66
 Abishek Porel,DC,12,38,351,160.27
+Sameer Rizvi,LSG,15,37,532,187.32
 Smaran Ravichandran,PBKS,17,37,526,154.71
 T Stubbs,CSK,14,36,372,164.6
-RG Sharma,KKR,15,35,388,184.76
+RG Sharma,KKR,16,35,396,180.0
 MJ Owen,DC,15,35,369,174.06
 Ishan Kishan,MI,14,34,444,153.1
-JC Buttler,LSG,14,30,346,170.44
-C Green,KKR,16,30,370,169.72
-Sameer Rizvi,LSG,14,29,471,186.17
+C Green,KKR,17,33,422,166.14
+JC Buttler,LSG,15,30,348,168.93
 Shashank Singh,PBKS,16,29,360,183.67
-PHKD Mendis,SRH,14,28,327,176.76
+PHKD Mendis,SRH,15,28,333,174.35
 AB de Villiers,RR,15,28,440,172.55
 S Dube,RR,14,26,349,152.4
+SS Iyer,LSG,15,26,314,150.24
 Chirag Jani,PBKS,5,23,177,177.0
-SS Iyer,LSG,14,23,253,142.13
 N Rana,PBKS,12,22,231,163.83
 VR Iyer,SRH,14,22,322,143.75
 Q de Kock,KKR,10,22,275,122.77
 BM Duckett,PBKS,7,21,166,141.88
+R Parag,GT,17,20,355,190.86
 H Klaasen,CSK,9,20,265,161.59
 AM Rahane,MI,16,20,275,144.74
+N Wadhera,KKR,13,20,292,129.78
 Ishaan Gadekar,RCB,6,19,240,156.86
 Atharva Taide,MI,4,19,155,156.57
 KA Pollard,CSK,12,18,252,203.23
 Nithish Kumar Reddy,SRH,14,18,299,164.29
 Dhruv Jurel,RCB,13,18,268,148.07
-R Parag,GT,16,17,328,196.41
-N Wadhera,KKR,12,16,260,129.35
 Bilal Zalmai,MI,6,14,153,173.86
 J Fraser-McGurk,KKR,6,14,135,170.89
 Urvil Patel,DC,5,14,138,156.82
 RK Singh,MI,10,13,208,184.07
-RA Tripathi,KKR,7,13,99,147.76
+RA Tripathi,KKR,8,13,112,136.59
 PP Shaw,RCB,8,13,158,119.7
 AR Patel,CSK,9,12,101,150.75
 RA Jadeja,RCB,14,11,198,157.14
+MR Marsh,SRH,3,10,104,182.46
 AD Russell,DC,9,10,147,168.97
 WL Madsen,MI,6,10,135,140.62
 LS Livingstone,RCB,10,10,138,131.43
@@ -87,9 +88,8 @@ MA Starc,KKR,6,7,55,110.0
 V Nigam,MI,2,6,39,150.0
 SPD Smith,CSK,4,6,72,107.46
 DAJ Bracewell,RCB,3,5,50,263.16
-MR Marsh,SRH,2,5,46,191.67
 Tanush Kotian,CSK,10,5,63,175.0
-Abdul Samad,LSG,10,5,105,134.62
+Abdul Samad,LSG,11,5,108,130.12
 Gaurav Puri,CSK,4,4,53,189.29
 RR Pant,GT,3,4,42,182.61
 Akash Vasisht,DC,6,4,51,164.52
@@ -98,7 +98,7 @@ JL Smith,KKR,4,4,89,141.27
 Washington Sundar,PBKS,9,4,119,140.0
 JM Vince,RCB,3,4,68,125.93
 Utkarsh Singh,PBKS,5,4,82,124.24
-D Padikkal,KKR,2,4,32,123.08
+D Padikkal,KKR,3,4,42,120.0
 Shakib Al Hasan,PBKS,5,4,50,113.64
 TA Boult,MI,5,3,52,247.62
 R Sai Kishore,MI,2,3,22,220.0
@@ -106,9 +106,9 @@ D Wiese,GT,5,3,39,216.67
 R Powell,KKR,3,3,61,179.41
 JR Hazlewood,RR,3,3,15,166.67
 T Natarajan,CSK,4,3,22,157.14
-R Tewatia,KKR,5,3,30,150.0
-Mohammad Nabi,LSG,7,3,44,122.22
+R Tewatia,KKR,6,3,34,130.77
 Rashid Khan,GT,4,3,32,118.52
+Mohammad Nabi,LSG,8,3,53,117.78
 Azmatullah Omarzai,SRH,4,3,24,92.31
 Suryansh Shedge,CSK,6,3,33,84.62
 Yash Thakur,CSK,4,3,22,84.62
