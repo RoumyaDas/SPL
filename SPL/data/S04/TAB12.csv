@@ -3,37 +3,37 @@ N Sindhu,DC,18,41,680,197.67
 JM Sharma,RCB,18,41,729,196.5
 Sameer Rizvi,LSG,16,32,533,186.36
 N Pooran,MI,18,32,592,179.94
-RD Gaikwad,GT,18,31,759,178.17
+RD Gaikwad,GT,19,31,765,177.49
 CH Gayle,CSK,18,31,704,156.79
 YBK Jaiswal,RR,17,30,547,201.85
-JP Inglis,GT,17,28,787,173.35
+JP Inglis,GT,18,28,804,172.9
 AB de Villiers,RR,16,28,443,171.04
 B Sai Sudharsan,CSK,18,28,625,155.09
+R Parag,GT,19,27,399,186.45
 KL Rahul,SRH,18,27,633,158.25
-R Parag,GT,18,26,386,193.97
+Naman Dhir,GT,19,25,800,177.78
 GJ Maxwell,RR,18,25,688,168.63
 P Simran Singh,SRH,16,25,741,164.3
+Smaran Ravichandran,PBKS,19,25,621,162.14
 Ishan Kishan,MI,14,25,444,153.1
-Naman Dhir,GT,18,24,749,179.62
 WG Jacks,LSG,16,23,581,162.75
-Smaran Ravichandran,PBKS,18,23,578,160.11
 SA Yadav,DC,18,22,605,187.31
 RG Sharma,KKR,17,22,426,184.42
 Aniket Verma,RR,17,22,512,171.81
 PD Salt,RCB,18,22,574,164.47
 S Dube,RR,15,22,411,154.51
+Shashank Singh,PBKS,18,20,418,187.44
 PHKD Mendis,SRH,16,20,348,178.46
-V Suryavanshi,PBKS,18,20,648,164.89
+V Suryavanshi,PBKS,19,20,653,164.48
 SP Narine,KKR,16,20,513,139.4
 KA Pollard,CSK,12,19,252,203.23
+FH Allen,PBKS,16,19,448,172.31
 C Green,KKR,18,19,428,165.89
-SV Samson,GT,17,19,595,159.52
+SV Samson,GT,18,19,595,158.24
 V Kohli,DC,18,19,491,157.88
 Shubman Gill,LSG,18,19,686,155.91
 Abhishek Sharma,MI,13,18,606,194.86
-Shashank Singh,PBKS,17,18,377,186.63
 RD Rickelton,LSG,17,18,451,174.81
-FH Allen,PBKS,15,18,440,172.55
 Nithish Kumar Reddy,SRH,14,18,299,164.29
 Priyansh Arya,SRH,17,17,513,176.29
 T Stubbs,CSK,15,16,400,168.78
@@ -45,8 +45,8 @@ JC Buttler,LSG,16,15,352,168.42
 Rahul Singh,RCB,12,15,381,162.13
 Tilak Varma,CSK,18,15,584,158.7
 RM Patidar,KKR,18,15,471,142.73
+N Rana,PBKS,14,14,306,163.64
 RK Singh,MI,10,13,208,184.07
-N Rana,PBKS,13,12,251,165.13
 RA Jadeja,RCB,15,12,210,161.54
 VR Iyer,SRH,14,12,322,143.75
 BJ McMullen,RR,13,11,416,165.74
@@ -54,27 +54,28 @@ Ishaan Gadekar,RCB,7,11,245,153.12
 TM Head,MI,11,11,405,147.27
 AM Rahane,MI,17,11,320,138.53
 Tarang Gohel,DC,7,10,330,173.68
+GD Phillips,GT,11,10,162,172.34
 AD Russell,DC,9,10,147,168.97
 H Klaasen,CSK,9,10,265,161.59
 RR Rossouw,SRH,6,9,128,203.17
 Arshad Khan,RR,10,9,133,182.19
 MR Marsh,SRH,4,9,179,170.48
-GD Phillips,GT,10,8,135,180.0
 Abishek Porel,DC,12,8,351,160.27
 AK Markram,DC,7,8,126,159.49
 Washington Sundar,PBKS,9,8,119,140.0
 Q de Kock,KKR,10,8,275,122.77
+D Wiese,GT,6,7,90,225.0
 MA Agarwal,RR,6,7,104,192.59
 Anmolpreet Singh,CSK,7,7,129,174.32
 J Fraser-McGurk,KKR,6,7,135,170.89
 Abdul Samad,LSG,12,7,153,127.5
 Bilal Zalmai,MI,7,6,172,177.32
+Chirag Jani,PBKS,7,6,216,175.61
 Tanush Kotian,CSK,10,6,63,175.0
 JL Smith,KKR,4,6,89,141.27
 LS Livingstone,RCB,11,6,138,130.19
 TA Boult,MI,5,5,52,247.62
 R Powell,KKR,3,5,61,179.41
-Chirag Jani,PBKS,6,5,191,175.23
 CH Morris,DC,6,5,114,165.22
 HH Pandya,MI,13,5,138,158.62
 HC Brook,MI,3,5,110,154.93
@@ -82,10 +83,10 @@ WL Madsen,MI,7,5,149,147.52
 DP Conway,PBKS,7,5,127,141.11
 Utkarsh Singh,PBKS,5,5,82,124.24
 DAJ Bracewell,RCB,3,4,50,263.16
+R Shepherd,GT,3,4,37,194.74
 Urvil Patel,DC,5,4,138,156.82
 Mohammad Nabi,LSG,9,4,72,124.14
 PP Shaw,RCB,8,4,158,119.7
-R Shepherd,GT,2,3,28,215.38
 RA Bawa,SRH,4,3,46,209.09
 RR Pant,GT,4,3,63,185.29
 DJ Bravo,RCB,3,3,39,177.27
@@ -98,7 +99,6 @@ HS Desai,PBKS,3,3,85,134.92
 Karan Lal,RR,6,3,33,132.0
 JM Vince,RCB,3,3,68,125.93
 Sikandar Raza,MI,4,2,25,227.27
-D Wiese,GT,5,2,39,216.67
 Ashutosh Aman,RCB,2,2,23,191.67
 Gaurav Puri,CSK,4,2,53,189.29
 PWH de Silva,PBKS,2,2,17,188.89
@@ -114,6 +114,7 @@ SPD Smith,CSK,4,2,72,107.46
 Z Khan,KKR,3,2,22,104.76
 Punit Bisht,MI,1,1,11,275.0
 RS Hangargekar,MI,2,1,19,271.43
+Sanvir Singh,PBKS,2,1,18,225.0
 R Sai Kishore,MI,2,1,22,220.0
 KD Karthik,RCB,3,1,12,171.43
 JJ Smit,PBKS,4,1,20,166.67
@@ -136,8 +137,8 @@ Yudhvir Singh,RCB,1,1,13,108.33
 AV Wankhade,CSK,3,1,12,100.0
 D Visser,RCB,4,1,18,90.0
 TH David,RR,1,1,13,86.67
+Avesh Khan,GT,5,1,12,85.71
 CV Varun,PBKS,3,1,15,78.95
 A Zampa,RR,3,1,14,77.78
-Avesh Khan,GT,4,1,9,69.23
 Ravi Bishnoi,LSG,6,1,10,62.5
 M Pathirana,RCB,3,1,7,43.75
