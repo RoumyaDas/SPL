@@ -1,9 +1,9 @@
 bowler,bowling_team,num_innings,3+_wkts,balls,economy,5+_wkts
 YS Chahal,RCB,12,6,269,11.09,1
-Karan Lal,RR,13,5,300,8.6,1
+MP Yadav,PBKS,12,5,242,11.06,0
+Karan Lal,RR,14,5,324,8.56,1
 MA Starc,KKR,9,4,199,9.89,0
 S Lamichhane,DC,10,4,210,11.26,0
-MP Yadav,PBKS,11,4,218,11.23,0
 M Pathirana,RCB,11,4,258,10.53,1
 JJ Bumrah,MI,13,4,311,9.38,0
 JC Archer,LSG,6,3,138,9.87,1
@@ -11,14 +11,14 @@ Naveen-ul-Haq,SRH,10,3,240,10.2,0
 Suryansh Shedge,CSK,11,3,245,10.58,0
 Arshdeep Singh,LSG,18,3,419,10.83,0
 Sikandar Raza,MI,7,2,132,11.82,0
-JJ Smit,PBKS,7,2,150,9.12,1
+JJ Smit,PBKS,8,2,174,9.38,1
 Harsh Dubey,RR,9,2,186,11.26,0
 AK Markram,DC,9,2,216,8.83,0
 Ashwani Kumar,RR,10,2,228,12.53,0
 Mohammad Nabi,LSG,11,2,234,8.72,0
 R Shepherd,GT,11,2,263,10.9,0
 Noor Ahmad,GT,11,2,264,9.86,0
-Shashank Singh,PBKS,19,2,375,9.09,0
+Shashank Singh,PBKS,20,2,387,9.01,0
 Avesh Khan,GT,17,2,391,11.14,0
 KC Cariappa,MI,2,1,48,8.75,0
 Imran Tahir,CSK,4,1,96,9.38,0
@@ -39,11 +39,11 @@ Akash Vasisht,DC,9,1,204,8.26,0
 Suyash Sharma,KKR,9,1,210,9.8,0
 M Siddharth,CSK,9,1,216,9.22,0
 Shakib Al Hasan,PBKS,10,1,222,9.32,0
-SL Malinga,PBKS,11,1,227,9.91,0
 PHKD Mendis,SRH,14,1,231,10.65,0
 CV Varun,PBKS,11,1,240,8.65,0
 Yash Thakur,CSK,12,1,243,10.0,0
 A Zampa,RR,11,1,246,9.49,0
+SL Malinga,PBKS,12,1,251,10.18,0
 Rasikh Salam,GT,11,1,251,10.78,0
 Mohammad Ghazanfar,SRH,11,1,264,8.98,0
 Kuldeep Yadav,SRH,12,1,276,8.48,0
