@@ -6,11 +6,11 @@ SPL essentials
 
 ## Winners History
 
-Season 0 (pilot run) : DC (jeyanth)
-Season 1 : PBKS (satkar)
-Season 2 : RR (moneybites)
-Season 3 : GT (jeyanth)
-Season 4 : RR (moneybites)
+Season 0 (pilot run) : DC (jeyanth); 
+Season 1 : PBKS (satkar); 
+Season 2 : RR (moneybites); 
+Season 3 : GT (jeyanth); 
+Season 4 : RR (moneybites); 
 
 
 ## Project Summary
