@@ -2,7 +2,18 @@
 SPL essentials
 ---
 
-# Simulation Premier League (SPL) - Project Summary
+# Simulation Premier League (SPL) - www.simulationpremierleague.co.in
+
+## Winners History
+
+Season 0 (pilot run) : DC (jeyanth)
+Season 1 : PBKS (satkar)
+Season 2 : RR (moneybites)
+Season 3 : GT (jeyanth)
+Season 4 : RR (moneybites)
+
+
+## Project Summary
 
 The Simulation Premier League (SPL) is a custom-built T20 cricket simulation framework developed in Python. It replicates an IPL-style tournament using pre-processed ball-by-ball data, with a strong focus on analytics, player performance tracking, and dynamic ranking systems.
 
