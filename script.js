@@ -1558,7 +1558,7 @@ document.addEventListener("DOMContentLoaded", () => {
     '200925_injury.txt','210925_GT_DC.txt','210925_MI_RCB.txt','210925_CSK_KKR.txt','220925_DC_PBKS.txt','220925_MI_GT.txt','230925_RR_SRH.txt','240925_KKR_DC.txt','240925_LSG_CSK.txt','250925_MI_SRH.txt','250925_KKR_GT.txt',
     '260925_RR_MI.txt','260925_RCB_CSK.txt','260925_PBKS_DC.txt','270925_SRH_KKR.txt','270925_LSG_GT.txt','270925_injury.txt',
     '280925_GT_SRH.txt','280925_PBKS_CSK.txt','280925_LSG_MI.txt','280925_DC_KKR.txt','280925_RCB_RR.txt','300925_Q1.txt','011025_E.txt','021025_Q2.txt','021025_injury.txt','031025_F.txt',
-                     'S05_warmups_Day_1.txt'
+    'S05_warmups_Day_1.txt','S05_warmups_Day_2.txt'
     ]
     ;
 
