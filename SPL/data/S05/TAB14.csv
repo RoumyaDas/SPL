@@ -1,7 +1,42 @@
 bowler,bowling_team,num_innings,wkts,balls,strike_rate,wkt_contribution_%
-A Nagwaswalla,RR,1,4,24,6,50.0
-S Dube,RR,1,3,24,8,37.5
-SL Malinga,PBKS,1,1,18,18,33.33
-Shashank Singh,PBKS,1,1,12,12,33.33
-MP Yadav,PBKS,1,1,23,23,33.33
-PJ Cummins,RR,1,1,18,18,12.5
+A Nagwaswalla,RR,1,4,24,6.0,50.0
+KA Maharaj,SRH,1,3,24,8.0,42.86
+JJ Bumrah,DC,1,4,18,4.5,40.0
+B Kumar,KKR,1,4,24,6.0,40.0
+S Dube,RR,1,3,24,8.0,37.5
+Tanush Kotian,CSK,1,3,24,8.0,37.5
+Shashank Singh,PBKS,1,1,12,12.0,33.33
+SL Malinga,PBKS,1,1,18,18.0,33.33
+MP Yadav,PBKS,1,1,23,23.0,33.33
+MJ Owen,DC,1,3,12,4.0,30.0
+PWH de Silva,RCB,1,3,18,6.0,30.0
+SS Ghosh,MI,1,3,18,6.0,30.0
+MA Starc,KKR,1,3,24,8.0,30.0
+Shaheen Shah Afridi,MI,1,3,21,7.0,30.0
+Mohammad Ghazanfar,SRH,1,2,24,12.0,28.57
+Ravi Bishnoi,LSG,1,2,24,12.0,25.0
+Avesh Khan,GT,1,1,18,18.0,25.0
+AR Patel,CSK,1,2,24,12.0,25.0
+Mohammed Shami,GT,1,1,18,18.0,25.0
+Mohammad Nabi,LSG,1,2,18,9.0,25.0
+Abrar Ahmed,GT,1,1,24,24.0,25.0
+DR Sams,GT,1,1,24,24.0,25.0
+TA Boult,MI,1,2,24,12.0,20.0
+MG Erasmus,RCB,1,2,24,12.0,20.0
+YS Chahal,RCB,1,2,19,9.5,20.0
+Khrievitso Kense,RCB,1,2,24,12.0,20.0
+M Prasidh Krishna,MI,1,2,24,12.0,20.0
+Kuldeep Yadav,SRH,1,1,24,24.0,14.29
+PJ Cummins,RR,1,1,18,18.0,12.5
+RD Chahar,CSK,1,1,18,18.0,12.5
+Abdul Samad,LSG,1,1,12,12.0,12.5
+Mayank Dagar,LSG,1,1,12,12.0,12.5
+WG Jacks,LSG,1,1,12,12.0,12.5
+Imran Tahir,CSK,1,1,24,24.0,12.5
+CH Gayle,CSK,1,1,6,6.0,12.5
+SP Narine,KKR,1,1,24,24.0,10.0
+JDS Neesham,DC,1,1,18,18.0,10.0
+LI Meriwala,DC,1,1,24,24.0,10.0
+Harshit Rana,KKR,1,1,18,18.0,10.0
+C Green,KKR,1,1,18,18.0,10.0
+RA Jadeja,RCB,1,1,24,24.0,10.0
