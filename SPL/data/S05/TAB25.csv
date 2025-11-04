@@ -2,11 +2,15 @@ partners,batting_team,runs,balls,outs,fours,sixes,SR,Bat_avg,bpb
 GJ Maxwell  - S Dube,RR,186,103,2,16,7,180.58,93.0,4.48
 Tarang Gohel  - V Kohli,DC,127,62,2,15,5,204.84,63.5,3.1
 Abdul Samad  - Shubman Gill,LSG,119,75,1,14,2,158.67,119.0,4.69
-N Sindhu  - Tarang Gohel,DC,87,44,1,9,2,197.73,87.0,4.0
+Babar Azam  - RG Sharma,KKR,90,56,1,9,3,160.71,90.0,4.67
 Abhishek Sharma  - Urvil Patel,MI,87,50,1,8,3,174.0,87.0,4.55
+N Sindhu  - Tarang Gohel,DC,87,44,1,9,2,197.73,87.0,4.0
 AM Rahane  - Urvil Patel,MI,87,54,1,7,4,161.11,87.0,4.91
 H Klaasen  - Tilak Varma,CSK,77,49,1,11,1,157.14,77.0,4.08
+DS Airee  - JM Sharma,RCB,73,33,1,7,4,221.21,73.0,3.0
 Nithish Kumar Reddy  - VR Iyer,SRH,72,45,1,4,3,160.0,72.0,6.43
+PD Salt  - Rahul Singh,RCB,65,45,1,9,1,144.44,65.0,4.5
+Babar Azam  - SP Narine,KKR,63,51,2,11,1,123.53,31.5,4.25
 SV Samson  - TM Head,GT,62,22,1,9,3,281.82,62.0,1.83
 JM Sharma  - Rahul Singh,RCB,61,39,1,5,3,156.41,61.0,4.88
 DP Conway  - FH Allen,PBKS,60,40,1,9,2,150.0,60.0,3.64
@@ -20,10 +24,10 @@ JM Sharma  - MG Erasmus,RCB,48,24,1,5,2,200.0,48.0,3.43
 CH Gayle  - SPD Smith,CSK,47,28,1,4,3,167.86,47.0,4.0
 BJ McMullen  - S Dube,RR,46,31,1,3,1,148.39,46.0,7.75
 Abdul Samad  - JC Buttler,LSG,44,31,2,3,2,141.94,22.0,6.2
-HC Brook  - N Pooran,MI,43,31,1,2,2,138.71,43.0,7.75
 MJ Owen  - N Sindhu,DC,43,23,1,3,1,186.96,43.0,5.75
-Naman Dhir  - R Parag,GT,40,25,1,3,2,160.0,40.0,5.0
+HC Brook  - N Pooran,MI,43,31,1,2,2,138.71,43.0,7.75
 GJ Maxwell  - YBK Jaiswal,RR,40,22,2,6,0,181.82,20.0,3.67
+Naman Dhir  - R Parag,GT,40,25,1,3,2,160.0,40.0,5.0
 JJ Smit  - Shashank Singh,PBKS,39,21,1,3,2,185.71,39.0,4.2
 Abishek Porel  - N Sindhu,DC,38,21,0,6,0,180.95,inf,3.5
 HC Brook  - RK Singh,MI,37,28,1,1,1,132.14,37.0,14.0
@@ -33,4 +37,3 @@ CH Gayle  - Tilak Varma,CSK,32,23,2,4,1,139.13,16.0,4.6
 Abdul Samad  - SS Iyer,LSG,32,28,1,4,0,114.29,32.0,7.0
 BJ McMullen  - D Brevis,RR,30,21,1,3,1,142.86,30.0,5.25
 CH Morris  - V Kohli,DC,23,22,1,2,1,104.55,23.0,7.33
-Babar Azam  - SP Narine,KKR,19,21,1,3,0,90.48,19.0,7.0
