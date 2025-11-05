@@ -1,11 +1,11 @@
 team,matches_played,points,#Won,#Lost,NRR,Recent Form (Latest first)
-RR,2,4,2,0,0.8101,wW
-MI,2,4,2,0,0.8,Ww
-DC,2,2,1,1,1.075,lW
-SRH,1,2,1,0,0.9,w
+RR,3,6,3,0,1.0721,wW
+MI,2,4,2,0,0.8,lWw
+SRH,2,4,2,0,0.525,Ww
+DC,3,2,1,2,0.2434,lW
 PBKS,2,2,1,1,0.2078,Wl
 CSK,2,2,1,1,0.0541,lW
 KKR,2,2,1,1,-0.575,WL
 RCB,2,0,0,2,-0.575,lL
-LSG,2,0,0,2,-0.9903,Ll
-GT,1,0,0,1,-2.35,l
+LSG,3,0,0,3,-0.7514,lLl
+GT,1,0,0,1,-2.35,Ll
