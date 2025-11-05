@@ -5,7 +5,9 @@ KA Maharaj,SRH,2,21,48,43.75
 MA Starc,KKR,2,19,48,39.58
 M Siddharth,CSK,2,18,36,50.0
 Mohammad Nabi,LSG,2,18,42,42.86
+Noor Ahmad,MI,2,18,48,37.5
 Imran Tahir,CSK,2,18,48,37.5
+Atharva Ankolekar,MI,2,17,40,42.5
 Shashank Singh,PBKS,2,16,34,47.06
 B Kumar,KKR,2,16,48,33.33
 LI Meriwala,DC,2,16,48,33.33
@@ -14,6 +16,7 @@ PJ Cummins,RR,3,16,66,24.24
 Tanush Kotian,CSK,2,15,48,31.25
 Ravi Bishnoi,LSG,3,15,54,27.78
 S Dube,RR,3,15,60,25.0
+V Nigam,MI,2,14,36,38.89
 C Green,KKR,2,14,42,33.33
 SP Narine,KKR,2,14,48,29.17
 JJ Bumrah,DC,2,13,32,40.62
@@ -27,7 +30,7 @@ Kuldeep Yadav,SRH,2,12,42,28.57
 CH Gayle,CSK,2,11,18,61.11
 VG Arora,KKR,1,11,24,45.83
 JC Archer,LSG,2,11,42,26.19
-Atharva Ankolekar,MI,1,10,20,50.0
+Abrar Ahmed,GT,2,11,48,22.92
 Shaheen Shah Afridi,MI,1,10,21,47.62
 M Pathirana,RCB,1,10,24,41.67
 Khushdil Shah,DC,1,10,24,41.67
@@ -37,8 +40,7 @@ MJ Owen,DC,2,9,18,50.0
 Shakib Al Hasan,PBKS,1,9,18,50.0
 Sikandar Raza,MI,1,9,18,50.0
 HH Pandya,MI,1,9,18,50.0
-Noor Ahmad,MI,1,9,24,37.5
-V Nigam,MI,1,8,18,44.44
+GF Linde,GT,1,9,24,37.5
 Harshit Rana,KKR,1,8,18,44.44
 PHKD Mendis,SRH,1,8,18,44.44
 Abdul Samad,LSG,2,8,24,33.33
@@ -48,30 +50,34 @@ MG Erasmus,RCB,1,8,24,33.33
 Washington Sundar,PBKS,1,8,24,33.33
 DAJ Bracewell,RCB,1,8,24,33.33
 Shadab Khan,SRH,1,8,24,33.33
+Abhishek Sharma,MI,2,7,18,38.89
 JR Hazlewood,RR,1,7,24,29.17
 M Prasidh Krishna,MI,1,7,24,29.17
 Mohammad Ghazanfar,SRH,1,7,24,29.17
 CV Varun,PBKS,1,7,24,29.17
 R Shepherd,GT,1,7,24,29.17
+TM Head,GT,2,7,30,23.33
 PWH de Silva,RCB,1,6,18,33.33
 SS Ghosh,MI,1,6,18,33.33
 SL Malinga,PBKS,1,6,18,33.33
 Ashwani Kumar,RR,1,6,18,33.33
 NT Ellis,SRH,1,6,24,25.0
+KC Cariappa,MI,1,6,24,25.0
 DR Sams,GT,1,6,24,25.0
 SZ Mulani,LSG,1,6,24,25.0
 RA Jadeja,RCB,2,6,30,20.0
 Mayank Dagar,LSG,1,5,12,41.67
 RD Chahar,CSK,2,5,24,20.83
 AK Markram,DC,1,5,24,20.83
-Abhishek Sharma,MI,1,4,12,33.33
+R Sai Kishore,MI,2,5,42,11.9
 S Lamichhane,DC,1,4,18,22.22
 Mohammed Shami,GT,1,4,18,22.22
 Ramandeep Singh,LSG,1,4,18,22.22
 YS Chahal,RCB,1,4,19,21.05
 Naseem Shah,LSG,1,4,24,16.67
 Akash Vasisht,DC,1,4,24,16.67
-Abrar Ahmed,GT,1,4,24,16.67
+K Kartikeya,GT,1,4,24,16.67
+Shahbaz Ahmed,GT,1,4,24,16.67
 JJ Smit,PBKS,1,4,24,16.67
 V Puthur,DC,1,4,24,16.67
 BA Stokes,SRH,1,4,24,16.67
@@ -84,6 +90,5 @@ Chirag Jani,PBKS,1,2,12,16.67
 Avesh Khan,GT,1,2,18,11.11
 Sumit Kumar,DC,1,2,18,11.11
 GJ Maxwell,RR,3,2,24,8.33
-R Sai Kishore,MI,1,2,24,8.33
+R Parag,GT,1,1,6,16.67
 RA Bawa,SRH,1,1,6,16.67
-TM Head,GT,1,1,12,8.33
