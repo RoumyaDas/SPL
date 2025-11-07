@@ -1,32 +1,36 @@
 striker,batting_team,num_innings,strike_rate,runs,outs
-SV Samson,GT,2,229.17,55,2
 Tarang Gohel,DC,3,217.58,198,3
 N Pooran,MI,3,213.89,77,2
+R Parag,GT,3,206.45,64,2
 KL Rahul,SRH,3,204.0,51,3
 VR Iyer,SRH,3,200.0,180,1
-GJ Maxwell,RR,3,193.33,145,2
-S Dube,RR,3,193.18,170,3
-RG Sharma,KKR,2,191.3,88,2
+YBK Jaiswal,RR,4,194.05,163,4
+S Dube,RR,4,192.31,200,4
+GJ Maxwell,RR,4,187.5,165,3
 N Sindhu,DC,3,187.5,105,2
-BJ McMullen,RR,3,184.31,94,3
-RD Gaikwad,GT,2,179.71,124,2
+MP Stoinis,KKR,1,187.27,103,0
+RG Sharma,KKR,3,187.23,88,3
+C Green,KKR,3,186.21,54,3
+RD Gaikwad,GT,3,183.81,193,3
+SV Samson,GT,3,179.66,106,3
 TH David,PBKS,3,177.78,64,3
+BJ McMullen,RR,4,176.47,120,4
 Gaurav Puri,CSK,2,175.76,58,2
-Shubman Gill,LSG,3,174.68,138,3
 FH Allen,PBKS,3,173.81,73,3
+Shubman Gill,LSG,4,170.41,167,4
 JM Sharma,RCB,3,170.0,136,3
 Tilak Varma,CSK,3,169.57,78,3
 Nithish Kumar Reddy,SRH,3,168.97,98,3
 Smaran Ravichandran,PBKS,3,167.86,94,3
 V Suryavanshi,PBKS,3,166.67,50,3
-Naman Dhir,GT,2,163.89,59,2
-WG Jacks,LSG,3,162.9,101,3
 Urvil Patel,MI,2,162.61,187,1
 H Klaasen,CSK,3,162.16,60,3
-SP Narine,KKR,2,161.43,113,2
-YBK Jaiswal,RR,3,159.52,67,3
+Naman Dhir,GT,3,161.36,71,3
+WG Jacks,LSG,4,158.82,108,4
+JC Buttler,LSG,4,157.97,109,3
 V Kohli,DC,3,157.58,104,3
-Abdul Samad,LSG,3,152.59,177,1
+SP Narine,KKR,3,154.05,114,3
+Abdul Samad,LSG,4,153.1,222,2
 AM Rahane,MI,2,152.54,90,2
 P Simran Singh,SRH,3,151.43,53,3
 Shashank Singh,PBKS,3,150.88,86,2
@@ -34,7 +38,8 @@ Abhishek Sharma,MI,3,150.0,60,3
 Rahul Singh,RCB,3,143.9,59,3
 RR Rossouw,SRH,3,142.86,80,3
 PD Salt,RCB,3,136.62,97,3
+SS Iyer,LSG,4,135.09,77,3
 CH Gayle,CSK,3,132.08,70,3
 B Sai Sudharsan,CSK,3,128.85,67,3
-TM Head,GT,2,127.45,65,2
-Babar Azam,KKR,2,107.41,58,2
+TM Head,GT,3,122.22,66,3
+Babar Azam,KKR,3,108.77,62,3
