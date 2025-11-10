@@ -1,60 +1,63 @@
 bowler,bowling_team,num_innings,dots,balls,dot_%
-A Nagwaswalla,RR,4,44,96,45.83
+A Nagwaswalla,RR,5,53,120,44.17
+Arshdeep Singh,LSG,5,43,109,39.45
 Tanush Kotian,CSK,5,40,114,35.09
 Shashank Singh,PBKS,5,39,82,47.56
 KA Maharaj,SRH,4,39,96,40.62
-Arshdeep Singh,LSG,4,38,91,41.76
 B Kumar,KKR,4,36,96,37.5
+WG Jacks,LSG,6,35,89,39.33
 MA Starc,KKR,4,34,96,35.42
 M Siddharth,CSK,4,32,84,38.1
 AR Patel,CSK,4,32,96,33.33
 JDS Neesham,DC,4,31,90,34.44
 Imran Tahir,CSK,4,31,96,32.29
 LI Meriwala,DC,4,30,96,31.25
+Mohammad Nabi,LSG,3,29,66,43.94
 Naseem Shah,LSG,3,29,72,40.28
 TA Boult,MI,3,28,72,38.89
 Shadab Khan,SRH,3,28,72,38.89
+S Dube,RR,5,28,96,29.17
+Kuldeep Yadav,SRH,5,27,108,25.0
+MG Erasmus,RCB,3,26,72,36.11
 JJ Bumrah,DC,4,25,74,33.78
 C Green,KKR,4,25,90,27.78
 Mohammad Ghazanfar,SRH,3,24,72,33.33
 SP Narine,KKR,4,24,96,25.0
 Shakib Al Hasan,PBKS,3,23,54,42.59
+D Brevis,RR,4,23,78,29.49
 JC Archer,LSG,4,23,80,28.75
-S Dube,RR,4,23,84,27.38
+PWH de Silva,RCB,4,23,84,27.38
 PJ Cummins,RR,4,23,90,25.56
-Kuldeep Yadav,SRH,4,23,90,25.56
 HH Pandya,MI,3,22,60,36.67
 CV Varun,PBKS,4,22,84,26.19
+Karan Lal,RR,4,22,94,23.4
 Azmatullah Omarzai,LSG,2,21,48,43.75
-WG Jacks,LSG,5,21,66,31.82
 Shaheen Shah Afridi,MI,2,20,40,50.0
-D Brevis,RR,3,20,60,33.33
-MG Erasmus,RCB,2,19,48,39.58
 AR Ramjani,PBKS,3,19,66,28.79
+Ravi Bishnoi,LSG,4,19,66,28.79
+YS Chahal,RCB,4,19,82,23.17
 MP Stoinis,KKR,2,18,36,50.0
-Mohammad Nabi,LSG,2,18,42,42.86
-PWH de Silva,RCB,3,18,60,30.0
 Washington Sundar,PBKS,3,18,69,26.09
+Khrievitso Kense,RCB,3,18,72,25.0
+Mayank Dagar,LSG,2,17,36,47.22
+RA Jadeja,RCB,5,17,84,20.24
 GF Linde,GT,2,16,48,33.33
-Karan Lal,RR,3,16,72,22.22
-RA Jadeja,RCB,4,16,72,22.22
 M Prasidh Krishna,MI,3,16,72,22.22
 CH Morris,DC,4,16,72,22.22
 CH Gayle,CSK,4,15,42,35.71
 DAJ Bracewell,RCB,2,15,48,31.25
-Ravi Bishnoi,LSG,3,15,54,27.78
-YS Chahal,RCB,3,15,58,25.86
 DR Sams,GT,3,15,60,25.0
 Abrar Ahmed,GT,3,15,62,24.19
 MJ Owen,DC,4,15,64,23.44
+Abdul Samad,LSG,3,14,36,38.89
 M Pathirana,RCB,2,14,42,33.33
+BA Stokes,SRH,2,14,42,33.33
 Atharva Ankolekar,MI,2,14,43,32.56
 Noor Ahmad,MI,2,14,48,29.17
 Yudhvir Singh,RCB,1,12,18,66.67
 Ravi Teja,RCB,1,12,24,50.0
 PHKD Mendis,SRH,2,12,30,40.0
 Sikandar Raza,MI,2,12,36,33.33
-Khrievitso Kense,RCB,2,12,48,25.0
 HJ Manenti,PBKS,1,11,24,45.83
 VG Arora,KKR,1,11,24,45.83
 V Nigam,MI,2,11,36,30.56
@@ -64,21 +67,21 @@ KC Cariappa,MI,1,10,24,41.67
 Khushdil Shah,DC,1,10,24,41.67
 SL Malinga,PBKS,2,10,37,27.03
 Avesh Khan,GT,2,10,42,23.81
-JR Hazlewood,RR,2,10,48,20.83
 RD Chahar,CSK,4,10,48,20.83
 JJ Smit,PBKS,2,10,48,20.83
 R Shepherd,GT,2,10,48,20.83
 Ramandeep Singh,LSG,3,10,54,18.52
+JR Hazlewood,RR,3,10,72,13.89
 Fazalhaq Farooqi,CSK,1,9,24,37.5
 Suryansh Shedge,CSK,1,9,24,37.5
 Harshit Rana,KKR,1,8,18,44.44
-Abdul Samad,LSG,2,8,24,33.33
 RS Hangargekar,MI,1,8,24,33.33
+NT Ellis,SRH,2,8,48,16.67
+Nithish Kumar Reddy,SRH,4,8,60,13.33
 Yuvraj Singh,CSK,1,7,18,38.89
 KA Pollard,CSK,1,6,12,50.0
 SS Ghosh,MI,1,6,18,33.33
 Ashwani Kumar,RR,1,6,18,33.33
-NT Ellis,SRH,1,6,24,25.0
 Shahbaz Ahmed,GT,1,6,24,25.0
 SN Thakur,GT,1,6,24,25.0
 T Natarajan,CSK,1,6,24,25.0
@@ -86,22 +89,22 @@ Chirag Jani,PBKS,2,6,24,25.0
 Pulkit Narang,RR,1,6,24,25.0
 SZ Mulani,LSG,1,6,24,25.0
 Abhishek Sharma,MI,3,6,30,20.0
-Nithish Kumar Reddy,SRH,3,6,42,14.29
 Hemang Patel,GT,1,5,6,83.33
-Mayank Dagar,LSG,1,5,12,41.67
+Harsh Dubey,RCB,1,5,12,41.67
 Rashid Khan,RR,1,5,18,27.78
 AK Markram,DC,1,5,24,20.83
 AA Kulkarni,GT,1,4,12,33.33
 S Lamichhane,DC,1,4,18,22.22
 Mohammed Shami,GT,1,4,18,22.22
+RA Bawa,SRH,2,4,18,22.22
 D Wiese,GT,1,4,24,16.67
 Akash Vasisht,DC,1,4,24,16.67
+Naveen-ul-Haq,SRH,1,4,24,16.67
 K Kartikeya,GT,1,4,24,16.67
 YK Pathan,KKR,3,4,24,16.67
-Harpreet Brar,RR,1,4,24,16.67
 V Puthur,DC,1,4,24,16.67
-BA Stokes,SRH,1,4,24,16.67
 TM Head,GT,2,4,30,13.33
+Harpreet Brar,RR,2,4,42,9.52
 GD Phillips,GT,1,3,6,50.0
 NA Rathva,RCB,1,3,6,50.0
 MP Yadav,PBKS,1,3,23,13.04
@@ -110,6 +113,6 @@ M Markande,SRH,1,3,24,12.5
 GJ Maxwell,RR,4,3,30,10.0
 Sumit Kumar,DC,1,2,18,11.11
 HV Patel,RR,1,2,18,11.11
-RA Bawa,SRH,1,1,6,16.67
+MR Marsh,SRH,1,1,6,16.67
 Arshad Khan,RR,2,1,12,8.33
 Rasikh Salam,GT,1,1,24,4.17
