@@ -6,6 +6,7 @@ PWH de Silva,5,164,102,11,9.27,9.65,RCB
 MP Yadav,5,195,102,10,10.2,11.47,PBKS
 M Pathirana,5,204,114,10,11.4,10.74,RCB
 A Nagwaswalla,3,86,72,10,7.2,7.17,RR
+Imran Tahir,5,179,120,10,12.0,8.95,CSK
 Shashank Singh,5,125,88,10,8.8,8.52,PBKS
 JJ Bumrah,5,195,120,10,12.0,9.75,DC
 Sikandar Raza,5,202,114,9,12.67,10.63,MI
@@ -14,7 +15,6 @@ BA Stokes,5,157,108,9,12.0,8.72,SRH
 Arshdeep Singh,5,212,120,9,13.33,10.6,LSG
 Naveen-ul-Haq,5,195,120,8,15.0,9.75,SRH
 Mohammad Ghazanfar,5,182,120,8,15.0,9.1,SRH
-Imran Tahir,5,205,120,8,15.0,10.25,CSK
 R Shepherd,5,194,120,8,15.0,9.7,GT
 Harsh Dubey,5,202,108,8,13.5,11.22,RCB
 HH Pandya,5,201,114,8,14.25,10.58,MI
@@ -27,14 +27,14 @@ DS Rathi,5,175,120,7,17.14,8.75,KKR
 MA Starc,5,203,120,7,17.14,10.15,KKR
 Shahbaz Ahmed,5,198,120,7,17.14,9.9,GT
 Ashwani Kumar,5,261,114,7,16.29,13.74,RR
-Tanush Kotian,5,149,120,7,17.14,7.45,CSK
+Tanush Kotian,5,157,120,7,17.14,7.85,CSK
 SL Malinga,5,219,114,7,16.29,11.53,PBKS
 C Sakariya,5,187,120,7,17.14,9.35,SRH
 JC Archer,5,237,108,6,18.0,13.17,LSG
 Suyash Sharma,5,159,114,6,19.0,8.37,KKR
 MR Marsh,5,106,72,6,12.0,8.83,SRH
 C Green,5,173,114,6,19.0,9.11,KKR
-AR Patel,5,169,120,6,20.0,8.45,CSK
+AR Patel,5,172,120,6,20.0,8.6,CSK
 A Zampa,5,185,120,6,20.0,9.25,RR
 KA Maharaj,4,117,84,6,14.0,8.36,SRH
 KH Pandya,5,181,108,6,18.0,10.06,SRH
@@ -74,7 +74,7 @@ CV Varun,5,152,108,4,27.0,8.44,PBKS
 K Kartikeya,5,144,102,4,25.5,8.47,GT
 JJ Smit,4,138,96,4,24.0,8.62,PBKS
 Akash Vasisht,5,178,120,4,30.0,8.9,DC
-CH Gayle,3,57,30,4,7.5,11.4,CSK
+CH Gayle,4,102,54,4,13.5,11.33,CSK
 A Sheth,3,89,72,4,18.0,7.42,DC
 AK Markram,5,206,120,4,30.0,10.3,DC
 AR Ramjani,1,28,24,4,6.0,7.0,PBKS
@@ -118,7 +118,7 @@ M Markande,5,171,102,1,102.0,10.06,SRH
 KK Ahmed,5,214,114,1,114.0,11.26,RR
 V Kaverappa,1,31,18,1,18.0,10.33,PBKS
 Nithish Kumar Reddy,1,29,18,1,18.0,9.67,SRH
-M Siddharth,3,138,72,1,72.0,11.5,CSK
+M Siddharth,4,186,96,1,96.0,11.62,CSK
 T Stubbs,1,62,24,1,24.0,15.5,CSK
 S Gopal,4,103,60,1,60.0,10.3,GT
 Suryansh Shedge,5,209,114,1,114.0,11.0,CSK

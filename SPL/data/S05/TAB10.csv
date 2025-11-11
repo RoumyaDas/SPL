@@ -1,16 +1,16 @@
 bowler,bowling_team,num_innings,dots,balls,dot_%
 A Nagwaswalla,RR,5,53,120,44.17
 B Kumar,KKR,5,44,120,36.67
+Tanush Kotian,CSK,6,44,138,31.88
 Shashank Singh,PBKS,6,43,94,45.74
 Arshdeep Singh,LSG,5,43,109,39.45
-Tanush Kotian,CSK,5,40,114,35.09
+Imran Tahir,CSK,5,43,120,35.83
 MA Starc,KKR,5,40,120,33.33
 KA Maharaj,SRH,4,39,96,40.62
+M Siddharth,CSK,5,39,108,36.11
+AR Patel,CSK,5,36,120,30.0
 WG Jacks,LSG,6,35,89,39.33
-M Siddharth,CSK,4,32,84,38.1
-AR Patel,CSK,4,32,96,33.33
 JDS Neesham,DC,4,31,90,34.44
-Imran Tahir,CSK,4,31,96,32.29
 C Green,KKR,5,31,114,27.19
 LI Meriwala,DC,4,30,96,31.25
 TA Boult,MI,4,30,96,31.25
@@ -37,16 +37,18 @@ CV Varun,PBKS,4,22,84,26.19
 Karan Lal,RR,4,22,94,23.4
 M Prasidh Krishna,MI,4,22,96,22.92
 Azmatullah Omarzai,LSG,2,21,48,43.75
+CH Gayle,CSK,5,21,66,31.82
 AR Ramjani,PBKS,3,19,66,28.79
 Ravi Bishnoi,LSG,4,19,66,28.79
 YS Chahal,RCB,4,19,82,23.17
 Washington Sundar,PBKS,3,18,69,26.09
 Khrievitso Kense,RCB,3,18,72,25.0
 Mayank Dagar,LSG,2,17,36,47.22
+Khushdil Shah,DC,2,17,48,35.42
 RA Jadeja,RCB,5,17,84,20.24
 GF Linde,GT,2,16,48,33.33
 CH Morris,DC,4,16,72,22.22
-CH Gayle,CSK,4,15,42,35.71
+S Lamichhane,DC,2,15,41,36.59
 DAJ Bracewell,RCB,2,15,48,31.25
 Abrar Ahmed,GT,3,15,62,24.19
 MJ Owen,DC,4,15,64,23.44
@@ -54,6 +56,7 @@ Abdul Samad,LSG,3,14,36,38.89
 M Pathirana,RCB,2,14,42,33.33
 BA Stokes,SRH,2,14,42,33.33
 Atharva Ankolekar,MI,2,14,43,32.56
+AK Markram,DC,2,14,48,29.17
 Noor Ahmad,MI,2,14,48,29.17
 SL Malinga,PBKS,3,14,61,22.95
 HJ Manenti,PBKS,2,13,42,30.95
@@ -69,7 +72,6 @@ D Wiese,GT,2,11,48,22.92
 RS Hangargekar,MI,2,11,48,22.92
 R Sai Kishore,MI,3,11,66,16.67
 KC Cariappa,MI,1,10,24,41.67
-Khushdil Shah,DC,1,10,24,41.67
 Avesh Khan,GT,2,10,42,23.81
 RD Chahar,CSK,4,10,48,20.83
 Ramandeep Singh,LSG,3,10,54,18.52
@@ -78,6 +80,7 @@ Fazalhaq Farooqi,CSK,1,9,24,37.5
 Suryansh Shedge,CSK,1,9,24,37.5
 Mohammed Shami,GT,2,9,42,21.43
 MP Yadav,PBKS,2,9,47,19.15
+Akash Vasisht,DC,2,9,48,18.75
 Harshit Rana,KKR,1,8,18,44.44
 NT Ellis,SRH,2,8,48,16.67
 Nithish Kumar Reddy,SRH,4,8,60,13.33
@@ -97,11 +100,9 @@ Rasikh Salam,GT,2,6,48,12.5
 Hemang Patel,GT,1,5,6,83.33
 Harsh Dubey,RCB,1,5,12,41.67
 Rashid Khan,RR,1,5,18,27.78
-AK Markram,DC,1,5,24,20.83
+SS Agarwal,DC,1,5,24,20.83
 AA Kulkarni,GT,1,4,12,33.33
-S Lamichhane,DC,1,4,18,22.22
 RA Bawa,SRH,2,4,18,22.22
-Akash Vasisht,DC,1,4,24,16.67
 Naveen-ul-Haq,SRH,1,4,24,16.67
 K Kartikeya,GT,1,4,24,16.67
 V Puthur,DC,1,4,24,16.67
