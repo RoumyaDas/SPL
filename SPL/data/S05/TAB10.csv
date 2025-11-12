@@ -1,48 +1,49 @@
 bowler,bowling_team,num_innings,dots,balls,dot_%
-A Nagwaswalla,RR,5,53,120,44.17
+A Nagwaswalla,RR,6,65,144,45.14
+Arshdeep Singh,LSG,6,47,121,38.84
 B Kumar,KKR,5,44,120,36.67
 Tanush Kotian,CSK,6,44,138,31.88
 Shashank Singh,PBKS,6,43,94,45.74
-Arshdeep Singh,LSG,5,43,109,39.45
 Imran Tahir,CSK,5,43,120,35.83
 MA Starc,KKR,5,40,120,33.33
+Naseem Shah,LSG,4,39,96,40.62
 KA Maharaj,SRH,4,39,96,40.62
+WG Jacks,LSG,7,39,101,38.61
 M Siddharth,CSK,5,39,108,36.11
+S Dube,RR,6,39,116,33.62
 AR Patel,CSK,5,36,120,30.0
-WG Jacks,LSG,6,35,89,39.33
 JDS Neesham,DC,4,31,90,34.44
 C Green,KKR,5,31,114,27.19
 LI Meriwala,DC,4,30,96,31.25
 TA Boult,MI,4,30,96,31.25
 Mohammad Nabi,LSG,3,29,66,43.94
-Naseem Shah,LSG,3,29,72,40.28
 HH Pandya,MI,4,29,84,34.52
+Karan Lal,RR,5,29,118,24.58
+Azmatullah Omarzai,LSG,3,28,72,38.89
 Shadab Khan,SRH,3,28,72,38.89
-S Dube,RR,5,28,96,29.17
 SP Narine,KKR,5,28,120,23.33
 Kuldeep Yadav,SRH,5,27,108,25.0
 MP Stoinis,KKR,3,26,54,48.15
 MG Erasmus,RCB,3,26,72,36.11
 DR Sams,GT,4,26,84,30.95
 JJ Bumrah,DC,4,25,74,33.78
+D Brevis,RR,5,25,84,29.76
+JC Archer,LSG,5,25,98,25.51
 Shaheen Shah Afridi,MI,3,24,64,37.5
 Mohammad Ghazanfar,SRH,3,24,72,33.33
 Shakib Al Hasan,PBKS,3,23,54,42.59
 R Shepherd,GT,3,23,72,31.94
-D Brevis,RR,4,23,78,29.49
-JC Archer,LSG,4,23,80,28.75
 PWH de Silva,RCB,4,23,84,27.38
 PJ Cummins,RR,4,23,90,25.56
 CV Varun,PBKS,4,22,84,26.19
-Karan Lal,RR,4,22,94,23.4
 M Prasidh Krishna,MI,4,22,96,22.92
-Azmatullah Omarzai,LSG,2,21,48,43.75
 CH Gayle,CSK,5,21,66,31.82
 AR Ramjani,PBKS,3,19,66,28.79
 Ravi Bishnoi,LSG,4,19,66,28.79
 YS Chahal,RCB,4,19,82,23.17
 Washington Sundar,PBKS,3,18,69,26.09
 Khrievitso Kense,RCB,3,18,72,25.0
+JR Hazlewood,RR,4,18,96,18.75
 Mayank Dagar,LSG,2,17,36,47.22
 Khushdil Shah,DC,2,17,48,35.42
 RA Jadeja,RCB,5,17,84,20.24
@@ -70,12 +71,11 @@ V Nigam,MI,2,11,36,30.56
 AD Russell,DC,2,11,36,30.56
 D Wiese,GT,2,11,48,22.92
 RS Hangargekar,MI,2,11,48,22.92
+Ramandeep Singh,LSG,4,11,66,16.67
 R Sai Kishore,MI,3,11,66,16.67
 KC Cariappa,MI,1,10,24,41.67
 Avesh Khan,GT,2,10,42,23.81
 RD Chahar,CSK,4,10,48,20.83
-Ramandeep Singh,LSG,3,10,54,18.52
-JR Hazlewood,RR,3,10,72,13.89
 Fazalhaq Farooqi,CSK,1,9,24,37.5
 Suryansh Shedge,CSK,1,9,24,37.5
 Mohammed Shami,GT,2,9,42,21.43
@@ -115,6 +115,7 @@ DJ Bravo,RCB,1,3,24,12.5
 M Markande,SRH,1,3,24,12.5
 GJ Maxwell,RR,4,3,30,10.0
 Sumit Kumar,DC,1,2,18,11.11
+Arshad Khan,RR,3,2,18,11.11
 HV Patel,RR,1,2,18,11.11
+BJ McMullen,RR,2,2,18,11.11
 MR Marsh,SRH,1,1,6,16.67
-Arshad Khan,RR,2,1,12,8.33
