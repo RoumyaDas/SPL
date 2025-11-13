@@ -1561,7 +1561,7 @@ document.addEventListener("DOMContentLoaded", () => {
     '281025_S05_warmups_Day_1.txt','291025_S05_warmups_Day_2.txt','301025_S05_warmups_Day_3.txt','311025_S05_warmups_Day_4.txt',
     '011125_RR_PBKS.txt','021125_DC_GT.txt','021125_CSK_LSG.txt','021125_RCB_SRH.txt','021125_KKR_MI.txt','031125_MI_DC.txt','031125_PBKS_CSK.txt','031125_LSG_RR.txt','041125_KKR_RCB.txt','051125_SRH_LSG.txt',
     '051125_DC_RR.txt','051125_GT_MI.txt','061125_SRH_CSK.txt','061125_PBKS_RCB.txt','071125_GT_RR.txt','071125_LSG_KKR.txt','071125_injury.txt','081125_CSK_MI.txt','081125_DC_PBKS.txt','091125_PBKS_SRH.txt','091125_DC_KKR.txt',
-    '091125_GT_RCB.txt','091125_RR_CSK.txt','091125_LSG_MI.txt','101125_RR_SRH.txt','101125_RCB_LSG.txt','101125_injury.txt','111125_KKR_GT.txt','111125_MI_PBKS.txt','121125_CSK_DC.txt','121125_RR_LSG.txt'
+    '091125_GT_RCB.txt','091125_RR_CSK.txt','091125_LSG_MI.txt','101125_RR_SRH.txt','101125_RCB_LSG.txt','101125_injury.txt','111125_KKR_GT.txt','111125_MI_PBKS.txt','121125_CSK_DC.txt','121125_RR_LSG.txt','131125_GT_SRH.txt','131125_MI_RCB.txt'
     ]
     ;
 
