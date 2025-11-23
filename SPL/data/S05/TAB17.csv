@@ -1,10 +1,11 @@
 bowler,bowling_team,num_innings,economy,balls,wkts
+Ravi Teja,RCB,4,6.22,83,7
 KC Cariappa,MI,1,6.5,24,1
 VG Arora,KKR,1,6.5,24,1
 Shakib Al Hasan,PBKS,6,6.56,108,2
-Ravi Teja,RCB,3,6.65,65,4
-Fazalhaq Farooqi,CSK,3,7.0,72,5
+Ashutosh Sharma,RCB,4,7.0,54,5
 Mohammad Nabi,LSG,4,7.13,90,7
+Fazalhaq Farooqi,CSK,4,7.25,96,6
 K Kartikeya,GT,1,7.25,24,0
 LS Livingstone,KKR,3,7.56,54,5
 S Lamichhane,DC,3,7.58,53,6
@@ -12,7 +13,6 @@ V Nigam,MI,4,7.64,84,5
 Akash Vasisht,DC,3,7.67,72,5
 AA Kulkarni,GT,3,7.8,30,2
 MG Erasmus,RCB,6,8.0,144,4
-Ashutosh Sharma,RCB,3,8.0,36,2
 C Green,KKR,8,8.03,180,12
 A Nagwaswalla,RR,9,8.08,216,21
 NA Rathva,RCB,3,8.25,24,1
@@ -22,9 +22,9 @@ Naseem Shah,LSG,6,8.38,144,9
 GD Phillips,GT,3,8.4,30,5
 AR Ramjani,PBKS,7,8.42,156,10
 JJ Bumrah,DC,8,8.44,170,18
+Noor Ahmad,MI,5,8.55,120,8
 YK Pathan,KKR,9,8.56,108,3
 Tanush Kotian,CSK,10,8.62,234,16
-Noor Ahmad,MI,4,8.62,96,7
 LI Meriwala,DC,7,8.64,168,11
 Mayank Dagar,LSG,3,8.7,60,5
 Ashwin Das,LSG,1,8.75,24,3
@@ -33,28 +33,28 @@ Rashid Khan,RR,2,8.86,42,0
 Shaheen Shah Afridi,MI,6,8.88,125,15
 Shadab Khan,SRH,5,8.89,108,4
 Khrievitso Kense,RCB,5,8.9,120,5
-HH Pandya,MI,8,8.97,174,13
 Washington Sundar,PBKS,5,8.97,117,6
 WG Jacks,LSG,11,8.98,179,13
-TA Boult,MI,7,9.0,168,9
 D Brevis,RR,8,9.0,126,4
+T Natarajan,CSK,4,9.0,96,3
 AK Markram,DC,4,9.04,71,8
 CV Varun,PBKS,6,9.05,132,10
-Nithish Kumar Reddy,SRH,6,9.06,96,3
 KA Maharaj,SRH,6,9.09,132,10
+DJ Bravo,RCB,4,9.09,66,3
 Chirag Jani,PBKS,6,9.13,90,3
 Sikandar Raza,MI,4,9.15,78,4
 Imran Tahir,CSK,7,9.18,168,11
 SP Narine,KKR,11,9.19,256,10
+HH Pandya,MI,9,9.22,192,14
+TA Boult,MI,8,9.34,192,9
 Azmatullah Omarzai,LSG,5,9.35,120,5
 GF Linde,GT,7,9.36,168,9
-RA Bawa,SRH,5,9.44,54,1
+Nithish Kumar Reddy,SRH,7,9.39,108,3
+Mohammad Ghazanfar,SRH,6,9.43,126,9
 JJ Smit,PBKS,5,9.45,120,3
-Mohammad Ghazanfar,SRH,5,9.47,102,7
-M Prasidh Krishna,MI,7,9.5,168,6
-RA Jadeja,RCB,5,9.5,84,3
-T Natarajan,CSK,3,9.5,72,2
+RA Bawa,SRH,6,9.45,66,2
 A Sheth,DC,1,9.5,24,1
+Cheepurapalli Stephen,CSK,1,9.5,24,1
 Kuldeep Yadav,SRH,8,9.53,165,6
 Karan Lal,RR,9,9.56,214,14
 JDS Neesham,DC,8,9.61,186,5
@@ -62,42 +62,44 @@ MA Starc,KKR,8,9.61,183,17
 S Dube,RR,10,9.64,188,16
 Hemang Patel,GT,7,9.64,66,3
 Shashank Singh,PBKS,12,9.73,196,19
+RA Jadeja,RCB,6,9.73,90,3
 SZ Mulani,LSG,1,9.75,24,0
 Abrar Ahmed,GT,8,9.76,177,14
 Avesh Khan,GT,4,9.8,90,2
 Harsh Dubey,RCB,2,9.8,30,3
 SL Malinga,PBKS,6,9.83,133,10
 PWH de Silva,RCB,7,9.85,156,13
-DJ Bravo,RCB,3,9.88,48,2
+NT Ellis,SRH,5,9.89,108,8
 R Ashwin,KKR,3,9.9,60,5
-NT Ellis,SRH,4,10.0,84,6
+M Prasidh Krishna,MI,8,10.0,192,6
 Naveen-ul-Haq,SRH,1,10.0,24,1
 JR Hazlewood,RR,6,10.04,144,10
 HJ Manenti,PBKS,6,10.05,132,13
 MP Yadav,PBKS,6,10.06,133,6
-M Pathirana,RCB,6,10.14,126,12
 CH Gayle,CSK,8,10.15,110,10
 R Shepherd,GT,6,10.17,144,5
 DR Sams,GT,9,10.22,192,9
 PHKD Mendis,SRH,5,10.22,54,0
 Ihsanullah,DC,1,10.25,24,0
+Yuvraj Singh,CSK,2,10.29,42,3
 V Puthur,DC,2,10.29,42,1
 B Kumar,KKR,11,10.36,252,22
-Suryansh Shedge,CSK,2,10.4,30,1
+M Pathirana,RCB,7,10.36,139,13
 Mohammed Shami,GT,4,10.47,90,6
 Pulkit Narang,RR,3,10.5,60,3
-Abhishek Sharma,MI,5,10.5,60,2
 D Wiese,GT,6,10.52,134,7
+DAJ Bracewell,RCB,5,10.55,116,5
+Suryansh Shedge,CSK,3,10.56,54,2
 TM Head,GT,4,10.56,54,1
+Abhishek Sharma,MI,6,10.64,66,2
 PJ Cummins,RR,4,10.67,90,4
 Yudhvir Singh,RCB,3,10.67,54,4
+R Sai Kishore,MI,6,10.7,138,7
 YS Chahal,RCB,7,10.71,154,10
 Shahbaz Ahmed,GT,2,10.75,48,5
 Ramandeep Singh,LSG,8,10.88,102,3
-DAJ Bracewell,RCB,4,10.96,92,4
 Arshad Khan,RR,4,11.0,30,0
 A Zampa,RR,2,11.02,43,2
-R Sai Kishore,MI,5,11.05,114,6
 MP Stoinis,KKR,8,11.1,120,2
 RS Hangargekar,MI,2,11.12,48,2
 Abdul Samad,LSG,5,11.18,66,5
@@ -112,12 +114,12 @@ SN Netravalkar,CSK,1,11.75,24,1
 M Siddharth,CSK,7,11.86,132,4
 MJ Owen,DC,9,11.92,160,14
 RD Chahar,CSK,6,11.93,84,3
-BA Stokes,SRH,4,12.07,84,5
+BA Stokes,SRH,5,12.22,108,5
 Ravi Bishnoi,LSG,4,12.36,66,2
 SS Agarwal,DC,1,12.5,24,0
-MR Marsh,SRH,2,13.25,24,1
 M Markande,SRH,1,13.25,24,0
 SN Thakur,GT,1,13.5,24,2
 CH Morris,DC,4,13.58,72,0
 Atharva Ankolekar,MI,2,13.67,43,4
+MR Marsh,SRH,3,14.0,30,1
 BJ McMullen,RR,3,14.2,30,2
