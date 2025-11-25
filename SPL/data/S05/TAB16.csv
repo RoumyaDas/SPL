@@ -1,33 +1,34 @@
 striker,batting_team,num_innings,50+_scores,runs,strike_rate,100+_scores
 MP Stoinis,KKR,10,5,520,171.05,2
-V Kohli,DC,11,4,462,190.12,0
+V Kohli,DC,12,4,480,191.24,0
+KL Rahul,SRH,12,4,479,164.6,1
 RD Gaikwad,GT,12,4,453,170.94,0
 WG Jacks,LSG,12,4,435,153.71,0
-KL Rahul,SRH,11,4,434,162.55,1
+Priyansh Arya,SRH,12,4,425,164.09,0
 PD Salt,RCB,11,4,383,161.6,0
 B Sai Sudharsan,CSK,11,4,372,139.33,0
 S Dube,RR,12,3,529,171.75,0
+Tarang Gohel,DC,12,3,433,191.59,0
 Shubman Gill,LSG,12,3,424,182.76,0
-Tarang Gohel,DC,11,3,403,191.9,0
 GJ Maxwell,RR,11,3,401,173.59,0
 Abhishek Sharma,MI,13,3,400,170.94,0
-Priyansh Arya,SRH,11,3,361,161.88,0
+SA Yadav,DC,12,3,376,170.91,1
 YBK Jaiswal,RR,11,3,358,183.59,0
 JM Sharma,RCB,11,3,322,168.59,0
 H Klaasen,CSK,7,3,199,143.17,0
 SP Narine,KKR,12,2,393,159.76,0
-VR Iyer,SRH,11,2,379,184.88,1
+VR Iyer,SRH,12,2,379,183.09,1
 Naman Dhir,GT,12,2,357,163.01,0
 Tilak Varma,CSK,11,2,350,161.29,0
 FH Allen,PBKS,13,2,349,168.6,0
 Abdul Samad,LSG,11,2,332,143.1,0
-SA Yadav,DC,11,2,309,170.72,1
 Urvil Patel,MI,5,2,294,162.43,1
 BJ McMullen,RR,10,2,292,166.86,0
 RG Sharma,KKR,12,2,284,173.17,0
 C Green,KKR,12,2,283,174.69,0
 CH Gayle,CSK,11,2,257,155.76,0
 Shashank Singh,PBKS,13,2,240,163.27,0
+P Simran Singh,SRH,12,2,220,148.65,0
 SV Samson,GT,9,2,203,156.15,0
 R Parag,GT,11,1,328,174.47,0
 Smaran Ravichandran,PBKS,13,1,313,147.64,0
@@ -38,14 +39,13 @@ N Rana,PBKS,11,1,294,165.17,1
 JP Inglis,GT,11,1,294,160.66,0
 Hassan Nawaz,RCB,8,1,275,161.76,0
 TH David,PBKS,10,1,273,168.52,0
-N Sindhu,DC,9,1,243,156.77,0
-Abishek Porel,DC,6,1,211,174.38,0
+N Sindhu,DC,10,1,269,157.31,0
+Abishek Porel,DC,7,1,223,172.87,0
 Tanush Kotian,CSK,8,1,192,197.94,0
 MW Short,MI,7,1,185,146.83,0
 PWH de Silva,RCB,7,1,179,192.47,0
 Atharva Taide,MI,5,1,175,160.55,0
 RK Singh,MI,8,1,172,181.05,0
-P Simran Singh,SRH,11,1,166,152.29,0
 MR Marsh,SRH,5,1,159,151.43,0
 RM Patidar,KKR,12,1,154,115.79,0
 Chirag Jani,PBKS,7,1,131,174.67,0
