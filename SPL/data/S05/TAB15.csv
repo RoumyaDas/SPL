@@ -1,9 +1,10 @@
 bowler,bowling_team,num_innings,3+_wkts,balls,economy,5+_wkts
 JC Archer,LSG,8,4,170,11.19,0
 MA Starc,KKR,10,4,214,10.35,0
+KA Maharaj,SRH,7,3,154,9.16,0
 NT Ellis,SRH,7,3,156,8.77,0
-Abrar Ahmed,GT,8,3,177,9.76,0
 PWH de Silva,RCB,8,3,180,9.57,0
+Abrar Ahmed,GT,9,3,201,9.88,0
 JJ Bumrah,DC,10,3,218,9.0,1
 Shashank Singh,PBKS,13,3,220,9.41,0
 S Dube,RR,12,3,224,9.75,0
@@ -11,7 +12,6 @@ A Nagwaswalla,RR,10,3,240,8.02,0
 B Kumar,KKR,13,3,288,10.4,0
 AK Markram,DC,4,2,71,9.04,0
 Ravi Teja,RCB,4,2,83,6.22,0
-KA Maharaj,SRH,6,2,132,9.09,0
 HJ Manenti,PBKS,6,2,132,10.05,1
 M Pathirana,RCB,7,2,139,10.36,0
 Noor Ahmad,MI,6,2,144,8.46,0
@@ -30,7 +30,6 @@ SS Ghosh,MI,1,1,18,10.33,0
 Ashwin Das,LSG,1,1,24,8.75,0
 Atharva Ankolekar,MI,2,1,43,13.67,0
 SH Johnson,GT,2,1,45,7.07,0
-Shahbaz Ahmed,GT,2,1,48,10.75,0
 S Lamichhane,DC,3,1,53,7.58,0
 Ashutosh Sharma,RCB,4,1,54,7.0,0
 LS Livingstone,KKR,3,1,54,7.56,0
@@ -38,12 +37,14 @@ R Ashwin,KKR,3,1,60,9.9,0
 Yuvraj Singh,CSK,3,1,66,11.73,0
 Akash Vasisht,DC,3,1,72,7.67,0
 Naveen-ul-Haq,SRH,3,1,72,9.17,0
+Shahbaz Ahmed,GT,3,1,72,10.5,0
 V Nigam,MI,4,1,84,7.64,0
 BA Stokes,SRH,5,1,108,12.22,0
 Fazalhaq Farooqi,CSK,5,1,120,7.0,0
-Mohammad Ghazanfar,SRH,6,1,126,9.43,0
+Shadab Khan,SRH,6,1,126,8.81,0
 Washington Sundar,PBKS,6,1,135,8.58,0
 Khrievitso Kense,RCB,6,1,144,8.46,0
+Mohammad Ghazanfar,SRH,7,1,150,9.08,0
 AR Ramjani,PBKS,8,1,180,8.0,0
 M Prasidh Krishna,MI,8,1,192,10.0,0
 DR Sams,GT,9,1,192,10.22,0
