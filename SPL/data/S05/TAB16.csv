@@ -1,9 +1,9 @@
 striker,batting_team,num_innings,50+_scores,runs,strike_rate,100+_scores
 MP Stoinis,KKR,12,5,584,171.76,2
-KL Rahul,SRH,13,5,539,160.9,1
+KL Rahul,SRH,14,5,549,160.06,1
 RD Gaikwad,GT,14,5,509,172.54,0
 PD Salt,RCB,13,5,480,167.25,0
-S Dube,RR,13,4,581,167.92,0
+S Dube,RR,14,4,592,166.29,0
 V Kohli,DC,13,4,480,190.48,0
 B Sai Sudharsan,CSK,13,4,448,140.0,0
 Priyansh Arya,SRH,13,4,438,165.28,0
@@ -12,29 +12,29 @@ Tilak Varma,CSK,13,3,467,159.93,0
 Abhishek Sharma,MI,14,3,443,172.37,0
 Tarang Gohel,DC,13,3,437,190.83,0
 Shubman Gill,LSG,12,3,424,182.76,0
-GJ Maxwell,RR,12,3,405,172.34,0
+GJ Maxwell,RR,13,3,409,172.57,0
 C Green,KKR,14,3,401,176.65,1
 RG Sharma,KKR,14,3,392,178.18,0
 SA Yadav,DC,13,3,390,174.11,1
+YBK Jaiswal,RR,13,3,372,182.35,0
 JM Sharma,RCB,13,3,369,170.05,0
-YBK Jaiswal,RR,12,3,359,182.23,0
+P Simran Singh,SRH,14,3,303,155.38,0
 H Klaasen,CSK,7,3,199,143.17,0
+VR Iyer,SRH,14,2,408,180.53,1
 Naman Dhir,GT,14,2,405,160.08,0
 SP Narine,KKR,14,2,400,158.73,0
-VR Iyer,SRH,13,2,384,181.99,1
 FH Allen,PBKS,13,2,349,168.6,0
 CH Gayle,CSK,13,2,343,161.03,0
 Abdul Samad,LSG,11,2,332,143.1,0
+BJ McMullen,RR,11,2,316,157.21,0
 Urvil Patel,MI,6,2,295,161.2,1
-BJ McMullen,RR,10,2,292,166.86,0
 SV Samson,GT,11,2,271,153.98,0
 Shashank Singh,PBKS,13,2,240,163.27,0
-P Simran Singh,SRH,13,2,228,147.1,0
 KA Pollard,CSK,7,2,212,173.77,0
 N Pooran,MI,14,1,357,168.4,0
 R Parag,GT,13,1,352,172.55,0
+Aniket Verma,RR,14,1,341,167.16,0
 JP Inglis,GT,13,1,333,156.34,0
-Aniket Verma,RR,13,1,330,171.88,0
 Smaran Ravichandran,PBKS,13,1,313,147.64,0
 N Sindhu,DC,11,1,308,158.76,0
 JC Buttler,LSG,12,1,298,150.51,0
@@ -48,7 +48,7 @@ PWH de Silva,RCB,8,1,191,196.91,0
 MW Short,MI,7,1,185,146.83,0
 Atharva Taide,MI,5,1,175,160.55,0
 RK Singh,MI,9,1,172,179.17,0
-MR Marsh,SRH,5,1,159,151.43,0
+MR Marsh,SRH,6,1,162,150.0,0
 GF Linde,GT,7,1,157,158.59,0
 T Banton,MI,6,1,137,161.18,0
 Chirag Jani,PBKS,7,1,131,174.67,0
