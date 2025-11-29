@@ -1,12 +1,12 @@
 striker,batting_team,num_innings,50+_scores,runs,strike_rate,100+_scores
 RD Gaikwad,GT,15,6,603,171.31,0
 MP Stoinis,KKR,12,5,584,171.76,2
-KL Rahul,SRH,14,5,549,160.06,1
+KL Rahul,SRH,15,5,581,158.74,1
 PD Salt,RCB,13,5,480,167.25,0
 S Dube,RR,14,4,592,166.29,0
 V Kohli,DC,13,4,480,190.48,0
 B Sai Sudharsan,CSK,13,4,448,140.0,0
-Priyansh Arya,SRH,13,4,438,165.28,0
+Priyansh Arya,SRH,14,4,446,163.97,0
 WG Jacks,LSG,13,4,435,153.17,0
 Tilak Varma,CSK,13,3,467,159.93,0
 Naman Dhir,GT,15,3,467,157.77,0
@@ -19,28 +19,28 @@ RG Sharma,KKR,14,3,392,178.18,0
 SA Yadav,DC,13,3,390,174.11,1
 YBK Jaiswal,RR,13,3,372,182.35,0
 JM Sharma,RCB,13,3,369,170.05,0
-P Simran Singh,SRH,14,3,303,155.38,0
+P Simran Singh,SRH,15,3,319,152.63,0
 H Klaasen,CSK,7,3,199,143.17,0
-VR Iyer,SRH,14,2,408,180.53,1
+VR Iyer,SRH,15,2,435,179.01,1
 SP Narine,KKR,14,2,400,158.73,0
-FH Allen,PBKS,13,2,349,168.6,0
+FH Allen,PBKS,14,2,388,165.81,0
 CH Gayle,CSK,13,2,343,161.03,0
 Abdul Samad,LSG,12,2,335,140.76,0
 BJ McMullen,RR,11,2,316,157.21,0
 SV Samson,GT,12,2,313,159.69,0
 Urvil Patel,MI,6,2,295,161.2,1
-Shashank Singh,PBKS,13,2,240,163.27,0
+Shashank Singh,PBKS,14,2,240,162.16,0
 KA Pollard,CSK,7,2,212,173.77,0
 N Pooran,MI,14,1,357,168.4,0
 R Parag,GT,13,1,352,172.55,0
 Aniket Verma,RR,14,1,341,167.16,0
+N Rana,PBKS,12,1,337,163.59,1
+Smaran Ravichandran,PBKS,14,1,335,145.02,0
 JP Inglis,GT,13,1,333,156.34,0
-Smaran Ravichandran,PBKS,13,1,313,147.64,0
 N Sindhu,DC,11,1,308,158.76,0
 JC Buttler,LSG,13,1,304,149.75,0
-N Rana,PBKS,11,1,294,165.17,1
 Hassan Nawaz,RCB,10,1,283,152.97,0
-TH David,PBKS,10,1,273,168.52,0
+TH David,PBKS,11,1,273,167.48,0
 Abishek Porel,DC,8,1,237,165.73,0
 Sameer Rizvi,LSG,12,1,222,183.47,0
 RM Patidar,KKR,14,1,199,119.88,0
@@ -53,7 +53,7 @@ MR Marsh,SRH,6,1,162,150.0,0
 GF Linde,GT,7,1,157,158.59,0
 T Banton,MI,6,1,137,161.18,0
 Chirag Jani,PBKS,7,1,131,174.67,0
-TP Ura,PBKS,4,1,122,184.85,0
+TP Ura,PBKS,5,1,122,179.41,0
 AHT Donald,RCB,2,1,108,183.05,0
 RR Rossouw,SRH,5,1,84,137.7,0
 RD Rickelton,LSG,5,1,79,127.42,0
