@@ -1,9 +1,9 @@
 bowler,bowling_team,num_innings,3+_wkts,balls,economy,5+_wkts
-PWH de Silva,RCB,9,4,204,9.12,0
-JC Archer,LSG,10,4,218,11.01,0
+JC Archer,LSG,11,5,242,10.54,0
+NT Ellis,SRH,8,4,180,9.2,0
+PWH de Silva,RCB,10,4,222,9.22,0
 MA Starc,KKR,11,4,232,10.42,0
 AK Markram,DC,5,3,95,9.03,0
-NT Ellis,SRH,7,3,156,8.77,0
 M Pathirana,RCB,9,3,179,9.75,0
 Abrar Ahmed,GT,9,3,201,9.88,0
 KA Maharaj,SRH,9,3,202,8.47,0
@@ -12,8 +12,8 @@ Shashank Singh,PBKS,15,3,256,9.54,0
 S Dube,RR,14,3,260,9.72,0
 A Nagwaswalla,RR,11,3,263,8.58,0
 Karan Lal,RR,12,3,274,9.61,0
-Arshdeep Singh,LSG,13,3,289,8.84,1
 B Kumar,KKR,14,3,307,10.28,0
+Arshdeep Singh,LSG,14,3,313,8.91,1
 SH Johnson,GT,4,2,89,6.74,0
 Ravi Teja,RCB,5,2,99,6.24,0
 Ashutosh Sharma,RCB,6,2,102,8.24,0
@@ -25,27 +25,29 @@ Imran Tahir,CSK,7,2,168,9.18,0
 CV Varun,PBKS,8,2,174,9.31,0
 JR Hazlewood,RR,8,2,192,9.81,0
 Mohammad Ghazanfar,SRH,9,2,198,8.82,0
-YS Chahal,RCB,9,2,199,10.37,0
+YS Chahal,RCB,10,2,218,9.99,0
 Shaheen Shah Afridi,MI,10,2,221,9.31,1
 MJ Owen,DC,12,2,230,11.19,0
-WG Jacks,LSG,14,2,233,8.78,1
 LI Meriwala,DC,10,2,240,8.57,0
+WG Jacks,LSG,15,2,251,8.82,1
 HH Pandya,MI,13,2,276,9.39,1
 Tanush Kotian,CSK,14,2,330,8.8,0
 SS Ghosh,MI,2,1,42,12.57,0
 Atharva Ankolekar,MI,2,1,43,13.67,0
-Ashwin Das,LSG,2,1,48,8.25,0
-LS Livingstone,KKR,4,1,72,7.25,0
-Naveen-ul-Haq,SRH,3,1,72,9.17,0
+H Ssenyondo,LSG,2,1,48,8.0,0
+Ashwin Das,LSG,3,1,72,8.58,0
 Shahbaz Ahmed,GT,3,1,72,10.5,0
 S Lamichhane,DC,4,1,77,7.56,0
-R Ashwin,KKR,4,1,80,10.35,0
 V Nigam,MI,4,1,84,7.64,0
+LS Livingstone,KKR,5,1,86,7.26,0
 Akash Vasisht,DC,4,1,90,8.07,0
+Naveen-ul-Haq,SRH,4,1,96,9.06,0
+R Ashwin,KKR,5,1,98,10.29,0
 BA Stokes,SRH,5,1,108,12.22,0
 Avesh Khan,GT,5,1,114,9.68,0
-Khrievitso Kense,RCB,6,1,144,8.46,0
+YK Pathan,KKR,11,1,156,8.0,1
 SL Malinga,PBKS,7,1,157,9.59,0
+Khrievitso Kense,RCB,7,1,168,8.68,0
 Shadab Khan,SRH,8,1,174,8.17,0
 Fazalhaq Farooqi,CSK,8,1,192,7.66,0
 AR Ramjani,PBKS,9,1,204,7.97,0
