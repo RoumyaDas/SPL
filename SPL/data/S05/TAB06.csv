@@ -1,10 +1,10 @@
 player,team,points
 S Dube,RR,1902
 PWH de Silva,RCB,1406
+C Green,KKR,1353
 WG Jacks,LSG,1344
 Shashank Singh,PBKS,1300
-C Green,KKR,1189
-SP Narine,KKR,1141
+SP Narine,KKR,1177
 Tanush Kotian,CSK,1091
 CH Gayle,CSK,1079
 Arshdeep Singh,LSG,1076
@@ -13,21 +13,22 @@ RD Gaikwad,GT,999
 JC Archer,LSG,991
 A Nagwaswalla,RR,977
 MJ Owen,DC,942
+B Kumar,KKR,923
 PD Salt,RCB,913
+MP Stoinis,KKR,898
 Tilak Varma,CSK,895
 KL Rahul,SRH,885
-MP Stoinis,KKR,883
-B Kumar,KKR,814
 HH Pandya,MI,812
 V Kohli,DC,807
-Abhishek Sharma,MI,786
+Abhishek Sharma,MI,803
 GF Linde,GT,778
+MA Starc,KKR,770
 Karan Lal,RR,766
 SA Yadav,DC,763
 Tarang Gohel,DC,761
 M Pathirana,RCB,732
 GJ Maxwell,RR,711
-Shaheen Shah Afridi,MI,705
+Shaheen Shah Afridi,MI,707
 BJ McMullen,RR,705
 JJ Bumrah,DC,702
 YBK Jaiswal,RR,691
@@ -36,19 +37,18 @@ B Sai Sudharsan,CSK,682
 LI Meriwala,DC,680
 Shadab Khan,SRH,677
 VR Iyer,SRH,677
-MA Starc,KKR,659
 Abdul Samad,LSG,658
 KA Maharaj,SRH,648
 Naman Dhir,GT,648
 JM Sharma,RCB,645
+TA Boult,MI,643
 FH Allen,PBKS,639
 Priyansh Arya,SRH,639
-YK Pathan,KKR,625
+YK Pathan,KKR,639
+RG Sharma,KKR,632
 Fazalhaq Farooqi,CSK,624
-TA Boult,MI,606
 AK Markram,DC,606
 P Simran Singh,SRH,605
-RG Sharma,KKR,597
 R Parag,GT,590
 D Brevis,RR,582
 NT Ellis,SRH,574
@@ -66,10 +66,10 @@ JR Hazlewood,RR,539
 Aniket Verma,RR,538
 Abrar Ahmed,GT,533
 HJ Manenti,PBKS,523
+N Pooran,MI,505
 AR Patel,CSK,503
-N Pooran,MI,501
-Urvil Patel,MI,487
 KA Pollard,CSK,486
+Urvil Patel,MI,481
 SV Samson,GT,478
 JDS Neesham,DC,469
 Ashutosh Sharma,RCB,460
@@ -79,30 +79,31 @@ Noor Ahmad,MI,445
 SS Iyer,LSG,440
 Hassan Nawaz,RCB,436
 Yuvraj Singh,CSK,434
-Imran Tahir,CSK,433
 JC Buttler,LSG,433
+Imran Tahir,CSK,433
 Naseem Shah,LSG,432
 SL Malinga,PBKS,428
 Washington Sundar,PBKS,421
-MG Erasmus,RCB,410
 Kuldeep Yadav,SRH,410
+MG Erasmus,RCB,410
 TH David,PBKS,405
 SH Johnson,GT,403
 R Shepherd,GT,400
 Abishek Porel,DC,381
 Mohammad Nabi,LSG,380
+MW Short,MI,377
 Ravi Teja,RCB,374
 Suryansh Shedge,CSK,364
 GD Phillips,GT,356
 LS Livingstone,KKR,349
 T Natarajan,CSK,347
 Chirag Jani,PBKS,345
+RK Singh,MI,341
+RM Patidar,KKR,340
 Khrievitso Kense,RCB,339
 V Suryavanshi,PBKS,324
-RM Patidar,KKR,319
 Akash Vasisht,DC,309
-RK Singh,MI,308
-MW Short,MI,303
+M Prasidh Krishna,MI,306
 V Nigam,MI,302
 T Stubbs,CSK,295
 H Klaasen,CSK,294
@@ -111,18 +112,18 @@ MR Marsh,SRH,289
 DAJ Bracewell,RCB,285
 Shahbaz Ahmed,GT,279
 Karan Shinde,RCB,278
-Sikandar Raza,MI,274
 R Ashwin,KKR,274
+Sikandar Raza,MI,274
 Atharva Taide,MI,268
 JJ Smit,PBKS,263
 JN Loftie-Eaton,RR,262
-M Prasidh Krishna,MI,261
 Azmatullah Omarzai,LSG,261
-RD Rickelton,LSG,258
 Naveen-ul-Haq,SRH,258
+RD Rickelton,LSG,258
 Jay Gohil,LSG,256
 TP Ura,PBKS,245
 R Sai Kishore,MI,244
+SS Ghosh,MI,239
 Arshad Khan,RR,230
 Anmolpreet Singh,CSK,225
 MP Yadav,PBKS,223
@@ -142,23 +143,23 @@ Pulkit Narang,RR,188
 Babar Azam,KKR,182
 TM Head,GT,177
 M Siddharth,CSK,176
+N Wadhera,KKR,172
 Shashwat Rawat,PBKS,172
 AHT Donald,RCB,169
 Harsh Dubey,RCB,168
 PHKD Mendis,SRH,165
 Mayank Dagar,LSG,160
-N Wadhera,KKR,159
+KK Ahmed,RR,154
 BA Stokes,SRH,154
 Ashwin Das,LSG,154
-KK Ahmed,RR,154
 Dhruv Jurel,RCB,152
 RA Jadeja,RCB,147
+VG Arora,KKR,146
 RA Bawa,SRH,146
 Atharva Ankolekar,MI,143
-Shakib Al Hasan,PBKS,137
 DJ Bravo,RCB,137
+Shakib Al Hasan,PBKS,137
 D Ferreira,DC,136
-SS Ghosh,MI,134
 PJ Cummins,RR,130
 PP Shaw,RCB,125
 Ishan Kishan,MI,125
@@ -180,27 +181,27 @@ Gaurav Puri,CSK,85
 RS Hangargekar,MI,81
 TU Deshpande,MI,79
 S Gopal,GT,77
-VG Arora,KKR,76
-SN Thakur,GT,74
 Akshay Karnewar,PBKS,74
+SN Thakur,GT,74
 MS Dhoni,CSK,73
 Waqar Salamkheil,PBKS,66
 Ravi Bishnoi,LSG,65
+SR Hain,MI,62
 A Zampa,RR,60
 Faisal Khan,LSG,59
 DP Conway,PBKS,56
 Utkarsh Singh,PBKS,56
 Sumit Kumar,DC,50
 NA Rathva,RCB,47
-RR Pant,GT,45
 A Sheth,DC,45
+RR Pant,GT,45
 KC Cariappa,MI,44
 Yuvraj Chaudhary,GT,43
 Rasikh Salam,GT,41
 Jaskaran Singh,KKR,39
 Harshit Rana,KKR,37
-Swapnil Singh,CSK,36
 Yash Thakur,PBKS,36
+Swapnil Singh,CSK,36
 SN Netravalkar,CSK,33
 Ashwani Kumar,RR,33
 I Sharma,RCB,32
@@ -220,16 +221,15 @@ K Kartikeya,GT,5
 SPD Smith,CSK,5
 D Padikkal,KKR,4
 RK Bhui,KKR,3
-SR Hain,MI,2
-BM Duckett,RCB,0
-Ishaan Gadekar,RCB,0
+HV Patel,RR,0
 SS Agarwal,DC,0
 JG Bethell,LSG,0
-HV Patel,RR,0
+BM Duckett,RCB,0
+Ishaan Gadekar,RCB,0
 Samarth Vyas,KKR,-1
 M Markande,SRH,-2
-Harpreet Brar,RR,-3
 F du Plessis,GT,-3
-Kartik Sharma,SRH,-6
+Harpreet Brar,RR,-3
 R Powell,KKR,-6
+Kartik Sharma,SRH,-6
 Vishnu Vinod,RR,-9
