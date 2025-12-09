@@ -1568,7 +1568,7 @@ document.addEventListener("DOMContentLoaded", () => {
     '221125_CSK_RCB.txt','221125_SRH_MI.txt','241125_PBKS_LSG.txt','241125_KKR_SRH.txt','241125_RR_MI.txt','241125_TcRps.txt','241125_DC_SRH.txt','251125_GT_KKR.txt','251125_RR_RCB.txt','251125_DC_CSK.txt','271125_SRH_GT.txt','281125_RCB_MI.txt',
     '281125_KKR_CSK.txt','291125_SRH_RR.txt','291125_GT_LSG.txt','301125_SRH_PBKS.txt','301125_DC_KKR.txt','301125_RCB_GT.txt','301125_CSK_RR.txt','301125_MI_LSG.txt','011225_DC_MI.txt','011225_CSK_PBKS.txt','021225_LSG_SRH.txt','021225_RCB_KKR.txt',
     '031225_RR_DC.txt','041225_CSK_SRH.txt','041225_RCB_PBKS.txt','041225_KKR_LSG.txt','051225_RR_GT.txt','061225_PBKS_DC.txt','061225_MI_CSK.txt','061225_LSG_RCB.txt','071225_PBKS_RR.txt','071225_GT_DC.txt','071225_LSG_CSK.txt','071225_SRH_RCB.txt',
-    '071225_MI_KKR.txt'
+    '071225_MI_KKR.txt','091225_Q1.txt'
     ]
     ;
 

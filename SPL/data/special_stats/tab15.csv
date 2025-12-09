@@ -2,7 +2,7 @@ bowler,num_innings,runs,balls,wkts,bowl_sr,bowl_eco,team
 S Lamichhane,5,151,95,15,6.33,9.54,DC
 JC Archer,5,177,120,14,8.57,8.85,LSG
 Arshdeep Singh,5,192,120,13,9.23,9.6,LSG
-Karan Lal,5,160,106,12,8.83,9.06,RR
+Karan Lal,5,149,100,13,7.69,8.94,RR
 NT Ellis,5,167,104,11,9.45,9.63,SRH
 YS Chahal,5,164,106,11,9.64,9.28,RCB
 MA Starc,5,149,88,10,8.8,10.16,KKR
@@ -22,7 +22,7 @@ A Zampa,5,160,103,9,11.44,9.32,RR
 SL Malinga,5,195,109,8,13.62,10.73,PBKS
 GF Linde,5,199,117,8,14.62,10.21,GT
 Harshit Rana,5,159,108,8,13.5,8.83,KKR
-S Dube,5,138,84,8,10.5,9.86,RR
+S Dube,5,179,96,8,12.0,11.19,RR
 Suryansh Shedge,5,211,120,8,15.0,10.55,CSK
 Shadab Khan,5,111,96,8,12.0,6.94,SRH
 PJ Cummins,5,189,120,8,15.0,9.45,
@@ -57,7 +57,7 @@ Yudhvir Singh,5,162,96,6,16.0,10.12,RCB
 H Ssenyondo,3,104,72,6,12.0,8.67,LSG
 MP Yadav,5,185,109,6,18.17,10.18,PBKS
 Mohammad Ghazanfar,5,167,102,6,17.0,9.82,SRH
-A Nagwaswalla,5,221,119,6,19.83,11.14,RR
+A Nagwaswalla,5,206,119,6,19.83,10.39,RR
 Jagjit Singh,5,156,98,6,16.33,9.55,SRH
 Khrievitso Kense,5,152,120,5,24.0,7.6,RCB
 Kuldeep Yadav,5,142,111,5,22.2,7.68,SRH
@@ -93,7 +93,7 @@ JG Bethell,5,122,66,4,16.5,11.09,LSG
 D Wiese,5,155,96,4,24.0,9.69,GT
 M Prasidh Krishna,5,248,120,4,30.0,12.4,MI
 JJ Smit,5,174,114,4,28.5,9.16,PBKS
-JR Hazlewood,5,181,120,4,30.0,9.05,RR
+JR Hazlewood,5,205,120,4,30.0,10.25,RR
 KH Pandya,5,165,114,4,28.5,8.68,SRH
 DR Sams,5,180,108,4,27.0,10.0,GT
 YK Pathan,4,86,60,3,20.0,8.6,KKR
@@ -124,7 +124,7 @@ BJ McMullen,5,133,84,2,42.0,9.5,RR
 VG Arora,5,167,114,2,57.0,8.79,KKR
 Yuvraj Singh,4,156,78,2,39.0,12.0,CSK
 AD Russell,5,220,120,2,60.0,11.0,DC
-Arshad Khan,5,152,72,2,36.0,12.67,RR
+Arshad Khan,5,141,66,2,33.0,12.82,RR
 GJ Maxwell,5,134,78,2,39.0,10.31,RR
 HV Patel,5,167,102,2,51.0,9.82,RR
 Rasikh Salam,5,227,114,2,57.0,11.95,GT
@@ -135,6 +135,7 @@ KK Ahmed,5,191,108,2,54.0,10.61,RR
 JDS Neesham,5,242,120,2,60.0,12.1,DC
 I Sharma,3,118,66,2,33.0,10.73,RCB
 MW Short,2,27,12,2,6.0,13.5,MI
+JN Loftie-Eaton,2,56,37,2,18.5,9.08,RR
 N Sindhu,2,77,30,1,30.0,15.4,DC
 Naman Dhir,2,35,30,1,30.0,7.0,GT
 Khushdil Shah,1,40,24,1,24.0,10.0,DC
@@ -145,7 +146,6 @@ Akash Madhwal,2,74,40,1,40.0,11.1,CSK
 Akshay Karnewar,1,10,12,1,12.0,5.0,PBKS
 MG Erasmus,1,21,18,1,18.0,7.0,RCB
 Ashwin Das,2,68,48,1,48.0,8.5,LSG
-JN Loftie-Eaton,1,15,13,1,13.0,6.92,RR
 TM Head,2,28,24,1,24.0,7.0,GT
 RD Chahar,5,138,78,1,78.0,10.62,CSK
 CH Morris,5,230,114,1,114.0,12.11,DC

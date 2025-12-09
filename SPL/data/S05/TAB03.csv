@@ -1,11 +1,11 @@
-team,matches_played,points,#Won,#Lost,NRR,Recent Form (Latest first)
-RR,18,24,12,6,0.392,wWWll
-LSG,18,20,10,8,0.1801,LWwWw
-SRH,18,20,10,8,-0.0098,LllWW
-RCB,18,19,9,8,0.3491,wlWLW
-CSK,18,19,8,7,-0.2278,wwWLW
-PBKS,18,18,9,9,0.1138,LWlwl
-DC,18,16,7,9,0.343,wllLW
-GT,18,16,8,10,-0.4483,LllWl
-KKR,18,14,7,11,-0.1981,wLwlL
-MI,18,14,7,11,-0.4567,LLwLl
+team,matches_played,points,#Won,#Lost,NRR,Recent Form (Latest first)_x,Recent Form (Latest first)_y
+RR,18,24,12,6,0.392,wWWll,WwWWl
+LSG,18,20,10,8,0.1801,LWwWw,lLWwW
+SRH,18,20,10,8,-0.0098,LllWW,LllWW
+RCB,18,19,9,8,0.3491,wlWLW,wlWLW
+CSK,18,19,8,7,-0.2278,wwWLW,wwWLW
+PBKS,18,18,9,9,0.1138,LWlwl,LWlwl
+DC,18,16,7,9,0.343,wllLW,wllLW
+GT,18,16,8,10,-0.4483,LllWl,LllWl
+KKR,18,14,7,11,-0.1981,wLwlL,wLwlL
+MI,18,14,7,11,-0.4567,LLwLl,LLwLl

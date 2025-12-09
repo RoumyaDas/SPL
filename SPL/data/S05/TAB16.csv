@@ -1,49 +1,50 @@
 striker,batting_team,num_innings,50+_scores,runs,strike_rate,100+_scores
 RD Gaikwad,GT,18,7,758,169.2,0
 PD Salt,RCB,18,7,696,165.32,0
-Shubman Gill,LSG,18,6,722,188.02,1
+Shubman Gill,LSG,19,6,771,190.37,1
 KL Rahul,SRH,18,6,688,157.08,1
-S Dube,RR,18,5,789,165.06,0
+S Dube,RR,19,5,813,166.6,0
 Tilak Varma,CSK,18,5,680,160.76,0
 MP Stoinis,KKR,16,5,623,162.66,2
 B Sai Sudharsan,CSK,18,5,564,134.93,0
-WG Jacks,LSG,18,5,535,150.28,0
+WG Jacks,LSG,19,5,541,150.28,0
 V Kohli,DC,17,4,613,173.16,0
+YBK Jaiswal,RR,18,4,590,182.66,0
 Tarang Gohel,DC,18,4,560,188.55,0
 SA Yadav,DC,18,4,559,172.0,1
 C Green,KKR,18,4,538,175.82,1
-GJ Maxwell,RR,17,4,520,178.08,0
+GJ Maxwell,RR,18,4,525,175.59,0
+BJ McMullen,RR,16,4,514,159.13,0
 Priyansh Arya,SRH,16,4,500,161.29,0
 JM Sharma,RCB,17,4,486,166.44,0
-BJ McMullen,RR,15,4,482,160.13,0
 P Simran Singh,SRH,18,4,449,158.66,0
 CH Gayle,CSK,18,3,559,166.37,1
 Abhishek Sharma,MI,18,3,541,175.08,0
 SP Narine,KKR,18,3,530,157.27,0
-YBK Jaiswal,RR,17,3,511,178.67,0
 Naman Dhir,GT,18,3,503,160.19,0
 FH Allen,PBKS,18,3,479,167.48,0
 RG Sharma,KKR,18,3,466,176.52,0
+Sameer Rizvi,LSG,18,3,465,193.75,0
 PWH de Silva,RCB,12,3,442,188.89,0
 Shashank Singh,PBKS,18,3,338,160.95,0
 H Klaasen,CSK,8,3,233,137.87,0
 VR Iyer,SRH,18,2,502,173.1,1
 Smaran Ravichandran,PBKS,17,2,449,145.78,0
 JP Inglis,GT,16,2,437,160.66,0
+Abdul Samad,LSG,15,2,427,143.77,0
 N Sindhu,DC,16,2,422,162.93,0
 N Rana,PBKS,14,2,420,166.67,1
-Sameer Rizvi,LSG,17,2,397,194.61,0
-Abdul Samad,LSG,14,2,395,141.58,0
 SV Samson,GT,15,2,376,154.1,0
 Urvil Patel,MI,9,2,369,163.27,1
-SS Iyer,LSG,15,2,346,157.99,0
+SS Iyer,LSG,16,2,346,157.27,0
 KA Pollard,CSK,12,2,329,174.07,0
 Abishek Porel,DC,10,2,290,171.6,0
 MW Short,MI,10,2,290,162.01,0
-RD Rickelton,LSG,10,2,220,139.24,0
-Jay Gohil,LSG,5,2,185,194.74,0
+RD Rickelton,LSG,11,2,245,137.64,0
+Jay Gohil,LSG,6,2,191,196.91,0
 TP Ura,PBKS,7,2,177,182.47,0
-Aniket Verma,RR,17,1,399,168.35,0
+AB de Villiers,RR,6,2,142,167.06,0
+Aniket Verma,RR,18,1,424,171.66,0
 N Pooran,MI,18,1,396,160.98,0
 R Parag,GT,16,1,385,165.95,0
 Hassan Nawaz,RCB,14,1,330,160.19,0
@@ -64,4 +65,3 @@ T Banton,MI,7,1,143,160.67,0
 AHT Donald,RCB,6,1,135,177.63,0
 PP Shaw,RCB,4,1,101,126.25,0
 RR Rossouw,SRH,6,1,86,136.51,0
-AB de Villiers,RR,5,1,77,150.98,0
