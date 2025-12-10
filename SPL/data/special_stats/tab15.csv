@@ -1,35 +1,35 @@
 bowler,num_innings,runs,balls,wkts,bowl_sr,bowl_eco,team
 S Lamichhane,5,151,95,15,6.33,9.54,DC
 JC Archer,5,177,120,14,8.57,8.85,LSG
-Arshdeep Singh,5,192,120,13,9.23,9.6,LSG
 Karan Lal,5,149,100,13,7.69,8.94,RR
+Arshdeep Singh,5,192,120,13,9.23,9.6,LSG
+YS Chahal,5,152,112,11,10.18,8.14,RCB
 NT Ellis,5,167,104,11,9.45,9.63,SRH
-YS Chahal,5,164,106,11,9.64,9.28,RCB
 MA Starc,5,149,88,10,8.8,10.16,KKR
-M Pathirana,5,128,89,10,8.9,8.63,RCB
 B Kumar,5,136,91,10,9.1,8.97,KKR
 Fazalhaq Farooqi,5,148,110,10,11.0,8.07,CSK
 KA Maharaj,5,153,101,10,10.1,9.09,SRH
 Ashwani Kumar,5,189,96,10,9.6,11.81,RR
-R Ashwin,5,140,98,9,10.89,8.57,KKR
-SH Johnson,5,153,110,9,12.22,8.35,GT
 SS Ghosh,5,159,86,9,9.56,11.09,MI
-Ravi Teja,5,93,93,9,10.33,6.0,RCB
+Ravi Teja,5,107,99,9,11.0,6.48,RCB
+SH Johnson,5,153,110,9,12.22,8.35,GT
 Abrar Ahmed,5,188,109,9,12.11,10.35,GT
 HJ Manenti,5,157,98,9,10.89,9.61,PBKS
 AK Markram,5,174,114,9,12.67,9.16,DC
 A Zampa,5,160,103,9,11.44,9.32,RR
-SL Malinga,5,195,109,8,13.62,10.73,PBKS
-GF Linde,5,199,117,8,14.62,10.21,GT
-Harshit Rana,5,159,108,8,13.5,8.83,KKR
-S Dube,5,179,96,8,12.0,11.19,RR
+R Ashwin,5,140,98,9,10.89,8.57,KKR
 Suryansh Shedge,5,211,120,8,15.0,10.55,CSK
+SL Malinga,5,195,109,8,13.62,10.73,PBKS
+Harshit Rana,5,159,108,8,13.5,8.83,KKR
+GF Linde,5,199,117,8,14.62,10.21,GT
+S Dube,5,179,96,8,12.0,11.19,RR
 Shadab Khan,5,111,96,8,12.0,6.94,SRH
 PJ Cummins,5,189,120,8,15.0,9.45,
-Ashutosh Sharma,5,86,78,8,9.75,6.62,RCB
+Ashutosh Sharma,5,95,84,8,10.5,6.79,RCB
 AR Ramjani,5,160,120,8,15.0,8.0,PBKS
+M Pathirana,5,145,91,8,11.38,9.56,RCB
 Imran Tahir,5,196,120,7,17.14,9.8,CSK
-PWH de Silva,5,157,108,7,15.43,8.72,RCB
+PWH de Silva,5,150,96,7,13.71,9.38,RCB
 Shahbaz Ahmed,5,217,114,7,16.29,11.42,GT
 Mohsin Khan,5,191,112,7,16.0,10.23,LSG
 LI Meriwala,5,160,120,7,17.14,8.0,DC
@@ -144,7 +144,7 @@ KA Pollard,3,33,24,1,24.0,8.25,CSK
 Waqar Salamkheil,1,60,24,1,24.0,15.0,PBKS
 Akash Madhwal,2,74,40,1,40.0,11.1,CSK
 Akshay Karnewar,1,10,12,1,12.0,5.0,PBKS
-MG Erasmus,1,21,18,1,18.0,7.0,RCB
+MG Erasmus,2,47,36,1,36.0,7.83,RCB
 Ashwin Das,2,68,48,1,48.0,8.5,LSG
 TM Head,2,28,24,1,24.0,7.0,GT
 RD Chahar,5,138,78,1,78.0,10.62,CSK
