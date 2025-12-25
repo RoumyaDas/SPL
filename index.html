@@ -31,7 +31,8 @@
     The rivalries have grown sharper, the stakes higher, and the comebacks more jaw-dropping than ever.<br>
     After GT's dominant triumph in Season 3, the stakes have never been higher.<br>
     Two past champions locked heads in S04 finale, with RR taking the crown for the 2nd time!<br>
-    As Season 5 approaches, will they defend their crown, or will a new challenger emerge from the chaos?<br>
+    There were new Giants in the town, as LSG defied a roaring RR in the finale to clinch their first title in S05.<br>
+    As Season 6 approaches, will they defend their crown, or will a new challenger emerge from the chaos?<br>
     Buckle up — SPL is just getting started.
   </p>
   
@@ -138,6 +139,7 @@
       <button class="season-tab" data-season="03">03</button>
       <button class="season-tab" data-season="04">04</button>
       <button class="season-tab" data-season="05">05</button>
+      <button class="season-tab" data-season="06">06</button>
     </div>
   
     <!-- Season 01 -->
@@ -228,14 +230,12 @@
 
     <!-- Season 05 -->
     <div id="season-05" class="season-content">
-      <div class="tabs" id="season-05-subtabs">
-        <button class="season-subtab active" data-subtab="flow-05">Flow</button>
+      <div class="tabs" id="season-04-subtabs">
+        <button class="season-subtab" data-subtab="flow-05">Flow</button>
         <button class="season-subtab" data-subtab="scorecard-05">Scorecard</button>
-        <button class="season-subtab" data-subtab="mbd-05">Match Breakdown</button>
-        <button class="season-subtab" data-subtab="impact-05">Impact</button>
+        
 
       </div>
-  
 
       <div id="flow-05" class="season-subtab-content">
         <pre id="flow-content-05"></pre>
@@ -244,11 +244,31 @@
         <div id="scorecard-table-05"></div>
       </div>
 
-      <div id="mbd-05" class="season-subtab-content">
-        <pre id="mbd-content-05"></pre>
+    </div>
+
+    <!-- Season 05 -->
+    <div id="season-06" class="season-content">
+      <div class="tabs" id="season-06-subtabs">
+        <button class="season-subtab active" data-subtab="flow-06">Flow</button>
+        <button class="season-subtab" data-subtab="scorecard-06">Scorecard</button>
+        <button class="season-subtab" data-subtab="mbd-06">Match Breakdown</button>
+        <button class="season-subtab" data-subtab="impact-06">Impact</button>
+
+      </div>
+  
+
+      <div id="flow-06" class="season-subtab-content">
+        <pre id="flow-content-06"></pre>
+      </div>
+      <div id="scorecard-06" class="season-subtab-content">
+        <div id="scorecard-table-06"></div>
       </div>
 
-      <div id="impact-05" class="season-subtab-content">
+      <div id="mbd-06" class="season-subtab-content">
+        <pre id="mbd-content-06"></pre>
+      </div>
+
+      <div id="impact-06" class="season-subtab-content">
         <label for="impactMatchSelect">Select Match:</label>
         <select id="impactMatchSelect"></select>
         <pre id="impactContent" class="subtab-pre-content">Loading impact points...</pre>
@@ -537,14 +557,16 @@ document.getElementById("careerSearch").addEventListener("input", () => {
     <button class="schedule-subtab" data-tab="sch-s02">S02</button>
     <button class="schedule-subtab" data-tab="sch-s03">S03</button>
     <button class="schedule-subtab" data-tab="sch-s04">S04</button>
-    <button class="schedule-subtab active" data-tab="sch-s05">S05</button>
+    <button class="schedule-subtab" data-tab="sch-s05">S05</button>
+    <button class="schedule-subtab active" data-tab="sch-s06">S06</button>
   </div>
 
   <div id="sch-s01" class="schedule-table-container"></div>
   <div id="sch-s02" class="schedule-table-container"></div>
   <div id="sch-s03" class="schedule-table-container"></div>
   <div id="sch-s04" class="schedule-table-container"></div>
-  <div id="sch-s05" class="schedule-table-container active"></div>
+  <div id="sch-s05" class="schedule-table-container"></div>
+  <div id="sch-s06" class="schedule-table-container active"></div>
 </div>
 
 <!-- Combined Points Table stuff-->
