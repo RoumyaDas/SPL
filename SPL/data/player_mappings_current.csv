@@ -1,17 +1,17 @@
-Name,Func_Name,Team_S05
+Name,Func_Name,Team_S06
 Tilak Varma,Tilak Varma,CSK
 Axar Patel,AR Patel,CSK
 Suryansh Shedge,Suryansh Shedge,CSK
 Kieron Pollard,KA Pollard,CSK
 SuryaKumar Yadav,SA Yadav,DC
-Virat Kohli,V Kohli,DC
+Virat Kohli,V Kohli,RR
 Andre Russell,AD Russell,DC
 Nishant Sindhu,N Sindhu,DC
-Abhishek Porel,Abishek Porel,DC
+Abhishek Porel,Abishek Porel,RR
 Urvil Patel,Urvil Patel,MI
 Sanju Samson,SV Samson,GT
 Naman Dhir,Naman Dhir,GT
-Rasikh Dar,Rasikh Salam,GT
+Rasikh Dar,Rasikh Salam,MI
 Josh Inglis,JP Inglis,GT
 Riyan Parag,R Parag,GT
 Mitchell Starc,MA Starc,KKR
@@ -36,7 +36,7 @@ Matheesha Pathirana,M Pathirana,RCB
 Ashutosh Sharma,Ashutosh Sharma,RCB
 Jitesh Sharma,JM Sharma,RCB
 Yashasvi Jaiswal,YBK Jaiswal,RR
-Glenn Maxwell,GJ Maxwell,RR
+Glenn Maxwell,GJ Maxwell,DC
 Shivam Dube,S Dube,RR
 Josh Hazlewood,JR Hazlewood,RR
 Aniket Verma,Aniket Verma,RR
@@ -44,105 +44,82 @@ KL Rahul,KL Rahul,SRH
 Venkatesh Iyer,VR Iyer,SRH
 Kuldeep Yadav,Kuldeep Yadav,SRH
 Prabhsimran Singh,P Simran Singh,SRH
-Priyansh Arya,Priyansh Arya,SRH
+Priyansh Arya,Priyansh Arya,RCB
 Ruturaj Gaikwad,RD Gaikwad,GT
 Sunil Narine,SP Narine,KKR
-Travis Head,TM Head,GT
-Trent Boult,TA Boult,MI
+Travis Head,TM Head,RR
 T. Natarajan,T Natarajan,CSK
-Adam Zampa,A Zampa,RR
+Adam Zampa,A Zampa,SRH
 Jos Buttler,JC Buttler,LSG
 Aiden Markram,AK Markram,DC
 Ajinkya Rahane,AM Rahane,MI
-Sai Sudharsan,B Sai Sudharsan,CSK
+Sai Sudharsan,B Sai Sudharsan,PBKS
 Will Jacks,WG Jacks,LSG
 Fazalhaq Farooqi,Fazalhaq Farooqi,CSK
 Jofra Archer,JC Archer,LSG
 Chris Gayle,CH Gayle,CSK
 Lasith Malinga,SL Malinga,PBKS
-Chris Morris,CH Morris,DC
 AB De Villiers,AB de Villiers,RR
-Dwayne Bravo,DJ Bravo,RCB
 Yusuf Pathan,YK Pathan,KKR
 Rinku Singh,RK Singh,MI
 Devon Conway,DP Conway,PBKS
-Prithvi Shaw,PP Shaw,RCB
 Jake Fraser-Mcgurk,J Fraser-McGurk,KKR
 Rajat Patidar,RM Patidar,KKR
 Rilee Rossouw,RR Rossouw,SRH
 Finn Allen,FH Allen,PBKS
-Prasidh Krishna,M Prasidh Krishna,MI
 Mayank Yadav,MP Yadav,PBKS
 Heinrich Klaasen,H Klaasen,CSK
 Ishan Kishan,Ishan Kishan,MI
-Dhruv Jurel,Dhruv Jurel,RCB
 Tristan Stubbs,T Stubbs,CSK
 Ryan Rickelton,RD Rickelton,LSG
-Ravindra Jadeja,RA Jadeja,RCB
-Ben Stokes,BA Stokes,
 Cameron Green,C Green,KKR
 Nitish Kumar Reddy,Nithish Kumar Reddy,SRH
-Krunal Pandya,KH Pandya,SRH
+Krunal Pandya,KH Pandya,RR
 Nitish Rana,N Rana,PBKS
-Shakib Al Hasan,Shakib Al Hasan,
+Shakib Al Hasan,Shakib Al Hasan,PBKS
 Mohammad Nabi,Mohammad Nabi,LSG
-Kamindu Mendis,PHKD Mendis,SRH
+Kamindu Mendis,PHKD Mendis,DC
 Noor Ahmad,Noor Ahmad,MI
-Ravi Bishnoi,Ravi Bishnoi,LSG
+Ravi Bishnoi,Ravi Bishnoi,GT
 Allah Ghazanfar,Mohammad Ghazanfar,SRH
 Yuzvendra Chahal,YS Chahal,RCB
 Vaibhav Arora,VG Arora,KKR
-Mohsin Khan,Mohsin Khan,LSG
 Jagjit Singh,Jagjit Singh,SRH
 Sayan Ghosh,SS Ghosh,MI
 Tanush Kotian,Tanush Kotian,CSK
-Mohd. Arshad Khan,Arshad Khan,RR
-Rajvardhan Hangargekar,RS Hangargekar,MI
-Akash Vasisht,Akash Vasisht,DC
+Mohd. Arshad Khan,Arshad Khan,DC
+Akash Vasisht,Akash Vasisht,SRH
 Anmolpreet Singh,Anmolpreet Singh,CSK
 Atharva Taide,Atharva Taide,MI
 Nehal Wadhera,N Wadhera,KKR
-Mahipal Lomror,MK Lomror,SRH
 Jay Gohil,Jay Gohil,LSG
 Suyash Sharma,Suyash Sharma,KKR
 M. Siddharth,M Siddharth,CSK
-Mayank Markande,M Markande,SRH
-Harvik Desai,HS Desai,PBKS
 Kartik Sharma,Kartik Sharma,SRH
 Rishabh Pant,RR Pant,GT
 Dinesh Karthik,KD Karthik,RR
-Pat Cummins,PJ Cummins,
-Harshal Patel,HV Patel,RR
+Harshal Patel,HV Patel,GT
 Nathan Ellis,NT Ellis,SRH
 Chetan Sakariya,C Sakariya,SRH
-Mohammad Shami,Mohammed Shami,GT
+Mohammad Shami,Mohammed Shami,LSG
 Devdutt Padikkal,D Padikkal,KKR
 Rohit Sharma,RG Sharma,KKR
 Glenn Phillips,GD Phillips,GT
-Rovman Powell,R Powell,
-Harry Brook,HC Brook,
-Jacob Bethell,JG Bethell,LSG
+Jacob Bethell,JG Bethell,RR
 Sikandar Raza,Sikandar Raza,MI
 Ramandeep Singh,Ramandeep Singh,LSG
 Brandon McMullen,BJ McMullen,RR
 Romario Shepherd,R Shepherd,GT
-Dipendra Airee,DS Airee,RCB
-Doug Bracewell,DAJ Bracewell,RCB
-Shahbaz Ahamad,Shahbaz Ahmed,GT
 R. Sai Kishore,R Sai Kishore,MI
 Raj Angad Bawa,RA Bawa,SRH
 Gahlaut Rahul Singh,Rahul Singh,RCB
-Akash Madhwal,Akash Madhwal,CSK
 Yudhvir Charak,Yudhvir Singh,RCB
-Rahul Tewatia,R Tewatia,KKR
-Sanvir Singh,Sanvir Singh,LSG
-Vipraj Nigam,V Nigam,MI
+Sanvir Singh,Sanvir Singh,GT
+Vipraj Nigam,V Nigam,GT
 Atharva Ankolekar,Atharva Ankolekar,MI
-Kumar Kartikeya Singh,K Kartikeya,GT
 Shams Mulani,SZ Mulani,LSG
 Hritik Shokeen,HR Shokeen,RR
 Vignesh Puthur,V Puthur,DC
-Zeeshan Ansari,Zeeshan Ansari,SRH
 Mitchell Marsh,MR Marsh,SRH
 Mitchell Santner,MJ Santner,KKR
 Mitch Owen,MJ Owen,DC
@@ -150,21 +127,19 @@ Matthew Short,MW Short,MI
 JJ Smit,JJ Smit,PBKS
 David Wiese,D Wiese,GT
 Rahul Tripathi,RA Tripathi,KKR
-Dewald Brevis,D Brevis,RR
-Mayank Agarawal,MA Agarwal,RR
+Dewald Brevis,D Brevis,LSG
+Mayank Agarawal,MA Agarwal,DC
 Wayne Madsen,WL Madsen,MI
 Steve Smith,SPD Smith,CSK
-Shardul Thakur,SN Thakur,GT
 Tushar Deshpande,TU Deshpande,MI
 Avesh Khan,Avesh Khan,GT
 Naveen Ul Haq,Naveen-ul-Haq,SRH
 Harshit Rana,Harshit Rana,KKR
 Anshul Kamboj,A Kamboj,GT
-Kuldeep Sen,KR Sen,LSG
 Imran Tahir,Imran Tahir,CSK
 Keshav Maharaj,KA Maharaj,SRH
 Sandeep Lamichhane,S Lamichhane,DC
-Chirag Jani,Chirag Jani,PBKS
+Chirag Jani,Chirag Jani,CSK
 Karan Lal,Karan Lal,RR
 Arshin Kulkarni,AA Kulkarni,GT
 Harsh Dubey,Harsh Dubey,RCB
@@ -172,64 +147,39 @@ Khrievitso Kense,Khrievitso Kense,RCB
 Utkarsh Singh,Utkarsh Singh,PBKS
 Atit Sheth,A Sheth,DC
 K.C Cariappa,KC Cariappa,MI
-Shubham Dubey,SB Dubey,PBKS
-Ishaan Gadekar,Ishaan Gadekar,RCB
+Ishaan Gadekar,Ishaan Gadekar,SRH
 Apoorv Wankhade,AV Wankhade,CSK
-Gaurav Puri,Gaurav Puri,CSK
 Vidwath Kaverappa,V Kaverappa,PBKS
-Darshan Nalkande,DG Nalkande,SRH
 Ashwani Kumar,Ashwani Kumar,RR
 Lukman Meriwala,LI Meriwala,DC
-Shubham Agrawal,SS Agarwal,DC
-Shivank Vashisht,Shivank Vashisth,RCB
 Luvnith Sisodia,LUVNITH SISODIA,LSG
-Michael Pepper,MS Pepper,RR
 Tarang Gohel,Tarang Gohel,DC
-Rashid Khan,Rashid Khan,RR
-Sandeep Sharma,Sandeep Sharma,LSG
 Liam Livingstone,LS Livingstone,KKR
-Ben Duckett,BM Duckett,
+Ben Duckett,BM Duckett,SRH
 Marcus Stoinis,MP Stoinis,KKR
 Shaheen Afridi,Shaheen Shah Afridi,MI
-Azmatullah Omarzai,Azmatullah Omarzai,LSG
-Babar Azam,Babar Azam,KKR
-Deepak Hooda,DJ Hooda,DC
+Spencer Johnson,SH Johnson,GT
 Syed Khaleel Ahmed,KK Ahmed,RR
 Ayush Mhatre,A Mhatre,KKR
-Yuvraj Chaudhary,Yuvraj Chaudhary,GT
 Wanindu Hasaranga,PWH de Silva,RCB
 Shadab khan,Shadab Khan,SRH
 T. Ravi teja,Ravi Teja,RCB
-Yash Thakur,Yash Thakur,PBKS
+Swapnil Singh,Swapnil Singh,CSK
 Mayank Dagar,Mayank Dagar,LSG
-Harpreet Brar,Harpreet Brar,RR
-Harry Menanti,HJ Manenti,PBKS
+Harpreet Brar,Harpreet Brar,GT
+Harry Menanti,HJ Manenti,CSK
+Jan Nicol loftie-Eaton,JN Loftie-Eaton,RR
 Alpesh Ramjani,AR Ramjani,PBKS
-Gerhard Erasmus,MG Erasmus,RCB
 Khushdil Shah,Khushdil Shah,DC
-Jimmy Neesham,JDS Neesham,DC
-Daniel Sams,DR Sams,GT
-Faf Du Plessis,F du Plessis,
+Jaskaran Singh,Jaskaran Singh,KKR
 Tim David,TH David,PBKS
 Hassan Nawaz,Hassan Nawaz,RCB
-Muhammad Waseem,Waseem Muhammad,
-Faisal Khan,Faisal Khan,
-Ishant Sharma,I Sharma,RCB
 Naseem Shah,Naseem Shah,LSG
-Ihsanullah,Ihsanullah,DC
-Saurabh Netravalkar,SN Netravalkar,CSK
 Ravichandaran Ashwin,R Ashwin,KKR
 Rahul Chahar,RD Chahar,CSK
 George Linde,GF Linde,GT
-Abrar Ahmed,Abrar Ahmed,GT
-Sumit Kumar,Sumit Kumar,DC
-Hemang Patel,Hemang Patel,GT
-Abhimanyusingh Rajput,AV Rajput,MI
-Pratham Singh,Pratham Singh,DC
-Shivalik Sharma,SS Sharma,PBKS
+Henry Ssenyondo,H Ssenyondo,LSG
 Harsh Tyagi,Harsh Tyagi,SRH
-Ninad Rathva,NA Rathva,RCB
-Arslan Khan,Arslan Khan,RR
 Ricky Bhui,RK Bhui,KKR
 Samarth Vyas,Samarth Vyas,KKR
 Karan Shinde,Karan Shinde,RCB
@@ -237,25 +187,65 @@ Shashwat Rawat,Shashwat Rawat,PBKS
 CV Stephen,Cheepurapalli Stephen,CSK
 Ashwin Das,Ashwin Das,LSG
 Arzan Nagwaswalla,A Nagwaswalla,RR
-Kulwant Khejroliya,K Khejroliya,DC
-Felix Bernado Alemao,Felix Alemao,
 Yuvraj Singh,Yuvraj Singh,CSK
 Shreyas Gopal,S Gopal,GT
 Pulkit Narang,Pulkit Narang,RR
-Satyajeet Bachhav,Satyajeet Bachhav,DC
 Akshay Karnewar,Akshay Karnewar,PBKS
 MSD,MS Dhoni,CSK
-Anuj Rawat,Anuj Rawat,CSK
-Vishnu Vinod,Vishnu Vinod,RR
 Tony Ura,TP Ura,PBKS
 Tom Banton,T Banton,MI
-Spencer Johnson,SH Johnson,GT
-Jan Nicol loftie-Eaton,JN Loftie-Eaton,RR
-Sam Hain,SR Hain,MI
-Henry Ssenyondo,H Ssenyondo,LSG
-Donovan Ferreira,D Ferreira,DC
-Aneurin Donald,AHT Donald,RCB
-Swapnil Singh,Swapnil Singh,CSK
-Jaskaran Singh,Jaskaran Singh,KKR
-Marco Jansen,M Jansen,SRH
-Waqar Salamkheil,Waqar Salamkheil,PBKS
+Prithvi Shaw,PP Shaw,MI
+Rovman Powell,R Powell,LSG
+Ravindra Jadeja,RA Jadeja,SRH
+Trent Boult,TA Boult,MI
+Prasidh Krishna,M Prasidh Krishna,RR
+Shahbaz Ahamad,Shahbaz Ahmed,LSG
+Yash Thakur,Yash Thakur,MI
+Harvik Desai,HS Desai,CSK
+Salil Arora,Salil Arora,RCB
+Anukul Roy,AS Roy,GT
+Kumar Kartikeya Singh,K Kartikeya,LSG
+Zeeshan Ansari,Zeeshan Ansari,SRH
+Ben Stokes,BA Stokes,RR
+Kaleem Sana,Kaleem Sana,RCB
+Gaurav Puri,Gaurav Puri,LSG
+Ankit Kumar,Ankit Kumar,RR
+Aman Rao,Aman Rao,DC
+Tripuresh Singh,Tripuresh Singh,RCB
+Ninad Rathva,NA Rathva,RR
+Samant Jakhar,Samant Jakhar,DC
+Calvin Savage,CP Savage,DC
+Prashant Veer,Prashant Veer,DC
+VS Halambage,VS Halambage,RCB
+Ethan Brookes,EA Brookes,RCB
+Donovan Ferreira,D Ferreira,GT
+Usman Khan,Usman Khan,CSK
+Tanay Thyagarajan,Tanay Thyagarajan,RCB
+Mohit Redkar,Mohit Redkar,CSK
+Chama Milind,CV Milind,SRH
+Tushar Raheja,Tushar Raheja,SRH
+Tejasvi Dahiya,Tejasvi Dahiya,LSG
+Baba Indrajith,B Indrajith,RCB
+Mukul Chaudhary,Mukul Choudhary,DC
+Ravi Singh,Ravi Singh,KKR
+Yashvardhan Dalal,Yashvardhan Dalal,DC
+Roelof van der Merwe,RE van der Merwe,GT
+Sarfaraz Khan,SN Khan,RCB
+Dan Lawrence,DW Lawrence,DC
+Faisal Khan,Faisal Khan,RCB
+Mark Adair,MR Adair,RR
+David Payne,DA Payne,PBKS
+Jacob Duffy,JA Duffy,GT
+Rishad Hossain,Rishad Hossain,RR
+Sanjay Yadav,R Sanjay Yadav,PBKS
+James Coles,JM Coles,MI
+Sonu Yadav,Sonu Yadav,PBKS
+Raj Limbani,Raj Limbani,DC
+Maramreddy Reddy,M Hemanth Reddy,PBKS
+Harnoor Pannu,Harnoor Singh,PBKS
+Sakibul Gani,Sakibul Gani,RCB
+Ashok Sharma,Ashok Sharma,DC
+Shivam Shukla,Shivam Shukla,MI
+Kumar Kushagra,Kumar Kushagra,GT
+Rakep Patel,RR Patel,RCB
+Andries Gous,AGS Gous,KKR
