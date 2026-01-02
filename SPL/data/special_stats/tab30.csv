@@ -10,16 +10,15 @@ Shubman Gill,10,383,190,8,47.88,201.58,Elite,LSG
 SA Yadav,10,380,213,7,54.29,178.4,Elite,DC
 S Dube,10,376,238,8,47.0,157.98,Long_Hauler,RR
 Urvil Patel,10,371,228,9,41.22,162.72,Long_Hauler,MI
-CH Gayle,10,364,205,10,36.4,177.56,Elite,CSK
-V Kohli,10,363,217,9,40.33,167.28,Elite,RR
+CH Gayle,10,364,205,10,36.4,177.56,Hitter,CSK
+V Kohli,10,363,217,9,40.33,167.28,Long_Hauler,RR
 Atharva Taide,10,356,224,7,50.86,158.93,Long_Hauler,MI
 P Simran Singh,10,353,217,10,35.3,162.67,Balanced,SRH
 Abhishek Sharma,10,346,193,10,34.6,179.27,Hitter,MI
 RD Rickelton,10,346,236,10,34.6,146.61,Balanced,LSG
 MR Marsh,10,341,222,9,37.89,153.6,Long_Hauler,SRH
 N Rana,10,339,196,9,37.67,172.96,Elite,PBKS
-JP Inglis,10,328,207,9,36.44,158.45,Long_Hauler,GT
-F du Plessis,10,317,236,10,31.7,134.32,Balanced,
+JP Inglis,10,328,207,9,36.44,158.45,Balanced,GT
 BJ McMullen,10,306,195,8,38.25,156.92,Long_Hauler,RR
 YBK Jaiswal,10,301,168,6,50.17,179.17,Elite,RR
 KA Pollard,10,299,172,6,49.83,173.84,Elite,CSK
@@ -29,7 +28,7 @@ Abishek Porel,10,290,169,7,41.43,171.6,Elite,RR
 MW Short,10,290,179,10,29.0,162.01,Balanced,MI
 SP Narine,10,284,188,10,28.4,151.06,Balanced,KKR
 WL Madsen,10,278,181,5,55.6,153.59,Long_Hauler,MI
-FH Allen,10,276,165,10,27.6,167.27,Hitter,PBKS
+FH Allen,10,276,165,10,27.6,167.27,Balanced,PBKS
 Priyansh Arya,10,271,174,10,27.1,155.75,Balanced,RCB
 Smaran Ravichandran,10,271,192,9,30.11,141.15,Balanced,PBKS
 WG Jacks,10,270,183,9,30.0,147.54,Balanced,LSG
@@ -56,11 +55,9 @@ KD Karthik,10,218,129,7,31.14,168.99,Hitter,RR
 T Stubbs,10,215,128,7,30.71,167.97,Hitter,CSK
 Jay Gohil,10,214,113,7,30.57,189.38,Hitter,LSG
 JC Buttler,10,214,143,7,30.57,149.65,Balanced,LSG
-Ishaan Gadekar,10,213,144,10,21.3,147.92,Balanced,SRH
-Dhruv Jurel,10,213,158,10,21.3,134.81,Poor,
+Ishaan Gadekar,10,213,144,10,21.3,147.92,Poor,SRH
 JG Bethell,10,210,163,6,35.0,128.83,Balanced,RR
 TM Head,10,209,145,8,26.12,144.14,Poor,RR
-HC Brook,10,206,153,8,25.75,134.64,Poor,
 D Padikkal,10,205,146,8,25.62,140.41,Poor,KKR
 Chirag Jani,10,198,117,9,22.0,169.23,Hitter,CSK
 D Brevis,10,198,140,6,33.0,141.43,Balanced,LSG
@@ -72,15 +69,13 @@ BM Duckett,10,185,136,10,18.5,136.03,Poor,SRH
 RR Pant,10,184,125,7,26.29,147.2,Poor,GT
 DP Conway,10,184,156,8,23.0,117.95,Poor,PBKS
 RM Patidar,10,182,153,8,22.75,118.95,Poor,KKR
-VR Iyer,10,179,119,7,25.57,150.42,Balanced,SRH
+VR Iyer,10,179,119,7,25.57,150.42,Poor,SRH
 Nithish Kumar Reddy,10,179,127,4,44.75,140.94,Long_Hauler,SRH
 Abdul Samad,10,177,120,7,25.29,147.5,Poor,LSG
 GF Linde,10,166,110,4,41.5,150.91,Long_Hauler,GT
 AK Markram,10,165,113,8,20.62,146.02,Poor,DC
 Rahul Singh,10,165,118,9,18.33,139.83,Poor,RCB
-Babar Azam,10,165,148,10,16.5,111.49,Poor,
 LS Livingstone,10,161,141,8,20.12,114.18,Poor,KKR
 MS Dhoni,10,157,103,7,22.43,152.43,Balanced,CSK
 N Pooran,10,153,107,9,17.0,142.99,Poor,MI
-MK Lomror,10,143,111,7,20.43,128.83,Poor,
 RA Tripathi,10,135,101,8,16.88,133.66,Poor,KKR
