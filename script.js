@@ -516,7 +516,7 @@ const tabSpecialstatsnames = [
   "Opposition-wise Bowler","Opposition-wise Batter",
   "Indi. Impact list (>=50 pts)", "Bowl-type wise Team", "Team-v-Team record", 
   "Franchise-wise Batters (500+ runs, 2+ teams)", "Franchise-wise Bowlers (20+ wkts, 2+ teams)",
-  "Overall Batting Form Class (10 inns, 100+ balls)", "Overall Bowling Form Class (10 inns, 20+ overs)"
+  "Overall Batting Form Class (10 inns, 75+ balls)", "Overall Bowling Form Class (10 inns, 20+ overs)"
   // fill with whatever name you want
 ];
 
