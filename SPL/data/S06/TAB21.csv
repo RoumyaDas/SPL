@@ -1,1 +1,10 @@
-match_id,innings,runs,balls,SR,final_score,total_balls,wkts,post_1st_strike_score,exit_pt_score,win,PP_perf,Middle_perf,Death_perf,batter,team
+match_id,innings,runs,balls,SR,post_1st_strike_score,exit_pt_score,win,PP_perf,Middle_perf,Death_perf,batter,team,team_total
+S06M005,2,118,59,200.0,1-0(0.1),205-4(18.5),1,39 off 17,64 off 31,15 off 11,PD Salt,RCB,5-225 (120)
+S06M002,1,113,50,226.0,6-0(0.3),198-3(17.1),1,44 off 17,46 off 25,23 off 8,FH Allen,PBKS,4-224 (120)
+S06M002,2,92,49,187.76,1-0(0.1),187-6(18.3),0,8 off 8,49 off 26,35 off 15,GJ Maxwell,DC,6-205 (120)
+S06M004,1,88,48,183.33,1-0(0.1),169-3(17.0),1,20 off 16,48 off 24,20 off 8,CH Gayle,CSK,4-195 (120)
+S06M004,1,72,45,160.0,1-1(1.0),141-2(14.4),1,32 off 16,40 off 29,,Usman Khan,CSK,4-195 (120)
+S06M001,2,69,43,160.47,24-2(2.3),151-6(16.5),0,8 off 10,53 off 29,8 off 4,Aniket Verma,RR,10-186 (120)
+S06M005,1,55,33,166.67,11-0(1.0),111-2(10.2),0,29 off 19,26 off 14,,Urvil Patel,MI,3-223 (120)
+S06M003,2,55,41,134.15,14-0(1.1),123-2(14.2),0,27 off 18,28 off 23,,BM Duckett,SRH,10-158 (119)
+S06M002,1,51,34,150.0,4-0(0.1),138-1(11.2),1,29 off 19,22 off 15,,V Suryavanshi,PBKS,4-224 (120)
