@@ -191,7 +191,7 @@ D Wiese,middle,356,230,9,9.29,25.56,GT
 SL Malinga,top,249,164,9,9.11,18.22,PBKS
 Shakib Al Hasan,tail,71,69,9,6.17,7.67,PBKS
 SH Johnson,middle,221,135,9,9.82,15.0,GT
-DS Airee,top,204,131,9,9.34,14.56,
+DS Airee,top,204,131,9,9.34,14.56,CSK
 Tanush Kotian,tail,79,70,9,6.77,7.78,CSK
 Suryansh Shedge,tail,254,164,9,9.29,18.22,CSK
 Abdul Samad,middle,211,140,9,9.04,15.56,LSG
@@ -365,14 +365,14 @@ Mohammed Siraj,tail,12,16,3,4.5,5.33,
 R Shepherd,tail,50,54,3,5.56,18.0,GT
 Shivank Vashisth,top,77,48,3,9.62,16.0,
 Zeeshan Ansari,middle,99,60,3,9.9,20.0,SRH
-Usman Khan (2),tail,22,15,3,8.8,5.0,CSK
+Usman Khan (2),tail,22,15,3,8.8,5.0,
 R Sai Kishore,tail,46,40,3,6.9,13.33,MI
-KC Cariappa,top,46,34,3,8.12,11.33,MI
+KC Cariappa,top,46,34,3,8.12,11.33,
 LH Ferguson,top,123,77,3,9.58,25.67,
 D Wiese,tail,47,30,3,9.4,10.0,GT
 A Nortje,tail,63,42,3,9.0,14.0,
 Pulkit Narang,top,105,70,3,9.0,23.33,RR
-DS Airee,middle,143,91,3,9.43,30.33,
+DS Airee,middle,143,91,3,9.43,30.33,CSK
 D Brevis,middle,110,82,3,8.05,27.33,LSG
 G Coetzee,top,100,77,3,7.79,25.67,
 RS Hangargekar,top,223,131,3,10.21,43.67,
@@ -396,7 +396,7 @@ C Sakariya,tail,58,40,2,8.7,20.0,SRH
 CH Gayle,top,41,28,2,8.79,14.0,CSK
 Mustafizur Rahman,tail,20,23,2,5.22,11.5,
 D Ferreira,top,36,34,2,6.35,17.0,GT
-DS Airee,tail,38,24,2,9.5,12.0,
+DS Airee,tail,38,24,2,9.5,12.0,CSK
 DL Chahar,middle,107,63,2,10.19,31.5,
 Mukesh Kumar,middle,195,107,2,10.93,53.5,
 Mohsin Khan,tail,24,14,2,10.29,7.0,
@@ -424,7 +424,7 @@ A Sheth,middle,61,54,2,6.78,27.0,DC
 MM Sharma,top,100,55,2,10.91,27.5,
 Abid Mushtaq,top,179,91,2,11.8,45.5,
 Abid Mushtaq,middle,72,53,2,8.15,26.5,
-KC Cariappa,middle,42,32,2,7.88,16.0,MI
+KC Cariappa,middle,42,32,2,7.88,16.0,
 KA Pollard,top,92,47,2,11.74,23.5,CSK
 TU Deshpande,top,218,116,2,11.28,58.0,MI
 AA Kulkarni,middle,37,28,2,7.93,14.0,GT
@@ -496,8 +496,8 @@ AS Roy,middle,232,122,1,11.41,122.0,GT
 Umran Malik,tail,28,19,1,8.84,19.0,
 SN Netravalkar,tail,41,18,1,13.67,18.0,
 Shivam Shukla,top,15,11,1,8.18,11.0,MI
-Usman Khan (2),middle,28,15,1,11.2,15.0,CSK
-Usman Khan (2),top,9,6,1,9.0,6.0,CSK
+Usman Khan (2),middle,28,15,1,11.2,15.0,
+Usman Khan (2),top,9,6,1,9.0,6.0,
 DJ Bravo,top,77,55,1,8.4,55.0,
 DJ Bravo,tail,13,16,1,4.88,16.0,
 A Badoni,middle,43,25,1,10.32,25.0,
@@ -573,7 +573,7 @@ JM Coles,top,7,7,0,6.0,inf,MI
 Yudhvir Singh,tail,3,4,0,4.5,inf,RCB
 KA Pollard,tail,11,7,0,9.43,inf,CSK
 A Mishra,top,103,65,0,9.51,inf,
-KC Cariappa,tail,8,6,0,8.0,inf,MI
+KC Cariappa,tail,8,6,0,8.0,inf,
 LA Dawson,tail,7,3,0,14.0,inf,
 LA Dawson,middle,50,20,0,15.0,inf,
 KK Ahmed,tail,45,19,0,14.21,inf,RR

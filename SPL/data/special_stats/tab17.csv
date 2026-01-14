@@ -246,7 +246,7 @@ position,runs,balls,fours,sixes,dots,striker,outs,SR,Bat_avg,bpb,dot_%,Curr_Tm
 8,122,79,10,7,35,Suryansh Shedge,11,154.43,11.09,4.65,44.3,CSK
 7,121,76,10,4,25,Azmatullah Omarzai,4,159.21,30.25,5.43,32.89,
 4,120,79,12,5,30,Anmolpreet Singh,5,151.9,24.0,4.65,37.97,CSK
-7,120,82,14,3,31,DS Airee,7,146.34,17.14,4.82,37.8,
+7,120,82,14,3,31,DS Airee,7,146.34,17.14,4.82,37.8,CSK
 7,119,56,8,9,18,RA Bawa,5,212.5,23.8,3.29,32.14,SRH
 8,119,66,10,5,22,Akash Vasisht,4,180.3,29.75,4.4,33.33,SRH
 3,118,66,13,5,19,Rahul Singh,5,178.79,23.6,3.67,28.79,RCB
@@ -400,7 +400,7 @@ position,runs,balls,fours,sixes,dots,striker,outs,SR,Bat_avg,bpb,dot_%,Curr_Tm
 3,48,35,7,1,18,Akash Vasisht,3,137.14,16.0,4.38,51.43,SRH
 5,48,28,6,3,14,S Dube,2,171.43,24.0,3.11,50.0,RR
 7,47,38,3,3,18,Shakib Al Hasan,2,123.68,23.5,6.33,47.37,PBKS
-6,47,32,6,1,12,DS Airee,3,146.88,15.67,4.57,37.5,
+6,47,32,6,1,12,DS Airee,3,146.88,15.67,4.57,37.5,CSK
 1,47,45,1,1,11,Dhruv Jurel,1,104.44,47.0,22.5,24.44,
 6,46,26,2,4,10,DJ Hooda,2,176.92,23.0,4.33,38.46,
 8,46,30,2,3,8,Sikandar Raza,2,153.33,23.0,6.0,26.67,MI
@@ -613,7 +613,7 @@ position,runs,balls,fours,sixes,dots,striker,outs,SR,Bat_avg,bpb,dot_%,Curr_Tm
 6,1,2,0,0,1,Jay Gohil,1,50.0,1.0,inf,50.0,LSG
 8,1,2,0,0,1,R Parag,1,50.0,1.0,inf,50.0,GT
 2,0,1,0,0,1,S Dube,1,0.0,0.0,inf,100.0,RR
-8,0,1,0,0,1,DS Airee,1,0.0,0.0,inf,100.0,
+8,0,1,0,0,1,DS Airee,1,0.0,0.0,inf,100.0,CSK
 9,0,1,0,0,1,AR Patel,1,0.0,0.0,inf,100.0,CSK
 9,0,1,0,0,1,N Wadhera,1,0.0,0.0,inf,100.0,KKR
 2,0,1,0,0,1,MW Short,1,0.0,0.0,inf,100.0,MI

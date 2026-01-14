@@ -537,9 +537,9 @@ HH Pandya,SRH,72,44,2,36.0,163.64,MI
 B Sai Sudharsan,KKR,72,53,4,18.0,135.85,PBKS
 RG Sharma,SRH,72,64,2,36.0,112.5,KKR
 Nithish Kumar Reddy,MI,72,67,4,18.0,107.46,SRH
-Usman Khan (2),CSK,72,45,1,72.0,160.0,CSK
+Usman Khan (2),CSK,72,45,1,72.0,160.0,
 R Parag,LSG,71,40,0,,177.5,GT
-DS Airee,KKR,71,44,2,35.5,161.36,
+DS Airee,KKR,71,44,2,35.5,161.36,CSK
 JM Sharma,CSK,71,55,4,17.75,129.09,RCB
 Abdul Samad,RR,71,49,5,14.2,144.9,LSG
 Ashutosh Sharma,SRH,71,64,5,14.2,110.94,RCB
@@ -734,7 +734,7 @@ Washington Sundar,KKR,44,41,1,44.0,107.32,PBKS
 Abishek Porel,PBKS,44,28,3,14.67,157.14,RR
 Ramandeep Singh,DC,44,29,1,44.0,151.72,LSG
 D Brevis,SRH,44,35,1,44.0,125.71,LSG
-DS Airee,RCB,44,38,4,11.0,115.79,
+DS Airee,RCB,44,38,4,11.0,115.79,CSK
 Shashank Singh,KKR,44,29,3,14.67,151.72,PBKS
 AHT Donald,RR,44,30,2,22.0,146.67,
 Azmatullah Omarzai,GT,43,23,0,,186.96,
@@ -798,7 +798,7 @@ D Wiese,PBKS,38,15,0,,253.33,GT
 MK Lomror,GT,38,22,2,19.0,172.73,
 R Sai Kishore,CSK,38,25,2,19.0,152.0,MI
 Mohammad Nabi,GT,38,29,3,12.67,131.03,LSG
-DS Airee,RR,38,20,2,19.0,190.0,
+DS Airee,RR,38,20,2,19.0,190.0,CSK
 YK Pathan,DC,38,18,1,38.0,211.11,KKR
 AR Patel,GT,38,20,0,,190.0,CSK
 RA Jadeja,MI,38,27,3,12.67,140.74,SRH
@@ -1183,7 +1183,7 @@ PHKD Mendis,GT,15,5,1,15.0,300.0,DC
 RS Hangargekar,CSK,15,4,0,,375.0,
 Sikandar Raza,LSG,14,5,1,14.0,280.0,MI
 Shahbaz Ahmed,KKR,14,8,0,,175.0,LSG
-DS Airee,PBKS,14,11,1,14.0,127.27,
+DS Airee,PBKS,14,11,1,14.0,127.27,CSK
 DS Rathi,KKR,14,8,2,7.0,175.0,KKR
 Aryan Juyal,LSG,14,20,2,7.0,70.0,
 R Powell,RCB,14,9,1,14.0,155.56,LSG
@@ -1330,7 +1330,7 @@ AJ Tye,GT,10,8,0,,125.0,
 F du Plessis,GT,10,14,3,3.33,71.43,
 M Prasidh Krishna,KKR,10,9,1,10.0,111.11,RR
 M Theekshana,LSG,10,13,1,10.0,76.92,
-Usman Khan (2),RR,9,6,1,9.0,150.0,CSK
+Usman Khan (2),RR,9,6,1,9.0,150.0,
 V Puthur,MI,9,11,2,4.5,81.82,DC
 JC Archer,RCB,9,11,2,4.5,81.82,LSG
 Harshit Rana,KKR,9,7,1,9.0,128.57,KKR
@@ -1823,7 +1823,7 @@ JM Vince,RCB,0,2,1,0.0,0.0,
 Arshdeep Singh,CSK,0,1,0,,0.0,LSG
 DR Sams,MI,0,1,1,0.0,0.0,
 Tarang Gohel,RR,0,1,1,0.0,0.0,DC
-DS Airee,LSG,0,1,1,0.0,0.0,
+DS Airee,LSG,0,1,1,0.0,0.0,CSK
 Khushdil Shah,MI,0,2,1,0.0,0.0,DC
 WG Jacks,GT,0,1,1,0.0,0.0,LSG
 Shadab Khan,PBKS,0,1,1,0.0,0.0,SRH
@@ -1831,7 +1831,7 @@ R Shepherd,RCB,0,2,1,0.0,0.0,GT
 R Shepherd,SRH,0,2,1,0.0,0.0,GT
 Vishnu Vinod,PBKS,0,4,2,0.0,0.0,
 VS Halambage,RCB,0,6,1,0.0,0.0,RCB
-DS Airee,SRH,0,1,1,0.0,0.0,
+DS Airee,SRH,0,1,1,0.0,0.0,CSK
 Khrievitso Kense,PBKS,0,2,1,0.0,0.0,RCB
 Khrievitso Kense,GT,0,1,1,0.0,0.0,RCB
 RA Jadeja,PBKS,0,1,1,0.0,0.0,SRH
