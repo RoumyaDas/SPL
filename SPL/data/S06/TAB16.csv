@@ -1,24 +1,29 @@
 striker,batting_team,num_innings,50+_scores,runs,strike_rate,100+_scores
-BM Duckett,SRH,2,2,124,151.22,0
-PD Salt,RCB,2,1,153,201.32,1
-FH Allen,PBKS,2,1,131,207.94,1
-Abhishek Sharma,MI,2,1,126,193.85,1
-PWH de Silva,RCB,2,1,104,236.36,0
-CH Gayle,CSK,2,1,101,165.57,0
-AM Rahane,MI,2,1,95,172.73,0
-GJ Maxwell,DC,2,1,92,184.0,0
-Aniket Verma,RR,2,1,90,166.67,0
-Tilak Varma,CSK,2,1,88,176.0,0
-JC Buttler,LSG,2,1,83,150.91,0
-RG Sharma,KKR,2,1,81,176.09,0
-JM Sharma,RCB,2,1,81,172.34,0
+Abhishek Sharma,MI,3,2,192,200.0,1
+GJ Maxwell,DC,3,2,176,179.59,0
+BM Duckett,SRH,3,2,160,161.62,0
+PWH de Silva,RCB,3,2,158,235.82,0
+Aniket Verma,RR,3,2,145,181.25,0
+JC Buttler,LSG,3,2,138,156.82,0
+FH Allen,PBKS,3,1,164,200.0,1
+PD Salt,RCB,3,1,153,198.7,1
+AM Rahane,MI,3,1,135,156.98,0
+MJ Owen,DC,3,1,133,147.78,0
+CH Gayle,CSK,3,1,128,172.97,0
+Tilak Varma,CSK,3,1,118,171.01,0
+V Suryavanshi,PBKS,3,1,108,147.95,0
+TP Ura,PBKS,3,1,101,174.14,0
+Naman Dhir,GT,3,1,99,167.8,0
+JM Sharma,RCB,3,1,96,177.78,0
+Sameer Rizvi,LSG,3,1,95,202.13,0
+SV Samson,GT,3,1,95,163.79,0
+J Fraser-McGurk,KKR,2,1,93,145.31,0
+Atharva Taide,MI,1,1,91,202.22,0
+JP Inglis,GT,3,1,91,175.0,0
+P Simran Singh,SRH,3,1,86,215.0,0
+RG Sharma,KKR,3,1,83,169.39,0
 Usman Khan (2),CSK,2,1,81,158.82,0
-V Suryavanshi,PBKS,2,1,79,136.21,0
+Chirag Jani,CSK,2,1,75,170.45,0
 Urvil Patel,MI,2,1,74,164.44,0
-P Simran Singh,SRH,2,1,72,225.0,0
-TP Ura,PBKS,2,1,67,171.79,0
-GD Phillips,GT,2,1,66,212.9,0
-AB de Villiers,RR,1,1,63,203.23,0
-Naman Dhir,GT,2,1,60,166.67,0
-Sameer Rizvi,LSG,2,1,59,203.45,0
-J Fraser-McGurk,KKR,1,1,54,154.29,0
+GD Phillips,GT,3,1,66,200.0,0
+AB de Villiers,RR,2,1,64,193.94,0

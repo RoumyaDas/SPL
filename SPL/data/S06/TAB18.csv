@@ -1,33 +1,49 @@
 striker,batting_team,num_innings,strike_rate,runs,outs
-PWH de Silva,RCB,2,236.36,104,2
-P Simran Singh,SRH,2,225.0,72,2
-S Dube,RR,2,221.74,51,2
-R Powell,LSG,2,215.38,56,2
-GD Phillips,GT,2,212.9,66,2
-FH Allen,PBKS,2,207.94,131,2
-Sameer Rizvi,LSG,2,203.45,59,0
-AB de Villiers,RR,1,203.23,63,0
-PD Salt,RCB,2,201.32,153,2
-Abhishek Sharma,MI,2,193.85,126,1
-GJ Maxwell,DC,2,184.0,92,2
-Tarang Gohel,DC,2,183.33,66,2
-RG Sharma,KKR,2,176.09,81,1
-Tilak Varma,CSK,2,176.0,88,2
-TH David,PBKS,2,175.0,77,0
-AM Rahane,MI,2,172.73,95,1
-JM Sharma,RCB,2,172.34,81,1
-TP Ura,PBKS,2,171.79,67,2
-SP Narine,KKR,2,167.65,57,2
-Aniket Verma,RR,2,166.67,90,2
-Naman Dhir,GT,2,166.67,60,2
-CH Gayle,CSK,2,165.57,101,2
+PWH de Silva,RCB,3,235.82,158,3
+Kartik Sharma,SRH,3,232.14,65,2
+P Simran Singh,SRH,3,215.0,86,3
+R Powell,LSG,3,212.5,68,3
+Atharva Taide,MI,1,202.22,91,1
+Sameer Rizvi,LSG,3,202.13,95,0
+Abhishek Sharma,MI,3,200.0,192,2
+FH Allen,PBKS,3,200.0,164,3
+GD Phillips,GT,3,200.0,66,3
+PD Salt,RCB,3,198.7,153,3
+KA Pollard,CSK,3,195.0,78,2
+AB de Villiers,RR,2,193.94,64,0
+Tarang Gohel,DC,3,189.19,70,2
+SS Iyer,LSG,3,184.62,72,2
+Aniket Verma,RR,3,181.25,145,3
+WL Madsen,MI,2,181.25,58,0
+GJ Maxwell,DC,3,179.59,176,2
+JM Sharma,RCB,3,177.78,96,2
+JP Inglis,GT,3,175.0,91,2
+S Dube,RR,3,174.36,68,3
+TP Ura,PBKS,3,174.14,101,3
+CH Gayle,CSK,3,172.97,128,3
+YBK Jaiswal,RR,3,171.43,84,2
+TH David,PBKS,3,171.11,77,1
+SP Narine,KKR,3,171.05,65,3
+Tilak Varma,CSK,3,171.01,118,3
+Chirag Jani,CSK,2,170.45,75,1
+RG Sharma,KKR,3,169.39,83,2
+Naman Dhir,GT,3,167.8,99,3
+JG Bethell,RR,3,165.79,63,3
 Urvil Patel,MI,2,164.44,74,2
+SV Samson,GT,3,163.79,95,3
+BM Duckett,SRH,3,161.62,160,3
 Usman Khan (2),CSK,2,158.82,81,2
-J Fraser-McGurk,KKR,1,154.29,54,1
-BM Duckett,SRH,2,151.22,124,2
-JC Buttler,LSG,2,150.91,83,2
-MJ Owen,DC,2,150.0,54,2
-Shubman Gill,LSG,2,143.18,63,2
-V Suryavanshi,PBKS,2,136.21,79,2
-KL Rahul,SRH,2,130.77,85,2
-WG Jacks,LSG,2,130.77,68,2
+AM Rahane,MI,3,156.98,135,1
+JC Buttler,LSG,3,156.82,138,3
+R Parag,GT,3,151.11,68,3
+V Kohli,RR,3,151.11,68,3
+V Suryavanshi,PBKS,3,147.95,108,3
+MJ Owen,DC,3,147.78,133,3
+Shubman Gill,LSG,3,145.65,67,3
+J Fraser-McGurk,KKR,2,145.31,93,2
+V Nigam,GT,3,144.74,55,0
+MP Stoinis,KKR,2,143.59,56,2
+KL Rahul,SRH,3,143.48,132,3
+SA Yadav,DC,3,140.54,52,3
+T Stubbs,CSK,3,133.96,71,2
+WG Jacks,LSG,3,130.67,98,3
