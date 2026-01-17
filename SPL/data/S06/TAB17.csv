@@ -1,4 +1,5 @@
 bowler,bowling_team,num_innings,economy,balls,wkts
+Imran Tahir,CSK,1,4.0,24,4
 A Nagwaswalla,RR,2,6.5,48,3
 MP Yadav,PBKS,3,6.55,65,7
 AR Ramjani,PBKS,2,6.88,48,3
@@ -15,17 +16,19 @@ JN Loftie-Eaton,RR,2,8.0,42,2
 Shashank Singh,PBKS,4,8.08,72,5
 HV Patel,GT,2,8.12,48,3
 DA Payne,PBKS,3,8.25,72,2
+Shadab Khan,SRH,2,8.4,30,0
 R Ashwin,KKR,2,8.5,48,4
 Ravi Teja,RCB,2,8.5,48,3
 CV Milind,SRH,2,8.5,48,0
+A Zampa,SRH,1,8.5,24,2
 KH Pandya,RR,2,8.57,42,2
-Tanush Kotian,CSK,3,8.58,65,4
 R Powell,LSG,3,8.6,30,0
 D Ferreira,GT,2,8.75,24,0
 NT Ellis,SRH,3,8.83,72,4
 Akash Vasisht,SRH,2,8.83,36,2
 Harshit Rana,KKR,2,8.88,48,0
 SP Narine,KKR,3,8.9,60,6
+M Siddharth,CSK,1,9.0,24,3
 Mohammed Shami,LSG,1,9.0,24,2
 Mohit Redkar,CSK,1,9.0,24,2
 JA Duffy,GT,1,9.0,24,1
@@ -37,13 +40,15 @@ JR Hazlewood,RR,2,9.12,48,3
 Ravi Bishnoi,GT,3,9.13,71,3
 AS Roy,GT,2,9.14,42,1
 Arshdeep Singh,LSG,4,9.23,78,4
+Tanush Kotian,CSK,4,9.24,89,5
 CV Varun,PBKS,3,9.25,72,5
 Khrievitso Kense,RCB,1,9.25,24,1
 Shaheen Shah Afridi,MI,4,9.31,96,8
 Tanay Thyagarajan,RCB,2,9.38,48,3
+RA Jadeja,SRH,4,9.44,54,1
 H Ssenyondo,LSG,1,9.5,24,1
-VR Iyer,SRH,3,9.62,48,2
 JJ Bumrah,DC,2,9.62,48,1
+VR Iyer,SRH,4,9.64,66,3
 Noor Ahmad,MI,4,9.69,96,5
 S Dube,RR,4,9.75,96,5
 RR Patel,RCB,3,9.75,72,6
@@ -57,7 +62,6 @@ T Natarajan,CSK,3,10.25,48,1
 AK Markram,DC,2,10.29,42,2
 SH Johnson,GT,2,10.29,42,2
 LS Livingstone,KKR,2,10.33,43,6
-RA Jadeja,SRH,3,10.67,36,1
 Samant Jakhar,DC,3,10.71,42,2
 S Lamichhane,DC,2,10.74,38,1
 HJ Manenti,CSK,3,10.75,72,4
@@ -79,6 +83,7 @@ YS Chahal,RCB,2,12.33,36,2
 Naseem Shah,LSG,2,12.38,48,2
 GJ Maxwell,DC,4,13.0,60,0
 GD Phillips,GT,3,13.2,30,0
+AM Hardie,CSK,1,13.25,24,1
 D Wiese,GT,1,13.25,24,0
 Harpreet Brar,GT,1,13.25,24,0
 Sakibul Gani,RCB,2,13.4,30,1
