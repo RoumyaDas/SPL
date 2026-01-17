@@ -858,3 +858,42 @@ th .num-range {
 th .num-range > input {
   width: 100%;
 }
+
+/* For #franchise card tab */
+.franchise-layout {
+  display: flex;
+  gap: 20px;
+}
+
+.franchise-tabs {
+  display: flex;
+  flex-direction: column;
+  min-width: 140px;
+}
+
+.franchise-tab {
+  padding: 10px 12px;
+  margin-bottom: 6px;
+  background: #1a1a1a;
+  color: #eaeaea;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.franchise-tab.active {
+  background: #2a2a2a;
+  font-weight: 600;
+}
+
+.franchise-content {
+  flex: 1;
+}
+
+#franchise-frame {
+  width: 100%;
+  height: 85vh;
+  border-radius: 16px;
+  background: #0b0b0b;
+}

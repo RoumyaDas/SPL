@@ -1685,6 +1685,31 @@ document.addEventListener("DOMContentLoaded", () => {
   });
   
 
+  const franchiseCardBasePath =
+  "SPL/data/Franchise_Cards";
+
+const franchiseFrame = document.getElementById("franchise-frame");
+
+// default franchise load
+if (franchiseFrame) {
+  franchiseFrame.src = `${franchiseCardBasePath}/Card_PBKS.html`;
+}
+
+document.querySelectorAll(".franchise-tab").forEach(btn => {
+  btn.addEventListener("click", () => {
+    document
+      .querySelectorAll(".franchise-tab")
+      .forEach(b => b.classList.remove("active"));
+
+    btn.classList.add("active");
+
+    const team = btn.dataset.team;
+    franchiseFrame.src =
+      `${franchiseCardBasePath}/Card_${team}.html`;
+  });
+});
+
+
   // Optional: Load story from URL hash
   const hash = window.location.hash.replace("#", "");
   if (hash) {
