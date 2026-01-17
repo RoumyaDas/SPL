@@ -1692,7 +1692,7 @@ const franchiseFrame = document.getElementById("franchise-frame");
 
 // default franchise load
 if (franchiseFrame) {
-  franchiseFrame.src = `${franchiseCardBasePath}/Card_PBKS.html`;
+  franchiseFrame.src = `${franchiseCardBasePath}/Card_CSK.html`;
 }
 
 document.querySelectorAll(".franchise-tab").forEach(btn => {
