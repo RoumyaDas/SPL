@@ -1572,7 +1572,7 @@ document.addEventListener("DOMContentLoaded", () => {
     '031225_RR_DC.txt','041225_CSK_SRH.txt','041225_RCB_PBKS.txt','041225_KKR_LSG.txt','051225_RR_GT.txt','061225_PBKS_DC.txt','061225_MI_CSK.txt','061225_LSG_RCB.txt','071225_PBKS_RR.txt','071225_GT_DC.txt','071225_LSG_CSK.txt','071225_SRH_RCB.txt',
     '071225_MI_KKR.txt','091225_Q1.txt','101225_E.txt','111225_Q2.txt','131225_F.txt','241225_T&R.txt','281225_SMAT_batters_to_LOF.txt','281225_SMAT_bowlers_to_LOF.txt','301225_S06_Auction_highlights.txt',
     '100126_m01.txt','100126_m02.txt','100126_m03.txt','100126_m04.txt','100126_m05.txt','110126_m06.txt','110126_m07.txt','110126_m08.txt','110126_m09.txt','110126_m10.txt','150126_m11.txt','150126_m12.txt','150126_m13.txt','150126_m14.txt','150126_m15.txt',
-    '170126_m16.txt','170126_m17.txt','170126_m18.txt','170126_m19.txt','170126_m20.txt','170126_injury.txt'
+    '170126_m16.txt','170126_m17.txt','170126_m18.txt','170126_m19.txt','170126_m20.txt','170126_injury.txt','180126_m21.txt','180126_m22.txt','180126_m23.txt','180126_m24.txt','180126_m25.txt'
 
     ]
     ;
