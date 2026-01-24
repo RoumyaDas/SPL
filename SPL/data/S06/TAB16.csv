@@ -1,43 +1,45 @@
 striker,batting_team,num_innings,50+_scores,runs,strike_rate,100+_scores
-GJ Maxwell,DC,5,3,261,180.0,0
-JC Buttler,LSG,5,3,238,157.62,0
-PD Salt,RCB,5,2,276,194.37,1
-Abhishek Sharma,MI,5,2,237,195.87,1
-Shubman Gill,LSG,5,2,229,167.15,0
-Tilak Varma,CSK,5,2,203,166.39,0
-PWH de Silva,RCB,4,2,197,214.13,0
+PD Salt,RCB,6,3,357,190.91,1
+GJ Maxwell,DC,6,3,272,181.33,0
+JC Buttler,LSG,6,3,245,156.05,0
+BM Duckett,SRH,6,3,244,165.99,0
+Shubman Gill,LSG,6,2,272,164.85,0
+Abhishek Sharma,MI,6,2,237,194.26,1
+Tilak Varma,CSK,6,2,231,171.11,0
+Tarang Gohel,DC,6,2,227,162.14,0
+PWH de Silva,RCB,5,2,222,211.43,0
+MJ Owen,DC,6,2,221,164.93,0
+N Pooran,MI,4,2,199,171.55,0
+V Suryavanshi,PBKS,6,2,185,142.31,0
 Aniket Verma,RR,4,2,184,187.76,0
-N Pooran,MI,3,2,177,188.3,0
-BM Duckett,SRH,5,2,162,155.77,0
-Naman Dhir,GT,5,2,159,154.37,0
-RG Sharma,KKR,5,2,143,166.28,0
-P Simran Singh,SRH,5,2,137,185.14,0
-KL Rahul,SRH,5,1,239,148.45,1
-FH Allen,PBKS,5,1,201,203.03,1
-WG Jacks,LSG,5,1,193,151.97,0
-R Parag,GT,5,1,192,162.71,0
-CH Gayle,CSK,5,1,174,164.15,0
-MJ Owen,DC,5,1,169,152.25,0
+JP Inglis,GT,6,2,178,202.27,0
+Naman Dhir,GT,6,2,165,150.0,0
+P Simran Singh,SRH,6,2,148,182.72,0
+RG Sharma,KKR,6,2,148,162.64,0
+KL Rahul,SRH,6,1,241,146.06,1
+R Parag,GT,6,1,224,164.71,0
+WG Jacks,LSG,6,1,224,150.34,0
+FH Allen,PBKS,6,1,207,195.28,1
+CH Gayle,CSK,6,1,189,161.54,0
+TP Ura,PBKS,6,1,181,170.75,0
+YBK Jaiswal,RR,6,1,179,170.48,0
+SV Samson,GT,6,1,172,179.17,0
 WL Madsen,MI,4,1,164,156.19,0
 AM Rahane,MI,5,1,157,148.11,0
-Tarang Gohel,DC,5,1,156,165.96,0
-SP Narine,KKR,5,1,145,168.6,0
-SA Yadav,DC,5,1,135,156.98,0
-V Suryavanshi,PBKS,5,1,135,139.18,0
-SV Samson,GT,5,1,132,183.33,0
-TP Ura,PBKS,5,1,132,173.68,0
-J Fraser-McGurk,KKR,3,1,127,149.41,0
-C Green,KKR,5,1,124,165.33,0
+C Green,KKR,6,1,151,175.58,0
+SA Yadav,DC,6,1,147,150.0,0
+SP Narine,KKR,6,1,146,164.04,0
+J Fraser-McGurk,KKR,4,1,145,147.96,0
+Sameer Rizvi,LSG,5,1,135,204.55,0
+Salil Arora,RCB,3,1,123,201.64,0
+Chirag Jani,CSK,4,1,122,200.0,0
 GD Phillips,GT,5,1,122,187.69,0
-Sameer Rizvi,LSG,4,1,121,201.67,0
-JP Inglis,GT,5,1,115,176.92,0
-JM Sharma,RCB,5,1,101,171.19,0
+JM Sharma,RCB,6,1,110,171.88,0
+Atharva Taide,MI,3,1,103,198.08,0
 Urvil Patel,MI,3,1,99,167.8,0
-Salil Arora,RCB,2,1,97,210.87,0
-Atharva Taide,MI,2,1,97,197.96,0
-Chirag Jani,CSK,3,1,84,168.0,0
-VR Iyer,SRH,5,1,82,154.72,0
+VR Iyer,SRH,6,1,89,150.85,0
+H Klaasen,CSK,3,1,89,139.06,0
 Usman Khan (2),CSK,2,1,81,158.82,0
 Hassan Nawaz,RCB,5,1,79,123.44,0
 AB de Villiers,RR,3,1,73,182.5,0
-RK Singh,MI,1,1,50,294.12,0
+RK Singh,MI,2,1,50,277.78,0
