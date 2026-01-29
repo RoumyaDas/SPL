@@ -8,7 +8,7 @@ B Kumar,10,328,216,19,11.37,9.11,Elite,KKR
 KA Maharaj,10,321,205,18,11.39,9.4,Striker,SRH
 Fazalhaq Farooqi,10,301,240,17,14.12,7.52,Elite,CSK
 MP Yadav,10,280,194,17,11.41,8.66,Elite,PBKS
-AK Markram,10,310,203,17,11.94,9.16,Striker,DC
+AK Markram,10,310,203,17,11.94,9.16,Elite,DC
 A Zampa,10,359,235,17,13.82,9.17,Striker,SRH
 AR Ramjani,10,326,228,16,14.25,8.58,Elite,PBKS
 Ravi Teja,10,299,209,16,13.06,8.58,Elite,RCB
@@ -66,10 +66,10 @@ Harshit Rana,10,334,222,9,24.67,9.03,Choker,KKR
 Shashank Singh,10,271,170,9,18.89,9.56,Balanced,PBKS
 YS Chahal,10,353,220,9,24.44,9.63,Balanced,RCB
 Jagjit Singh,10,355,212,9,23.56,10.05,Balanced,SRH
-Sikandar Raza,10,303,180,9,20.0,10.1,Balanced,MI
+Sikandar Raza,10,303,180,9,20.0,10.1,Balanced,
 T Natarajan,10,378,210,9,23.33,10.8,Balanced,CSK
 Arshad Khan,10,260,138,9,15.33,11.3,Striker,DC
-JG Bethell,10,311,156,9,17.33,11.96,Balanced,RR
+JG Bethell,10,311,156,9,17.33,11.96,Striker,RR
 Utkarsh Singh,10,157,131,8,16.38,7.19,Elite,PBKS
 Akash Vasisht,10,292,204,8,25.5,8.59,Choker,SRH
 SZ Mulani,10,285,192,8,24.0,8.91,Choker,LSG
@@ -83,7 +83,7 @@ Yash Thakur,10,395,222,8,27.75,10.68,Poor,MI
 M Siddharth,10,354,192,8,24.0,11.06,Balanced,CSK
 MJ Santner,10,305,200,7,28.57,9.15,Choker,KKR
 HR Shokeen,10,332,210,7,30.0,9.49,Balanced,RR
-Naseem Shah,10,382,240,7,34.29,9.55,Balanced,LSG
+Naseem Shah,10,382,240,7,34.29,9.55,Balanced,
 Ravi Bishnoi,10,367,209,7,29.86,10.54,Poor,GT
 R Sai Kishore,10,418,232,7,33.14,10.81,Poor,MI
 D Brevis,10,260,144,7,20.57,10.83,Balanced,LSG
@@ -97,9 +97,10 @@ HH Pandya,10,329,216,5,43.2,9.14,Choker,MI
 D Wiese,10,313,186,5,37.2,10.1,Balanced,GT
 BA Stokes,10,378,216,5,43.2,10.5,Poor,RR
 Cheepurapalli Stephen,10,370,210,5,42.0,10.57,Poor,CSK
+Rashid Khan,10,427,234,5,46.8,10.95,Poor,MI
 AS Roy,10,330,180,5,36.0,11.0,Poor,GT
 VR Iyer,10,270,144,5,28.8,11.25,Poor,SRH
-Shakib Al Hasan,10,214,174,4,43.5,7.38,Choker,PBKS
+Shakib Al Hasan,10,214,174,4,43.5,7.38,Choker,
 Chirag Jani,10,225,144,4,36.0,9.38,Balanced,CSK
 RD Chahar,10,307,174,4,43.5,10.59,Poor,CSK
 Ramandeep Singh,10,213,120,4,30.0,10.65,Poor,LSG

@@ -51,6 +51,7 @@ B Sai Sudharsan,10,221,179,9,24.56,123.46,Poor,PBKS
 T Stubbs,10,217,145,8,27.12,149.66,Balanced,CSK
 KD Karthik,10,213,132,7,30.43,161.36,Balanced,RR
 Ishaan Gadekar,10,213,144,10,21.3,147.92,Poor,SRH
+Dhruv Jurel,10,213,158,10,21.3,134.81,Poor,KKR
 N Rana,10,212,126,9,23.56,168.25,Balanced,PBKS
 RR Rossouw,10,209,132,9,23.22,158.33,Balanced,SRH
 SS Iyer,10,209,134,9,23.22,155.97,Balanced,LSG
@@ -72,7 +73,7 @@ DP Conway,10,184,156,8,23.0,117.95,Poor,PBKS
 V Nigam,10,182,111,5,36.4,163.96,Long_Hauler,GT
 RA Jadeja,10,180,117,9,20.0,153.85,Balanced,SRH
 JG Bethell,10,171,120,9,19.0,142.5,Poor,RR
-TM Head,10,170,131,9,18.89,129.77,Poor,RR
+TM Head,10,170,131,9,18.89,129.77,Poor,
 D Brevis,10,166,134,6,27.67,123.88,Balanced,LSG
 Shashank Singh,10,165,119,6,27.5,138.66,Balanced,PBKS
 Ishan Kishan,10,164,124,9,18.22,132.26,Poor,MI
@@ -90,7 +91,7 @@ Abdul Samad,10,142,98,5,28.4,144.9,Balanced,LSG
 AK Markram,10,142,102,8,17.75,139.22,Poor,DC
 PHKD Mendis,10,141,98,8,17.62,143.88,Balanced,DC
 RK Bhui,10,138,107,8,17.25,128.97,Poor,KKR
-RA Tripathi,10,135,101,8,16.88,133.66,Poor,KKR
+RA Tripathi,10,135,101,8,16.88,133.66,Poor,
 JJ Smit,10,132,91,6,22.0,145.05,Balanced,PBKS
 LS Livingstone,10,128,110,5,25.6,116.36,Balanced,KKR
 Akash Vasisht,10,127,80,8,15.88,158.75,Balanced,SRH
@@ -104,4 +105,4 @@ YK Pathan,10,112,94,8,14.0,119.15,Balanced,KKR
 BA Stokes,10,105,79,7,15.0,132.91,Balanced,RR
 Ashutosh Sharma,10,103,82,6,17.17,125.61,Balanced,RCB
 Mohammad Nabi,10,101,77,10,10.1,131.17,Balanced,LSG
-Shakib Al Hasan,10,82,80,4,20.5,102.5,Balanced,PBKS
+Shakib Al Hasan,10,82,80,4,20.5,102.5,Balanced,
