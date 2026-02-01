@@ -1,73 +1,76 @@
 partners,batting_team,runs,balls,outs,fours,sixes,SR,Bat_avg,bpb
-JP Inglis  - SV Samson,GT,402,192,4,46,18,209.38,100.5,3.0
-FH Allen  - V Suryavanshi,PBKS,384,218,9,47,11,176.15,42.67,3.76
+FH Allen  - V Suryavanshi,PBKS,423,240,10,54,11,176.25,42.3,3.69
+JP Inglis  - SV Samson,GT,416,198,5,49,18,210.1,83.2,2.96
+BM Duckett  - P Simran Singh,SRH,398,219,10,47,12,181.74,39.8,3.71
 JC Buttler  - Shubman Gill,LSG,380,230,8,44,9,165.22,47.5,4.34
 Abhishek Sharma  - Urvil Patel,MI,359,187,6,47,9,191.98,59.83,3.34
-N Sindhu  - SA Yadav,DC,322,164,6,20,22,196.34,53.67,3.9
+N Sindhu  - SA Yadav,DC,322,165,7,20,22,195.15,46.0,3.93
 GJ Maxwell  - MJ Owen,DC,318,189,9,30,10,168.25,35.33,4.72
-BM Duckett  - P Simran Singh,SRH,306,159,9,39,10,192.45,34.0,3.24
-Naman Dhir  - SV Samson,GT,273,158,5,32,4,172.78,54.6,4.39
+Naman Dhir  - SV Samson,GT,310,182,6,36,5,170.33,51.67,4.44
+V Kohli  - YBK Jaiswal,RR,277,146,2,32,8,189.73,138.5,3.65
 J Fraser-McGurk  - SP Narine,KKR,273,162,6,35,9,168.52,45.5,3.68
-BM Duckett  - KL Rahul,SRH,259,169,7,25,6,153.25,37.0,5.45
+BM Duckett  - KL Rahul,SRH,262,172,8,25,6,152.33,32.75,5.55
 PD Salt  - PWH de Silva,RCB,252,131,4,26,10,192.37,63.0,3.64
 Naman Dhir  - R Parag,GT,249,139,5,16,13,179.14,49.8,4.79
 KL Rahul  - Kartik Sharma,SRH,232,123,7,21,12,188.62,33.14,3.73
 N Pooran  - WL Madsen,MI,209,119,3,11,12,175.63,69.67,5.17
 JC Buttler  - WG Jacks,LSG,197,117,3,15,9,168.38,65.67,4.88
-Shubman Gill  - WG Jacks,LSG,195,115,4,16,9,169.57,48.75,4.6
+Shubman Gill  - WG Jacks,LSG,195,117,5,16,9,166.67,39.0,4.68
 PWH de Silva  - Priyansh Arya,RCB,191,91,3,24,6,209.89,63.67,3.03
 C Green  - RG Sharma,KKR,190,108,6,15,9,175.93,31.67,4.5
+GJ Maxwell  - Tarang Gohel,DC,184,107,3,16,7,171.96,61.33,4.65
+Shashank Singh  - TP Ura,PBKS,181,113,5,12,8,160.18,36.2,5.65
 C Green  - J Fraser-McGurk,KKR,175,98,4,22,5,178.57,43.75,3.63
 PD Salt  - Priyansh Arya,RCB,163,81,5,19,7,201.23,32.6,3.12
 CH Gayle  - Usman Khan (2),CSK,161,98,2,15,6,164.29,80.5,4.67
 JP Inglis  - Naman Dhir,GT,157,90,1,10,5,174.44,157.0,6.0
 Aniket Verma  - YBK Jaiswal,RR,155,96,6,7,9,161.46,25.83,6.0
 Abhishek Sharma  - WL Madsen,MI,148,106,2,9,5,139.62,74.0,7.57
-GJ Maxwell  - Tarang Gohel,DC,141,80,2,12,6,176.25,70.5,4.44
-Shashank Singh  - TP Ura,PBKS,140,85,4,10,6,164.71,35.0,5.31
-Jay Gohil  - Sameer Rizvi,LSG,140,70,2,11,6,200.0,70.0,4.12
 CH Gayle  - Tilak Varma,CSK,140,87,7,18,3,160.92,20.0,4.14
+Jay Gohil  - Sameer Rizvi,LSG,140,70,2,11,6,200.0,70.0,4.12
 AM Rahane  - N Pooran,MI,138,66,1,14,7,209.09,138.0,3.14
+RD Gaikwad  - SV Samson,GT,136,87,6,19,1,156.32,22.67,4.35
 AM Hardie  - CH Gayle,CSK,134,108,3,10,7,124.07,44.67,6.35
 PD Salt  - Salil Arora,RCB,132,72,2,5,8,183.33,66.0,5.54
+Shashank Singh  - TH David,PBKS,132,84,5,13,5,157.14,26.4,4.67
+GJ Maxwell  - N Sindhu,DC,132,76,3,6,8,173.68,44.0,5.43
 JG Bethell  - YBK Jaiswal,RR,130,67,4,10,7,194.03,32.5,3.94
 N Rana  - V Suryavanshi,PBKS,128,74,3,13,5,172.97,42.67,4.11
 Abhishek Sharma  - Atharva Taide,MI,126,61,3,16,4,206.56,42.0,3.05
 KA Pollard  - Tilak Varma,CSK,123,72,2,9,5,170.83,61.5,5.14
 H Klaasen  - Tilak Varma,CSK,122,69,3,8,6,176.81,40.67,4.93
+SS Iyer  - Shubman Gill,LSG,121,72,4,10,3,168.06,30.25,5.54
 SS Iyer  - WG Jacks,LSG,120,94,2,8,2,127.66,60.0,9.4
 JM Sharma  - PD Salt,RCB,119,65,1,8,6,183.08,119.0,4.64
 Shashank Singh  - V Suryavanshi,PBKS,118,59,1,14,4,200.0,118.0,3.28
-Shashank Singh  - TH David,PBKS,114,74,4,12,4,154.05,28.5,4.62
 SA Yadav  - Tarang Gohel,DC,113,75,3,10,1,150.67,37.67,6.82
 AM Rahane  - Urvil Patel,MI,112,79,3,16,1,141.77,37.33,4.65
 Priyansh Arya  - Salil Arora,RCB,111,61,3,9,4,181.97,37.0,4.69
 KL Rahul  - RA Jadeja,SRH,110,67,1,14,2,164.18,110.0,4.19
 CH Gayle  - Tanush Kotian,CSK,109,44,1,7,9,247.73,109.0,2.75
 Hassan Nawaz  - Salil Arora,RCB,106,64,1,9,4,165.62,106.0,4.92
+MJ Owen  - Tarang Gohel,DC,105,67,5,11,3,156.72,21.0,4.79
 TP Ura  - V Suryavanshi,PBKS,102,60,3,8,5,170.0,34.0,4.62
 CH Gayle  - HS Desai,CSK,100,68,3,8,2,147.06,33.33,6.8
-RD Gaikwad  - SV Samson,GT,96,64,5,15,0,150.0,19.2,4.27
 Chirag Jani  - T Stubbs,CSK,95,67,3,6,4,141.79,31.67,6.7
 KL Rahul  - RR Rossouw,SRH,94,53,2,7,4,177.36,47.0,4.82
 KD Karthik  - YBK Jaiswal,RR,92,63,3,9,3,146.03,30.67,5.25
 JP Inglis  - R Parag,GT,92,50,4,4,6,184.0,23.0,5.0
 MP Stoinis  - SP Narine,KKR,90,59,2,10,3,152.54,45.0,4.54
-AB de Villiers  - JG Bethell,RR,89,50,1,6,6,178.0,89.0,4.17
 PHKD Mendis  - SA Yadav,DC,89,54,3,9,3,164.81,29.67,4.5
-JC Buttler  - RD Rickelton,LSG,85,56,1,7,2,151.79,85.0,6.22
+AB de Villiers  - JG Bethell,RR,89,50,1,6,6,178.0,89.0,4.17
 AM Rahane  - Abhishek Sharma,MI,85,36,3,7,6,236.11,28.33,2.77
+JC Buttler  - RD Rickelton,LSG,85,56,1,7,2,151.79,85.0,6.22
 GD Phillips  - V Nigam,GT,84,55,2,4,5,152.73,42.0,6.11
 R Powell  - SS Iyer,LSG,83,38,3,5,5,218.42,27.67,3.8
 P Simran Singh  - VR Iyer,SRH,82,41,1,4,5,200.0,82.0,4.56
 Ankit Kumar  - V Kohli,RR,81,59,4,9,1,137.29,20.25,5.9
-MJ Owen  - Tarang Gohel,DC,81,50,4,8,3,162.0,20.25,4.55
 AM Rahane  - Atharva Taide,MI,80,46,1,3,3,173.91,80.0,7.67
 Chirag Jani  - KA Pollard,CSK,79,33,1,5,6,239.39,79.0,3.0
-Smaran Ravichandran  - TP Ura,PBKS,77,53,2,7,2,145.28,38.5,5.89
 S Dube  - V Kohli,RR,77,48,4,10,1,160.42,19.25,4.36
-AD Russell  - Arshad Khan,DC,76,42,3,5,5,180.95,25.33,4.2
+Smaran Ravichandran  - TP Ura,PBKS,77,53,2,7,2,145.28,38.5,5.89
 JM Sharma  - Sakibul Gani,RCB,76,46,1,4,4,165.22,76.0,5.75
+AD Russell  - Arshad Khan,DC,76,42,3,5,5,180.95,25.33,4.2
 KL Rahul  - P Simran Singh,SRH,75,47,2,9,1,159.57,37.5,4.7
 PD Salt  - SN Khan,RCB,74,46,2,10,3,160.87,37.0,3.54
 JC Buttler  - SS Iyer,LSG,71,40,2,9,1,177.5,35.5,4.0
@@ -76,8 +79,8 @@ R Parag  - RD Gaikwad,GT,70,48,1,5,4,145.83,70.0,5.33
 Aniket Verma  - S Dube,RR,70,44,3,5,3,159.09,23.33,5.5
 H Klaasen  - T Stubbs,CSK,68,41,1,4,3,165.85,68.0,5.86
 BJ McMullen  - V Kohli,RR,68,43,2,10,2,158.14,34.0,3.58
-Abhishek Sharma  - MW Short,MI,67,28,1,1,7,239.29,67.0,3.5
 Nithish Kumar Reddy  - RA Jadeja,SRH,67,43,4,6,3,155.81,16.75,4.78
+Abhishek Sharma  - MW Short,MI,67,28,1,1,7,239.29,67.0,3.5
 D Brevis  - SS Iyer,LSG,66,46,1,1,4,143.48,66.0,9.2
 EA Brookes  - PWH de Silva,RCB,66,33,1,5,5,200.0,66.0,3.3
 B Sai Sudharsan  - Smaran Ravichandran,PBKS,65,51,2,5,1,127.45,32.5,8.5
@@ -85,71 +88,75 @@ Smaran Ravichandran  - V Suryavanshi,PBKS,62,42,5,4,3,147.62,12.4,6.0
 C Green  - RM Patidar,KKR,62,47,2,3,1,131.91,31.0,11.75
 HH Pandya  - RK Singh,MI,61,21,1,4,6,290.48,61.0,2.1
 FH Allen  - TH David,PBKS,60,34,1,5,3,176.47,60.0,4.25
-JP Inglis  - RD Gaikwad,GT,59,40,1,3,2,147.5,59.0,8.0
-V Kohli  - YBK Jaiswal,RR,59,38,2,5,2,155.26,29.5,5.43
 B Sai Sudharsan  - V Suryavanshi,PBKS,59,47,3,6,1,125.53,19.67,6.71
+JP Inglis  - RD Gaikwad,GT,59,40,1,3,2,147.5,59.0,8.0
 Jaskaran Singh  - RG Sharma,KKR,58,33,1,3,4,175.76,58.0,4.71
+GF Linde  - V Nigam,GT,58,35,3,7,3,165.71,19.33,3.5
 GJ Maxwell  - SA Yadav,DC,58,42,3,3,4,138.1,19.33,6.0
 J Fraser-McGurk  - RG Sharma,KKR,58,31,1,5,3,187.1,58.0,3.88
 HH Pandya  - WL Madsen,MI,57,26,0,3,5,219.23,inf,3.25
-HH Pandya  - N Pooran,MI,56,31,3,5,3,180.65,18.67,3.88
 CH Gayle  - KA Pollard,CSK,56,37,2,2,2,151.35,28.0,9.25
 Ankit Kumar  - YBK Jaiswal,RR,56,34,2,3,2,164.71,28.0,6.8
+HH Pandya  - N Pooran,MI,56,31,3,5,3,180.65,18.67,3.88
 Aniket Verma  - V Kohli,RR,55,35,2,7,2,157.14,27.5,3.89
 Abishek Porel  - BJ McMullen,RR,55,35,2,10,1,157.14,27.5,3.18
-GJ Maxwell  - N Sindhu,DC,54,35,2,2,3,154.29,27.0,7.0
 LS Livingstone  - MP Stoinis,KKR,54,39,1,4,3,138.46,54.0,5.57
-RK Bhui  - YK Pathan,KKR,54,48,1,6,0,112.5,54.0,8.0
 C Green  - SP Narine,KKR,54,28,3,4,2,192.86,18.0,4.67
+RK Bhui  - YK Pathan,KKR,54,48,1,6,0,112.5,54.0,8.0
 RG Sharma  - YK Pathan,KKR,53,40,3,6,1,132.5,17.67,5.71
 AM Rahane  - WL Madsen,MI,53,31,1,5,2,170.97,53.0,4.43
 Tanush Kotian  - Tilak Varma,CSK,53,25,2,8,1,212.0,26.5,2.78
 Hassan Nawaz  - PWH de Silva,RCB,52,26,1,5,2,200.0,52.0,3.71
 Ravi Singh  - YK Pathan,KKR,50,30,3,0,5,166.67,16.67,6.0
-Sakibul Gani  - Salil Arora,RCB,49,26,2,8,1,188.46,24.5,2.89
+DW Lawrence  - N Sindhu,DC,50,27,1,4,2,185.19,50.0,4.5
 Abishek Porel  - Aniket Verma,RR,49,25,1,2,2,196.0,49.0,6.25
+Sakibul Gani  - Salil Arora,RCB,49,26,2,8,1,188.46,24.5,2.89
 Kartik Sharma  - P Simran Singh,SRH,48,28,1,7,0,171.43,48.0,4.0
 BA Stokes  - JG Bethell,RR,47,22,2,0,4,213.64,23.5,5.5
 Aniket Verma  - TM Head,RR,47,25,1,2,4,188.0,47.0,4.17
+BM Duckett  - Kartik Sharma,SRH,47,24,2,2,4,195.83,23.5,4.0
+Sameer Rizvi  - Shubman Gill,LSG,47,33,2,3,2,142.42,23.5,6.6
 RG Sharma  - Ravi Singh,KKR,47,30,4,6,2,156.67,11.75,3.75
 S Dube  - YBK Jaiswal,RR,46,24,1,2,2,191.67,46.0,6.0
-BM Duckett  - Kartik Sharma,SRH,46,21,1,2,4,219.05,46.0,3.5
-C Green  - Ravi Singh,KKR,44,20,1,2,3,220.0,44.0,4.0
 R Powell  - Sameer Rizvi,LSG,44,34,2,4,1,129.41,22.0,6.8
+C Green  - Ravi Singh,KKR,44,20,1,2,3,220.0,44.0,4.0
 Arshad Khan  - PHKD Mendis,DC,43,22,2,6,1,195.45,21.5,3.14
 Chirag Jani  - HS Desai,CSK,42,27,1,1,2,155.56,42.0,9.0
 Arshad Khan  - SA Yadav,DC,42,29,1,2,2,144.83,42.0,7.25
-SS Iyer  - Shubman Gill,LSG,42,37,3,1,0,113.51,14.0,37.0
 R Powell  - WG Jacks,LSG,41,26,1,4,1,157.69,41.0,5.2
 Ishaan Gadekar  - Kartik Sharma,SRH,41,21,1,5,1,195.24,41.0,3.5
-N Sindhu  - PHKD Mendis,DC,40,25,2,4,1,160.0,20.0,5.0
-AM Rahane  - MW Short,MI,40,20,1,4,1,200.0,40.0,4.0
-Abishek Porel  - TM Head,RR,40,39,1,4,0,102.56,40.0,9.75
 Nithish Kumar Reddy  - VR Iyer,SRH,40,21,1,5,1,190.48,40.0,3.5
-Samant Jakhar  - Tarang Gohel,DC,39,28,1,2,2,139.29,39.0,7.0
+N Sindhu  - PHKD Mendis,DC,40,25,2,4,1,160.0,20.0,5.0
+Abishek Porel  - TM Head,RR,40,39,1,4,0,102.56,40.0,9.75
+Abdul Samad  - Sameer Rizvi,LSG,40,23,1,1,4,173.91,40.0,4.6
+AM Rahane  - MW Short,MI,40,20,1,4,1,200.0,40.0,4.0
 HS Desai  - Tilak Varma,CSK,39,24,2,4,1,162.5,19.5,4.8
+Samant Jakhar  - Tarang Gohel,DC,39,28,1,2,2,139.29,39.0,7.0
 R Parag  - V Nigam,GT,37,23,2,3,2,160.87,18.5,4.6
 RA Jadeja  - VR Iyer,SRH,37,21,2,2,3,176.19,18.5,4.2
 AK Markram  - Arshad Khan,DC,36,23,0,4,1,156.52,inf,4.6
 JM Sharma  - RR Patel,RCB,35,33,2,2,1,106.06,17.5,11.0
-Shashank Singh  - Utkarsh Singh,PBKS,35,23,2,2,2,152.17,17.5,5.75
 JM Coles  - N Pooran,MI,35,22,1,3,1,159.09,35.0,5.5
+Shashank Singh  - Utkarsh Singh,PBKS,35,23,2,2,2,152.17,17.5,5.75
 BJ McMullen  - YBK Jaiswal,RR,34,25,1,2,1,136.0,34.0,8.33
 Hassan Nawaz  - PD Salt,RCB,34,25,1,4,0,136.0,34.0,6.25
 Kartik Sharma  - VR Iyer,SRH,33,22,1,1,2,150.0,33.0,7.33
+JJ Smit  - Utkarsh Singh,PBKS,31,23,1,2,1,134.78,31.0,7.67
 GD Phillips  - Naman Dhir,GT,31,22,1,2,1,140.91,31.0,7.33
 N Pooran  - Rasikh Salam,MI,31,24,1,1,1,129.17,31.0,12.0
-JJ Smit  - Utkarsh Singh,PBKS,31,23,1,2,1,134.78,31.0,7.67
 T Stubbs  - Tilak Varma,CSK,30,24,2,5,0,125.0,15.0,4.8
-Ashutosh Sharma  - JM Sharma,RCB,30,24,1,2,1,125.0,30.0,8.0
 A Mhatre  - C Green,KKR,30,25,1,5,0,120.0,30.0,5.0
 R Parag  - R Shepherd,GT,30,24,1,1,2,125.0,30.0,8.0
-Abishek Porel  - YBK Jaiswal,RR,29,21,2,2,1,138.1,14.5,7.0
+K Kartikeya  - Sameer Rizvi,LSG,30,21,2,2,0,142.86,15.0,10.5
+Ashutosh Sharma  - JM Sharma,RCB,30,24,1,2,1,125.0,30.0,8.0
 TM Head  - V Kohli,RR,29,23,2,3,1,126.09,14.5,5.75
+Abishek Porel  - YBK Jaiswal,RR,29,21,2,2,1,138.1,14.5,7.0
 JN Loftie-Eaton  - S Dube,RR,29,24,1,2,1,120.83,29.0,8.0
-Abishek Porel  - Ankit Kumar,RR,28,24,1,1,1,116.67,28.0,12.0
 MJ Owen  - SA Yadav,DC,28,25,1,2,0,112.0,28.0,12.5
+Abishek Porel  - Ankit Kumar,RR,28,24,1,1,1,116.67,28.0,12.0
+R Parag  - SV Samson,GT,27,22,2,2,1,122.73,13.5,7.33
 AM Hardie  - HJ Manenti,CSK,26,25,0,2,1,104.0,inf,8.33
+Kumar Kushagra  - SV Samson,GT,26,25,3,1,1,104.0,8.67,12.5
 J Fraser-McGurk  - MP Stoinis,KKR,26,25,1,4,0,104.0,26.0,6.25
 JJ Smit  - Shashank Singh,PBKS,25,29,2,2,0,86.21,12.5,14.5
 AB de Villiers  - YBK Jaiswal,RR,22,23,2,1,1,95.65,11.0,11.5
