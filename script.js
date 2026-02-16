@@ -1142,7 +1142,9 @@ function renderLast3CSV(csvText) {
   const stateKey = "last3";
   const types = inferTypes(dataRows, headers, true); // same as special
 
-  function renderTablePage(page, searchTerm = "") {
+  //function renderTablePage(page, searchTerm = "") 
+  function renderTablePage(page)
+  {
     tableContainer.innerHTML = "";
     paginationContainer.innerHTML = "";
     currentPage = page;
@@ -1150,12 +1152,12 @@ function renderLast3CSV(csvText) {
     let filtered = dataRows;
 
     // 🔍 Global search
-    if (searchTerm) {
-      const q = searchTerm.toLowerCase();
-      filtered = filtered.filter(row =>
-        row.some(cell => cell.toLowerCase().includes(q))
-      );
-    }
+    // if (searchTerm) {
+    //  const q = searchTerm.toLowerCase();
+    //  filtered = filtered.filter(row =>
+    //    row.some(cell => cell.toLowerCase().includes(q))
+    //  );
+    // }
 
     // 🧠 Column filters (borrowed from special)
     filtered = applyFilters(
@@ -1237,7 +1239,8 @@ function renderLast3CSV(csvText) {
       if (i === currentPage) btn.classList.add("active");
 
       btn.addEventListener("click", () => {
-        renderTablePage(i, document.getElementById("last3Search").value);
+        //renderTablePage(i, document.getElementById("last3Search").value);
+        renderTablePage(i);
       });
 
       paginationContainer.appendChild(btn);
@@ -1246,9 +1249,9 @@ function renderLast3CSV(csvText) {
 
   renderTablePage(1);
 
-  document.getElementById("last3Search").oninput = function () {
-    renderTablePage(1, this.value);
-  };
+  // document.getElementById("last3Search").oninput = function () {
+  //  renderTablePage(1, this.value);
+  // };
 }
 
 
