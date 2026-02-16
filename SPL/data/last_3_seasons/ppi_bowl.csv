@@ -1,4 +1,4 @@
-bowler,pitch,phase,innings,inn,wkts,runs_conceded,balls,Eco,SR,Curr_Tm
+bowler,pitch,phase,innings,num_inn,wkts,runs_conceded,balls,Eco,SR,Curr_Tm
 JC Archer,pace,Death,2,16,24,278,184,9.07,7.67,LSG
 Karan Lal,spin,Death,2,8,24,109,95,6.88,3.96,RR
 MA Starc,pace,Death,2,13,23,195,125,9.36,5.43,KKR
