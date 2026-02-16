@@ -1621,7 +1621,9 @@ const last3BasePath = "https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/
 
 const last3Files = {
   Batting: "batting.csv",
-  Bowling: "bowling.csv"
+  Bowling: "bowling.csv",
+  Pitch_Phase_Inning: "ppi.csv",
+  BowlType_Phase_Inning: "bpi.csv"
   // Fielding: "fielding.csv"
 };
 
