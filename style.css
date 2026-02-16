@@ -859,6 +859,98 @@ th .num-range > input {
   width: 100%;
 }
 
+/* Last 3 Seasons Tab */
+
+#last3 {
+  background-color: #f4d6a0; /* warm tan, distinct but consistent */
+  padding: 20px;
+  min-height: 600px;
+  border-radius: 8px;
+}
+#last3 .tabs button {
+  padding: 10px 18px;
+  margin: 0 4px 4px 0;
+  background-color: #e6f0ff;
+  border: 1px solid #5a8ad6;
+  color: #004080;
+  font-weight: 600;
+  border-radius: 6px 6px 0 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#last3 .tabs button.active {
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+}
+#last3 table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  background-color: white;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.06);
+}
+
+#last3 th {
+  background-color: #0074D9;
+  color: white;
+  font-weight: 700;
+  padding: 10px 14px;
+  text-align: left;
+  cursor: pointer;
+}
+
+#last3 th:hover {
+  background-color: #005bb5;
+}
+
+#last3 td {
+  padding: 8px 12px;
+  border-bottom: 1px solid #dde4f2;
+  font-size: 12px;
+}
+
+#last3 tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+#last3 tbody tr:hover {
+  background-color: #f1f9ff;
+}
+#last3Search {
+  padding: 8px 14px;
+  width: 250px;
+  font-size: 14px;
+  margin-bottom: 14px;
+  border: 1px solid #a3b1d1;
+  border-radius: 6px;
+  outline: none;
+}
+
+#last3Search:focus {
+  border-color: #005bb5;
+  box-shadow: 0 0 6px rgba(0, 91, 181, 0.4);
+}
+#last3-pagination button {
+  background-color: #e6f0ff;
+  border: 1px solid #5a8ad6;
+  padding: 6px 12px;
+  margin: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#last3-pagination button.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+
 /* For #franchise card tab */
 .franchise-layout {
   display: flex;
