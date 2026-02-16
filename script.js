@@ -1142,9 +1142,7 @@ function renderLast3CSV(csvText) {
   const stateKey = "last3";
   const types = inferTypes(dataRows, headers, true); // same as special
 
-  //function renderTablePage(page, searchTerm = "") 
-  function renderTablePage(page)
-  {
+  function renderTablePage(page, searchTerm = "") {
     tableContainer.innerHTML = "";
     paginationContainer.innerHTML = "";
     currentPage = page;
@@ -1152,12 +1150,12 @@ function renderLast3CSV(csvText) {
     let filtered = dataRows;
 
     // 🔍 Global search
-    // if (searchTerm) {
-    //  const q = searchTerm.toLowerCase();
-    //  filtered = filtered.filter(row =>
-    //    row.some(cell => cell.toLowerCase().includes(q))
-    //  );
-    // }
+    if (searchTerm) {
+      const q = searchTerm.toLowerCase();
+      filtered = filtered.filter(row =>
+        row.some(cell => cell.toLowerCase().includes(q))
+      );
+    }
 
     // 🧠 Column filters (borrowed from special)
     filtered = applyFilters(
@@ -1197,8 +1195,7 @@ function renderLast3CSV(csvText) {
           return valA.localeCompare(valB);
         });
 
-        // renderTablePage(1, document.getElementById("last3Search").value);
-        renderTablePage(1);
+        renderTablePage(1, document.getElementById("last3Search").value);
       });
 
       headerRow.appendChild(th);
@@ -1212,8 +1209,7 @@ function renderLast3CSV(csvText) {
       headers,
       types,
       stateKey,
-      // () => renderTablePage(1, document.getElementById("last3Search").value)
-      () => renderTablePage(1)
+      () => renderTablePage(1, document.getElementById("last3Search").value)
     );
 
     table.appendChild(thead);
@@ -1241,8 +1237,7 @@ function renderLast3CSV(csvText) {
       if (i === currentPage) btn.classList.add("active");
 
       btn.addEventListener("click", () => {
-        //renderTablePage(i, document.getElementById("last3Search").value);
-        renderTablePage(i);
+        renderTablePage(i, document.getElementById("last3Search").value);
       });
 
       paginationContainer.appendChild(btn);
@@ -1251,9 +1246,9 @@ function renderLast3CSV(csvText) {
 
   renderTablePage(1);
 
-  // document.getElementById("last3Search").oninput = function () {
-  //  renderTablePage(1, this.value);
-  // };
+  document.getElementById("last3Search").oninput = function () {
+    renderTablePage(1, this.value);
+  };
 }
 
 
