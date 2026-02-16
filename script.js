@@ -1560,12 +1560,13 @@ function loadLast3CSV(type) {
   fetch(url)
     .then(res => res.text())
     .then(text => {
-      renderLast3CSV(text);
+      renderLast3CSV(text, type);  // 🔥 pass type here
     })
     .catch(err => {
       console.error("Error loading Last 3 Seasons CSV:", err);
     });
 }
+
 
 
 
