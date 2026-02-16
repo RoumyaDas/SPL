@@ -1124,6 +1124,114 @@ const filtered = allRows.filter(row =>
 renderFilteredTable(headers, filtered);
 }
 
+// last 3 seasons
+function renderLast3CSV(csvText) {
+  const tableContainer = document.getElementById("last3-table-container");
+  const paginationContainer = document.getElementById("last3-pagination");
+
+  tableContainer.innerHTML = "";
+  paginationContainer.innerHTML = "";
+
+  const rows = csvText.trim().split("\n").map(r => r.split(","));
+  const headers = rows[0];
+  let dataRows = rows.slice(1);
+
+  const rowsPerPage = 20;
+  let currentPage = 1;
+
+  function renderTablePage(page, filterTerm = "") {
+    tableContainer.innerHTML = "";
+    paginationContainer.innerHTML = "";
+
+    currentPage = page;
+
+    let filtered = dataRows;
+
+    if (filterTerm) {
+      const q = filterTerm.toLowerCase();
+      filtered = dataRows.filter(row =>
+        row.some(cell => cell.toLowerCase().includes(q))
+      );
+    }
+
+    const totalPages = Math.ceil(filtered.length / rowsPerPage);
+    const start = (currentPage - 1) * rowsPerPage;
+    const pageRows = filtered.slice(start, start + rowsPerPage);
+
+    const table = document.createElement("table");
+
+    // Header
+    const thead = document.createElement("thead");
+    const headerRow = document.createElement("tr");
+
+    headers.forEach((h, colIndex) => {
+      const th = document.createElement("th");
+      th.textContent = h;
+      th.style.cursor = "pointer";
+
+      th.addEventListener("click", () => {
+        dataRows.sort((a, b) => {
+          const valA = a[colIndex];
+          const valB = b[colIndex];
+
+          const numA = parseFloat(valA);
+          const numB = parseFloat(valB);
+
+          if (!isNaN(numA) && !isNaN(numB)) {
+            return numB - numA;
+          }
+
+          return valA.localeCompare(valB);
+        });
+
+        renderTablePage(1, document.getElementById("last3Search").value);
+      });
+
+      headerRow.appendChild(th);
+    });
+
+    thead.appendChild(headerRow);
+    table.appendChild(thead);
+
+    // Body
+    const tbody = document.createElement("tbody");
+
+    pageRows.forEach(row => {
+      const tr = document.createElement("tr");
+      row.forEach(cell => {
+        const td = document.createElement("td");
+        td.textContent = cell;
+        tr.appendChild(td);
+      });
+      tbody.appendChild(tr);
+    });
+
+    table.appendChild(tbody);
+    tableContainer.appendChild(table);
+
+    // Pagination buttons
+    for (let i = 1; i <= totalPages; i++) {
+      const btn = document.createElement("button");
+      btn.textContent = i;
+      if (i === currentPage) btn.classList.add("active");
+
+      btn.addEventListener("click", () => {
+        renderTablePage(i, document.getElementById("last3Search").value);
+      });
+
+      paginationContainer.appendChild(btn);
+    }
+  }
+
+  // Initial render
+  renderTablePage(1);
+
+  // Search binding
+  document.getElementById("last3Search").oninput = function () {
+    renderTablePage(1, this.value);
+  };
+}
+
 
 
 function renderCSV(csvText) {
@@ -1417,17 +1525,13 @@ function loadLast3CSV(type) {
   fetch(url)
     .then(res => res.text())
     .then(text => {
-      renderCSVTable(
-        text,
-        "last3-table-container",
-        "last3-pagination",
-        document.getElementById("last3Search").value
-      );
+      renderLast3CSV(text);
     })
     .catch(err => {
       console.error("Error loading Last 3 Seasons CSV:", err);
     });
 }
+
 
 
 function loadCombinedCSV(url, key, containerId) {
