@@ -1177,6 +1177,10 @@ document.querySelectorAll(".main-tab").forEach(btn => {
     const targetTab = document.getElementById(btn.dataset.tab);
     targetTab.classList.add("active");
     targetTab.style.display = "block";
+    // last 3 seasons
+    if (btn.dataset.tab === "last3") {
+      initLast3Subtabs();
+    }    
   });
 });
 });
@@ -1380,6 +1384,51 @@ function renderCombinedTable(headers, rows, containerId, searchTerm = "") {
   table.appendChild(tbody);
   container.appendChild(table);
 }
+// last 3 seasons
+function initLast3Subtabs() {
+  const container = document.getElementById("last3-subtabs");
+  container.innerHTML = "";
+
+  Object.keys(last3Files).forEach((key, index) => {
+    const btn = document.createElement("button");
+    btn.textContent = key;
+    btn.classList.add("last3-subtab");
+
+    if (index === 0) btn.classList.add("active");
+
+    btn.addEventListener("click", () => {
+      document.querySelectorAll("#last3-subtabs button")
+        .forEach(b => b.classList.remove("active"));
+
+      btn.classList.add("active");
+      loadLast3CSV(key);
+    });
+
+    container.appendChild(btn);
+  });
+
+  // Load first tab by default
+  loadLast3CSV(Object.keys(last3Files)[0]);
+}
+
+function loadLast3CSV(type) {
+  const url = last3BasePath + last3Files[type];
+
+  fetch(url)
+    .then(res => res.text())
+    .then(text => {
+      renderCSVTable(
+        text,
+        "last3-table-container",
+        "last3-pagination",
+        document.getElementById("last3Search").value
+      );
+    })
+    .catch(err => {
+      console.error("Error loading Last 3 Seasons CSV:", err);
+    });
+}
+
 
 function loadCombinedCSV(url, key, containerId) {
   fetch(url)
@@ -1412,6 +1461,15 @@ document.getElementById("combinedSearch").addEventListener("input", (e) => {
   renderCombinedTable(combinedData[key].headers, combinedData[key].rows, containerId, e.target.value);
 });
 
+// last 3 seasons
+document.getElementById("last3Search").addEventListener("input", () => {
+  const activeBtn = document.querySelector("#last3-subtabs button.active");
+  if (activeBtn) {
+    loadLast3CSV(activeBtn.textContent);
+  }
+});
+
+
 // Initial load
 loadCombinedCSV(combinedCsvUrlCurrent, "current", "combined-table-container-current");
 loadCombinedCSV(combinedCsvUrlOverall, "overall", "combined-table-container-overall");
@@ -1434,6 +1492,24 @@ function renderPagination(totalRows, rowsPerPage, currentPage, onPageChange) {
   return html;
 }
   
+/// last 3 seasons stats
+
+// const last3BasePath = "SPL/data/last_3_seasons/";
+const last3BasePath = "https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/last_3_seasons/";
+
+const last3Files = {
+  Batting: "batting.csv"
+  // Bowling: "bowling.csv",
+  // Fielding: "fielding.csv"
+};
+
+
+
+
+
+
+
+
 /// Records tab thing
 
 const recordsUrl = "https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/records.csv";
