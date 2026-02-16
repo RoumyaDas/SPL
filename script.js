@@ -1139,20 +1139,32 @@ function renderLast3CSV(csvText) {
   const rowsPerPage = 20;
   let currentPage = 1;
 
-  function renderTablePage(page, filterTerm = "") {
+  const stateKey = "last3";
+  const types = inferTypes(dataRows, headers, true); // same as special
+
+  function renderTablePage(page, searchTerm = "") {
     tableContainer.innerHTML = "";
     paginationContainer.innerHTML = "";
-
     currentPage = page;
 
     let filtered = dataRows;
 
-    if (filterTerm) {
-      const q = filterTerm.toLowerCase();
-      filtered = dataRows.filter(row =>
+    // 🔍 Global search
+    if (searchTerm) {
+      const q = searchTerm.toLowerCase();
+      filtered = filtered.filter(row =>
         row.some(cell => cell.toLowerCase().includes(q))
       );
     }
+
+    // 🧠 Column filters (borrowed from special)
+    filtered = applyFilters(
+      filtered,
+      headers,
+      types,
+      columnFilterState[stateKey],
+      true
+    );
 
     const totalPages = Math.ceil(filtered.length / rowsPerPage);
     const start = (currentPage - 1) * rowsPerPage;
@@ -1180,7 +1192,6 @@ function renderLast3CSV(csvText) {
           if (!isNaN(numA) && !isNaN(numB)) {
             return numB - numA;
           }
-
           return valA.localeCompare(valB);
         });
 
@@ -1191,6 +1202,16 @@ function renderLast3CSV(csvText) {
     });
 
     thead.appendChild(headerRow);
+
+    // 🔥 Build column filter row (borrowed)
+    buildFilterRow(
+      thead,
+      headers,
+      types,
+      stateKey,
+      () => renderTablePage(1, document.getElementById("last3Search").value)
+    );
+
     table.appendChild(thead);
 
     // Body
@@ -1209,7 +1230,7 @@ function renderLast3CSV(csvText) {
     table.appendChild(tbody);
     tableContainer.appendChild(table);
 
-    // Pagination buttons
+    // Pagination
     for (let i = 1; i <= totalPages; i++) {
       const btn = document.createElement("button");
       btn.textContent = i;
@@ -1223,15 +1244,12 @@ function renderLast3CSV(csvText) {
     }
   }
 
-  // Initial render
   renderTablePage(1);
 
-  // Search binding
   document.getElementById("last3Search").oninput = function () {
     renderTablePage(1, this.value);
   };
 }
-
 
 
 function renderCSV(csvText) {
