@@ -1197,7 +1197,8 @@ function renderLast3CSV(csvText) {
           return valA.localeCompare(valB);
         });
 
-        renderTablePage(1, document.getElementById("last3Search").value);
+        // renderTablePage(1, document.getElementById("last3Search").value);
+        renderTablePage(1);
       });
 
       headerRow.appendChild(th);
@@ -1211,7 +1212,8 @@ function renderLast3CSV(csvText) {
       headers,
       types,
       stateKey,
-      () => renderTablePage(1, document.getElementById("last3Search").value)
+      // () => renderTablePage(1, document.getElementById("last3Search").value)
+      () => renderTablePage(1)
     );
 
     table.appendChild(thead);
