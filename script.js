@@ -1620,8 +1620,8 @@ function renderPagination(totalRows, rowsPerPage, currentPage, onPageChange) {
 const last3BasePath = "https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/last_3_seasons/";
 
 const last3Files = {
-  Batting: "batting.csv"
-  // Bowling: "bowling.csv",
+  Batting: "batting.csv",
+  Bowling: "bowling.csv"
   // Fielding: "fielding.csv"
 };
 
