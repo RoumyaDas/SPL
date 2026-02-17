@@ -1742,7 +1742,20 @@ fetch(recordsUrl)
   });
 
 
-
+  document.addEventListener("DOMContentLoaded", function() {
+    const btn = document.getElementById("statsDarkToggle");
+    const statsTab = document.getElementById("stats");
+  
+    if (!btn || !statsTab) return;
+  
+    btn.addEventListener("click", function() {
+      statsTab.classList.toggle("dark-mode");
+      btn.textContent = statsTab.classList.contains("dark-mode")
+        ? "Light Mode"
+        : "Dark Mode";
+    });
+  });
+  
 
 
 /// NEWS tab stuff

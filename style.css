@@ -989,6 +989,12 @@ th .num-range > input {
   border-radius: 16px;
   background: #0b0b0b;
 }
+.stats-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
 
 /* ============================= */
 /* ============================= */
@@ -1000,66 +1006,43 @@ th .num-range > input {
 /* STATS TAB — DARK THEME       */
 /* ============================= */
 
-#stats {
+#stats.dark-mode {
   background-color: #121212;
   color: #fff;
 }
 
-/* Tables */
-#stats table {
+#stats.dark-mode table {
   background-color: #1a1a1a;
   color: #eee;
-  border-collapse: collapse;
 }
 
-#stats th,
-#stats td {
+#stats.dark-mode thead th {
+  background-color: #222;
+  color: #fff;
+}
+
+#stats.dark-mode th,
+#stats.dark-mode td {
   border: 1px solid #444;
 }
 
-/* Header row */
-#stats thead {
-  background-color: #222;
-}
-
-/* Row striping */
-#stats tbody tr:nth-child(even) {
+#stats.dark-mode tbody tr:nth-child(even) {
   background-color: #161616;
 }
 
-/* Inputs */
-#stats input {
+#stats.dark-mode tbody tr:hover {
+  background-color: #2a2a2a;
+}
+
+#stats.dark-mode input {
   background-color: #1a1a1a;
   color: #fff;
   border: 1px solid #555;
 }
 
-#stats input::placeholder {
-  color: #aaa;
-}
-
-/* Pagination buttons */
-#stats button {
+#stats.dark-mode button {
   background-color: #222;
   color: #fff;
   border: 1px solid #555;
-}
-
-#stats button.active {
-  background-color: #444;
-}
-
-/* Fix unreadable column headers */
-
-#stats thead th {
-  background-color: #222 !important;
-  color: #fff !important;
-  border: 1px solid #444;
-}
-
-/* Fix row hover for dark Stats tab */
-
-#stats tbody tr:hover {
-  background-color: rgba(255,255,255,0.06) !important;
 }
 
