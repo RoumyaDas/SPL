@@ -989,3 +989,62 @@ th .num-range > input {
   border-radius: 16px;
   background: #0b0b0b;
 }
+
+/* ============================= */
+/* ============================= */
+/* ============================= */
+/* ============================= */
+/* ============================= */
+/* ============================= */
+/* ============================= */
+/* STATS TAB — DARK THEME       */
+/* ============================= */
+
+#stats {
+  background-color: #121212;
+  color: #fff;
+}
+
+/* Tables */
+#stats table {
+  background-color: #1a1a1a;
+  color: #eee;
+  border-collapse: collapse;
+}
+
+#stats th,
+#stats td {
+  border: 1px solid #444;
+}
+
+/* Header row */
+#stats thead {
+  background-color: #222;
+}
+
+/* Row striping */
+#stats tbody tr:nth-child(even) {
+  background-color: #161616;
+}
+
+/* Inputs */
+#stats input {
+  background-color: #1a1a1a;
+  color: #fff;
+  border: 1px solid #555;
+}
+
+#stats input::placeholder {
+  color: #aaa;
+}
+
+/* Pagination buttons */
+#stats button {
+  background-color: #222;
+  color: #fff;
+  border: 1px solid #555;
+}
+
+#stats button.active {
+  background-color: #444;
+}
