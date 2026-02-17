@@ -1057,3 +1057,9 @@ th .num-range > input {
   border: 1px solid #444;
 }
 
+/* Fix row hover for dark Stats tab */
+
+#stats tbody tr:hover {
+  background-color: rgba(255,255,255,0.06) !important;
+}
+
