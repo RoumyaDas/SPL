@@ -1,47 +1,47 @@
 striker,batting_team,num_innings,50+_scores,runs,strike_rate,100+_scores
 V Suryavanshi,PBKS,14,7,614,158.66,0
-Abhishek Sharma,MI,14,6,738,205.57,1
+Abhishek Sharma,MI,15,6,783,205.51,1
 GJ Maxwell,DC,14,6,527,176.85,0
 CH Gayle,CSK,14,5,647,170.26,1
-PD Salt,RCB,14,5,554,173.67,1
+PD Salt,RCB,15,5,566,175.23,1
 SV Samson,GT,14,5,551,164.97,0
 SA Yadav,DC,14,5,425,166.02,0
 JP Inglis,GT,14,4,569,187.79,1
+PWH de Silva,RCB,14,4,521,195.13,0
 YBK Jaiswal,RR,13,4,498,180.43,1
-PWH de Silva,RCB,13,4,475,201.27,0
 Naman Dhir,GT,13,4,457,166.18,0
 Tarang Gohel,DC,13,4,449,169.43,0
 RG Sharma,KKR,14,4,419,172.43,1
 BM Duckett,SRH,12,4,407,164.11,0
+Salil Arora,RCB,12,3,529,190.97,1
 Tilak Varma,CSK,14,3,512,167.87,0
-Salil Arora,RCB,11,3,483,193.2,1
 KL Rahul,SRH,12,3,482,165.07,1
 Shubman Gill,LSG,14,3,478,171.33,0
 C Green,KKR,14,3,440,172.55,0
 Sameer Rizvi,LSG,13,3,427,210.34,0
 JC Buttler,LSG,13,3,383,146.18,0
 P Simran Singh,SRH,12,3,289,163.28,0
+Atharva Taide,MI,6,3,261,169.48,0
 FH Allen,PBKS,14,2,450,169.81,2
-N Pooran,MI,12,2,380,164.5,0
+N Pooran,MI,13,2,386,163.56,0
 V Kohli,RR,13,2,371,167.12,1
 J Fraser-McGurk,KKR,12,2,363,168.06,0
+Priyansh Arya,RCB,10,2,358,171.29,1
 Urvil Patel,MI,9,2,350,166.67,0
 MJ Owen,DC,14,2,343,162.56,0
 WG Jacks,LSG,14,2,341,137.5,0
-WL Madsen,MI,10,2,323,151.64,0
+WL Madsen,MI,11,2,336,152.04,0
 SP Narine,KKR,13,2,317,146.76,0
 Aniket Verma,RR,10,2,264,180.82,0
-JM Sharma,RCB,14,2,246,161.84,0
-Atharva Taide,MI,5,2,208,179.31,0
+JM Sharma,RCB,15,2,260,161.49,0
 VR Iyer,SRH,9,2,168,169.7,0
 AB de Villiers,RR,5,2,134,148.89,0
 N Sindhu,DC,14,1,365,173.81,0
 Kartik Sharma,SRH,13,1,356,191.4,0
 R Parag,GT,12,1,331,165.5,0
 SS Iyer,LSG,13,1,316,145.62,0
-Priyansh Arya,RCB,9,1,305,168.51,1
+AM Rahane,MI,12,1,277,143.52,0
 TP Ura,PBKS,10,1,264,163.98,0
-AM Rahane,MI,11,1,262,144.75,0
 Shashank Singh,PBKS,13,1,240,136.36,0
 Chirag Jani,CSK,11,1,182,175.0,0
 RD Gaikwad,GT,8,1,175,134.62,0
@@ -56,4 +56,4 @@ RD Rickelton,LSG,3,1,87,145.0,0
 Hassan Nawaz,RCB,6,1,87,117.57,0
 Usman Khan (2),CSK,2,1,81,158.82,0
 AA Kulkarni,GT,2,1,73,187.18,0
-RK Singh,MI,3,1,51,255.0,0
+RK Singh,MI,4,1,63,210.0,0
