@@ -1048,3 +1048,12 @@ th .num-range > input {
 #stats button.active {
   background-color: #444;
 }
+
+/* Fix unreadable column headers */
+
+#stats thead th {
+  background-color: #222 !important;
+  color: #fff !important;
+  border: 1px solid #444;
+}
+
