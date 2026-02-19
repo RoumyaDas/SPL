@@ -1,9 +1,9 @@
 bowler,num_innings,runs,balls,wkts,bowl_sr,bowl_eco,form_class,Curr_Tm
-Arshdeep Singh,10,393,236,26,9.08,9.99,Striker,LSG
-Noor Ahmad,10,304,235,25,9.4,7.76,Elite,MI
-H Ssenyondo,10,310,240,23,10.43,7.75,Elite,LSG
+Noor Ahmad,10,305,235,26,9.04,7.79,Elite,MI
 Imran Tahir,10,329,232,22,10.55,8.51,Elite,CSK
 NT Ellis,10,350,234,22,10.64,8.97,Elite,SRH
+Arshdeep Singh,10,394,236,22,10.73,10.02,Striker,LSG
+H Ssenyondo,10,317,240,21,11.43,7.92,Elite,LSG
 MA Starc,10,313,202,19,10.63,9.3,Striker,KKR
 AR Ramjani,10,281,214,18,11.89,7.88,Elite,PBKS
 AK Markram,10,289,203,18,11.28,8.54,Elite,DC
@@ -31,9 +31,9 @@ YS Chahal,10,329,214,13,16.46,9.22,Balanced,RCB
 A Nagwaswalla,10,355,228,13,17.54,9.34,Balanced,RR
 CV Varun,10,347,216,13,16.62,9.64,Balanced,PBKS
 Mohammad Ghazanfar,10,358,222,13,17.08,9.68,Balanced,SRH
-Shaheen Shah Afridi,10,424,240,13,18.46,10.6,Poor,MI
 Avesh Khan,10,397,217,13,16.69,10.98,Poor,GT
 SS Ghosh,10,333,182,13,14.0,10.98,Poor,MI
+Shaheen Shah Afridi,10,440,240,13,18.46,11.0,Poor,MI
 CH Gayle,10,292,158,13,12.15,11.09,Poor,CSK
 C Sakariya,10,380,240,12,20.0,9.5,Balanced,SRH
 Ashutosh Sharma,10,317,200,12,16.67,9.51,Balanced,RCB
@@ -48,11 +48,12 @@ Harshit Rana,10,322,219,11,19.91,8.82,Choker,KKR
 C Green,10,295,196,11,17.82,9.03,Balanced,KKR
 JJ Bumrah,10,349,222,11,20.18,9.43,Balanced,DC
 Naveen-ul-Haq,10,378,240,11,21.82,9.45,Balanced,SRH
-R Sai Kishore,10,418,234,11,21.27,10.72,Poor,MI
+R Sai Kishore,10,409,234,11,21.27,10.49,Balanced,MI
 Mayank Dagar,10,390,209,11,19.0,11.2,Poor,LSG
 Yuvraj Singh,10,391,198,11,18.0,11.85,Poor,CSK
 JN Loftie-Eaton,10,291,217,10,21.7,8.05,Choker,RR
 LI Meriwala,10,309,222,10,22.2,8.35,Choker,DC
+K Kartikeya,10,282,198,10,19.8,8.55,Choker,LSG
 Tanush Kotian,10,343,210,10,21.0,9.8,Balanced,CSK
 TA Boult,10,399,240,10,24.0,9.98,Balanced,MI
 DS Airee,10,298,175,10,17.5,10.22,Balanced,CSK
@@ -61,10 +62,11 @@ A Kamboj,10,382,216,10,21.6,10.61,Poor,GT
 V Nigam,10,410,228,10,22.8,10.79,Poor,GT
 Shadab Khan,10,244,192,9,21.33,7.62,Choker,SRH
 YK Pathan,10,271,204,9,22.67,7.97,Choker,KKR
+JM Coles,10,292,216,9,24.0,8.11,Choker,MI
 Utkarsh Singh,10,205,143,9,15.89,8.6,Elite,PBKS
 V Puthur,10,302,210,9,23.33,8.63,Choker,DC
 VG Arora,10,325,225,9,25.0,8.67,Poor,KKR
-K Kartikeya,10,297,198,9,22.0,9.0,Balanced,LSG
+WG Jacks,10,343,210,9,23.33,9.8,Balanced,LSG
 KH Pandya,10,363,216,9,24.0,10.08,Balanced,RR
 Sikandar Raza,10,303,180,9,20.0,10.1,Balanced,
 Ravi Bishnoi,10,376,209,9,23.22,10.79,Poor,GT
@@ -76,8 +78,8 @@ AR Patel,10,307,210,8,26.25,8.77,Poor,CSK
 SZ Mulani,10,285,192,8,24.0,8.91,Choker,LSG
 SP Narine,10,319,204,8,25.5,9.38,Poor,KKR
 S Lamichhane,10,342,217,8,27.12,9.46,Poor,DC
-WG Jacks,10,333,210,8,26.25,9.51,Poor,LSG
 Suryansh Shedge,10,361,216,8,27.0,10.03,Poor,CSK
+Mohammad Nabi,10,406,240,8,30.0,10.15,Poor,LSG
 TU Deshpande,10,379,216,8,27.0,10.53,Poor,MI
 HV Patel,10,411,234,8,29.25,10.54,Poor,GT
 M Siddharth,10,354,192,8,24.0,11.06,Poor,CSK
@@ -87,7 +89,6 @@ MJ Santner,10,305,200,7,28.57,9.15,Poor,KKR
 D Wiese,10,297,192,7,27.43,9.28,Poor,GT
 HR Shokeen,10,332,210,7,30.0,9.49,Poor,RR
 Naseem Shah,10,382,240,7,34.29,9.55,Poor,
-Mohammad Nabi,10,393,240,7,34.29,9.82,Poor,LSG
 GD Phillips,10,200,120,7,17.14,10.0,Balanced,GT
 Yash Thakur,10,374,210,7,30.0,10.69,Poor,MI
 BA Stokes,10,388,216,7,30.86,10.78,Poor,RR

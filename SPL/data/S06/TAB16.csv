@@ -1,13 +1,13 @@
 striker,batting_team,num_innings,50+_scores,runs,strike_rate,100+_scores
 V Suryavanshi,PBKS,14,7,614,158.66,0
-Abhishek Sharma,MI,15,6,783,205.51,1
+Abhishek Sharma,MI,16,6,805,204.31,1
 GJ Maxwell,DC,14,6,527,176.85,0
 CH Gayle,CSK,14,5,647,170.26,1
 PD Salt,RCB,15,5,566,175.23,1
 SV Samson,GT,14,5,551,164.97,0
 SA Yadav,DC,14,5,425,166.02,0
 JP Inglis,GT,14,4,569,187.79,1
-Shubman Gill,LSG,15,4,531,174.1,0
+Shubman Gill,LSG,16,4,551,173.27,0
 PWH de Silva,RCB,14,4,521,195.13,0
 YBK Jaiswal,RR,13,4,498,180.43,1
 C Green,KKR,15,4,490,170.14,0
@@ -18,29 +18,29 @@ BM Duckett,SRH,12,4,407,164.11,0
 Salil Arora,RCB,12,3,529,190.97,1
 Tilak Varma,CSK,14,3,512,167.87,0
 KL Rahul,SRH,12,3,482,165.07,1
-Sameer Rizvi,LSG,13,3,427,210.34,0
-JC Buttler,LSG,14,3,422,147.04,0
-WG Jacks,LSG,15,3,402,140.56,0
+N Pooran,MI,14,3,474,165.73,0
+JC Buttler,LSG,15,3,465,146.69,0
+Sameer Rizvi,LSG,14,3,447,207.91,0
+WG Jacks,LSG,16,3,402,139.58,0
 P Simran Singh,SRH,12,3,289,163.28,0
 Atharva Taide,MI,6,3,261,169.48,0
 FH Allen,PBKS,14,2,450,169.81,2
 J Fraser-McGurk,KKR,13,2,391,164.29,0
-N Pooran,MI,13,2,386,163.56,0
 V Kohli,RR,13,2,371,167.12,1
+Urvil Patel,MI,10,2,370,168.95,0
 SP Narine,KKR,14,2,360,150.63,0
 Priyansh Arya,RCB,10,2,358,171.29,1
-Urvil Patel,MI,9,2,350,166.67,0
 MJ Owen,DC,14,2,343,162.56,0
-WL Madsen,MI,11,2,336,152.04,0
+WL Madsen,MI,12,2,339,150.67,0
 Aniket Verma,RR,10,2,264,180.82,0
 JM Sharma,RCB,15,2,260,161.49,0
 VR Iyer,SRH,9,2,168,169.7,0
 AB de Villiers,RR,5,2,134,148.89,0
+SS Iyer,LSG,15,1,368,146.03,0
 N Sindhu,DC,14,1,365,173.81,0
 Kartik Sharma,SRH,13,1,356,191.4,0
 R Parag,GT,12,1,331,165.5,0
-SS Iyer,LSG,14,1,321,143.95,0
-AM Rahane,MI,12,1,277,143.52,0
+AM Rahane,MI,13,1,293,145.05,0
 TP Ura,PBKS,10,1,264,163.98,0
 Shashank Singh,PBKS,13,1,240,136.36,0
 Chirag Jani,CSK,11,1,182,175.0,0
@@ -49,8 +49,8 @@ GD Phillips,GT,7,1,160,202.53,0
 N Rana,PBKS,8,1,159,145.87,0
 HS Desai,CSK,6,1,153,150.0,0
 RM Patidar,KKR,7,1,147,165.17,0
+RD Rickelton,LSG,5,1,138,136.63,0
 MR Marsh,SRH,2,1,126,188.06,0
-RD Rickelton,LSG,4,1,125,156.25,0
 Tushar Raheja,SRH,4,1,114,134.12,0
 H Klaasen,CSK,3,1,89,139.06,0
 Hassan Nawaz,RCB,6,1,87,117.57,0
