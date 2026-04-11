@@ -1,131 +1,75 @@
-Date,Venue,Day,Team One,Team Two,num,Matchday,Spin:Pace,Spin,Pace,desc,Unnamed: 11
-2026-04-11,RCB,Sat,RCB,MI,1,1,34:66,34.0,66,Matchday 1 : #1 : Day - Sat : Venue - RCB : RCB v MI,"Matchday 1 : #1 : Day - Sat : Venue - RCB : RCB v MI
-Matchday 1 : #2 : Day - Sat : Venue - LSG : LSG v PBKS
-Matchday 1 : #3 : Day - Sat : Venue - KKR : KKR v CSK
-Matchday 1 : #4 : Day - Sat : Venue - GT : GT v DC
-Matchday 1 : #5 : Day - Sat : Venue - SRH : SRH v RR"
-2026-04-11,LSG,Sat,LSG,PBKS,2,1,35:65,35.0,65,Matchday 1 : #2 : Day - Sat : Venue - LSG : LSG v PBKS,
-2026-04-11,KKR,Sat,KKR,CSK,3,1,20:80,20.0,80,Matchday 1 : #3 : Day - Sat : Venue - KKR : KKR v CSK,
-2026-04-11,GT,Sat,GT,DC,4,1,59:41,59.0,41,Matchday 1 : #4 : Day - Sat : Venue - GT : GT v DC,
-2026-04-11,SRH,Sat,SRH,RR,5,1,55:45,55.0,45,Matchday 1 : #5 : Day - Sat : Venue - SRH : SRH v RR,
-2026-04-12,RCB,Sun,RCB,GT,6,2,:100,,100,Matchday 2 : #6 : Day - Sun : Venue - RCB : RCB v GT,"Matchday 2 : #6 : Day - Sun : Venue - RCB : RCB v GT
-Matchday 2 : #7 : Day - Sun : Venue - DC : DC v MI
-Matchday 2 : #8 : Day - Sun : Venue - LSG : LSG v KKR
-Matchday 2 : #9 : Day - Sun : Venue - RR : RR v PBKS
-Matchday 2 : #10 : Day - Sun : Venue - CSK : CSK v SRH"
-2026-04-12,DC,Sun,DC,MI,7,2,:100,,100,Matchday 2 : #7 : Day - Sun : Venue - DC : DC v MI,
-2026-04-12,LSG,Sun,LSG,KKR,8,2,:100,,100,Matchday 2 : #8 : Day - Sun : Venue - LSG : LSG v KKR,
-2026-04-12,RR,Sun,RR,PBKS,9,2,:100,,100,Matchday 2 : #9 : Day - Sun : Venue - RR : RR v PBKS,
-2026-04-12,CSK,Sun,CSK,SRH,10,2,:100,,100,Matchday 2 : #10 : Day - Sun : Venue - CSK : CSK v SRH,
-2026-04-18,MI,Sat,MI,KKR,11,3,:100,,100,Matchday 3 : #11 : Day - Sat : Venue - MI : MI v KKR,"Matchday 3 : #11 : Day - Sat : Venue - MI : MI v KKR
-Matchday 3 : #12 : Day - Sat : Venue - SRH : SRH v DC
-Matchday 3 : #13 : Day - Sat : Venue - PBKS : PBKS v GT
-Matchday 3 : #14 : Day - Sat : Venue - CSK : CSK v LSG
-Matchday 3 : #15 : Day - Sat : Venue - RR : RR v RCB"
-2026-04-18,SRH,Sat,SRH,DC,12,3,:100,,100,Matchday 3 : #12 : Day - Sat : Venue - SRH : SRH v DC,
-2026-04-18,PBKS,Sat,PBKS,GT,13,3,:100,,100,Matchday 3 : #13 : Day - Sat : Venue - PBKS : PBKS v GT,
-2026-04-18,CSK,Sat,CSK,LSG,14,3,:100,,100,Matchday 3 : #14 : Day - Sat : Venue - CSK : CSK v LSG,
-2026-04-18,RR,Sat,RR,RCB,15,3,:100,,100,Matchday 3 : #15 : Day - Sat : Venue - RR : RR v RCB,
-2026-04-19,GT,Sun,GT,MI,16,4,:100,,100,Matchday 4 : #16 : Day - Sun : Venue - GT : GT v MI,"Matchday 4 : #16 : Day - Sun : Venue - GT : GT v MI
-Matchday 4 : #17 : Day - Sun : Venue - KKR : KKR v PBKS
-Matchday 4 : #18 : Day - Sun : Venue - CSK : CSK v DC
-Matchday 4 : #19 : Day - Sun : Venue - SRH : SRH v LSG
-Matchday 4 : #20 : Day - Sun : Venue - RCB : RCB v RR"
-2026-04-19,KKR,Sun,KKR,PBKS,17,4,:100,,100,Matchday 4 : #17 : Day - Sun : Venue - KKR : KKR v PBKS,
-2026-04-19,CSK,Sun,CSK,DC,18,4,:100,,100,Matchday 4 : #18 : Day - Sun : Venue - CSK : CSK v DC,
-2026-04-19,SRH,Sun,SRH,LSG,19,4,:100,,100,Matchday 4 : #19 : Day - Sun : Venue - SRH : SRH v LSG,
-2026-04-19,RCB,Sun,RCB,RR,20,4,:100,,100,Matchday 4 : #20 : Day - Sun : Venue - RCB : RCB v RR,
-2026-04-25,DC,Sat,DC,RCB,21,5,:100,,100,Matchday 5 : #21 : Day - Sat : Venue - DC : DC v RCB,"Matchday 5 : #21 : Day - Sat : Venue - DC : DC v RCB
-Matchday 5 : #22 : Day - Sat : Venue - GT : GT v SRH
-Matchday 5 : #23 : Day - Sat : Venue - PBKS : PBKS v MI
-Matchday 5 : #24 : Day - Sat : Venue - LSG : LSG v CSK
-Matchday 5 : #25 : Day - Sat : Venue - KKR : KKR v RR"
-2026-04-25,GT,Sat,GT,SRH,22,5,:100,,100,Matchday 5 : #22 : Day - Sat : Venue - GT : GT v SRH,
-2026-04-25,PBKS,Sat,PBKS,MI,23,5,:100,,100,Matchday 5 : #23 : Day - Sat : Venue - PBKS : PBKS v MI,
-2026-04-25,LSG,Sat,LSG,CSK,24,5,:100,,100,Matchday 5 : #24 : Day - Sat : Venue - LSG : LSG v CSK,
-2026-04-25,KKR,Sat,KKR,RR,25,5,:100,,100,Matchday 5 : #25 : Day - Sat : Venue - KKR : KKR v RR,
-2026-04-26,DC,Sun,DC,PBKS,26,6,:100,,100,Matchday 6 : #26 : Day - Sun : Venue - DC : DC v PBKS,"Matchday 6 : #26 : Day - Sun : Venue - DC : DC v PBKS
-Matchday 6 : #27 : Day - Sun : Venue - RCB : RCB v CSK
-Matchday 6 : #28 : Day - Sun : Venue - KKR : KKR v GT
-Matchday 6 : #29 : Day - Sun : Venue - LSG : LSG v RR
-Matchday 6 : #30 : Day - Sun : Venue - MI : MI v SRH"
-2026-04-26,RCB,Sun,RCB,CSK,27,6,:100,,100,Matchday 6 : #27 : Day - Sun : Venue - RCB : RCB v CSK,
-2026-04-26,KKR,Sun,KKR,GT,28,6,:100,,100,Matchday 6 : #28 : Day - Sun : Venue - KKR : KKR v GT,
-2026-04-26,LSG,Sun,LSG,RR,29,6,:100,,100,Matchday 6 : #29 : Day - Sun : Venue - LSG : LSG v RR,
-2026-04-26,MI,Sun,MI,SRH,30,6,:100,,100,Matchday 6 : #30 : Day - Sun : Venue - MI : MI v SRH,
-2026-05-01,SRH,Fri,SRH,RCB,31,7,:100,,100,Matchday 7 : #31 : Day - Fri : Venue - SRH : SRH v RCB,"Matchday 7 : #31 : Day - Fri : Venue - SRH : SRH v RCB
-Matchday 7 : #32 : Day - Fri : Venue - GT : GT v KKR
-Matchday 7 : #33 : Day - Fri : Venue - MI : MI v PBKS
-Matchday 7 : #34 : Day - Fri : Venue - DC : DC v CSK
-Matchday 7 : #35 : Day - Fri : Venue - RR : RR v LSG"
-2026-05-01,GT,Fri,GT,KKR,32,7,:100,,100,Matchday 7 : #32 : Day - Fri : Venue - GT : GT v KKR,
-2026-05-01,MI,Fri,MI,PBKS,33,7,:100,,100,Matchday 7 : #33 : Day - Fri : Venue - MI : MI v PBKS,
-2026-05-01,DC,Fri,DC,CSK,34,7,:100,,100,Matchday 7 : #34 : Day - Fri : Venue - DC : DC v CSK,
-2026-05-01,RR,Fri,RR,LSG,35,7,:100,,100,Matchday 7 : #35 : Day - Fri : Venue - RR : RR v LSG,
-2026-05-02,CSK,Sat,CSK,RCB,36,8,:100,,100,Matchday 8 : #36 : Day - Sat : Venue - CSK : CSK v RCB,"Matchday 8 : #36 : Day - Sat : Venue - CSK : CSK v RCB
-Matchday 8 : #37 : Day - Sat : Venue - SRH : SRH v KKR
-Matchday 8 : #38 : Day - Sat : Venue - LSG : LSG v DC
-Matchday 8 : #39 : Day - Sat : Venue - MI : MI v GT
-Matchday 8 : #40 : Day - Sat : Venue - PBKS : PBKS v RR"
-2026-05-02,SRH,Sat,SRH,KKR,37,8,:100,,100,Matchday 8 : #37 : Day - Sat : Venue - SRH : SRH v KKR,
-2026-05-02,LSG,Sat,LSG,DC,38,8,:100,,100,Matchday 8 : #38 : Day - Sat : Venue - LSG : LSG v DC,
-2026-05-02,MI,Sat,MI,GT,39,8,:100,,100,Matchday 8 : #39 : Day - Sat : Venue - MI : MI v GT,
-2026-05-02,PBKS,Sat,PBKS,RR,40,8,:100,,100,Matchday 8 : #40 : Day - Sat : Venue - PBKS : PBKS v RR,
-2026-05-03,MI,Sun,MI,RCB,41,9,:100,,100,Matchday 9 : #41 : Day - Sun : Venue - MI : MI v RCB,"Matchday 9 : #41 : Day - Sun : Venue - MI : MI v RCB
-Matchday 9 : #42 : Day - Sun : Venue - KKR : KKR v LSG
-Matchday 9 : #43 : Day - Sun : Venue - CSK : CSK v PBKS
-Matchday 9 : #44 : Day - Sun : Venue - DC : DC v SRH
-Matchday 9 : #45 : Day - Sun : Venue - GT : GT v RR"
-2026-05-03,KKR,Sun,KKR,LSG,42,9,:100,,100,Matchday 9 : #42 : Day - Sun : Venue - KKR : KKR v LSG,
-2026-05-03,CSK,Sun,CSK,PBKS,43,9,:100,,100,Matchday 9 : #43 : Day - Sun : Venue - CSK : CSK v PBKS,
-2026-05-03,DC,Sun,DC,SRH,44,9,:100,,100,Matchday 9 : #44 : Day - Sun : Venue - DC : DC v SRH,
-2026-05-03,GT,Sun,GT,RR,45,9,:100,,100,Matchday 9 : #45 : Day - Sun : Venue - GT : GT v RR,
-2026-05-09,RCB,Sat,RCB,KKR,46,10,:100,,100,Matchday 10 : #46 : Day - Sat : Venue - RCB : RCB v KKR,"Matchday 10 : #46 : Day - Sat : Venue - RCB : RCB v KKR
-Matchday 10 : #47 : Day - Sat : Venue - SRH : SRH v PBKS
-Matchday 10 : #48 : Day - Sat : Venue - MI : MI v LSG
-Matchday 10 : #49 : Day - Sat : Venue - RR : RR v DC
-Matchday 10 : #50 : Day - Sat : Venue - CSK : CSK v GT"
-2026-05-09,SRH,Sat,SRH,PBKS,47,10,:100,,100,Matchday 10 : #47 : Day - Sat : Venue - SRH : SRH v PBKS,
-2026-05-09,MI,Sat,MI,LSG,48,10,:100,,100,Matchday 10 : #48 : Day - Sat : Venue - MI : MI v LSG,
-2026-05-09,RR,Sat,RR,DC,49,10,:100,,100,Matchday 10 : #49 : Day - Sat : Venue - RR : RR v DC,
-2026-05-09,CSK,Sat,CSK,GT,50,10,:100,,100,Matchday 10 : #50 : Day - Sat : Venue - CSK : CSK v GT,
-2026-05-10,RR,Sun,RR,GT,51,11,:100,,100,Matchday 11 : #51 : Day - Sun : Venue - RR : RR v GT,"Matchday 11 : #51 : Day - Sun : Venue - RR : RR v GT
-Matchday 11 : #52 : Day - Sun : Venue - LSG : LSG v SRH
-Matchday 11 : #53 : Day - Sun : Venue - PBKS : PBKS v RCB
-Matchday 11 : #54 : Day - Sun : Venue - CSK : CSK v MI
-Matchday 11 : #55 : Day - Sun : Venue - DC : DC v KKR"
-2026-05-10,LSG,Sun,LSG,SRH,52,11,:100,,100,Matchday 11 : #52 : Day - Sun : Venue - LSG : LSG v SRH,
-2026-05-10,PBKS,Sun,PBKS,RCB,53,11,:100,,100,Matchday 11 : #53 : Day - Sun : Venue - PBKS : PBKS v RCB,
-2026-05-10,CSK,Sun,CSK,MI,54,11,:100,,100,Matchday 11 : #54 : Day - Sun : Venue - CSK : CSK v MI,
-2026-05-10,DC,Sun,DC,KKR,55,11,:100,,100,Matchday 11 : #55 : Day - Sun : Venue - DC : DC v KKR,
-2026-05-16,GT,Sat,GT,LSG,56,12,:100,,100,Matchday 12 : #56 : Day - Sat : Venue - GT : GT v LSG,"Matchday 12 : #56 : Day - Sat : Venue - GT : GT v LSG
-Matchday 12 : #57 : Day - Sat : Venue - RR : RR v MI
-Matchday 12 : #58 : Day - Sat : Venue - PBKS : PBKS v CSK
-Matchday 12 : #59 : Day - Sat : Venue - KKR : KKR v DC
-Matchday 12 : #60 : Day - Sat : Venue - RCB : RCB v SRH"
-2026-05-16,RR,Sat,RR,MI,57,12,:100,,100,Matchday 12 : #57 : Day - Sat : Venue - RR : RR v MI,
-2026-05-16,PBKS,Sat,PBKS,CSK,58,12,:100,,100,Matchday 12 : #58 : Day - Sat : Venue - PBKS : PBKS v CSK,
-2026-05-16,KKR,Sat,KKR,DC,59,12,:100,,100,Matchday 12 : #59 : Day - Sat : Venue - KKR : KKR v DC,
-2026-05-16,RCB,Sat,RCB,SRH,60,12,:100,,100,Matchday 12 : #60 : Day - Sat : Venue - RCB : RCB v SRH,
-2026-05-17,GT,Sun,GT,CSK,61,13,:100,,100,Matchday 13 : #61 : Day - Sun : Venue - GT : GT v CSK,"Matchday 13 : #61 : Day - Sun : Venue - GT : GT v CSK
-Matchday 13 : #62 : Day - Sun : Venue - LSG : LSG v MI
-Matchday 13 : #63 : Day - Sun : Venue - PBKS : PBKS v SRH
-Matchday 13 : #64 : Day - Sun : Venue - KKR : KKR v RCB
-Matchday 13 : #65 : Day - Sun : Venue - DC : DC v RR"
-2026-05-17,LSG,Sun,LSG,MI,62,13,:100,,100,Matchday 13 : #62 : Day - Sun : Venue - LSG : LSG v MI,
-2026-05-17,PBKS,Sun,PBKS,SRH,63,13,:100,,100,Matchday 13 : #63 : Day - Sun : Venue - PBKS : PBKS v SRH,
-2026-05-17,KKR,Sun,KKR,RCB,64,13,:100,,100,Matchday 13 : #64 : Day - Sun : Venue - KKR : KKR v RCB,
-2026-05-17,DC,Sun,DC,RR,65,13,:100,,100,Matchday 13 : #65 : Day - Sun : Venue - DC : DC v RR,
-2026-05-23,RR,Sat,RR,CSK,66,14,:100,,100,Matchday 14 : #66 : Day - Sat : Venue - RR : RR v CSK,"Matchday 14 : #66 : Day - Sat : Venue - RR : RR v CSK
-Matchday 14 : #67 : Day - Sat : Venue - MI : MI v DC
-Matchday 14 : #68 : Day - Sat : Venue - SRH : SRH v GT
-Matchday 14 : #69 : Day - Sat : Venue - RCB : RCB v LSG
-Matchday 14 : #70 : Day - Sat : Venue - PBKS : PBKS v KKR"
-2026-05-23,MI,Sat,MI,DC,67,14,:100,,100,Matchday 14 : #67 : Day - Sat : Venue - MI : MI v DC,
-2026-05-23,SRH,Sat,SRH,GT,68,14,:100,,100,Matchday 14 : #68 : Day - Sat : Venue - SRH : SRH v GT,
-2026-05-23,RCB,Sat,RCB,LSG,69,14,:100,,100,Matchday 14 : #69 : Day - Sat : Venue - RCB : RCB v LSG,
-2026-05-23,PBKS,Sat,PBKS,KKR,70,14,:100,,100,Matchday 14 : #70 : Day - Sat : Venue - PBKS : PBKS v KKR,
-2026-05-25,MI,Mon,,,71,15,:100,,100,Matchday 15 : #71 : Day - Mon : Venue - MI :  v ,
-2026-05-26,MI,Tue,,,72,16,:100,,100,Matchday 16 : #72 : Day - Tue : Venue - MI :  v ,
-2026-05-28,RCB,Thu,,,73,17,:100,,100,Matchday 17 : #73 : Day - Thu : Venue - RCB :  v ,
-2026-05-30,RCB,Sat,,,74,18,:100,,100,Matchday 18 : #74 : Day - Sat : Venue - RCB :  v ,
+Date,Venue,Day,Team One,Team Two,num,Matchday
+2026-04-11,RCB,Sat,RCB,MI,1,1
+2026-04-11,LSG,Sat,LSG,PBKS,2,1
+2026-04-11,KKR,Sat,KKR,CSK,3,1
+2026-04-11,GT,Sat,GT,DC,4,1
+2026-04-11,SRH,Sat,SRH,RR,5,1
+2026-04-12,RCB,Sun,RCB,GT,6,2
+2026-04-12,DC,Sun,DC,MI,7,2
+2026-04-12,LSG,Sun,LSG,KKR,8,2
+2026-04-12,RR,Sun,RR,PBKS,9,2
+2026-04-12,CSK,Sun,CSK,SRH,10,2
+2026-04-18,MI,Sat,MI,KKR,11,3
+2026-04-18,SRH,Sat,SRH,DC,12,3
+2026-04-18,PBKS,Sat,PBKS,GT,13,3
+2026-04-18,CSK,Sat,CSK,LSG,14,3
+2026-04-18,RR,Sat,RR,RCB,15,3
+2026-04-19,GT,Sun,GT,MI,16,4
+2026-04-19,KKR,Sun,KKR,PBKS,17,4
+2026-04-19,CSK,Sun,CSK,DC,18,4
+2026-04-19,SRH,Sun,SRH,LSG,19,4
+2026-04-19,RCB,Sun,RCB,RR,20,4
+2026-04-25,DC,Sat,DC,RCB,21,5
+2026-04-25,GT,Sat,GT,SRH,22,5
+2026-04-25,PBKS,Sat,PBKS,MI,23,5
+2026-04-25,LSG,Sat,LSG,CSK,24,5
+2026-04-25,KKR,Sat,KKR,RR,25,5
+2026-04-26,DC,Sun,DC,PBKS,26,6
+2026-04-26,RCB,Sun,RCB,CSK,27,6
+2026-04-26,KKR,Sun,KKR,GT,28,6
+2026-04-26,LSG,Sun,LSG,RR,29,6
+2026-04-26,MI,Sun,MI,SRH,30,6
+2026-05-01,SRH,Fri,SRH,RCB,31,7
+2026-05-01,GT,Fri,GT,KKR,32,7
+2026-05-01,MI,Fri,MI,PBKS,33,7
+2026-05-01,DC,Fri,DC,CSK,34,7
+2026-05-01,RR,Fri,RR,LSG,35,7
+2026-05-02,CSK,Sat,CSK,RCB,36,8
+2026-05-02,SRH,Sat,SRH,KKR,37,8
+2026-05-02,LSG,Sat,LSG,DC,38,8
+2026-05-02,MI,Sat,MI,GT,39,8
+2026-05-02,PBKS,Sat,PBKS,RR,40,8
+2026-05-03,MI,Sun,MI,RCB,41,9
+2026-05-03,KKR,Sun,KKR,LSG,42,9
+2026-05-03,CSK,Sun,CSK,PBKS,43,9
+2026-05-03,DC,Sun,DC,SRH,44,9
+2026-05-03,GT,Sun,GT,RR,45,9
+2026-05-09,RCB,Sat,RCB,KKR,46,10
+2026-05-09,SRH,Sat,SRH,PBKS,47,10
+2026-05-09,MI,Sat,MI,LSG,48,10
+2026-05-09,RR,Sat,RR,DC,49,10
+2026-05-09,CSK,Sat,CSK,GT,50,10
+2026-05-10,RR,Sun,RR,GT,51,11
+2026-05-10,LSG,Sun,LSG,SRH,52,11
+2026-05-10,PBKS,Sun,PBKS,RCB,53,11
+2026-05-10,CSK,Sun,CSK,MI,54,11
+2026-05-10,DC,Sun,DC,KKR,55,11
+2026-05-16,GT,Sat,GT,LSG,56,12
+2026-05-16,RR,Sat,RR,MI,57,12
+2026-05-16,PBKS,Sat,PBKS,CSK,58,12
+2026-05-16,KKR,Sat,KKR,DC,59,12
+2026-05-16,RCB,Sat,RCB,SRH,60,12
+2026-05-17,GT,Sun,GT,CSK,61,13
+2026-05-17,LSG,Sun,LSG,MI,62,13
+2026-05-17,PBKS,Sun,PBKS,SRH,63,13
+2026-05-17,KKR,Sun,KKR,RCB,64,13
+2026-05-17,DC,Sun,DC,RR,65,13
+2026-05-23,RR,Sat,RR,CSK,66,14
+2026-05-23,MI,Sat,MI,DC,67,14
+2026-05-23,SRH,Sat,SRH,GT,68,14
+2026-05-23,RCB,Sat,RCB,LSG,69,14
+2026-05-23,PBKS,Sat,PBKS,KKR,70,14
+2026-05-25,MI,Mon,,,71,15
+2026-05-26,MI,Tue,,,72,16
+2026-05-28,RCB,Thu,,,73,17
+2026-05-30,RCB,Sat,,,74,18
