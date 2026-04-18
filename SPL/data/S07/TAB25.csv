@@ -1,36 +1,53 @@
 partners,batting_team,runs,balls,outs,fours,sixes,SR,Bat_avg,bpb
-GJ Maxwell  - Tarang Gohel,DC,235,126,2,30,7,186.51,117.5,3.41
+GJ Maxwell  - Tarang Gohel,DC,261,140,3,34,7,186.43,87.0,3.41
+JP Inglis  - Naman Dhir,GT,220,122,3,28,6,180.33,73.33,3.59
 Atharva Taide  - CH Gayle,RCB,185,103,0,20,5,179.61,inf,4.12
-JP Inglis  - Naman Dhir,GT,170,88,2,18,6,193.18,85.0,3.67
+N Sindhu  - SA Yadav,DC,176,81,1,13,9,217.28,176.0,3.68
+RM Patidar  - Salil Arora,RCB,137,57,1,15,7,240.35,137.0,2.59
+MW Short  - P Simran Singh,SRH,133,94,3,14,4,141.49,44.33,5.22
+B Sai Sudharsan  - Tilak Varma,CSK,129,75,3,11,3,172.0,43.0,5.36
 N Rana  - V Suryavanshi,PBKS,124,89,1,6,5,139.33,124.0,8.09
 B Sai Sudharsan  - KK Nair,CSK,123,72,1,9,5,170.83,123.0,5.14
-Abhishek Sharma  - Urvil Patel,MI,105,56,2,15,2,187.5,52.5,3.29
+KL Rahul  - VR Iyer,SRH,120,67,2,14,2,179.1,60.0,4.19
+PD Salt  - S Dube,RR,114,80,2,13,2,142.5,57.0,5.33
+KL Rahul  - Kartik Sharma,SRH,110,57,2,6,7,192.98,55.0,4.38
+Abhishek Sharma  - Urvil Patel,MI,107,59,3,15,2,181.36,35.67,3.47
 JM Sharma  - RM Patidar,RCB,103,38,1,12,6,271.05,103.0,2.11
-N Sindhu  - SA Yadav,DC,102,38,0,7,7,268.42,inf,2.71
-B Sai Sudharsan  - Tilak Varma,CSK,100,58,2,6,3,172.41,50.0,6.44
+TP Ura  - V Suryavanshi,PBKS,94,54,1,6,3,174.07,94.0,6.0
 FH Allen  - WG Jacks,LSG,93,62,1,6,3,150.0,93.0,6.89
 P Simran Singh  - VR Iyer,SRH,86,34,0,5,7,252.94,inf,2.83
+RG Sharma  - Rohan Kunnummal,KKR,84,47,1,7,5,178.72,84.0,3.92
+Naman Dhir  - R Parag,GT,81,56,2,4,2,144.64,40.5,9.33
+Aniket Verma  - GD Phillips,RR,81,34,2,9,4,238.24,40.5,2.62
+Smaran Ravichandran  - Urvil Patel,MI,78,47,1,3,3,165.96,78.0,7.83
 C Green  - Ishan Kishan,KKR,78,49,1,6,3,159.18,78.0,5.44
-MW Short  - P Simran Singh,SRH,78,64,2,8,2,121.88,39.0,6.4
 Aniket Verma  - S Dube,RR,74,50,1,4,2,148.0,74.0,8.33
 DR Mousley  - Tejaswi Dahiya,LSG,72,50,1,5,4,144.0,72.0,5.56
 SS Iyer  - Smaran Ravichandran,MI,70,38,1,7,1,184.21,70.0,4.75
+SP Narine  - V Suryavanshi,PBKS,67,43,2,7,4,155.81,33.5,3.91
 GD Phillips  - S Dube,RR,64,24,0,7,4,266.67,inf,2.18
-KL Rahul  - VR Iyer,SRH,63,32,1,7,2,196.88,63.0,3.56
-KL Rahul  - Kartik Sharma,SRH,60,38,1,3,3,157.89,60.0,6.33
-SP Narine  - V Suryavanshi,PBKS,59,34,1,7,3,173.53,59.0,3.4
-RM Patidar  - Salil Arora,RCB,55,23,1,7,2,239.13,55.0,2.56
+Ishan Kishan  - Rohan Kunnummal,KKR,64,46,1,6,3,139.13,64.0,5.11
+Abhishek Pathak  - Priyansh Arya,RCB,62,40,1,9,2,155.0,62.0,3.64
+Tushar Raheja  - Urvil Patel,MI,58,39,1,9,1,148.72,58.0,3.9
+SA Yadav  - Tarang Gohel,DC,57,36,2,6,2,158.33,28.5,4.5
 Priyansh Arya  - Salil Arora,RCB,54,35,1,9,0,154.29,54.0,3.89
+KL Rahul  - MW Short,SRH,53,36,2,4,2,147.22,26.5,6.0
+AB de Villiers  - H Klaasen,CSK,50,26,1,2,3,192.31,50.0,5.2
+Naman Dhir  - Nithish Kumar Reddy,GT,50,37,1,3,1,135.14,50.0,9.25
+Shubman Gill  - WG Jacks,LSG,49,29,1,6,1,168.97,49.0,4.14
 KL Rahul  - P Simran Singh,SRH,46,24,1,3,2,191.67,46.0,4.8
 C Green  - RG Sharma,KKR,45,24,2,3,3,187.5,22.5,4.0
-JP Inglis  - SV Samson,GT,43,25,2,6,1,172.0,21.5,3.57
-N Pooran  - Smaran Ravichandran,MI,43,32,1,2,1,134.38,43.0,10.67
 RG Sharma  - Ramandeep Singh,KKR,43,22,1,5,2,195.45,43.0,3.14
+JP Inglis  - SV Samson,GT,43,26,3,6,1,165.38,14.33,3.71
+N Pooran  - Smaran Ravichandran,MI,43,32,1,2,1,134.38,43.0,10.67
+DR Mousley  - Shubman Gill,LSG,41,21,1,2,4,195.24,41.0,3.5
+PWH de Silva  - Salil Arora,RCB,39,20,1,3,2,195.0,39.0,4.0
 Ashutosh Sharma  - V Nigam,GT,39,25,1,4,1,156.0,39.0,5.0
+Abhishek Pathak  - PWH de Silva,RCB,37,26,1,4,0,142.31,37.0,6.5
 TM Head  - Tilak Varma,CSK,37,31,1,4,0,119.35,37.0,7.75
-PD Salt  - S Dube,RR,36,25,1,5,0,144.0,36.0,5.0
+KK Nair  - RD Gaikwad,CSK,36,27,1,4,0,133.33,36.0,6.75
+H Klaasen  - RD Gaikwad,CSK,34,26,1,0,2,130.77,34.0,13.0
 DR Mousley  - FH Allen,LSG,33,23,1,6,0,143.48,33.0,3.83
-Naman Dhir  - R Parag,GT,31,24,1,1,0,129.17,31.0,24.0
 Shashank Singh  - T Stubbs,PBKS,31,27,0,2,2,114.81,inf,6.75
 MR Marsh  - Urvil Patel,MI,29,23,1,2,2,126.09,29.0,5.75
-KL Rahul  - MW Short,SRH,27,20,1,4,0,135.0,27.0,5.0
+SS Iyer  - Urvil Patel,MI,27,21,2,1,1,128.57,13.5,10.5
