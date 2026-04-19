@@ -1,31 +1,37 @@
 striker,batting_team,num_innings,50+_scores,runs,strike_rate,100+_scores
-KL Rahul,SRH,3,2,175,169.9,0
-Naman Dhir,GT,3,2,171,159.81,0
-V Suryavanshi,PBKS,3,2,166,159.62,0
-B Sai Sudharsan,CSK,3,2,155,161.46,0
-SA Yadav,DC,3,2,133,211.11,0
-GJ Maxwell,DC,3,2,132,194.12,0
-JP Inglis,GT,3,1,162,197.56,0
-Tarang Gohel,DC,3,1,154,154.0,0
-RM Patidar,RCB,2,1,151,260.34,1
-N Sindhu,DC,3,1,140,202.9,0
-VR Iyer,SRH,3,1,132,235.71,0
-Urvil Patel,MI,3,1,131,142.39,0
-S Dube,RR,3,1,130,173.33,0
-CH Gayle,RCB,2,1,125,211.86,1
-Salil Arora,RCB,2,1,107,205.77,0
-Shubman Gill,LSG,3,1,107,205.77,0
-Tilak Varma,CSK,3,1,97,176.36,0
-P Simran Singh,SRH,3,1,95,135.71,0
-C Green,KKR,3,1,92,148.39,0
-FH Allen,LSG,2,1,90,163.64,0
-DR Mousley,LSG,2,1,89,150.85,0
-Rohan Kunnummal,KKR,1,1,85,163.46,0
-Abhishek Sharma,MI,3,1,81,188.37,0
-KK Nair,CSK,2,1,79,161.22,0
+KL Rahul,SRH,4,3,242,170.42,0
+B Sai Sudharsan,CSK,4,3,220,148.65,0
+SA Yadav,DC,4,3,201,216.13,0
+Naman Dhir,GT,4,2,213,158.96,0
+Shubman Gill,LSG,4,2,180,189.47,0
+P Simran Singh,SRH,4,2,169,148.25,0
+V Suryavanshi,PBKS,4,2,166,158.1,0
+Tilak Varma,CSK,4,2,149,181.71,0
+GJ Maxwell,DC,4,2,133,187.32,0
+Tarang Gohel,DC,4,1,193,147.33,0
+JP Inglis,GT,4,1,171,183.87,0
+Urvil Patel,MI,4,1,171,140.16,0
+RM Patidar,RCB,3,1,152,253.33,1
+R Parag,GT,4,1,145,198.63,0
+S Dube,RR,4,1,145,162.92,0
+GD Phillips,RR,4,1,144,194.59,0
+VR Iyer,SRH,4,1,142,221.88,0
+N Sindhu,DC,4,1,142,197.22,0
+CH Gayle,RCB,3,1,135,207.69,1
+PWH de Silva,RCB,3,1,125,186.57,0
+Rohan Kunnummal,KKR,2,1,122,167.12,0
+Salil Arora,RCB,3,1,120,203.39,0
+KK Nair,CSK,3,1,118,159.46,0
+FH Allen,LSG,3,1,115,159.72,0
+Abhishek Sharma,MI,4,1,114,196.55,0
+WG Jacks,LSG,4,1,114,118.75,0
+N Rana,PBKS,2,1,110,139.24,0
+DR Mousley,LSG,3,1,105,154.41,0
+SS Iyer,MI,4,1,103,171.67,0
+C Green,KKR,4,1,92,146.03,0
+PD Salt,RR,4,1,90,118.42,0
+Abhishek Pathak,RCB,2,1,87,152.63,0
+SV Samson,GT,4,1,83,202.44,0
 Atharva Taide,RCB,1,1,77,148.08,0
-N Rana,PBKS,1,1,74,145.1,0
-PD Salt,RR,3,1,70,116.67,0
 TP Ura,PBKS,2,1,68,194.29,0
-SS Iyer,MI,3,1,65,162.5,0
-Abhishek Pathak,RCB,1,1,54,142.11,0
+RR Rossouw,PBKS,1,1,57,142.5,0
