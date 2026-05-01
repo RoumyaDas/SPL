@@ -1,0 +1,120 @@
+Match between MI and GT !! 
+Venue -- MI
+match about to begin
+
+          
+innings 1
+first inning begins
+MI BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+
+          
+
+ bowler | runs | balls | wkts | dots | economy | points 
+
+ Abhishek Tanwar | 55 | 24 | 3 | 7 | 13.75 | 74 
+
+ JR Hazlewood | 36 | 24 | 2 | 6 | 9.0 | 51 
+
+ Taskin Ahmed | 33 | 24 | 1 | 8 | 8.25 | 27 
+
+ MR Marsh | 39 | 24 | 0 | 8 | 9.75 | 2 
+
+ Ehsan Khan | 43 | 24 | 0 | 3 | 10.75 | -1 
+
+          
+Extras = 5
+          
+----------
+GT BATTING --
+^^^^^^^^^^^^^^^^^^^^
+
+          
+
+ player | wicket_event | runs | balls | strike_rate | 4s_6s 
+
+ JP Inglis | C Tushar Raheja B Taskin Ahmed | 0 | 2 | 0.0 | 4s = 0, 6s = 0 
+
+ SV Samson | C Tushar Raheja B Abhishek Tanwar | 21 | 14 | 150.0 | 4s = 3, 6s = 1 
+
+ Naman Dhir | C Tushar Raheja B Abhishek Tanwar | 76 | 47 | 161.7 | 4s = 9, 6s = 1 
+
+ TH David | LBW Abhishek Tanwar | 22 | 5 | 440.0 | 4s = 1, 6s = 3 
+
+ R Parag | Hit-Wicket | 21 | 18 | 116.67 | 4s = 1, 6s = 1 
+
+ RK Singh | LBW JR Hazlewood | 9 | 7 | 128.57 | 4s = 1, 6s = 0 
+
+ Ashutosh Sharma | Not Out | 11 | 10 | 110.0 | 4s = 1, 6s = 0 
+
+ V Nigam | Not Out | 42 | 17 | 247.06 | 4s = 3, 6s = 4 
+
+
+          
+
+          
+Score :: 207-6  (20.0), run-rate = 10.35
+******************************
+******************************
+
+          
+
+          
+innings 2
+second inning begins
+GT BOWLING ---
+^^^^^^^^^^^^^^^^^^^^
+
+          
+
+ bowler | runs | balls | wkts | dots | economy | points 
+
+ B Muzarabani | 44 | 24 | 2 | 7 | 11.0 | 49 
+
+ Ashutosh Sharma | 35 | 24 | 1 | 8 | 8.75 | 27 
+
+ Harshit Rana | 44 | 24 | 1 | 6 | 11.0 | 24 
+
+ Mangesh Yadav | 43 | 24 | 0 | 4 | 10.75 | -1 
+
+ V Nigam | 41 | 20 | 0 | 1 | 12.3 | -5 
+
+          
+Extras = 6
+
+          
+----------
+MI BATTING --
+^^^^^^^^^^^^^^^^^^^^
+
+          
+
+ player | wicket_event | runs | balls | strike_rate | 4s_6s 
+
+ Tushar Raheja | Bo Harshit Rana | 40 | 29 | 137.93 | 4s = 4, 6s = 1 
+
+ Urvil Patel | C JP Inglis B Ashutosh Sharma | 42 | 36 | 116.67 | 4s = 4, 6s = 0 
+
+ Abhishek Sharma | Not Out | 76 | 35 | 217.14 | 4s = 10, 6s = 2 
+
+ MR Marsh | C SV Samson B B Muzarabani | 37 | 14 | 264.29 | 4s = 3, 6s = 3 
+
+ Smaran Ravichandran | Bo B Muzarabani | 7 | 3 | 233.33 | 4s = 0, 6s = 1 
+
+
+          
+          
+
+          
+Score :: 208-4  (19.2), run-rate = 10.76
+******************************
+******************************
+
+          
+match ends
+
+MI wins!!
+******************************
+          
+          
+The Player of the Match is ~~ Abhishek Sharma
