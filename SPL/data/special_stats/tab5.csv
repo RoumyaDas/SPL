@@ -59,7 +59,7 @@ HH Pandya,top,1196,729,27,9.84,27.0,SRH
 PWH de Silva,middle,962,600,27,9.62,22.22,RCB
 LI Meriwala,top,644,434,26,8.9,16.69,PBKS
 KA Maharaj,middle,403,255,26,9.48,9.81,RCB
-R Shepherd,top,847,466,26,10.91,17.92,MI
+R Shepherd,top,847,466,26,10.91,17.92,
 MP Yadav,tail,162,190,25,5.12,7.6,PBKS
 Washington Sundar,middle,720,534,25,8.09,21.36,GT
 Rasikh Salam,middle,852,498,25,10.27,19.92,SRH
@@ -101,7 +101,7 @@ R Sai Kishore,middle,845,477,20,10.63,23.85,SRH
 V Puthur,top,513,347,20,8.87,17.35,SRH
 M Siddharth,top,718,484,20,8.9,24.2,CSK
 Ravi Bishnoi,top,840,562,20,8.97,28.1,
-R Shepherd,middle,660,370,19,10.7,19.47,MI
+R Shepherd,middle,660,370,19,10.7,19.47,
 Rashid Khan,top,1009,637,19,9.5,33.53,
 Ravi Bishnoi,middle,570,376,19,9.1,19.79,
 Rasikh Salam,top,639,362,19,10.59,19.05,SRH
@@ -211,7 +211,7 @@ GF Linde,middle,463,300,10,9.26,30.0,GT
 R Ashwin,middle,538,353,10,9.14,35.3,
 M Theekshana,middle,335,197,10,10.2,19.7,
 Arshad Khan,middle,444,278,10,9.58,27.8,MI
-Suyash Sharma,top,581,391,10,8.92,39.1,RR
+Suyash Sharma,top,581,391,10,8.92,39.1,
 Pulkit Narang,middle,233,173,10,8.08,17.3,KKR
 Zeeshan Ansari,top,208,125,9,9.98,13.89,RR
 PHKD Mendis,top,329,206,9,9.58,22.89,PBKS
@@ -301,7 +301,7 @@ Abhishek Sharma,tail,40,36,6,6.67,6.0,MI
 Shivam Shukla,middle,151,92,6,9.85,15.33,MI
 Azmatullah Omarzai,middle,281,181,6,9.31,30.17,
 Mukesh Kumar,top,263,155,6,10.18,25.83,
-Suyash Sharma,middle,308,190,6,9.73,31.67,RR
+Suyash Sharma,middle,308,190,6,9.73,31.67,
 Harsh Tyagi,top,140,84,6,10.0,14.0,
 PHKD Mendis,tail,130,85,6,9.18,14.17,PBKS
 Abdul Samad,top,276,172,6,9.63,28.67,SRH
@@ -376,7 +376,7 @@ Atharva Ankolekar,tail,23,34,4,4.06,8.5,RR
 Ramandeep Singh,middle,317,196,4,9.7,49.0,KKR
 Mohit Redkar,top,79,50,4,9.48,12.5,
 MG Erasmus,middle,77,61,3,7.57,20.33,
-R Shepherd,tail,50,54,3,5.56,18.0,MI
+R Shepherd,tail,50,54,3,5.56,18.0,
 C Green,tail,27,31,3,5.23,10.33,KKR
 D Brevis,middle,115,86,3,8.02,28.67,GT
 Naman Tiwari,top,67,47,3,8.55,15.67,CSK
@@ -403,7 +403,7 @@ RE van der Merwe,top,76,43,3,10.6,14.33,CSK
 Mohammed Siraj,tail,12,16,3,4.5,5.33,
 PP Chawla,middle,110,70,3,9.43,23.33,
 Shadab Khan,middle,193,145,3,7.99,48.33,SRH
-MP Stoinis,top,465,277,3,10.07,92.33,DC
+MP Stoinis,top,465,277,3,10.07,92.33,
 RD Chahar,tail,19,17,3,6.71,5.67,
 Shadab Khan,tail,82,50,3,9.84,16.67,SRH
 MM Ali,top,255,165,3,9.27,55.0,
@@ -494,7 +494,7 @@ MM Sharma,top,100,55,2,10.91,27.5,
 AM Hardie,top,125,76,2,9.87,38.0,
 TU Deshpande,top,218,116,2,11.28,58.0,
 Sonu Yadav,top,58,44,2,7.91,22.0,CSK
-MP Stoinis,tail,54,29,2,11.17,14.5,DC
+MP Stoinis,tail,54,29,2,11.17,14.5,
 Shivank Vashisth,middle,64,42,2,9.14,21.0,
 DL Chahar,middle,107,63,2,10.19,31.5,
 KR Sen,top,135,85,2,9.53,42.5,
@@ -528,7 +528,7 @@ RD Chahar,middle,247,150,1,9.88,150.0,
 Abhishek Tanwar,middle,30,10,1,18.0,10.0,MI
 Utkarsh Singh,tail,9,11,1,4.91,11.0,PBKS
 AJ Tye,tail,11,10,1,6.6,10.0,
-TM Head,top,117,66,1,10.64,66.0,CSK
+TM Head,top,117,66,1,10.64,66.0,
 Umran Malik,top,54,34,1,9.53,34.0,
 AJ Hosein,tail,17,15,1,6.8,15.0,MI
 V Suryavanshi,top,15,10,1,9.0,10.0,PBKS
@@ -595,7 +595,7 @@ DJ Hooda,top,24,19,1,7.58,19.0,
 DJ Bravo,top,77,55,1,8.4,55.0,
 MJ Santner,tail,25,19,1,7.89,19.0,
 LH Ferguson,middle,98,52,1,11.31,52.0,
-MP Stoinis,middle,263,136,1,11.6,136.0,DC
+MP Stoinis,middle,263,136,1,11.6,136.0,
 DJ Bravo,tail,13,16,1,4.88,16.0,
 Khushdil Shah,middle,57,31,1,11.03,31.0,
 DA Payne,top,90,65,1,8.31,65.0,
@@ -606,7 +606,7 @@ Manvanth Kumar L,top,46,28,1,9.86,28.0,PBKS
 Gurjapneet Singh,top,63,30,1,12.6,30.0,
 DR Sams,tail,33,29,1,6.83,29.0,
 OEG Baartman,top,134,64,1,12.56,64.0,GT
-J Overton,middle,58,28,1,12.43,28.0,
+J Overton,middle,58,28,1,12.43,28.0,GT
 Harsh Tyagi,middle,42,30,1,8.4,30.0,
 OEG Baartman,tail,14,12,1,7.0,12.0,GT
 JD Unadkat,middle,84,42,1,12.0,42.0,
@@ -617,14 +617,14 @@ CV Milind,top,161,108,1,8.94,108.0,
 Gurnoor Brar,middle,57,33,1,10.36,33.0,DC
 Prashant Veer,middle,5,10,1,3.0,10.0,PBKS
 Ihsanullah,top,53,31,0,10.26,inf,
-TK Curran,top,43,24,0,10.75,inf,GT
+TK Curran,top,43,24,0,10.75,inf,
 LI Meriwala,tail,9,3,0,18.0,inf,PBKS
 Khrievitso Kense,tail,6,6,0,6.0,inf,MI
 EA Brookes,tail,2,5,0,2.4,inf,
 IC Porel,top,54,32,0,10.12,inf,
 LA Dawson,tail,7,3,0,14.0,inf,
 TH David,middle,23,6,0,23.0,inf,GT
-TM Head,middle,33,24,0,8.25,inf,CSK
+TM Head,middle,33,24,0,8.25,inf,
 Khushdil Shah,tail,27,20,0,8.1,inf,
 AM Hardie,middle,76,38,0,12.0,inf,
 Ihsanullah,middle,40,17,0,14.12,inf,
@@ -645,7 +645,7 @@ Sunny Sandhu,top,16,16,0,6.0,inf,DC
 Lalit Yadav,top,23,18,0,7.67,inf,
 Abhishek Prabhakar,middle,23,17,0,8.12,inf,CSK
 Abhilash Shetty,top,3,4,0,4.5,inf,CSK
-Suyash Sharma,tail,7,7,0,6.0,inf,RR
+Suyash Sharma,tail,7,7,0,6.0,inf,
 Hassan Nawaz,top,2,2,0,6.0,inf,
 Abhilash Shetty,middle,17,8,0,12.75,inf,CSK
 Darshan Misal,top,10,9,0,6.67,inf,RCB
@@ -687,11 +687,11 @@ Hassan Nawaz,middle,13,4,0,19.5,inf,
 Tilak Varma,tail,2,6,0,2.0,inf,CSK
 Tilak Varma,top,124,54,0,13.78,inf,CSK
 Kartik Tyagi,middle,38,22,0,10.36,inf,
-J Overton,top,19,14,0,8.14,inf,
+J Overton,top,19,14,0,8.14,inf,GT
 Faisal Khan,top,12,6,0,12.0,inf,
-Kaleem Sana,top,48,33,0,8.73,inf,PBKS
+Kaleem Sana,top,48,33,0,8.73,inf,
 J Suchith,tail,1,1,0,6.0,inf,
-Kaleem Sana,middle,40,15,0,16.0,inf,PBKS
+Kaleem Sana,middle,40,15,0,16.0,inf,
 J Suchith,top,99,64,0,9.28,inf,
 KV Sharma,middle,13,9,0,8.67,inf,
 Yash Punja,tail,1,2,0,3.0,inf,GT
@@ -794,13 +794,13 @@ D Visser,middle,30,16,0,11.25,inf,
 Mayank Rawat,top,11,8,0,8.25,inf,RCB
 Mayank Rawat,middle,8,4,0,12.0,inf,RCB
 Arshad Khan,tail,16,11,0,8.73,inf,MI
-Aman Bhadoriya,top,16,9,0,10.67,inf,RCB
+Aman Bhadoriya,top,16,9,0,10.67,inf,
 SR Watson,middle,10,6,0,10.0,inf,LSG
 SR Watson,top,37,18,0,12.33,inf,LSG
 SS Agarwal,middle,17,8,0,12.75,inf,
 SS Agarwal,tail,15,5,0,18.0,inf,
 SS Agarwal,top,65,53,0,7.36,inf,
-Aman Bhadoriya,middle,5,3,0,10.0,inf,RCB
+Aman Bhadoriya,middle,5,3,0,10.0,inf,
 DA Payne,tail,10,8,0,7.5,inf,
 Manvanth Kumar L,tail,4,8,0,3.0,inf,PBKS
 Akshay Karnewar,middle,9,9,0,6.0,inf,
