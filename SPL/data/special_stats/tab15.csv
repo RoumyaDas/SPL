@@ -1,17 +1,17 @@
 bowler,num_innings,runs,balls,wkts,bowl_sr,bowl_eco,team
-Abrar Ahmed,5,182,112,14,8.0,9.75,RCB
+Abrar Ahmed,5,195,112,13,8.62,10.45,RCB
 AK Markram,5,136,98,13,7.54,8.33,DC
 NT Ellis,5,197,120,12,10.0,9.85,SRH
 Ravi Teja,5,211,114,11,10.36,11.11,MI
 JJ Bumrah,5,137,96,11,8.73,8.56,DC
 JJ Smit,5,175,109,11,9.91,9.63,PBKS
+KA Maharaj,5,173,120,11,10.91,8.65,RCB
 Mohammad Ghazanfar,5,184,108,10,10.8,10.22,RR
 Arshdeep Singh,5,180,102,10,10.2,10.59,LSG
-Harsh Dubey,5,157,102,10,10.2,9.24,DC
-KA Maharaj,5,163,120,10,12.0,8.15,RCB
+SS Ghosh,5,193,108,10,10.8,10.72,RCB
 Harshit Rana,5,176,111,10,11.1,9.51,GT
+Harsh Dubey,5,157,102,10,10.2,9.24,DC
 GF Linde,5,211,111,9,12.33,11.41,GT
-SS Ghosh,5,205,108,9,12.0,11.39,RCB
 Noor Ahmad,5,132,109,8,13.62,7.27,MI
 Karan Lal,5,114,90,8,11.25,7.6,RR
 CH Gayle,5,103,68,8,8.5,9.09,RCB
@@ -19,7 +19,6 @@ Imran Tahir,5,172,120,8,15.0,8.6,RCB
 MP Yadav,5,142,104,8,13.0,8.19,PBKS
 A Nagwaswalla,5,205,114,8,14.25,10.79,RR
 HJ Manenti,5,155,108,8,13.5,8.61,RCB
-PWH de Silva,5,189,120,8,15.0,9.45,RCB
 AR Ramjani,5,114,102,8,12.75,6.71,PBKS
 H Ssenyondo,5,164,114,7,16.29,8.63,LSG
 Sufiyan Muqeem,3,99,65,7,9.29,9.14,GT
@@ -31,10 +30,11 @@ CV Varun,5,141,84,6,14.0,10.07,PBKS
 Ashwin Das,5,166,114,6,19.0,8.74,LSG
 R Sai Kishore,5,168,109,6,18.17,9.25,SRH
 DS Rathi,5,223,120,6,20.0,11.15,KKR
+LS Livingstone,5,207,115,5,23.0,10.8,KKR
 LI Meriwala,5,153,114,5,22.8,8.05,PBKS
 SP Narine,5,158,108,5,21.6,8.78,PBKS
 Sanvir Singh,3,54,36,5,7.2,9.0,PBKS
-LS Livingstone,5,207,115,5,23.0,10.8,KKR
+PWH de Silva,5,183,120,5,24.0,9.15,RCB
 Shahbaz Ahmed,5,191,120,5,24.0,9.55,KKR
 SH Johnson,5,185,101,5,20.2,10.99,RCB
 JC Archer,5,173,102,5,20.4,10.18,LSG
@@ -42,66 +42,66 @@ Mohammad Nabi,5,159,114,5,22.8,8.37,RR
 TA Boult,5,194,116,5,23.2,10.03,SRH
 M Siddharth,4,118,60,5,12.0,11.8,CSK
 Ashutosh Sharma,5,178,110,5,22.0,9.71,GT
+Fazalhaq Farooqi,5,130,114,5,22.8,6.84,CSK
 Atharva Ankolekar,4,146,77,5,15.4,11.38,RR
-Fazalhaq Farooqi,5,125,108,5,21.6,6.94,CSK
 Avesh Khan,4,138,84,5,16.8,9.86,LSG
+KA Pollard,4,43,42,4,10.5,6.14,CSK
 Chirag Jani,4,126,78,4,19.5,9.69,RCB
+Tanay Thyagarajan,3,162,72,4,18.0,13.5,CSK
+Mohammed Shami,5,190,109,4,27.25,10.46,MI
+YS Chahal,5,194,85,4,21.25,13.69,CSK
+M Prasidh Krishna,4,187,96,4,24.0,11.69,KKR
 JR Hazlewood,5,177,114,4,28.5,9.32,MI
 Cheepurapalli Stephen,5,170,87,4,21.75,11.72,RR
-D Brevis,5,138,78,4,19.5,10.62,GT
-Mohammed Shami,5,190,109,4,27.25,10.46,MI
-KA Pollard,4,43,42,4,10.5,6.14,CSK
-M Prasidh Krishna,4,187,96,4,24.0,11.69,KKR
 Pulkit Narang,5,158,108,4,27.0,8.78,KKR
 R Parag,5,55,30,4,7.5,11.0,GT
 GD Phillips,5,96,66,4,16.5,8.73,RR
 R Shepherd,5,202,111,4,27.75,10.92,
-AD Russell,5,204,96,3,32.0,12.75,DC
-A Zampa,5,184,114,3,38.0,9.68,SRH
-Naveen-ul-Haq,3,104,72,3,24.0,8.67,CSK
-Naseem Shah,5,188,120,3,40.0,9.4,RR
-Tanay Thyagarajan,2,101,48,3,16.0,12.62,CSK
+RE van der Merwe,2,77,48,4,12.0,9.62,CSK
+D Brevis,5,138,78,4,19.5,10.62,GT
 Mohammad Amir,3,107,69,3,23.0,9.3,LSG
-Tripuresh Singh,3,94,66,3,22.0,8.55,SRH
-C Green,5,181,114,3,38.0,9.53,KKR
+Tanush Kotian,5,163,94,3,31.33,10.4,CSK
 Utkarsh Singh,5,114,90,3,30.0,7.6,PBKS
+Naseem Shah,5,188,120,3,40.0,9.4,RR
+Naveen-ul-Haq,3,104,72,3,24.0,8.67,CSK
+C Green,5,181,114,3,38.0,9.53,KKR
+AD Russell,5,204,96,3,32.0,12.75,DC
+Tripuresh Singh,3,94,66,3,22.0,8.55,SRH
 Abdul Samad,5,75,48,3,16.0,9.38,SRH
-YS Chahal,5,198,93,3,31.0,12.77,CSK
 WG Jacks,5,215,114,3,38.0,11.32,LSG
 Shaheen Shah Afridi,3,125,48,3,16.0,15.62,DC
+A Zampa,5,184,114,3,38.0,9.68,SRH
 KH Pandya,4,148,78,3,26.0,11.38,DC
-Arshad Khan,5,155,78,2,39.0,11.92,MI
-S Gopal,3,115,64,2,32.0,10.78,PBKS
-Akash Vasisht,5,163,114,2,57.0,8.58,DC
-Ramandeep Singh,5,98,60,2,30.0,9.8,KKR
-MA Starc,5,138,89,2,44.5,9.3,KKR
-RE van der Merwe,1,43,24,2,12.0,10.75,CSK
-AJ Hosein,2,49,48,2,24.0,6.12,MI
-Sonu Yadav,3,101,60,2,30.0,10.1,CSK
-Abhishek Sharma,5,78,40,2,20.0,11.7,MI
-Rasikh Salam,1,44,24,2,12.0,11.0,SRH
-Gurnoor Brar,3,118,72,2,36.0,9.83,DC
-JN Loftie-Eaton,5,150,102,2,51.0,8.82,RR
-Jagjit Singh,2,51,42,2,21.0,7.29,MI
 Prashant Veer,3,40,36,2,18.0,6.67,PBKS
+Rasikh Salam,1,44,24,2,12.0,11.0,SRH
+JN Loftie-Eaton,5,150,102,2,51.0,8.82,RR
+Gurnoor Brar,3,118,72,2,36.0,9.83,DC
+Jagjit Singh,2,51,42,2,21.0,7.29,MI
+Ramandeep Singh,5,98,60,2,30.0,9.8,KKR
 AA Kulkarni,4,52,36,2,18.0,8.67,GT
-Mangesh Yadav,2,65,42,2,21.0,9.29,GT
 Zeeshan Ansari,2,53,30,2,15.0,10.6,RR
 B Muzarabani,1,44,24,2,12.0,11.0,GT
-M Pathirana,5,164,90,2,45.0,10.93,RCB
+Sonu Yadav,3,101,60,2,30.0,10.1,CSK
+S Gopal,3,115,64,2,32.0,10.78,PBKS
 Khrievitso Kense,4,140,90,2,45.0,9.33,MI
 Kuldeep Yadav,5,138,96,2,48.0,8.62,LSG
+M Pathirana,5,164,90,2,45.0,10.93,RCB
+Arshad Khan,5,155,78,2,39.0,11.92,MI
+Mangesh Yadav,2,65,42,2,21.0,9.29,GT
+Akash Vasisht,5,163,114,2,57.0,8.58,DC
+Abhishek Sharma,5,78,40,2,20.0,11.7,MI
+MA Starc,5,138,89,2,44.5,9.3,KKR
+AJ Hosein,2,49,48,2,24.0,6.12,MI
 V Puthur,2,75,40,1,40.0,11.25,SRH
-V Nigam,5,141,80,1,80.0,10.58,GT
-AS Roy,1,39,18,1,18.0,13.0,RR
-Usman Tariq,3,88,44,1,44.0,12.0,CSK
-Tanush Kotian,5,179,100,1,100.0,10.74,CSK
-Suryansh Shedge,4,136,72,1,72.0,11.33,KKR
-Yash Punja,1,42,24,1,24.0,10.5,GT
 S Lamichhane,1,50,24,1,24.0,12.5,KKR
-TM Head,2,28,24,1,24.0,7.0,
 PHKD Mendis,1,16,12,1,12.0,8.0,PBKS
+V Nigam,5,141,80,1,80.0,10.58,GT
+Yash Punja,1,42,24,1,24.0,10.5,GT
+TM Head,2,28,24,1,24.0,7.0,
 VR Iyer,5,109,54,1,54.0,12.11,SRH
+Usman Tariq,3,88,44,1,44.0,12.0,CSK
+AS Roy,1,39,18,1,18.0,13.0,RR
+Suryansh Shedge,4,136,72,1,72.0,11.33,KKR
 HH Pandya,5,159,72,1,72.0,13.25,SRH
 MP Stoinis,5,94,54,1,54.0,10.44,
 MW Short,4,73,42,1,42.0,10.43,SRH
@@ -116,7 +116,7 @@ MR Marsh,1,37,24,1,24.0,9.25,MI
 Washington Sundar,1,40,24,1,24.0,10.0,GT
 RA Bawa,4,52,36,1,36.0,8.67,SRH
 Taskin Ahmed,1,31,24,0,31.0,7.75,MI
-Mayank Rawat,1,19,12,0,19.0,9.5,RCB
+Mayank Rawat,2,60,36,0,60.0,10.0,RCB
 T Natarajan,1,40,22,0,40.0,10.91,RR
 Shashank Singh,3,74,42,0,74.0,10.57,PBKS
 Auqib Nabi,1,41,24,0,41.0,10.25,GT
