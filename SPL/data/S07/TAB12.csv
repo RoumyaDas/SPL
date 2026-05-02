@@ -1,18 +1,18 @@
 striker,batting_team,num_innings,sixes,runs,strike_rate
 GJ Maxwell,DC,9,19,476,203.42
 N Sindhu,DC,9,19,466,194.98
-Shubman Gill,LSG,8,16,392,189.37
+Shubman Gill,LSG,9,17,464,187.1
 RG Sharma,KKR,8,15,209,200.96
 V Nigam,GT,8,14,147,201.37
 R Parag,GT,9,14,247,176.43
+Ishan Kishan,KKR,9,14,361,148.56
 CH Gayle,RCB,7,13,340,189.94
 VR Iyer,SRH,7,13,237,186.61
 Aniket Verma,RR,8,13,288,182.28
 Kartik Sharma,SRH,9,13,191,180.19
+DR Mousley,LSG,8,13,312,152.94
 Abhishek Pathak,RCB,6,12,198,166.39
 S Dube,RR,9,12,365,158.7
-DR Mousley,LSG,7,12,287,155.98
-Ishan Kishan,KKR,8,12,296,151.02
 PWH de Silva,RCB,6,11,199,205.15
 SA Yadav,DC,9,11,276,186.49
 GD Phillips,RR,7,11,191,183.65
@@ -24,24 +24,24 @@ KL Rahul,SRH,7,10,345,168.29
 Tilak Varma,CSK,8,10,276,167.27
 Naman Dhir,GT,9,10,399,166.25
 P Simran Singh,SRH,9,9,455,169.78
-WG Jacks,LSG,7,9,211,142.57
+WG Jacks,LSG,8,9,221,136.42
 SV Samson,GT,9,8,234,188.71
-Abishek Porel,LSG,7,8,193,187.38
+Abishek Porel,LSG,8,8,199,179.28
 Tarang Gohel,DC,9,8,305,157.22
 Smaran Ravichandran,MI,6,8,199,151.91
 Urvil Patel,MI,8,8,286,135.55
 Salil Arora,RCB,7,7,206,200.0
 N Pooran,MI,7,7,148,170.11
 Tushar Raheja,MI,6,7,170,168.32
+FH Allen,LSG,6,7,195,159.84
 JP Inglis,GT,9,7,331,159.13
 B Sai Sudharsan,CSK,8,7,303,155.38
+J Fraser-McGurk,KKR,4,6,140,264.15
 Abhishek Sharma,MI,8,6,235,202.59
 MR Marsh,MI,4,6,113,173.85
 Sahil Parakh,SRH,4,6,163,161.39
-FH Allen,LSG,5,6,171,159.81
 Rohan Kunnummal,KKR,6,6,167,159.05
 KK Nair,CSK,7,6,214,149.65
-J Fraser-McGurk,KKR,3,5,118,256.52
 Tanush Kotian,CSK,7,5,66,244.44
 HH Pandya,SRH,6,5,93,206.67
 D Wiese,KKR,7,5,108,203.77
@@ -61,11 +61,12 @@ Shashank Singh,PBKS,6,4,115,159.72
 MW Short,SRH,5,4,97,144.78
 T Stubbs,PBKS,6,4,86,138.71
 SP Narine,PBKS,4,4,73,135.19
-Jay Gohil,LSG,4,3,41,186.36
+Jay Gohil,LSG,5,3,74,211.43
 TP Ura,PBKS,4,3,94,184.31
+WL Madsen,KKR,2,3,57,167.65
 PHKD Mendis,PBKS,2,3,68,147.83
 Nithish Kumar Reddy,GT,5,3,92,143.75
-C Green,KKR,7,3,117,131.46
+C Green,KKR,8,3,176,135.38
 AJ Hosein,MI,3,3,39,130.0
 RR Rossouw,PBKS,2,3,69,127.78
 JJ Smit,PBKS,1,2,16,400.0
@@ -82,7 +83,7 @@ Imran Tahir,RCB,1,1,8,266.67
 T Banton,SRH,2,1,23,209.09
 Sanvir Singh,PBKS,1,1,14,175.0
 Priyansh Arya,RCB,3,1,96,174.55
-Sameer Rizvi,LSG,7,1,79,164.58
+Sameer Rizvi,LSG,8,1,88,169.23
 Saim Ayub,SRH,1,1,13,162.5
 JC Buttler,SRH,3,1,54,158.82
 BM Duckett,KKR,4,1,60,150.0
