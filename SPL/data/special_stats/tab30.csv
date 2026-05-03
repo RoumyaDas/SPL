@@ -1,6 +1,6 @@
 striker,num_innings,runs,balls,outs,bat_avg,bat_sr,form_class,Curr_Tm
 GJ Maxwell,10,524,257,9,58.22,203.89,Elite,DC
-P Simran Singh,10,517,315,9,57.44,164.13,Elite,SRH
+P Simran Singh,10,517,315,9,57.44,164.13,Long_Hauler,SRH
 KL Rahul,10,497,284,7,71.0,175.0,Elite,SRH
 CH Gayle,10,489,254,8,61.12,192.52,Elite,RCB
 Shubman Gill,10,484,261,9,53.78,185.44,Elite,LSG
@@ -11,8 +11,8 @@ H Klaasen,10,449,303,9,49.89,148.18,Long_Hauler,CSK
 Naman Dhir,10,434,265,9,48.22,163.77,Long_Hauler,GT
 Urvil Patel,10,394,276,7,56.29,142.75,Poor,MI
 Priyansh Arya,10,389,221,10,38.9,176.02,Hitter,RCB
-Ishan Kishan,10,389,256,8,48.62,151.95,Elite,KKR
-S Dube,10,365,231,6,60.83,158.01,Poor,RR
+Ishan Kishan,10,389,256,8,48.62,151.95,Long_Hauler,KKR
+S Dube,10,365,231,6,60.83,158.01,Long_Hauler,RR
 MR Marsh,10,364,219,8,45.5,166.21,Long_Hauler,MI
 FH Allen,10,355,231,9,39.44,153.68,Balanced,LSG
 JP Inglis,10,352,221,10,35.2,159.28,Balanced,GT
