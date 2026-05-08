@@ -642,7 +642,7 @@ const statsDisplayNames = [
   "Team_best_Performance", "Match_Summary", 
   "Entry_Exit_pt_stats",
   "phase_bowl_stats", "Phase_wise_team_bowling", "Phase_wise_team_batting",
-  "BowlType_wise_team_bowling", "BowlType_team_batting",
+  "BowlType_wise_team_bowling", "BowlType_wise_team_batting",
   "Partnership_stats (min. 20 balls)"
 ];
 
