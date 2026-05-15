@@ -1,27 +1,27 @@
 striker,batting_team,num_innings,50+_scores,runs,strike_rate,100+_scores
 Shubman Gill,LSG,13,8,756,188.06,2
 P Simran Singh,SRH,13,8,724,167.98,0
+Naman Dhir,GT,13,7,661,173.49,0
 V Suryavanshi,PBKS,13,6,694,160.65,1
 GJ Maxwell,DC,13,6,629,200.96,1
-Naman Dhir,GT,12,6,603,175.8,0
 Urvil Patel,MI,13,6,598,145.15,0
 N Sindhu,DC,13,6,593,194.43,1
 S Dube,RR,13,5,512,159.5,0
 KL Rahul,SRH,11,5,447,163.14,0
-Ishan Kishan,KKR,12,4,538,154.15,1
-CH Gayle,RCB,9,4,462,191.7,2
-Tilak Varma,CSK,12,4,417,162.26,0
-KK Nair,CSK,11,3,444,174.8,0
-B Sai Sudharsan,CSK,12,3,354,149.37,0
-SV Samson,GT,12,3,348,198.86,0
+Ishan Kishan,KKR,13,4,568,156.04,1
+CH Gayle,RCB,10,4,499,194.16,2
+Tilak Varma,CSK,13,4,437,159.49,0
+KK Nair,CSK,12,3,490,175.63,0
+SV Samson,GT,13,3,387,200.52,0
+B Sai Sudharsan,CSK,13,3,362,148.97,0
+JP Inglis,GT,12,3,361,156.28,0
 Abhishek Sharma,MI,12,3,343,196.0,0
-JP Inglis,GT,11,3,343,155.91,0
+H Klaasen,CSK,9,3,338,154.34,0
+PWH de Silva,RCB,11,3,319,193.33,0
 Sahil Parakh,SRH,8,3,314,158.59,0
 FH Allen,LSG,9,3,313,152.68,0
-H Klaasen,CSK,8,3,309,155.28,0
-PWH de Silva,RCB,10,3,282,190.54,0
 SA Yadav,DC,12,3,280,180.65,0
-C Green,KKR,11,3,249,132.45,0
+C Green,KKR,12,3,257,133.85,0
 Aniket Verma,RR,12,2,408,182.96,0
 Tarang Gohel,DC,13,2,390,167.38,0
 DR Mousley,LSG,12,2,354,148.74,0
@@ -34,15 +34,15 @@ RD Rickelton,RR,11,2,270,148.35,0
 RM Patidar,RCB,7,2,265,205.43,1
 MR Marsh,MI,8,2,245,165.54,0
 Atharva Taide,RCB,6,2,213,152.14,0
+J Fraser-McGurk,KKR,8,2,212,223.16,0
 Abhishek Pathak,RCB,9,2,203,159.84,0
 PD Salt,RR,10,2,203,129.3,0
-J Fraser-McGurk,KKR,7,2,187,228.05,0
 Tushar Raheja,MI,11,1,365,192.11,0
-RD Gaikwad,CSK,10,1,290,155.91,0
-RG Sharma,KKR,11,1,259,191.85,0
-R Parag,GT,11,1,258,176.71,0
+RD Gaikwad,CSK,11,1,316,160.41,0
+R Parag,GT,12,1,292,170.76,0
+Salil Arora,RCB,11,1,286,193.24,0
+RG Sharma,KKR,12,1,259,190.44,0
 WG Jacks,LSG,10,1,258,140.22,0
-Salil Arora,RCB,10,1,241,189.76,0
 Smaran Ravichandran,MI,9,1,233,146.54,0
 Vansh Bedi,PBKS,11,1,199,191.35,0
 N Rana,PBKS,8,1,190,134.75,0
@@ -50,7 +50,7 @@ Priyansh Arya,RCB,5,1,184,195.74,0
 SS Iyer,MI,9,1,168,147.37,0
 Rohan Kunnummal,KKR,6,1,167,159.05,0
 TL Seifert,PBKS,5,1,154,157.14,0
+Chirag Jani,RCB,7,1,115,191.67,0
 RR Rossouw,PBKS,4,1,106,123.26,0
 TP Ura,PBKS,5,1,100,185.19,0
-Chirag Jani,RCB,6,1,96,192.0,0
-D Brevis,GT,2,1,82,190.7,0
+D Brevis,GT,3,1,94,180.77,0
