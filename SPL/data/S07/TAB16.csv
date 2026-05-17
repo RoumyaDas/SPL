@@ -1,5 +1,5 @@
 striker,batting_team,num_innings,50+_scores,runs,strike_rate,100+_scores
-Shubman Gill,LSG,13,8,756,188.06,2
+Shubman Gill,LSG,14,8,769,188.94,2
 P Simran Singh,SRH,13,8,724,167.98,0
 GJ Maxwell,DC,14,7,687,199.71,1
 Naman Dhir,GT,14,7,665,173.63,0
@@ -12,6 +12,7 @@ KL Rahul,SRH,11,5,447,163.14,0
 Ishan Kishan,KKR,14,4,568,155.62,1
 CH Gayle,RCB,10,4,499,194.16,2
 JP Inglis,GT,13,4,460,163.12,0
+FH Allen,LSG,10,4,389,158.13,0
 Sahil Parakh,SRH,9,4,370,161.57,0
 C Green,KKR,13,4,316,134.47,0
 KK Nair,CSK,13,3,514,176.03,0
@@ -19,30 +20,29 @@ Aniket Verma,RR,13,3,507,189.18,0
 SV Samson,GT,14,3,416,202.93,0
 B Sai Sudharsan,CSK,14,3,367,146.22,0
 Abhishek Sharma,MI,13,3,356,197.78,0
+RM Patidar,RCB,8,3,351,199.43,1
 H Klaasen,CSK,10,3,338,153.64,0
-PWH de Silva,RCB,11,3,319,193.33,0
-FH Allen,LSG,9,3,313,152.68,0
+PWH de Silva,RCB,12,3,319,192.17,0
 SA Yadav,DC,12,3,280,180.65,0
+Abhishek Pathak,RCB,10,3,280,161.85,0
 Tarang Gohel,DC,14,2,400,165.29,0
+DR Mousley,LSG,13,2,387,146.04,0
+Abishek Porel,LSG,13,2,377,172.15,0
 R Parag,GT,13,2,370,170.51,0
-DR Mousley,LSG,12,2,354,148.74,0
-Abishek Porel,LSG,12,2,339,170.35,0
 Kartik Sharma,SRH,13,2,332,194.15,0
 RG Sharma,KKR,13,2,321,179.33,0
 VR Iyer,SRH,11,2,320,196.32,0
 YBK Jaiswal,RR,14,2,319,189.88,0
 GD Phillips,RR,11,2,279,192.41,0
 RD Rickelton,RR,11,2,270,148.35,0
-RM Patidar,RCB,7,2,265,205.43,1
 MR Marsh,MI,9,2,264,163.98,0
 J Fraser-McGurk,KKR,9,2,219,221.21,0
 Atharva Taide,RCB,6,2,213,152.14,0
-Abhishek Pathak,RCB,9,2,203,159.84,0
 PD Salt,RR,10,2,203,129.3,0
 Tushar Raheja,MI,12,1,407,188.43,0
 RD Gaikwad,CSK,12,1,340,165.85,0
 Salil Arora,RCB,11,1,286,193.24,0
-WG Jacks,LSG,10,1,258,140.22,0
+WG Jacks,LSG,11,1,264,138.22,0
 Smaran Ravichandran,MI,9,1,233,146.54,0
 Vansh Bedi,PBKS,12,1,229,183.2,0
 TL Seifert,PBKS,6,1,194,168.7,0
