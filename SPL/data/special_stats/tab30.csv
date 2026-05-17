@@ -2,11 +2,11 @@ striker,num_innings,runs,balls,outs,bat_avg,bat_sr,form_class,Curr_Tm
 Shubman Gill,10,649,350,7,92.71,185.43,Elite,LSG
 P Simran Singh,10,629,361,9,69.89,174.24,Elite,SRH
 GJ Maxwell,10,554,273,9,61.56,202.93,Elite,DC
-V Suryavanshi,10,528,328,8,66.0,160.98,Long_Hauler,PBKS
+V Suryavanshi,10,551,339,8,68.88,162.54,Long_Hauler,PBKS
 N Sindhu,10,501,261,7,71.57,191.95,Elite,DC
 CH Gayle,10,499,257,8,62.38,194.16,Elite,RCB
 Urvil Patel,10,494,334,8,61.75,147.9,Long_Hauler,MI
-Ishan Kishan,10,481,304,8,60.12,158.22,Long_Hauler,KKR
+Ishan Kishan,10,463,296,8,57.88,156.42,Long_Hauler,KKR
 Atharva Taide,10,462,298,8,57.75,155.03,Long_Hauler,RCB
 S Dube,10,454,277,7,64.86,163.9,Long_Hauler,RR
 Naman Dhir,10,452,249,8,56.5,181.53,Elite,GT
@@ -30,22 +30,24 @@ R Parag,10,286,177,9,31.78,161.58,Balanced,GT
 YBK Jaiswal,10,281,146,9,31.22,192.47,Hitter,RR
 Abhishek Sharma,10,275,137,9,30.56,200.73,Hitter,MI
 Kartik Sharma,10,270,140,8,33.75,192.86,Hitter,SRH
-J Fraser-McGurk,10,267,129,10,26.7,206.98,Hitter,KKR
 DR Mousley,10,265,179,9,29.44,148.04,Balanced,LSG
 WG Jacks,10,258,184,9,28.67,140.22,Poor,LSG
 WL Madsen,10,254,162,8,31.75,156.79,Balanced,KKR
 GD Phillips,10,252,134,6,42.0,188.06,Elite,RR
 RD Rickelton,10,249,172,9,27.67,144.77,Poor,RR
+J Fraser-McGurk,10,247,121,10,24.7,204.13,Hitter,KKR
 SP Narine,10,247,175,10,24.7,141.14,Poor,PBKS
 Salil Arora,10,244,124,8,30.5,196.77,Hitter,RCB
 N Rana,10,241,173,9,26.78,139.31,Poor,PBKS
+RG Sharma,10,240,134,8,30.0,179.1,Hitter,KKR
 MW Short,10,235,137,10,23.5,171.53,Poor,SRH
 TP Ura,10,232,139,9,25.78,166.91,Balanced,PBKS
 SA Yadav,10,227,133,10,22.7,170.68,Poor,DC
+RR Rossouw,10,227,166,10,22.7,136.75,Poor,PBKS
+C Green,10,224,173,10,22.4,129.48,Poor,KKR
 BM Duckett,10,223,141,10,22.3,158.16,Poor,
-RR Rossouw,10,223,155,10,22.3,143.87,Poor,PBKS
 V Nigam,10,220,111,6,36.67,198.2,Hitter,GT
-RG Sharma,10,220,117,8,27.5,188.03,Hitter,KKR
+Vansh Bedi,10,214,120,6,35.67,178.33,Hitter,PBKS
 JC Buttler,10,208,147,6,34.67,141.5,Poor,SRH
 Tarang Gohel,10,207,111,7,29.57,186.49,Hitter,DC
 RA Jadeja,10,206,125,8,25.75,164.8,Balanced,LSG
@@ -53,17 +55,15 @@ PD Salt,10,203,157,10,20.3,129.3,Poor,RR
 JM Sharma,10,196,130,7,28.0,150.77,Balanced,RCB
 KA Pollard,10,195,130,9,21.67,150.0,Poor,CSK
 MP Stoinis,10,191,151,10,19.1,126.49,Poor,
-Shashank Singh,10,190,118,7,27.14,161.02,Balanced,PBKS
 T Banton,10,190,120,9,21.11,158.33,Poor,SRH
 N Pooran,10,184,99,9,20.44,185.86,Short_Impact,MI
-Vansh Bedi,10,184,100,6,30.67,184.0,Hitter,PBKS
 TM Head,10,184,148,9,20.44,124.32,Poor,
-JJ Smit,10,183,116,8,22.88,157.76,Poor,PBKS
+Shashank Singh,10,183,109,8,22.88,167.89,Poor,PBKS
 HH Pandya,10,182,87,7,26.0,209.2,Hitter,SRH
 D Brevis,10,181,124,6,30.17,145.97,Balanced,GT
 RK Singh,10,180,115,7,25.71,156.52,Balanced,GT
-C Green,10,170,133,10,17.0,127.82,Poor,KKR
 TH David,10,169,99,8,21.12,170.71,Poor,GT
+JJ Smit,10,166,107,8,20.75,155.14,Poor,PBKS
 Ravi Singh,10,157,109,10,15.7,144.04,Poor,KKR
 Jay Gohil,10,156,83,6,26.0,187.95,Hitter,LSG
 Tanush Kotian,10,151,56,4,37.75,269.64,Hitter,CSK
@@ -71,16 +71,15 @@ AHT Donald,10,151,93,10,15.1,162.37,Poor,PBKS
 MJ Owen,10,147,96,10,14.7,153.12,Poor,DC
 B Sai Sudharsan,10,147,103,10,14.7,142.72,Poor,CSK
 Nithish Kumar Reddy,10,146,90,8,18.25,162.22,Poor,GT
+Suryansh Shedge,10,146,104,6,24.33,140.38,Poor,KKR
 AB de Villiers,10,146,121,9,16.22,120.66,Poor,CSK
 Sakibul Gani,10,145,89,9,16.11,162.92,Poor,MI
-Suryansh Shedge,10,144,101,6,24.0,142.57,Poor,KKR
 Karan Shinde,10,142,73,7,20.29,194.52,Short_Impact,DC
 Ramandeep Singh,10,140,85,7,20.0,164.71,Poor,KKR
 AM Rahane,10,140,103,10,14.0,135.92,Poor,CSK
 AK Markram,10,135,99,8,16.88,136.36,Poor,DC
 JG Bethell,10,134,113,9,14.89,118.58,Poor,GT
 D Wiese,10,129,67,8,16.12,192.54,Short_Impact,KKR
-T Stubbs,10,126,92,7,18.0,136.96,Poor,PBKS
 JN Loftie-Eaton,10,124,94,5,24.8,131.91,Poor,RR
 Anmolpreet Singh,10,115,95,8,14.38,121.05,Poor,RR
 BA Stokes,10,105,68,6,17.5,154.41,Poor,RR
@@ -88,6 +87,7 @@ Sameer Rizvi,10,103,52,7,14.71,198.08,Poor,LSG
 Arshad Khan,10,98,69,9,10.89,142.03,Poor,MI
 Shadab Khan,10,98,75,6,16.33,130.67,Poor,SRH
 Utkarsh Singh,10,97,70,8,12.12,138.57,Poor,PBKS
+T Stubbs,10,96,78,7,13.71,123.08,Poor,PBKS
 Abdul Samad,10,95,66,6,15.83,143.94,Poor,SRH
 AD Russell,10,90,57,6,15.0,157.89,Poor,DC
 LS Livingstone,10,88,82,6,14.67,107.32,Poor,KKR
