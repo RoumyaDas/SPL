@@ -1,6 +1,7 @@
 bowler,num_innings,runs,balls,wkts,bowl_sr,bowl_eco,team
 GF Linde,5,177,114,14,8.14,9.32,GT
-Harsh Dubey,5,134,96,13,7.38,8.38,DC
+Harsh Dubey,5,142,102,14,7.29,8.35,DC
+AK Markram,5,147,106,13,8.15,8.32,DC
 Abrar Ahmed,5,195,112,13,8.62,10.45,RCB
 Sufiyan Muqeem,5,182,113,12,9.42,9.66,GT
 HJ Manenti,5,186,102,12,8.5,10.94,RCB
@@ -10,7 +11,6 @@ B Kumar,5,96,65,11,5.91,8.86,KKR
 SS Ghosh,5,179,109,11,9.91,9.85,RCB
 Ravi Teja,5,211,114,11,10.36,11.11,MI
 Suryansh Shedge,5,112,90,10,9.0,7.47,KKR
-AK Markram,5,116,93,10,9.3,7.48,DC
 Mohammad Ghazanfar,5,186,102,10,10.2,10.94,RR
 NT Ellis,5,175,108,10,10.8,9.72,SRH
 A Nagwaswalla,5,221,114,10,11.4,11.63,RR
@@ -22,15 +22,15 @@ CH Gayle,5,102,66,8,8.25,9.27,RCB
 RE van der Merwe,4,167,96,8,12.0,10.44,CSK
 Noor Ahmad,5,132,109,8,13.62,7.27,MI
 JG Bethell,5,141,84,7,12.0,10.07,GT
-Karan Lal,5,132,90,7,12.86,8.8,RR
+JJ Bumrah,5,156,108,7,15.43,8.67,DC
 AR Ramjani,5,135,108,7,15.43,7.5,PBKS
+Karan Lal,5,132,90,7,12.86,8.8,RR
 H Ssenyondo,5,164,114,7,16.29,8.63,LSG
 Atharva Ankolekar,5,155,95,7,13.57,9.79,RR
-Ashwin Shelke,3,152,72,6,12.0,12.67,DC
 Ashwin Das,5,166,114,6,19.0,8.74,LSG
 CV Varun,5,141,84,6,14.0,10.07,PBKS
 Sanvir Singh,4,81,54,6,9.0,9.0,PBKS
-JJ Bumrah,5,144,108,6,18.0,8.0,DC
+Ashwin Shelke,4,186,96,6,16.0,11.62,DC
 JM Coles,5,176,120,6,20.0,8.8,MI
 Harshit Rana,5,212,120,6,20.0,10.6,GT
 DS Rathi,5,223,120,6,20.0,11.15,KKR
@@ -83,7 +83,7 @@ KH Pandya,4,148,78,3,26.0,11.38,DC
 WG Jacks,5,189,96,3,32.0,11.81,LSG
 Naseem Shah,5,188,120,3,40.0,9.4,RR
 Prashant Veer,3,40,36,2,18.0,6.67,PBKS
-Parth Chandan,2,65,48,2,24.0,8.12,DC
+Parth Chandan,3,99,72,2,36.0,8.25,DC
 Abhishek Sharma,5,78,40,2,20.0,11.7,MI
 Ramandeep Singh,5,87,54,2,27.0,9.67,KKR
 Abhishek Tanwar,1,21,16,2,8.0,7.88,MI
