@@ -2,6 +2,7 @@ striker,num_innings,runs,balls,outs,bat_avg,bat_sr,form_class,Curr_Tm
 CH Gayle,10,614,327,8,76.75,187.77,Elite,RCB
 Shubman Gill,10,589,312,7,84.14,188.78,Elite,LSG
 P Simran Singh,10,570,323,9,63.33,176.47,Elite,SRH
+V Suryavanshi,10,551,339,8,68.88,162.54,Long_Hauler,PBKS
 Urvil Patel,10,494,334,8,61.75,147.9,Long_Hauler,MI
 N Sindhu,10,475,245,7,67.86,193.88,Elite,DC
 Ishan Kishan,10,463,296,8,57.88,156.42,Long_Hauler,KKR
@@ -14,6 +15,8 @@ Tilak Varma,10,399,246,9,44.33,162.2,Long_Hauler,CSK
 KK Nair,10,396,218,6,66.0,181.65,Elite,CSK
 Aniket Verma,10,394,215,8,49.25,183.26,Elite,RR
 FH Allen,10,389,246,10,38.9,158.13,Long_Hauler,LSG
+RM Patidar,10,380,192,6,63.33,197.92,Elite,RCB
+Priyansh Arya,10,359,192,10,35.9,186.98,Elite,RCB
 SV Samson,10,357,186,10,35.7,191.94,Elite,GT
 Sahil Parakh,10,345,206,10,34.5,167.48,Hitter,SRH
 JP Inglis,10,339,214,10,33.9,158.41,Balanced,GT
@@ -26,6 +29,7 @@ MR Marsh,10,292,177,6,48.67,164.97,Long_Hauler,MI
 RD Gaikwad,10,291,162,10,29.1,179.63,Hitter,CSK
 DR Mousley,10,282,197,9,31.33,143.15,Balanced,LSG
 YBK Jaiswal,10,281,146,9,31.22,192.47,Hitter,RR
+Kartik Sharma,10,276,145,8,34.5,190.34,Hitter,SRH
 Abhishek Sharma,10,275,137,9,30.56,200.73,Hitter,MI
 WL Madsen,10,254,162,8,31.75,156.79,Balanced,KKR
 GD Phillips,10,252,134,6,42.0,188.06,Elite,RR
@@ -42,6 +46,7 @@ C Green,10,224,173,10,22.4,129.48,Poor,KKR
 V Nigam,10,223,114,5,44.6,195.61,Elite,GT
 BM Duckett,10,223,141,10,22.3,158.16,Poor,
 WG Jacks,10,223,155,9,24.78,143.87,Balanced,LSG
+JC Buttler,10,219,143,5,43.8,153.15,Long_Hauler,SRH
 PWH de Silva,10,217,113,8,27.12,192.04,Hitter,RCB
 Vansh Bedi,10,214,120,6,35.67,178.33,Elite,PBKS
 Tarang Gohel,10,207,111,7,29.57,186.49,Hitter,DC
@@ -49,6 +54,7 @@ PD Salt,10,203,157,10,20.3,129.3,Poor,RR
 Salil Arora,10,197,103,9,21.89,191.26,Short_Impact,RCB
 KA Pollard,10,195,130,9,21.67,150.0,Poor,CSK
 JM Sharma,10,194,122,6,32.33,159.02,Balanced,RCB
+N Pooran,10,184,99,9,20.44,185.86,Short_Impact,MI
 Shashank Singh,10,183,109,8,22.88,167.89,Poor,PBKS
 HH Pandya,10,171,83,7,24.43,206.02,Hitter,SRH
 TH David,10,169,99,8,21.12,170.71,Poor,GT
