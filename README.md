@@ -13,6 +13,7 @@ Season 3 : GT (jeyanth);
 Season 4 : RR (moneybites); 
 Season 5 : LSG (godofthunder);
 Season 6 : RCB (reverie,punit);
+Season 7 : RCB (reverie,punit);
 
 
 ## Project Summary
