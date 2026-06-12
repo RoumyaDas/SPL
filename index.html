@@ -154,6 +154,7 @@
       <button class="season-tab" data-season="05">05</button>
       <button class="season-tab" data-season="06">06</button>
       <button class="season-tab" data-season="07">07</button>
+      <button class="season-tab" data-season="08">08</button>
     </div>
   
     <!-- Season 01 -->
@@ -277,16 +278,15 @@
       </div>
 
     </div>
+
     <!-- Season 07 -->
     <div id="season-07" class="season-content">
       <div class="tabs" id="season-07-subtabs">
-        <button class="season-subtab active" data-subtab="flow-07">Flow</button>
+        <button class="season-subtab" data-subtab="flow-07">Flow</button>
         <button class="season-subtab" data-subtab="scorecard-07">Scorecard</button>
-        <button class="season-subtab" data-subtab="mbd-07">Match Breakdown</button>
-        <button class="season-subtab" data-subtab="impact-07">Impact</button>
+        
 
       </div>
-  
 
       <div id="flow-07" class="season-subtab-content">
         <pre id="flow-content-07"></pre>
@@ -295,11 +295,31 @@
         <div id="scorecard-table-07"></div>
       </div>
 
-      <div id="mbd-07" class="season-subtab-content">
-        <pre id="mbd-content-07"></pre>
+    </div>
+
+    <!-- Season 08 -->
+    <div id="season-08" class="season-content">
+      <div class="tabs" id="season-08-subtabs">
+        <button class="season-subtab active" data-subtab="flow-08">Flow</button>
+        <button class="season-subtab" data-subtab="scorecard-08">Scorecard</button>
+        <button class="season-subtab" data-subtab="mbd-08">Match Breakdown</button>
+        <button class="season-subtab" data-subtab="impact-08">Impact</button>
+
+      </div>
+  
+
+      <div id="flow-08" class="season-subtab-content">
+        <pre id="flow-content-08"></pre>
+      </div>
+      <div id="scorecard-08" class="season-subtab-content">
+        <div id="scorecard-table-08"></div>
       </div>
 
-      <div id="impact-07" class="season-subtab-content">
+      <div id="mbd-08" class="season-subtab-content">
+        <pre id="mbd-content-08"></pre>
+      </div>
+
+      <div id="impact-08" class="season-subtab-content">
         <label for="impactMatchSelect">Select Match:</label>
         <select id="impactMatchSelect"></select>
         <pre id="impactContent" class="subtab-pre-content">Loading impact points...</pre>
@@ -640,7 +660,8 @@ document.getElementById("careerSearch").addEventListener("input", () => {
     <button class="schedule-subtab" data-tab="sch-s04">S04</button>
     <button class="schedule-subtab" data-tab="sch-s05">S05</button>
     <button class="schedule-subtab" data-tab="sch-s06">S06</button>
-    <button class="schedule-subtab active" data-tab="sch-s07">S07</button>
+    <button class="schedule-subtab" data-tab="sch-s07">S07</button>
+    <button class="schedule-subtab active" data-tab="sch-s08">S08</button>
   </div>
 
   <div id="sch-s01" class="schedule-table-container"></div>
@@ -649,7 +670,8 @@ document.getElementById("careerSearch").addEventListener("input", () => {
   <div id="sch-s04" class="schedule-table-container"></div>
   <div id="sch-s05" class="schedule-table-container"></div>
   <div id="sch-s06" class="schedule-table-container"></div>
-  <div id="sch-s07" class="schedule-table-container active"></div>
+  <div id="sch-s07" class="schedule-table-container"></div>
+  <div id="sch-s08" class="schedule-table-container active"></div>
 </div>
 
 <!-- Combined Points Table stuff-->

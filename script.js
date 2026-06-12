@@ -656,7 +656,7 @@ function initStatsTab() {
   const statsSubtabs = document.getElementById("stats-subtabs");
   
   // Create season tabs
-  ['S01', 'S02', 'S03', 'S04', 'S05', 'S06', 'S07'].forEach(season => {
+  ['S01', 'S02', 'S03', 'S04', 'S05', 'S06', 'S07', 'S08'].forEach(season => {
     const btn = document.createElement("button");
     btn.textContent = `Season ${season.slice(1)}`;
     btn.dataset.season = season;
@@ -693,7 +693,7 @@ function initStatsTab() {
   });
 
   // Load initial data
-  switchStatsSeason('S07');
+  switchStatsSeason('S08');
 }
 
 function switchStatsSeason(season) {
@@ -905,7 +905,7 @@ document.querySelectorAll(".season-subtab").forEach(btn => {
 
       for (let i = 1; i <= maxMatches; i++) {
         const matchNum = i.toString().padStart(3, '0');
-        const matchId = `S07M${matchNum}`;
+        const matchId = `S08M${matchNum}`;
         const opt = document.createElement("option");
         opt.value = matchId;
         opt.textContent = `Match ${matchNum}`;
@@ -929,7 +929,7 @@ document.querySelectorAll(".season-subtab").forEach(btn => {
           return;
         }
 
-        const url = `https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Season_07/total_impact/${matchId}_impact.txt`;
+        const url = `https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Season_08/total_impact/${matchId}_impact.txt`;
 
         fetch(url)
           .then(res => {
@@ -958,7 +958,7 @@ document.querySelectorAll(".season-subtab").forEach(btn => {
 
       for (let i = 1; i <= maxMatches; i++) {
         const matchNum = i.toString().padStart(3, '0');
-        const matchId = `S07M${matchNum}`;
+        const matchId = `S08M${matchNum}`;
         const opt = document.createElement("option");
         opt.value = matchId;
         opt.textContent = `Match ${matchNum}`;
@@ -982,7 +982,7 @@ document.querySelectorAll(".season-subtab").forEach(btn => {
           return;
         }
 
-        const url = `https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Season_07/Match_Breakdown/${matchId}_breakdown.txt`;
+        const url = `https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Season_08/Match_Breakdown/${matchId}_breakdown.txt`;
 
         fetch(url)
           .then(res => {
@@ -1339,7 +1339,8 @@ const scheduleCSVs = {
   "sch-s04": "https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Fixtures/schedule_S04.csv",
   "sch-s05": "https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Fixtures/schedule_S05.csv",
   "sch-s06": "https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Fixtures/schedule_S06.csv",
-  "sch-s07": "https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Fixtures/schedule_S07.csv"
+  "sch-s07": "https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Fixtures/schedule_S07.csv",
+  "sch-s08": "https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Fixtures/schedule_S08.csv"
 };
 
 const scheduleCache = {};  // to store loaded CSVs
