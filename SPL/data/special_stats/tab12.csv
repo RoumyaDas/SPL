@@ -1,8 +1,8 @@
 striker,num_innings,runs,balls,outs,bat_avg,bat_sr,team
 CH Gayle,5,370,199,4,92.5,185.93,RCB
 P Simran Singh,5,326,176,4,81.5,185.23,SRH
-N Sindhu,5,279,145,4,69.75,192.41,DC
 KK Nair,5,279,143,2,139.5,195.1,CSK
+N Sindhu,5,279,145,4,69.75,192.41,DC
 GJ Maxwell,5,272,141,5,54.4,192.91,DC
 V Suryavanshi,5,270,177,4,67.5,152.54,PBKS
 S Dube,5,257,137,3,85.67,187.59,RR
@@ -36,8 +36,8 @@ PWH de Silva,5,123,74,4,30.75,166.22,RCB
 SP Narine,5,122,87,5,24.4,140.23,PBKS
 KL Rahul,5,120,81,5,24.0,148.15,SRH
 SU Parakh,4,120,80,4,30.0,150.0,SRH
-V Nigam,5,119,57,3,39.67,208.77,GT
 RD Rickelton,5,119,80,5,23.8,148.75,RR
+V Nigam,5,119,57,3,39.67,208.77,GT
 JM Sharma,5,114,68,3,38.0,167.65,RCB
 S Arora,5,111,58,5,22.2,191.38,KKR
 R Smaran,5,105,67,5,21.0,156.72,PBKS
@@ -53,18 +53,15 @@ Rituraj Sharma,5,87,54,5,17.4,161.11,DC
 TH David,5,86,48,4,21.5,179.17,GT
 Tanush Kotian,5,85,35,2,42.5,242.86,CSK
 Jay Gohil,5,83,40,2,41.5,207.5,KKR
-Rohan Kunnummal,5,82,53,4,20.5,154.72,MI
 T Stubbs,5,82,54,4,20.5,151.85,CSK
-KA Pollard,5,82,58,4,20.5,141.38,RR
+Rohan Kunnummal,5,82,53,4,20.5,154.72,MI
 D Brevis,4,78,48,2,39.0,162.5,GT
 AK Markram,5,77,69,4,19.25,111.59,DC
 V Kohli,5,69,46,4,17.25,150.0,CSK
-RR Rossouw,3,67,47,3,22.33,142.55,MI
 Sanvir Singh,3,67,34,1,67.0,197.06,PBKS
 B Sai Sudharsan,5,66,49,5,13.2,134.69,CSK
 Karan Shinde,5,63,31,4,15.75,203.23,SRH
 Suryansh Shedge,4,60,51,2,30.0,117.65,KKR
-Sameer Rizvi,5,60,31,3,20.0,193.55,LSG
 Ashutosh Sharma,5,59,42,2,29.5,140.48,GT
 Utkarsh Singh,5,58,44,4,14.5,131.82,PBKS
 Atharva Taide,2,57,32,2,28.5,178.12,RCB
@@ -86,11 +83,11 @@ RK Singh,2,19,17,2,9.5,111.76,GT
 Tanay Thyagarajan,4,14,13,3,4.67,107.69,CSK
 J Overton,3,12,9,1,12.0,133.33,GT
 DS Rathi,3,12,20,2,6.0,60.0,LSG
-SS Ghosh,3,10,7,1,10.0,142.86,RCB
-Atharva Ankolekar,2,10,22,2,5.0,45.45,RR
 TL Seifert,1,10,9,1,10.0,111.11,PBKS
-Sonu Yadav,4,7,13,4,1.75,53.85,CSK
+Atharva Ankolekar,2,10,22,2,5.0,45.45,RR
+SS Ghosh,3,10,7,1,10.0,142.86,RCB
 Fazalhaq Farooqi,3,7,16,2,3.5,43.75,CSK
+Sonu Yadav,4,7,13,4,1.75,53.85,CSK
 Ehsan Khan,3,6,19,2,3.0,31.58,MI
 Kuldeep Yadav,4,4,16,3,1.33,25.0,LSG
 Pulkit Narang,5,3,14,4,0.75,21.43,KKR
