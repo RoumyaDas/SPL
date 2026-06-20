@@ -1,1 +1,4 @@
-match_id,innings,runs,balls,SR,final_score,total_balls,wkts,post_1st_strike_score,exit_pt_score,win,PP_perf,Middle_perf,Death_perf,batter,team
+match_id,innings,runs,balls,SR,post_1st_strike_score,exit_pt_score,win,PP_perf,Middle_perf,Death_perf,batter,team,team_total,pitch
+S08M003,2,68,32,212.5,1-0(0.1),116-5(11.3),1,37 off 18,31 off 14,,Shubman Gill,LSG,8-211 (114),pace
+S08M001,1,54,33,163.64,28-2(2.2),109-3(11.1),1,22 off 16,32 off 17,,Kartik Sharma,SRH,3-225 (120),spin
+S08M004,2,50,40,125.0,7-0(0.2),99-3(11.2),0,26 off 24,24 off 16,,MS Pepper,PBKS,10-160 (111),spin

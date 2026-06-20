@@ -1,1 +1,17 @@
 batting_team,Bowl_Type,outs,avg,SR
+CSK,Pace,1,32.0,168.42
+CSK,Spin,6,19.5,139.29
+GT,Pace,3,57.33,179.17
+GT,Spin,3,12.33,154.17
+LSG,Pace,7,26.29,191.67
+LSG,Spin,1,27.0,150.0
+MI,Pace,1,34.0,141.67
+MI,Spin,6,22.33,139.58
+PBKS,Pace,3,10.0,125.0
+PBKS,Spin,7,18.57,149.43
+RCB,Pace,5,5.4,112.5
+RCB,Spin,5,20.8,157.58
+RR,Pace,2,17.5,145.83
+RR,Spin,7,15.43,112.5
+SRH,Pace,0,inf,158.33
+SRH,Spin,3,62.33,194.79
