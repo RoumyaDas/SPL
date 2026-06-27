@@ -1,28 +1,27 @@
 striker,num_innings,runs,balls,outs,bat_avg,bat_sr,team
 CH Gayle,5,346,176,4,86.5,196.59,RCB
-Urvil Patel,5,295,205,3,98.33,143.9,MI
 P Simran Singh,5,295,169,3,98.33,174.56,SRH
-N Sindhu,5,279,145,4,69.75,192.41,DC
-KK Nair,5,279,143,2,139.5,195.1,CSK
-GJ Maxwell,5,272,141,5,54.4,192.91,DC
+Urvil Patel,5,295,205,3,98.33,143.9,MI
+GJ Maxwell,5,275,144,5,55.0,190.97,DC
 V Suryavanshi,5,270,177,4,67.5,152.54,PBKS
 Shubman Gill,5,250,138,5,50.0,181.16,LSG
 Kartik Sharma,5,249,130,5,49.8,191.54,SRH
+KK Nair,5,246,118,3,82.0,208.47,CSK
+N Sindhu,5,236,117,3,78.67,201.71,DC
 Aniket Verma,5,236,119,4,59.0,198.32,RR
 SV Samson,5,218,120,5,43.6,181.67,GT
 Ishan Kishan,5,207,121,5,41.4,171.07,KKR
 S Dube,5,205,117,3,68.33,175.21,RR
 VR Iyer,5,205,88,1,205.0,232.95,SRH
 FH Allen,5,189,123,5,37.8,153.66,LSG
-RD Gaikwad,5,175,108,5,35.0,162.04,CSK
+Tilak Varma,5,167,111,5,33.4,150.45,CSK
 RM Patidar,5,165,97,4,41.25,170.1,RCB
 N Pooran,5,161,93,3,53.67,173.12,MI
 JP Inglis,5,160,87,5,32.0,183.91,GT
+RD Gaikwad,5,159,99,5,31.8,160.61,CSK
 MR Marsh,4,157,103,2,78.5,152.43,MI
-Tilak Varma,5,155,98,5,31.0,158.16,CSK
 KL Rahul,5,152,96,4,38.0,158.33,SRH
 R Parag,5,149,98,5,29.8,152.04,GT
-H Klaasen,5,148,102,5,29.6,145.1,CSK
 Abhishek Pathak,5,144,79,2,72.0,182.28,RCB
 Priyansh Arya,5,143,71,5,28.6,201.41,RCB
 JM Sharma,5,131,73,3,43.67,179.45,RCB
@@ -40,10 +39,12 @@ Tushar Raheja,5,105,54,5,21.0,194.44,MI
 BM Duckett,5,104,64,5,20.8,162.5,SRH
 PHKD Mendis,3,102,73,3,34.0,139.73,PBKS
 HH Pandya,5,101,57,4,25.25,177.19,LSG
+Tanush Kotian,5,97,43,2,48.5,225.58,CSK
+Tarang Gohel,5,93,46,4,23.25,202.17,DC
 TH David,5,92,51,4,23.0,180.39,GT
 D Brevis,5,91,54,3,30.33,168.52,GT
+H Klaasen,5,90,60,5,18.0,150.0,CSK
 Rituraj Sharma,5,87,54,5,17.4,161.11,DC
-Tanush Kotian,5,85,35,2,42.5,242.86,CSK
 Jay Gohil,5,83,40,2,41.5,207.5,KKR
 C Green,2,82,55,2,41.0,149.09,KKR
 Rohan Kunnummal,5,82,53,4,20.5,154.72,MI
@@ -56,14 +57,14 @@ Suryansh Shedge,5,72,65,3,24.0,110.77,KKR
 J Fraser-McGurk,5,70,45,5,14.0,155.56,KKR
 PWH de Silva,5,68,41,5,13.6,165.85,RCB
 Sanvir Singh,3,67,34,1,67.0,197.06,PBKS
-J Overton,5,66,39,2,33.0,169.23,GT
 B Sai Sudharsan,5,66,49,5,13.2,134.69,CSK
+J Overton,5,66,39,2,33.0,169.23,GT
 Karan Shinde,5,63,31,4,15.75,203.23,SRH
 YBK Jaiswal,5,60,33,5,12.0,181.82,RR
 Utkarsh Singh,5,58,44,4,14.5,131.82,PBKS
 Atharva Taide,2,57,32,2,28.5,178.12,RCB
 Shahbaz Ahmed,2,57,29,1,57.0,196.55,KKR
-Tarang Gohel,5,51,28,4,12.75,182.14,DC
+SA Yadav,1,50,29,1,50.0,172.41,DC
 BJ McMullen,3,50,29,3,16.67,172.41,
 KA Maharaj,4,47,65,3,15.67,72.31,RCB
 R Smaran,2,46,31,2,23.0,148.39,PBKS
@@ -75,29 +76,34 @@ JC Buttler,5,36,37,4,9.0,97.3,DC
 Sakibul Gani,5,35,27,5,7.0,129.63,RR
 Karan Lal,5,34,48,2,17.0,70.83,RR
 Vishnu Vinod,1,30,28,1,30.0,107.14,RR
+RE van der Merwe,1,28,16,1,28.0,175.0,CSK
 Anmol Malhotra,1,28,25,1,28.0,112.0,GT
-AR Ramjani,5,27,25,3,9.0,108.0,PBKS
 D Wiese,5,27,24,5,5.4,112.5,KKR
-GF Linde,4,21,22,4,5.25,95.45,GT
+AR Ramjani,5,27,25,3,9.0,108.0,PBKS
+Ritik Vats,1,26,12,0,26.0,216.67,DC
+Sonu Yadav,5,25,30,5,5.0,83.33,CSK
 Shubhang Hegde,1,21,13,1,21.0,161.54,LSG
+GF Linde,4,21,22,4,5.25,95.45,GT
+T Stubbs,1,20,16,1,20.0,125.0,CSK
 MP Yadav,5,20,42,3,6.67,47.62,PBKS
+Naveen-ul-Haq,1,19,14,0,19.0,135.71,CSK
 Akhil Singh Rawat,1,19,10,0,19.0,190.0,KKR
 Kuldeep Yadav,5,17,30,3,5.67,56.67,LSG
 Shivam Shukla,1,16,6,0,16.0,266.67,MI
 Tanay Thyagarajan,4,14,13,3,4.67,107.69,CSK
 Sikandar Raza,1,13,13,1,13.0,100.0,MI
-RA Jadeja,1,12,13,0,12.0,92.31,LSG
-DS Rathi,4,12,25,3,4.0,48.0,LSG
 DP Conway,1,12,9,1,12.0,133.33,LSG
+RA Jadeja,1,12,13,0,12.0,92.31,LSG
 Atharva Ankolekar,3,12,27,3,4.0,44.44,RR
+DS Rathi,4,12,25,3,4.0,48.0,LSG
 SS Ghosh,4,11,11,1,11.0,100.0,RCB
 TL Seifert,1,10,9,1,10.0,111.11,PBKS
 KA Pollard,1,8,6,1,8.0,133.33,RR
-Fazalhaq Farooqi,3,7,16,2,3.5,43.75,CSK
-Sonu Yadav,4,7,13,4,1.75,53.85,CSK
+Fazalhaq Farooqi,4,7,17,3,2.33,41.18,CSK
 Mohammad Ghazanfar,3,6,14,2,3.0,42.86,RR
 HJ Manenti,1,6,6,1,6.0,100.0,RCB
 Ehsan Khan,3,6,19,2,3.0,31.58,MI
+V Kohli,1,5,7,1,5.0,71.43,CSK
 Vraj Patel,1,4,9,0,4.0,44.44,RR
 Nithish Kumar Reddy,1,3,5,1,3.0,60.0,GT
 Pulkit Narang,5,3,14,4,0.75,21.43,KKR
