@@ -1,7 +1,7 @@
 bowler,num_innings,runs,balls,wkts,bowl_sr,bowl_eco,form_class,Curr_Tm
-HJ Manenti,10,390,214,31,6.9,10.93,Striker,RCB
+HJ Manenti,10,373,214,33,6.48,10.46,Striker,RCB
+Shivam Shukla,10,344,231,24,9.62,8.94,Elite,MI
 Rasikh Salam,10,337,209,24,8.71,9.67,Striker,SRH
-Shivam Shukla,10,351,237,23,10.3,8.89,Elite,MI
 GF Linde,10,297,199,22,9.05,8.95,Elite,GT
 AK Markram,10,323,196,22,8.91,9.89,Striker,DC
 Harsh Dubey,10,275,198,21,9.43,8.33,Elite,DC
@@ -10,14 +10,14 @@ Mohammad Ghazanfar,10,296,204,20,10.2,8.71,Elite,RR
 JJ Bumrah,10,304,212,19,11.16,8.6,Elite,DC
 Sufiyan Muqeem,10,334,213,19,11.21,9.41,Elite,GT
 JJ Smit,10,334,234,18,13.0,8.56,Elite,PBKS
-H Ssenyondo,10,350,235,18,13.06,8.94,Elite,LSG
 J Overton,10,381,240,18,13.33,9.52,Striker,GT
+SS Ghosh,10,363,215,18,11.94,10.13,Striker,RCB
 KA Maharaj,10,324,233,17,13.71,8.34,Elite,RCB
+H Ssenyondo,10,367,235,17,13.82,9.37,Elite,LSG
 Ravi Teja,10,386,240,17,14.12,9.65,Striker,SRH
-SS Ghosh,10,360,218,17,12.82,9.91,Striker,RCB
 Karan Lal,10,281,200,15,13.33,8.43,Elite,RR
+JR Hazlewood,10,362,228,15,15.2,9.53,Striker,MI
 C Green,10,307,199,14,14.21,9.26,Elite,KKR
-JR Hazlewood,10,377,228,14,16.29,9.92,Balanced,MI
 NT Ellis,10,383,210,14,15.0,10.94,Striker,SRH
 SH Johnson,10,395,216,14,15.43,10.97,Striker,KKR
 CV Varun,10,278,210,13,16.15,7.94,Choker,PBKS
@@ -27,7 +27,7 @@ A Nagwaswalla,10,401,228,13,17.54,10.55,Balanced,RR
 Imran Tahir,10,324,232,12,19.33,8.38,Choker,RCB
 A Zampa,10,320,228,12,19.0,8.42,Choker,SRH
 Kuldeep Yadav,10,331,226,12,18.83,8.79,Choker,LSG
-Sonu Yadav,10,358,217,12,18.08,9.9,Balanced,CSK
+Sonu Yadav,10,368,221,12,18.42,9.99,Balanced,CSK
 Ehsan Khan,10,381,228,12,19.0,10.03,Balanced,MI
 Harshit Rana,10,423,234,12,19.5,10.85,Balanced,GT
 Utkarsh Singh,10,215,174,11,15.82,7.41,Elite,PBKS
@@ -37,14 +37,14 @@ MA Starc,10,273,185,11,16.82,8.85,Choker,KKR
 DS Rathi,10,366,231,11,21.0,9.51,Balanced,LSG
 JC Archer,10,403,216,11,19.64,11.19,Balanced,PBKS
 MP Yadav,10,376,216,9,24.0,10.44,Balanced,PBKS
-HH Pandya,10,269,198,8,24.75,8.15,Choker,LSG
-Fazalhaq Farooqi,10,340,234,8,29.25,8.72,Choker,CSK
 Sanvir Singh,10,291,168,8,21.0,10.39,Balanced,PBKS
+Tanush Kotian,10,313,180,8,22.5,10.43,Balanced,CSK
 YS Chahal,10,368,183,8,22.88,12.07,Poor,KKR
 Pulkit Narang,10,267,198,7,28.29,8.09,Choker,KKR
-Tanush Kotian,10,306,172,7,24.57,10.67,Balanced,CSK
+Fazalhaq Farooqi,10,339,234,7,33.43,8.69,Poor,CSK
 GD Phillips,10,303,168,7,24.0,10.82,Balanced,RR
-MR Marsh,10,304,192,6,32.0,9.5,Poor,MI
+HH Pandya,10,272,198,6,33.0,8.24,Poor,LSG
+MR Marsh,10,287,180,6,30.0,9.57,Poor,MI
 D Wiese,10,263,150,5,30.0,10.52,Poor,KKR
 S Dube,10,302,150,5,30.0,12.08,Poor,RR
 GJ Maxwell,10,334,198,3,66.0,10.12,Poor,DC
