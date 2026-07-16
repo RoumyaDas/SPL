@@ -24,7 +24,7 @@ Shakib Al Hasan,PBKS,830,33,221,8.36,18.06,99.2,
 HH Pandya,MI,1279,33,233,9.36,24.85,136.4,LSG
 JJ Bumrah,DC,809,33,116,9.23,15.94,87.4,DC
 KA Maharaj,SRH,669,32,134,9.72,12.91,68.5,RCB
-TA Boult,MI,1125,32,240,9.59,22.0,117.2,MI
+TA Boult,MI,1125,32,240,9.59,22.0,117.2,
 JR Hazlewood,RR,1050,32,197,9.55,20.62,110.0,MI
 S Dube,RR,750,32,137,9.8,14.34,76.3,RR
 Tanush Kotian,CSK,1165,32,146,10.16,21.5,114.4,CSK
@@ -41,7 +41,7 @@ LS Livingstone,SRH,737,26,107,10.5,16.19,70.1,
 Noor Ahmad,MI,448,25,122,8.15,13.2,55.0,MI
 Sufiyan Muqeem,GT,346,25,85,8.24,10.08,42.0,GT
 YS Chahal,RCB,777,24,106,10.43,18.62,74.3,KKR
-Mohammad Nabi,LSG,479,24,73,9.78,12.25,49.0,
+Mohammad Nabi,LSG,479,24,73,9.78,12.25,49.0,LSG
 Ravi Bishnoi,PBKS,620,24,161,7.97,19.46,77.5,SRH
 Mayank Dagar,RR,511,22,88,9.61,14.5,53.1,
 JJ Bumrah,RCB,364,22,94,8.27,12.0,44.0,DC
@@ -167,13 +167,13 @@ NT Ellis,RR,83,9,23,8.03,6.89,10.2,SRH
 J Anderson,MI,205,9,41,10.6,12.89,19.2,
 LS Livingstone,CSK,117,9,22,9.75,8.0,12.0,
 JA Duffy,GT,262,9,51,10.34,16.89,25.2,LSG
-Mohammad Nabi,GT,358,9,58,9.18,26.0,39.0,
+Mohammad Nabi,GT,358,9,58,9.18,26.0,39.0,LSG
 Ehsan Khan,MI,272,9,46,10.46,17.33,26.0,MI
 Karan Lal,GT,125,9,28,7.81,10.67,16.0,RR
 Karan Lal,RCB,163,9,31,10.19,10.67,16.0,RR
 M Prasidh Krishna,KKR,155,9,43,8.16,12.67,19.0,KKR
 PWH de Silva,DC,427,9,69,9.49,30.0,45.0,RCB
-TA Boult,CSK,338,9,68,9.43,23.89,35.5,MI
+TA Boult,CSK,338,9,68,9.43,23.89,35.5,
 JJ Bumrah,LSG,166,9,33,8.3,13.33,20.0,DC
 Ashutosh Sharma,GT,161,9,25,8.94,12.0,18.0,GT
 Rasikh Salam,KKR,140,9,50,7.3,12.78,19.1,SRH
@@ -275,14 +275,14 @@ JR Hazlewood,PBKS,142,7,24,9.47,12.86,15.0,MI
 V Nigam,MI,243,7,32,9.99,20.86,24.2,GT
 H Ssenyondo,GT,52,7,19,6.5,6.86,8.0,LSG
 Suryansh Shedge,PBKS,188,7,33,9.4,17.14,20.0,KKR
-TA Boult,PBKS,269,7,59,9.33,24.71,28.5,MI
+TA Boult,PBKS,269,7,59,9.33,24.71,28.5,
 SS Ghosh,KKR,51,7,14,8.5,5.14,6.0,RCB
 Mohammed Siraj,MI,312,7,58,10.06,26.57,31.0,
 DAJ Bracewell,RCB,179,7,39,9.42,16.29,19.0,
 Ravi Teja,RCB,260,7,38,10.99,20.29,23.4,SRH
 SH Johnson,PBKS,80,7,28,6.96,9.86,11.3,KKR
 M Theekshana,MI,142,6,24,10.14,14.0,14.0,
-Mohammad Nabi,SRH,100,6,24,8.33,12.0,12.0,
+Mohammad Nabi,SRH,100,6,24,8.33,12.0,12.0,LSG
 JG Bethell,SRH,131,6,15,10.08,13.0,13.0,
 JJ Bumrah,PBKS,112,6,28,9.33,12.0,12.0,DC
 SH Johnson,GT,98,6,38,7.44,13.17,13.1,KKR
@@ -292,15 +292,15 @@ A Zampa,GT,193,6,23,10.16,19.0,19.0,SRH
 CV Varun,SRH,142,6,29,9.47,15.0,15.0,PBKS
 M Pathirana,SRH,261,6,28,11.35,23.0,23.0,RCB
 MG Bracewell,DC,264,6,37,10.56,25.0,25.0,
-D Wiese,GT,391,6,38,11.5,34.0,34.0,KKR
+D Wiese,GT,391,6,38,11.5,34.0,34.0,
 CH Gayle,RCB,80,6,12,10.0,8.0,8.0,RCB
 MP Yadav,GT,111,6,25,9.25,12.0,12.0,PBKS
 A Zampa,RCB,156,6,33,9.09,17.17,17.1,SRH
 C Green,CSK,87,6,17,9.67,9.0,9.0,KKR
-D Wiese,KKR,177,6,60,7.38,24.0,24.0,KKR
+D Wiese,KKR,177,6,60,7.38,24.0,24.0,
 Suryansh Shedge,RCB,148,6,27,9.87,15.0,15.0,KKR
 SH Johnson,CSK,170,6,27,10.97,15.5,15.3,KKR
-Mohammad Nabi,PBKS,121,6,48,6.72,18.0,18.0,
+Mohammad Nabi,PBKS,121,6,48,6.72,18.0,18.0,LSG
 SH Johnson,RR,204,6,24,12.0,17.0,17.0,KKR
 MR Marsh,DC,249,6,27,12.45,20.0,20.0,MI
 S Dube,RCB,113,6,26,8.92,12.67,12.4,RR
@@ -309,7 +309,7 @@ AR Patel,SRH,210,6,34,9.84,21.33,21.2,GT
 S Dube,KKR,97,6,20,10.21,9.5,9.3,RR
 Tanay Thyagarajan,RCB,126,6,38,7.88,16.0,16.0,CSK
 A Nagwaswalla,LSG,44,6,26,5.5,8.0,8.0,RR
-TA Boult,RCB,231,6,54,8.56,27.0,27.0,MI
+TA Boult,RCB,231,6,54,8.56,27.0,27.0,
 AK Markram,LSG,80,6,17,8.89,9.0,9.0,DC
 GJ Maxwell,SRH,134,6,30,8.38,16.0,16.0,DC
 SP Narine,PBKS,150,6,31,10.23,14.67,14.4,PBKS
@@ -331,7 +331,7 @@ Ravi Teja,CSK,73,6,23,6.64,11.0,11.0,SRH
 PHKD Mendis,MI,83,6,16,8.3,10.0,10.0,PBKS
 Yuvraj Singh,CSK,212,6,44,11.16,19.0,19.0,
 HH Pandya,KKR,114,6,45,6.33,18.0,18.0,LSG
-DS Airee,RCB,155,6,28,9.12,17.0,17.0,
+DS Airee,RCB,155,6,28,9.12,17.0,17.0,DC
 Kuldeep Yadav,RR,188,6,35,9.89,19.0,19.0,LSG
 Shaheen Shah Afridi,LSG,166,6,37,9.14,18.17,18.1,DC
 LS Livingstone,MI,83,6,23,9.22,9.0,9.0,
@@ -361,7 +361,7 @@ JR Hazlewood,RCB,228,5,28,11.4,24.0,20.0,MI
 T Natarajan,PBKS,196,5,17,10.99,21.4,17.5,RR
 KA Pollard,CSK,131,5,23,9.36,16.8,14.0,RR
 K Rabada,MI,168,5,26,10.5,19.2,16.0,
-TA Boult,LSG,137,5,33,8.56,19.2,16.0,MI
+TA Boult,LSG,137,5,33,8.56,19.2,16.0,
 Harpreet Brar,RCB,447,5,62,9.9,54.2,45.1,
 LS Livingstone,DC,111,5,22,9.25,14.4,12.0,
 V Puthur,RR,72,5,15,10.29,8.4,7.0,KKR
@@ -373,7 +373,7 @@ JJ Smit,DC,118,5,12,9.83,14.4,12.0,PBKS
 M Pathirana,DC,153,5,23,10.2,18.0,15.0,RCB
 DJ Bravo,RCB,109,5,15,9.91,13.2,11.0,
 M Pathirana,MI,114,5,19,10.36,13.2,11.0,RCB
-TA Boult,KKR,126,5,42,7.88,19.2,16.0,MI
+TA Boult,KKR,126,5,42,7.88,19.2,16.0,
 HV Patel,LSG,118,5,25,7.96,17.8,14.5,
 Karan Lal,DC,108,5,15,9.82,13.2,11.0,RR
 GF Linde,CSK,79,5,17,9.88,9.6,8.0,GT
@@ -385,7 +385,7 @@ M Prasidh Krishna,RCB,105,5,24,8.08,15.6,13.0,KKR
 Tanay Thyagarajan,CSK,293,5,30,12.21,28.8,24.0,CSK
 JA Duffy,LSG,177,5,31,11.06,19.2,16.0,LSG
 HR Shokeen,RR,121,5,27,8.07,18.0,15.0,
-D Wiese,PBKS,81,5,17,7.36,13.2,11.0,KKR
+D Wiese,PBKS,81,5,17,7.36,13.2,11.0,
 JJ Bumrah,CSK,196,5,32,9.26,25.4,21.1,DC
 KA Maharaj,RR,122,5,26,8.82,16.6,13.5,RCB
 Harsh Dubey,MI,112,5,21,11.2,12.0,10.0,DC
@@ -560,8 +560,8 @@ LI Meriwala,PBKS,135,4,25,9.0,22.5,15.0,PBKS
 V Puthur,LSG,111,4,24,10.09,16.5,11.0,KKR
 Ashwin Das,RR,59,4,16,7.38,12.0,8.0,LSG
 T Natarajan,KKR,115,4,29,7.93,21.75,14.3,RR
-Mohammad Nabi,DC,60,4,20,7.5,12.0,8.0,
-TA Boult,RR,149,4,35,9.31,24.0,16.0,MI
+Mohammad Nabi,DC,60,4,20,7.5,12.0,8.0,LSG
+TA Boult,RR,149,4,35,9.31,24.0,16.0,
 PWH de Silva,PBKS,251,4,40,8.96,42.0,28.0,RCB
 T Natarajan,DC,202,4,19,12.76,23.75,15.5,RR
 BA Stokes,KKR,119,4,26,7.93,22.5,15.0,
@@ -590,7 +590,7 @@ Samant Jakhar,DC,99,3,13,12.38,16.0,8.0,
 J Anderson,KKR,51,3,4,16.11,6.33,3.1,
 M Prasidh Krishna,SRH,137,3,13,11.42,24.0,12.0,KKR
 Mohammed Shami,KKR_2,35,3,10,11.67,6.0,3.0,MI
-Mohammad Nabi,RCB,56,3,18,7.0,16.0,8.0,
+Mohammad Nabi,RCB,56,3,18,7.0,16.0,8.0,LSG
 J Overton,CSK,36,3,10,9.0,8.0,4.0,GT
 J Overton,GT,149,3,17,9.93,30.0,15.0,GT
 Imran Tahir,PBKS,63,3,17,9.45,13.33,6.4,RCB
@@ -599,7 +599,7 @@ Mustafizur Rahman,MI,114,3,21,9.5,24.0,12.0,
 SZ Mulani,PBKS,13,3,6,6.5,4.0,2.0,
 Sufiyan Muqeem,PBKS_2,19,3,7,6.71,5.67,2.5,GT
 Mujeeb Ur Rahman,GT,117,3,19,10.64,22.0,11.0,
-Mohammad Nabi,CSK,61,3,18,8.71,14.0,7.0,
+Mohammad Nabi,CSK,61,3,18,8.71,14.0,7.0,LSG
 MJ Owen,PBKS,36,3,9,7.2,10.0,5.0,DC
 S Dube,PBKS,149,3,17,10.64,28.0,14.0,RR
 Sayed Irfan Aftab,PBKS,81,3,11,10.12,16.0,8.0,PBKS
@@ -728,7 +728,7 @@ Washington Sundar,RCB,99,3,23,8.25,24.0,12.0,GT
 DAJ Bracewell,CSK,69,3,21,8.62,16.0,8.0,
 BA Stokes,PBKS,37,3,7,9.25,8.0,4.0,
 BA Stokes,MI,131,3,28,9.36,28.0,14.0,
-DS Airee,RR,63,3,17,7.88,16.0,8.0,
+DS Airee,RR,63,3,17,7.88,16.0,8.0,DC
 DR Sams,KKR,50,3,11,12.5,8.0,4.0,
 DR Sams,GT,203,3,25,11.28,36.0,18.0,
 A Kamboj,KKR,81,3,14,10.12,16.0,8.0,
@@ -748,7 +748,7 @@ BA Stokes,CSK,89,3,17,8.09,22.0,11.0,
 YS Chahal,KKR,43,3,8,10.75,8.0,4.0,KKR
 Yash Thakur,DC,93,3,10,11.62,16.0,8.0,
 DS Rathi,LSG,50,3,16,6.25,16.0,8.0,LSG
-D Wiese,KKR_2,70,3,12,11.67,12.0,6.0,KKR
+D Wiese,KKR_2,70,3,12,11.67,12.0,6.0,
 C Sakariya,CSK,124,3,26,8.27,30.0,15.0,RR
 MJ Owen,LSG,70,2,7,11.67,18.0,6.0,DC
 DJ Willey,RR,27,2,10,6.75,12.0,4.0,
@@ -793,7 +793,7 @@ R Tewatia,PBKS,55,2,10,9.17,18.0,6.0,
 Akash Vasisht,KKR,22,2,6,7.33,9.0,3.0,
 Shakib Al Hasan,SRH,36,2,10,9.0,12.0,4.0,
 Shakib Al Hasan,LSG,42,2,13,8.4,15.0,5.0,
-D Wiese,MI,110,2,14,10.0,33.0,11.0,KKR
+D Wiese,MI,110,2,14,10.0,33.0,11.0,
 Akash Deep,RR,87,2,15,10.88,24.0,8.0,
 Swapnil Singh,RCB,42,2,7,10.5,12.0,4.0,
 Abid Mushtaq,RCB,48,2,8,12.0,12.0,4.0,
@@ -838,7 +838,7 @@ C Sakariya,LSG,64,2,11,8.0,24.0,8.0,RR
 CH Gayle,CSK,77,2,15,9.24,25.0,8.2,RCB
 PJ Cummins,KKR,149,2,31,9.31,48.0,16.0,SRH
 PJ Cummins,LSG,93,2,20,9.3,30.0,10.0,SRH
-Mohammad Nabi,RR,230,2,16,11.5,60.0,20.0,
+Mohammad Nabi,RR,230,2,16,11.5,60.0,20.0,LSG
 CH Gayle,SRH,37,2,3,12.33,9.0,3.0,RCB
 Sufiyan Muqeem,GT_2,35,2,2,8.75,12.0,4.0,GT
 Mukesh Kumar,LSG,25,2,11,6.25,12.0,4.0,
@@ -1013,14 +1013,14 @@ Harsh Tyagi,CSK,25,2,3,8.33,9.0,3.0,
 KK Ahmed,RR,83,2,13,11.86,21.0,7.0,
 Tanay Thyagarajan,MI,30,2,7,7.5,12.0,4.0,CSK
 Rasikh Salam,RR,127,2,11,12.92,29.5,9.5,SRH
-TA Boult,SRH,160,2,22,10.43,46.0,15.2,MI
+TA Boult,SRH,160,2,22,10.43,46.0,15.2,
 LI Meriwala,MI,36,2,7,9.0,12.0,4.0,PBKS
 Ehsan Khan,DC,33,2,9,8.25,12.0,4.0,MI
 T Natarajan,RR_2,41,2,5,10.25,12.0,4.0,RR
 Ravi Bishnoi,RCB,85,2,18,8.64,29.5,9.5,SRH
 V Nigam,KKR,86,2,11,12.29,21.0,7.0,GT
 DS Rathi,MI,73,2,12,10.43,21.0,7.0,LSG
-TA Boult,DC,50,2,21,7.14,21.0,7.0,MI
+TA Boult,DC,50,2,21,7.14,21.0,7.0,
 AS Roy,LSG,177,2,21,11.06,48.0,16.0,
 AS Roy,DC,31,2,9,7.75,12.0,4.0,
 DS Rathi,PBKS,97,2,27,8.08,36.0,12.0,LSG
@@ -1035,7 +1035,7 @@ Yudhvir Singh,MI,170,2,26,11.33,45.0,15.0,RR
 AR Patel,MI,142,2,12,10.14,42.0,14.0,GT
 LH Ferguson,MI,44,2,13,7.33,18.0,6.0,
 V Nigam,RR,106,2,12,10.6,30.0,10.0,GT
-DS Airee,PBKS,36,2,4,9.0,12.0,4.0,
+DS Airee,PBKS,36,2,4,9.0,12.0,4.0,DC
 L Ngidi,RR_2,53,2,7,13.25,12.0,4.0,RR
 Esakkimuthu A,SRH,27,2,7,6.75,12.0,4.0,RCB
 Rashid Khan,RCB,46,2,22,5.75,24.0,8.0,
@@ -1224,10 +1224,10 @@ Khushdil Shah,SRH,30,1,8,7.5,24.0,4.0,
 DW Lawrence,KKR,9,1,1,9.0,6.0,1.0,
 Kuldeep Yadav,DC,41,1,6,10.25,24.0,4.0,LSG
 Kuldeep Yadav,MI,32,1,5,8.0,24.0,4.0,LSG
-DS Airee,SRH,57,1,9,9.5,36.0,6.0,
+DS Airee,SRH,57,1,9,9.5,36.0,6.0,DC
 Kuldeep Yadav,RCB,32,1,9,8.0,24.0,4.0,LSG
 L Ngidi,GT,46,1,9,11.5,24.0,4.0,RR
-DS Airee,LSG,49,1,5,12.25,24.0,4.0,
+DS Airee,LSG,49,1,5,12.25,24.0,4.0,DC
 T Stubbs,LSG,62,1,5,15.5,24.0,4.0,CSK
 Kartik Tyagi,LSG,16,1,4,8.0,12.0,2.0,
 EA Brookes,LSG,27,1,4,9.0,18.0,3.0,
@@ -1243,7 +1243,7 @@ KH Pandya,RR,112,1,11,11.2,60.0,10.0,SRH
 KR Sen,CSK,33,1,11,8.25,24.0,4.0,
 V Nigam,GT_2,44,1,1,14.67,18.0,3.0,GT
 KR Sen,DC,46,1,6,11.5,24.0,4.0,
-TM Head,CSK,15,1,7,7.5,12.0,2.0,
+TM Head,CSK,15,1,7,7.5,12.0,2.0,KKR
 Esakkimuthu A,LSG_2,40,1,6,10.0,24.0,4.0,RCB
 Ehsan Khan,PBKS,76,1,10,9.5,48.0,8.0,MI
 Karan Lal,GT_2,41,1,5,10.25,24.0,4.0,RR
@@ -1251,8 +1251,8 @@ Karan Lal,KKR,42,1,4,10.5,24.0,4.0,RR
 Ehsan Khan,CSK,34,1,7,8.5,24.0,4.0,MI
 LA Dawson,LSG,58,1,2,14.5,24.0,4.0,
 LA Dawson,RR,39,1,2,9.75,24.0,4.0,
-DS Airee,KKR,47,1,3,11.75,24.0,4.0,
-D Wiese,SRH,57,1,8,11.4,30.0,5.0,KKR
+DS Airee,KKR,47,1,3,11.75,24.0,4.0,DC
+D Wiese,SRH,57,1,8,11.4,30.0,5.0,
 DAJ Bracewell,GT,37,1,7,9.25,24.0,4.0,
 M Poiyamozhi,CSK,67,1,4,16.75,24.0,4.0,CSK
 VG Arora,RR,12,1,6,6.0,12.0,2.0,
@@ -1261,9 +1261,9 @@ DA Payne,KKR,26,1,11,6.5,24.0,4.0,
 DA Payne,DC,35,1,11,8.75,24.0,4.0,
 M Prasidh Krishna,RR,75,1,13,9.38,48.0,8.0,KKR
 M Shahrukh Khan,GT,61,1,5,19.26,19.0,3.1,
-DS Airee,GT,0,1,1,0.0,1.0,0.1,
+DS Airee,GT,0,1,1,0.0,1.0,0.1,DC
 A Badoni,LSG,13,1,2,13.0,6.0,1.0,RR
-D Wiese,RR,76,1,5,10.86,42.0,7.0,KKR
+D Wiese,RR,76,1,5,10.86,42.0,7.0,
 VR Iyer,DC,119,1,9,13.22,54.0,9.0,SRH
 M Siddharth,DC,131,1,17,9.36,84.0,14.0,CSK
 M Siddharth,RR,109,1,27,9.08,72.0,12.0,CSK
@@ -1277,7 +1277,7 @@ DR Sams,PBKS,25,1,5,8.33,18.0,3.0,
 DR Sams,MI,8,1,14,2.67,18.0,3.0,
 DR Sams,DC,41,1,6,10.25,24.0,4.0,
 LS Livingstone,LSG,111,1,18,10.74,62.0,10.2,
-DR Mousley,GT,29,1,2,9.67,18.0,3.0,LSG
+DR Mousley,GT,29,1,2,9.67,18.0,3.0,
 DL Chahar,SRH,68,1,1,17.0,24.0,4.0,
 M Jansen,GT,186,1,30,10.05,111.0,18.3,
 M Jansen,LSG,75,1,21,9.38,48.0,8.0,
@@ -1310,7 +1310,7 @@ HV Patel,SRH,16,1,7,5.33,18.0,3.0,
 JJ Smit,GT,99,1,10,12.38,48.0,8.0,PBKS
 JC Archer,DC,144,1,15,12.0,72.0,12.0,PBKS
 JA Duffy,MI,53,1,7,13.25,24.0,4.0,LSG
-Usman Tariq,LSG,31,1,5,10.33,18.0,3.0,CSK
+Usman Tariq,LSG,31,1,5,10.33,18.0,3.0,
 JA Duffy,KKR,31,1,11,7.75,24.0,4.0,LSG
 Tripuresh Singh,MI,35,1,10,8.75,24.0,4.0,SRH
 Umran Malik,KKR,42,1,6,10.5,24.0,4.0,
@@ -1505,10 +1505,10 @@ Shakib Al Hasan,CSK,33,0,7,11.0,inf,3.0,
 YS Chahal,KKR_2,20,0,5,6.67,inf,3.0,KKR
 Yash Thakur,LSG,37,0,3,9.25,inf,4.0,
 Sanvir Singh,RR,32,0,3,10.67,inf,3.0,PBKS
-TM Head,DC,31,0,1,15.5,inf,2.0,
+TM Head,DC,31,0,1,15.5,inf,2.0,KKR
 VR Iyer,CSK,48,0,2,12.0,inf,4.0,SRH
 Shashank Singh,CSK,115,0,17,11.5,inf,10.0,PBKS
-TH David,GT,23,0,1,23.0,inf,1.0,GT
+TH David,GT,23,0,1,23.0,inf,1.0,
 Taskin Ahmed,PBKS,31,0,9,7.75,inf,4.0,
 VR Iyer,MI,48,0,6,9.6,inf,5.0,SRH
 Tripuresh Singh,LSG,28,0,6,7.0,inf,4.0,SRH
@@ -1523,13 +1523,13 @@ YK Pathan,GT,34,0,0,8.5,inf,4.0,
 Tilak Varma,RCB,2,0,4,2.0,inf,1.0,CSK
 Yash Thakur,GT,38,0,5,12.67,inf,3.0,
 Tilak Varma,PBKS,8,0,1,8.0,inf,1.0,CSK
-Usman Tariq,CSK,57,0,3,13.15,inf,4.2,CSK
+Usman Tariq,CSK,57,0,3,13.15,inf,4.2,
 Vidyadhar Patil,LSG,41,0,3,13.67,inf,3.0,SRH
 Tilak Varma,MI,34,0,3,17.0,inf,2.0,CSK
 Sikandar Raza,KKR,37,0,5,9.25,inf,4.0,MI
 YK Pathan,CSK,30,0,4,10.0,inf,3.0,
 Tilak Varma,DC,51,0,3,12.75,inf,4.0,CSK
-TM Head,GT,69,0,8,9.86,inf,7.0,
+TM Head,GT,69,0,8,9.86,inf,7.0,KKR
 VG Arora,LSG,69,0,18,8.62,inf,8.0,
 VG Arora,RCB,22,0,3,11.0,inf,2.0,
 Suyash Sharma,CSK,43,0,5,14.33,inf,3.0,
@@ -1542,7 +1542,7 @@ WL Madsen,SRH,14,0,2,14.0,inf,1.0,KKR
 Yuvraj Singh,RR,37,0,6,12.33,inf,3.0,
 Shahbaz Ahmed,KKR,30,0,13,7.5,inf,4.0,KKR
 Shashank Singh,SRH,106,0,30,7.57,inf,14.0,PBKS
-TM Head,LSG,13,0,5,6.5,inf,2.0,
+TM Head,LSG,13,0,5,6.5,inf,2.0,KKR
 Suryansh Shedge,SRH,41,0,3,8.2,inf,5.0,KKR
 Yuvraj Singh,LSG,35,0,5,11.67,inf,3.0,
 Shadab Khan,DC,21,0,0,10.5,inf,2.0,SRH
@@ -1556,7 +1556,7 @@ Sunny Sandhu,KKR,47,0,6,11.75,inf,4.0,DC
 Yash Raj Punja,GT,147,0,11,12.25,inf,12.0,GT
 Utkarsh Singh,SRH,30,0,0,10.0,inf,3.0,PBKS
 Utkarsh Singh,LSG,12,0,2,6.0,inf,2.0,PBKS
-TM Head,PBKS,22,0,5,11.0,inf,2.0,
+TM Head,PBKS,22,0,5,11.0,inf,2.0,KKR
 TU Deshpande,DC,52,0,6,13.0,inf,4.0,
 YS Chahal,MI,32,0,4,8.0,inf,4.0,KKR
 Taskin Ahmed,DC,49,0,11,12.25,inf,4.0,
@@ -1576,13 +1576,13 @@ Shakib Al Hasan,RCB,33,0,8,8.25,inf,4.0,
 A Badoni,DC,11,0,1,11.0,inf,1.0,RR
 Sandeep Sharma,DC,66,0,12,8.25,inf,8.0,
 D Ferreira,RR,18,0,4,9.0,inf,2.0,
-DR Mousley,CSK,35,0,6,8.75,inf,4.0,LSG
-DR Mousley,KKR,7,0,2,7.0,inf,1.0,LSG
-DR Mousley,LSG,115,0,12,10.45,inf,11.0,LSG
-DR Mousley,MI,14,0,3,7.0,inf,2.0,LSG
-DR Mousley,RCB,27,0,1,9.0,inf,3.0,LSG
-DR Mousley,RR,7,0,0,7.0,inf,1.0,LSG
-DR Mousley,SRH,32,0,6,8.0,inf,4.0,LSG
+DR Mousley,CSK,35,0,6,8.75,inf,4.0,
+DR Mousley,KKR,7,0,2,7.0,inf,1.0,
+DR Mousley,LSG,115,0,12,10.45,inf,11.0,
+DR Mousley,MI,14,0,3,7.0,inf,2.0,
+DR Mousley,RCB,27,0,1,9.0,inf,3.0,
+DR Mousley,RR,7,0,0,7.0,inf,1.0,
+DR Mousley,SRH,32,0,6,8.0,inf,4.0,
 DS Rathi,CSK,64,0,11,8.0,inf,8.0,LSG
 DS Rathi,LSG_2,20,0,9,6.67,inf,3.0,LSG
 DW Lawrence,CSK,17,0,2,8.5,inf,2.0,
@@ -1598,7 +1598,7 @@ GD Phillips,DC,31,0,3,15.5,inf,2.0,RR
 DR Briggs,KKR,45,0,3,11.25,inf,4.0,KKR
 DL Chahar,RCB,37,0,3,9.25,inf,4.0,
 DL Chahar,LSG,42,0,4,10.5,inf,4.0,
-D Wiese,RCB,72,0,7,12.0,inf,6.0,KKR
+D Wiese,RCB,72,0,7,12.0,inf,6.0,
 D Forrester,GT,37,0,1,9.25,inf,4.0,LSG
 D Forrester,PBKS,33,0,7,8.25,inf,4.0,LSG
 D Potgieter,KKR,26,0,8,6.5,inf,4.0,
@@ -1606,7 +1606,7 @@ D Potgieter,MI,51,0,5,12.75,inf,4.0,
 D Potgieter,PBKS,54,0,5,13.5,inf,4.0,
 D Visser,GT,15,0,1,7.5,inf,2.0,
 D Visser,RR,22,0,0,22.0,inf,1.0,
-D Wiese,CSK,69,0,12,8.62,inf,8.0,KKR
+D Wiese,CSK,69,0,12,8.62,inf,8.0,
 DA Payne,MI,18,0,5,9.0,inf,2.0,
 DJ Hooda,SRH,8,0,2,8.0,inf,1.0,
 DA Payne,PBKS,38,0,10,9.5,inf,4.0,
@@ -1767,15 +1767,15 @@ R Parag,DC,30,0,6,10.0,inf,3.0,GT
 R Parag,KKR,37,0,3,12.33,inf,3.0,GT
 R Parag,RCB,36,0,1,12.0,inf,3.0,GT
 R Parag,SRH,46,0,8,7.67,inf,6.0,GT
-R Powell,CSK,6,0,1,6.0,inf,1.0,
-R Powell,LSG,91,0,6,10.11,inf,9.0,
-R Powell,MI,21,0,2,10.5,inf,2.0,
+R Powell,CSK,6,0,1,6.0,inf,1.0,CSK
+R Powell,LSG,91,0,6,10.11,inf,9.0,CSK
+R Powell,MI,21,0,2,10.5,inf,2.0,CSK
 R Ravindra,PBKS,40,0,2,13.33,inf,3.0,
 R Shepherd,PBKS,76,0,13,9.5,inf,8.0,SRH
 R Tewatia,MI,35,0,4,8.75,inf,4.0,
 Pankaj Jaswal,RR,36,0,6,12.0,inf,3.0,
 PP Chawla,DC,34,0,8,8.5,inf,4.0,
-PN Mankad,RCB,4,0,2,4.0,inf,1.0,
+PN Mankad,RCB,4,0,2,4.0,inf,1.0,RCB
 Naveen-ul-Haq,MI,65,0,5,16.25,inf,4.0,CSK
 NT Ellis,PBKS,40,0,6,10.0,inf,4.0,SRH
 Naman Dhir,DC,19,0,0,19.0,inf,1.0,GT

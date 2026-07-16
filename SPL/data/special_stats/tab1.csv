@@ -35,7 +35,7 @@ VR Iyer,Middle,spin,764,528,124,14,54.57,144.7,SRH
 JM Sharma,Death,pace,750,353,79,17,44.12,212.46,RCB
 Shubman Gill,Middle,pace,738,483,76,12,61.5,152.8,LSG
 Tilak Varma,PP,spin,726,404,141,16,45.38,179.7,CSK
-TM Head,PP,pace,723,478,184,19,38.05,151.26,
+TM Head,PP,pace,723,478,184,19,38.05,151.26,KKR
 GJ Maxwell,Middle,spin,716,462,116,22,32.55,154.98,DC
 P Simran Singh,PP,pace,711,401,142,18,39.5,177.31,SRH
 N Rana,Middle,pace,710,443,120,21,33.81,160.27,PBKS
@@ -66,7 +66,7 @@ B Sai Sudharsan,Middle,pace,615,455,126,15,41.0,135.16,CSK
 SP Narine,PP,spin,615,400,163,11,55.91,153.75,PBKS
 Urvil Patel,PP,spin,611,376,150,9,67.89,162.5,MI
 AM Rahane,Middle,pace,610,418,107,15,40.67,145.93,CSK
-TM Head,Middle,pace,606,410,98,13,46.62,147.8,
+TM Head,Middle,pace,606,410,98,13,46.62,147.8,KKR
 SS Iyer,Middle,spin,600,403,100,20,30.0,148.88,KKR
 Priyansh Arya,PP,pace,595,357,133,12,49.58,166.67,RCB
 RD Rickelton,PP,spin,595,397,176,21,28.33,149.87,RR
@@ -252,10 +252,10 @@ Dhruv Jurel,Middle,spin,268,191,65,9,29.78,140.31,LSG
 RG Sharma,PP,spin,267,186,75,4,66.75,143.55,RCB
 Tarang Gohel,PP,neutralish,264,149,51,2,132.0,177.18,DC
 Naman Dhir,PP,neutralish,264,134,39,4,66.0,197.01,GT
-D Wiese,Death,pace,264,102,18,5,52.8,258.82,KKR
+D Wiese,Death,pace,264,102,18,5,52.8,258.82,
 Tarang Gohel,Middle,pace,264,141,22,6,44.0,187.23,DC
 AM Rahane,PP,spin,263,233,119,9,29.22,112.88,CSK
-TH David,Middle,pace,262,165,39,9,29.11,158.79,GT
+TH David,Middle,pace,262,165,39,9,29.11,158.79,
 AM Rahane,PP,pace,262,183,90,8,32.75,143.17,CSK
 Kartik Sharma,Middle,neutralish,262,143,28,6,43.67,183.22,SRH
 V Kohli,PP,neutralish,260,165,64,13,20.0,157.58,CSK
@@ -275,7 +275,7 @@ H Klaasen,PP,spin,251,201,87,6,41.83,124.88,CSK
 TP Ura,Middle,spin,251,147,31,6,41.83,170.75,PBKS
 BJ McMullen,PP,pace,250,157,64,7,35.71,159.24,
 Abhishek Sharma,Middle,neutralish,249,146,28,9,27.67,170.55,MI
-TM Head,PP,spin,249,175,71,9,27.67,142.29,
+TM Head,PP,spin,249,175,71,9,27.67,142.29,KKR
 Abishek Porel,Death,spin,247,135,30,6,41.17,182.96,LSG
 YBK Jaiswal,PP,spin,247,163,70,11,22.45,151.53,RR
 GD Phillips,Death,pace,246,111,26,10,24.6,221.62,RR
@@ -310,7 +310,7 @@ SP Narine,Middle,pace,225,176,60,14,16.07,127.84,PBKS
 KA Pollard,Middle,neutralish,224,174,49,7,32.0,128.74,RR
 Ramandeep Singh,Middle,pace,224,153,48,10,22.4,146.41,
 FH Allen,PP,neutralish,223,136,52,9,24.78,163.97,LSG
-R Powell,Middle,pace,222,160,53,8,27.75,138.75,
+R Powell,Middle,pace,222,160,53,8,27.75,138.75,CSK
 V Nigam,Death,spin,221,112,37,7,31.57,197.32,GT
 FH Allen,Middle,spin,220,143,35,13,16.92,153.85,LSG
 PP Shaw,Middle,pace,219,153,44,10,21.9,143.14,
@@ -335,7 +335,7 @@ V Kohli,Middle,neutralish,206,136,31,4,51.5,151.47,CSK
 PWH de Silva,PP,spin,206,117,49,2,103.0,176.07,RCB
 GD Phillips,Middle,spin,204,150,43,9,22.67,136.0,RR
 Q de Kock,Middle,pace,203,146,36,6,33.83,139.04,
-R Powell,Death,pace,202,103,26,9,22.44,196.12,
+R Powell,Death,pace,202,103,26,9,22.44,196.12,CSK
 BM Duckett,Middle,pace,201,123,23,3,67.0,163.41,SRH
 Ramandeep Singh,Death,pace,201,115,38,11,18.27,174.78,
 MP Stoinis,Death,pace,200,106,28,7,28.57,188.68,SRH
@@ -358,14 +358,14 @@ PWH de Silva,PP,neutralish,190,88,24,3,63.33,215.91,RCB
 PWH de Silva,Middle,neutralish,188,117,23,5,37.6,160.68,RCB
 R Smaran,PP,spin,188,118,49,8,23.5,159.32,PBKS
 C Green,Death,spin,187,88,22,5,37.4,212.5,KKR
-HC Brook,Middle,pace,186,139,48,5,37.2,133.81,
+HC Brook,Middle,pace,186,139,48,5,37.2,133.81,GT
 BA Stokes,Middle,pace,186,137,54,8,23.25,135.77,
 V Nigam,Death,pace,185,84,21,2,92.5,220.24,GT
 Tilak Varma,Death,spin,185,102,21,5,37.0,181.37,CSK
 GJ Maxwell,Death,spin,185,91,21,6,30.83,203.3,DC
 LS Livingstone,Death,spin,184,128,53,10,18.4,143.75,
 KL Rahul,PP,neutralish,184,99,38,3,61.33,185.86,SRH
-TM Head,PP,neutralish,183,101,35,3,61.0,181.19,
+TM Head,PP,neutralish,183,101,35,3,61.0,181.19,KKR
 JP Inglis,Death,pace,182,86,17,8,22.75,211.63,GT
 Shashank Singh,PP,spin,182,107,30,2,91.0,170.09,PBKS
 RD Rickelton,Middle,neutralish,182,124,33,7,26.0,146.77,RR
@@ -424,7 +424,7 @@ Abdul Samad,Middle,spin,159,127,51,7,22.71,125.2,
 MJ Owen,PP,pace,159,107,44,7,22.71,148.6,DC
 Rahul Singh,Middle,pace,159,93,29,9,17.67,170.97,
 AB de Villiers,Middle,neutralish,158,96,18,0,,164.58,
-TM Head,Middle,spin,158,103,26,5,31.6,153.4,
+TM Head,Middle,spin,158,103,26,5,31.6,153.4,KKR
 MJ Owen,Death,pace,158,80,18,8,19.75,197.5,DC
 T Stubbs,Death,spin,158,80,22,6,26.33,197.5,CSK
 JP Inglis,Death,neutralish,158,73,14,7,22.57,216.44,GT
@@ -504,7 +504,7 @@ B Sai Sudharsan,Death,pace,125,70,23,10,12.5,178.57,CSK
 Dhruv Jurel,PP,pace,125,64,20,2,62.5,195.31,LSG
 DAJ Bracewell,Death,pace,124,61,22,6,20.67,203.28,
 RR Pant,Middle,spin,123,76,22,3,41.0,161.84,
-TH David,Middle,spin,123,88,33,3,41.0,139.77,GT
+TH David,Middle,spin,123,88,33,3,41.0,139.77,
 WG Jacks,Middle,neutralish,123,89,25,3,41.0,138.2,SRH
 Akash Vasisht,Death,spin,123,71,31,7,17.57,173.24,
 LS Livingstone,Middle,pace,123,100,29,5,24.6,123.0,
@@ -525,7 +525,7 @@ SP Narine,PP,neutralish,118,67,28,3,39.33,176.12,PBKS
 JC Buttler,PP,neutralish,118,76,33,3,39.33,155.26,DC
 Chirag Jani,Middle,neutralish,118,76,27,2,59.0,155.26,RCB
 FH Allen,Death,pace,118,59,12,5,23.6,200.0,LSG
-TH David,Death,pace,117,64,15,6,19.5,182.81,GT
+TH David,Death,pace,117,64,15,6,19.5,182.81,
 Tanush Kotian,Middle,spin,115,88,35,4,28.75,130.68,CSK
 AM Rahane,Middle,neutralish,115,81,16,1,115.0,141.98,CSK
 DP Conway,PP,neutralish,115,67,19,6,19.17,171.64,LSG
@@ -536,7 +536,7 @@ Kartik Sharma,Death,pace,113,46,15,4,28.25,245.65,SRH
 SU Parakh,PP,spin,113,65,31,3,37.67,173.85,SRH
 SA Yadav,Death,neutralish,113,56,8,3,37.67,201.79,DC
 LS Livingstone,PP,pace,113,75,28,4,28.25,150.67,
-TA Boult,Death,pace,111,102,54,12,9.25,108.82,MI
+TA Boult,Death,pace,111,102,54,12,9.25,108.82,
 N Pooran,Death,neutralish,111,51,10,4,27.75,217.65,MI
 WL Madsen,Middle,neutralish,110,71,14,1,110.0,154.93,KKR
 GF Linde,Death,spin,110,71,28,8,13.75,154.93,GT
@@ -565,7 +565,7 @@ TL Seifert,PP,spin,100,65,24,0,,153.85,PBKS
 MS Dhoni,Death,pace,99,63,19,2,49.5,157.14,RCB
 KH Pandya,Death,spin,98,75,34,9,10.89,130.67,SRH
 MR Marsh,PP,pace,98,68,31,2,49.0,144.12,MI
-DR Mousley,Middle,pace,98,69,12,2,49.0,142.03,LSG
+DR Mousley,Middle,pace,98,69,12,2,49.0,142.03,
 J Fraser-McGurk,Middle,neutralish,98,66,17,6,16.33,148.48,KKR
 Nithish Kumar Reddy,Death,pace,98,57,19,5,19.6,171.93,GT
 AD Russell,Middle,spin,97,66,22,3,32.33,146.97,DC
@@ -602,9 +602,9 @@ DJ Hooda,Middle,spin,91,68,25,2,45.5,133.82,
 RR Rossouw,PP,pace,91,77,43,4,22.75,118.18,MI
 Sakibul Gani,Death,spin,91,48,20,7,13.0,189.58,RR
 RR Rossouw,Middle,neutralish,91,62,14,3,30.33,146.77,MI
-Mohammad Nabi,Death,spin,90,68,30,13,6.92,132.35,
+Mohammad Nabi,Death,spin,90,68,30,13,6.92,132.35,LSG
 GF Linde,Death,neutralish,90,36,10,2,45.0,250.0,GT
-TH David,Death,spin,90,52,21,7,12.86,173.08,GT
+TH David,Death,spin,90,52,21,7,12.86,173.08,
 Azmatullah Omarzai,Middle,pace,89,65,25,5,17.8,136.92,
 MK Lomror,Middle,spin,89,56,16,4,22.25,158.93,
 Shashank Singh,Death,neutralish,88,47,13,4,22.0,187.23,PBKS
@@ -612,7 +612,7 @@ MS Pepper,PP,pace,88,51,24,1,88.0,172.55,PBKS
 RG Sharma,Death,neutralish,88,43,8,2,44.0,204.65,RCB
 KK Nair,PP,pace,87,51,18,4,21.75,170.59,CSK
 Arshad Khan,Death,spin,87,64,25,5,17.4,135.94,MI
-DS Airee,Middle,spin,87,74,30,4,21.75,117.57,
+DS Airee,Middle,spin,87,74,30,4,21.75,117.57,DC
 Atharva Taide,PP,neutralish,86,52,17,2,43.0,165.38,RCB
 PP Shaw,PP,neutralish,86,61,25,5,17.2,140.98,
 R Ashwin,Death,spin,85,47,15,5,17.0,180.85,
@@ -621,7 +621,7 @@ Ajay Rohera,Middle,pace,83,51,6,2,41.5,162.75,LSG
 Ravi Singh,Middle,pace,83,51,21,4,20.75,162.75,
 S Arora,Death,spin,83,38,10,4,20.75,218.42,KKR
 H Klaasen,PP,pace,83,58,29,5,16.6,143.1,CSK
-DS Airee,Death,spin,82,42,16,8,10.25,195.24,
+DS Airee,Death,spin,82,42,16,8,10.25,195.24,DC
 Harpreet Brar,Death,pace,82,60,28,3,27.33,136.67,
 RM Patidar,PP,neutralish,82,52,15,1,82.0,157.69,RCB
 GD Phillips,PP,spin,82,41,17,0,,200.0,RR
@@ -646,7 +646,7 @@ JN Loftie-Eaton,Death,spin,78,55,27,3,26.0,141.82,
 AM Rahane,PP,neutralish,78,56,23,3,26.0,139.29,CSK
 S Arora,Death,neutralish,78,30,3,0,,260.0,KKR
 HS Desai,Middle,pace,77,44,11,4,19.25,175.0,SRH
-TM Head,Death,pace,77,66,22,7,11.0,116.67,
+TM Head,Death,pace,77,66,22,7,11.0,116.67,KKR
 CH Morris,Death,pace,77,45,12,4,19.25,171.11,
 R Parag,PP,spin,77,53,24,1,77.0,145.28,GT
 V Nigam,Middle,neutralish,76,45,16,1,76.0,168.89,GT
@@ -679,7 +679,7 @@ HS Desai,PP,spin,71,62,28,2,35.5,114.52,SRH
 R Parag,PP,neutralish,71,46,25,3,23.67,154.35,GT
 SS Iyer,PP,neutralish,71,43,17,2,35.5,165.12,KKR
 MS Pepper,Middle,pace,71,60,20,3,23.67,118.33,PBKS
-DR Mousley,Middle,spin,71,62,25,4,17.75,114.52,LSG
+DR Mousley,Middle,spin,71,62,25,4,17.75,114.52,
 SU Parakh,Middle,neutralish,70,43,18,4,17.5,162.79,SRH
 Sakibul Gani,Middle,pace,70,45,10,1,70.0,155.56,RR
 Sanvir Singh,Death,neutralish,70,35,10,3,23.33,200.0,PBKS
@@ -691,7 +691,7 @@ TP Ura,Middle,neutralish,69,43,9,1,69.0,160.47,PBKS
 Babar Azam,Middle,pace,69,60,18,3,23.0,115.0,
 Abhishek Tanwar,Middle,pace,68,35,8,1,68.0,194.29,MI
 AB de Villiers,Middle,pace,68,38,11,4,17.0,178.95,
-DR Mousley,PP,spin,68,51,25,2,34.0,133.33,LSG
+DR Mousley,PP,spin,68,51,25,2,34.0,133.33,
 Priyansh Arya,Death,neutralish,68,23,6,4,17.0,295.65,RCB
 RA Bawa,Death,pace,68,32,10,3,22.67,212.5,SRH
 DA Miller,Middle,spin,67,60,17,2,33.5,111.67,
@@ -736,7 +736,7 @@ Harpreet Brar,Middle,spin,60,52,20,4,15.0,115.38,
 J Overton,Death,pace,60,38,15,2,30.0,157.89,GT
 Yuvraj Chaudhary,Middle,pace,60,41,13,1,60.0,146.34,
 TP Ura,PP,spin,60,38,19,5,12.0,157.89,PBKS
-R Powell,PP,pace,60,32,16,0,,187.5,
+R Powell,PP,pace,60,32,16,0,,187.5,CSK
 SO Hetmyer,Middle,spin,59,48,19,3,19.67,122.92,
 RR Pant,Death,spin,59,36,10,4,14.75,163.89,
 Kuldeep Yadav,Death,spin,59,103,71,15,3.93,57.28,LSG
@@ -746,7 +746,7 @@ Karan Lal,Death,neutralish,59,48,22,3,19.67,122.92,RR
 Salman Nizar,Death,spin,59,34,8,2,29.5,173.53,
 S Arora,Death,pace,59,24,6,2,29.5,245.83,KKR
 Bilal Zalmai,Death,spin,58,28,3,0,,207.14,
-R Powell,Middle,spin,58,42,13,0,,138.1,
+R Powell,Middle,spin,58,42,13,0,,138.1,CSK
 Shakib Al Hasan,Death,spin,58,60,36,5,11.6,96.67,
 Ashutosh Sharma,PP,pace,58,30,13,1,58.0,193.33,GT
 Rajvardhan S Hangargekar,Death,pace,57,26,7,4,14.25,219.23,
@@ -775,7 +775,7 @@ R Ashwin,Death,pace,55,53,20,5,11.0,103.77,
 Rohan Kunnummal,Middle,pace,55,32,6,3,18.33,171.88,MI
 MG Erasmus,Middle,spin,55,50,26,4,13.75,110.0,
 Abhishek Pathak,Death,spin,55,20,2,0,,275.0,RCB
-TH David,Death,neutralish,54,39,13,2,27.0,138.46,GT
+TH David,Death,neutralish,54,39,13,2,27.0,138.46,
 MS Dhoni,Death,spin,54,40,15,5,10.8,135.0,RCB
 DA Warner,PP,pace,53,45,23,2,26.5,117.78,
 F du Plessis,Middle,spin,53,44,19,4,13.25,120.45,CSK
@@ -790,7 +790,7 @@ Harpreet Brar,Death,spin,52,45,26,4,13.0,115.56,
 Jagjit Singh,Middle,pace,52,39,20,1,52.0,133.33,
 HJ Manenti,Death,pace,52,55,36,5,10.4,94.55,RCB
 B Kumar,Death,pace,52,97,72,12,4.33,53.61,KKR
-TH David,Middle,neutralish,52,39,12,4,13.0,133.33,GT
+TH David,Middle,neutralish,52,39,12,4,13.0,133.33,
 M Siddharth,Death,spin,52,32,14,7,7.43,162.5,CSK
 Utkarsh Singh,Middle,spin,52,65,38,7,7.43,80.0,PBKS
 N Rana,PP,spin,52,47,28,3,17.33,110.64,PBKS
@@ -799,7 +799,7 @@ Akhil Singh Rawat,Death,neutralish,51,22,5,1,51.0,231.82,KKR
 Mohammed Shami,Death,pace,51,44,20,5,10.2,115.91,MI
 SM Curran,PP,pace,51,38,18,0,,134.21,GT
 A Raghuvanshi,PP,pace,51,28,16,4,12.75,182.14,
-SR Dickson,Middle,pace,51,28,10,1,51.0,182.14,
+SR Dickson,Middle,pace,51,28,10,1,51.0,182.14,PBKS
 AB de Villiers,Death,pace,51,29,9,5,10.2,175.86,
 JM Vince,Middle,spin,50,25,0,0,,200.0,CSK
 DA Warner,Middle,pace,50,40,14,2,25.0,125.0,
@@ -826,7 +826,7 @@ Jay Gohil,Middle,spin,48,41,15,2,24.0,117.07,KKR
 Chirag Jani,Death,spin,48,15,2,1,48.0,320.0,RCB
 DAJ Bracewell,Middle,pace,47,34,11,5,9.4,138.24,
 MS Dhoni,Middle,neutralish,47,24,4,0,,195.83,RCB
-HC Brook,PP,pace,47,33,15,1,47.0,142.42,
+HC Brook,PP,pace,47,33,15,1,47.0,142.42,GT
 Kumar Kushagra,Middle,neutralish,47,31,8,1,47.0,151.61,RR
 PHKD Mendis,Middle,neutralish,47,34,9,1,47.0,138.24,PBKS
 FH Allen,Middle,neutralish,47,37,8,3,15.67,127.03,LSG
@@ -835,23 +835,23 @@ KA Pollard,Death,spin,47,40,18,5,9.4,117.5,RR
 MJ Owen,Middle,neutralish,47,33,5,2,23.5,142.42,DC
 Jagjit Singh,Death,pace,47,37,14,3,15.67,127.03,
 Bhanu Pania,Death,spin,47,33,14,2,23.5,142.42,
-TM Head,Middle,neutralish,46,37,13,4,11.5,124.32,
+TM Head,Middle,neutralish,46,37,13,4,11.5,124.32,KKR
 RA Tripathi,PP,spin,46,46,23,3,15.33,100.0,
 RK Singh,Middle,neutralish,46,37,14,1,46.0,124.32,GT
 HV Patel,Middle,pace,46,38,17,3,15.33,121.05,
 Sikandar Raza,Middle,pace,46,31,10,0,,148.39,MI
-D Wiese,Death,spin,46,30,15,6,7.67,153.33,KKR
-DR Mousley,Death,pace,46,21,3,2,23.0,219.05,LSG
+D Wiese,Death,spin,46,30,15,6,7.67,153.33,
+DR Mousley,Death,pace,46,21,3,2,23.0,219.05,
 Rituraj Sharma,Death,spin,46,23,10,2,23.0,200.0,DC
 R Sai Kishore,Death,pace,46,30,13,2,23.0,153.33,
 DP Conway,Death,spin,46,35,9,7,6.57,131.43,LSG
-DR Mousley,PP,pace,46,36,15,0,,127.78,LSG
+DR Mousley,PP,pace,46,36,15,0,,127.78,
 Abhishek Sharma,Death,neutralish,45,25,3,0,,180.0,MI
 Rohan Kunnummal,Middle,spin,45,24,4,0,,187.5,MI
 BM Duckett,Death,neutralish,45,25,4,1,45.0,180.0,SRH
 H Klaasen,Death,neutralish,45,24,8,3,15.0,187.5,CSK
 Tushar Raheja,PP,neutralish,45,33,20,1,45.0,136.36,MI
-A Mhatre,PP,pace,45,44,27,5,9.0,102.27,RCB
+A Mhatre,PP,pace,45,44,27,5,9.0,102.27,
 RR Rossouw,Middle,spin,45,34,12,2,22.5,132.35,MI
 Ramandeep Singh,Middle,spin,45,38,15,3,15.0,118.42,
 DA Miller,Death,pace,45,33,9,2,22.5,136.36,
@@ -894,7 +894,7 @@ Shubman Gill,Death,neutralish,42,23,3,3,14.0,182.61,LSG
 Hassan Nawaz,Middle,pace,42,33,18,4,10.5,127.27,
 AB de Villiers,PP,spin,42,40,22,0,,105.0,
 N Wadhera,Death,neutralish,42,21,8,3,14.0,200.0,
-A Mhatre,PP,spin,42,30,13,2,21.0,140.0,RCB
+A Mhatre,PP,spin,42,30,13,2,21.0,140.0,
 Tushar Raheja,Middle,spin,42,32,7,4,10.5,131.25,MI
 Tushar Raheja,Middle,pace,42,26,6,4,10.5,161.54,MI
 Harshit Rana,Death,pace,42,53,31,8,5.25,79.25,GT
@@ -914,8 +914,8 @@ BA Stokes,Middle,spin,41,29,13,3,13.67,141.38,
 SL Malinga,Death,pace,41,30,18,0,,136.67,
 PJ Cummins,Middle,pace,40,29,11,2,20.0,137.93,SRH
 M Markande,Death,spin,40,48,32,6,6.67,83.33,SRH
-Mohammad Nabi,Middle,pace,40,24,8,2,20.0,166.67,
-HC Brook,Death,pace,40,20,6,3,13.33,200.0,
+Mohammad Nabi,Middle,pace,40,24,8,2,20.0,166.67,LSG
+HC Brook,Death,pace,40,20,6,3,13.33,200.0,GT
 Q de Kock,PP,neutralish,40,24,3,2,20.0,166.67,
 HV Patel,Death,spin,40,30,11,4,10.0,133.33,
 Usman Khan (2),Middle,neutralish,40,29,9,1,40.0,137.93,
@@ -949,14 +949,14 @@ AA Kulkarni,Death,neutralish,37,13,2,1,37.0,284.62,SRH
 Ashutosh Sharma,Middle,neutralish,37,29,11,1,37.0,127.59,GT
 MK Pandey,Middle,neutralish,37,28,14,0,,132.14,
 HH Pandya,PP,neutralish,37,20,5,1,37.0,185.0,LSG
-D Wiese,Middle,pace,37,34,17,7,5.29,108.82,KKR
+D Wiese,Middle,pace,37,34,17,7,5.29,108.82,
 AR Ramjani,Death,spin,37,59,35,4,9.25,62.71,PBKS
 Sakibul Gani,Middle,spin,37,20,5,1,37.0,185.0,RR
 J Overton,Death,neutralish,37,21,12,3,12.33,176.19,GT
 Avesh Khan,Death,pace,37,40,24,7,5.29,92.5,LSG
 Ritik Vats,PP,spin,37,17,5,0,,217.65,DC
 RR Rossouw,Death,spin,37,17,2,2,18.5,217.65,MI
-D Wiese,Death,neutralish,37,19,5,3,12.33,194.74,KKR
+D Wiese,Death,neutralish,37,19,5,3,12.33,194.74,
 PD Salt,Death,neutralish,37,21,4,2,18.5,176.19,RR
 HV Patel,Middle,spin,37,31,17,2,18.5,119.35,
 RD Rickelton,Death,pace,36,23,6,4,9.0,156.52,RR
@@ -965,7 +965,7 @@ AJ Turner,Middle,spin,36,33,12,1,36.0,109.09,
 Q de Kock,Death,spin,36,17,4,2,18.0,211.76,
 Rishabh Chouhan,Death,neutralish,36,13,2,0,,276.92,GT
 MA Agarwal,Death,spin,36,14,5,3,12.0,257.14,
-TH David,PP,pace,36,21,10,2,18.0,171.43,GT
+TH David,PP,pace,36,21,10,2,18.0,171.43,
 YK Pathan,Death,neutralish,36,23,7,3,12.0,156.52,
 DS Rathi,Death,spin,36,37,21,7,5.14,97.3,LSG
 R Tewatia,Death,spin,36,31,11,5,7.2,116.13,
@@ -988,7 +988,7 @@ Parth Chandan,Death,spin,35,21,9,2,17.5,166.67,DC
 Rahul Singh,Middle,neutralish,35,27,7,2,17.5,129.63,
 JM Vince,PP,neutralish,35,21,6,0,,166.67,CSK
 Khrievitso Kense,Death,spin,35,31,13,3,11.67,112.9,
-TA Boult,Death,neutralish,35,13,2,0,,269.23,MI
+TA Boult,Death,neutralish,35,13,2,0,,269.23,
 Rohan Kunnummal,PP,spin,35,34,20,1,35.0,102.94,MI
 Swapnil Singh,Death,spin,35,31,17,7,5.0,112.9,
 MM Ali,Death,spin,34,20,5,4,8.5,170.0,
@@ -1000,7 +1000,7 @@ Utkarsh Singh,Death,neutralish,34,23,9,1,34.0,147.83,PBKS
 Rashid Khan,Middle,spin,34,29,12,2,17.0,117.24,
 Azmatullah Omarzai,Death,neutralish,34,24,6,0,,141.67,
 TB Robinson,Middle,neutralish,34,26,9,1,34.0,130.77,
-DR Mousley,Death,spin,34,15,5,1,34.0,226.67,LSG
+DR Mousley,Death,spin,34,15,5,1,34.0,226.67,
 RR Rossouw,Death,neutralish,34,24,8,5,6.8,141.67,MI
 PP Shaw,Middle,neutralish,34,19,4,2,17.0,178.95,
 M Theekshana,Death,spin,34,42,27,3,11.33,80.95,
@@ -1023,7 +1023,7 @@ Faisal Khan,Death,spin,32,19,4,2,16.0,168.42,
 Ravi Singh,Death,neutralish,32,23,8,4,8.0,139.13,
 Akash Vasisht,PP,neutralish,32,21,11,1,32.0,152.38,
 PHKD Mendis,PP,pace,32,24,14,0,,133.33,PBKS
-A Mhatre,Middle,pace,32,20,5,1,32.0,160.0,RCB
+A Mhatre,Middle,pace,32,20,5,1,32.0,160.0,
 C Connolly,Middle,spin,32,28,8,0,,114.29,GT
 Shadab Khan,Death,pace,32,24,8,0,,133.33,SRH
 DA Miller,Middle,neutralish,32,19,7,1,32.0,168.42,
@@ -1034,7 +1034,7 @@ Shubhang Hegde,Death,pace,31,9,3,1,31.0,344.44,LSG
 SZ Mulani,Death,spin,31,41,23,5,6.2,75.61,
 PD Salt,Death,spin,31,18,4,1,31.0,172.22,RR
 Virat Singh,PP,spin,31,25,16,1,31.0,124.0,KKR
-Mohammad Nabi,Middle,spin,31,31,13,0,,100.0,
+Mohammad Nabi,Middle,spin,31,31,13,0,,100.0,LSG
 SPD Smith,PP,pace,31,34,18,1,31.0,91.18,
 MK Pandey,Death,pace,31,22,7,1,31.0,140.91,
 Ankit Kumar,Middle,pace,31,20,3,1,31.0,155.0,
@@ -1050,7 +1050,7 @@ Siddhesh Veer,Middle,pace,30,21,8,0,,142.86,MI
 Vansh Bedi,PP,spin,30,13,5,2,15.0,230.77,PBKS
 HS Desai,Middle,neutralish,30,20,5,2,15.0,150.0,SRH
 RR Rossouw,PP,spin,30,30,17,3,10.0,100.0,MI
-R Powell,Middle,neutralish,30,19,6,3,10.0,157.89,
+R Powell,Middle,neutralish,30,19,6,3,10.0,157.89,CSK
 Vishnu Vinod,Middle,spin,30,38,17,4,7.5,78.95,RR
 Shashwat Rawat,PP,neutralish,30,15,6,1,30.0,200.0,
 MS Pepper,Death,pace,30,18,5,2,15.0,166.67,PBKS
@@ -1096,7 +1096,7 @@ AHT Donald,PP,spin,28,16,6,2,14.0,175.0,
 RR Pant,Middle,neutralish,28,23,6,2,14.0,121.74,
 D Brevis,PP,pace,28,18,9,0,,155.56,GT
 SH Johnson,Death,pace,28,25,12,4,7.0,112.0,KKR
-TA Boult,Middle,pace,28,18,6,1,28.0,155.56,MI
+TA Boult,Middle,pace,28,18,6,1,28.0,155.56,
 Sakibul Gani,Death,neutralish,28,8,2,1,28.0,350.0,RR
 S Arora,PP,spin,28,14,5,2,14.0,200.0,KKR
 Babar Azam,Middle,spin,27,25,9,2,13.5,108.0,
@@ -1134,7 +1134,7 @@ DW Lawrence,Death,spin,26,11,2,0,,236.36,
 D Padikkal,Death,spin,26,15,4,2,13.0,173.33,GT
 Sikandar Raza,Middle,neutralish,26,15,5,2,13.0,173.33,MI
 JO Holder,Death,pace,26,11,2,1,26.0,236.36,RCB
-PN Mankad,Middle,pace,26,21,7,0,,123.81,
+PN Mankad,Middle,pace,26,21,7,0,,123.81,RCB
 Utkarsh Singh,Death,pace,25,15,6,1,25.0,166.67,PBKS
 Sandeep Sharma,Death,pace,25,19,7,1,25.0,131.58,
 Rohan Kunnummal,Death,spin,25,10,1,0,,250.0,MI
@@ -1147,7 +1147,7 @@ RA Tripathi,Death,pace,25,14,1,0,,178.57,
 Akshay Karnewar,Death,spin,25,16,4,0,,156.25,
 Ankit Kumar,PP,neutralish,25,11,6,2,12.5,227.27,
 KH Pandya,Middle,neutralish,25,15,4,0,,166.67,SRH
-TA Boult,Death,spin,25,14,2,1,25.0,178.57,MI
+TA Boult,Death,spin,25,14,2,1,25.0,178.57,
 AJ Tye,Death,pace,25,22,11,2,12.5,113.64,
 GF Linde,Middle,spin,24,31,19,1,24.0,77.42,GT
 MS Pepper,Middle,spin,24,17,5,2,12.0,141.18,PBKS
@@ -1163,7 +1163,7 @@ H Klaasen,PP,neutralish,24,24,11,1,24.0,100.0,CSK
 A Manohar,Death,pace,24,16,5,1,24.0,150.0,
 CH Gayle,Death,spin,24,18,4,3,8.0,133.33,RCB
 Hassan Nawaz,Death,spin,24,12,3,1,24.0,200.0,
-DS Airee,Death,pace,24,14,5,1,24.0,171.43,
+DS Airee,Death,pace,24,14,5,1,24.0,171.43,DC
 MP Yadav,Death,pace,24,24,10,5,4.8,100.0,PBKS
 KK Nair,PP,neutralish,23,17,9,0,,135.29,CSK
 Yudhvir Singh,Death,neutralish,23,9,2,1,23.0,255.56,RR
@@ -1175,18 +1175,18 @@ Shahbaz Ahmed,PP,pace,23,8,3,0,,287.5,KKR
 Q de Kock,Death,pace,23,13,3,2,11.5,176.92,
 JN Loftie-Eaton,Middle,spin,23,22,12,0,,104.55,
 JM Vince,Death,neutralish,23,13,4,1,23.0,176.92,CSK
-DR Mousley,PP,neutralish,23,14,6,1,23.0,164.29,LSG
+DR Mousley,PP,neutralish,23,14,6,1,23.0,164.29,
 CH Morris,Middle,spin,23,20,9,2,11.5,115.0,
 AS Roy,Death,pace,23,16,6,1,23.0,143.75,
 MP Stoinis,Middle,neutralish,23,14,5,2,11.5,164.29,SRH
 AR Ramjani,Death,neutralish,23,15,5,1,23.0,153.33,PBKS
 RK Singh,PP,pace,23,24,15,3,7.67,95.83,GT
-TH David,PP,neutralish,23,12,5,1,23.0,191.67,GT
+TH David,PP,neutralish,23,12,5,1,23.0,191.67,
 Mohammed Siraj,Middle,spin,23,8,2,0,,287.5,
 HS Desai,PP,pace,23,12,3,0,,191.67,SRH
 RR Rossouw,PP,neutralish,23,14,8,1,23.0,164.29,MI
-SE Rutherford,Middle,pace,22,16,8,1,22.0,137.5,DC
-R Powell,Death,spin,22,24,14,4,5.5,91.67,
+SE Rutherford,Middle,pace,22,16,8,1,22.0,137.5,
+R Powell,Death,spin,22,24,14,4,5.5,91.67,CSK
 S Arora,PP,neutralish,22,11,3,1,22.0,200.0,KKR
 MJ Owen,Death,neutralish,22,16,7,3,7.33,137.5,DC
 JJ Bumrah,Middle,spin,22,12,4,2,11.0,183.33,DC
@@ -1230,7 +1230,7 @@ Swapnil Singh,Middle,pace,21,12,4,1,21.0,175.0,
 AS Roy,Death,spin,21,19,9,3,7.0,110.53,
 Naseem Shah,Death,neutralish,21,10,2,0,,210.0,MI
 SS Ghosh,Death,pace,20,22,16,3,6.67,90.91,RCB
-SR Dickson,Middle,spin,20,18,5,0,,111.11,
+SR Dickson,Middle,spin,20,18,5,0,,111.11,PBKS
 Kumar Kushagra,Death,pace,20,7,1,1,20.0,285.71,RR
 SB Dubey,Middle,neutralish,20,12,4,0,,166.67,
 Umran Malik,Death,pace,20,9,4,1,20.0,222.22,
@@ -1244,7 +1244,7 @@ MADI Hemantha,Middle,spin,20,11,6,1,20.0,181.82,
 Akshat Raghuwanshi,PP,neutralish,20,11,5,1,20.0,181.82,MI
 Vansh Bedi,Death,neutralish,20,10,3,0,,200.0,PBKS
 JN Loftie-Eaton,PP,neutralish,19,21,13,2,9.5,90.48,
-JE Root,PP,pace,19,14,6,1,19.0,135.71,
+JE Root,PP,pace,19,14,6,1,19.0,135.71,SRH
 Kartik Sharma,PP,neutralish,19,8,3,0,,237.5,SRH
 T Natarajan,Death,neutralish,19,13,6,1,19.0,146.15,RR
 DP Conway,Death,neutralish,19,12,3,0,,158.33,LSG
@@ -1317,7 +1317,7 @@ Arslan Khan,PP,spin,16,11,3,1,16.0,145.45,
 S Lamichhane,Middle,spin,16,17,11,2,8.0,94.12,RCB
 Ashwin Das,Death,neutralish,16,10,5,0,,160.0,LSG
 D Forrester,Death,neutralish,16,10,3,1,16.0,160.0,LSG
-SR Dickson,Death,spin,16,14,6,1,16.0,114.29,
+SR Dickson,Death,spin,16,14,6,1,16.0,114.29,PBKS
 JL Smith,Death,spin,16,9,3,2,8.0,177.78,
 Shivam Shukla,Death,spin,16,7,4,1,16.0,228.57,MI
 Sairaj Patil,Death,spin,16,13,8,1,16.0,123.08,KKR
@@ -1360,7 +1360,7 @@ MG Erasmus,PP,spin,14,16,9,0,,87.5,
 LR Chethan,Middle,pace,14,11,4,1,14.0,127.27,LSG
 A Badoni,Death,pace,14,6,2,0,,233.33,RR
 DA Warner,PP,neutralish,14,6,2,1,14.0,233.33,
-D Wiese,Middle,neutralish,14,18,5,1,14.0,77.78,KKR
+D Wiese,Middle,neutralish,14,18,5,1,14.0,77.78,
 SN Khan,PP,neutralish,14,7,4,1,14.0,200.0,
 MJ Santner,Middle,pace,14,10,4,2,7.0,140.0,
 MW Short,Middle,neutralish,14,13,5,3,4.67,107.69,
@@ -1378,7 +1378,7 @@ R Ashwin,Death,neutralish,14,15,7,3,4.67,93.33,
 SB Dubey,Middle,pace,14,12,2,1,14.0,116.67,
 JG Bethell,PP,neutralish,14,14,7,1,14.0,100.0,
 JJ Smit,Death,spin,14,14,8,4,3.5,100.0,PBKS
-SE Rutherford,Middle,neutralish,13,11,1,0,,118.18,DC
+SE Rutherford,Middle,neutralish,13,11,1,0,,118.18,
 T Natarajan,Middle,spin,13,8,2,1,13.0,162.5,RR
 Adarsh Singh,Middle,pace,13,9,3,0,,144.44,DC
 Ravi Singh,Death,pace,13,7,3,1,13.0,185.71,
@@ -1441,13 +1441,13 @@ Punit Bisht,Death,pace,11,4,1,1,11.0,275.0,
 Utkarsh Singh,PP,spin,11,9,5,1,11.0,122.22,PBKS
 D Padikkal,PP,neutralish,11,3,0,0,,366.67,GT
 RK Bhui,PP,pace,11,13,9,1,11.0,84.62,
-HC Brook,Middle,spin,11,6,3,2,5.5,183.33,
+HC Brook,Middle,spin,11,6,3,2,5.5,183.33,GT
 LR Chethan,PP,spin,11,13,6,1,11.0,84.62,LSG
 Jay Bista,Middle,pace,11,14,4,0,,78.57,
 R Ashwin,Middle,spin,11,18,9,1,11.0,61.11,
 C Sakariya,Death,pace,11,10,7,3,3.67,110.0,RR
 RA Bawa,Middle,neutralish,11,7,3,0,,157.14,SRH
-SE Rutherford,Death,neutralish,11,5,2,1,11.0,220.0,DC
+SE Rutherford,Death,neutralish,11,5,2,1,11.0,220.0,
 BA Stokes,Death,spin,11,7,2,0,,157.14,
 JL Smith,PP,spin,11,11,6,1,11.0,100.0,
 Bilal Zalmai,Middle,neutralish,11,8,2,0,,137.5,
@@ -1512,11 +1512,11 @@ MJ Santner,Middle,spin,9,9,4,0,,100.0,
 NA Rathva,PP,spin,9,10,5,1,9.0,90.0,
 N Wadhera,PP,pace,9,13,8,2,4.5,69.23,
 Ashwin Shelke,Middle,spin,9,9,4,1,9.0,100.0,DC
-KS Carlson,Middle,spin,9,8,2,1,9.0,112.5,PBKS
+KS Carlson,Middle,spin,9,8,2,1,9.0,112.5,
 Mujeeb Ur Rahman,Death,spin,9,11,8,2,4.5,81.82,
 KH Pandya,Death,neutralish,9,5,2,1,9.0,180.0,SRH
 Ravi Singh,Death,spin,9,13,8,4,2.25,69.23,
-A Mhatre,Middle,spin,8,11,5,2,4.0,72.73,RCB
+A Mhatre,Middle,spin,8,11,5,2,4.0,72.73,
 MK Lomror,PP,neutralish,8,10,5,0,,80.0,
 CV Varun,Middle,spin,8,21,19,3,2.67,38.1,PBKS
 Pulkit Narang,Death,spin,8,17,14,2,4.0,47.06,KKR
@@ -1572,7 +1572,7 @@ Kumar Kushagra,Middle,pace,7,10,4,1,7.0,70.0,RR
 NT Ellis,Middle,pace,7,15,12,1,7.0,46.67,SRH
 Sairaj Patil,Death,pace,7,3,1,1,7.0,233.33,KKR
 Sairaj Patil,Middle,pace,7,4,0,0,,175.0,KKR
-TH David,PP,spin,7,7,3,0,,100.0,GT
+TH David,PP,spin,7,7,3,0,,100.0,
 MK Pandey,PP,spin,7,7,3,0,,100.0,
 Sunny Sandhu,Death,pace,7,6,2,1,7.0,116.67,DC
 Sunny Sandhu,PP,spin,7,8,6,0,,87.5,DC
@@ -1580,22 +1580,22 @@ Ajay Rohera,PP,spin,7,7,5,1,7.0,100.0,LSG
 K Kartikeya,Middle,spin,7,4,1,0,,175.0,
 AS Roy,Death,neutralish,7,7,5,1,7.0,100.0,
 RA Bawa,Middle,pace,7,17,10,2,3.5,41.18,SRH
-SR Dickson,Death,pace,7,3,1,1,7.0,233.33,
+SR Dickson,Death,pace,7,3,1,1,7.0,233.33,PBKS
 PP Shaw,Death,pace,7,6,4,2,3.5,116.67,
 Anmolpreet Singh,PP,spin,7,11,10,0,,63.64,KKR
-PN Mankad,Death,spin,7,8,3,2,3.5,87.5,
+PN Mankad,Death,spin,7,8,3,2,3.5,87.5,RCB
 DJ Bravo,Death,spin,7,3,1,1,7.0,233.33,
 S Lamichhane,Middle,neutralish,7,2,0,0,,350.0,RCB
 Bal Krishna,Death,pace,7,6,0,0,,116.67,
 B Kumar,Death,neutralish,7,21,19,2,3.5,33.33,KKR
 R Ravindra,PP,spin,7,7,6,1,7.0,100.0,
 A Badoni,Death,spin,7,7,3,1,7.0,100.0,RR
-PN Mankad,PP,pace,7,9,4,1,7.0,77.78,
+PN Mankad,PP,pace,7,9,4,1,7.0,77.78,RCB
 SH Johnson,Middle,pace,7,6,3,0,,116.67,KKR
 Atharva Ankolekar,Death,spin,7,8,6,3,2.33,87.5,RR
 Atharva Ankolekar,Death,neutralish,7,8,4,0,,87.5,RR
 Ravi Singh,PP,pace,7,13,11,0,,53.85,
-R Powell,PP,neutralish,6,12,9,0,,50.0,
+R Powell,PP,neutralish,6,12,9,0,,50.0,CSK
 MA Agarwal,PP,spin,6,7,6,1,6.0,85.71,
 J Anderson,Death,spin,6,4,2,1,6.0,150.0,
 T Natarajan,Death,pace,6,13,11,6,1.0,46.15,RR
@@ -1631,25 +1631,25 @@ LR Chethan,PP,pace,6,3,2,0,,200.0,LSG
 M Hemanth Reddy,Death,pace,6,5,1,0,,120.0,
 A Zampa,Death,neutralish,6,6,5,3,2.0,100.0,SRH
 Abid Mushtaq,Death,spin,6,6,0,0,,100.0,
-JM Cox,PP,neutralish,6,7,4,1,6.0,85.71,SRH
+JM Cox,PP,neutralish,6,7,4,1,6.0,85.71,
 A Manohar,Death,neutralish,6,7,3,2,3.0,85.71,
 Fazalhaq Farooqi,Death,spin,6,18,12,3,2.0,33.33,CSK
 Ehsan Khan,Death,pace,6,9,6,1,6.0,66.67,MI
 Ankit Kumar,Death,pace,6,3,1,1,6.0,200.0,
 Fazalhaq Farooqi,Middle,pace,6,16,14,1,6.0,37.5,CSK
 PP Chawla,Death,neutralish,6,7,4,1,6.0,85.71,
-A Mhatre,Death,pace,6,5,2,1,6.0,120.0,RCB
+A Mhatre,Death,pace,6,5,2,1,6.0,120.0,
 SO Hetmyer,PP,pace,6,5,2,0,,120.0,
 DR Sams,Death,neutralish,6,3,1,1,6.0,200.0,
 Noor Ahmad,Death,neutralish,6,3,1,1,6.0,200.0,MI
 Mukesh Kumar,Middle,pace,6,1,0,0,,600.0,
-D Wiese,PP,pace,6,4,4,1,6.0,150.0,KKR
+D Wiese,PP,pace,6,4,4,1,6.0,150.0,
 SS Prabhudessai,PP,pace,6,9,6,1,6.0,66.67,
 SS Prabhudessai,PP,neutralish,6,1,0,0,,600.0,
 Akhil Singh Rawat,Middle,neutralish,6,12,7,0,,50.0,KKR
-D Wiese,Middle,spin,6,10,5,0,,60.0,KKR
+D Wiese,Middle,spin,6,10,5,0,,60.0,
 I Sharma,Death,pace,6,3,2,1,6.0,200.0,
-Mohammad Nabi,Death,neutralish,6,10,7,3,2.0,60.0,
+Mohammad Nabi,Death,neutralish,6,10,7,3,2.0,60.0,LSG
 Naveen-ul-Haq,Death,neutralish,6,2,1,1,6.0,300.0,CSK
 SN Thakur,Death,neutralish,6,2,1,1,6.0,300.0,
 Naman Tiwari,Death,neutralish,6,4,2,0,,150.0,CSK
@@ -1662,7 +1662,7 @@ KK Nair,PP,spin,5,5,3,1,5.0,100.0,CSK
 Darshan Misal,Middle,neutralish,5,7,4,1,5.0,71.43,
 RA Tripathi,PP,neutralish,5,5,3,1,5.0,100.0,
 RD Chahar,Middle,spin,5,3,1,1,5.0,166.67,
-DR Mousley,Middle,neutralish,5,5,4,1,5.0,100.0,LSG
+DR Mousley,Middle,neutralish,5,5,4,1,5.0,100.0,
 Jay Gohil,PP,pace,5,2,0,0,,250.0,KKR
 NA Rathva,PP,neutralish,5,6,6,2,2.5,83.33,
 Siddhesh Veer,PP,pace,5,2,0,0,,250.0,MI
@@ -1700,10 +1700,10 @@ Adarsh Singh,Death,pace,4,5,1,1,4.0,80.0,DC
 J Overton,Death,spin,4,8,4,1,4.0,50.0,GT
 J Suresh Kumar,Middle,pace,4,2,1,1,4.0,200.0,PBKS
 Virat Singh,PP,pace,4,3,2,1,4.0,133.33,KKR
-Usman Tariq,Death,spin,4,5,4,1,4.0,80.0,CSK
+Usman Tariq,Death,spin,4,5,4,1,4.0,80.0,
 JJ Smit,PP,pace,4,2,1,1,4.0,200.0,PBKS
 Vraj Patel,Death,spin,4,9,6,0,,44.44,RR
-DS Airee,Middle,pace,4,8,4,1,4.0,50.0,
+DS Airee,Middle,pace,4,8,4,1,4.0,50.0,DC
 D Padikkal,Middle,pace,4,2,1,1,4.0,200.0,GT
 HR Shokeen,Middle,spin,4,7,3,0,,57.14,
 Abhishek Tanwar,Death,spin,4,4,4,1,4.0,100.0,MI
@@ -1743,7 +1743,7 @@ Harsh Dubey,Death,pace,3,3,0,0,,100.0,DC
 Aman Rao,PP,spin,3,2,1,1,3.0,150.0,
 M Theekshana,Middle,spin,3,8,6,1,3.0,37.5,
 DA Warner,Death,spin,3,3,0,0,,100.0,
-TM Head,Death,spin,3,5,2,2,1.5,60.0,
+TM Head,Death,spin,3,5,2,2,1.5,60.0,KKR
 M Prasidh Krishna,Middle,pace,3,7,5,0,,42.86,KKR
 Sonu Yadav,Death,pace,3,14,12,4,0.75,21.43,CSK
 CJ Jordan,Death,pace,3,7,4,1,3.0,42.86,
@@ -1765,7 +1765,7 @@ Manvanth Kumar L,Death,pace,2,2,1,1,2.0,100.0,PBKS
 Akshay Karnewar,Middle,spin,2,5,3,0,,40.0,
 Yash Thakur,Middle,pace,2,3,1,0,,66.67,
 H Ssenyondo,Middle,neutralish,2,4,3,1,2.0,50.0,LSG
-Mohammad Nabi,Death,pace,2,4,2,0,,50.0,
+Mohammad Nabi,Death,pace,2,4,2,0,,50.0,LSG
 Mohammad Ghazanfar,Death,neutralish,2,1,0,0,,200.0,RR
 Geet Puri,Death,neutralish,2,9,7,1,2.0,22.22,CSK
 Imran Tahir,Middle,spin,2,6,4,1,2.0,33.33,RCB
@@ -1776,7 +1776,7 @@ Mayank Rawat,PP,neutralish,2,2,1,0,,100.0,
 NT Ellis,Death,neutralish,2,12,10,2,1.0,16.67,SRH
 Ajay Rohera,PP,neutralish,2,3,1,1,2.0,66.67,LSG
 Parvej Musaraf,Middle,neutralish,2,6,4,1,2.0,33.33,KKR
-Mohammad Nabi,Middle,neutralish,2,2,0,0,,100.0,
+Mohammad Nabi,Middle,neutralish,2,2,0,0,,100.0,LSG
 MS Chapman,Death,spin,2,3,1,1,2.0,66.67,DC
 Mustafizur Rahman,Middle,neutralish,2,3,1,0,,66.67,
 Harnoor Singh,Middle,spin,2,4,2,1,2.0,50.0,RCB
@@ -1819,7 +1819,7 @@ Ravi Teja,Middle,pace,1,6,5,1,1.0,16.67,SRH
 SR Hain,Death,pace,1,3,2,1,1.0,33.33,RCB
 C Connolly,PP,neutralish,1,1,0,0,,100.0,GT
 DS Rathi,Death,neutralish,1,1,0,0,,100.0,LSG
-DS Airee,PP,spin,1,2,1,0,,50.0,
+DS Airee,PP,spin,1,2,1,0,,50.0,DC
 Prince Yadav,Death,pace,1,3,2,0,,33.33,GT
 D Padikkal,Middle,neutralish,1,4,3,1,1.0,25.0,GT
 Chirag Jani,PP,spin,1,3,2,0,,33.33,RCB
@@ -1832,7 +1832,7 @@ Arshad Khan,Middle,neutralish,1,5,4,1,1.0,20.0,MI
 Vishnu Vinod,Middle,pace,1,2,1,1,1.0,50.0,RR
 CV Varun,Death,pace,1,2,1,0,,50.0,PBKS
 A Manohar,Middle,neutralish,1,1,0,0,,100.0,
-SE Rutherford,PP,pace,1,1,0,0,,100.0,DC
+SE Rutherford,PP,pace,1,1,0,0,,100.0,
 DJ Bravo,Middle,pace,1,2,1,0,,50.0,
 PJ Cummins,Death,neutralish,1,3,2,1,1.0,33.33,SRH
 OEG Baartman,Death,neutralish,1,1,0,0,,100.0,
@@ -1910,7 +1910,7 @@ A Zampa,Middle,neutralish,0,1,1,1,0.0,0.0,SRH
 YS Chahal,Death,pace,0,4,4,1,0.0,0.0,KKR
 YS Chahal,Death,neutralish,0,6,6,1,0.0,0.0,KKR
 Yash Singh,Middle,spin,0,1,1,0,,0.0,RCB
-A Mhatre,Death,neutralish,0,1,1,1,0.0,0.0,RCB
+A Mhatre,Death,neutralish,0,1,1,1,0.0,0.0,
 Akash Vasisht,Middle,pace,0,3,4,1,0.0,0.0,
 Akash Vasisht,PP,pace,0,1,1,1,0.0,0.0,
 Yash Raj Punja,Death,spin,0,2,2,1,0.0,0.0,GT
@@ -1950,7 +1950,7 @@ Ramandeep Singh,PP,pace,0,2,2,0,,0.0,
 R Minz,Middle,pace,0,1,1,1,0.0,0.0,
 Pulkit Narang,Death,neutralish,0,1,1,1,0.0,0.0,KKR
 Pardeep Yadav,Middle,pace,0,2,2,1,0.0,0.0,
-PN Mankad,Death,pace,0,1,1,1,0.0,0.0,
+PN Mankad,Death,pace,0,1,1,1,0.0,0.0,RCB
 Noor Ahmad,Middle,spin,0,9,9,1,0.0,0.0,MI
 Noor Ahmad,Middle,pace,0,1,1,1,0.0,0.0,MI
 Naveen-ul-Haq,Middle,pace,0,2,2,1,0.0,0.0,CSK
@@ -1998,8 +1998,8 @@ JO Holder,Middle,spin,0,1,1,1,0.0,0.0,RCB
 JM Vince,PP,pace,0,2,2,1,0.0,0.0,CSK
 JC Archer,Middle,neutralish,0,4,4,1,0.0,0.0,PBKS
 JA Duffy,Death,pace,0,1,1,1,0.0,0.0,LSG
-TA Boult,Middle,spin,0,1,1,0,,0.0,MI
-TA Boult,PP,pace,0,1,1,1,0.0,0.0,MI
+TA Boult,Middle,spin,0,1,1,0,,0.0,
+TA Boult,PP,pace,0,1,1,1,0.0,0.0,
 TB Robinson,PP,neutralish,0,1,1,0,,0.0,
 TL Seifert,Death,pace,0,3,3,2,0.0,0.0,PBKS
 Gurnoor Brar,Death,spin,0,1,1,1,0.0,0.0,DC
