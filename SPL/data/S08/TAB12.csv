@@ -2,17 +2,17 @@ striker,batting_team,num_innings,sixes,runs,strike_rate
 Kartik Sharma,SRH,12,31,596,200.0
 SA Yadav,DC,11,26,575,177.47
 Aniket Verma,RR,11,25,520,191.18
+Urvil Patel,MI,10,24,593,181.35
 N Sindhu,DC,11,23,337,203.01
 KL Rahul,SRH,12,21,526,182.01
 HH Pandya,LSG,11,20,268,201.5
 Priyansh Arya,RCB,11,20,543,179.8
-Urvil Patel,MI,9,20,516,176.71
 Tilak Varma,CSK,12,20,520,171.62
 JM Sharma,RCB,10,18,215,212.87
 S Dube,RR,12,18,479,153.04
 GJ Maxwell,DC,11,17,496,185.07
 Shubman Gill,LSG,12,16,495,187.5
-D Brevis,GT,8,16,301,182.42
+D Brevis,GT,9,16,306,178.95
 C Green,KKR,11,16,300,160.43
 VR Iyer,SRH,11,15,286,201.41
 KA Pollard,RR,10,15,290,164.77
@@ -22,42 +22,42 @@ Abishek Porel,LSG,12,14,482,157.0
 Abhishek Pathak,RCB,6,13,243,220.91
 V Suryavanshi,PBKS,11,13,355,189.84
 CH Gayle,RCB,12,13,291,187.74
+Abhishek Sharma,MI,12,13,477,154.87
 YBK Jaiswal,RR,12,12,202,217.2
+V Nigam,GT,11,12,317,183.24
 Shashank Singh,PBKS,11,12,260,166.67
 P Simran Singh,SRH,12,12,376,156.02
 T Stubbs,CSK,9,12,300,147.78
 GD Phillips,RR,11,11,219,197.3
-V Nigam,GT,10,11,282,183.12
-Naman Dhir,GT,10,11,295,179.88
+Naman Dhir,GT,11,11,322,175.0
 TL Seifert,PBKS,10,11,372,173.02
 Ajay Rohera,LSG,7,11,264,171.43
 PHKD Mendis,PBKS,10,11,271,168.32
 Sonu Yadav,CSK,5,11,134,161.45
-Abhishek Sharma,MI,11,11,415,152.57
+JP Inglis,GT,12,10,303,192.99
 Kumar Kushagra,RR,6,10,154,145.28
 DP Conway,LSG,8,10,196,137.06
 Jay Gohil,KKR,5,9,128,200.0
-JP Inglis,GT,11,9,277,192.36
 Vansh Bedi,PBKS,10,9,235,189.52
 Ishan Kishan,KKR,11,9,502,165.68
 R Smaran,PBKS,7,9,186,155.0
 RM Patidar,RCB,12,9,287,147.94
-Siddhesh Veer,MI,6,8,121,195.16
+Siddhesh Veer,MI,7,8,121,192.06
 Tanush Kotian,CSK,9,8,202,185.32
-R Parag,GT,5,8,155,182.35
+R Parag,GT,6,8,169,176.04
 AD Russell,DC,3,8,107,175.41
+SV Samson,GT,12,8,453,156.21
 AM Rahane,CSK,5,8,145,131.82
 Tarang Gohel,DC,8,7,301,211.97
 Atharva Taide,RCB,7,7,375,143.68
 MS Pepper,PBKS,2,7,114,142.5
 D Forrester,LSG,5,6,59,218.52
-Tushar Raheja,MI,8,6,180,211.76
+Tushar Raheja,MI,9,6,211,204.85
 RD Gaikwad,CSK,11,6,156,197.47
 JC Buttler,DC,6,6,93,189.8
 Ritik Vats,DC,4,6,77,179.07
 Utkarsh Singh,PBKS,5,6,65,166.67
 Virat Singh,KKR,4,6,65,154.76
-SV Samson,GT,11,6,428,154.51
 TM Head,KKR,2,6,165,154.21
 JM Vince,CSK,5,6,181,147.15
 Sakibul Gani,RR,4,5,58,252.17
@@ -70,7 +70,7 @@ BM Duckett,SRH,2,5,77,145.28
 Vishnu Vinod,RR,7,5,94,118.99
 Shubhang Hegde,LSG,3,4,57,219.23
 TP Ura,PBKS,3,4,32,213.33
-Abhishek Tanwar,MI,6,4,99,173.68
+Abhishek Tanwar,MI,7,4,104,173.33
 Nithish Kumar Reddy,GT,2,4,60,171.43
 Shahbaz Ahmed,KKR,6,4,82,167.35
 KK Nair,CSK,8,4,97,167.24
@@ -83,6 +83,7 @@ RE van der Merwe,CSK,6,4,50,131.58
 Kunal Chandela,MI,3,4,44,115.79
 Akhil Singh Rawat,KKR,2,3,27,192.86
 J Fraser-McGurk,KKR,5,3,78,173.33
+Ashutosh Sharma,GT,8,3,95,161.02
 Adarsh Singh,DC,2,3,55,144.74
 Parth Chandan,DC,2,3,62,131.91
 RD Rickelton,RR,4,3,58,105.45
@@ -94,7 +95,6 @@ Akash Pawar,RCB,1,2,22,183.33
 T Natarajan,RR,2,2,14,175.0
 D Wiese,KKR,3,2,19,172.73
 S Gopal,PBKS,4,2,13,162.5
-Ashutosh Sharma,GT,7,2,81,162.0
 SP Narine,PBKS,5,2,57,146.15
 Suryansh Shedge,KKR,3,2,33,143.48
 Sairaj Patil,KKR,2,2,40,142.86
@@ -102,9 +102,10 @@ JE Root,SRH,2,2,55,141.03
 S Arora,KKR,3,2,38,140.74
 R Powell,CSK,3,2,32,139.13
 A Mhatre,RCB,3,2,55,137.5
+AR Patel,GT,1,2,33,137.5
 RK Singh,GT,3,2,33,137.5
-Sikandar Raza,MI,3,2,27,135.0
 Naveen-ul-Haq,CSK,2,2,40,133.33
+Sikandar Raza,MI,4,2,29,126.09
 JJ Smit,PBKS,9,2,67,124.07
 WG Jacks,SRH,6,2,87,122.54
 Anmol Malhotra,GT,1,2,28,112.0
@@ -119,7 +120,7 @@ C Sakariya,RR,2,1,6,150.0
 Easwaran K,DC,1,1,6,150.0
 Sufiyan Muqeem,GT,1,1,13,144.44
 Mohammad Nabi,LSG,1,1,30,142.86
-GF Linde,GT,2,1,24,141.18
+GF Linde,GT,3,1,30,136.36
 LR Chethan,LSG,2,1,20,133.33
 MP Stoinis,SRH,4,1,69,132.69
 Arshad Khan,MI,5,1,30,130.43
@@ -127,8 +128,8 @@ C Connolly,GT,3,1,82,128.12
 Rasikh Salam,SRH,3,1,14,127.27
 RG Sharma,RCB,4,1,38,126.67
 Sunny Sandhu,DC,1,1,42,120.0
-Akshat Raghuwanshi,MI,1,1,18,120.0
 SR Dickson,PBKS,1,1,17,113.33
+Akshat Raghuwanshi,MI,2,1,18,112.5
 AR Ramjani,PBKS,5,1,23,109.52
 HJ Manenti,RCB,3,1,11,100.0
 RR Rossouw,MI,4,1,38,95.0
