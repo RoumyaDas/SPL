@@ -1,12 +1,12 @@
 bowler,bowling_team,num_innings,3+_wkts,balls,economy,5+_wkts
 Rasikh Salam,SRH,11,5,239,9.29,0
 Sufiyan Muqeem,GT,10,4,220,9.98,1
+KA Maharaj,RCB,6,3,138,7.91,0
 HJ Manenti,RCB,9,3,181,11.14,0
 RE van der Merwe,CSK,9,3,189,10.22,0
 NT Ellis,SRH,11,3,242,10.88,0
 Prashant Solanki,CSK,3,2,66,7.55,1
 B Muzarabani,GT,4,2,89,12.13,0
-KA Maharaj,RCB,5,2,114,8.0,0
 Atharva Ankolekar,RR,5,2,119,8.57,0
 B Kumar,KKR,6,2,119,9.48,0
 Pulkit Narang,KKR,6,2,125,8.74,0
@@ -15,8 +15,8 @@ Harsh Dubey,DC,7,2,162,10.56,0
 A Zampa,SRH,7,2,168,7.96,0
 Mohammad Ghazanfar,RR,8,2,174,8.34,0
 H Ssenyondo,LSG,8,2,191,9.74,0
-PWH de Silva,RCB,10,2,228,9.26,0
 JR Hazlewood,MI,10,2,234,8.51,0
+PWH de Silva,RCB,11,2,252,9.45,0
 Ashutosh Sharma,GT,13,2,312,9.48,0
 A Nagwaswalla,RR,1,1,24,9.0,0
 Washington Sundar,GT,1,1,24,12.5,0
@@ -30,6 +30,7 @@ Sunil Kumar,MI,4,1,69,8.7,0
 Easwaran K,DC,3,1,72,9.0,0
 KH Pandya,SRH,3,1,72,9.08,0
 T Natarajan,RR,4,1,87,12.28,0
+Naseem Shah,MI,4,1,89,12.34,0
 Shaheen Shah Afridi,DC,4,1,90,11.87,0
 Parvej Musaraf,KKR,5,1,96,9.62,0
 Arshdeep Singh,LSG,4,1,96,11.81,0
@@ -37,11 +38,11 @@ L Ngidi,RR,5,1,108,10.28,0
 Suryansh Shedge,KKR,5,1,114,8.42,0
 Geet Puri,CSK,5,1,114,9.79,0
 Mohammad Amir,LSG,5,1,120,9.0,0
-SS Ghosh,RCB,7,1,132,11.91,0
 AK Markram,DC,6,1,132,12.91,0
 C Sakariya,RR,6,1,144,9.08,0
 Tanay Thyagarajan,CSK,6,1,144,10.54,0
 Chirag Jani,RCB,6,1,144,10.96,0
+SS Ghosh,RCB,8,1,156,11.69,0
 Shivam Shukla,MI,7,1,159,9.28,1
 GF Linde,GT,9,1,166,9.83,0
 M Pathirana,RCB,8,1,172,10.01,0

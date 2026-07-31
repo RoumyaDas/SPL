@@ -5,21 +5,23 @@ AR Ramjani,PBKS,8,82,179,45.81
 JJ Smit,PBKS,11,82,240,34.17
 Rasikh Salam,SRH,11,78,239,32.64
 Mohammad Ghazanfar,RR,8,76,174,43.68
+PWH de Silva,RCB,11,76,252,30.16
 C Green,KKR,11,76,261,29.12
 NT Ellis,SRH,11,74,242,30.58
-PWH de Silva,RCB,10,72,228,31.58
 Shivam Shukla,MI,7,68,159,42.77
 RE van der Merwe,CSK,9,64,189,33.86
 Shashank Singh,PBKS,11,64,195,32.82
+Sikandar Raza,MI,7,63,162,38.89
 Junaid Siddique,RR,7,63,162,38.89
 GF Linde,GT,9,63,166,37.95
 A Zampa,SRH,7,61,168,36.31
 M Pathirana,RCB,8,61,172,35.47
 JA Duffy,LSG,8,60,192,31.25
-Sikandar Raza,MI,6,56,144,38.89
+KA Maharaj,RCB,6,58,138,42.03
 H Ssenyondo,LSG,8,56,191,29.32
 Sufiyan Muqeem,GT,10,56,220,25.45
 Ravi Teja,SRH,9,54,210,25.71
+Abhishek Sharma,MI,6,52,126,41.27
 Kuldeep Yadav,LSG,6,52,142,36.62
 Karan Lal,RR,8,51,179,28.49
 Shahbaz Ahmed,KKR,8,50,162,30.86
@@ -28,7 +30,6 @@ JR Hazlewood,MI,10,50,234,21.37
 CV Varun,PBKS,8,49,186,26.34
 J Overton,GT,9,49,216,22.69
 GD Phillips,RR,7,48,150,32.0
-KA Maharaj,RCB,5,47,114,41.23
 Pulkit Narang,KKR,6,47,125,37.6
 B Kumar,KKR,6,46,119,38.66
 JJ Bumrah,DC,9,46,189,24.34
@@ -39,7 +40,6 @@ Chirag Jani,RCB,6,44,144,30.56
 M Siddharth,CSK,6,44,144,30.56
 Suryansh Shedge,KKR,5,42,114,36.84
 Tanay Thyagarajan,CSK,6,42,144,29.17
-Abhishek Sharma,MI,5,40,102,39.22
 L Ngidi,RR,5,40,108,37.04
 Mohammad Amir,LSG,5,40,120,33.33
 Shubhang Hegde,LSG,6,40,138,28.99
@@ -51,6 +51,8 @@ D Forrester,LSG,8,35,162,21.6
 B Muzarabani,GT,4,34,89,38.2
 Abrar Ahmed,KKR,5,33,102,32.35
 Atharva Ankolekar,RR,5,33,119,27.73
+SS Ghosh,RCB,8,33,156,21.15
+Satyajeet Bachhav,MI,4,32,90,35.56
 Akash Pawar,RCB,4,32,96,33.33
 Geet Puri,CSK,5,32,114,28.07
 C Sakariya,RR,6,32,144,22.22
@@ -60,18 +62,17 @@ KA Pollard,RR,11,29,145,20.0
 Sunil Kumar,MI,4,28,69,40.58
 Easwaran K,DC,3,28,72,38.89
 Parvej Musaraf,KKR,5,28,96,29.17
+Ehsan Khan,MI,5,28,116,24.14
 Utkarsh Singh,PBKS,7,28,132,21.21
 R Shepherd,SRH,4,27,66,40.91
-SS Ghosh,RCB,7,27,132,20.45
+Imran Tahir,RCB,3,26,72,36.11
 GJ Maxwell,DC,7,26,138,18.84
 KH Pandya,SRH,3,25,72,34.72
-Ehsan Khan,MI,4,25,92,27.17
 Arshdeep Singh,LSG,4,25,96,26.04
 Prashant Solanki,CSK,3,23,66,34.85
-Satyajeet Bachhav,MI,3,22,66,33.33
 AD Russell,DC,7,21,84,25.0
-Imran Tahir,RCB,2,20,48,41.67
 Noor Ahmad,MI,3,20,66,30.3
+Naseem Shah,MI,4,20,89,22.47
 Gurnoor Brar,DC,4,20,90,22.22
 MP Stoinis,SRH,6,20,90,22.22
 Abhishek Tanwar,MI,6,20,96,20.83
@@ -93,7 +94,6 @@ Sunny Sandhu,DC,2,15,36,41.67
 Mohammed Shami,MI,2,15,42,35.71
 SH Johnson,KKR,2,15,48,31.25
 Ashwin Shelke,DC,3,15,60,25.0
-Naseem Shah,MI,3,15,65,23.08
 JO Holder,RCB,3,15,72,20.83
 M Markande,SRH,2,14,42,33.33
 Vraj Patel,RR,2,14,48,29.17
@@ -121,6 +121,7 @@ AR Patel,GT,2,8,42,19.05
 SO Ngoche,KKR,2,8,45,17.78
 Prince Yadav,GT,2,8,48,16.67
 Sanvir Singh,PBKS,3,8,48,16.67
+Shashwat Dangwal,MI,2,7,18,38.89
 Athisayaraj Davidson,RCB,1,7,24,29.17
 LI Meriwala,PBKS,2,7,48,14.58
 CH Gayle,RCB,1,6,12,50.0
@@ -135,7 +136,6 @@ RA Bawa,SRH,1,5,12,41.67
 YS Chahal,KKR,1,5,18,27.78
 VR Iyer,SRH,6,5,42,11.9
 R Powell,CSK,2,4,12,33.33
-Shashwat Dangwal,MI,1,4,12,33.33
 Washington Sundar,GT,1,4,24,16.67
 Nithish Kumar Reddy,GT,5,4,72,5.56
 V Kohli,CSK,1,3,12,25.0
@@ -143,3 +143,4 @@ Abhishek Prabhakar,CSK,1,3,20,15.0
 MS Chapman,DC,2,3,24,12.5
 DM Gondaria,DC,1,3,24,12.5
 Mohammad Nabi,LSG,1,2,24,8.33
+Kranthi Kumar,RCB,1,1,24,4.17

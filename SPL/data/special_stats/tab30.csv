@@ -1,16 +1,16 @@
 striker,num_innings,runs,balls,outs,bat_avg,bat_sr,form_class,Curr_Tm
-Urvil Patel,10,593,327,8,74.12,181.35,Elite,MI
+Urvil Patel,10,576,319,9,64.0,180.56,Elite,MI
 Tilak Varma,10,566,321,9,62.89,176.32,Elite,CSK
 SA Yadav,10,555,295,8,69.38,188.14,Elite,DC
-Priyansh Arya,10,517,279,8,64.62,185.3,Elite,RCB
+Priyansh Arya,10,527,286,8,65.88,184.27,Elite,RCB
 Kartik Sharma,10,487,232,6,81.17,209.91,Elite,SRH
 Ishan Kishan,10,451,264,7,64.43,170.83,Elite,KKR
 Abishek Porel,10,450,289,7,64.29,155.71,Long_Hauler,LSG
 Aniket Verma,10,448,239,10,44.8,187.45,Elite,RR
-Atharva Taide,10,443,296,10,44.3,149.66,Long_Hauler,RCB
+Atharva Taide,10,444,294,10,44.4,151.02,Long_Hauler,RCB
 GJ Maxwell,10,432,219,8,54.0,197.26,Elite,DC
 Abhishek Pathak,10,431,218,6,71.83,197.71,Elite,RCB
-Abhishek Sharma,10,412,255,10,41.2,161.57,Long_Hauler,MI
+Abhishek Sharma,10,412,252,10,41.2,163.49,Long_Hauler,MI
 Naman Dhir,10,389,210,8,48.62,185.24,Elite,GT
 JP Inglis,10,369,184,9,41.0,200.54,Elite,GT
 KL Rahul,10,368,208,6,61.33,176.92,Elite,SRH
@@ -32,27 +32,28 @@ N Sindhu,10,274,137,5,54.8,200.0,Elite,DC
 Shashank Singh,10,273,174,6,45.5,156.9,Long_Hauler,PBKS
 Vansh Bedi,10,269,140,8,33.62,192.14,Hitter,PBKS
 SU Parakh,10,264,178,10,26.4,148.31,Balanced,SRH
-MR Marsh,10,263,158,7,37.57,166.46,Elite,MI
 BM Duckett,10,262,177,10,26.2,148.02,Balanced,SRH
 JC Buttler,10,261,122,6,43.5,213.93,Elite,DC
+MR Marsh,10,261,152,7,37.29,171.71,Elite,MI
+Rohan Kunnummal,10,256,152,10,25.6,168.42,Hitter,MI
 V Nigam,10,255,143,4,63.75,178.32,Elite,GT
-Tushar Raheja,10,253,129,10,25.3,196.12,Hitter,MI
 Jay Gohil,10,250,115,6,41.67,217.39,Elite,KKR
-RM Patidar,10,239,163,7,34.14,146.63,Balanced,RCB
 HH Pandya,10,238,125,5,47.6,190.4,Elite,LSG
 DR Mousley,10,238,170,9,26.44,140.0,Poor,
 Tanush Kotian,10,234,119,8,29.25,196.64,Hitter,CSK
+RM Patidar,10,228,158,7,32.57,144.3,Balanced,RCB
 GD Phillips,10,227,119,9,25.22,190.76,Hitter,RR
+JM Sharma,10,225,108,7,32.14,208.33,Hitter,RCB
+Tushar Raheja,10,224,113,10,22.4,198.23,Short_Impact,MI
 R Smaran,10,220,148,10,22.0,148.65,Poor,PBKS
-JM Sharma,10,215,101,7,30.71,212.87,Hitter,RCB
 PHKD Mendis,10,214,138,9,23.78,155.07,Poor,PBKS
-Rohan Kunnummal,10,205,124,9,22.78,165.32,Poor,MI
 RD Rickelton,10,197,141,10,19.7,139.72,Poor,RR
 Sameer Rizvi,10,195,101,8,24.38,193.07,Hitter,LSG
 YBK Jaiswal,10,192,84,7,27.43,228.57,Hitter,RR
-CH Gayle,10,190,112,9,21.11,169.64,Poor,RCB
+PWH de Silva,10,180,85,6,30.0,211.76,Hitter,RCB
 KK Nair,10,177,99,10,17.7,178.79,Short_Impact,CSK
 S Arora,10,175,97,9,19.44,180.41,Short_Impact,KKR
+CH Gayle,10,173,107,9,19.22,161.68,Poor,RCB
 H Klaasen,10,173,121,10,17.3,142.98,Poor,CSK
 VR Iyer,10,170,92,6,28.33,184.78,Hitter,SRH
 SP Narine,10,166,117,9,18.44,141.88,Poor,PBKS
@@ -67,7 +68,6 @@ Karan Shinde,10,124,72,6,20.67,172.22,Poor,SRH
 TH David,10,124,81,9,13.78,153.09,Poor,
 RD Gaikwad,10,123,72,6,20.5,170.83,Poor,CSK
 AK Markram,10,119,97,9,13.22,122.68,Poor,DC
-PWH de Silva,10,113,60,6,18.83,188.33,Short_Impact,RCB
 Ashutosh Sharma,10,113,75,9,12.56,150.67,Poor,GT
 J Overton,10,93,64,5,18.6,145.31,Poor,GT
 Sakibul Gani,10,89,52,9,9.89,171.15,Poor,RR
@@ -75,4 +75,5 @@ D Wiese,10,87,54,9,9.67,161.11,Poor,
 Utkarsh Singh,10,84,60,8,10.5,140.0,Poor,PBKS
 RK Singh,10,80,61,7,11.43,131.15,Poor,GT
 GF Linde,10,72,58,7,10.29,124.14,Poor,GT
+KA Maharaj,10,57,88,8,7.12,64.77,Poor,RCB
 Karan Lal,10,34,54,6,5.67,62.96,Poor,RR
