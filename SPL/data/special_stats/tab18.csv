@@ -1,6 +1,7 @@
 striker,bowler,runs_scored,balls_bowled,outs,4s,6s,bat_sr,bowl_eco,dot%
 Shubman Gill,JR Hazlewood,87,56,5,8,4,155.36,9.43,33.93
 SS Iyer,B Kumar,69,38,5,9,2,181.58,10.89,23.68
+GJ Maxwell,Arshdeep Singh,55,37,5,8,1,148.65,9.08,40.54
 N Pooran,MP Yadav,41,31,5,3,1,132.26,8.13,38.71
 CH Gayle,B Kumar,39,32,5,4,2,121.88,7.31,46.88
 Abhishek Sharma,Arshdeep Singh,150,89,4,21,4,168.54,10.18,33.71
@@ -19,10 +20,10 @@ SV Samson,JC Archer,62,29,4,7,4,213.79,13.03,41.38
 SA Yadav,Tanush Kotian,59,33,4,7,2,178.79,11.09,36.36
 P Simran Singh,Washington Sundar,58,31,4,5,4,187.1,11.23,25.81
 Naman Dhir,Fazalhaq Farooqi,57,37,4,9,1,154.05,9.24,37.84
-GJ Maxwell,Arshdeep Singh,55,35,4,8,1,157.14,9.6,37.14
 N Pooran,JC Archer,53,32,4,7,1,165.62,9.94,37.5
 JP Inglis,Fazalhaq Farooqi,51,36,4,4,2,141.67,8.5,33.33
 JC Buttler,Karan Lal,50,31,4,2,4,161.29,9.68,25.81
+P Simran Singh,YS Chahal,47,37,4,1,2,127.03,7.78,24.32
 WG Jacks,AK Markram,47,22,4,1,4,213.64,12.82,31.82
 SA Yadav,JR Hazlewood,45,34,4,3,3,132.35,7.94,47.06
 S Dube,M Pathirana,45,28,4,6,1,160.71,9.64,32.14
@@ -36,10 +37,10 @@ SV Samson,T Natarajan,28,27,4,3,1,103.7,6.22,55.56
 Ishan Kishan,Avesh Khan,28,22,4,1,2,127.27,7.64,36.36
 Urvil Patel,Tanush Kotian,137,68,3,13,7,201.47,12.44,30.88
 N Pooran,M Pathirana,130,69,3,19,3,188.41,11.39,28.99
+KL Rahul,Shahbaz Ahmed,107,58,3,8,6,184.48,11.07,25.86
 SV Samson,RA Jadeja,101,58,3,9,4,174.14,10.76,27.59
 Priyansh Arya,Noor Ahmad,101,56,3,9,4,180.36,11.14,28.57
 YBK Jaiswal,MA Starc,101,44,3,11,6,229.55,13.91,22.73
-KL Rahul,Shahbaz Ahmed,99,53,3,7,6,186.79,11.21,28.3
 PD Salt,Shashank Singh,93,48,3,9,5,193.75,11.75,25.0
 Shubman Gill,Tanush Kotian,91,49,3,12,3,185.71,11.14,26.53
 Shubman Gill,B Kumar,90,56,3,12,3,160.71,9.75,41.07
@@ -63,6 +64,7 @@ Aniket Verma,JC Archer,69,37,3,4,6,186.49,11.35,32.43
 P Simran Singh,Sandeep Sharma,67,40,3,6,2,167.5,10.35,30.0
 N Sindhu,NT Ellis,67,31,3,4,4,216.13,13.35,19.35
 N Sindhu,B Kumar,67,29,3,2,7,231.03,13.86,27.59
+P Simran Singh,Shahbaz Ahmed,64,47,3,3,4,136.17,8.17,36.17
 Tilak Varma,JR Hazlewood,64,45,3,5,4,142.22,8.8,44.44
 Naman Dhir,Karan Lal,64,41,3,4,2,156.1,9.66,17.07
 SP Narine,JR Hazlewood,64,38,3,9,2,168.42,10.11,42.11
@@ -83,7 +85,6 @@ Abhishek Sharma,PWH de Silva,56,42,3,7,1,133.33,8.43,38.1
 Abhishek Sharma,Mohammed Shami,56,34,3,5,3,164.71,9.88,29.41
 FH Allen,Tanush Kotian,56,23,3,8,3,243.48,15.39,39.13
 F du Plessis,TA Boult,55,37,3,6,2,148.65,9.24,37.84
-P Simran Singh,Shahbaz Ahmed,53,40,3,2,4,132.5,7.95,37.5
 RD Rickelton,R Sai Kishore,51,42,3,6,1,121.43,7.29,45.24
 C Green,H Ssenyondo,49,43,3,2,2,113.95,6.84,30.23
 PD Salt,Mohammad Ghazanfar,49,33,3,5,1,148.48,9.09,30.3
@@ -92,8 +93,8 @@ Tilak Varma,JC Archer,47,41,3,6,1,114.63,7.02,53.66
 Tarang Gohel,Tanush Kotian,47,28,3,8,0,167.86,10.07,21.43
 Arshad Khan,JC Archer,47,26,3,5,3,180.77,10.85,42.31
 Abishek Porel,CV Varun,47,24,3,4,3,195.83,12.0,29.17
+Kartik Sharma,B Kumar,47,20,3,4,2,235.0,14.4,30.0
 B Sai Sudharsan,JJ Bumrah,46,36,3,2,3,127.78,7.83,38.89
-P Simran Singh,YS Chahal,46,35,3,1,2,131.43,8.06,22.86
 Urvil Patel,M Pathirana,46,26,3,5,2,176.92,10.62,26.92
 Shashank Singh,AR Patel,46,23,3,6,2,200.0,12.0,21.74
 V Suryavanshi,SP Narine,45,25,3,6,1,180.0,11.04,20.0
@@ -107,6 +108,7 @@ R Parag,Chirag Jani,42,25,3,4,2,168.0,10.08,24.0
 Tilak Varma,RA Jadeja,42,23,3,3,3,182.61,10.96,30.43
 RD Rickelton,Kuldeep Yadav,41,32,3,5,1,128.12,7.69,40.62
 VR Iyer,JJ Bumrah,41,29,3,3,1,141.38,8.48,20.69
+C Green,NT Ellis,41,21,3,2,3,195.24,11.71,28.57
 V Kohli,Shashank Singh,40,30,3,6,1,133.33,8.2,50.0
 RD Gaikwad,MA Starc,39,26,3,5,1,150.0,9.0,34.62
 JP Inglis,Swapnil Singh,39,25,3,4,1,156.0,9.36,32.0
@@ -124,6 +126,7 @@ SS Iyer,KA Maharaj,33,27,3,1,2,122.22,7.33,37.04
 T Stubbs,M Prasidh Krishna,33,26,3,6,0,126.92,7.62,46.15
 Ashutosh Sharma,M Prasidh Krishna,33,24,3,2,2,137.5,8.25,29.17
 LS Livingstone,YS Chahal,32,30,3,1,3,106.67,6.6,56.67
+P Simran Singh,C Green,32,23,3,2,1,139.13,8.35,21.74
 AM Rahane,Arshdeep Singh,31,22,3,6,0,140.91,8.45,45.45
 V Suryavanshi,Mohammad Ghazanfar,30,25,3,2,1,120.0,7.2,36.0
 KL Rahul,A Zampa,30,20,3,1,2,150.0,9.0,30.0
@@ -132,10 +135,10 @@ YBK Jaiswal,Shashank Singh,29,22,3,4,0,131.82,8.73,45.45
 Q de Kock,Rashid Khan,27,29,3,3,0,93.1,6.0,51.72
 SV Samson,S Dube,26,26,3,2,0,100.0,6.46,46.15
 S Dube,Fazalhaq Farooqi,26,22,3,2,1,118.18,7.09,36.36
+WL Madsen,A Zampa,26,21,3,1,1,123.81,7.43,28.57
 RG Sharma,Rasikh Salam,25,25,3,3,0,100.0,6.0,40.0
 GJ Maxwell,Suryansh Shedge,25,21,3,1,1,119.05,7.14,47.62
 MP Stoinis,AR Patel,25,20,3,3,0,125.0,7.8,35.0
-P Simran Singh,C Green,24,20,3,2,0,120.0,7.2,25.0
 MP Stoinis,JJ Bumrah,22,26,3,2,0,84.62,5.31,46.15
 BJ McMullen,WG Jacks,22,22,3,2,0,100.0,6.0,40.91
 SV Samson,Shashank Singh,18,25,3,3,0,72.0,4.32,64.0
@@ -179,6 +182,7 @@ SV Samson,Fazalhaq Farooqi,75,48,2,11,2,156.25,9.38,37.5
 Shubman Gill,GF Linde,75,36,2,6,3,208.33,12.67,19.44
 V Kohli,HH Pandya,73,48,2,9,2,152.08,9.12,35.42
 Abhishek Sharma,M Prasidh Krishna,72,51,2,5,2,141.18,8.59,21.57
+P Simran Singh,B Kumar,71,43,2,10,2,165.12,10.05,41.86
 RG Sharma,Suryansh Shedge,71,37,2,3,5,191.89,11.68,24.32
 SA Yadav,JJ Smit,70,37,2,6,4,189.19,11.35,27.03
 RD Gaikwad,JJ Bumrah,69,39,2,7,2,176.92,10.77,15.38
@@ -192,6 +196,7 @@ GJ Maxwell,Rashid Khan,68,35,2,5,3,194.29,11.66,8.57
 RD Gaikwad,GJ Maxwell,68,35,2,7,2,194.29,11.66,8.57
 S Dube,Rasikh Salam,67,38,2,4,4,176.32,10.74,21.05
 Abhishek Sharma,Harshit Rana,66,35,2,9,2,188.57,11.31,31.43
+TM Head,Rasikh Salam,65,44,2,3,2,147.73,9.0,18.18
 Aniket Verma,B Kumar,65,35,2,5,4,185.71,11.14,31.43
 N Rana,Avesh Khan,65,33,2,11,2,196.97,11.82,36.36
 GJ Maxwell,TA Boult,64,35,2,8,1,182.86,11.14,22.86
@@ -207,13 +212,11 @@ Abishek Porel,Rasikh Salam,60,40,2,5,1,150.0,9.0,17.5
 GJ Maxwell,C Green,60,38,2,5,2,157.89,9.95,31.58
 V Kohli,MA Starc,60,36,2,9,1,166.67,10.17,33.33
 Naman Dhir,Shashank Singh,60,31,2,7,3,193.55,11.81,32.26
-TM Head,Rasikh Salam,59,41,2,2,2,143.9,8.78,19.51
 R Smaran,JJ Bumrah,59,36,2,2,4,163.89,10.0,22.22
 PP Shaw,M Prasidh Krishna,59,31,2,8,2,190.32,12.0,41.94
 N Pooran,Shahbaz Ahmed,59,27,2,4,4,218.52,13.11,11.11
 AM Rahane,M Pathirana,58,43,2,7,1,134.88,8.09,30.23
 Tilak Varma,CV Varun,58,37,2,5,1,156.76,9.41,24.32
-P Simran Singh,B Kumar,58,36,2,7,2,161.11,9.83,41.67
 N Pooran,Arshdeep Singh,58,27,2,6,3,214.81,13.11,18.52
 B Sai Sudharsan,Mohammad Nabi,57,34,2,6,1,167.65,10.24,14.71
 RG Sharma,JJ Bumrah,57,30,2,5,3,190.0,11.8,33.33
@@ -274,6 +277,7 @@ PWH de Silva,S Dube,46,21,2,5,3,219.05,13.14,23.81
 SS Iyer,JJ Bumrah,45,39,2,3,0,115.38,6.92,30.77
 RD Gaikwad,JR Hazlewood,45,36,2,2,2,125.0,7.83,30.56
 Naman Dhir,Kuldeep Yadav,45,29,2,4,1,155.17,9.31,13.79
+Shubman Gill,Gurnoor Brar,45,25,2,5,2,180.0,11.28,40.0
 YBK Jaiswal,JC Archer,45,25,2,3,3,180.0,10.8,28.0
 Priyansh Arya,R Sai Kishore,45,24,2,3,2,187.5,11.25,16.67
 SS Iyer,R Sai Kishore,45,24,2,2,4,187.5,11.75,33.33
@@ -363,6 +367,7 @@ TM Head,M Jansen,33,23,2,6,0,143.48,8.61,34.78
 Q de Kock,M Pathirana,33,22,2,5,0,150.0,9.0,36.36
 JC Buttler,M Pathirana,33,21,2,3,1,157.14,9.71,19.05
 JM Sharma,HH Pandya,32,29,2,2,0,110.34,6.62,27.59
+Ishan Kishan,NT Ellis,32,26,2,3,0,123.08,7.62,34.62
 N Pooran,GJ Maxwell,32,26,2,1,2,123.08,7.38,30.77
 RD Gaikwad,Washington Sundar,32,21,2,2,1,152.38,9.71,28.57
 V Suryavanshi,JJ Bumrah,32,20,2,4,1,160.0,10.2,35.0
@@ -372,6 +377,7 @@ CH Gayle,TA Boult,31,22,2,6,0,140.91,8.45,40.91
 N Sindhu,PJ Cummins,31,22,2,2,0,140.91,8.73,27.27
 Priyansh Arya,JJ Bumrah,31,22,2,2,1,140.91,8.45,27.27
 Abishek Porel,C Green,30,24,2,3,0,125.0,7.5,20.83
+VR Iyer,B Kumar,30,23,2,5,0,130.43,7.83,43.48
 SV Samson,PWH de Silva,30,22,2,5,0,136.36,8.18,36.36
 Ishan Kishan,Harsh Dubey,30,21,2,2,2,142.86,8.86,38.1
 Ishaan Gadekar,Ravi Bishnoi,30,20,2,7,0,150.0,9.0,60.0
@@ -395,8 +401,8 @@ JC Buttler,Shahbaz Ahmed,26,21,2,3,1,123.81,7.43,42.86
 R Smaran,Harsh Dubey,26,21,2,2,1,123.81,7.71,38.1
 RM Patidar,Karan Lal,26,21,2,1,1,123.81,7.71,42.86
 Shubman Gill,DS Rathi,26,20,2,3,0,130.0,7.8,30.0
-WL Madsen,A Zampa,26,20,2,1,1,130.0,7.8,25.0
 N Rana,Mohammed Shami,25,25,2,1,1,100.0,6.24,40.0
+TM Head,A Zampa,25,25,2,2,0,96.15,6.48,46.15
 SS Iyer,TA Boult,25,22,2,1,1,113.64,6.82,40.91
 TM Head,HV Patel,25,21,2,2,1,119.05,7.43,47.62
 AR Patel,LS Livingstone,25,20,2,5,0,125.0,7.5,50.0
@@ -451,6 +457,7 @@ N Sindhu,Tanush Kotian,81,41,1,5,5,197.56,11.85,17.07
 GJ Maxwell,V Puthur,80,44,1,10,2,181.82,11.18,27.27
 Priyansh Arya,Shaheen Shah Afridi,80,39,1,13,2,205.13,12.31,23.08
 RG Sharma,V Nigam,80,35,1,6,6,228.57,13.89,22.86
+BM Duckett,Shahbaz Ahmed,79,38,1,8,3,207.89,12.79,13.16
 SA Yadav,SP Narine,78,46,1,3,5,169.57,10.43,19.57
 JC Buttler,Sandeep Sharma,78,41,1,10,3,190.24,12.29,46.34
 V Suryavanshi,Kuldeep Yadav,78,39,1,9,3,200.0,12.0,20.51
@@ -522,6 +529,7 @@ Shubman Gill,Washington Sundar,63,40,1,8,1,157.5,9.45,20.0
 Naman Dhir,T Natarajan,63,39,1,7,1,161.54,9.69,20.51
 R Parag,HH Pandya,63,37,1,6,2,170.27,10.54,27.03
 CH Gayle,Rasikh Salam,63,21,1,7,5,300.0,18.0,19.05
+N Sindhu,Arshdeep Singh,62,42,1,7,1,147.62,9.14,35.71
 GJ Maxwell,M Prasidh Krishna,62,41,1,7,0,151.22,9.07,24.39
 N Rana,Arshdeep Singh,62,34,1,5,4,182.35,11.12,29.41
 N Pooran,Tanush Kotian,62,33,1,3,4,182.35,11.82,20.59
@@ -552,7 +560,6 @@ P Simran Singh,Tanush Kotian,58,37,1,4,3,148.72,10.05,33.33
 SA Yadav,A Zampa,58,34,1,6,2,170.59,10.41,29.41
 MP Stoinis,T Natarajan,58,30,1,4,3,193.33,11.6,10.0
 P Simran Singh,JC Archer,58,29,1,9,1,200.0,12.21,24.14
-BM Duckett,Shahbaz Ahmed,58,27,1,6,2,214.81,13.33,14.81
 YBK Jaiswal,V Nigam,58,27,1,5,3,214.81,12.89,11.11
 Urvil Patel,Ravi Teja,58,26,1,5,3,223.08,13.62,23.08
 Abhishek Sharma,Sandeep Sharma,57,31,1,3,4,183.87,11.03,25.81
@@ -587,7 +594,6 @@ B Sai Sudharsan,C Green,54,33,1,6,1,163.64,9.82,27.27
 H Klaasen,CV Varun,54,31,1,5,3,174.19,10.45,32.26
 F du Plessis,HH Pandya,54,28,1,6,2,192.86,11.79,17.86
 Urvil Patel,AR Ramjani,53,37,1,3,3,143.24,8.92,43.24
-N Sindhu,Arshdeep Singh,53,34,1,6,1,155.88,9.53,35.29
 P Simran Singh,TA Boult,53,34,1,8,2,155.88,9.35,44.12
 PD Salt,GJ Maxwell,53,32,1,6,2,165.62,10.31,28.12
 Abishek Porel,Tanush Kotian,53,31,1,4,2,170.97,10.26,19.35
@@ -625,6 +631,7 @@ SV Samson,AR Patel,50,34,1,4,2,142.86,9.18,34.29
 N Sindhu,Fazalhaq Farooqi,50,33,1,6,0,151.52,9.09,18.18
 C Green,Akash Vasisht,50,30,1,5,1,166.67,10.6,26.67
 VR Iyer,C Green,50,30,1,5,2,166.67,10.0,26.67
+BM Duckett,B Kumar,50,29,1,3,2,172.41,10.76,27.59
 GJ Maxwell,A Zampa,50,29,1,1,3,172.41,10.76,17.24
 MP Stoinis,Arshdeep Singh,50,27,1,3,4,185.19,11.11,25.93
 Abishek Porel,Arshad Khan,50,25,1,4,3,200.0,12.24,40.0
@@ -722,6 +729,7 @@ TM Head,M Pathirana,43,32,1,4,1,134.38,8.25,31.25
 SS Iyer,DS Rathi,43,31,1,4,1,138.71,8.32,25.81
 WG Jacks,C Green,43,31,1,3,2,138.71,8.32,29.03
 JC Buttler,GJ Maxwell,43,30,1,6,0,143.33,8.8,26.67
+N Sindhu,Ashwin Das,43,28,1,1,2,153.57,9.21,7.14
 RD Gaikwad,HH Pandya,43,28,1,6,0,153.57,9.21,21.43
 RD Gaikwad,PJ Cummins,43,25,1,4,2,172.0,10.56,24.0
 FH Allen,VG Arora,43,24,1,5,1,179.17,10.75,20.83
@@ -747,6 +755,7 @@ C Green,CV Varun,41,28,1,4,2,146.43,8.79,32.14
 FH Allen,B Kumar,41,27,1,5,2,151.85,9.11,40.74
 H Klaasen,Harpreet Brar,41,25,1,4,2,164.0,9.84,28.0
 V Kohli,JC Archer,41,25,1,3,2,164.0,9.84,36.0
+WL Madsen,Rasikh Salam,41,25,1,4,2,164.0,9.84,32.0
 Priyansh Arya,M Markande,41,24,1,6,1,170.83,10.75,37.5
 SP Narine,KH Pandya,41,24,1,2,3,170.83,10.5,29.17
 GJ Maxwell,MP Stoinis,41,23,1,3,3,178.26,10.96,39.13
@@ -901,7 +910,6 @@ KL Rahul,Shashank Singh,30,37,1,3,0,81.08,4.86,51.35
 Ishan Kishan,PJ Cummins,30,27,1,4,1,111.11,6.89,62.96
 KL Rahul,R Sai Kishore,30,27,1,2,0,107.14,7.56,39.29
 N Pooran,Washington Sundar,30,25,1,1,1,120.0,7.44,32.0
-Ishan Kishan,NT Ellis,30,24,1,3,0,125.0,7.75,33.33
 YBK Jaiswal,AR Ramjani,30,24,1,1,2,120.0,7.75,36.0
 Abhishek Sharma,T Natarajan,30,23,1,1,1,130.43,7.83,17.39
 GJ Maxwell,AR Ramjani,30,23,1,4,0,130.43,8.35,47.83
@@ -983,6 +991,7 @@ Priyansh Arya,Shashank Singh,22,24,1,1,0,91.67,5.5,41.67
 CH Gayle,JJ Bumrah,22,23,1,1,1,95.65,5.74,39.13
 PP Shaw,Avesh Khan,22,20,1,2,0,104.76,6.9,33.33
 Abishek Porel,JC Archer,21,21,1,2,0,100.0,6.29,47.62
+SS Iyer,A Zampa,21,21,1,2,0,100.0,6.0,38.1
 SS Iyer,AR Ramjani,20,24,1,0,0,83.33,5.0,29.17
 CH Gayle,V Nigam,20,21,1,1,0,95.24,5.71,38.1
 RR Pant,Arshdeep Singh,20,21,1,2,0,95.24,5.71,57.14
@@ -990,19 +999,18 @@ R Smaran,S Dube,20,20,1,1,0,100.0,6.0,40.0
 SA Yadav,Utkarsh Singh,20,20,1,2,0,100.0,6.0,30.0
 Tilak Varma,JJ Smit,20,20,1,1,0,100.0,6.6,45.0
 V Suryavanshi,Fazalhaq Farooqi,19,24,1,1,0,76.0,5.25,48.0
-TM Head,A Zampa,19,21,1,1,0,86.36,6.0,45.45
 TM Head,R Sai Kishore,18,27,1,1,0,66.67,4.22,48.15
 GJ Maxwell,KH Pandya,18,21,1,1,0,85.71,5.14,33.33
 F du Plessis,RA Jadeja,17,23,1,0,0,73.91,4.43,34.78
 F du Plessis,Ravi Bishnoi,17,22,1,1,0,77.27,4.64,45.45
 SV Samson,Arshdeep Singh,164,84,0,24,5,195.24,11.93,30.95
+KL Rahul,YS Chahal,106,56,0,7,6,189.29,11.46,19.64
 SS Iyer,PWH de Silva,106,52,0,12,5,203.85,12.35,28.85
 GJ Maxwell,PWH de Silva,103,48,0,6,6,214.58,12.88,6.25
 Naman Dhir,HH Pandya,103,48,0,10,5,214.58,13.25,29.17
 N Pooran,SP Narine,97,60,0,8,4,161.67,9.8,33.33
 GJ Maxwell,RA Jadeja,97,57,0,9,3,170.18,10.42,19.3
 SA Yadav,Tanay Thyagarajan,97,50,0,10,5,194.0,11.88,30.0
-KL Rahul,YS Chahal,94,49,0,6,5,191.84,11.63,16.33
 V Suryavanshi,A Zampa,93,54,0,7,5,172.22,10.33,20.37
 Naman Dhir,GJ Maxwell,92,54,0,7,4,170.37,10.22,12.96
 Tilak Varma,AD Russell,90,37,0,10,5,236.84,14.76,13.16
@@ -1034,6 +1042,7 @@ N Rana,M Pathirana,73,31,0,8,4,235.48,14.52,25.81
 SA Yadav,Suyash Sharma,73,31,0,4,6,235.48,14.13,6.45
 SV Samson,Ravi Teja,73,25,0,9,5,292.0,17.52,24.0
 JP Inglis,B Kumar,72,44,0,9,2,163.64,9.95,27.27
+KL Rahul,C Green,72,44,0,1,5,163.64,9.82,27.27
 Sameer Rizvi,S Dube,72,28,0,3,7,257.14,15.43,7.14
 PD Salt,HV Patel,71,36,0,8,3,197.22,11.83,25.0
 Tarang Gohel,Shashank Singh,71,33,0,13,2,215.15,13.09,39.39
@@ -1046,7 +1055,6 @@ N Sindhu,SP Narine,69,38,0,5,2,181.58,11.21,18.42
 KL Rahul,Sikandar Raza,69,34,0,7,3,202.94,12.35,14.71
 Naman Dhir,MR Marsh,68,37,0,5,4,183.78,11.19,21.62
 RD Gaikwad,WG Jacks,66,59,0,5,1,111.86,6.71,32.2
-KL Rahul,C Green,66,38,0,1,5,173.68,10.42,28.95
 PP Shaw,RA Jadeja,66,35,0,8,3,188.57,11.31,31.43
 SV Samson,HH Pandya,66,30,0,11,0,220.0,13.2,10.0
 GJ Maxwell,WG Jacks,66,28,0,6,4,235.71,14.14,10.71
@@ -1055,6 +1063,7 @@ Shubman Gill,R Shepherd,66,26,0,6,4,253.85,15.23,15.38
 N Rana,HH Pandya,65,31,0,5,4,209.68,12.77,25.81
 R Smaran,Tanush Kotian,65,25,0,5,4,260.0,15.6,0.0
 P Simran Singh,M Prasidh Krishna,64,36,0,4,4,172.97,10.83,24.32
+Shubman Gill,GJ Maxwell,64,35,0,6,3,182.86,11.31,25.71
 N Pooran,WG Jacks,64,33,0,6,4,193.94,11.64,27.27
 PWH de Silva,WG Jacks,64,32,0,3,5,200.0,12.56,21.88
 JP Inglis,Tanush Kotian,63,52,0,6,0,121.15,7.38,21.15
@@ -1076,6 +1085,7 @@ SA Yadav,Arshdeep Singh,61,45,0,6,2,135.56,8.13,37.78
 Abhishek Sharma,Jagjit Singh,61,34,0,7,2,179.41,10.76,20.59
 Naman Dhir,Arshad Khan,61,31,0,8,1,196.77,12.0,12.9
 PWH de Silva,Mohammad Ghazanfar,61,29,0,6,3,210.34,12.62,13.79
+Shubman Gill,AD Russell,61,27,0,8,2,225.93,13.56,11.11
 VR Iyer,JC Archer,61,27,0,4,4,225.93,13.56,7.41
 Aniket Verma,Ravi Bishnoi,61,23,0,5,4,265.22,16.17,13.04
 BM Duckett,JR Hazlewood,61,22,0,7,4,265.22,17.18,30.43
@@ -1092,7 +1102,6 @@ JC Buttler,JR Hazlewood,59,39,0,6,1,151.28,9.23,25.64
 SV Samson,Arshad Khan,59,37,0,7,1,159.46,10.05,29.73
 BM Duckett,Ashutosh Sharma,59,35,0,4,4,168.57,10.11,40.0
 RG Sharma,JR Hazlewood,59,33,0,5,3,178.79,10.73,24.24
-Shubman Gill,GJ Maxwell,59,32,0,5,3,184.38,11.44,25.0
 RD Gaikwad,MP Yadav,58,38,0,6,3,152.63,9.32,44.74
 SS Iyer,Washington Sundar,58,35,0,8,1,165.71,10.29,37.14
 KA Pollard,Rasikh Salam,58,32,0,3,5,181.25,11.06,31.25
@@ -1108,6 +1117,7 @@ CH Gayle,R Sai Kishore,57,26,0,8,1,219.23,13.38,15.38
 Shubman Gill,Nithish Kumar Reddy,57,26,0,1,5,219.23,13.15,3.85
 N Sindhu,T Natarajan,57,22,0,7,3,259.09,16.09,27.27
 Naman Dhir,AD Russell,57,22,0,7,3,259.09,15.55,4.55
+Abishek Porel,GJ Maxwell,57,21,0,5,4,271.43,16.57,9.52
 P Simran Singh,RA Jadeja,56,37,0,7,1,151.35,9.24,35.14
 Ishan Kishan,GD Phillips,56,35,0,6,2,160.0,9.77,42.86
 YBK Jaiswal,Arshdeep Singh,56,34,0,7,2,160.0,10.06,34.29
@@ -1181,7 +1191,6 @@ GJ Maxwell,R Ashwin,49,27,0,4,2,181.48,10.89,14.81
 LS Livingstone,M Siddharth,49,27,0,2,4,181.48,11.11,33.33
 V Kohli,M Siddharth,49,26,0,8,0,188.46,11.54,26.92
 Shubman Gill,AR Patel,49,24,0,3,3,196.0,12.5,16.0
-Shubman Gill,AD Russell,49,23,0,7,1,213.04,12.78,13.04
 SV Samson,MG Bracewell,49,22,0,6,2,222.73,13.36,18.18
 SV Samson,Abdul Samad,49,20,0,5,3,245.0,15.0,20.0
 Tilak Varma,Mohammad Ghazanfar,48,34,0,6,1,141.18,8.82,35.29
@@ -1363,6 +1372,7 @@ PWH de Silva,Mohammad Nabi,39,22,0,5,1,177.27,10.64,22.73
 B Sai Sudharsan,Swapnil Singh,39,21,0,1,3,185.71,11.43,28.57
 PD Salt,R Shepherd,39,21,0,4,1,185.71,11.43,9.52
 RD Gaikwad,Mohammed Shami,38,32,0,4,1,118.75,7.12,40.62
+TM Head,NT Ellis,38,27,0,2,2,140.74,8.44,29.63
 N Pooran,JR Hazlewood,38,26,0,5,0,146.15,8.77,30.77
 S Dube,Ashutosh Sharma,38,25,0,2,2,152.0,9.12,24.0
 CH Gayle,PHKD Mendis,38,24,0,2,2,158.33,9.75,29.17
@@ -1381,7 +1391,6 @@ R Parag,Rashid Khan,38,20,0,3,2,190.0,11.4,25.0
 V Kohli,Ashutosh Sharma,38,20,0,5,1,190.0,11.4,10.0
 MP Stoinis,BA Stokes,37,29,0,4,1,127.59,7.66,34.48
 Tilak Varma,Washington Sundar,37,26,0,5,0,142.31,8.77,26.92
-TM Head,NT Ellis,37,25,0,2,2,148.0,8.88,28.0
 CH Gayle,JR Hazlewood,37,24,0,5,2,154.17,9.25,50.0
 H Klaasen,R Sai Kishore,37,24,0,2,2,154.17,9.5,25.0
 AK Markram,LS Livingstone,37,23,0,4,0,160.87,9.91,30.43
@@ -1520,6 +1529,7 @@ WG Jacks,KA Maharaj,28,25,0,1,2,112.0,6.96,48.0
 JM Sharma,M Prasidh Krishna,28,23,0,2,2,121.74,7.3,56.52
 N Pooran,Harshit Rana,28,23,0,2,2,121.74,7.3,47.83
 C Green,Sikandar Raza,28,22,0,3,0,127.27,7.64,31.82
+WL Madsen,Ravi Teja,28,22,0,1,0,127.27,8.18,18.18
 AR Patel,Sikandar Raza,28,20,0,4,0,140.0,8.7,40.0
 P Simran Singh,R Ashwin,28,20,0,5,0,140.0,8.7,45.0
 JC Buttler,Mohammed Siraj,27,24,0,2,1,112.5,7.0,45.83
@@ -1542,7 +1552,6 @@ Atharva Taide,D Wiese,26,20,0,1,1,130.0,7.8,25.0
 P Simran Singh,Harpreet Brar,26,20,0,2,0,130.0,8.1,15.0
 SV Samson,MP Yadav,26,20,0,3,0,130.0,8.1,30.0
 Tilak Varma,Rashid Khan,26,20,0,2,1,130.0,7.8,30.0
-WL Madsen,Ravi Teja,26,20,0,1,0,130.0,8.1,15.0
 N Pooran,MA Starc,25,28,0,2,1,89.29,5.79,67.86
 JM Sharma,Shadab Khan,25,21,0,0,2,119.05,7.43,42.86
 SS Iyer,M Prasidh Krishna,25,21,0,3,0,119.05,7.71,33.33

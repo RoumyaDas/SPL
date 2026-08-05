@@ -71,5 +71,5 @@ Date,Venue,Day,Team One,Team Two,num,Matchday,Spin:Pace,Spin,Pace
 2026-08-02,LSG,Sun,LSG,RR,70,14,20:80,20.0,80.0
 2026-08-05,SRH,Wed,KKR,SRH,71,15,50:50,50.0,50.0
 2026-08-05,SRH,Wed,LSG,DC,72,16,50:50,50.0,50.0
-2026-08-08,RCB,Sat,,,73,17,:,,
-2026-08-09,RCB,Sun,,,74,18,:,,
+2026-08-08,RCB,Sat,DC,KKR,73,17,:,,
+2026-08-09,RCB,Sun,SRH,,74,18,:,,
