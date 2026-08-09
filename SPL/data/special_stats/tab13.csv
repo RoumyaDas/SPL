@@ -1,6 +1,6 @@
 striker,num_innings,runs,balls,outs,bat_avg,bat_sr,team
 Urvil Patel,5,364,196,3,121.33,185.71,MI
-Ishan Kishan,5,322,163,3,107.33,197.55,KKR
+Ishan Kishan,5,335,167,4,83.75,200.6,KKR
 Priyansh Arya,5,282,170,4,70.5,165.88,RCB
 Naman Dhir,5,270,134,4,67.5,201.49,GT
 Abhishek Sharma,5,269,144,4,67.25,186.81,MI
@@ -11,9 +11,8 @@ Abishek Porel,5,237,148,4,59.25,160.14,LSG
 JP Inglis,5,225,120,4,56.25,187.5,GT
 TL Seifert,5,221,164,5,44.2,134.76,PBKS
 P Simran Singh,5,214,146,4,53.5,146.58,SRH
-C Green,5,211,137,1,211.0,154.01,KKR
-BM Duckett,5,202,122,5,40.4,165.57,SRH
 N Sindhu,5,202,119,3,67.33,169.75,DC
+BM Duckett,5,202,122,5,40.4,165.57,SRH
 KA Pollard,5,201,142,2,100.5,141.55,RR
 Kartik Sharma,5,199,101,2,99.5,197.03,SRH
 Aniket Verma,5,199,102,5,39.8,195.1,RR
@@ -22,8 +21,10 @@ Ajay Rohera,5,179,97,4,44.75,184.54,LSG
 PHKD Mendis,5,177,100,4,44.25,177.0,PBKS
 KL Rahul,5,176,102,4,44.0,172.55,SRH
 R Smaran,5,170,106,5,34.0,160.38,PBKS
+C Green,5,167,101,2,83.5,165.35,KKR
 SA Yadav,5,167,96,4,41.75,173.96,DC
 GJ Maxwell,5,165,86,4,41.25,191.86,DC
+WL Madsen,5,163,109,5,32.6,149.54,KKR
 Tanush Kotian,5,158,88,5,31.6,179.55,CSK
 PWH de Silva,5,148,63,2,74.0,234.92,RCB
 V Nigam,5,148,78,2,74.0,189.74,GT
@@ -33,12 +34,10 @@ FH Allen,5,143,100,5,28.6,143.0,LSG
 SV Samson,5,142,80,5,28.4,177.5,GT
 B Sai Sudharsan,5,132,93,4,33.0,141.94,CSK
 HH Pandya,5,130,67,3,43.33,194.03,LSG
-WL Madsen,5,130,89,5,26.0,146.07,KKR
 JM Vince,2,129,89,2,64.5,144.94,CSK
 J Fraser-McGurk,5,124,51,5,24.8,243.14,KKR
 Shubman Gill,5,123,68,5,24.6,180.88,LSG
 GD Phillips,5,122,68,4,30.5,179.41,RR
-Jay Gohil,5,120,55,4,30.0,218.18,KKR
 S Dube,5,114,76,5,22.8,150.0,RR
 YBK Jaiswal,5,110,40,2,55.0,275.0,RR
 PD Salt,5,108,69,5,21.6,156.52,RR
@@ -47,16 +46,18 @@ Siddhesh Veer,5,106,53,2,53.0,200.0,MI
 Abhishek Pathak,5,105,74,5,21.0,141.89,RCB
 TH David,5,102,58,4,25.5,175.86,
 RD Rickelton,5,101,77,5,20.2,131.17,RR
+Jay Gohil,5,100,50,4,25.0,200.0,KKR
 TP Ura,5,100,50,5,20.0,200.0,PBKS
 R Parag,5,96,67,4,24.0,143.28,GT
 AD Russell,3,95,56,0,95.0,169.64,DC
 Vansh Bedi,5,94,54,5,18.8,174.07,PBKS
 Sameer Rizvi,5,93,55,4,23.25,169.09,LSG
+TM Head,2,92,51,2,46.0,180.39,KKR
 SP Narine,5,91,53,4,22.75,171.7,PBKS
 CH Gayle,5,91,58,4,22.75,156.9,RCB
 VR Iyer,5,89,43,2,44.5,206.98,SRH
-AM Rahane,3,88,77,3,29.33,114.29,CSK
 H Klaasen,5,88,64,5,17.6,137.5,CSK
+AM Rahane,3,88,77,3,29.33,114.29,CSK
 MR Marsh,5,87,42,3,29.0,207.14,MI
 RD Gaikwad,5,87,42,3,29.0,207.14,CSK
 T Stubbs,4,84,66,2,42.0,127.27,CSK
@@ -73,13 +74,12 @@ JM Sharma,5,66,37,4,16.5,178.38,RCB
 Adarsh Singh,3,65,44,3,21.67,147.73,DC
 Suryansh Shedge,4,63,40,2,31.5,157.5,KKR
 Sonu Yadav,4,63,43,3,21.0,146.51,CSK
-TM Head,1,63,32,1,63.0,196.88,KKR
-S Arora,5,60,32,3,20.0,187.5,KKR
 N Pooran,5,60,27,5,12.0,222.22,MI
 D Forrester,5,59,27,4,14.75,218.52,LSG
 RM Patidar,5,57,42,4,14.25,135.71,RCB
 MP Stoinis,2,57,45,1,57.0,126.67,SRH
 JE Root,2,55,39,2,27.5,141.03,SRH
+S Arora,5,55,28,3,18.33,196.43,KKR
 Abhishek Tanwar,4,52,27,3,17.33,192.59,MI
 MS Pepper,1,50,40,1,50.0,125.0,PBKS
 GF Linde,5,50,31,2,25.0,161.29,GT
@@ -88,8 +88,8 @@ C Connolly,1,47,39,1,47.0,120.51,GT
 MJ Owen,5,46,49,5,9.2,93.88,DC
 RG Sharma,5,45,35,5,9.0,128.57,RCB
 R Powell,2,43,37,1,43.0,116.22,CSK
-DR Mousley,5,43,36,5,8.6,119.44,
 Kunal Chandela,2,43,28,2,21.5,153.57,MI
+DR Mousley,5,43,36,5,8.6,119.44,
 J Suresh Kumar,3,42,32,2,21.0,131.25,PBKS
 AK Markram,4,42,27,4,10.5,155.56,DC
 Utkarsh Singh,4,41,31,4,10.25,132.26,PBKS
@@ -102,11 +102,12 @@ JC Buttler,5,29,19,4,7.25,152.63,DC
 JJ Bumrah,5,29,15,3,9.67,193.33,DC
 RK Singh,5,28,20,3,9.33,140.0,GT
 Vishnu Vinod,4,28,21,2,14.0,133.33,RR
+Anmolpreet Singh,2,25,13,1,25.0,192.31,KKR
 MS Dhoni,1,24,18,1,24.0,133.33,RCB
-AR Ramjani,5,22,27,3,7.33,81.48,PBKS
 Ashutosh Sharma,4,22,23,3,7.33,95.65,GT
 Ehsan Khan,4,22,29,3,7.33,75.86,MI
 Akash Pawar,1,22,12,1,22.0,183.33,RCB
+AR Ramjani,5,22,27,3,7.33,81.48,PBKS
 J Overton,3,21,18,3,7.0,116.67,GT
 Naveen-ul-Haq,1,21,16,1,21.0,131.25,CSK
 Rohan Kunnummal,2,21,14,2,10.5,150.0,MI
@@ -137,7 +138,7 @@ Atharva Ankolekar,3,8,17,2,4.0,47.06,RR
 Kranthi Kumar,1,8,5,0,8.0,160.0,RCB
 Sanvir Singh,3,7,9,2,3.5,77.78,PBKS
 Satyajeet Bachhav,1,7,6,1,7.0,116.67,MI
-Pulkit Narang,2,7,11,0,7.0,63.64,KKR
+Pulkit Narang,3,7,14,1,7.0,50.0,KKR
 JM Cox,1,6,7,1,6.0,85.71,
 RR Rossouw,2,5,8,2,2.5,62.5,MI
 Sachin Baby,1,5,6,1,5.0,83.33,RR
