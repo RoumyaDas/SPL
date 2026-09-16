@@ -1340,7 +1340,8 @@ const scheduleCSVs = {
   "sch-s05": "https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Fixtures/schedule_S05.csv",
   "sch-s06": "https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Fixtures/schedule_S06.csv",
   "sch-s07": "https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Fixtures/schedule_S07.csv",
-  "sch-s08": "https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Fixtures/schedule_S08.csv"
+  "sch-s08": "https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Fixtures/schedule_S08.csv",
+  "sch-s09": "https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/Fixtures/schedule_S09.csv"
 };
 
 const scheduleCache = {};  // to store loaded CSVs
