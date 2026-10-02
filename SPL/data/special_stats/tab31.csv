@@ -1,6 +1,6 @@
 bowler,num_innings,runs,balls,wkts,bowl_sr,bowl_eco,form_class,Curr_Tm
 Shivam Shukla,10,340,231,25,9.24,8.83,Elite,MI
-Mohammad Amir,10,400,240,21,11.43,10.0,Striker,LSG
+Mohammad Amir,10,396,240,21,11.43,9.9,Striker,LSG
 NT Ellis,10,408,236,21,11.24,10.37,Striker,SRH
 Suryansh Shedge,10,285,222,20,11.1,7.7,Elite,KKR
 Mohammad Ghazanfar,10,317,220,20,11.0,8.65,Elite,RR
@@ -20,7 +20,6 @@ Shaheen Shah Afridi,10,392,192,15,12.8,12.25,Poor,DC
 B Kumar,10,364,217,14,15.5,10.06,Striker,KKR
 Geet Puri,10,384,221,14,15.79,10.43,Striker,CSK
 HJ Manenti,10,395,209,14,14.93,11.34,Striker,RCB
-JJ Smit,10,308,222,13,17.08,8.32,Choker,PBKS
 Karan Lal,10,330,215,13,16.54,9.21,Choker,RR
 JJ Bumrah,10,327,209,13,16.08,9.39,Choker,DC
 CV Varun,10,367,234,13,18.0,9.41,Choker,PBKS
@@ -30,11 +29,11 @@ T Natarajan,10,369,224,12,18.67,9.88,Balanced,RR
 Tanush Kotian,10,362,210,12,17.5,10.34,Balanced,CSK
 JR Hazlewood,10,340,240,11,21.82,8.5,Choker,MI
 Kuldeep Yadav,10,342,238,11,21.64,8.62,Choker,LSG
-Shashank Singh,10,350,219,11,19.91,9.59,Balanced,PBKS
 JA Duffy,10,385,220,11,20.0,10.5,Balanced,LSG
 Chirag Jani,10,411,234,11,21.27,10.54,Balanced,RCB
 M Pathirana,10,377,208,11,18.91,10.88,Balanced,CSK
-Ravi Teja,10,351,228,10,22.8,9.24,Choker,PBKS
+JJ Smit,10,319,219,10,21.9,8.74,Choker,PBKS
+Shashank Singh,10,363,219,10,21.9,9.95,Balanced,PBKS
 Ehsan Khan,10,400,236,10,23.6,10.17,Balanced,CSK
 Tanay Thyagarajan,10,438,240,10,24.0,10.95,Balanced,CSK
 Gurnoor Brar,10,410,222,10,22.2,11.08,Balanced,DC
@@ -43,16 +42,17 @@ Utkarsh Singh,10,230,198,9,22.0,6.97,Choker,RR
 Sonu Yadav,10,376,196,9,21.78,11.51,Balanced,CSK
 DS Rathi,10,347,225,8,28.12,9.25,Choker,LSG
 Ashutosh Sharma,10,387,240,8,30.0,9.68,Poor,GT
+Ravi Teja,10,368,228,8,28.5,9.68,Balanced,PBKS
 C Green,10,422,230,8,28.75,11.01,Balanced,KKR
 J Overton,10,443,240,8,30.0,11.08,Poor,RR
 GD Phillips,10,339,186,7,26.57,10.94,Balanced,RR
 KA Pollard,10,319,156,7,22.29,12.27,Poor,RR
 V Nigam,10,260,174,6,29.0,8.97,Choker,GT
 Parth Chandan,10,386,228,6,38.0,10.16,Poor,DC
-Shubhang Hegde,10,365,210,5,42.0,10.43,Poor,LSG
 S Dube,10,285,150,5,30.0,11.4,Poor,RR
 PWH de Silva,10,339,213,4,53.25,9.55,Poor,RCB
 MR Marsh,10,258,156,4,39.0,9.92,Poor,KKR
+Shubhang Hegde,10,342,192,4,48.0,10.69,Poor,LSG
 PHKD Mendis,10,182,108,3,36.0,10.11,Poor,PBKS
 AD Russell,10,278,146,3,48.67,11.42,Poor,DC
 GJ Maxwell,10,293,150,3,50.0,11.72,Poor,DC
