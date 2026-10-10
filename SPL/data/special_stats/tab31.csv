@@ -1,17 +1,17 @@
 bowler,num_innings,runs,balls,wkts,bowl_sr,bowl_eco,form_class,Curr_Tm
 NT Ellis,10,415,240,22,10.91,10.38,Striker,SRH
 Mohammad Amir,10,396,240,21,11.43,9.9,Striker,LSG
-Harsh Dubey,10,413,234,19,12.32,10.59,Striker,DC
 Mohammad Ghazanfar,10,319,220,18,12.22,8.7,Elite,RR
 Shahbaz Ahmed,10,345,228,18,12.67,9.08,Elite,KKR
 Shivam Shukla,10,381,234,18,13.0,9.77,Striker,MI
 GF Linde,10,350,208,18,11.56,10.1,Striker,GT
-A Zampa,10,305,240,17,14.12,7.62,Elite,SRH
 H Ssenyondo,10,347,230,17,13.53,9.05,Elite,LSG
 Pulkit Narang,10,324,209,17,12.29,9.3,Elite,KKR
 RE van der Merwe,10,355,210,17,12.35,10.14,Striker,CSK
 Arshdeep Singh,10,401,228,17,13.41,10.55,Striker,LSG
+Harsh Dubey,10,424,234,17,13.76,10.87,Striker,DC
 SS Ghosh,10,386,197,17,11.59,11.76,Striker,RCB
+A Zampa,10,295,240,16,15.0,7.38,Elite,SRH
 Sufiyan Muqeem,10,408,224,16,14.0,10.93,Striker,GT
 KA Maharaj,10,297,217,15,14.47,8.21,Elite,RCB
 Atharva Ankolekar,10,360,224,15,14.93,9.64,Striker,RR
@@ -46,7 +46,7 @@ Abhishek Tanwar,10,333,161,9,17.89,12.41,Poor,RCB
 Utkarsh Singh,10,226,198,8,24.75,6.85,Choker,RR
 Ashutosh Sharma,10,387,240,8,30.0,9.68,Poor,GT
 J Overton,10,443,240,8,30.0,11.08,Poor,RR
-Parth Chandan,10,369,216,7,30.86,10.25,Poor,DC
+Parth Chandan,10,359,204,7,29.14,10.56,Balanced,DC
 GD Phillips,10,339,186,7,26.57,10.94,Balanced,RR
 C Green,10,413,224,7,32.0,11.06,Poor,KKR
 KA Pollard,10,319,156,7,22.29,12.27,Poor,RR
@@ -54,7 +54,7 @@ Ravi Teja,10,380,228,6,38.0,10.0,Poor,PBKS
 V Nigam,10,320,207,5,41.4,9.28,Poor,GT
 MR Marsh,10,256,156,5,31.2,9.85,Poor,KKR
 S Dube,10,285,150,5,30.0,11.4,Poor,RR
-AD Russell,10,351,170,5,34.0,12.39,Poor,DC
+AD Russell,10,356,176,5,35.2,12.14,Poor,DC
 Shubhang Hegde,10,312,180,4,45.0,10.4,Poor,LSG
 PWH de Silva,10,375,213,4,53.25,10.56,Poor,RCB
 GJ Maxwell,10,288,150,4,37.5,11.52,Poor,DC

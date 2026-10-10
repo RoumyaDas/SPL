@@ -1,8 +1,8 @@
 bowling_team,Bowl_Type,wkts,eco,SR
 CSK,Pace,27,11.48,14.04
 CSK,Spin,24,10.31,18.0
-DC,Pace,24,10.2,16.71
-DC,Spin,15,10.46,20.0
+DC,Pace,24,10.35,17.71
+DC,Spin,19,10.55,20.84
 GT,Pace,6,9.34,35.0
 GT,Spin,34,10.09,15.85
 KKR,Pace,24,9.52,20.0
@@ -17,5 +17,5 @@ RCB,Pace,16,10.58,17.94
 RCB,Spin,22,10.57,22.14
 RR,Pace,24,9.93,15.79
 RR,Spin,30,8.56,14.0
-SRH,Pace,20,10.01,15.4
-SRH,Spin,24,8.93,16.75
+SRH,Pace,22,10.26,15.36
+SRH,Spin,27,9.27,18.22

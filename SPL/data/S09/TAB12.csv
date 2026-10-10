@@ -1,23 +1,24 @@
 striker,batting_team,num_innings,sixes,runs,strike_rate
 S Dube,RR,6,18,354,171.01
+AD Russell,DC,7,14,159,203.85
 Vansh Bedi,PBKS,7,14,264,184.62
 Abhishek Pathak,RCB,7,14,274,176.77
 KK Nair,CSK,7,14,320,175.82
+SA Yadav,DC,7,14,259,173.83
 Urvil Patel,MI,7,12,288,214.93
 Sameer Rizvi,LSG,7,12,291,207.86
 Tilak Varma,CSK,7,12,311,172.78
 Akshat Raghuwanshi,MI,3,12,192,171.43
-AD Russell,DC,6,11,130,185.71
+VR Iyer,SRH,7,11,134,239.29
 PD Salt,PBKS,7,11,298,165.56
-GJ Maxwell,DC,6,10,337,204.24
-SP Narine,SRH,5,10,136,188.89
-SA Yadav,DC,6,10,193,167.83
+GJ Maxwell,DC,7,10,337,199.41
+SP Narine,SRH,6,10,144,187.01
+FH Allen,SRH,7,10,295,162.98
 Abhishek Sharma,MI,7,10,256,160.0
 D Brevis,GT,6,10,212,139.47
-N Sindhu,DC,6,9,161,176.92
-FH Allen,SRH,6,9,235,165.49
+N Sindhu,DC,7,9,167,170.41
 Shashank Singh,PBKS,7,9,178,164.81
-VR Iyer,SRH,6,8,105,233.33
+KL Rahul,SRH,7,9,238,157.62
 Jay Gohil,MI,4,8,162,225.0
 YBK Jaiswal,RR,6,8,151,204.05
 Ajay Rohera,LSG,7,8,207,184.82
@@ -36,23 +37,22 @@ S Arora,KKR,4,6,152,180.95
 Tanush Kotian,CSK,6,6,110,166.67
 Ishan Kishan,KKR,7,6,263,166.46
 T Stubbs,CSK,6,6,162,165.31
-KL Rahul,SRH,6,6,171,155.45
 WG Jacks,RR,6,6,211,148.59
 BJ McMullen,RCB,5,6,139,146.32
 RD Gaikwad,CSK,6,6,169,140.83
+J Fraser-McGurk,DC,3,5,96,184.62
 Akhil Singh Rawat,KKR,3,5,69,181.58
+Kartik Sharma,SRH,7,5,154,160.42
 JP Inglis,GT,7,5,205,160.16
 SV Samson,GT,6,5,216,135.85
 RA Jadeja,CSK,5,4,58,232.0
 KH Pandya,SRH,3,4,58,223.08
 Aniket Verma,RR,7,4,205,199.03
-J Fraser-McGurk,DC,2,4,56,180.65
 Priyansh Arya,RCB,5,4,161,171.28
 Suryansh Shedge,KKR,3,4,58,170.59
-Parth Chandan,DC,4,4,87,167.31
-Kartik Sharma,SRH,6,4,122,160.53
+Parth Chandan,DC,5,4,88,166.04
 WL Madsen,MI,4,4,88,151.72
-P Simran Singh,SRH,5,4,150,138.89
+P Simran Singh,SRH,6,4,166,139.5
 TM Head,KKR,6,4,146,136.45
 Tushar Raheja,KKR,3,3,124,210.17
 RK Singh,PBKS,3,3,96,204.26
@@ -91,6 +91,7 @@ D Forrester,MI,1,1,27,270.0
 Shubhang Hegde,LSG,3,1,25,227.27
 D Wiese,KKR,2,1,30,187.5
 Adarsh Singh,DC,1,1,13,185.71
+Tarang Gohel,DC,7,1,192,181.13
 R Smaran,RR,2,1,40,173.91
 Mohammad Ghazanfar,RR,2,1,16,145.45
 RE van der Merwe,CSK,1,1,7,140.0

@@ -1,6 +1,7 @@
 striker,batting_team,num_innings,50+_scores,runs,strike_rate,100+_scores
 S Dube,RR,6,4,354,171.01,0
-GJ Maxwell,DC,6,3,337,204.24,0
+GJ Maxwell,DC,7,3,337,199.41,0
+FH Allen,SRH,7,3,295,162.98,0
 Sameer Rizvi,LSG,7,3,291,207.86,1
 KK Nair,CSK,7,2,320,175.82,0
 Tilak Varma,CSK,7,2,311,172.78,1
@@ -9,9 +10,10 @@ Urvil Patel,MI,7,2,288,214.93,0
 Abhishek Pathak,RCB,7,2,274,176.77,1
 Vansh Bedi,PBKS,7,2,264,184.62,0
 Ishan Kishan,KKR,7,2,263,166.46,0
+SA Yadav,DC,7,2,259,173.83,0
 Abhishek Sharma,MI,7,2,256,160.0,0
 MJ Owen,MI,5,2,244,156.41,1
-FH Allen,SRH,6,2,235,165.49,0
+KL Rahul,SRH,7,2,238,157.62,0
 Naman Dhir,GT,7,2,212,161.83,0
 D Brevis,GT,6,2,212,139.47,0
 Akshat Raghuwanshi,MI,3,2,192,171.43,1
@@ -22,24 +24,23 @@ WG Jacks,RR,6,1,211,148.59,0
 Ajay Rohera,LSG,7,1,207,184.82,0
 Aniket Verma,RR,7,1,205,199.03,0
 JP Inglis,GT,7,1,205,160.16,0
-SA Yadav,DC,6,1,193,167.83,0
+Tarang Gohel,DC,7,1,192,181.13,0
 Shashank Singh,PBKS,7,1,178,164.81,0
-KL Rahul,SRH,6,1,171,155.45,0
 RD Gaikwad,CSK,6,1,169,140.83,0
+N Sindhu,DC,7,1,167,170.41,0
+P Simran Singh,SRH,6,1,166,139.5,0
 T Stubbs,CSK,6,1,162,165.31,0
-N Sindhu,DC,6,1,161,176.92,0
 Priyansh Arya,RCB,5,1,161,171.28,0
+Kartik Sharma,SRH,7,1,154,160.42,0
 HH Pandya,LSG,7,1,153,184.34,0
 S Arora,KKR,4,1,152,180.95,0
 YBK Jaiswal,RR,6,1,151,204.05,0
 CH Gayle,RCB,7,1,151,155.67,0
-P Simran Singh,SRH,5,1,150,138.89,0
 Shubman Gill,LSG,7,1,142,194.52,0
 BJ McMullen,RCB,5,1,139,146.32,0
+VR Iyer,SRH,7,1,134,239.29,0
 Tushar Raheja,KKR,3,1,124,210.17,0
-Kartik Sharma,SRH,6,1,122,160.53,0
 Tanush Kotian,CSK,6,1,110,166.67,0
-VR Iyer,SRH,6,1,105,233.33,0
 Harnoor Singh,RCB,3,1,100,188.68,0
 KA Pollard,RR,3,1,99,154.69,0
 TL Seifert,PBKS,4,1,80,140.35,0
