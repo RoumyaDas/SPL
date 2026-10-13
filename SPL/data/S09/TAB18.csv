@@ -1,80 +1,75 @@
-striker,batting_team,num_innings,strike_rate,runs,outs
-V Nigam,GT,5,256.41,100,3
-VR Iyer,SRH,8,238.1,200,4
-AR Patel,PBKS,3,226.92,59,1
-Jay Gohil,MI,5,225.97,174,3
-KH Pandya,SRH,3,223.08,58,1
-YBK Jaiswal,RR,7,220.99,179,6
-RA Jadeja,CSK,6,220.0,66,3
-V Suryavanshi,PBKS,8,219.05,230,8
-Urvil Patel,MI,8,215.54,319,8
-Sameer Rizvi,LSG,8,213.55,331,4
-Tushar Raheja,KKR,3,210.17,124,2
-PWH de Silva,RCB,8,206.67,124,7
-AD Russell,DC,8,204.88,168,5
-Aniket Verma,RR,8,204.58,268,8
-RK Singh,PBKS,4,202.08,97,2
-GJ Maxwell,DC,8,201.09,368,8
-Atharva Taide,RCB,2,196.88,63,2
-SP Narine,SRH,7,195.83,188,2
-Vansh Bedi,PBKS,8,193.04,305,8
-R Parag,GT,8,192.08,194,3
-Shubman Gill,LSG,8,189.33,142,8
-Ajay Rohera,LSG,8,184.81,292,8
-HH Pandya,LSG,7,184.34,153,5
-Tarang Gohel,DC,8,183.78,272,8
-Tilak Varma,CSK,8,182.93,375,8
-Akhil Singh Rawat,KKR,3,181.58,69,2
-Chirag Jani,RCB,6,181.03,105,4
-S Arora,KKR,4,180.95,152,3
-Kranthi Kumar,CSK,2,180.77,94,2
-Shashank Singh,PBKS,8,178.79,236,3
-J Fraser-McGurk,DC,4,176.79,99,4
-Abhishek Pathak,RCB,7,176.77,274,6
-KK Nair,CSK,8,175.9,343,6
-Akshat Raghuwanshi,MI,4,172.65,202,2
-SA Yadav,DC,8,172.19,260,7
-S Dube,RR,7,171.67,412,6
-Suryansh Shedge,KKR,3,170.59,58,2
-Harnoor Singh,RCB,4,169.44,122,4
-T Stubbs,CSK,7,169.23,176,5
-MJ Owen,MI,6,169.15,340,5
-Priyansh Arya,RCB,6,168.93,174,6
-MS Bhandage,PBKS,3,167.65,57,3
-N Sindhu,DC,8,167.5,201,8
-PD Salt,PBKS,8,166.35,346,7
-Parth Chandan,DC,5,166.04,88,2
-Ishan Kishan,KKR,8,165.41,263,7
-DR Mousley,LSG,8,163.41,201,5
-TP Ura,PBKS,5,163.1,137,5
-FH Allen,SRH,8,162.8,337,8
-GD Phillips,RR,4,161.54,84,3
-Abhishek Sharma,MI,8,160.49,260,6
-Naman Dhir,GT,8,160.0,224,8
-JP Inglis,GT,8,159.4,212,7
-Kartik Sharma,SRH,8,158.56,176,8
-Tanush Kotian,CSK,7,156.99,146,7
-KL Rahul,SRH,8,156.55,263,8
-JM Sharma,RCB,8,156.52,144,6
-KA Pollard,RR,3,154.69,99,3
-WG Jacks,RR,7,153.29,233,5
-JC Buttler,DC,4,150.82,92,2
-D Brevis,GT,7,149.74,283,6
-CH Gayle,RCB,8,146.81,207,8
-BJ McMullen,RCB,5,146.32,139,5
-TM Head,KKR,7,144.94,229,7
-C Green,KKR,6,144.07,170,6
-WL Madsen,MI,5,141.43,99,4
-TL Seifert,PBKS,4,140.35,80,4
-P Simran Singh,SRH,6,139.5,166,5
-RD Gaikwad,CSK,7,138.52,169,7
-D Padikkal,RR,4,137.5,66,3
-Vishnu Vinod,GT,3,135.56,61,3
-SV Samson,GT,7,134.97,220,6
-V Kohli,LSG,6,134.19,157,6
-Dhruv Jurel,CSK,5,133.93,75,4
-Anmolpreet Singh,KKR,4,129.63,70,4
-Karan Shinde,SRH,4,126.32,96,3
-MR Marsh,KKR,3,123.44,79,3
-Abishek Porel,LSG,6,117.14,82,6
-LR Chethan,LSG,1,116.28,50,1
+Date,Match_Num,Home,Away,Winner,POTM_performance,Top_Scorer,Top_Bowler,Match_Report,Match_Rating
+2026-09-19,1,SRH,KKR,SRH,Shahbaz Ahmed (KKR) -> 10 off 9 ; 3-28 (4.0),FH Allen (SRH) -> 63 off 36,Shahbaz Ahmed (KKR) -> 3-28 (4.0),SRH 174-6 (18.0) beat KKR 173-7 (20.0) by 4 wickets!,6.8/10
+2026-09-19,2,DC,LSG,DC,Sameer Rizvi (LSG) -> 90* off 40,Sameer Rizvi (LSG) -> 90* off 40,H Ssenyondo (LSG) -> 2-24 (4.0),DC 210-8 (19.4) beat LSG 209-5 (20.0) by 2 wickets!,8.2/10
+2026-09-19,3,GT,RCB,GT,SV Samson (GT) -> 99* off 58,SV Samson (GT) -> 99* off 58,V Nigam (GT) -> 1-30 (4.0),GT 196-3 (19.1) beat RCB 190-5 (20.0) by 7 wickets!,7.2/10
+2026-09-19,4,MI,RR,RR,WG Jacks (RR) -> 95* off 49,WG Jacks (RR) -> 95* off 49,Atharva Ankolekar (RR) -> 3-46 (4.0),RR 218-3 (19.3) beat MI 215-7 (20.0) by 7 wickets!,7.8/10
+2026-09-19,5,PBKS,CSK,PBKS,V Suryavanshi (PBKS) -> 63 off 29,V Suryavanshi (PBKS) -> 63 off 29,HV Patel (PBKS) -> 3-21 (3.2),PBKS 209-6 (20.0) beat CSK 166-10 (19.2) by 43 runs!,4.2/10
+2026-09-20,6,MI,DC,MI,MJ Owen (MI) -> 105* off 65 ; 2-46 (4.0),MJ Owen (MI) -> 105* off 65,Shivam Shukla (MI) -> 2-37 (4.0),MI 191-1 (19.0) beat DC 187-5 (20.0) by 9 wickets!,7.3/10
+2026-09-20,7,GT,KKR,GT,Ishan Kishan (KKR) -> 74 off 45,Ishan Kishan (KKR) -> 74 off 45,GF Linde (GT) -> 3-59 (4.0),GT 193-3 (17.5) beat KKR 189-7 (20.0) by 7 wickets!,6.2/10
+2026-09-20,8,RCB,RR,RR,Abhishek Pathak (RCB) -> 112* off 53,Abhishek Pathak (RCB) -> 112* off 53,T Natarajan (RR) -> 3-28 (4.0),RR 196-5 (18.4) beat RCB 190-9 (20.0) by 5 wickets!,6.8/10
+2026-09-20,9,SRH,PBKS,PBKS,Shashank Singh (PBKS) -> 51* off 29 ; 1-39 (4.0),VR Iyer (SRH) -> 56* off 22,NT Ellis (SRH) -> 3-37 (4.0),PBKS 199-7 (20.0) beat SRH 196-5 (20.0) by 3 runs!,9.4/10
+2026-09-20,10,LSG,CSK,LSG,Tilak Varma (CSK) -> 86 off 47,Tilak Varma (CSK) -> 86 off 47,Mohammad Amir (LSG) -> 2-22 (4.0),LSG 211-6 (17.0) beat CSK 207-2 (20.0) by 4 wickets!,6.8/10
+2026-09-26,11,KKR,MI,MI,S Arora (KKR) -> 94 off 49,S Arora (KKR) -> 94 off 49,S Lamichhane (MI) -> 2-37 (4.0),MI 223-3 (19.4) beat KKR 221-5 (20.0) by 7 wickets!,7.3/10
+2026-09-26,12,RCB,SRH,SRH,CH Gayle (RCB) -> 73 off 45,CH Gayle (RCB) -> 73 off 45,M Markande (SRH) -> 3-20 (4.0),SRH 148-6 (17.4) beat RCB 144-10 (18.2) by 4 wickets!,5.2/10
+2026-09-26,13,RR,CSK,RR,Tanush Kotian (CSK) -> 54 off 30 ; 1-53 (4.0),S Dube (RR) -> 71 off 38,Tanay Thyagarajan (CSK) -> 2-20 (4.0),RR 217-5 (20.0) beat CSK 192-7 (20.0) by 25 runs!,3.9/10
+2026-09-26,14,LSG,DC,DC,JJ Bumrah (DC) -> 1 off 4 ; 4-27 (4.0),N Sindhu (DC) -> 76 off 44,JJ Bumrah (DC) -> 4-27 (4.0),DC 220-9 (20.0) beat LSG 189-10 (19.2) by 31 runs!,4.5/10
+2026-09-26,15,PBKS,GT,GT,V Nigam (GT) -> 45 off 17 ; 1-47 (4.0),Naman Dhir (GT) -> 57 off 35,GF Linde (GT) -> 3-23 (4.0),GT 188-6 (20.0) beat PBKS 184-8 (20.0) by 4 runs!,9.4/10
+2026-09-27,16,CSK,SRH,SRH,SP Narine (SRH) -> 42 off 24 ; 1-38 (4.0),T Stubbs (CSK) -> 53* off 31,RE van der Merwe (CSK) -> 3-40 (4.0),SRH 199-10 (19.5) beat CSK 192-5 (20.0) by 7 runs!,7.2/10
+2026-09-27,17,RR,MI,RR,SM Curran (RR) -> 17 off 13 ; 4-33 (4.0),S Dube (RR) -> 87* off 56,SM Curran (RR) -> 4-33 (4.0),RR 185-7 (20.0) beat MI 117-10 (16.4) by 68 runs!,3.9/10
+2026-09-27,18,KKR,DC,KKR,JC Archer (DC) -> 0 off 2 ; 4-21 (4.0),Ishan Kishan (KKR) -> 42 off 27,JC Archer (DC) -> 4-21 (4.0),KKR 155-10 (18.3) beat DC 134-10 (16.3) by 21 runs!,2.7/10
+2026-09-27,19,PBKS,RCB,PBKS,Vansh Bedi (PBKS) -> 80 off 34,BJ McMullen (RCB) -> 87 off 61,R Ashwin (PBKS) -> 3-20 (3.0),PBKS 202-5 (16.3) beat RCB 200-6 (20.0) by 5 wickets!,6.5/10
+2026-09-27,20,LSG,GT,LSG,H Ssenyondo (LSG) -> 3-23 (3.2),Shubman Gill (LSG) -> 59 off 32,H Ssenyondo (LSG) -> 3-23 (3.2),LSG 187-8 (20.0) beat GT 140-10 (18.2) by 47 runs!,4.2/10
+2026-10-03,21,DC,RCB,DC,SA Yadav (DC) -> 83* off 33,SA Yadav (DC) -> 83* off 33,Harsh Dubey (DC) -> 3-40 (4.0),DC 262-4 (20.0) beat RCB 237-8 (20.0) by 25 runs!,3.9/10
+2026-10-03,22,LSG,PBKS,LSG,PD Salt (PBKS) -> 105* off 63,PD Salt (PBKS) -> 105* off 63,Mohammad Amir (LSG) -> 3-33 (4.0),LSG 200-5 (19.3) beat PBKS 196-8 (20.0) by 5 wickets!,7.8/10
+2026-10-03,23,CSK,MI,TIE,Akshat Raghuwanshi (MI) -> 115* off 62,Akshat Raghuwanshi (MI) -> 115* off 62,Satyajeet Bachhav (MI) -> 3-52 (4.0),CSK 219-6 (20.0) tied with MI 219-4 (20.0)!,9.3/10
+2026-10-03,24,GT,RR,GT,S Dube (RR) -> 64 off 31,S Dube (RR) -> 64 off 31,GF Linde (GT) -> 3-20 (3.0),GT 163-5 (18.1) beat RR 162-10 (17.5) by 5 wickets!,6.3/10
+2026-10-03,25,KKR,SRH,SRH,FH Allen (SRH) -> 81 off 43,FH Allen (SRH) -> 81 off 43,NT Ellis (SRH) -> 3-39 (4.0),SRH 204-3 (19.0) beat KKR 203-8 (20.0) by 7 wickets!,7.6/10
+2026-10-04,26,CSK,DC,CSK,M Pathirana (CSK) -> 5-34 (4.0),KK Nair (CSK) -> 97* off 53,M Pathirana (CSK) -> 5-34 (4.0),CSK 231-5 (20.0) beat DC 226-10 (20.0) by 5 runs!,9.8/10
+2026-10-04,27,SRH,LSG,SRH,Sameer Rizvi (LSG) -> 100* off 45,Sameer Rizvi (LSG) -> 100* off 45,Arshdeep Singh (LSG) -> 3-51 (4.0),SRH 215-6 (19.4) beat LSG 212-7 (20.0) by 4 wickets!,8.4/10
+2026-10-04,28,RCB,KKR,KKR,Shahbaz Ahmed (KKR) -> 7* off 2 ; 3-17 (3.0),Ishan Kishan (KKR) -> 45 off 28,Shahbaz Ahmed (KKR) -> 3-17 (3.0),KKR 156-6 (18.5) beat RCB 154-10 (16.4) by 4 wickets!,6.0/10
+2026-10-04,29,RR,PBKS,PBKS,Vansh Bedi (PBKS) -> 81 off 45,Vansh Bedi (PBKS) -> 81 off 45,Ravi Teja (PBKS) -> 2-34 (4.0),PBKS 214-6 (20.0) beat RR 213-8 (20.0) by 4 wickets!,9.5/10
+2026-10-04,30,GT,MI,MI,Abhishek Sharma (MI) -> 87* off 45,Abhishek Sharma (MI) -> 87* off 45,JR Hazlewood (MI) -> 1-36 (4.0),MI 226-3 (18.3) beat GT 222-4 (20.0) by 7 wickets!,6.6/10
+2026-10-10,31,CSK,PBKS,CSK,V Suryavanshi (PBKS) -> 63 off 25,V Suryavanshi (PBKS) -> 63 off 25,JJ Smit (PBKS) -> 3-28 (4.0),CSK 202-7 (20.0) beat PBKS 192-10 (18.2) by 10 runs!,7.0/10
+2026-10-10,32,SRH,DC,SRH,Tarang Gohel (DC) -> 81 off 45,Tarang Gohel (DC) -> 81 off 45,Tripuresh Singh (SRH) -> 2-34 (3.0),SRH 228-4 (20.0) beat DC 227-5 (20.0) by 1 run!,9.4/10
+2026-10-10,33,KKR,GT,KKR,Tushar Raheja (KKR) -> 80* off 38,Tushar Raheja (KKR) -> 80* off 38,MR Marsh (KKR) -> 3-35 (4.0),KKR 153-0 (12.3) beat GT 152-8 (20.0) by 10 wickets!,5.0/10
+2026-10-10,34,RCB,MI,MI,S Gill (RCB) -> 32 off 11 ; 2-41 (4.0),Priyansh Arya (RCB) -> 69 off 43,Abhilash Shetty (MI) -> 3-42 (4.0),MI 216-9 (18.1) beat RCB 212-8 (20.0) by 1 wicket!,7.8/10
+2026-10-10,35,RR,LSG,RR,Utkarsh Singh (RR) -> 22 off 19 ; 3-24 (4.0),Ajay Rohera (LSG) -> 63 off 30,Utkarsh Singh (RR) -> 3-24 (4.0),RR 164-9 (20.0) beat LSG 140-10 (18.2) by 24 runs!,3.8/10
+2026-10-11,36,SRH,CSK,SRH,NT Ellis (SRH) -> 5-35 (3.5),VR Iyer (SRH) -> 66* off 28,NT Ellis (SRH) -> 5-35 (3.5),SRH 233-4 (20.0) beat CSK 205-10 (18.5) by 28 runs!,4.2/10
+2026-10-11,37,MI,KKR,MI,MJ Owen (MI) -> 96 off 45 ; 1-35 (4.0),MJ Owen (MI) -> 96 off 45,Satyajeet Bachhav (MI) -> 5-27 (4.0),MI 181-6 (15.5) beat KKR 177-10 (20.0) by 4 wickets!,6.3/10
+2026-10-11,38,RR,GT,RR,D Brevis (GT) -> 71 off 37,D Brevis (GT) -> 71 off 37,Mohammad Ghazanfar (RR) -> 3-45 (4.0),RR 212-10 (18.2) beat GT 208-7 (20.0) by 4 runs!,10.0/10
+2026-10-11,39,DC,PBKS,PBKS,Shashank Singh (PBKS) -> 58* off 24 ; 2-20 (2.0),Tarang Gohel (DC) -> 80 off 42,AR Ramjani (PBKS) -> 3-49 (4.0),PBKS 222-4 (17.5) beat DC 216-8 (20.0) by 6 wickets!,6.8/10
+2026-10-11,40,LSG,RCB,LSG,Ajay Rohera (LSG) -> 85 off 46,Ajay Rohera (LSG) -> 85 off 46,H Ssenyondo (LSG) -> 2-23 (4.0),LSG 197-4 (20.0) beat RCB 194-7 (20.0) by 3 runs!,9.5/10
+2026-10-17,41,DC,GT,,,,,,
+2026-10-17,42,KKR,LSG,,,,,,
+2026-10-17,43,RCB,PBKS,,,,,,
+2026-10-17,44,SRH,RR,,,,,,
+2026-10-17,45,MI,CSK,,,,,,
+2026-10-18,46,RR,SRH,,,,,,
+2026-10-18,47,RCB,DC,,,,,,
+2026-10-18,48,CSK,GT,,,,,,
+2026-10-18,49,PBKS,KKR,,,,,,
+2026-10-18,50,MI,LSG,,,,,,
+2026-10-24,51,SRH,RCB,,,,,,
+2026-10-24,52,PBKS,RR,,,,,,
+2026-10-24,53,DC,KKR,,,,,,
+2026-10-24,54,GT,CSK,,,,,,
+2026-10-24,55,LSG,MI,,,,,,
+2026-10-25,56,RR,DC,,,,,,
+2026-10-25,57,GT,LSG,,,,,,
+2026-10-25,58,CSK,RCB,,,,,,
+2026-10-25,59,KKR,PBKS,,,,,,
+2026-10-25,60,MI,SRH,,,,,,
+2026-10-31,61,CSK,KKR,,,,,,
+2026-10-31,62,LSG,SRH,,,,,,
+2026-10-31,63,MI,PBKS,,,,,,
+2026-10-31,64,RCB,GT,,,,,,
+2026-10-31,65,DC,RR,,,,,,
+2026-11-01,66,MI,RCB,,,,,,
+2026-11-01,67,KKR,RR,,,,,,
+2026-11-01,68,GT,SRH,,,,,,
+2026-11-01,69,PBKS,LSG,,,,,,
+2026-11-01,70,DC,CSK,,,,,,
+,71,,,,,,,,
+,72,,,,,,,,
+,73,,,,,,,,
+,74,,,,,,,,

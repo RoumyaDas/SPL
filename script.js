@@ -635,7 +635,8 @@ document.querySelector('[data-tab="player-mappings"]').addEventListener("click",
 const statsCsvBase = "https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/";
 const statsDisplayNames = [
   "Orange-cap leaderboard", "Purple-cap leaderboard", "points table", "MVP", 
-  "Impact_pts","Fantasy pts","Bowler ranking","Batter ranking",
+  "Impact_pts","Fantasy pts",
+  // "Bowler ranking","Batter ranking",
   "Fielding","Most Dots",
   "Most 4s", "Most 6s", "Most_Run_Contribution", "Most_Wkt_Contribution", "Most_3wkt_hauls","Most_50+",
   "Lowest_Economy (min. 4 ovs)", "Best_Strike_Rate (min. 50 runs)", 
