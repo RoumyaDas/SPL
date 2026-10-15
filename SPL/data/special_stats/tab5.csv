@@ -90,7 +90,7 @@ JJ Smit,middle,669,440,27,9.12,16.3,PBKS
 Harsh Dubey,top,637,419,27,9.12,15.52,DC
 AK Markram,top,914,533,27,10.29,19.74,DC
 YS Chahal,top,1107,655,27,10.14,24.26,KKR
-R Shepherd,top,918,522,27,10.55,19.33,SRH
+R Shepherd,top,918,522,27,10.55,19.33,
 MP Yadav,tail,205,212,26,5.8,8.15,KKR
 LI Meriwala,top,738,477,26,9.28,18.35,SRH
 T Natarajan,tail,207,177,26,7.02,6.81,RR
@@ -117,7 +117,7 @@ TA Boult,middle,713,490,23,8.73,21.3,
 M Siddharth,top,907,588,23,9.26,25.57,GT
 Avesh Khan,middle,657,329,22,11.98,14.95,LSG
 V Puthur,top,693,456,22,9.12,20.73,RCB
-SH Johnson,top,702,441,22,9.55,20.05,KKR
+SH Johnson,top,702,441,22,9.55,20.05,
 AK Markram,tail,228,166,22,8.24,7.55,DC
 Avesh Khan,top,948,617,22,9.22,28.05,LSG
 C Sakariya,middle,581,414,21,8.42,19.71,RR
@@ -137,13 +137,13 @@ Imran Tahir,top,558,348,20,9.62,17.4,KKR
 HV Patel,middle,733,453,20,9.71,22.65,PBKS
 Rashid Khan,top,1029,650,20,9.5,32.5,RCB
 Pulkit Narang,middle,516,343,20,9.03,17.15,KKR
-R Shepherd,middle,678,383,20,10.62,19.15,SRH
+R Shepherd,middle,678,383,20,10.62,19.15,
 Geet Puri,middle,367,193,20,11.41,9.65,CSK
 GJ Maxwell,middle,1100,669,20,9.87,33.45,DC
 A Nagwaswalla,middle,399,249,20,9.61,12.45,RR
 Ravi Bishnoi,middle,596,394,20,9.08,19.7,SRH
 Atharva Ankolekar,middle,522,307,20,10.2,15.35,RR
-SH Johnson,middle,555,284,20,11.73,14.2,KKR
+SH Johnson,middle,555,284,20,11.73,14.2,
 M Markande,middle,536,388,20,8.29,19.4,SRH
 PJ Cummins,top,679,421,20,9.68,21.05,SRH
 Utkarsh Singh,middle,304,255,19,7.15,13.42,RR
@@ -191,7 +191,7 @@ Ashwin Das,middle,405,260,15,9.35,17.33,LSG
 RE van der Merwe,middle,381,199,15,11.49,13.27,CSK
 Swapnil Singh,middle,405,230,14,10.57,16.43,
 AD Russell,top,1459,750,14,11.67,53.57,DC
-PHKD Mendis,middle,512,316,14,9.72,22.57,PBKS
+PHKD Mendis,middle,512,316,14,9.72,22.57,
 Imran Tahir,middle,429,290,14,8.88,20.71,KKR
 Mustafizur Rahman,top,523,326,14,9.63,23.29,
 M Siddharth,middle,614,378,14,9.75,27.0,GT
@@ -216,7 +216,7 @@ BA Stokes,middle,523,339,12,9.26,28.25,
 KA Maharaj,tail,104,101,12,6.18,8.42,RCB
 A Nagwaswalla,tail,119,105,12,6.8,8.75,RR
 Akash Vasisht,middle,419,277,12,9.08,23.08,DC
-PHKD Mendis,top,440,267,12,9.89,22.25,PBKS
+PHKD Mendis,top,440,267,12,9.89,22.25,
 Ashwani Kumar,middle,382,184,12,12.46,15.33,
 GD Phillips,middle,393,236,12,9.99,19.67,RR
 Ashwin Das,top,334,216,12,9.28,18.0,LSG
@@ -235,7 +235,7 @@ Atharva Ankolekar,top,420,247,12,10.2,20.58,RR
 JA Duffy,middle,309,167,12,11.1,13.92,LSG
 Shadab Khan,top,355,233,12,9.14,19.42,
 Mohammed Siraj,top,590,376,11,9.41,34.18,
-Prashant Solanki,middle,188,140,11,8.06,12.73,CSK
+Prashant Solanki,middle,188,140,11,8.06,12.73,MI
 Khrievitso Kense,middle,282,201,11,8.42,18.27,
 Fazalhaq Farooqi,tail,110,107,11,6.17,9.73,GT
 S Lamichhane,top,566,321,11,10.58,29.18,MI
@@ -276,7 +276,7 @@ Pulkit Narang,tail,17,42,9,2.43,4.67,KKR
 JJ Smit,tail,88,79,9,6.68,8.78,PBKS
 SM Curran,tail,21,43,9,2.93,4.78,RR
 Naseem Shah,middle,302,161,9,11.25,17.89,
-SH Johnson,tail,51,59,9,5.19,6.56,KKR
+SH Johnson,tail,51,59,9,5.19,6.56,
 LI Meriwala,middle,282,212,9,7.98,23.56,SRH
 AS Roy,top,325,237,9,8.23,26.33,
 Khrievitso Kense,top,538,381,9,8.47,42.33,
@@ -354,7 +354,7 @@ Mukesh Kumar,top,263,155,6,10.18,25.83,
 Arshad Khan,tail,67,49,6,8.2,8.17,CSK
 R Sai Kishore,tail,82,75,6,6.56,12.5,GT
 S Gopal,top,314,189,6,9.97,31.5,
-PHKD Mendis,tail,130,85,6,9.18,14.17,PBKS
+PHKD Mendis,tail,130,85,6,9.18,14.17,
 Suyash Sharma,middle,308,190,6,9.73,31.67,
 M Theekshana,tail,134,85,6,9.46,14.17,
 L Ngidi,middle,166,80,5,12.45,16.0,RR
@@ -412,7 +412,7 @@ RR Patel,middle,183,107,4,10.26,26.75,
 M Jansen,middle,275,177,4,9.32,44.25,
 BJ McMullen,top,371,216,4,10.31,54.0,RCB
 R Ngarava,top,88,65,4,8.12,16.25,PBKS
-Prashant Solanki,top,84,62,4,8.13,15.5,CSK
+Prashant Solanki,top,84,62,4,8.13,15.5,MI
 Prashant Veer,top,120,80,4,9.0,20.0,PBKS
 R Ashwin,tail,53,41,4,7.76,10.25,PBKS
 C Sakariya,tail,66,51,4,7.76,12.75,RR
@@ -484,7 +484,7 @@ V Kaverappa,top,80,47,3,10.21,15.67,
 SN Thakur,middle,61,38,3,9.63,12.67,
 C Connolly,top,76,51,3,8.94,17.0,GT
 N Rana,middle,96,71,3,8.11,23.67,GT
-R Shepherd,tail,79,69,3,6.87,23.0,SRH
+R Shepherd,tail,79,69,3,6.87,23.0,
 SZ Mulani,middle,176,122,3,8.66,40.67,
 JDS Neesham,middle,169,86,3,11.79,28.67,
 CH Morris,top,367,199,3,11.07,66.33,
@@ -913,10 +913,10 @@ Harpreet Brar,tail,48,37,0,7.78,inf,
 HTRY Thornton,top,27,15,0,10.8,inf,
 HTRY Thornton,middle,17,9,0,11.33,inf,
 HR Shokeen,tail,5,3,0,10.0,inf,
-HB Shipley,top,40,21,0,11.43,inf,LSG
-HB Shipley,middle,14,3,0,28.0,inf,LSG
+HB Shipley,top,40,21,0,11.43,inf,
+HB Shipley,middle,14,3,0,28.0,inf,
 MS Chapman,middle,10,4,0,15.0,inf,
-Prashant Solanki,tail,1,2,0,3.0,inf,CSK
+Prashant Solanki,tail,1,2,0,3.0,inf,MI
 MS Chapman,top,39,20,0,11.7,inf,
 MW Short,tail,12,9,0,8.0,inf,MI
 Gurjapneet Singh,tail,8,6,0,8.0,inf,

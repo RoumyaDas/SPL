@@ -84,7 +84,7 @@ position,runs,balls,fours,sixes,dots,striker,outs,SR,Bat_avg,bpb,dot_%,Curr_Tm
 3,729,404,76,24,99,N Sindhu,12,180.45,60.75,4.04,24.5,DC
 4,726,488,69,24,144,VR Iyer,16,148.77,45.38,5.25,29.51,SRH
 5,713,414,56,34,92,RG Sharma,25,172.22,28.52,4.6,22.22,KKR
-1,709,463,73,20,143,DP Conway,19,153.13,37.32,4.98,30.89,
+1,709,463,73,20,143,DP Conway,19,153.13,37.32,4.98,30.89,PBKS
 2,701,408,75,27,114,Abhishek Sharma,22,171.81,31.86,4.0,27.94,MI
 6,700,419,57,34,120,HH Pandya,27,167.06,25.93,4.6,28.64,LSG
 5,697,401,50,35,90,TP Ura,27,173.82,25.81,4.72,22.44,PBKS
@@ -101,7 +101,7 @@ position,runs,balls,fours,sixes,dots,striker,outs,SR,Bat_avg,bpb,dot_%,Curr_Tm
 1,633,421,65,25,141,Q de Kock,23,150.36,27.52,4.68,33.49,
 2,630,344,74,23,98,YBK Jaiswal,17,183.14,37.06,3.55,28.49,RR
 4,629,416,50,24,124,H Klaasen,21,151.2,29.95,5.62,29.81,
-5,622,383,49,28,106,PHKD Mendis,19,162.4,32.74,4.97,27.68,PBKS
+5,622,383,49,28,106,PHKD Mendis,19,162.4,32.74,4.97,27.68,
 5,621,355,55,29,94,RM Patidar,9,174.93,69.0,4.23,26.48,RCB
 5,620,330,63,25,74,Sameer Rizvi,16,187.88,38.75,3.75,22.42,LSG
 4,607,320,55,25,63,S Arora,15,189.69,40.47,4.0,19.69,KKR
@@ -112,7 +112,7 @@ position,runs,balls,fours,sixes,dots,striker,outs,SR,Bat_avg,bpb,dot_%,Curr_Tm
 1,573,344,52,27,112,BM Duckett,20,166.57,28.65,4.35,32.56,SRH
 5,570,281,52,29,50,Abhishek Pathak,7,202.85,81.43,3.47,17.79,RCB
 2,568,341,55,25,113,MJ Owen,16,166.57,35.5,4.26,33.14,MI
-2,566,388,54,18,123,DP Conway,19,145.88,29.79,5.39,31.7,
+2,566,388,54,18,123,DP Conway,19,145.88,29.79,5.39,31.7,PBKS
 5,549,314,34,36,87,D Brevis,13,174.84,42.23,4.49,27.71,GT
 4,541,350,36,28,107,Nithish Kumar Reddy,20,154.57,27.05,5.47,30.57,GT
 1,526,300,48,19,63,Tilak Varma,10,175.33,52.6,4.48,21.0,CSK
@@ -221,7 +221,7 @@ position,runs,balls,fours,sixes,dots,striker,outs,SR,Bat_avg,bpb,dot_%,Curr_Tm
 3,250,156,24,8,42,Tarang Gohel,8,160.26,31.25,4.88,26.92,DC
 3,250,160,26,8,43,H Klaasen,7,156.25,35.71,4.71,26.88,
 3,250,166,26,10,62,Dhruv Jurel,10,150.6,25.0,4.61,37.35,CSK
-4,248,158,23,11,58,PHKD Mendis,9,156.96,27.56,4.65,36.71,PBKS
+4,248,158,23,11,58,PHKD Mendis,9,156.96,27.56,4.65,36.71,
 5,245,185,13,13,69,Nithish Kumar Reddy,12,132.43,20.42,7.12,37.3,GT
 3,243,172,28,9,77,R Parag,5,141.28,48.6,4.65,44.77,GT
 8,243,127,16,18,46,RA Jadeja,11,191.34,22.09,3.74,36.22,CSK
@@ -243,7 +243,7 @@ position,runs,balls,fours,sixes,dots,striker,outs,SR,Bat_avg,bpb,dot_%,Curr_Tm
 7,217,138,17,13,50,JM Sharma,10,157.25,21.7,4.6,36.23,RCB
 8,216,115,20,12,36,Chirag Jani,6,187.83,36.0,3.59,31.3,RCB
 8,214,98,21,15,29,Tanush Kotian,7,218.37,30.57,2.72,29.59,CSK
-4,213,151,11,13,52,Kumar Kushagra,8,141.06,26.62,6.29,34.44,RR
+4,213,151,11,13,52,Kumar Kushagra,8,141.06,26.62,6.29,34.44,
 3,213,112,20,8,22,S Arora,5,190.18,42.6,4.0,19.64,KKR
 1,210,154,21,7,56,LG Pretorius,9,136.36,23.33,5.5,36.36,
 6,210,130,8,16,49,Ramandeep Singh,13,161.54,16.15,5.42,37.69,RCB
@@ -259,7 +259,7 @@ position,runs,balls,fours,sixes,dots,striker,outs,SR,Bat_avg,bpb,dot_%,Curr_Tm
 1,194,119,19,6,36,MJ Owen,6,163.03,32.33,4.76,30.25,MI
 3,194,124,23,9,55,Tushar Raheja,8,156.45,24.25,3.88,44.35,KKR
 2,193,112,24,6,30,Shubman Gill,5,172.32,38.6,3.73,26.79,LSG
-7,193,114,13,12,39,PHKD Mendis,5,169.3,38.6,4.56,34.21,PBKS
+7,193,114,13,12,39,PHKD Mendis,5,169.3,38.6,4.56,34.21,
 2,192,114,18,6,24,N Pooran,2,168.42,96.0,4.75,21.05,MI
 6,189,132,17,7,46,MP Stoinis,7,143.18,27.0,5.5,34.85,
 5,189,137,13,8,44,HC Brook,6,137.96,31.5,6.52,32.12,GT
@@ -326,7 +326,7 @@ position,runs,balls,fours,sixes,dots,striker,outs,SR,Bat_avg,bpb,dot_%,Curr_Tm
 1,134,90,12,4,24,Abhishek Pathak,3,148.89,44.67,5.62,26.67,RCB
 6,133,113,8,6,49,KD Karthik,7,117.7,19.0,8.07,43.36,
 7,133,92,14,5,38,DS Airee,8,144.57,16.62,4.84,41.3,DC
-5,130,85,14,5,36,Ravi Singh,6,152.94,21.67,4.47,42.35,
+5,130,85,14,5,36,Ravi Singh,6,152.94,21.67,4.47,42.35,RR
 8,129,71,14,5,20,Shadab Khan,4,181.69,32.25,3.74,28.17,
 6,129,86,10,6,30,Sakibul Gani,6,150.0,21.5,5.38,34.88,RR
 4,128,89,8,7,28,N Wadhera,5,143.82,25.6,5.93,31.46,
@@ -382,7 +382,7 @@ position,runs,balls,fours,sixes,dots,striker,outs,SR,Bat_avg,bpb,dot_%,Curr_Tm
 6,101,62,9,5,20,Abdul Samad,5,162.9,20.2,4.43,32.26,KKR
 7,101,56,9,5,19,Sakibul Gani,6,180.36,16.83,4.0,33.93,RR
 6,101,63,10,5,22,Rahul Singh,6,160.32,16.83,4.2,34.92,
-6,101,63,11,4,21,PHKD Mendis,5,160.32,20.2,4.2,33.33,PBKS
+6,101,63,11,4,21,PHKD Mendis,5,160.32,20.2,4.2,33.33,
 1,101,83,9,3,30,D Brevis,3,121.69,33.67,6.92,36.14,GT
 8,100,63,5,6,18,AD Russell,5,158.73,20.0,5.73,28.57,DC
 9,100,88,9,4,44,TA Boult,7,113.64,14.29,6.77,50.0,
@@ -404,7 +404,7 @@ position,runs,balls,fours,sixes,dots,striker,outs,SR,Bat_avg,bpb,dot_%,Curr_Tm
 3,91,73,8,3,33,PD Salt,3,124.66,30.33,6.64,45.21,PBKS
 4,91,61,4,6,19,DR Mousley,3,149.18,30.33,6.1,31.15,LSG
 3,91,71,14,1,30,C Connolly,4,128.17,22.75,4.73,42.25,GT
-3,91,73,8,3,32,DP Conway,6,124.66,15.17,6.64,43.84,
+3,91,73,8,3,32,DP Conway,6,124.66,15.17,6.64,43.84,PBKS
 1,90,71,7,1,14,F du Plessis,1,126.76,90.0,8.88,19.72,
 5,90,49,6,7,15,Ritik Vats,2,183.67,45.0,3.77,30.61,DC
 3,90,46,7,6,14,GJ Maxwell,2,195.65,45.0,3.54,30.43,DC
@@ -448,7 +448,7 @@ position,runs,balls,fours,sixes,dots,striker,outs,SR,Bat_avg,bpb,dot_%,Curr_Tm
 2,79,51,9,3,20,Abishek Porel,2,154.9,39.5,4.25,39.22,LSG
 2,79,64,9,1,30,RA Tripathi,4,123.44,19.75,6.4,46.88,
 3,79,33,4,7,6,AB de Villiers,2,239.39,39.5,3.0,18.18,
-5,79,59,2,3,10,DP Conway,2,133.9,39.5,11.8,16.95,
+5,79,59,2,3,10,DP Conway,2,133.9,39.5,11.8,16.95,PBKS
 5,79,45,7,4,11,AM Rahane,3,175.56,26.33,4.09,24.44,
 4,78,45,5,6,19,HC Brook,3,173.33,26.0,4.09,42.22,GT
 4,78,48,5,4,10,Tanush Kotian,3,162.5,26.0,5.33,20.83,CSK
@@ -491,7 +491,7 @@ position,runs,balls,fours,sixes,dots,striker,outs,SR,Bat_avg,bpb,dot_%,Curr_Tm
 4,68,54,4,3,20,JM Vince,3,125.93,22.67,7.71,37.04,CSK
 8,68,45,6,5,23,Sonu Yadav,3,151.11,22.67,4.09,51.11,CSK
 7,67,39,3,6,12,Sikandar Raza,4,171.79,16.75,4.33,30.77,
-7,67,47,4,6,24,R Shepherd,9,142.55,7.44,4.7,51.06,SRH
+7,67,47,4,6,24,R Shepherd,9,142.55,7.44,4.7,51.06,
 6,67,33,5,4,8,AK Markram,2,203.03,33.5,3.67,24.24,DC
 4,67,42,4,3,8,RD Rickelton,2,159.52,33.5,6.0,19.05,RR
 4,67,51,9,1,20,RR Pant,5,131.37,13.4,5.1,39.22,
@@ -521,7 +521,7 @@ position,runs,balls,fours,sixes,dots,striker,outs,SR,Bat_avg,bpb,dot_%,Curr_Tm
 9,56,50,3,3,19,R Ashwin,4,112.0,14.0,8.33,38.0,PBKS
 5,56,31,6,2,9,SS Iyer,5,180.65,11.2,3.88,29.03,KKR
 7,55,34,3,3,8,HS Desai,4,161.76,13.75,5.67,23.53,SRH
-8,55,33,6,3,12,R Shepherd,5,166.67,11.0,3.67,36.36,SRH
+8,55,33,6,3,12,R Shepherd,5,166.67,11.0,3.67,36.36,
 2,55,42,8,0,12,WL Madsen,1,130.95,55.0,5.25,28.57,MI
 6,55,40,3,2,6,Abhishek Pathak,3,137.5,18.33,8.0,15.0,RCB
 3,54,43,6,2,18,D Padikkal,2,125.58,27.0,5.38,41.86,RR
@@ -597,7 +597,7 @@ position,runs,balls,fours,sixes,dots,striker,outs,SR,Bat_avg,bpb,dot_%,Curr_Tm
 9,41,34,3,2,13,PJ Cummins,4,120.59,10.25,6.8,38.24,SRH
 2,41,21,5,2,9,SA Yadav,3,195.24,13.67,3.0,42.86,DC
 2,41,15,6,2,4,Vansh Bedi,1,273.33,41.0,1.88,26.67,PBKS
-7,41,24,1,4,9,Ravi Singh,2,170.83,20.5,4.8,37.5,
+7,41,24,1,4,9,Ravi Singh,2,170.83,20.5,4.8,37.5,RR
 6,40,23,4,3,10,Ritik Vats,2,173.91,20.0,3.29,43.48,DC
 8,40,31,2,3,17,JC Archer,6,129.03,6.67,6.2,54.84,DC
 6,40,30,3,2,13,RM Patidar,4,133.33,10.0,6.0,43.33,RCB
@@ -621,7 +621,7 @@ position,runs,balls,fours,sixes,dots,striker,outs,SR,Bat_avg,bpb,dot_%,Curr_Tm
 5,35,26,2,1,6,KD Karthik,2,134.62,17.5,8.67,23.08,
 10,35,40,5,0,26,JR Hazlewood,6,87.5,5.83,8.0,65.0,MI
 7,35,25,3,2,14,Shaheen Shah Afridi,2,140.0,17.5,5.0,56.0,DC
-5,35,26,1,2,7,Kumar Kushagra,3,134.62,11.67,8.67,26.92,RR
+5,35,26,1,2,7,Kumar Kushagra,3,134.62,11.67,8.67,26.92,
 8,35,18,1,4,6,Anmolpreet Singh,0,194.44,,3.6,33.33,KKR
 7,34,12,2,3,0,YBK Jaiswal,0,283.33,,2.4,0.0,RR
 4,33,19,1,3,6,KH Pandya,1,173.68,33.0,4.75,31.58,SRH
@@ -654,8 +654,8 @@ position,runs,balls,fours,sixes,dots,striker,outs,SR,Bat_avg,bpb,dot_%,Curr_Tm
 9,28,26,3,2,18,Shahbaz Ahmed,4,107.69,7.0,5.2,69.23,KKR
 4,28,23,1,1,8,Parth Chandan,1,121.74,28.0,11.5,34.78,DC
 8,28,34,0,1,15,Karan Lal,5,82.35,5.6,34.0,44.12,RR
-6,27,23,2,2,12,R Shepherd,6,117.39,4.5,5.75,52.17,SRH
-6,27,24,4,0,12,Ravi Singh,4,112.5,6.75,6.0,50.0,
+6,27,23,2,2,12,R Shepherd,6,117.39,4.5,5.75,52.17,
+6,27,24,4,0,12,Ravi Singh,4,112.5,6.75,6.0,50.0,RR
 4,27,20,3,1,7,A Mhatre,2,135.0,13.5,5.0,35.0,
 10,27,18,1,2,6,LS Livingstone,0,150.0,,6.0,33.33,PBKS
 2,27,21,2,2,10,AR Patel,1,128.57,27.0,5.25,47.62,PBKS
@@ -668,7 +668,7 @@ position,runs,balls,fours,sixes,dots,striker,outs,SR,Bat_avg,bpb,dot_%,Curr_Tm
 9,26,42,1,2,29,MA Starc,6,61.9,4.33,14.0,69.05,MI
 10,26,39,2,0,23,CV Varun,4,66.67,6.5,19.5,58.97,PBKS
 4,25,18,3,0,3,P Simran Singh,1,138.89,25.0,6.0,16.67,SRH
-8,25,15,1,2,6,Ravi Singh,2,166.67,12.5,5.0,40.0,
+8,25,15,1,2,6,Ravi Singh,2,166.67,12.5,5.0,40.0,RR
 1,25,29,2,1,16,H Klaasen,2,86.21,12.5,9.67,55.17,
 5,24,22,0,0,4,DR Mousley,1,109.09,24.0,inf,18.18,LSG
 8,24,21,2,1,12,AR Ramjani,4,114.29,6.0,7.0,57.14,PBKS
@@ -692,7 +692,7 @@ position,runs,balls,fours,sixes,dots,striker,outs,SR,Bat_avg,bpb,dot_%,Curr_Tm
 9,21,8,2,2,3,JJ Smit,3,262.5,7.0,2.0,37.5,PBKS
 9,21,15,1,0,4,Ramandeep Singh,1,140.0,21.0,15.0,26.67,RCB
 7,21,12,1,2,5,RM Patidar,2,175.0,10.5,4.0,41.67,RCB
-3,21,14,0,2,6,PHKD Mendis,1,150.0,21.0,7.0,42.86,PBKS
+3,21,14,0,2,6,PHKD Mendis,1,150.0,21.0,7.0,42.86,
 7,20,19,1,0,5,SS Iyer,1,105.26,20.0,19.0,26.32,KKR
 4,20,18,2,1,10,YBK Jaiswal,2,111.11,10.0,6.0,55.56,RR
 7,20,28,1,0,11,Salman Nizar,3,71.43,6.67,28.0,39.29,
@@ -774,7 +774,7 @@ position,runs,balls,fours,sixes,dots,striker,outs,SR,Bat_avg,bpb,dot_%,Curr_Tm
 5,11,15,0,0,5,LS Livingstone,2,73.33,5.5,inf,33.33,PBKS
 10,11,4,1,1,1,D Wiese,1,275.0,11.0,2.0,25.0,KKR
 3,11,13,2,0,8,RK Singh,1,84.62,11.0,6.5,61.54,PBKS
-8,11,4,0,1,0,PHKD Mendis,0,275.0,,4.0,0.0,PBKS
+8,11,4,0,1,0,PHKD Mendis,0,275.0,,4.0,0.0,
 3,10,10,1,0,3,Ishaan Gadekar,2,100.0,5.0,10.0,30.0,
 5,10,10,1,0,4,AD Russell,2,100.0,5.0,10.0,40.0,DC
 11,10,9,1,0,2,TA Boult,0,111.11,,9.0,22.22,
@@ -804,7 +804,7 @@ position,runs,balls,fours,sixes,dots,striker,outs,SR,Bat_avg,bpb,dot_%,Curr_Tm
 2,8,7,1,0,2,LG Pretorius,1,114.29,8.0,7.0,28.57,
 9,8,26,0,1,23,B Kumar,1,30.77,8.0,26.0,88.46,KKR
 9,8,11,0,0,5,CV Varun,1,72.73,8.0,inf,45.45,PBKS
-6,8,9,1,0,5,Kumar Kushagra,2,88.89,4.0,9.0,55.56,RR
+6,8,9,1,0,5,Kumar Kushagra,2,88.89,4.0,9.0,55.56,
 7,8,8,1,0,3,D Brevis,2,100.0,4.0,8.0,37.5,GT
 8,8,5,0,1,2,Atharva Taide,0,160.0,,5.0,40.0,RCB
 7,8,8,0,0,3,S Dube,2,100.0,4.0,inf,37.5,RR
@@ -865,7 +865,7 @@ position,runs,balls,fours,sixes,dots,striker,outs,SR,Bat_avg,bpb,dot_%,Curr_Tm
 8,2,3,0,0,1,RK Bhui,1,66.67,2.0,inf,33.33,
 4,2,3,0,0,1,Shadab Khan,1,66.67,2.0,inf,33.33,
 6,2,10,0,0,8,Bhanu Pania,1,20.0,2.0,inf,80.0,
-9,1,4,0,0,3,R Shepherd,1,25.0,1.0,inf,75.0,SRH
+9,1,4,0,0,3,R Shepherd,1,25.0,1.0,inf,75.0,
 5,1,2,0,0,1,F du Plessis,1,50.0,1.0,inf,50.0,
 10,1,5,0,0,4,KH Pandya,1,20.0,1.0,inf,80.0,SRH
 7,1,2,0,0,1,SA Yadav,1,50.0,1.0,inf,50.0,DC
@@ -893,8 +893,8 @@ position,runs,balls,fours,sixes,dots,striker,outs,SR,Bat_avg,bpb,dot_%,Curr_Tm
 1,0,1,0,0,1,D Padikkal,1,0.0,0.0,inf,100.0,RR
 7,0,2,0,0,2,JN Loftie-Eaton,1,0.0,0.0,inf,100.0,
 11,0,3,0,0,3,Kuldeep Yadav,1,0.0,0.0,inf,100.0,LSG
-1,0,2,0,0,2,Kumar Kushagra,1,0.0,0.0,inf,100.0,RR
-3,0,1,0,0,1,Kumar Kushagra,1,0.0,0.0,inf,100.0,RR
+1,0,2,0,0,2,Kumar Kushagra,1,0.0,0.0,inf,100.0,
+3,0,1,0,0,1,Kumar Kushagra,1,0.0,0.0,inf,100.0,
 9,0,1,0,0,1,DAJ Bracewell,1,0.0,0.0,inf,100.0,
 4,0,1,0,0,1,TP Ura,1,0.0,0.0,inf,100.0,PBKS
 8,0,2,0,0,2,Hassan Nawaz,1,0.0,0.0,inf,100.0,
