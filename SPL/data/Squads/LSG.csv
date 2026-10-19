@@ -1,9 +1,9 @@
 Name,Country,Specialism,Price,Func_Name,Spin/Pace,C/VC,C/U/A,CORNERSTONE,injury
-Virat Kohli,India,BATTER,16.0,V Kohli,Pace,,C,,
+Virat Kohli,India,BATTER,16.0,V Kohli,Pace,VC,C,,
 Andries Gous,USA,WICKETKEEPER,0.5,AGS Gous,0,,A,,
 Ajay Rohera,India,WICKETKEEPER,1.5,Ajay Rohera,0,,U,,
 Tejasvi Dahiya,India,WICKETKEEPER,2.25,T Dahiya,0,,U,,
-Sameer Rizvi,India,BATTER,13.0,Sameer Rizvi,Spin,VC,U,1.0,
+Sameer Rizvi,India,BATTER,13.0,Sameer Rizvi,Spin,,U,1.0,
 Daniel Mousley,England,ALL-ROUNDER,0.5,DR Mousley,Spin,,C,,
 Hardik Pandya,India,ALL-ROUNDER,14.25,HH Pandya,Pace,C,C,,
 Ashwin Das,India,BOWLER,6.0,Ashwin Das,Pace,,U,,
