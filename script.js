@@ -1827,7 +1827,7 @@ document.addEventListener("DOMContentLoaded", () => {
     '250726_m54.txt','250726_m55.txt','250726_injury.txt','260726_m60.txt','260726_m58.txt','260726_m59.txt','260726_m57.txt','260726_m56.txt','300726_injury.txt','300726_m61.txt','300726_m62.txt','300726_m63.txt','300726_m65.txt','310726_m64.txt',
     '020826_m70.txt','020826_m66.txt','020826_m67.txt','020826_m68.txt','020826_m69.txt','020826_injury.txt','050826_E.txt','050826_Q1.txt','080826_Q2.txt','090826_F.txt',
     '190926_s09_md01.txt','200926_s09_md02.txt','200926_injury.txt','260926_s09_md03.txt','270926_s09_md04.txt','031026_s09_md05.txt','041026_s09_md06.txt','101026_s09_md07.txt','111026_s09_md08.txt','171026_injury.txt','171026_s09_md09.txt','181026_s09_md10.txt',
-    '211026_s09_md11.txt'
+    '211026_s09_md11.txt','241026_s09_md12.txt','241026_injury.txt'
 
     ]
     ;
