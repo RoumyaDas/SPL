@@ -890,7 +890,7 @@ Rishabh Chouhan,1,spin,12,6,1,2,12.0,6.0,GT
 I Sharma,1,neutralish,52,24,1,2,13.0,24.0,
 Samant Jakhar,2,neutralish,39,18,1,7,13.0,18.0,
 Ramandeep Singh,2,neutralish,20,12,1,3,10.0,12.0,RCB
-Aqib Ilyas,1,spin,40,24,1,4,10.0,24.0,MI
+Aqib Ilyas,1,spin,40,24,1,4,10.0,24.0,
 Yash Singh,1,spin,57,24,1,5,14.25,24.0,RCB
 Gurnoor Brar,1,neutralish,47,24,1,6,11.75,24.0,DC
 Sandeep Sharma,1,spin,84,48,1,13,10.5,48.0,
@@ -1018,12 +1018,12 @@ R Powell,1,pace,61,36,1,6,10.17,36.0,
 Suryansh Shedge,1,neutralish,123,78,1,18,9.46,78.0,KKR
 DA Payne,2,neutralish,26,24,1,11,6.5,24.0,
 Prithviraj Shekhawat,1,spin,29,24,1,5,7.25,24.0,
-AM Hardie,2,pace,59,42,1,15,8.43,42.0,CSK
+AM Hardie,2,pace,59,42,1,15,8.43,42.0,
 D Wiese,2,neutralish,134,84,1,16,9.57,84.0,KKR
 R Ngarava,1,neutralish,32,24,1,11,8.0,24.0,PBKS
 Ashwin Das,1,spin,32,24,1,5,8.0,24.0,LSG
 JD Unadkat,2,spin,30,24,1,6,7.5,24.0,
-AM Hardie,1,spin,54,30,1,9,10.8,30.0,CSK
+AM Hardie,1,spin,54,30,1,9,10.8,30.0,
 JN Loftie-Eaton,2,neutralish,89,48,1,11,11.12,48.0,
 Athisayaraj Davidson,1,pace,45,24,1,7,11.25,24.0,CSK
 Parth Chandan,2,pace,45,24,1,5,11.25,24.0,DC
@@ -1057,7 +1057,7 @@ Sunny Sandhu,1,neutralish,34,24,0,12,8.5,inf,DC
 AS Roy,2,pace,92,54,0,11,10.22,inf,
 YK Pathan,2,neutralish,50,36,0,2,8.33,inf,
 Vraj Patel,1,spin,39,24,0,7,9.75,inf,
-AM Hardie,1,pace,46,24,0,5,11.5,inf,CSK
+AM Hardie,1,pace,46,24,0,5,11.5,inf,
 T Stubbs,2,spin,21,12,0,4,10.5,inf,CSK
 AM Rahane,1,pace,14,6,0,1,14.0,inf,
 Sunny Sandhu,2,spin,20,12,0,3,10.0,inf,DC
@@ -1099,7 +1099,7 @@ Vidyadhar Patil,2,pace,41,18,0,3,13.67,inf,SRH
 Suyash Sharma,1,neutralish,37,24,0,6,9.25,inf,
 WL Madsen,2,neutralish,10,6,0,2,10.0,inf,MI
 A Mishra,1,neutralish,35,24,0,5,8.75,inf,
-AM Hardie,1,neutralish,43,24,0,6,10.75,inf,CSK
+AM Hardie,1,neutralish,43,24,0,6,10.75,inf,
 Ehsan Khan,2,pace,40,24,0,3,10.0,inf,CSK
 Shakib Al Hasan,2,pace,14,6,0,2,14.0,inf,
 Cheepurapalli Stephen,2,spin,38,18,0,0,12.67,inf,RR
@@ -1220,7 +1220,7 @@ Bilal Zalmai,1,pace,68,24,0,1,17.0,inf,
 RA Bawa,2,spin,40,30,0,6,8.0,inf,SRH
 RA Bawa,2,neutralish,8,6,0,1,8.0,inf,SRH
 R Tewatia,2,neutralish,8,6,0,0,8.0,inf,
-R Ravindra,1,spin,40,18,0,2,13.33,inf,
+R Ravindra,1,spin,40,18,0,2,13.33,inf,CSK
 R Powell,2,pace,43,30,0,3,8.6,inf,
 R Powell,2,neutralish,21,12,0,2,10.5,inf,
 R Powell,1,spin,7,6,0,2,7.0,inf,

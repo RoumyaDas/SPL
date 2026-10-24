@@ -1383,7 +1383,7 @@ Atharva Ankolekar,CSK,38,1,5,9.5,24.0,4.0,RR
 Arshdeep Singh,RCB,144,1,26,10.16,85.0,14.1,LSG
 Khrievitso Kense,GT,37,1,9,9.25,24.0,4.0,
 Khrievitso Kense,LSG,107,1,15,9.73,66.0,11.0,
-Aqib Ilyas,MI,40,1,4,10.0,24.0,4.0,MI
+Aqib Ilyas,MI,40,1,4,10.0,24.0,4.0,
 Anas Khan,SRH,39,1,3,9.75,24.0,4.0,LSG
 Akshya Deka,GT,38,1,6,9.5,24.0,4.0,MI
 Khushdil Shah,CSK,40,1,7,10.0,24.0,4.0,
@@ -1599,13 +1599,13 @@ MM Ali,LSG,36,1,8,9.0,24.0,4.0,
 MM Ali,PBKS,26,1,7,6.5,24.0,4.0,
 Mohammad Ghazanfar,KKR,41,1,5,10.25,24.0,4.0,RR
 Mohammad Ghazanfar,GT,212,1,26,11.36,112.0,18.4,RR
-AM Hardie,SRH,53,1,3,13.25,24.0,4.0,CSK
+AM Hardie,SRH,53,1,3,13.25,24.0,4.0,
 MM Sharma,DC,70,1,7,11.67,36.0,6.0,
 Mohammad Amir,DC,65,1,7,16.25,24.0,4.0,LSG
 MM Sharma,RCB,60,1,5,15.0,24.0,4.0,
 MP Stoinis,CSK,128,1,11,11.46,67.0,11.1,
 AD Russell,LSG,111,1,14,11.29,59.0,9.5,DC
-AM Hardie,KKR,30,1,10,7.5,24.0,4.0,CSK
+AM Hardie,KKR,30,1,10,7.5,24.0,4.0,
 Mujeeb Ur Rahman,LSG,34,1,6,8.5,24.0,4.0,
 AJ Hosein,PBKS,21,1,14,5.25,24.0,4.0,
 A Nagwaswalla,GT,46,1,6,11.5,24.0,4.0,RR
@@ -1795,16 +1795,16 @@ YK Pathan,GT,34,0,0,8.5,inf,4.0,
 BJ McMullen,DC,188,0,26,10.44,inf,18.0,RCB
 YK Pathan,LSG,5,0,1,5.0,inf,1.0,
 YK Pathan,MI,41,0,5,10.25,inf,4.0,
-AM Hardie,RCB,46,0,5,11.5,inf,4.0,CSK
+AM Hardie,RCB,46,0,5,11.5,inf,4.0,
 BJ McMullen,LSG,21,0,1,10.5,inf,2.0,RCB
 V Puthur,KKR,25,0,8,6.25,inf,4.0,RCB
 BJ McMullen,RCB,55,0,9,9.17,inf,6.0,RCB
 BJ McMullen,SRH,43,0,6,8.6,inf,5.0,RCB
 Atharva Taide,CSK_2,34,0,2,8.5,inf,4.0,RCB
-AM Hardie,PBKS,1,0,6,1.0,inf,1.0,CSK
+AM Hardie,PBKS,1,0,6,1.0,inf,1.0,
 Bal Krishna,PBKS,37,0,5,9.25,inf,4.0,
 Bal Krishna,SRH,39,0,0,13.0,inf,3.0,
-AM Hardie,CSK,72,0,11,10.29,inf,7.0,CSK
+AM Hardie,CSK,72,0,11,10.29,inf,7.0,
 Baltej Singh,PBKS,41,0,5,10.25,inf,4.0,
 AJ Tye,SRH,31,0,1,15.5,inf,2.0,
 YS Chahal,KKR_2,20,0,5,6.67,inf,3.0,KKR
@@ -1863,7 +1863,7 @@ R Tewatia,MI,35,0,4,8.75,inf,4.0,
 Lalit Yadav,SRH,23,0,4,7.67,inf,3.0,
 RA Bawa,CSK,22,0,3,11.0,inf,2.0,SRH
 M Theekshana,CSK,48,0,6,9.6,inf,5.0,
-R Ravindra,PBKS,40,0,2,13.33,inf,3.0,
+R Ravindra,PBKS,40,0,2,13.33,inf,3.0,CSK
 R Powell,MI,28,0,4,9.33,inf,3.0,
 R Powell,LSG,91,0,6,10.11,inf,9.0,
 MJ Owen,SRH,49,0,9,9.8,inf,5.0,MI

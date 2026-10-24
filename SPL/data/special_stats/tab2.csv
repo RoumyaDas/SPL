@@ -1119,7 +1119,7 @@ Akshya Deka,Middle,pace,37,24,1,8,9.25,24.0,MI
 Cheepurapalli Stephen,Death,pace,93,36,1,5,15.5,36.0,RR
 HR Shokeen,PP,spin,61,36,1,6,10.17,36.0,
 Anas Khan,Middle,spin,28,18,1,2,9.33,18.0,LSG
-Aqib Ilyas,Death,spin,8,6,1,2,8.0,6.0,MI
+Aqib Ilyas,Death,spin,8,6,1,2,8.0,6.0,
 Khrievitso Kense,Middle,pace,58,36,1,5,9.67,36.0,
 Arshad Khan,Death,neutralish,16,12,1,4,8.0,12.0,CSK
 Kartik Tyagi,Death,pace,16,12,1,4,8.0,12.0,
@@ -1245,8 +1245,8 @@ A Mishra,Middle,spin,113,60,1,12,11.3,60.0,
 DJ Willey,Middle,spin,17,12,1,5,8.5,12.0,
 DA Payne,Middle,neutralish,9,6,1,2,9.0,6.0,
 DJ Willey,PP,pace,45,24,1,10,11.25,24.0,
-AM Hardie,Middle,spin,42,18,1,2,14.0,18.0,CSK
-AM Hardie,PP,pace,19,12,1,6,9.5,12.0,CSK
+AM Hardie,Middle,spin,42,18,1,2,14.0,18.0,
+AM Hardie,PP,pace,19,12,1,6,9.5,12.0,
 DW Lawrence,Middle,pace,9,6,1,1,9.0,6.0,
 DW Lawrence,PP,neutralish,36,18,1,5,12.0,18.0,
 AR Patel,PP,neutralish,131,66,1,24,11.91,66.0,PBKS
@@ -1423,9 +1423,9 @@ Waqar Salamkheil,Death,spin,31,12,0,1,15.5,inf,
 Waqar Salamkheil,PP,spin,19,12,0,4,9.5,inf,
 Washington Sundar,Death,pace,53,42,0,6,7.57,inf,RCB
 AM Rahane,PP,pace,14,6,0,1,14.0,inf,
-AM Hardie,PP,spin,12,12,0,7,6.0,inf,CSK
-AM Hardie,Middle,pace,86,54,0,14,9.56,inf,CSK
-AM Hardie,Middle,neutralish,43,24,0,6,10.75,inf,CSK
+AM Hardie,PP,spin,12,12,0,7,6.0,inf,
+AM Hardie,Middle,pace,86,54,0,14,9.56,inf,
+AM Hardie,Middle,neutralish,43,24,0,6,10.75,inf,
 Vraj Patel,Middle,spin,38,24,0,3,9.5,inf,
 Abhishek Prabhakar,Death,pace,7,2,0,0,21.0,inf,
 BJ McMullen,Middle,spin,8,6,0,0,8.0,inf,RCB
@@ -1551,7 +1551,7 @@ Akash Madhwal,PP,spin,22,12,0,2,11.0,inf,
 Akash Madhwal,PP,pace,29,18,0,9,9.67,inf,
 Akash Madhwal,Death,spin,18,4,0,1,27.0,inf,
 Anas Khan,PP,spin,11,6,0,1,11.0,inf,LSG
-Aqib Ilyas,Middle,spin,32,18,0,2,10.67,inf,MI
+Aqib Ilyas,Middle,spin,32,18,0,2,10.67,inf,
 Ashik Muhammad,Middle,pace,48,18,0,0,16.0,inf,CSK
 Ashutosh Sharma,Death,neutralish,19,6,0,1,19.0,inf,GT
 TU Deshpande,PP,spin,6,6,0,3,6.0,inf,
@@ -1851,8 +1851,8 @@ JR Hazlewood,Death,spin,89,42,0,8,12.71,inf,MI
 R Powell,Middle,neutralish,27,18,0,3,9.0,inf,
 K Rabada,Middle,neutralish,13,6,0,0,13.0,inf,
 K Rabada,Death,spin,13,6,0,1,13.0,inf,
-R Ravindra,Death,spin,30,12,0,1,15.0,inf,
-R Ravindra,Middle,spin,10,6,0,1,10.0,inf,
+R Ravindra,Death,spin,30,12,0,1,15.0,inf,CSK
+R Ravindra,Middle,spin,10,6,0,1,10.0,inf,CSK
 K Kartikeya,Death,spin,57,23,0,4,14.87,inf,MI
 K Gowtham,Middle,pace,25,18,0,4,8.33,inf,
 Junaid Siddique,Middle,pace,7,6,0,3,7.0,inf,RR

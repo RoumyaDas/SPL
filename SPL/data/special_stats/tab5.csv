@@ -528,7 +528,7 @@ NA Rathva,top,22,21,2,6.29,10.5,
 Easwaran K,middle,79,44,2,10.77,22.0,DC
 Mukesh Kumar,middle,195,107,2,10.93,53.5,
 Mujeeb Ur Rahman,middle,68,46,2,8.87,23.0,
-AM Hardie,top,126,82,2,9.22,41.0,CSK
+AM Hardie,top,126,82,2,9.22,41.0,
 Ehsan Khan,tail,35,31,2,6.77,15.5,CSK
 Yudhvir Singh,middle,142,85,2,10.02,42.5,RR
 Yuvraj Singh,middle,199,105,2,11.37,52.5,
@@ -611,7 +611,7 @@ A Badoni,top,28,16,1,10.5,16.0,SRH
 S Gill,middle,44,34,1,7.76,34.0,RCB
 Akash Deep,middle,133,73,1,10.93,73.0,
 Akhil Scaria,middle,23,10,1,13.8,10.0,GT
-Aqib Ilyas,top,23,12,1,11.5,12.0,MI
+Aqib Ilyas,top,23,12,1,11.5,12.0,
 T Stubbs,top,31,18,1,10.33,18.0,CSK
 AJ Tye,tail,11,10,1,6.6,10.0,
 Anas Khan,top,34,21,1,9.71,21.0,LSG
@@ -739,7 +739,7 @@ Suyash Sharma,tail,7,7,0,6.0,inf,
 AM Rahane,top,14,6,0,14.0,inf,
 JE Root,top,67,28,0,14.36,inf,SRH
 K Kartikeya,tail,12,7,0,10.29,inf,MI
-AM Hardie,middle,76,38,0,12.0,inf,CSK
+AM Hardie,middle,76,38,0,12.0,inf,
 T Stubbs,middle,52,18,0,17.33,inf,CSK
 K Gowtham,middle,65,48,0,8.12,inf,
 Jay Gohil,top,22,12,0,11.0,inf,MI
@@ -821,8 +821,8 @@ Ashik Muhammad,top,38,15,0,15.2,inf,CSK
 Ashik Muhammad,middle,23,9,0,15.33,inf,CSK
 N Sindhu,middle,29,14,0,12.43,inf,DC
 N Rana,top,76,45,0,10.13,inf,GT
-Aqib Ilyas,tail,1,1,0,6.0,inf,MI
-Aqib Ilyas,middle,16,11,0,8.73,inf,MI
+Aqib Ilyas,tail,1,1,0,6.0,inf,
+Aqib Ilyas,middle,16,11,0,8.73,inf,
 N Rana,tail,3,4,0,4.5,inf,GT
 Anas Khan,middle,5,3,0,10.0,inf,LSG
 N Burger,middle,10,11,0,5.45,inf,
@@ -852,7 +852,7 @@ Athisayaraj Davidson,middle,15,8,0,11.25,inf,CSK
 R Parag,tail,36,28,0,7.71,inf,GT
 R Powell,middle,65,50,0,7.8,inf,
 Parth Chandan,tail,1,1,0,6.0,inf,DC
-R Ravindra,top,40,18,0,13.33,inf,
+R Ravindra,top,40,18,0,13.33,inf,CSK
 Ashwin Shelke,tail,1,4,0,1.5,inf,DC
 Pankaj Jaswal,top,14,6,0,14.0,inf,
 Pankaj Jaswal,middle,22,12,0,11.0,inf,
