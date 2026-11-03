@@ -1,8 +1,9 @@
 bowler,num_innings,runs,balls,wkts,bowl_sr,bowl_eco,form_class,Curr_Tm
-NT Ellis,10,374,237,25,9.48,9.47,Elite,SRH
+NT Ellis,10,377,237,25,9.48,9.54,Striker,SRH
+Satyajeet Bachhav,10,338,227,24,9.46,8.93,Elite,MI
 Mohammad Amir,10,352,234,23,10.17,9.03,Elite,LSG
 GF Linde,10,362,209,23,9.09,10.39,Striker,GT
-Shivam Shukla,10,364,234,19,12.32,9.33,Elite,MI
+Shivam Shukla,10,333,234,19,12.32,8.54,Elite,MI
 Sufiyan Muqeem,10,327,209,19,11.0,9.39,Elite,GT
 SS Ghosh,10,399,217,19,11.42,11.03,Striker,RCB
 Karan Lal,10,335,221,18,12.28,9.1,Elite,RR
@@ -12,7 +13,7 @@ H Ssenyondo,10,308,225,17,13.24,8.21,Elite,LSG
 JJ Bumrah,10,333,213,17,12.53,9.38,Elite,DC
 JC Archer,10,317,198,17,11.65,9.61,Striker,DC
 Harsh Dubey,10,352,204,17,12.0,10.35,Striker,DC
-A Zampa,10,300,240,16,15.0,7.5,Elite,SRH
+A Zampa,10,325,240,16,15.0,8.12,Elite,SRH
 Shahbaz Ahmed,10,364,222,16,13.88,9.84,Striker,KKR
 Arshad Khan,10,373,216,16,13.5,10.36,Striker,CSK
 Shashank Singh,10,387,222,15,14.8,10.46,Striker,PBKS
@@ -27,7 +28,7 @@ B Kumar,10,350,227,13,17.46,9.25,Choker,KKR
 M Pathirana,10,405,199,13,15.31,12.21,Poor,CSK
 Pulkit Narang,10,311,197,12,16.42,9.47,Choker,KKR
 Gurnoor Brar,10,384,204,12,17.0,11.29,Balanced,DC
-SP Narine,10,355,186,12,15.5,11.45,Striker,SRH
+SP Narine,10,348,180,12,15.0,11.6,Striker,SRH
 Kuldeep Yadav,10,324,238,11,21.64,8.17,Choker,LSG
 Suryansh Shedge,10,320,234,11,21.27,8.21,Choker,KKR
 JR Hazlewood,10,331,240,11,21.82,8.28,Choker,MI
@@ -66,6 +67,6 @@ Tanush Kotian,10,328,204,4,51.0,9.65,Poor,CSK
 Shubhang Hegde,10,312,180,4,45.0,10.4,Poor,LSG
 PWH de Silva,10,375,213,4,53.25,10.56,Poor,RCB
 PHKD Mendis,10,182,108,3,36.0,10.11,Poor,
-KH Pandya,10,302,156,3,52.0,11.62,Poor,SRH
+KH Pandya,10,290,144,3,48.0,12.08,Poor,SRH
 AD Russell,10,398,182,3,60.67,13.12,Poor,DC
 GJ Maxwell,10,255,115,2,57.5,13.3,Poor,DC
