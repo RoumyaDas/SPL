@@ -2,9 +2,9 @@ bowler,num_innings,runs,balls,wkts,bowl_sr,bowl_eco,form_class,Curr_Tm
 NT Ellis,10,377,237,25,9.48,9.54,Striker,SRH
 Satyajeet Bachhav,10,338,227,24,9.46,8.93,Elite,MI
 Mohammad Amir,10,352,234,23,10.17,9.03,Elite,LSG
-GF Linde,10,362,209,23,9.09,10.39,Striker,GT
+GF Linde,10,379,217,22,9.86,10.48,Striker,GT
 Shivam Shukla,10,333,234,19,12.32,8.54,Elite,MI
-Sufiyan Muqeem,10,327,209,19,11.0,9.39,Elite,GT
+Sufiyan Muqeem,10,316,209,19,11.0,9.07,Elite,GT
 SS Ghosh,10,399,217,19,11.42,11.03,Striker,RCB
 Karan Lal,10,335,221,18,12.28,9.1,Elite,RR
 Arshdeep Singh,10,388,219,18,12.17,10.63,Striker,LSG
@@ -16,7 +16,7 @@ Harsh Dubey,10,352,204,17,12.0,10.35,Striker,DC
 A Zampa,10,325,240,16,15.0,8.12,Elite,SRH
 Shahbaz Ahmed,10,364,222,16,13.88,9.84,Striker,KKR
 Arshad Khan,10,373,216,16,13.5,10.36,Striker,CSK
-Shashank Singh,10,387,222,15,14.8,10.46,Striker,PBKS
+Shashank Singh,10,385,222,15,14.8,10.41,Striker,PBKS
 Atharva Ankolekar,10,399,224,15,14.93,10.69,Striker,RR
 Geet Puri,10,406,215,15,14.33,11.33,Striker,CSK
 Shaheen Shah Afridi,10,392,192,15,12.8,12.25,Poor,DC
@@ -37,14 +37,14 @@ Fazalhaq Farooqi,10,369,228,11,20.73,9.71,Balanced,GT
 Sayed Irfan Aftab,10,371,228,11,20.73,9.76,Balanced,PBKS
 RE van der Merwe,10,407,228,11,20.73,10.71,Balanced,CSK
 KA Maharaj,10,324,228,10,22.8,8.53,Choker,RCB
-JJ Smit,10,318,219,10,21.9,8.71,Choker,PBKS
-CV Varun,10,346,228,10,22.8,9.11,Choker,PBKS
 V Puthur,10,351,219,10,21.9,9.62,Balanced,RCB
 Ehsan Khan,10,391,230,10,23.0,10.2,Balanced,CSK
 JA Duffy,10,364,212,10,21.2,10.3,Balanced,LSG
 M Siddharth,10,426,240,10,24.0,10.65,Balanced,GT
 Sonu Yadav,10,363,196,10,19.6,11.11,Balanced,CSK
 Utkarsh Singh,10,254,216,9,24.0,7.06,Choker,RR
+JJ Smit,10,332,219,9,24.33,9.1,Choker,PBKS
+CV Varun,10,351,228,9,25.33,9.24,Choker,PBKS
 C Sakariya,10,382,240,9,26.67,9.55,Balanced,RR
 Tanay Thyagarajan,10,406,240,9,26.67,10.15,Balanced,CSK
 Rasikh Salam,10,373,206,9,22.89,10.86,Balanced,SRH
