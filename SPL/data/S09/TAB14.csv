@@ -1,29 +1,31 @@
 striker,batting_team,num_innings,50+_scores,runs,strike_rate,100+_scores
+FH Allen,SRH,14,7,648,167.01,0
 JP Inglis,GT,15,6,679,176.36,1
 SA Yadav,DC,14,6,605,178.47,1
-FH Allen,SRH,13,6,571,167.45,0
 Urvil Patel,MI,14,5,626,209.36,0
 Tilak Varma,CSK,14,5,624,174.79,1
-V Suryavanshi,PBKS,15,5,512,216.03,0
+V Suryavanshi,PBKS,16,5,530,213.71,0
 S Dube,RR,12,5,481,168.77,0
-VR Iyer,SRH,13,5,435,215.35,0
+VR Iyer,SRH,14,5,446,214.42,0
 GJ Maxwell,DC,14,4,582,190.2,1
 Sameer Rizvi,LSG,12,4,525,203.49,1
-KL Rahul,SRH,14,4,509,158.07,0
+KL Rahul,SRH,15,4,510,157.41,0
+P Simran Singh,SRH,12,4,482,167.94,1
 Abhishek Sharma,MI,14,4,444,174.8,0
 Naman Dhir,GT,14,4,404,168.33,0
 N Sindhu,DC,14,4,395,177.93,0
 KK Nair,CSK,14,3,571,173.56,0
-PD Salt,PBKS,15,3,539,158.53,1
-Vansh Bedi,PBKS,15,3,467,181.71,0
+PD Salt,PBKS,16,3,560,157.3,1
+Vansh Bedi,PBKS,16,3,472,181.54,0
 D Brevis,GT,12,3,457,151.83,0
 Aniket Verma,RR,14,3,426,195.41,1
 Ajay Rohera,LSG,14,3,425,180.08,0
 RD Gaikwad,CSK,12,3,425,162.21,1
 Abhishek Pathak,RCB,11,3,422,175.83,1
 TM Head,KKR,12,3,421,140.33,0
+Shashank Singh,PBKS,16,3,420,154.41,0
+RK Singh,PBKS,12,3,417,190.41,0
 MJ Owen,MI,11,3,400,160.0,1
-P Simran Singh,SRH,11,3,377,165.35,0
 Ishan Kishan,KKR,10,3,350,167.46,0
 KA Pollard,RR,9,3,311,142.66,0
 Akshat Raghuwanshi,MI,7,3,285,177.02,1
@@ -32,8 +34,6 @@ Atharva Taide,RCB,6,3,246,165.1,0
 Tarang Gohel,DC,13,2,413,193.9,0
 WL Madsen,MI,10,2,410,162.7,1
 WG Jacks,RR,12,2,375,159.57,0
-Shashank Singh,PBKS,15,2,367,151.65,0
-RK Singh,PBKS,11,2,352,188.24,0
 T Stubbs,CSK,12,2,317,165.97,0
 Priyansh Arya,RCB,11,2,313,184.12,0
 PWH de Silva,RCB,12,2,276,207.52,0
@@ -43,7 +43,7 @@ Shubman Gill,LSG,12,2,248,166.44,0
 SV Samson,GT,14,1,386,141.91,0
 V Kohli,LSG,11,1,309,159.28,1
 YBK Jaiswal,RR,13,1,276,220.8,0
-Kartik Sharma,SRH,14,1,261,152.63,0
+Kartik Sharma,SRH,15,1,267,152.57,0
 V Nigam,GT,8,1,206,212.37,0
 Tanush Kotian,CSK,10,1,198,170.69,0
 Harnoor Singh,RCB,7,1,188,160.68,0
@@ -53,10 +53,10 @@ R Smaran,RR,6,1,153,129.66,0
 BJ McMullen,RCB,5,1,139,146.32,0
 YS Samra,KKR,5,1,137,129.25,0
 D Wiese,KKR,6,1,136,174.36,0
+TL Seifert,PBKS,7,1,132,138.95,0
 Abdul Samad,KKR,6,1,127,139.56,0
 B Aparajith,GT,3,1,112,160.0,0
 LR Chethan,LSG,3,1,106,141.33,0
 T Dahiya,LSG,6,1,104,122.35,0
-TL Seifert,PBKS,6,1,97,140.58,0
 PI Walter,CSK,2,1,94,144.62,0
 SU Parakh,SRH,2,1,83,129.69,0

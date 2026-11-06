@@ -1,34 +1,33 @@
 striker,num_innings,runs,balls,outs,bat_avg,bat_sr,form_class,Curr_Tm
 JP Inglis,10,574,318,7,82.0,180.5,Elite,GT
+FH Allen,10,514,303,9,57.11,169.64,Elite,SRH
 SA Yadav,10,500,265,6,83.33,188.68,Elite,DC
 Urvil Patel,10,463,219,9,51.44,211.42,Elite,MI
 Tilak Varma,10,456,256,8,57.0,178.12,Elite,CSK
-FH Allen,10,447,263,9,49.67,169.96,Elite,SRH
+P Simran Singh,10,456,266,7,65.14,171.43,Elite,SRH
 Sameer Rizvi,10,435,217,4,108.75,200.46,Elite,LSG
-KL Rahul,10,431,267,9,47.89,161.42,Long_Hauler,SRH
+KL Rahul,10,425,264,9,47.22,160.98,Long_Hauler,SRH
+V Suryavanshi,10,420,193,10,42.0,217.62,Elite,PBKS
 KK Nair,10,414,234,7,59.14,176.92,Elite,CSK
 WL Madsen,10,410,252,8,51.25,162.7,Long_Hauler,MI
 GJ Maxwell,10,409,221,8,51.12,185.07,Elite,DC
 Atharva Taide,10,407,254,10,40.7,160.24,Long_Hauler,RCB
-V Suryavanshi,10,406,184,10,40.6,220.65,Elite,PBKS
 Abhishek Pathak,10,390,213,6,65.0,183.1,Elite,RCB
 Tarang Gohel,10,386,198,8,48.25,194.95,Elite,DC
 Tushar Raheja,10,382,184,8,47.75,207.61,Elite,KKR
 TM Head,10,380,265,9,42.22,143.4,Long_Hauler,KKR
-VR Iyer,10,379,178,4,94.75,212.92,Elite,SRH
 KA Pollard,10,378,256,9,42.0,147.66,Long_Hauler,RR
-P Simran Singh,10,355,211,8,44.38,168.25,Elite,SRH
+VR Iyer,10,372,172,4,93.0,216.28,Elite,SRH
+RK Singh,10,352,188,6,58.67,187.23,Elite,PBKS
 Ishan Kishan,10,350,209,9,38.89,167.46,Elite,KKR
 S Dube,10,347,212,8,43.38,163.68,Long_Hauler,RR
 RD Gaikwad,10,341,198,9,37.89,172.22,Elite,CSK
 D Brevis,10,339,213,6,56.5,159.15,Long_Hauler,GT
-RK Singh,10,332,175,5,66.4,189.71,Elite,PBKS
 SU Parakh,10,326,235,10,32.6,138.72,Poor,SRH
 Ajay Rohera,10,317,183,10,31.7,173.22,Hitter,LSG
-Vansh Bedi,10,309,174,9,34.33,177.59,Hitter,PBKS
 Abhishek Sharma,10,305,160,7,43.57,190.62,Elite,MI
-PD Salt,10,303,198,8,37.88,153.03,Long_Hauler,PBKS
 MJ Owen,10,295,185,9,32.78,159.46,Balanced,MI
+PD Salt,10,295,194,8,36.88,152.06,Long_Hauler,PBKS
 Aniket Verma,10,281,146,10,28.1,192.47,Hitter,RR
 Priyansh Arya,10,279,153,9,31.0,182.35,Hitter,RCB
 T Stubbs,10,275,165,5,55.0,166.67,Elite,CSK
@@ -39,23 +38,23 @@ CH Gayle,10,268,179,9,29.78,149.72,Balanced,RCB
 V Kohli,10,261,147,9,29.0,177.55,Hitter,LSG
 Rohan Kunnummal,10,255,155,9,28.33,164.52,Balanced,MI
 V Nigam,10,254,125,6,42.33,203.2,Elite,GT
+Shashank Singh,10,254,169,6,42.33,150.3,Long_Hauler,PBKS
 C Green,10,251,165,9,27.89,152.12,Balanced,KKR
 PWH de Silva,10,250,117,8,31.25,213.68,Hitter,RCB
 JC Buttler,10,248,142,7,35.43,174.65,Elite,DC
 Naman Dhir,10,248,150,8,31.0,165.33,Hitter,GT
 Abishek Porel,10,243,174,9,27.0,139.66,Poor,LSG
-Shashank Singh,10,219,153,6,36.5,143.14,Long_Hauler,PBKS
+TL Seifert,10,236,170,10,23.6,138.82,Poor,PBKS
+Vansh Bedi,10,233,132,9,25.89,176.52,Hitter,PBKS
 MR Marsh,10,211,150,9,23.44,140.67,Poor,KKR
 SV Samson,10,209,142,9,23.22,147.18,Poor,GT
 Anmolpreet Singh,10,207,134,9,23.0,154.48,Poor,KKR
 PHKD Mendis,10,203,137,9,22.56,148.18,Poor,
-TL Seifert,10,203,147,10,20.3,138.1,Poor,PBKS
 Shubman Gill,10,202,129,10,20.2,156.59,Poor,LSG
 R Smaran,10,202,159,9,22.44,127.04,Poor,RR
 Tanush Kotian,10,198,116,10,19.8,170.69,Poor,CSK
 DP Conway,10,197,145,10,19.7,135.86,Poor,PBKS
 YBK Jaiswal,10,196,87,7,28.0,225.29,Hitter,RR
-SP Narine,10,192,109,5,38.4,176.15,Elite,SRH
 R Parag,10,192,113,5,38.4,169.91,Elite,GT
 GD Phillips,10,189,121,8,23.62,156.2,Poor,RR
 TP Ura,10,182,116,10,18.2,156.9,Poor,PBKS
@@ -63,7 +62,8 @@ HH Pandya,10,181,100,8,22.62,181.0,Short_Impact,LSG
 Ritik Vats,10,171,109,9,19.0,156.88,Poor,DC
 DR Mousley,10,166,135,9,18.44,122.96,Poor,LSG
 Sonu Yadav,10,161,108,8,20.12,149.07,Poor,CSK
-Kartik Sharma,10,155,108,10,15.5,143.52,Poor,SRH
+SP Narine,10,160,90,5,32.0,177.78,Hitter,SRH
+Kartik Sharma,10,157,107,10,15.7,146.73,Poor,SRH
 Vishnu Vinod,10,155,124,8,19.38,125.0,Poor,GT
 Abhishek Tanwar,10,154,84,7,22.0,183.33,Short_Impact,RCB
 Chirag Jani,10,146,93,7,20.86,156.99,Poor,RCB
@@ -78,7 +78,7 @@ Ashutosh Sharma,10,104,65,8,13.0,160.0,Poor,GT
 Sakibul Gani,10,96,53,8,12.0,181.13,Poor,RR
 J Overton,10,96,62,4,24.0,154.84,Poor,RR
 Arshad Khan,10,91,55,5,18.2,165.45,Poor,CSK
-JJ Smit,10,74,74,9,8.22,100.0,Poor,PBKS
 RE van der Merwe,10,64,52,7,9.14,123.08,Poor,CSK
 Shahbaz Ahmed,10,63,55,6,10.5,114.55,Poor,KKR
+JJ Smit,10,61,59,8,7.62,103.39,Poor,PBKS
 KA Maharaj,10,24,59,8,3.0,40.68,Poor,RCB
