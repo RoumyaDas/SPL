@@ -1,10 +1,10 @@
 bowler,bowling_team,num_innings,3+_wkts,balls,economy,5+_wkts
 GF Linde,GT,10,5,217,10.48,0
 NT Ellis,SRH,10,5,237,9.52,1
+Satyajeet Bachhav,MI,7,4,161,8.91,1
 JJ Bumrah,DC,10,4,213,9.38,1
 Mohammad Amir,LSG,11,4,258,9.7,1
 Shahbaz Ahmed,KKR,13,4,294,9.59,0
-Satyajeet Bachhav,MI,6,3,137,8.85,1
 H Ssenyondo,LSG,9,3,206,7.81,0
 Sufiyan Muqeem,GT,11,3,233,9.19,0
 R Ashwin,PBKS,3,2,60,7.9,0
@@ -18,10 +18,11 @@ SS Ghosh,RCB,8,2,169,11.15,1
 Harsh Dubey,DC,9,2,180,9.83,0
 RE van der Merwe,CSK,8,2,192,10.81,0
 Arshdeep Singh,LSG,9,2,195,10.77,0
-Shivam Shukla,MI,9,2,210,8.49,0
+Shivam Shukla,MI,10,2,234,8.54,0
 Geet Puri,CSK,11,2,239,11.42,1
 A Zampa,SRH,12,2,288,7.88,0
 SM Curran,RR,13,2,302,10.81,0
+JJ Smit,PBKS,14,2,315,8.76,0
 Prashant Solanki,MI,2,1,42,6.29,0
 SO Ngoche,KKR,3,1,66,11.64,0
 MR Marsh,KKR,3,1,72,11.83,0
@@ -35,18 +36,17 @@ Karan Lal,RR,6,1,126,8.9,0
 Tripuresh Singh,SRH,6,1,127,9.21,0
 Prince Yadav,GT,6,1,132,9.59,0
 M Markande,SRH,6,1,137,9.64,0
-AR Ramjani,PBKS,6,1,138,8.78,0
 HV Patel,PBKS,6,1,140,8.27,0
 C Sakariya,RR,6,1,144,9.83,0
 B Kumar,KKR,7,1,156,8.58,0
+AR Ramjani,PBKS,7,1,162,8.93,0
 Arshad Khan,CSK,8,1,168,10.29,0
 M Pathirana,CSK,9,1,175,11.9,1
 Suryansh Shedge,KKR,8,1,186,8.19,0
 Utkarsh Singh,RR,9,1,204,7.0,0
-CV Varun,PBKS,9,1,204,9.26,0
-R Ngarava,PBKS,9,1,211,8.39,0
 DR Mousley,LSG,10,1,222,9.73,0
 Atharva Ankolekar,RR,10,1,224,10.69,0
+CV Varun,PBKS,10,1,228,9.37,0
 Fazalhaq Farooqi,GT,10,1,228,9.71,0
-JJ Smit,PBKS,13,1,291,8.99,0
-Shashank Singh,PBKS,16,1,360,10.48,0
+R Ngarava,PBKS,10,1,235,8.96,0
+Shashank Singh,PBKS,17,1,384,11.0,0
