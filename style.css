@@ -1046,3 +1046,222 @@ th .num-range > input {
   border: 1px solid #555;
 }
 
+
+
+/* ===================================== */
+/* SKILL RATINGS — CRICKET ANALYTICS UI  */
+/* ===================================== */
+
+#skill {
+  background-color: #E8E0CD;
+  padding: 20px;
+  min-height: 600px;
+  border-radius: 8px;
+  color: #243B30;
+}
+
+/* Heading */
+#skill h2 {
+  color: #183B32;
+  font-size: 25px;
+  letter-spacing: 1px;
+  border-bottom: 2px solid #B69A62;
+  padding-bottom: 10px;
+  margin-bottom: 18px;
+}
+
+/* Search */
+#skillSearch {
+  padding: 10px 14px;
+  width: 280px;
+  max-width: 100%;
+  font-size: 14px;
+  margin: 8px 0 16px;
+  border: 1px solid #A9B5A3;
+  border-radius: 7px;
+  background: #FFFDF7;
+  color: #243B30;
+  outline: none;
+  transition: 0.25s ease;
+}
+
+#skillSearch:focus {
+  border-color: #315B46;
+  box-shadow: 0 0 6px rgba(49, 91, 70, 0.25);
+}
+
+/* Batting / Bowling subtabs */
+#skill-subtabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 0;
+}
+
+#skill-subtabs button {
+  padding: 10px 24px;
+  border: 1px solid #315B46;
+  background: #D8DDCE;
+  color: #31513E;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 7px 7px 0 0;
+  transition: 0.25s ease;
+}
+
+#skill-subtabs button:hover {
+  background: #C2D0BD;
+}
+
+#skill-subtabs button.active {
+  background: #244B39;
+  color: #FFF8E8;
+  border-color: #244B39;
+}
+
+/* Table container */
+#skill-table-container {
+  background: #F5F0E4;
+  padding: 14px;
+  border: 1px solid #C9C0AB;
+  border-radius: 0 8px 8px 8px;
+  overflow-x: auto;
+  box-shadow: 0 4px 12px rgba(40, 55, 42, 0.08);
+}
+
+/* Table */
+#skill-table-container table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: #FFFDF7;
+  border-radius: 7px;
+  overflow: hidden;
+}
+
+/* Table headers */
+#skill-table-container th {
+  background: #315442;
+  color: #FFF8E8;
+  padding: 12px 14px !important;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border: none !important;
+  border-bottom: 2px solid #B69A62 !important;
+  white-space: nowrap;
+  position: sticky;
+  top: 0;
+}
+
+#skill-table-container th:hover {
+  background: #456D55;
+}
+
+/* Table cells */
+#skill-table-container td {
+  padding: 11px 14px !important;
+  font-size: 13px;
+  color: #35463A;
+  border: none !important;
+  border-bottom: 1px solid #E5E0D4 !important;
+  white-space: nowrap;
+}
+
+/* Alternating rows */
+#skill-table-container tbody tr:nth-child(even) {
+  background: #F0EBDD;
+}
+
+#skill-table-container tbody tr:nth-child(odd) {
+  background: #FFFDF7;
+}
+
+/* Player name */
+#skill-table-container td:first-child {
+  font-weight: 700;
+  color: #244B39;
+}
+
+/* Hover */
+#skill-table-container tbody tr:hover {
+  background: #E3E9D9;
+}
+
+/* Rating column — assumes rating is the last column */
+#skill-table-container td:last-child {
+  font-weight: 800;
+  font-size: 15px;
+  text-align: center;
+  color: #244B39;
+}
+
+/* Column filter inputs */
+#skill-table-container .col-filter {
+  border: 1px solid #B8C2B1;
+  border-radius: 4px;
+  padding: 4px;
+  background: #FFFDF7;
+}
+
+/* Pagination */
+#skill-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-top: 18px;
+}
+
+#skill-pagination button {
+  padding: 7px 13px;
+  background: #D8DDCE;
+  border: 1px solid #AAB8A3;
+  border-radius: 5px;
+  color: #31513E;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+#skill-pagination button:hover:not(:disabled) {
+  background: #315442;
+  color: white;
+}
+
+#skill-pagination button.active {
+  background: #244B39;
+  color: white;
+  border-color: #244B39;
+}
+
+#skill-pagination button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+
+  #skill {
+      padding: 12px;
+  }
+
+  #skillSearch {
+      width: 100%;
+      box-sizing: border-box;
+  }
+
+  #skill-table-container {
+      padding: 6px;
+  }
+
+  #skill-table-container th,
+  #skill-table-container td {
+      padding: 8px !important;
+      font-size: 11px;
+  }
+
+}
+
