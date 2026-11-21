@@ -841,6 +841,303 @@ function renderStatsTableFromCache(cacheKey, searchTerm = "", page = 1) {
 }
 
 
+// --- Skill Ratings Tab ---
+
+const skillCsvBase = "https://raw.githubusercontent.com/RoumyaDas/SPL/main/SPL/data/skill_ratings/";
+
+const skillFiles = {
+  "bat": "Batting",
+  "bowl": "Bowling"
+};
+
+let skillCsvData = {};
+let skillTabInitialized = false;
+
+let skillSortConfig = {
+  tabKey: "",
+  column: null,
+  order: "asc"
+};
+
+function initSkillTab() {
+
+  if (skillTabInitialized) return;
+  skillTabInitialized = true;
+
+  const subtabs = document.getElementById("skill-subtabs");
+  const searchInput = document.getElementById("skillSearch");
+
+  // Create subtabs
+  Object.entries(skillFiles).forEach(([tabKey, displayName], i) => {
+
+    const button = document.createElement("button");
+    button.textContent = displayName;
+    button.dataset.tabkey = tabKey;
+
+    button.addEventListener("click", () => {
+
+      document.querySelectorAll("#skill-subtabs button")
+        .forEach(b => b.classList.remove("active"));
+
+      button.classList.add("active");
+
+      renderSkillTable(
+        tabKey,
+        searchInput.value,
+        1
+      );
+
+    });
+
+    subtabs.appendChild(button);
+
+  });
+
+  // Search functionality
+  searchInput.addEventListener("input", () => {
+
+    const activeTab = document.querySelector("#skill-subtabs button.active");
+    const tabKey = activeTab?.dataset.tabkey;
+
+    if (tabKey) {
+      renderSkillTable(tabKey, searchInput.value, 1);
+    }
+
+  });
+
+  // Load default tab
+  const firstTab = document.querySelector("#skill-subtabs button");
+
+  if (firstTab) {
+    firstTab.classList.add("active");
+    renderSkillTable(firstTab.dataset.tabkey);
+  }
+
+}
+
+
+function renderSkillTable(tabKey, searchTerm = "", page = 1) {
+
+  const container = document.getElementById("skill-table-container");
+  const pagination = document.getElementById("skill-pagination");
+
+  container.innerHTML = "Loading...";
+  pagination.innerHTML = "";
+
+  // Check cache
+  if (skillCsvData[tabKey]) {
+    renderSkillTableFromCache(tabKey, searchTerm, page);
+    return;
+  }
+
+  // Fetch CSV
+  const url = `${skillCsvBase}${tabKey}.csv`;
+
+  fetch(url)
+    .then(res => {
+      if (!res.ok) throw new Error("File not found");
+      return res.text();
+    })
+    .then(text => {
+
+      skillCsvData[tabKey] = parseCSV(text);
+
+      renderSkillTableFromCache(tabKey, searchTerm, page);
+
+    })
+    .catch(err => {
+
+      container.innerHTML = `<p>Error loading ${skillFiles[tabKey]} ratings: ${err.message}</p>`;
+
+    });
+
+}
+
+
+function renderSkillTableFromCache(tabKey, searchTerm = "", page = 1) {
+
+  const container = document.getElementById("skill-table-container");
+  const pagination = document.getElementById("skill-pagination");
+
+  container.innerHTML = "";
+  pagination.innerHTML = "";
+
+  const { headers, rows } = skillCsvData[tabKey] || {};
+
+  if (!headers || !rows) {
+    container.innerHTML = "<p>No data loaded.</p>";
+    return;
+  }
+
+  // Infer column types
+  const types = inferTypes(rows, headers, false);
+
+  const stateKey = `skill:${tabKey}`;
+
+  // Global search
+  let filteredRows = rows.filter(row =>
+    !searchTerm ||
+    headers.some(h =>
+      String(row[h] ?? "").toLowerCase().includes(searchTerm.toLowerCase())
+    )
+  );
+
+  // Column-level filters
+  filteredRows = applyFilters(
+    filteredRows,
+    headers,
+    types,
+    columnFilterState[stateKey],
+    false
+  );
+
+  // Sorting
+  if (skillSortConfig.tabKey === tabKey && skillSortConfig.column !== null) {
+
+    const h = headers[skillSortConfig.column];
+    const order = skillSortConfig.order;
+
+    filteredRows.sort((a, b) => {
+
+      const aVal = a[h] ?? "";
+      const bVal = b[h] ?? "";
+
+      const numA = toNumber(aVal);
+      const numB = toNumber(bVal);
+
+      if (numA !== null && numB !== null) {
+        return order === "asc" ? numA - numB : numB - numA;
+      }
+
+      return order === "asc"
+        ? String(aVal).localeCompare(String(bVal))
+        : String(bVal).localeCompare(String(aVal));
+
+    });
+
+  }
+
+  // Create table
+  const table = document.createElement("table");
+  table.style.width = "100%";
+  table.style.borderCollapse = "collapse";
+
+  const thead = document.createElement("thead");
+  const headRow = document.createElement("tr");
+
+  headers.forEach((h, idx) => {
+
+    const th = document.createElement("th");
+
+    th.textContent = h;
+    th.style.cursor = "pointer";
+    th.style.border = "1px solid #ccc";
+    th.style.padding = "4px";
+
+    if (
+      skillSortConfig.tabKey === tabKey &&
+      skillSortConfig.column === idx
+    ) {
+      th.textContent += skillSortConfig.order === "asc" ? " ▲" : " ▼";
+    }
+
+    th.addEventListener("click", () => {
+
+      if (
+        skillSortConfig.tabKey === tabKey &&
+        skillSortConfig.column === idx
+      ) {
+
+        skillSortConfig.order =
+          skillSortConfig.order === "asc" ? "desc" : "asc";
+
+      } else {
+
+        skillSortConfig = {
+          tabKey,
+          column: idx,
+          order: "asc"
+        };
+
+      }
+
+      renderSkillTableFromCache(tabKey, searchTerm, 1);
+
+    });
+
+    headRow.appendChild(th);
+
+  });
+
+  thead.appendChild(headRow);
+
+  // Column filters
+  buildFilterRow(
+    thead,
+    headers,
+    types,
+    stateKey,
+    () => renderSkillTableFromCache(tabKey, searchTerm, 1)
+  );
+
+  table.appendChild(thead);
+
+  // Pagination
+  const rowsPerPage = 20;
+  const totalPages = Math.ceil(filteredRows.length / rowsPerPage);
+
+  page = Math.min(page, Math.max(totalPages, 1));
+
+  const start = (page - 1) * rowsPerPage;
+  const currentRows = filteredRows.slice(start, start + rowsPerPage);
+
+  // Table body
+  const tbody = document.createElement("tbody");
+
+  currentRows.forEach(row => {
+
+    const tr = document.createElement("tr");
+
+    headers.forEach(h => {
+
+      const td = document.createElement("td");
+
+      td.textContent = row[h];
+      td.style.border = "1px solid #ccc";
+      td.style.padding = "4px";
+
+      tr.appendChild(td);
+
+    });
+
+    tbody.appendChild(tr);
+
+  });
+
+  table.appendChild(tbody);
+  container.appendChild(table);
+
+  // Pagination controls
+  pagination.innerHTML = renderPagination(
+    filteredRows.length,
+    rowsPerPage,
+    page
+  );
+
+  pagination.querySelectorAll("button").forEach(btn => {
+
+    btn.addEventListener("click", () => {
+
+      const newPage = parseInt(btn.dataset.page);
+
+      renderSkillTableFromCache(tabKey, searchTerm, newPage);
+
+    });
+
+  });
+
+}
+
 // Initialize when DOM is loaded
 // document.addEventListener("DOMContentLoaded", initStatsTab);
 
@@ -1325,6 +1622,11 @@ document.querySelectorAll(".main-tab").forEach(btn => {
     // last 3 seasons
     if (btn.dataset.tab === "last3") {
       initLast3Subtabs();
+    }
+
+    // Skill Ratings
+    if (btn.dataset.tab === "skill") {
+      initSkillTab();
     }    
   });
 });
