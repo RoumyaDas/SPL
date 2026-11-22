@@ -217,7 +217,7 @@ HJ Manenti,DC,147,9,21,12.25,8.0,12.0,RCB
 Karan Lal,RCB,163,9,31,10.19,10.67,16.0,RR
 Rasikh Salam,PBKS,135,8,36,8.44,12.0,16.0,SRH
 M Pathirana,PBKS,144,8,38,9.19,11.75,15.4,CSK
-Prashant Solanki,PBKS,44,8,20,5.5,6.0,8.0,MI
+Prashant Solanki,PBKS,44,8,20,5.5,6.0,8.0,CSK
 AK Markram,GT,115,8,17,10.78,8.0,10.4,DC
 H Ssenyondo,GT,85,8,22,7.73,8.25,11.0,LSG
 CV Varun,SRH,259,8,40,9.59,20.25,27.0,PBKS
@@ -395,7 +395,7 @@ Shubhang Hegde,LSG,280,6,41,10.0,28.0,28.0,LSG
 SH Johnson,RR,204,6,24,12.0,17.0,17.0,
 Rasikh Salam,LSG,130,6,14,10.83,12.0,12.0,SRH
 Shashank Singh,RR,172,6,23,12.29,14.0,14.0,PBKS
-Prashant Solanki,MI,79,6,25,7.18,11.0,11.0,MI
+Prashant Solanki,MI,79,6,25,7.18,11.0,11.0,CSK
 A Nagwaswalla,LSG,44,6,26,5.5,8.0,8.0,RR
 Rasikh Salam,SRH_2,129,6,16,11.73,11.0,11.0,SRH
 A Zampa,GT,193,6,23,10.16,19.0,19.0,SRH
@@ -760,7 +760,7 @@ M Prasidh Krishna,SRH,137,3,13,11.42,24.0,12.0,KKR
 Parth Chandan,CSK,53,3,17,8.83,12.0,6.0,DC
 Shivam Shukla,GT,78,3,19,9.75,16.0,8.0,MI
 Parvej Musaraf,GT,37,3,8,9.25,8.0,4.0,
-Prashant Solanki,CSK,83,3,10,8.3,20.0,10.0,MI
+Prashant Solanki,CSK,83,3,10,8.3,20.0,10.0,CSK
 Jagjit Singh,KKR,41,3,11,10.25,8.0,4.0,
 Jagjit Singh,RR,79,3,14,11.29,14.0,7.0,
 Junaid Siddique,RR,127,3,26,10.58,24.0,12.0,RR
@@ -1265,7 +1265,7 @@ Sami Sohail,KKR,31,1,7,7.75,24.0,4.0,
 B Kumar,GT,158,1,22,10.9,87.0,14.3,KKR
 Shashank Singh,SRH,264,1,41,10.15,156.0,26.0,PBKS
 AM Hardie,KKR,30,1,10,7.5,24.0,4.0,
-Prashant Solanki,LSG,49,1,5,12.25,24.0,4.0,MI
+Prashant Solanki,LSG,49,1,5,12.25,24.0,4.0,CSK
 Abdul Samad,PBKS,69,1,10,9.86,42.0,7.0,KKR
 Akash Deep,RCB,29,1,7,7.25,24.0,4.0,
 Rashid Khan,MI,77,1,13,9.62,48.0,8.0,
@@ -1998,8 +1998,8 @@ Sakibul Gani,PBKS,42,0,3,14.0,inf,3.0,RR
 R Ashwin,MI,94,0,19,9.4,inf,10.0,PBKS
 Parvej Musaraf,MI,26,0,4,13.0,inf,2.0,
 Parvej Musaraf,RR,22,0,4,11.0,inf,2.0,
-Prashant Solanki,RCB,28,0,5,7.0,inf,4.0,MI
-Prashant Solanki,RR,34,0,3,8.5,inf,4.0,MI
+Prashant Solanki,RCB,28,0,5,7.0,inf,4.0,CSK
+Prashant Solanki,RR,34,0,3,8.5,inf,4.0,CSK
 Praveen Dubey,KKR,42,0,5,10.5,inf,4.0,MI
 Praveen Dubey,SRH,9,0,2,9.0,inf,1.0,MI
 Prince Yadav,KKR,72,0,6,12.0,inf,6.0,GT
